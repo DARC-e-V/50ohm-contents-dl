@@ -1,0 +1,3 @@
+Dieser Alt-Text wurde noch nicht überprüft.
+
+Blockdiagramm eines Empfangsgeräts. Oben links befindet sich eine Antenne, gefolgt von einem "1. Filter" mit der Beschriftung "436–440 MHz". Es folgt ein Block mit der Bezeichnung "HF" und danach ein "Mischer". Vom Mischer führt ein Pfeil zum "2. Filter", der mit "28–30 MHz" beschriftet ist, und endet bei "RX". Unterhalb des Mischers ist ein Pfeil beschriftet mit "fosz", der zu einem Block mit "f 9f" führt. Darunter befindet sich "CO", ein weiterer Filter, und Schalter mit zwei Kondensatoren.

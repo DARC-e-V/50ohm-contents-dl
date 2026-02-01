@@ -1,0 +1,3 @@
+Dieser Alt-Text wurde noch nicht überprüft.
+
+Diagramm eines Blockschaltplans mit einer Antenne links, gefolgt von einem Kasten mit "HF" beschriftet. Rechts davon sind mehrere hintereinandergeschaltete Blöcke mit Verbindungen und Beschriftungen: "3–30 MHz", "50 MHz", "1. ZF", "9 MHz", "2. ZF" und "455 kHz". Es gibt Pfeile, die die Signalflussrichtung anzeigen. Zusätzliche Kästen beschriftet mit "VFO", "G 41 MHz" und "G 9,455 MHz" sind mit einigen Blöcken verbunden.

@@ -1,0 +1,19 @@
+% Author: Dr. Matthias Jung, DL9MJ
+% Year: 2022
+\begin{circuitikz}
+    %\tikzstyle{help lines}=[blue!50];
+    %\draw[style=help lines] (-6,-4) grid (16,4);
+    \draw(0,3)
+        node[anchor=east](){TRX}
+        to [short,o-*] ++(1,0) coordinate(c1)
+        to [american inductor, -*] ++(2,0) coordinate(c2)
+        to [short,-o] ++(1,0)
+        node[anchor=west](){ANT};
+    \draw(c1)
+        to [vC, tunable start arrow={Triangle[angle=60:6pt]}, tunable end arrow={}] ++(0,-3)
+        to [short,-*] ++(1,0);
+    \draw(c2)
+        to [vC, tunable start arrow={Triangle[angle=60:6pt]}, tunable end arrow={}] ++(0,-3)
+        to [short] ++(-1,0)
+        node[ground]{};
+\end{circuitikz}

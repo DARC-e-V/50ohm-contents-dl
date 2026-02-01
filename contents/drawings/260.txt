@@ -1,0 +1,3 @@
+Dieser Alt-Text wurde noch nicht überprüft.
+
+Ein Schaltplan zeigt eine Anordnung elektrischer Bauteile. Links verläuft eine Leitung mit 50 Ohm, gefolgt von einer Spule, die als MWS beschriftet ist. Eine weitere Spule und ein Kondensator sind parallel angeordnet. Rechts ist eine größere Spule abgebildet, deren Umwicklungsverhältnis mit "ü = 1 : 7" angegeben ist. Darüber steht ein Abstand, der mit "0,05·λ" markiert ist. Oben ist ein Pfeil mit der Beschriftung "≈ λ/2" dargestellt, der sich über der großen Spule erstreckt.

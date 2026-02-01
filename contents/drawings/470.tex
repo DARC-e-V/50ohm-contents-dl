@@ -1,0 +1,90 @@
+% Author: Dr. Matthias Jung, DL9MJ
+% Year: 2020
+\begin{circuitikz}
+    \ctikzset{
+        blocks/scale=\getDarcImageFactor,
+        RF/scale=\getDarcImageFactor
+    }
+    \draw(0,0)
+        node[twoportshape, t={PC}](pc){};
+
+    \draw(pc.east)
+        node[inputarrow, rotate=180](){}
+        to [short] ++(1,0)
+        node[twoportshape, t={SDR}, anchor=west](sdr){}
+        node[inputarrow](){};
+
+    \draw(sdr.right up) 
+        node[inputarrow, rotate=180](){}
+        to [short] ++(0.35,0)
+        to [short] ++(0,1.25)
+        to [short] ++(0.9,0)
+        node[biastshape, box, anchor=west](bias){};
+
+    \draw(bias.east)
+        node[inputarrow, rotate=180](){}
+        to [short] ++(1,0)
+        node[twoportshape, t={LNB}, box, anchor=west](lnb){};
+
+    \draw(lnb.east)
+        to [short] ++(1,0)
+        to [short] ++(0,1)
+        node[bareantenna, xscale=-1](rx){};
+    \draw(rx.top)
+        node[anchor=south](){\qty{10}{\giga\hertz}};
+
+    \draw(sdr.right down) 
+        to [short] ++(0.35,0)
+        to [short] ++(0,-1.25)
+        to [short, name={h1}] ++(0.9,0)
+        node[inputarrow](){}
+        node[ampshape, box, anchor=west](preamp){};
+
+    \draw(preamp.east)
+        to [short, name={h2}] ++(1,0)
+        node[inputarrow](){}
+        node[ampshape, box, anchor=west](amp){};
+
+    \draw(amp.east)
+        to [short, name={h3}] ++(1,0)
+        to [short] ++(0,1)
+        node[bareantenna](tx){};
+    \draw(tx.top)
+        node[anchor=south](){\qty{2,4}{\giga\hertz}};
+
+    \draw(sdr.north)
+        node[inputarrow, rotate=-90](){}
+        to [short] ++(0,2) coordinate(t1)
+        node [qgeneratorshape, anchor=south, t={G}](gen1){};
+
+    \draw(bias.north)
+        node[inputarrow, rotate=-90](){} coordinate(t2)
+        to [short] (t2|-t1)
+        node [twoportshape, anchor=south, t={DC}](dc){};
+
+    \draw(lnb.north)
+        node[inputarrow, rotate=-90](){} coordinate(t3)
+        to [short] (t3|-t1)
+        node [qgeneratorshape, anchor=south, t={G}](gen2){};
+
+    \draw[dashed](sdr.south)
+        to [short, name={h0}] ++(0,-3) coordinate(b1);
+    \draw[dashed](b1)
+        -| (preamp.south)
+        node[inputarrow, rotate=90](){};
+    \draw[dashed](b1-|preamp.south)
+        -| (amp.south)
+        node[inputarrow, rotate=90](){};
+
+    % Labels:
+    \draw(gen1.north) node[anchor=south](){TXCO};
+    \draw(gen2.north) node[anchor=south](){TXCO};
+    \draw(h0.center)  node[anchor=east] (){PTT};
+    \draw(dc.north)   node[anchor=south](){\qty{12}{\volt}};
+    \draw(h1.center)  node[anchor=west, rotate=+90](){\footnotesize\qty{-5}{dBm}};
+    \draw(h2.center)  node[anchor=west, rotate=+90](){\footnotesize\qty{16}{dBm}};
+    \draw(h3.center)  node[anchor=west, rotate=+90](){\footnotesize\qty{43}{dBm}};
+    \draw(h1.center)  node[anchor=east, rotate=+90](){\footnotesize\qty{0,3}{\milli\watt}};
+    \draw(h2.center)  node[anchor=east, rotate=+90](){\footnotesize\qty{40}{\milli\watt}};
+    \draw(h3.center)  node[anchor=east, rotate=+90](){\footnotesize\qty{20}{\watt}};
+\end{circuitikz}

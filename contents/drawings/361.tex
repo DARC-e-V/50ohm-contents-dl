@@ -1,0 +1,30 @@
+% Author: Stephan Kregel, DG1HXJ
+% Year: 2021
+% TC619, TC619A
+
+
+
+
+
+
+
+
+
+	\begin{circuitikz}[european]
+        \draw (-1,-0.5) to [C,l=$C_1$,o-] (1,-0.5);
+		\draw (5,-3) node[anchor=west]{$-$} to [short,o-] (3,-3);
+		\draw (3,-0.5) node[npn, tr circle](Q){} ;
+        \draw (1,-0.5) to [short, i=$I_\mathrm{B}$] (Q.B);
+        \draw (3,3) [R,l=$R_\mathrm{C}$, i_=$I_\mathrm{C}$] to (3,0.5);
+		\draw (3,3) [short, *-o] to (5,3);
+		\draw (5,3) node[anchor=west]{$+$};
+        \draw (3,1) to [short](Q.C);
+        \draw (3,0.5) to [C,l_=$C_2$,*-o] (5,0.5); %
+		\draw (4,-3) node[rground]{} to [open,*-*] (3,-3); %
+		\draw (-1,-3) to [short,o-*] (3,-3);
+		\draw (Q.E) to [short] (3,-3);
+		\draw (0,2) node[rground]{} to [C] (0,3);
+		\draw (0,3) -- (3,3);
+        \draw (1,-0.5) to [R,l_=$R_1$,*-*] (1,3);
+		\draw (1,-0.5) to [R,l_=$R_2$,*-*, v^=$\SI{0,6}{\V}$, voltage=straight] (1,-3);
+	\end{circuitikz}

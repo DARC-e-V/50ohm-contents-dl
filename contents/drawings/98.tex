@@ -1,0 +1,60 @@
+% Author: Dr. Matthias Jung, DL9MJ
+% Year: 2020
+\begin{circuitikz}
+    \ctikzset{
+        blocks/scale=\getDarcImageFactor,
+        RF/scale=\getDarcImageFactor
+    }
+    \draw(0,0) 
+        to [amp, box, name={amp1}, o-, >] ++(2,0)
+        node [inputarrow](){}
+        node[mixer, box, anchor=west](mix1){};
+
+    \draw(mix1.east)
+        to [twoport, t={\large ?}, >] ++(2,0)
+        node [inputarrow](){}
+        node[mixer, box, anchor=west](mix2){};
+
+    \draw(mix2.east)
+        to [bandpass, >] ++(2,0)
+        node [inputarrow](){}
+        node[ampshape, box, anchor=west](amp2){};
+
+    \draw(amp2.east)
+        to [amp, box, name={amp3}, >] ++(2,0)
+        node [inputarrow](){}
+        node[lowpassshape, box, anchor=west](lp1){};
+
+    \draw(lp1.east)
+        to [short] ++(0.5,0)
+        node[antenna](ant){};
+
+    \draw(mix1.south)
+        node[inputarrow, rotate=90](){}
+        to [short] ++(0,-1)
+        node[qgeneratorshape, t={G}, anchor=north](gen1){};
+
+    \draw(mix2.south)
+        node[inputarrow, rotate=90](){}
+        to [short] ++(0,-1)
+        node[vallpassshape, t={G}, anchor=north](gen2){};
+
+    \draw(amp3.south)
+        to [short] ++(0,-1)
+        node[inputarrow, rotate=-90](){}
+        node[twoportshape, t={\footnotesize ALC}, anchor=north](alc){};
+
+    \draw(alc.west)
+        -| (amp2.south)
+        node[inputarrow, rotate=90](){};
+
+    % Labels:
+    \draw(amp1.south) node[anchor=north](){NF};
+    \draw(gen1.east)  node[anchor=west](){CO};
+    \draw(gen2.east)  node[anchor=west](){VFO};
+    \draw(amp3.north) node[anchor=south](){\footnotesize PA};
+    \draw(amp2.north) node[anchor=south](){\footnotesize Treiber};
+    \draw(mix2.north) node[anchor=south](){\footnotesize Mischer};
+    \draw(mix1.north) node[anchor=south](h1){\footnotesize modulator};
+    \draw(h1.north)   node[anchor=south](){\footnotesize Balance-};
+\end{circuitikz}

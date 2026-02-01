@@ -1,0 +1,3 @@
+Dieser Alt-Text wurde noch nicht überprüft.
+
+Schaltplan mit einem Transistor in der Mitte, markiert mit einem Pfeil für den Strom IC. Links davon befinden sich zwei vertikale Widerstände, R1 und R2, sowie ein horizontaler Kondensator C1. Rechts oben vom Transistor ist ein weiterer Widerstand RC und rechts daneben ein Kondensator C2. Eine Spannungsquelle ist oben links eingezeichnet und zeigt positive und negative Anschlüsse. Ein Pfeil zeigt 0,6 V an einem Punkt zwischen R2 und dem Transistor.

@@ -1,0 +1,3 @@
+Dieser Alt-Text wurde noch nicht überprüft.
+
+Das Bild zeigt zwei Diagramme. Das obere Diagramm hat die Achsenbeschriftungen \( U_{HF} \) und \( f \) mit der Markierung \( f_{T} \) auf der Frequenzachse. Rechtecke in drei Farben (zwei grüne und ein blaues) sind symmetrisch um \( f_{T} \) angeordnet. Darüber befinden sich Markierungen und Bezeichnungen: \( f_{mod \, max} \) und \( \Delta f \). Das untere Diagramm zeigt eine Achse mit den Bezeichnungen \( U_{NF} \) und \( t \) und eine blaue Wellenlinie, die vertikal verläuft.

@@ -1,0 +1,39 @@
+% Dr. Matthias Jung
+% 2022
+\begin{circuitikz}[european]
+    \ctikzset{
+        resistors/scale=\getDarcImageFactor,
+        capacitors/scale=\getDarcImageFactor,
+        diodes/scale=\getDarcImageFactor,
+    }
+    
+    \draw(0,3) node [bnc](B1){}
+        to [short,-*] ++(0.5,0) coordinate(c1)
+        to [short,-*] ++(1.5,0) coordinate(c2)
+        to [short,-*] ++(1,0)   coordinate(c3)
+        to [stroke diode] ++(1.5,1.5)
+        to [short,-*] ++(1.5,0) coordinate(c4)
+        to [short,-*] ++(1,0)   coordinate(c5)
+        to [short,-o] ++(1,0)   coordinate(end);
+
+    \draw (c3) 
+        to [stroke diode, invert, -*] ++(1.5,-1.5) coordinate(i1)
+        to [short,-*] ++(2.5,0)   coordinate(i2)
+        to [short,-o] ++(1,0);
+        
+    \draw(B1.shield) |- (0,-1)
+        to [short,-*] (0.5,-1)   coordinate(d1)
+        to [short,-*] ++(1.5,0) coordinate(d2)
+        to [short,-*] ++(2.5,0) coordinate(d3) node[rground](gnd){}
+        to [short] ++(1.5,0) coordinate(h1)
+        to [C,l_={47 nF}] (h1|-i1)
+        to [short] (c4);
+
+    \draw(c1) to [R, l ={\qty{56 }{\ohm}}] (d1);
+    \draw(c2) to [R, l ={\qty{470}{\ohm}}] (d2);
+    \draw(i2) to [R, l_={\qty{100}{\kilo\ohm}}] (c5);
+    \draw(i1) to [C, l_={\qty{47 }{\nano\farad}}] (gnd);
+    \draw(B1.north) node[anchor=south]{E};
+    \draw(end) node[anchor=south]{A};
+
+\end{circuitikz}

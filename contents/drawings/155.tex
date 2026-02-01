@@ -1,0 +1,65 @@
+% Author: Prof. Dr. Matthias Jung
+% Year: 2023
+\begin{circuitikz}
+    \ctikzset{
+        resistors/scale=\getDarcImageFactor,
+        capacitors/scale=\getDarcImageFactor,
+        inductors/scale=\getDarcImageFactor,
+        diodes/scale=\getDarcImageFactor,
+        transistors/scale=\getDarcImageFactor,
+    }
+
+    % Unten:
+    \draw(0,0) coordinate(u0)
+        to [short, o-*] ++(2,0) coordinate(u1)
+        to [short,  -*] ++(2,0) coordinate(u2)
+        to [short,  -*] ++(1,0) coordinate(u3)
+        to [short,  -*] ++(1,0) coordinate(u4)
+        to [short,  -*] ++(2,0) coordinate(u5)
+        to [short,  -o] ++(4,0) coordinate(u7)
+        node [anchor=north](){--};
+    % Mitte:
+    \draw(u0)
+        to [open, name={h1}] ++(0,4) coordinate(o0)
+        to [european resistor, o-*] ++(2,0) coordinate(o1)
+        to [C, -*] ++(2,0) coordinate(o2)
+        to [short, -*] ++(1,0) coordinate(o3)
+        to [short, -*] ++(1,0) coordinate(o4)
+        to [C, -*] ++(2,0) coordinate(o5)
+        to [short] ++(1,0)
+        node [npn, tr circle, anchor=B](T){};
+    % Oben:
+    \draw(o5)
+        to [european resistor, -*] ++(0,2) coordinate(g1)
+        to [short, -*] (g1-|T.C) coordinate(g2)
+        to [short] (T.C);
+    \draw(g1)
+        to [short] ++(-2,0)
+        to [C] ++(0,-1)
+        node[rground](){};
+    \draw(g2)
+        to [european resistor, -o] (g2-|u7)
+        node [anchor=south](){+};
+
+    % Füllung:
+    \draw(o1) to [stroke diode, invert, name={D}] (u1);
+    \draw(o2) to [american inductor]              (u2);
+    \draw(o3) to [C]                              (u3);
+    \draw(o4)
+        to [C, -*] ++(0,-2) coordinate(h2)
+        to [C] (u4);
+    \draw(o5)
+        to [short] ++(0,-2)
+        to [european resistor] (u5);
+    \draw(h2)
+        to [short, -*] (h2-|T.E) coordinate(h3)
+        to [short] (T.E);
+    \draw(h3)
+        to [short, -*] (h3|-u7)
+        node[rground](){};
+    \draw(h3) to [C, -o] (h3-|u7);
+
+    % Labels:
+    \draw (D.north west) ++(0.25,0) to [C, /tikz/circuitikz/bipoles/length=0.4cm] ($(D.north east)+(0.25,0)$);
+    \draw(h1.center) node[rotate=90](){NF/BB};
+\end{circuitikz}

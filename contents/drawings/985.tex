@@ -1,0 +1,29 @@
+% Author: Stephan Kregel, DG1HXJ
+% Year: 2022
+% Update: 2025 Lars Weiler, DC4LW
+% Derived from picture 490 without graph
+\begin{circuitikz}[step=\getDarcImageFactor cm]
+    \ctikzset{
+        resistors/scale=\getDarcImageFactor,
+        capacitors/scale=\getDarcImageFactor,
+        transistors/scale=\getDarcImageFactor,
+        diodes/scale=\getDarcImageFactor,
+    }
+
+
+    \coordinate(init) at (0,0);
+    \draw (init) ++(3,0) node[npn, name=T1, tr circle, rotate=90] {} ++(0,0);
+    \draw (init) node[ocirc, name=in1]{} ++(0,0) -- ++(1,0) coordinate(r1a)
+    to [R={\qty{470}{\ohm}}, *-*] ++(0,-2) coordinate(r1b) 
+    to [zD-,l=\qty{5,6}{\V}, -*, invert] ++(0,-2) coordinate(zdb);		;
+    \draw (init)++(0,-4) node[ocirc, name=ingnd]{} ++(0,0) -- (zdb);
+    \draw (r1a) -- (T1.C);
+    \draw (zdb) -- ++(2,0) coordinate(c1a) to [eC, l_=\qty{47}{\micro\F}, invert, *-*] ++(0,2) coordinate(c1b) -- (T1.B);
+    \draw (r1b) -- (c1b);
+    \draw (c1a) -- ++(2,0) coordinate(r2a) to [R, l_={\qty{1}{\kilo\ohm}}, *-*] ++(0,4) coordinate(r2b) -- (T1.E);
+    \draw (r2a) -- ++(1,0) to node[ocirc, name=b]{} ++(0,0);
+    \draw (r2b) -- ++(1,0) to node[ocirc, name=a]{} ++(0,0);
+    \draw (b) ++(0.25,0) node[]{$\text{B}$};
+    \draw (a) ++(0.25,0) node[]{$\text{A}$};
+
+\end{circuitikz} 

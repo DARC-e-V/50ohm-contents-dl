@@ -1,0 +1,7 @@
+Dieser Alt-Text wurde noch nicht überprüft.
+
+1) Kurze Zusammenfassung:
+Ein analoges Oszilloskop zeigt auf einem blauen Gitter zwei phasenverschobene Sinuskurven mit den Beschriftungen „U“ und „I“, daneben sind diverse Bedienelemente und ein BNC‑Eingang sichtbar.
+
+2) Detaillierte Beschreibung:
+Das Gerät ist beige/grau, links die rechteckige Bildröhre mit blauem Graticule. Auf dem Schirm verlaufen zwei helle, cyanfarbene Sinuskurven mit gleicher Amplitude; über den Kurven stehen die Buchstaben „U“ (links) und „I“ (rechts). Eine schwarze horizontale Linie mit Pfeil nach rechts trägt die Beschriftung „t“. Unterhalb des Bildschirms steht in kleiner Schrift „U eilt I um 90 Grad voraus!“. Rechts neben dem Schirm befindet sich ein Bedienfeld mit Drehknöpfen, Schaltern und Tastern; gut lesbar sind u. a. „Y-POS. I“, „CH.1“ mit einem Kippschalter „AC / GD / DC“, sowie unten ein Anschlussfeld „INPUT 1 MΩ 25 pF“ mit BNC-Buchse. Unter dem Schirm sind weitere Regler mit Beschriftungen wie „FOCUS“, „INTEN“, „CAL 0.2V / 2V“ und ein Bereich „COMPONENT TESTER“. Die Front enthält mehrere Skalenringe, Kippschalter und farbige Tasten, insgesamt deutet alles auf ein klassisches, analoges Messgerät.

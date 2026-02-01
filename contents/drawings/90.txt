@@ -1,0 +1,3 @@
+Dieser Alt-Text wurde noch nicht überprüft.
+
+Blockdiagramm eines Empfängers. Links ist eine Antenne abgebildet, gefolgt von einem Block mit der Beschriftung „HF“ und „3-30 MHz“. Danach folgen Blöcke mit Beschriftungen „1.ZF 50 MHz“ und „2.ZF 9 MHz“, jeweils mit Kreisen und Pfeilen, die auf Mischvorgänge hindeuten. Weiter rechts ist ein Block mit der Beschriftung „NF 455 kHz“. Unterhalb des Hauptpfades befinden sich drei Kästchen mit den Bezeichnungen „VFO“, „G CO1“ und „G CO2“, verbunden durch Pfeile zu den zentralen Blöcken.

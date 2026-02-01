@@ -1,0 +1,47 @@
+% Author: Dr. Matthias Jung, DL9MJ
+% Year: 2020
+\begin{circuitikz}
+    \ctikzset{
+        blocks/scale=\getDarcImageFactor,
+        RF/scale=\getDarcImageFactor,
+        misc/scale=\getDarcImageFactor
+    }
+    \draw(0,0)
+        node[antenna]{}
+        to [short] ++(0.5,0)
+        node [inputarrow](){}
+        node [bandpassshape, anchor=west](bp1){};
+    \draw(bp1.east)
+        to [amp, box, >, name=amp] ++(3,0)
+        node [mixer, box, anchor=west](mix){};
+    \draw(mix.east)
+        to [bandpass, >, -o, name=bp2] ++(3,0)
+        node [anchor=south](rx){RX};
+    \draw(mix.south)
+        node[inputarrow, rotate=90]{}
+        to [short, name={h1}] ++(0,-1)
+        node [twoportsplitshape, t1={f}, t2={9f}, anchor=north](f9f){};
+    \draw(f9f.west-|amp.south)
+        node [allpassshape](ap1){};
+    \draw(f9f.west)
+        node [inputarrow](){}
+        to [short] (ap1.east);
+    \draw(ap1.south)
+        node[spdt, rotate=-90, anchor=in](sw){};
+    \draw(sw.out 2)
+        to [short] ++(-0.25,-0.25)
+        to [piezoelectric,/tikz/circuitikz/bipoles/length=0.7cm, >] ++(0,-0.5)
+        node [rground](){};
+    \draw(sw.out 1)
+        to [short] ++(+0.25,-0.25)
+        to [piezoelectric,/tikz/circuitikz/bipoles/length=0.7cm, >] ++(0,-0.5)
+        node [rground](){};
+    \draw(bp1.north) node[anchor=south](){1.\,Filter};
+    \draw(bp1.south) node[anchor=north](){\qty{436}-\qty{440}{\mega\hertz}};
+    \draw(amp.north) node[anchor=south](){HF};
+    \draw(ap1.west)  node[anchor=east](){CO};
+    \draw(mix.north) node[anchor=south](){Mischer};
+    \draw(bp2.north) node[anchor=south](){2.\,Filter};
+    \draw(bp2.south) node[anchor=north](){\qty{28}-\qty{30}{\mega\hertz}};
+    \draw(h1.center) node[anchor=east](){$f_\mathrm{OSZ}$};
+\end{circuitikz}

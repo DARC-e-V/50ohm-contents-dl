@@ -1,0 +1,3 @@
+Dieser Alt-Text wurde noch nicht überprüft.
+
+Der Schaltplan zeigt eine Reihe von Komponenten, darunter Kondensatoren, Dioden und Widerstände. Von links nach rechts ist ein 4,7 nF Kondensator mit der Marke "E" verbunden, gefolgt von zwei Dioden, die in entgegengesetzte Richtungen zeigen. Es folgen drei Kondensatoren, zwei mit 1 nF und einer mit 4,7 nF Kapazität, sowie drei Widerstände mit den Werten 1 kΩ und 100 kΩ. Am rechten Ende befindet sich der Anschluss "A".

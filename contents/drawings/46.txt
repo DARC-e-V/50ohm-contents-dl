@@ -1,0 +1,3 @@
+Dieser Alt-Text wurde noch nicht überprüft.
+
+Ein Schaltplan zeigt eine Parallelschaltung von mehreren vertikalen Kondensatoren. Links oben ist der Strom als 1A angegeben. Links sind 30 Kondensatoren übereinander gestapelt mit der Spannung 0,6V beschriftet. Auf der rechten Seite sieht man ein Rechteck, das einen Widerstand darstellt, und daneben sind die Buchstaben U und I mit einem Pfeil nach unten.

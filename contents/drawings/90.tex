@@ -1,0 +1,49 @@
+% Author: Dr. Matthias Jung, DL9MJ
+% Year: 2020
+\begin{circuitikz}
+    \ctikzset{
+        resistors/scale=\getDarcImageFactor,
+        capacitors/scale=\getDarcImageFactor,
+        inductors/scale=\getDarcImageFactor,
+        blocks/scale=\getDarcImageFactor,
+        RF/scale=\getDarcImageFactor,
+        switches/scale=\getDarcImageFactor,
+        misc/scale=\getDarcImageFactor
+    }
+    \draw(0,0) node[antenna]{}
+        to [bandpass, box, >, l_=HF, name={bp1}] ++ (2,0)
+        node[inputarrow](){}
+        node[mixer, box, anchor=west] (mix1) {};
+    \draw(mix1.east)
+        to [bandpass, box, >, l_=1.ZF, name={bp2}] ++ (2,0)
+        node[inputarrow](){}
+        node[mixer, box, anchor=west] (mix2) {};
+    \draw(mix2.east)
+        to [bandpass, box, >, l_=2.ZF, name={bp3}] ++ (2,0)
+        node[inputarrow](){}
+        node[mixer, box, anchor=west](mix3){};
+    \draw(mix3.east)
+        to [bandpass, box, >, l_=NF, name={bp4}] ++ (2,0)
+        node[inputarrow](){};
+
+    \draw(mix1.south) node[inputarrow, rotate=90] {} 
+        to [short] ++(0,-1)
+        node [vallpassshape, anchor=north](x){};
+
+    \draw(mix2.south) node[inputarrow, rotate=90] {} 
+        to [short] ++(0,-1)
+        node [qgeneratorshape, t={G}, anchor=north](y){};
+
+    \draw(mix3.south) node[inputarrow, rotate=90] {} 
+        to [short] ++(0,-1)
+        node [qgeneratorshape, t={G}, anchor=north](z){};
+
+    \draw(x.east) node[anchor=west](){VFO};
+    \draw(y.east) node[anchor=west](){CO1};
+    \draw(z.east) node[anchor=west](){CO2};
+
+    \draw(bp1.north) node[anchor=west,rotate=90](){\qty{3}-\qty{30}{\mega\hertz}};
+    \draw(bp2.north) node[anchor=west,rotate=90](){\qty{50}{\mega\hertz}};
+    \draw(bp3.north) node[anchor=west,rotate=90](){\qty{9}{\mega\hertz}};
+    \draw(bp4.north) node[anchor=west,rotate=90](){\qty{455}{\kilo\hertz}};
+\end{circuitikz}

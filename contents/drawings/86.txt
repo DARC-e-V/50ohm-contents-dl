@@ -1,0 +1,3 @@
+Dieser Alt-Text wurde noch nicht überprüft.
+
+Ein Blockdiagramm mit mehreren verbundenen Elementen. Links ist eine Antenne, die mit einem "1. Filter" verbunden ist, beschriftet mit "430 - 434 MHz". Danach folgt ein Block "HF", dann ein "Mischer", auf den ein Pfeil mit der Beschriftung "fosz" zeigt. Danach folgt ein "2. Filter", beschriftet mit "28 - 30 MHz", mit dem Ausgang "RX". Unten gibt es einen weiteren Pfad mit einem "CO", das über einen Schalter mit zwei Kondensatoren verbunden ist, und einen Block, der mit "f 9f" beschriftet ist.

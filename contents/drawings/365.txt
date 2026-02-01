@@ -1,0 +1,3 @@
+Dieser Alt-Text wurde noch nicht überprüft.
+
+Ein Schaltplan zeigt eine Schaltung mit einem Transistor, gekennzeichnet durch ein Basissymbol und einen Pfeil im Kreis. Es gibt drei Widerstände, beschriftet als R1, R2 und RC. Zwei Kondensatoren sind in der Schaltung vorhanden, und eine Stromquelle ist durch ein Symbol mit horizontalen Linien dargestellt. Zusätzlich sind Verbindungspunkte durch schwarze Punkte markiert, und der Strom IC ist neben dem Transistor eingezeichnet. Es sind Plus- und Minus-Pol-Anschlüsse zu sehen.

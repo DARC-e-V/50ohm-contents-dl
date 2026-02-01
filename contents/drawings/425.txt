@@ -1,0 +1,3 @@
+Dieser Alt-Text wurde noch nicht überprüft.
+
+Ein Schaltplan zeigt eine Verbindung zwischen zwei Punkten, die mit "TRX" und "ANT" beschriftet sind. In der Mitte des oberen Leitungsabschnitts befindet sich eine Spule. Zwei variable Kondensatoren sind parallel zur Spule geschaltet. Unten ist ein Symbol für Erdung dargestellt.

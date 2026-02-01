@@ -1,0 +1,39 @@
+% Author: Dr. Matthias Jung, DL9MJ
+% Year: 2021
+\begin{circuitikz}
+    \ctikzset{
+        capacitors/scale=\getDarcImageFactor,
+        inductors/scale=\getDarcImageFactor,
+        RF/scale=\getDarcImageFactor,
+    }
+
+    \draw (1.5,2)
+        node[tlineshape, anchor=east](bar){}
+        to [american inductor, inductors/coils=3 , inductors/width=0.60, name={lo}, -*, mirror] ++ (2,0) coordinate(c1)
+        to [short] ++(0.5,0)
+        to [american inductor, inductors/coils=2 , inductors/width=0.45] ++(0,-1) coordinate(x0);
+    \draw [dashed] (bar.west) -- ++(-0.5,0);
+    \draw (c1) to [C, capacitors/scale=0.5, -*, name={h4}] (c1|-x0) coordinate(x2);
+    \draw (bar.bottom right)
+        to [short, *-] (bar.bottom right|-x0) coordinate(x1)
+        to [short] (x1-|bar.east)
+        to [american inductor, inductors/coils=3 , inductors/width=0.60, name={lu}] (x2)
+        to [short] (x0)
+        to [short, name={h1}] ++(0.75,0) coordinate(z)
+        to [american inductor, inductors/coils=14, inductors/width=3.25, *-, name={l2}] ++(0,5) coordinate(feed);
+    \draw[very thick]  (feed) -- ++ (8,0) coordinate(end);
+    \draw[dashed] (l2.core west-|h1.center) coordinate(h2)
+         to [short] (h2|-l2.core east);
+    \draw[dashed] (lo.core west|-h4.center) coordinate(h3)
+         to [short] (h3-|lo.core east);
+
+    \draw[decoration=penciline, decorate, very thick] (z) -- ++(0,-2.5) coordinate(schwanz);
+
+    \DARCmeasure{feed}{end}{0,1}{0}{$\approx\frac{\lambda}{2}$}
+    \DARCmeasure{z}{schwanz}{2,0}{-90}{\rotatebox{90}{$\ge\qty{0,05}\cdot\lambda$}}
+
+    \draw (lu.south) node[anchor=north]{MWS};
+    \draw (bar.north) node[anchor=south]{$\qty{50}{\ohm}$};
+    \draw (l2.south) node[anchor=west]{ü~=~${1}:{7}$};
+
+\end{circuitikz}

@@ -1,0 +1,34 @@
+% Dr. Matthias Jung
+% 2022
+\begin{circuitikz}[european]
+    \ctikzset{
+        resistors/scale=\getDarcImageFactor,
+        capacitors/scale=\getDarcImageFactor,
+        diodes/scale=\getDarcImageFactor,
+    }
+    \draw(0,4) node [bnc](B1){}
+        to [short,-*] ++(1,0) coordinate(c1)
+        to [short,-*] ++(2,0) coordinate(c2)
+        to [short] ++(1,0) 
+        to [R, l={\qty{330}{\ohm}},-*] ++(0,-2) coordinate(c3)
+        to [R, l={\qty{330}{\ohm}},-*] ++(0,-2) coordinate(c4);
+
+    \draw(B1.shield) |- (0,0)
+        to [short,-*] (1,0) coordinate(d1)
+        to [short,-*] ++(2,0) coordinate(d2)
+        to [short,-*] (c4);
+
+    \draw(c3) to [stroke diode,-*] ++(3,0) coordinate(c5)
+              to [short,-o] ++(1.5,0)
+              node[anchor=south](){A};
+
+    \draw(c4) to [short,-*] ++(3,0) coordinate(d5)
+              to [short,-o] ++(1.5,0);
+
+    \draw(c1) to [R, name=r1] (d1);
+    \draw(c2) to [R, name=r2] (d2);
+    \draw(r1.center) to [open, name={h1}] (r2.center);
+    \draw(c5) to [C, l={4,7 nF}] (d5);
+    \draw(h1.center) node[align={center}]{$2 \times$\\\qty{110}{\ohm}\\\qty{0,6}{\watt}};
+    \draw(B1.north) node[anchor=south]{E};
+\end{circuitikz}

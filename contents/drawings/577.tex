@@ -1,0 +1,29 @@
+% Prof. Dr. Matthias Jung
+% 2023
+
+\begin{circuitikz}[european]
+    \draw(0,4) node [bnc](B1){}
+        to [short,-*] ++(1,0) coordinate(c1)
+        to [short] ++(1.5,0) 
+        to [R, l={\qty{330}{\ohm}},-*] ++(0,-2) coordinate(c3)
+        to [R, l={\qty{330}{\ohm}},-*] ++(0,-2) coordinate(c4)    ;
+
+    \draw(B1.shield) |- (0,0)
+        to [short,-*] (1,0) coordinate(d1)
+        to [short,-*] (c4);
+
+    \draw(c3) to [stroke diode,-*] ++(3,0) coordinate(c5)
+              to [short,-*] ++(2,0) coordinate(c7)
+              to [short,-o] ++(1,0) 
+              node[anchor=south](){A};
+
+    \draw(c4) to [short,-*] ++(3,0) coordinate(d5)
+              to [short,-*] ++(2,0) coordinate(d7)
+              to [short,-o] ++(1,0);
+    
+    \draw(c7) to [R,l={\rotatebox[origin=c]{90}{\qty{10}{\kilo\ohm}}}] (d7);
+
+    \draw(c1) to [R, l={$R_1$}] (d1);
+    \draw(c5) to [C, l={\rotatebox[origin=c]{90}{\qty{4,7}{\nano\farad}}}] (d5);
+    \draw(B1.north) node[anchor=south]{E};
+\end{circuitikz}

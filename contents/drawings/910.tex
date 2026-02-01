@@ -1,0 +1,30 @@
+% Author: Prof. Dr. Matthias Jung, DL9MJ
+% Year: 2024
+\begin{circuitikz}
+    \fill[DARCblue!50](2,0) rectangle ++(+0.5,1) coordinate(up);
+    \fill[DARCblue!50](2,0) rectangle ++(-0.5,1) coordinate(down);
+    \fill[DARCgreen!50](1.5,0) rectangle ++(-0.5,1) coordinate(up2);
+    \fill[DARCgreen!50](2.5,0) rectangle ++(+0.5,1) coordinate(down2);
+    %
+    \draw(-0.25,0) -- ++(0.5,0) coordinate(h);
+    \draw[dashed](h) -- ++(0.5,0) coordinate(h);
+    \draw[-Triangle](h) -- ++(3,0) node[anchor=west](){$f$};
+    %
+    \draw[-Triangle](0,-0.25) -- ++(0,2) node[anchor=north east](){$U_\text{HF}$};
+    %
+    \draw[thick](2,0) node[anchor=north](ff){$f_\text{T}$} -- ++(0,1) coordinate(ft);
+    %
+    \DARCmeasure{ft}{up}{0,0.5}{0}   {\rotatebox{90}{\textDelta $f$}}
+    \DARCmeasure{down}{ft}{0,0.5}{0} {\rotatebox{90}{\textDelta $f$}}
+    \DARCmeasure{up2}{down}{0,0.5}{0}{\rotatebox{90}{$f_\text{mod~max}$}}
+    \DARCmeasure{up}{down2}{0,0.5}{0}{\rotatebox{90}{$f_\text{mod~max}$}}
+    %
+    \draw[-Triangle](1,-0.50) --  ++(2.25,0) node[anchor=west](){$U_\text{NF}$};
+    \draw[-Triangle](ff.south) -- ++(0,-0.25) coordinate(start) -- ++(0,-1.75) node[anchor=west](){$t$};
+    %
+    \draw[DARCblue,thick, rotate=90](start)
+        sin ++(-0.33,+0.5)
+        cos ++(-0.33,-0.5)
+        sin ++(-0.33,-0.5)
+        cos ++(-0.33,+0.5);
+\end{circuitikz}

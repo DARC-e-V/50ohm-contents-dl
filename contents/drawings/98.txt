@@ -1,0 +1,3 @@
+Dieser Alt-Text wurde noch nicht überprüft.
+
+Blockdiagramm eines Funksenders. Links ist ein NF-Verstärker, gefolgt von einem Balancemodulator. Vom Balancemodulator gehen Linien zu einem Block mit der Bezeichnung "CO" und Symbol "G", und zu einem Mischer. Nach dem Mischer folgt ein Filter und ein Treiber. Danach folgt ein PA mit angeschlossenem ALC-Block. Ganz rechts ist eine Antenne.

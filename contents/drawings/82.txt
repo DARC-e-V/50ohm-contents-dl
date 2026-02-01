@@ -1,0 +1,3 @@
+Dieser Alt-Text wurde noch nicht überprüft.
+
+Blockdiagramm eines Radiosystems mit einer Antenne links. Von links nach rechts: ein Verstärker mit der Beschriftung "HF", ein Modul X mit Kreuzsymbol, ein Block "1.ZF", ein Verstärker, ein Modul Y mit Kreuzsymbol, ein Block "2.ZF", ein Verstärker mit der Beschriftung "NF" und ein Lautsprechersymbol. Unter X steht "VFO", unter Y steht "CO" und unter Z "BFO".

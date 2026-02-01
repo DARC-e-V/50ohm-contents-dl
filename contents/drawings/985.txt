@@ -1,0 +1,3 @@
+Dieser Alt-Text wurde noch nicht überprüft.
+
+Ein Schaltplan zeigt mehrere elektrische Bauteile: Ein Widerstand mit der Beschriftung "470Ω", eine Zenerdiode mit "5,6V", ein Transistor, und ein Kondensator mit "47μF" und einem positiven Pol. Weiterhin gibt es einen anderen Widerstand mit der Beschriftung "1kΩ". Die Schaltung verbindet Verbindungspunkte A und B.

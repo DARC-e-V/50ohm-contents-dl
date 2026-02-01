@@ -1,0 +1,107 @@
+% Author: Dr. Matthias Jung, DL9MJ; Stephan Kregel, DG1HXJ
+% Year: 2020/2021
+\begin{circuitikz}[european]
+    \draw(0,0) coordinate(u0)
+        to [short, o-*] ++(4,0) coordinate(u1)
+        to [short,  -o] ++(6,0) coordinate(u2){}
+        node[anchor=west](){--};
+    \draw(u0) ++ (0,-1) coordinate(gg1);
+    \draw(u0)
+        to [open, straight voltages, v_<={$U_\mathrm{E}$}] ++(0,4)
+        to [C, o-*] ++(4,0) coordinate(m1)
+        to [short, i={$I_\mathrm{B}$}] ++(1,0)
+        node[npn, tr circle, anchor=B](trans){};
+    \draw(trans.E)
+        to [short,-*] (trans.E|-u1)
+        node[rground](){};
+    \draw(trans.C)
+        to [C,*-o] (trans.C-|u2) coordinate(m2);
+    \draw(trans.C)
+        to [open] ++(1,0) coordinate(h1)
+        to [open, straight voltages, v^>={$U_\mathrm{CE}$}] (h1|-u2);
+    \draw(trans.C)
+        to [R, i<={$I_\mathrm{C}$},-*] ++(0,4) coordinate(o1)
+        to [short, -o] (o1-|u2)
+        node[anchor=west](){+};
+    \draw(o1) 
+        to [short] (o1-|m1) coordinate(o5)
+        to [R] (o5|-trans.C)
+        to [short] (m1);
+    \draw(o5)
+        to [short, *-] ++(-2,0)
+        to [C] ++(0,-2)
+        node[rground](){};
+    \draw(u2)
+        to [open, straight voltages, v<={$U_\mathrm{A}$}] (m2);
+    \draw(u1)
+        to [R] (m1);
+
+    \begin{axis}[%
+        at={(gg1)},
+        anchor={north west},
+        name=gg2,
+        /pgf/number format/1000 sep={ },
+        /pgf/number format/use comma,        
+        axis lines=middle,
+        axis line style={-Triangle},
+        ytick={0},
+        every major tick/.append style={thick, black},
+        grid=major,
+        grid style={line width=.1pt, draw=gray!10},
+        major grid style={line width=.2pt,draw=gray!50},
+        xticklabel=\empty,
+        yticklabel=\empty,
+        xtick style={draw=none},
+        ytick style={draw=none},
+        xmin=0,
+        xmax=4.2*pi,
+        ymin=-0.75,
+        ymax=0.75,
+        xmajorgrids=false,
+        ymajorgrids=false,
+        xlabel style={at={(ticklabel* cs:1)},anchor=north east},
+        ylabel style={at={(ticklabel* cs:1)},anchor=north east},
+        ylabel={$U_\mathrm{E}$},
+        xlabel={$t$},
+        width=0.4\linewidth*\getDarcImageFactor,
+        height=1cm,
+        scale only axis,
+    ]
+        \addplot[samples=500,domain=0:4.0*pi,smooth,black] {0.5*sin(deg(x))+0}; 
+    \end{axis}
+
+    \draw(gg2.outer north east) ++(1,0) coordinate(gg3);
+
+    \begin{axis}[%
+        at={(gg3)},
+        anchor={outer north west},
+        /pgf/number format/1000 sep={ },
+        /pgf/number format/use comma,        
+        axis lines=middle,
+        axis line style={-Triangle},
+        ytick={0},
+        every major tick/.append style={thick, black},
+        grid=major,
+        grid style={line width=.1pt, draw=gray!10},
+        major grid style={line width=.2pt,draw=gray!50},
+        xticklabel=\empty,
+        yticklabel=\empty,
+        xtick style={draw=none},
+        ytick style={draw=none},
+        xmin=0,
+        xmax=4.2*pi,
+        ymin=-0.25,
+        ymax=2.25,
+        xmajorgrids=false,
+        ymajorgrids=false,
+        xlabel style={at={(ticklabel* cs:1)},anchor=north east},
+        ylabel style={at={(ticklabel* cs:1)},anchor=north east},
+        ylabel={$I_\mathrm{B}$},
+        xlabel={$t$},
+        width=0.4\linewidth*\getDarcImageFactor,
+        height=1cm,
+        scale only axis,
+    ]
+            \addplot[samples=500,domain=0:4.0*pi,smooth,black] {0.5*sin(deg(x))+1.2}; 
+    \end{axis}
+\end{circuitikz}

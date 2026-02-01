@@ -1,0 +1,32 @@
+% Author:   Stephan Kregel, DG1HXJ
+% Year: 2022
+\begin{circuitikz}
+    \ctikzset{
+        resistors/scale=\getDarcImageFactor,
+        capacitors/scale=\getDarcImageFactor,
+        diodes/scale=\getDarcImageFactor,
+    }
+    \coordinate(init) at (0,0);
+    \draw (init) to [stroke diode, *-] ++(2,1.5) -- ++(2,0) coordinate(r1a)
+    to [R, l={\qty{1}{\kilo\ohm}}, *-*] ++(2,0) coordinate(r1b) -- ++(2,0) coordinate(c4a) 
+    to node[circ]{} ++(0,0) -- ++(1.5,0)
+    to node[ocirc, name=out1]{}++(0,0);
+    \draw (init) to [C, l_=$\qty{4,7}{\nano\F}$] ++(-2.5,0) 
+    to node[currarrow, name=in1, rotate=180]{}++(0,0);
+    \draw (init) to [stroke diode, invert, -*] ++(2,-1.5) coordinate(d2-b)
+    to [C={\rotatebox[origin=c]{90}{$\qty{1}{\nano\F}$}}, -*] ++(0,-2) coordinate(c1-b)
+    to node[rground]{}++(0,0);
+    \draw (c1-b) -- ++(-4.5,0) to node[currarrow, name=in2, rotate=180]{}++(-0,0);
+    \draw (c1-b) -- ++(2,0) coordinate(c2b)
+    to [C, l_={\rotatebox[origin=c]{90}{$\qty{1}{\nano\F}$}}, *-] ++(0,2) -- (r1a);
+    \draw (c2b) -- ++(2,0) coordinate(c3b)
+    to [C, l_={\rotatebox[origin=c]{90}{$\qty{4,7}{\nano\F}$}}, *-] ++(0,2)
+    to [R, l_={\rotatebox[origin=c]{90}{\qty{100}{\kilo\ohm}}}, *-*] (r1b);
+    \draw(c3b) -- ++(2,0)
+     to [C, l_={\rotatebox[origin=c]{90}{$\qty{4,7}{\nano\F}$}}] ++(0,2) -- (c4a);
+    \draw(d2-b) -- ++(2,0)
+    to [R, l={\qty{1}{\kilo\ohm}}] ++(2,0) -- ++(3.5,0)
+    node[ocirc, name=out2]{};
+    \draw (in1) node [anchor=south](){E};
+    \draw (out1) node [anchor=south](){A};
+\end{circuitikz}

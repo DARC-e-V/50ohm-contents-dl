@@ -1,0 +1,3 @@
+Dieser Alt-Text wurde noch nicht überprüft.
+
+Blockdiagramm mit mehreren Komponenten: Ein PC ist mit einem SDR verbunden. Vom SDR gehen Leitungen zu einem TXCO und zu einem Verstärker. Der Verstärker hat zwei Stufen, die mit Leistung in Milliwatt und Dezibel Milliwatt beschriftet sind: "0,3 mW -5 dBm" und "40 mW 16 dBm". Die Endstufe zeigt "20 W 43 dBm". Es gibt Verbindungen zu Antennen mit den Aufschriften "10 GHz" und "2,4 GHz". Die Stromversorgung durch "12 V DC" ist ebenfalls dargestellt, verbunden mit einem Symbol aus Spule und Kondensator sowie zu einem anderen TXCO und einem LNB. Die Verbindung zum PTT ist gestrichelt eingezeichnet.
