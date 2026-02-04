@@ -1,55 +1,53 @@
 % Author: Dr. Matthias Jung, DL9MJ
-% Year: 2020
-% TB201
+% Year: 2026
 \begin{circuitikz}
+    \draw(0,0) coordinate(start)
+        to [solar, invert, mirror, name={sol1}] ++(0,1) coordinate(x1)
+        to [open]  ++(0,1) coordinate(x2)
+        to [solar, invert, mirror] ++(0,1)
+        to [solar, invert, mirror] ++(0,1)
+        to [short, i_={\qty{1}{\ampere}}] ++(0,1) coordinate(end1);
+    \draw[dashed] (x1) -- (x2) node[midway, right] {30 St.};
     %
-    \draw (5.5,6) to [short] ++ (0.5,0)
-                to [R, i>={$I$}] ++(0,-5.5)
-                to [short] ++(-0.5,0);
+    \draw(start)
+        to [short, -*] ++(1,0) coordinate(start2)
+        to [solar, invert, mirror] ++(0,1) coordinate(x1)
+        to [open]  ++(0,1) coordinate(x2)
+        to [solar, invert, mirror] ++(0,1)
+        to [solar, invert, mirror] ++(0,1)
+        to [short, i_={}] ++(0,1) coordinate(end2);
+    \draw[dashed] (x1) -- (x2);
     %
-    \draw (0,6) to [short, i<={\qty{1}{\ampere}}]     ++(0,-1)
-                to [solar]  ++(0,-1)
-                to [solar]  ++(0,-1)
-                to [open]      ++(0,-1)
-                to [solar,l_=\qty{0.6}{\volt}]  ++(0,-1)
-                to [short]     ++(0,-0.5)
-                to [short, -o] ++(5.5,0)
-                node [](C1){};
-    \draw (0,3) edge[dashed] ++(0,-1);
+    \draw(start2)
+        to [short, -*] ++(1,0) coordinate(start3)
+        to [solar, invert, mirror] ++(0,1) coordinate(x1)
+        to [open]  ++(0,1) coordinate(x2)
+        to [solar, invert, mirror] ++(0,1)
+        to [solar, invert, mirror] ++(0,1)
+        to [short, i_={}] ++(0,1) coordinate(end3);
+    \draw[dashed] (x1) -- (x2);
     %
-    \draw (2,6) node [circ] () {}
-                to [short, i<={~}]     ++(0,-1)
-                to [solar]  ++(0,-1)
-                to [solar]  ++(0,-1)
-                to [open]      ++(0,-1)
-                to [solar]  ++(0,-1)
-                to [short, -*]     ++(0,-0.5);
-    \draw (2,3) edge[dashed] ++(0,-1);
+    \draw(start3)
+        to [short, -*] ++(1,0) coordinate(start4)
+        to [solar, invert, mirror] ++(0,1) coordinate(x1)
+        to [open]  ++(0,1) coordinate(x2)
+        to [solar, invert, mirror] ++(0,1)
+        to [solar, invert, mirror] ++(0,1)
+        to [short, i_={}] ++(0,1) coordinate(end4);
+    \draw[dashed] (x1) -- (x2);
     %
-    \draw (3,6) node [circ] () {}
-                to [short, i<={~}]     ++(0,-1)
-                to [solar]  ++(0,-1)
-                to [solar]  ++(0,-1)
-                to [open]      ++(0,-1)
-                to [solar]  ++(0,-1)
-                to [short, -*]     ++(0,-0.5);
-    \draw (3,3) edge[dashed] ++(0,-1);
+    \draw(sol1.west) node[anchor=south east](){$\qty{0,6}{\volt}$};
     %
-    \draw (4,6) node [circ] () {}
-                to [short, i<={~}]     ++(0,-1)
-                to [solar]  ++(0,-1)
-                to [solar]  ++(0,-1)
-                to [open]      ++(0,-1)
-                to [solar]  ++(0,-1)
-                to [short, -*]     ++(0,-0.5);
-    \draw (4,3) edge[dashed] ++(0,-1);
+    \draw(start4)
+        to [short, -o] ++(1,0) coordinate(start5)
+        to [open, v^<={$U$}] (start5 |- end4) coordinate(end5) 
+        to [short, o-*] (end4)
+        to [short,  -*] (end3)
+        to [short,  -*] (end2)
+        to [short,  - ] (end1);
     %
-    \draw (0,6) to [short, -o] ++(5.5,0)
-                node [](C2){};
-    %
-    \draw (5.5,5.7) to [short] (5.5,0.8) node [currarrow, rotate=-90]{};
-    \draw (5.2, 3.25) node {$U$};
-    %            
-    \draw (0.8, 2.5) node {30 St.};
-    %            
+    \draw(start5)
+        to [short, o-] ++(0.5,0) coordinate(start6)
+        to [R, i<={$I~$}] (start6|-end5)
+        to [short, -o] (end5);
 \end{circuitikz}
