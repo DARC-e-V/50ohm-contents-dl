@@ -28,4 +28,4 @@ Am Fragenkatalog, welcher in Kooperation mit der Bundesnetzagentur entstand, war
 
 # Kontakt
 
-Verantwortlich für das Betreiben von 50ohm.de ist das AJW-Referat des DARC e. V. in Baunatal. Bei Anfragen bitte die Email-Adresse [50ohm@darc.de](mailto:50ohm@darc.de) nutzen. Weiterhin findet man viele der Beitragenden im Matrix-Kanal [Ausbilder-Netzwerk](https://matrix.to/#/#AusbilderNetzwerk:darc.de).
+Verantwortlich für das Betreiben von 50ohm.de ist das AJW-Referat des DARC e. V. in Baunatal. Bei Anfragen bitte die Email-Adresse [50ohm@darc.de](mailto:50ohm@darc.de) nutzen. Weiterhin findet man viele der Beitragenden im Matrix-Kanal [50ohm Contribution](https://matrix.to/#/#50ohm-contribution:darc.de).
