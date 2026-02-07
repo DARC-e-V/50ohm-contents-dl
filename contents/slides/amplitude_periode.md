@@ -48,5 +48,5 @@ Die Zeit ($t$) vom Beginn einer positiven Halbwelle bis zum Ende der darauf folg
 [question:NA213] 
 <note>
 * 1 Periode = 1 Schwingung
-* 1 Schwingung pro Sekunde = 1 Hz
+* 1 Schwingung pro Sekunde = $\qty{1}{\hertz}$
 </note>

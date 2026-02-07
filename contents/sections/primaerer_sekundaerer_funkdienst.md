@@ -15,10 +15,10 @@ Welcher Status dem Amateurfunkdienst in Deutschland in den einzelnen Frequenzber
 Es ist zu beachten, dass die primären und sekundären Zuweisungen in anderen Ländern abweichend geregelt sein können. Man sollte sich daher vor der Betriebsaufnahme im Ausland über die jeweiligen Bestimmungen des Gastlandes informieren.
 </attention>
 
-Eine Besonderheit stellen Küstenfunkstellen des Seefunkdienstes dar. Obwohl uns das 80 m-Band primär zugewiesen ist, müssen wir solchen Funkstellen den Vorrang gewähren, da sie eine feste Frequenz zugeteilt haben, die sie nicht ändern dürfen.
+Eine Besonderheit stellen Küstenfunkstellen des Seefunkdienstes dar. Obwohl uns das $\qty{80}{\meter}$-Band primär zugewiesen ist, müssen wir solchen Funkstellen den Vorrang gewähren, da sie eine feste Frequenz zugeteilt haben, die sie nicht ändern dürfen.
 
 [question:VD707]
 
-Eine weitere Besonderheit ist der sogenannte ISM-Bereich. Ein Teilbereich des 70 cm-Amateurfunkbandes wird für Anwendungen aus den Bereichen Industrie, Wissenschaft und Medizin, aber auch von Haushaltsgeräten mitbenutzt. Die Abkürzung ISM kommt von der englischen Bezeichnung "Industrial, Scientific and Medical Band". Dort finden sich z. B. Signale von Garagentoröffnern, Funkwetterstationen, Autoschlüsseln, Wegfahrsperren oder Reifendrucksensoren. Obwohl der Amateurfunkdienst in diesem Frequenzbereich primäre Nutzungsrechte genießt, müssen Störungen durch solche Geräte ausnahmsweise dennoch hingenommen werden.
+Eine weitere Besonderheit ist der sogenannte ISM-Bereich. Ein Teilbereich des $\qty{70}{\centi\meter}$-Amateurfunkbandes wird für Anwendungen aus den Bereichen Industrie, Wissenschaft und Medizin, aber auch von Haushaltsgeräten mitbenutzt. Die Abkürzung ISM kommt von der englischen Bezeichnung "Industrial, Scientific and Medical Band". Dort finden sich z. B. Signale von Garagentoröffnern, Funkwetterstationen, Autoschlüsseln, Wegfahrsperren oder Reifendrucksensoren. Obwohl der Amateurfunkdienst in diesem Frequenzbereich primäre Nutzungsrechte genießt, müssen Störungen durch solche Geräte ausnahmsweise dennoch hingenommen werden.
 
 [question:VD708]

@@ -8,7 +8,7 @@ Der *DARC* ist als einziger deutscher Verband in der International Amateur Radio
 
 [question:BC201]
 
-Der IARU-Bandplan gliedert sich nach den Amateurfunkbändern. In der Amateurfunkprüfung werden nur die IARU-Bandpläne für das 2 m- und das 70 cm-Band behandelt. Auf diese Pläne und die einzelnen Fragen gehen die beiden folgenden Abschnitte ein.
+Der IARU-Bandplan gliedert sich nach den Amateurfunkbändern. In der Amateurfunkprüfung werden nur die IARU-Bandpläne für das $\qty{2}{\meter}$- und das $\qty{70}{\centi\meter}$-Band behandelt. Auf diese Pläne und die einzelnen Fragen gehen die beiden folgenden Abschnitte ein.
 
 Eines ist auf fast allen Bändern übrigens gleich geregelt. Bis auf wenige Ausnahmen ist der für Morsetelegrafie (CW) empfohlene Bereich am Bandanfang.
 
