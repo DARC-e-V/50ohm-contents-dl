@@ -14,7 +14,7 @@ Gleich geladene Teilchen stoßen sich ab: Plus stößt Plus ab und Minus stößt
 
 ---
 
-Man kann Ladungen aber gezielt trennen, z. B. in einer Batterie, einer Solarzelle oder einem Windkraftwerk. Die Ladungen versuchen dann, wieder zusammenzukommen. Es liegt eine elektrische *Spannung* vor. Vorrichtungen, die Ladungen trennen und somit elektrische Spannung bereitstellen, heißen *Spannungsquellen*. Den positiv geladenen Anschluss nennt man Pluspol und den anderen Minuspol. Spannungsquellen können eine unterschiedlich große Spannung aufweisen. Die elektrische Spannung wird in der Einheit Volt mit der Abkürzung V gemessen.
+Man kann Ladungen aber gezielt trennen, z. B. in einer Batterie, einer Solarzelle oder einem Windkraftwerk. Die Ladungen versuchen dann, wieder zusammenzukommen. Es liegt eine elektrische *Spannung* vor. Vorrichtungen, die Ladungen trennen und somit elektrische Spannung bereitstellen, heißen *Spannungsquellen*. Den positiv geladenen Anschluss nennt man Pluspol und den anderen Minuspol. Spannungsquellen können eine unterschiedlich große Spannung aufweisen. Die elektrische Spannung wird in der Einheit Volt mit der Abkürzung $\unit{V}$ gemessen.
 
 Sobald man einen elektrischen Verbraucher wie eine Lampe oder einen Computer an die beiden Pole anschließt und einschaltet, können sich die Ladungen bewegen. Es fließt ein elektrischer Strom (Bild [ref:n_frequenz_strom_fliesst]).
 

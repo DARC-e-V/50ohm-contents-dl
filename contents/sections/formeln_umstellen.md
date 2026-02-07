@@ -1,8 +1,8 @@
-Bereits in der Ausbildung zur Klasse N haben wir den Zusammenhang zwischen der Frequenz (f) und der Wellenlänge ($\lambda$) kennengelernt. Damals wurden dazu zwei speziell zugeschnittene Größengleichungen aus der Formelsammlung für die Prüfung angegeben.
+Bereits in der Ausbildung zur Klasse N haben wir den Zusammenhang zwischen der Frequenz ($f$) und der Wellenlänge ($\lambda$) kennengelernt. Damals wurden dazu zwei speziell zugeschnittene Größengleichungen aus der Formelsammlung für die Prüfung angegeben.
 
-$f[[\text{MHz}]]= \dfrac{300}{\lambda[[\text{m}]]}$
+$f[[\unit{\mega\hertz}]] = \dfrac{300}{\lambda[[\unit{\meter}]]}$
 
-$\lambda[[\text{m}]] = \dfrac{300}{f[[\text{MHz}]]}$
+$\lambda[[\unit{\meter}]] = \dfrac{300}{f[[\unit{\mega\hertz}]]}$
 
 <indepth>
 Gleichungen, bei denen bereits angegeben wird, in welcher Einheit die Werte zu stehen haben,  nennt man  *zugeschnittene Größengleichungen*. 
@@ -15,11 +15,11 @@ In technischen Rechnungen müssen wir immer wieder Gleichungen so umstellen, das
 ---
 
 <indepth>
-In Grundeinheiten (s, m) lautet der Zusammenhang zwischen Wellenlänge und Frequenz im Freiraum:
+In Grundeinheiten ($\unit{\second}$, $\unit{\meter}$) lautet der Zusammenhang zwischen Wellenlänge und Frequenz im Freiraum:
 
 $\lambda = \dfrac{c_0}{f}$
 
-Dabei ist $c_0$ die Ausbreitungsgeschwindigkeit von elektromagnetischen Wellen im Vakuum ("Lichtgeschwindigkeit"), $c_o \approx 300.000.000 \  \dfrac{\text{m}}{\text{s}}$
+Dabei ist $c_0$ die Ausbreitungsgeschwindigkeit von elektromagnetischen Wellen im Vakuum ("Lichtgeschwindigkeit"), $c_o \approx \qty{300.000.000}{\frac{\meter}{\second}}$
 </indepth>
 
 Wir betrachten den Zusammenhang zwischen Frequenz und Wellenlänge hier in der abstrakteren Form:
@@ -58,6 +58,6 @@ Dies ist die gesuchte Beziehung. Wir setzen die Zahlenwerte ein:
 
 $f = \dfrac{\qty{300.000.000}{\meter\per\second}}{\qty{2,069}{\meter}} = \dfrac{300.000.000}{\qty{2,069}{\second}}  = \qty{144.997.583}{\hertz} \approx \qty{145}{\mega\hertz} $
 
-Dabei haben wir berücksichtigt, dass $\dfrac{1}{\text{s}} = 1\ \text{Hz}$ ist.
+Dabei haben wir berücksichtigt, dass $\frac{1}{\unit{\second}} = \qty{1}{\hertz}$ ist.
 
 Wir können Formeln nun mithilfe von Multiplikation und Division umstellen. In der Klasse E begegnen uns weitere Formeln, bei denen auch Addition und Subtraktion, Potenzen und Wurzeln erforderlich sind. In der Klasse A kommen schließlich sogar Logarithmen hinzu. Keine Angst, an den jeweiligen Stellen werden wir genau erklären, wie diese Formeln Schritt für Schritt umgestellt werden.

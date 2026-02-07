@@ -1,7 +1,7 @@
-Entsprechend den Fragen zum 2 m-Bandplan lassen sich auch die folgenden Fragen zum 70 cm-Bandplan beantworten, der ebenfalls als Hilfsmittel bei der Prüfung vorliegt.
+Entsprechend den Fragen zum $\qty{2}{\meter}$-Bandplan lassen sich auch die folgenden Fragen zum $\qty{70}{\centi\meter}$-Bandplan beantworten, der ebenfalls als Hilfsmittel bei der Prüfung vorliegt.
 
 <margin>
-[photo:103:n_iaru_bandplan_70cm:IARU-Bandplan 70 cm]
+[photo:103:n_iaru_bandplan_70cm:IARU-Bandplan $\qty{70}{\centi\meter}$]
 </margin>
 
 [question:BC206]

@@ -26,7 +26,7 @@ Eine Sinusschwingung besteht aus einer positiven und einer negativen Halbwelle (
 
 [question:NB405]
 
-Wie wir gerade gelernt haben, entspricht eine Periode genau einer Schwingung. Und wir erinnern uns: Eine Schwingung pro Sekunde entspricht genau 1 Hz. Kombiniert man dieses Wissen, sollte die folgende Frage beantwortbar sein.
+Wie wir gerade gelernt haben, entspricht eine Periode genau einer Schwingung. Und wir erinnern uns: Eine Schwingung pro Sekunde entspricht genau $\qty{1}{\hertz}$. Kombiniert man dieses Wissen, sollte die folgende Frage beantwortbar sein.
 
 [question:NA213]
 
