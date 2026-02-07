@@ -1,5 +1,5 @@
 <left>
-[picture:725:n_frequenz_sinusschwingung:Die Spannung des Stromnetzes im zeitlichen Verlauf. Da die Spannung nicht die ganze Zeit den Höchstwert von 325 V aufweist, wirkt sie effektiv übrigens nur mit 230 V.]
+[picture:725:n_frequenz_sinusschwingung:Die Spannung des Stromnetzes im zeitlichen Verlauf. Da die Spannung nicht die ganze Zeit den Höchstwert von $\qty{325}{\volt}$ aufweist, wirkt sie effektiv übrigens nur mit $\qty{230}{\volt}$.]
 </left>
 <right>
 * Die Wechselspannung aus dem Stromnetz schwingt nicht direkt zurück
