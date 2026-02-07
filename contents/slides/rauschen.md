@@ -3,7 +3,7 @@
 * Bspw. bei Verwendung verschiedener Filter
 
 <fragment>
-$\Delta P_R = 10 \cdot \log_{10}{(\frac{B_1}{B_2})}dB$
+$\Delta P_R = 10 \cdot \log_{10}{\left(\frac{B_1}{B_2}\right)}dB$
 </fragment>
 
 ---
@@ -17,5 +17,5 @@ $\Delta P_R = 10 \cdot \log_{10}{(\frac{B_1}{B_2})}dB$
 * gesucht: $\Delta P_R$
 
 <fragment>
-$\Delta P_R = 10 \cdot \log_{10}{(\frac{B_1}{B_2})}dB = 10 \cdot \log_{10}{(\frac{2,5kHz}{0,5kHz})}dB \approx 7dB$
+$\Delta P_R = 10 \cdot \log_{10}{\left(\frac{B_1}{B_2}\right)}dB = 10 \cdot \log_{10}{\left(\frac{2,5kHz}{0,5kHz}\right)}dB \approx 7dB$
 </fragment>
