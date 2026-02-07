@@ -17,7 +17,7 @@
 <note>
 Anzeige erklären
 * Frequenz oben
-* 2m-Band
+* $\qty{2}{\meter}$-Band
 * starkes Empfangssignal
 </note>
 

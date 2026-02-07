@@ -1,7 +1,7 @@
 ## Große und kleine Werte
 
 * Im Amateurfunk haben wir große und kleine Werte
-* Um sich viele 0-en zu sparen, wurde bereits mit Einheitenvorsätzen abgekürzt, z.B. mit Milli (m) oder Kilo (k)
+* Um sich viele 0-en zu sparen, wurde bereits mit Einheitenvorsätzen abgekürzt, z.B. mit Milli ($\unit{\milli}$) oder Kilo ($\unit{\kilo}$)
 
 ---
 
@@ -9,12 +9,12 @@
 
 * Einheitenvorsätze lassen sich in den meisten Taschenrechnern nicht direkt eingeben
 * Stattdessen wird die Zehnerpotenz verwendet
-* Kilo entspricht 1000 oder $10 \cdot 10 \cdot 10$
+* Kilo entspricht $1000$ oder $10 \cdot 10 \cdot 10$
 * Abgekürzt $10^3$
 
 <fragment>
-$1500Hz \rArr 1,5kHz \rArr 1,5 \cdot 10^3Hz$
-$1500000Hz \rArr 1,5MHz \rArr 1,5 \cdot 10^6Hz$
+$\qty{1500}{\hertz} \rArr \qty{1,5}{\kilo\hertz} \rArr \qty{1,5 \cdot 10^3}{\hertz}$
+$\qty{1500000}{\hertz} \rArr \qty{1,5}{\mega\hertz} \rArr \qty{1,5 \cdot 10^6}{\hertz}$
 </fragment>
   
 <note>
@@ -23,25 +23,25 @@ $1500000Hz \rArr 1,5MHz \rArr 1,5 \cdot 10^6Hz$
 
 ---
 
-* Milli entspricht  $\frac{1}{1000}$ oder $\frac{1}{10 \cdot 10 \cdot 10}$
+* Milli entspricht $\frac{1}{1000}$ oder $\frac{1}{10 \cdot 10 \cdot 10}$
 * Abgekürzt $10^{-3}$
 
 <fragment>
-$0,0035V \rArr 3,5mV \rArr 3,5 \cdot 10^{-3}V$
+$\qty{0,0035}{\volt} \rArr \qty{3,5}{\milli\volt} \rArr \qty{3,5 \cdot 10^{-3}}{\volt}$
 </fragment>
 
 --- style="font-size: 0.5em;"
 ### Einheitenvorsätze und Zehnerpotenzen
 
 | c: Bezeichnung | c: Abkürzung | l: Wert |
-| Pico | p | 10<sup>-12</sup> = 0,000000000001 |
-| Nano | n | 10<sup>-9</sup> = 0,000000001 |
-| Mikro | µ | 10<sup>-6</sup> = 0,000001 |
-| Milli | m | 10<sup>-3</sup> = 0,001 |
-| |  | 10<sup>0</sup> = 1 |  
-| Kilo | k | 10<sup>3</sup> = 1000 |
-| Mega | M | 10<sup>6</sup> = 1000000 |
-| Giga | G | 10<sup>9</sup> = 1000000000 |
+| Pico | $\unit{\pico}$ | $10^{-12} = 0,000000000001$ |
+| Nano | $\unit{\nano}$ | $10^{-9} = 0,000000001$ |
+| Mikro | $\unit{\micro}$ | $10^{-6} = 0,000001$ |
+| Milli | $\unit{\milli}$ | $10^{-3} = 0,001$ |
+| |  | $10^{0} = 1$ |
+| Kilo | $\unit{\kilo}$ | $10^{3} = 1000$ |
+| Mega | $\unit{\mega}$ | $10^{6} = 1000000$ |
+| Giga | $\unit{\giga}$ | $10^{9} = 1000000000$ |
 [table:e_einheitenvorzeichen:Einheitenvorsätze für Zehnerpotenzen]
 
 ---

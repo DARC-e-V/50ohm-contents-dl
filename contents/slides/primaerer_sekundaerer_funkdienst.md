@@ -16,7 +16,7 @@ Der Status ist in Spalte 3 der Anlage 1der AFuV mit P und S gekennzeichnet
 
 ---
 ## Seefunkdienst
-* Das 80m-Band ist dem Amateurfunk primär zugeordnet
+* Das $\qty{80}{\meter}$-Band ist dem Amateurfunk primär zugeordnet
 * Küstenfunkstellen des Seefunkdienstes haben dennoch Vorrang
 * Grund: Feste Frequenz zugeteilt
 
@@ -30,7 +30,7 @@ Der Status ist in Spalte 3 der Anlage 1der AFuV mit P und S gekennzeichnet
 ---
 ## ISM-Bereich
 * "Industrial, Scientific and Medical Band"
-* Teilbereich des 70cm-Amateurfunkbandes
+* Teilbereich des $\qty{70}{\centi\meter}$-Amateurfunkbandes
 * Viele Haushaltsgeräte nutzen dieses: Garagentoröffner, Funkwetterstationen, Autoschlüssel, Wegfahrsperren, Reifendrucksensoren, …
 * Störungen im Amateurfunk müssen trotz primärer Zuweisung hingenommen werden
 

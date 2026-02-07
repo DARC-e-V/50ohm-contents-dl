@@ -45,7 +45,7 @@ Außer, man bekommt "einen gewischt".
 * Spannungsquellen, bei denen die Pole ständig zwischen positiver und negativer Spannung schwingen, erzeugen Wechselspannung
   
 <fragment>
-Die elektrische Spannung wird in der Einheit $\text{Volt}$ mit der Abkürzung $V$ gemessen.
+Die elektrische Spannung wird in der Einheit Volt mit der Abkürzung $\unit{V}$ gemessen.
 </fragment>
 
 ---

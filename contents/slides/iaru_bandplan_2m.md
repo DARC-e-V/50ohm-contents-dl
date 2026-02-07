@@ -1,4 +1,4 @@
-[photo:102:n_iaru_bandplan_2m:IARU-Bandplan 2 m]
+[photo:102:n_iaru_bandplan_2m:IARU-Bandplan $\qty{2}{\meter}$]
 
 <note>
 * Aufteilung des Bandes in verschiedene Frequenzsegmente
