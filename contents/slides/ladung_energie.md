@@ -26,7 +26,7 @@ in Joule (J) auf Sekunde bezogen oder Wattstunden (Wh)
 * gesucht: $W$
 
 <fragment>
-$\begin{equation} \nonumber W = P\cdot t = U\cdot I\cdot t = 230V\cdot 0,63A\cdot 7h = 1,01kWh \end{equation}$
+$$W = P\cdot t = U\cdot I\cdot t = 230V\cdot 0,63A\cdot 7h = 1,01kWh$$
 </fragment>
 
 ---
@@ -39,5 +39,5 @@ $\begin{equation} \nonumber W = P\cdot t = U\cdot I\cdot t = 230V\cdot 0,63A\cdo
 * gesucht: $W$
 
 <fragment>
-$\begin{equation}\begin{split} \nonumber W = P\cdot t = \frac{U^2}{R} \cdot t = \frac{(10V)^2}{100\Omega}\cdot 1h &= 1Wh \cdot 3600\frac{s}{h}\\ &= 3600J\end{split}\end{equation}$
+$\begin{split} W = P\cdot t = \frac{U^2}{R} \cdot t = \frac{(10V)^2}{100\Omega}\cdot 1h &= 1Wh \cdot 3600\frac{s}{h}\\ &= 3600J\end{split}$
 </fragment>

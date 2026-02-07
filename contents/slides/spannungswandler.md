@@ -30,7 +30,7 @@ $\eta = \frac{P_{\textrm{AB}}}{P_{\textrm{ZU}}}$
 * gesucht: $\eta$
 
 <fragment>
-$\begin{equation}\begin{split}\nonumber \eta &= \frac{P_{\textrm{AB}}}{P_{\textrm{ZU}}} = \frac{U_{\textrm{AB}} \cdot I_{\textrm{AB}}}{U_{\textrm{ZU}} \cdot I_{\textrm{ZU}}}\\ &= \frac{5V \cdot 3A}{12V \cdot 2A} = \frac{15W}{24W} = 0,625 = 62,5\% \end{split}\end{equation}$
+$\begin{split} \eta &= \frac{P_{\textrm{AB}}}{P_{\textrm{ZU}}} = \frac{U_{\textrm{AB}} \cdot I_{\textrm{AB}}}{U_{\textrm{ZU}} \cdot I_{\textrm{ZU}}}\\ &= \frac{5V \cdot 3A}{12V \cdot 2A} = \frac{15W}{24W} = 0,625 = 62,5\% \end{split}$
 </fragment>
 ---
 [question:AB214]
@@ -42,5 +42,5 @@ $\begin{equation}\begin{split}\nonumber \eta &= \frac{P_{\textrm{AB}}}{P_{\textr
 * gesucht: $\eta$
 
 <fragment>
-$\begin{equation}\begin{split}\nonumber \eta &= \frac{P_{\textrm{AB}}}{P_{\textrm{ZU}}} = \frac{U_{\textrm{AB}} \cdot I_{\textrm{AB}}}{U_{\textrm{ZU}} \cdot I_{\textrm{ZU}}}\\ &= \frac{12V \cdot 1A}{5V \cdot 3A} = \frac{12W}{15W} = 0,8 = 80\% \end{split}\end{equation}$
+$\begin{split} \eta &= \frac{P_{\textrm{AB}}}{P_{\textrm{ZU}}} = \frac{U_{\textrm{AB}} \cdot I_{\textrm{AB}}}{U_{\textrm{ZU}} \cdot I_{\textrm{ZU}}}\\ &= \frac{12V \cdot 1A}{5V \cdot 3A} = \frac{12W}{15W} = 0,8 = 80\% \end{split}$
 </fragment>

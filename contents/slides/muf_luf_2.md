@@ -57,12 +57,12 @@ Kritische Frequenz wird auch als $f_k$ oder $f_\mathrm{krit}$ angegeben
 
 <left>
 <fragment>
-$\begin{equation}\begin{split} \nonumber \mathrm{MUF} & \approx \frac{f_c}{\sin(\alpha)}\\&\approx \frac{3MHz}{0,71}\\&\approx 4,2MHz\end{split}\end{equation}$
+$\begin{split} \mathrm{MUF} & \approx \frac{f_c}{\sin(\alpha)}\\&\approx \frac{3MHz}{0,71}\\&\approx 4,2MHz\end{split}$
 </fragment>
 </left>
 <right>
 <fragment>
-$\begin{equation}\begin{split} \nonumber f_{\mathrm{opt}} &= \mathrm{MUF}\cdot 0,85\\ &= 4,2MHz \cdot 0,85\\ &= 3,6MHz \end{split}\end{equation}$
+$\begin{split} f_{\mathrm{opt}} &= \mathrm{MUF}\cdot 0,85\\ &= 4,2MHz \cdot 0,85\\ &= 3,6MHz \end{split}$
 </fragment>
 </right>
 

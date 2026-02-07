@@ -67,7 +67,7 @@ Etwa 99% der Sendeleistung befinden sich in der Bandbreite
 * gesucht: $B$
 
 <fragment>
-$\begin{equation}\begin{split}\nonumber B &\approx 2 \cdot (\Delta f_{\textrm{T}} + f_{\textrm{mod max}})\\ &= 2 \cdot (1,8kHz + 2kHz) = 7,6kHz \end{split}\end{equation}$
+$\begin{split} B &\approx 2 \cdot (\Delta f_{\textrm{T}} + f_{\textrm{mod max}})\\ &= 2 \cdot (1,8kHz + 2kHz) = 7,6kHz \end{split}$
 </fragment>
 ---
 [question:AE308]
@@ -78,7 +78,7 @@ $\begin{equation}\begin{split}\nonumber B &\approx 2 \cdot (\Delta f_{\textrm{T}
 * gesucht: $B$
 
 <fragment>
-$\begin{equation}\begin{split}\nonumber B &\approx 2 \cdot (\Delta f_{\textrm{T}} + f_{\textrm{mod max}})\\ &= 2 \cdot (2,5kHz + 2,7kHz) = 10,4kHz \end{split}\end{equation}$
+$\begin{split} B &\approx 2 \cdot (\Delta f_{\textrm{T}} + f_{\textrm{mod max}})\\ &= 2 \cdot (2,5kHz + 2,7kHz) = 10,4kHz \end{split}$
 </fragment>
 ---
 [question:AE311]
@@ -89,7 +89,7 @@ $\begin{equation}\begin{split}\nonumber B &\approx 2 \cdot (\Delta f_{\textrm{T}
 * gesucht: $f_{\textrm{mod max}}$
 
 <fragment>
-$\begin{equation}\begin{split}\nonumber B &\approx 2 \cdot (\Delta f_{\textrm{T}} + f_{\textrm{mod max}})\\ \Rightarrow f_{mod max} &= \frac{B}{2} - \Delta f_T\\ &= \frac{10kHz}{2} - 2,5kHz = 2,5kHz \end{split}\end{equation}$
+$\begin{split} B &\approx 2 \cdot (\Delta f_{\textrm{T}} + f_{\textrm{mod max}})\\ \Rightarrow f_{mod max} &= \frac{B}{2} - \Delta f_T\\ &= \frac{10kHz}{2} - 2,5kHz = 2,5kHz \end{split}$
 </fragment>
 ---
 [question:AE312]
@@ -100,7 +100,7 @@ $\begin{equation}\begin{split}\nonumber B &\approx 2 \cdot (\Delta f_{\textrm{T}
 * gesucht: $\Delta f_{\textrm{T}}$
 
 <fragment>
-$\begin{equation}\begin{split}\nonumber B &\approx 2 \cdot (\Delta f_{\textrm{T}} + f_{\textrm{mod max}})\\ \Rightarrow \Delta f_T &= \frac{B}{2} - f_{mod max}\\ &= \frac{10kHz}{2} - 2,7kHz = 2,3kHz \end{split}\end{equation}$
+$\begin{split} B &\approx 2 \cdot (\Delta f_{\textrm{T}} + f_{\textrm{mod max}})\\ \Rightarrow \Delta f_T &= \frac{B}{2} - f_{mod max}\\ &= \frac{10kHz}{2} - 2,7kHz = 2,3kHz \end{split}$
 </fragment>
 ---
 [question:AE310]

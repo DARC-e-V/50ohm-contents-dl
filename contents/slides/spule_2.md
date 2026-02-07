@@ -57,7 +57,7 @@ $X_{\textrm{L}} = \omega \cdot L = 2\pi \cdot f \cdot L$
 * gesucht: $X_{\textrm{L}}$
 
 <fragment>
-$\begin{equation}\begin{split}\nonumber X_{\textrm{L}} &= \omega \cdot L = 2\pi \cdot f \cdot L\\ &= 2\pi \cdot 100MHz \cdot 3\mu H\\ &\approx 1885\Omega \end{split}\end{equation}$
+$\begin{split} X_{\textrm{L}} &= \omega \cdot L = 2\pi \cdot f \cdot L\\ &= 2\pi \cdot 100MHz \cdot 3\mu H\\ &\approx 1885\Omega \end{split}$
 </fragment>
 
 ---
@@ -99,7 +99,7 @@ Deshalb werden (Ring-)Kerne eingesetzt
 * gesucht: $L$
 
 <fragment>
-$\begin{equation}\begin{split}\nonumber L &= N^2 \cdot A_{\textrm{L}}\\ &= 14^2 \cdot 1,5nH\\ &= 0,294\mu H \end{split}\end{equation}$
+$\begin{split} L &= N^2 \cdot A_{\textrm{L}}\\ &= 14^2 \cdot 1,5nH\\ &= 0,294\mu H \end{split}$
 </fragment>
 
 ---
@@ -111,7 +111,7 @@ $\begin{equation}\begin{split}\nonumber L &= N^2 \cdot A_{\textrm{L}}\\ &= 14^2 
 * gesucht: $L$
 
 <fragment>
-$\begin{equation}\begin{split}\nonumber L &= N^2 \cdot A_{\textrm{L}}\\ &= 300^2 \cdot 1250nH\\ &= 112,5mH \end{split}\end{equation}$
+$\begin{split} L &= N^2 \cdot A_{\textrm{L}}\\ &= 300^2 \cdot 1250nH\\ &= 112,5mH \end{split}$
 </fragment>
 
 ---
@@ -123,7 +123,7 @@ $\begin{equation}\begin{split}\nonumber L &= N^2 \cdot A_{\textrm{L}}\\ &= 300^2
 * gesucht: $N$
 
 <fragment>
-$\begin{equation}\begin{align}\nonumber L &= N^2 \cdot A_{\textrm{L}}\\ \nonumber N &= \sqrt{\frac{L}{A_{\textrm{L}}}} = \sqrt{\frac{2mH}{250nH}} \\ \nonumber &= 89\ \textrm{Windungen} \end{align}\end{equation}$
+$\begin{split} L &= N^2 \cdot A_{\textrm{L}}\\ N &= \sqrt{\frac{L}{A_{\textrm{L}}}} = \sqrt{\frac{2mH}{250nH}} \\ &= 89\ \textrm{Windungen} \end{split}$
 </fragment>
 
 ---
@@ -135,7 +135,7 @@ $\begin{equation}\begin{align}\nonumber L &= N^2 \cdot A_{\textrm{L}}\\ \nonumbe
 * gesucht: $N$
 
 <fragment>
-$\begin{equation}\begin{align}\nonumber L &= N^2 \cdot A_{\textrm{L}}\\ \nonumber N &= \sqrt{\frac{L}{A_{\textrm{L}}}} = \sqrt{\frac{12\mu H}{30nH}} \\ \nonumber &= 20\ \textrm{Windungen} \end{align}\end{equation}$
+$\begin{split} L &= N^2 \cdot A_{\textrm{L}}\\ N &= \sqrt{\frac{L}{A_{\textrm{L}}}} = \sqrt{\frac{12\mu H}{30nH}} \\ &= 20\ \textrm{Windungen} \end{split}$
 </fragment>
 
 ---

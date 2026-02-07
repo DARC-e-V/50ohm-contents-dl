@@ -41,7 +41,7 @@
 * gesucht: $\frac{Vor}{Rück}$
 
 <fragment>
-$\begin{aligned}\frac{Vor}{Rück} &= 10 \cdot \log_{10}{(\frac{P_V}{P_R})} dB\\ &= 10 \cdot \log_{10}{(\frac{15W}{0,6W})} dB\\ &= 14dB\end{aligned}$
+$\begin{split}\frac{Vor}{Rück} &= 10 \cdot \log_{10}{(\frac{P_V}{P_R})} dB\\ &= 10 \cdot \log_{10}{(\frac{15W}{0,6W})} dB\\ &= 14dB\end{split}$
 </fragment>
 
 ---
@@ -61,12 +61,12 @@ $\begin{aligned}\frac{Vor}{Rück} &= 10 \cdot \log_{10}{(\frac{P_V}{P_R})} dB\\ 
 
 <left>
 <fragment>
-$\begin{aligned}P_V &= P_{ERP}\\ &= P_S \cdot 10^{\frac{g_d}{10dB}}\\ &= 100W \cdot 10^{\frac{10dB}{10dB}}\\ &= 1000W\end{aligned}$
+$\begin{split}P_V &= P_{ERP}\\ &= P_S \cdot 10^{\frac{g_d}{10dB}}\\ &= 100W \cdot 10^{\frac{10dB}{10dB}}\\ &= 1000W\end{split}$
 </fragment>
 </left>
 <right>
 <fragment>
-$\begin{aligned}20dB &= 10 \cdot \log_{10}{(\frac{P_V}{P_R})} dB\\ \Rightarrow \frac{P_V}{P_R} &= 10^{\frac{20dB}{10}}\\ &= 100\\ \Rightarrow P_R &= \frac{P_V}{100}\\ &= \frac{1000W}{100}\\ &= 10W\end{aligned}$
+$\begin{split}20dB &= 10 \cdot \log_{10}{(\frac{P_V}{P_R})} dB\\ \Rightarrow \frac{P_V}{P_R} &= 10^{\frac{20dB}{10}}\\ &= 100\\ \Rightarrow P_R &= \frac{P_V}{100}\\ &= \frac{1000W}{100}\\ &= 10W\end{split}$
 </fragment>
 </right>
 ---
@@ -86,12 +86,12 @@ $\begin{aligned}20dB &= 10 \cdot \log_{10}{(\frac{P_V}{P_R})} dB\\ \Rightarrow \
 
 <left>
 <fragment>
-$\begin{aligned}P_V &= P_{ERP}\\ &= P_S \cdot 10^{\frac{g_d}{10dB}}\\ &= 6W \cdot 10^{\frac{15dB}{10dB}}\\ &= 189,7W\end{aligned}$
+$\begin{split}P_V &= P_{ERP}\\ &= P_S \cdot 10^{\frac{g_d}{10dB}}\\ &= 6W \cdot 10^{\frac{15dB}{10dB}}\\ &= 189,7W\end{split}$
 </fragment>
 </left>
 <right>
 <fragment>
-$\begin{aligned}25dB &= 10 \cdot \log_{10}{(\frac{P_V}{P_R})} dB\\ \Rightarrow \frac{P_V}{P_R} &= 10^{\frac{25dB}{10}}\\ &= 316,2\\ \Rightarrow P_R &= \frac{P_V}{316,2}\\ &= \frac{189,7W}{316,2}\\ &= 0,6W\end{aligned}$
+$\begin{split}25dB &= 10 \cdot \log_{10}{(\frac{P_V}{P_R})} dB\\ \Rightarrow \frac{P_V}{P_R} &= 10^{\frac{25dB}{10}}\\ &= 316,2\\ \Rightarrow P_R &= \frac{P_V}{316,2}\\ &= \frac{189,7W}{316,2}\\ &= 0,6W\end{split}$
 </fragment>
 </right>
 
@@ -112,11 +112,11 @@ $\begin{aligned}25dB &= 10 \cdot \log_{10}{(\frac{P_V}{P_R})} dB\\ \Rightarrow \
 
 <left>
 <fragment>
-$\begin{aligned}g_D &= 20 \cdot \log_{10}{(\frac{U_V}{U_D})} dB\\ &= 20 \cdot \log_{10}{(\frac{300µV/m}{128µV/m})}\\ &= 7,4dB\end{aligned}$
+$\begin{split}g_D &= 20 \cdot \log_{10}{(\frac{U_V}{U_D})} dB\\ &= 20 \cdot \log_{10}{(\frac{300µV/m}{128µV/m})}\\ &= 7,4dB\end{split}$
 </fragment>
 </left>
 <right>
 <fragment>
-$\begin{aligned}\frac{Vor}{Rück} &= 20 \cdot \log_{10}{(\frac{U_V}{U_R})} dB\\ &= 20 \cdot \log_{10}{(\frac{300µV/m}{20µV/m})}\\ &= 23,5dB\end{aligned}$
+$\begin{split}\frac{Vor}{Rück} &= 20 \cdot \log_{10}{(\frac{U_V}{U_R})} dB\\ &= 20 \cdot \log_{10}{(\frac{300µV/m}{20µV/m})}\\ &= 23,5dB\end{split}$
 </fragment>
 </right>

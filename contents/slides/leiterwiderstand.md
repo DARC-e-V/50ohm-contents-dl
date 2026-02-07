@@ -43,10 +43,10 @@ Damit lässt sich der ohmsche Widerstand eines Drahtes bei bekanntem Material, L
 * gesucht: $R$
 
 <fragment>
-$\begin{equation} \nonumber A_{\textrm{Dr}} = \frac{d^2\cdot \pi}{4} = \frac{(0,2mm)^2 \cdot \pi}{4} = \frac{\pi}{100}mm^2 = 0,0314mm^2 \end{equation}$
+$$A_{\textrm{Dr}} = \frac{d^2\cdot \pi}{4} = \frac{(0,2mm)^2 \cdot \pi}{4} = \frac{\pi}{100}mm^2 = 0,0314mm^2$$
 </fragment>
 <fragment>
-$\begin{equation} \nonumber R = \frac{\rho\cdot l}{A_{\textrm{Dr}}} = \frac{0,018 \frac{\Omega mm^2}{m} \cdot 1,8m}{0,0314mm^2} \approx 1,02\Omega \end{equation}$
+$$R = \frac{\rho\cdot l}{A_{\textrm{Dr}}} = \frac{0,018 \frac{\Omega mm^2}{m} \cdot 1,8m}{0,0314mm^2} \approx 1,02\Omega$$
 </fragment>
 ---
 [question:AB102]
@@ -58,7 +58,7 @@ $\begin{equation} \nonumber R = \frac{\rho\cdot l}{A_{\textrm{Dr}}} = \frac{0,01
 * gesucht: $l$
 
 <fragment>
-$\begin{equation}\begin{align} \nonumber R &= \frac{\rho\cdot l}{A_{\textrm{Dr}}}\\ \nonumber \Rightarrow l &= \frac{R\cdot A_{\textrm{Dr}}}{\rho} = \frac{1,5\Omega \cdot 0,5mm^2}{0,018 \frac{\Omega mm^2}{m}} \approx 41,7m \end{align}\end{equation}$
+$\begin{split} R &= \frac{\rho\cdot l}{A_{\textrm{Dr}}}\\ \Rightarrow l &= \frac{R\cdot A_{\textrm{Dr}}}{\rho} = \frac{1,5\Omega \cdot 0,5mm^2}{0,018 \frac{\Omega mm^2}{m}} \approx 41,7m \end{split}$
 </fragment>
 
 ---

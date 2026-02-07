@@ -45,7 +45,7 @@
 * gesucht: $Z$
 
 <fragment>
-$\begin{aligned}Z &= \sqrt{Z_E \cdot Z_A}\\ &= \sqrt{240Ω \cdot 60Ω}\\ &= 120Ω\end{aligned}$ 
+$\begin{split}Z &= \sqrt{Z_E \cdot Z_A}\\ &= \sqrt{240Ω \cdot 60Ω}\\ &= 120Ω\end{split}$ 
 </fragment>
 ---
 [question:AG418]
@@ -56,7 +56,7 @@ $\begin{aligned}Z &= \sqrt{Z_E \cdot Z_A}\\ &= \sqrt{240Ω \cdot 60Ω}\\ &= 120�
 * gesucht: $Z$
 
 <fragment>
-$\begin{aligned}Z &= \sqrt{Z_E \cdot Z_A}\\ &= \sqrt{600Ω \cdot 240Ω}\\ &= 380Ω\end{aligned}$ 
+$\begin{split}Z &= \sqrt{Z_E \cdot Z_A}\\ &= \sqrt{600Ω \cdot 240Ω}\\ &= 380Ω\end{split}$ 
 </fragment>
 ---
 

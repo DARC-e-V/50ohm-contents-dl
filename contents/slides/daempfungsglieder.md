@@ -42,7 +42,7 @@ Der Name T-Konfiguration stammt vom Aufbau der Widerstände als T
 * gesucht: $\Delta P = P_2 - P_1$
 
 <fragment>
-$\begin{align}\nonumber a &= 10 \cdot \log_{10}{(\frac{P_1}{P_2})}dB\\ \nonumber \Rightarrow \frac{a}{10} &= \log_{10}{(\frac{P_1}{P_2})}dB\\ \nonumber \Rightarrow 10^{\frac{a}{10}} &= \frac{P_1}{P_2}\\ \nonumber \Rightarrow P_2 &= \frac{P_1}{10^{\frac{a}{10}}}\end{align}$
+$\begin{split} a &= 10 \cdot \log_{10}{(\frac{P_1}{P_2})}dB\\ \Rightarrow \frac{a}{10} &= \log_{10}{(\frac{P_1}{P_2})}dB\\ \Rightarrow 10^{\frac{a}{10}} &= \frac{P_1}{P_2}\\ \Rightarrow P_2 &= \frac{P_1}{10^{\frac{a}{10}}}\end{split}$
 </fragment>
 ---
 <fragment>

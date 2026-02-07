@@ -115,7 +115,7 @@ William Thomson, später Lord Kelvin, in 1853
 * gesucht: $f_0$
 
 <fragment>
-$\begin{equation}\begin{split}\nonumber f_0 &= \frac{1}{2 \cdot \pi \cdot \sqrt{L \cdot C}}\\ &= \frac{1}{2 \cdot \pi \cdot \sqrt{1,2µH \cdot 6,8pF}} = 55,7MHz \end{split}\end{equation}$
+$\begin{split} f_0 &= \frac{1}{2 \cdot \pi \cdot \sqrt{L \cdot C}}\\ &= \frac{1}{2 \cdot \pi \cdot \sqrt{1,2µH \cdot 6,8pF}} = 55,7MHz \end{split}$
 </fragment>
 <fragment>
 Widerstand $R$ wird zur Berechnung nicht benötigt.
@@ -129,7 +129,7 @@ Widerstand $R$ wird zur Berechnung nicht benötigt.
 * gesucht: $f_0$
 
 <fragment>
-$\begin{equation}\begin{split}\nonumber f_0 &= \frac{1}{2 \cdot \pi \cdot \sqrt{L \cdot C}}\\ &= \frac{1}{2 \cdot \pi \cdot \sqrt{10µH \cdot 1nF}} = 1,592MHz \end{split}\end{equation}$
+$\begin{split} f_0 &= \frac{1}{2 \cdot \pi \cdot \sqrt{L \cdot C}}\\ &= \frac{1}{2 \cdot \pi \cdot \sqrt{10µH \cdot 1nF}} = 1,592MHz \end{split}$
 </fragment>
 ---
 [question:AD210]
@@ -140,7 +140,7 @@ $\begin{equation}\begin{split}\nonumber f_0 &= \frac{1}{2 \cdot \pi \cdot \sqrt{
 * gesucht: $f_0$
 
 <fragment>
-$\begin{equation}\begin{split}\nonumber f_0 &= \frac{1}{2 \cdot \pi \cdot \sqrt{L \cdot C}}\\ = \frac{1}{2 \cdot \pi \cdot \sqrt{100µH \cdot 0,01µF}} = 159kHz \end{split}\end{equation}$
+$\begin{split} f_0 &= \frac{1}{2 \cdot \pi \cdot \sqrt{L \cdot C}}\\ &= \frac{1}{2 \cdot \pi \cdot \sqrt{100µH \cdot 0,01µF}} = 159kHz \end{split}$
 </fragment>
 ---
 [question:AD211]
@@ -151,7 +151,7 @@ $\begin{equation}\begin{split}\nonumber f_0 &= \frac{1}{2 \cdot \pi \cdot \sqrt{
 * gesucht: $f_0$
 
 <fragment>
-$\begin{equation}\begin{split}\nonumber f_0 &= \frac{1}{2 \cdot \pi \cdot \sqrt{L \cdot C}}\\ &= \frac{1}{2 \cdot \pi \cdot \sqrt{2,2µH \cdot 56pF}} = 14,34MHz$
+$\begin{split} f_0 &= \frac{1}{2 \cdot \pi \cdot \sqrt{L \cdot C}}\\ &= \frac{1}{2 \cdot \pi \cdot \sqrt{2,2µH \cdot 56pF}} = 14,34MHz \end{split}$
 </fragment>
 ---
 [question:AD212]
@@ -167,7 +167,7 @@ $\begin{equation}\begin{split}\nonumber f_0 &= \frac{1}{2 \cdot \pi \cdot \sqrt{
 $C = C_1 + C_2 + C_3 = 0,1nF + 1,5nF + 220pF = 1,82nF$
 </fragment>
 <fragment>
-$\begin{equation}\begin{split}\nonumber f_0 &= \frac{1}{2 \cdot \pi \cdot \sqrt{L \cdot C}}\\ &= \frac{1}{2 \cdot \pi \cdot \sqrt{1,2mH \cdot 1,82nF}} = 107,7kHz \end{split}\end{equation}$
+$\begin{split} f_0 &= \frac{1}{2 \cdot \pi \cdot \sqrt{L \cdot C}}\\ &= \frac{1}{2 \cdot \pi \cdot \sqrt{1,2mH \cdot 1,82nF}} = 107,7kHz \end{split}$
 </fragment>
 ---
 ### Verändern der Resonanzfrequenz
@@ -271,11 +271,11 @@ $Q = \frac{f_0}{B} = \frac{R_P}{X_L}$
 </right>
 
 <fragment>
-$\begin{equation}\begin{split}\nonumber f_0 &= \frac{1}{2 \cdot \pi \cdot \sqrt{L \cdot C}}\\ &= \frac{1}{2 \cdot \pi \cdot \sqrt{100µH \cdot 0,01µF}} = 159,2kHz \end{split}\end{equation}$
+$\begin{split} f_0 &= \frac{1}{2 \cdot \pi \cdot \sqrt{L \cdot C}}\\ &= \frac{1}{2 \cdot \pi \cdot \sqrt{100µH \cdot 0,01µF}} = 159,2kHz \end{split}$
 </fragment>
 <fragment>
 $B$ oder $X_L$ ausrechnen
-$\begin{equation}\begin{split}\nonumber X_L = \omega \cdot L = 2 \cdot \pi \cdot f_0 \cdot L\\ &= 2 \cdot \pi \cdot 159,2kHz \cdot 100µH = 100,03Ω \end{split}\end{equation}$ 
+$\begin{split} X_L &= \omega \cdot L = 2 \cdot \pi \cdot f_0 \cdot L\\ &= 2 \cdot \pi \cdot 159,2kHz \cdot 100µH = 100,03Ω \end{split}$
 </fragment>
 <fragment>
 $Q = \frac{X_L}{R_S} = \frac{100,03Ω}{10Ω} \approx 10$
@@ -294,11 +294,11 @@ $Q = \frac{X_L}{R_S} = \frac{100,03Ω}{10Ω} \approx 10$
 </right>
   
 <fragment>
-$\begin{equation}\begin{split}\nonumber f_0 &= \frac{1}{2 \cdot \pi \cdot \sqrt{L \cdot C}}\\ &= \frac{1}{2 \cdot \pi \cdot \sqrt{2,2µH \cdot 56pF}} = 14,34MHz \end{split}\end{equation}$
+$\begin{split} f_0 &= \frac{1}{2 \cdot \pi \cdot \sqrt{L \cdot C}}\\ &= \frac{1}{2 \cdot \pi \cdot \sqrt{2,2µH \cdot 56pF}} = 14,34MHz \end{split}$
 </fragment>
 <fragment>
 $B$ oder $X_L$ ausrechnen
-$\begin{equation}\begin{split}\nonumber X_L &= \omega \cdot L = 2 \cdot \pi \cdot f_0 \cdot L\\ &= 2 \cdot \pi \cdot 14,34MHz \cdot 2,2µH = 198,2Ω \end{split}\end{equation}$ 
+$\begin{split} X_L &= \omega \cdot L = 2 \cdot \pi \cdot f_0 \cdot L\\ &= 2 \cdot \pi \cdot 14,34MHz \cdot 2,2µH = 198,2Ω \end{split}$
 </fragment>
 <fragment>
 $Q = \frac{R_P}{X_L} = \frac{1kΩ}{198,2Ω} \approx 5$
@@ -336,7 +336,7 @@ Herleitung nicht gezeigt
 * gesucht: $B$
 
 <fragment>
-$\begin{equation}\begin{split}\nonumber B &= \frac{1}{2\cdot \pi \cdot R_P \cdot C}\\ &= \frac{1}{2\cdot \pi \cdot 1kΩ \cdot 56pF} = 2,84MHz \end{split}\end{equation}$
+$\begin{split} B &= \frac{1}{2\cdot \pi \cdot R_P \cdot C}\\ &= \frac{1}{2\cdot \pi \cdot 1kΩ \cdot 56pF} = 2,84MHz \end{split}$
 </fragment>
 
 ---

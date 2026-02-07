@@ -23,7 +23,7 @@ $P = U_{\text{eff}} \cdot I_{\text{eff}}$
 * gesucht: $P$
 
 <fragment>
-$\begin{equation}\begin{split} \nonumber P &=  I^2 \cdot R = \left(\frac{I_{\textrm{max}}}{\sqrt{2}}\right)^2 \cdot R\\ &= \frac{(0,5A)^2}{2} \cdot 20\Omega \\ &= \frac{1}{8}A^2 \cdot 20\Omega = 2,5W \end{split}\end{equation}$
+$\begin{split} P &=  I^2 \cdot R = \left(\frac{I_{\textrm{max}}}{\sqrt{2}}\right)^2 \cdot R\\ &= \frac{(0,5A)^2}{2} \cdot 20\Omega \\ &= \frac{1}{8}A^2 \cdot 20\Omega = 2,5W \end{split}$
 </fragment>
 
 ---

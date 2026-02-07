@@ -31,7 +31,7 @@ $435MHz \cdot \frac{1}{10^6} = \frac{435\cdot \cancel{10^6}Hz}{\cancel{10^6}} = 
 * gesucht: $f_{min}, f_{max}$
 
 <fragment>
-$\begin{aligned}f_{min} &= f\,-\,f \cdot \frac{10}{10^6}\\ &= 14,2MHz\,-\,\frac{14,2\cdot \cancel{10^6}Hz\cdot 10}{\cancel{10^6}}\\ &= 14,2MHz\,-\,142Hz\\ &= 14,199858MHz\end{aligned}$
+$\begin{split}f_{min} &= f\,-\,f \cdot \frac{10}{10^6}\\ &= 14,2MHz\,-\,\frac{14,2\cdot \cancel{10^6}Hz\cdot 10}{\cancel{10^6}}\\ &= 14,2MHz\,-\,142Hz\\ &= 14,199858MHz\end{split}$
 </fragment>
 ---
 #### Lösungsweg Teil 2
@@ -40,7 +40,7 @@ $\begin{aligned}f_{min} &= f\,-\,f \cdot \frac{10}{10^6}\\ &= 14,2MHz\,-\,\frac{
 * gesucht: $f_{min}, f_{max}$
 
 <fragment>
-$\begin{aligned}f_{max} &= f\,+\,f \cdot \frac{10}{10^6}\\ &= 14,2MHz\,+\,\frac{14,2\cdot \cancel{10^6}Hz\cdot 10}{\cancel{10^6}}\\ &= 14,2MHz\,+\,142Hz\\ &= 14,200142MHz\end{aligned}$
+$\begin{split}f_{max} &= f\,+\,f \cdot \frac{10}{10^6}\\ &= 14,2MHz\,+\,\frac{14,2\cdot \cancel{10^6}Hz\cdot 10}{\cancel{10^6}}\\ &= 14,2MHz\,+\,142Hz\\ &= 14,200142MHz\end{split}$
 </fragment>
 ---
 [question:AI506]
@@ -51,7 +51,7 @@ $\begin{aligned}f_{max} &= f\,+\,f \cdot \frac{10}{10^6}\\ &= 14,2MHz\,+\,\frac{
 * gesucht: $\Delta f$
 
 <fragment>
-$\begin{aligned}\Delta f &= 29MHz \cdot 0,01\%\\ &= 29\cdot \cancel{10^6}Hz \cdot 100\cdot \cancel{10^{-6}}\\ &= 2900Hz\end{aligned}$
+$\begin{split}\Delta f &= 29MHz \cdot 0,01\%\\ &= 29\cdot \cancel{10^6}Hz \cdot 100\cdot \cancel{10^{-6}}\\ &= 2900Hz\end{split}$
 </fragment>
 ---
 [question:AI507]
@@ -62,7 +62,7 @@ $\begin{aligned}\Delta f &= 29MHz \cdot 0,01\%\\ &= 29\cdot \cancel{10^6}Hz \cdo
 * gesucht: $\Delta f$
 
 <fragment>
-$\begin{aligned}\Delta f &= 14100kHz \cdot 0,00001\%\\ &= 14,1\cdot \cancel{10^6}Hz \cdot 0,1\cdot \cancel{10^{-6}}\\ &= 1,41Hz\end{aligned}$
+$\begin{split}\Delta f &= 14100kHz \cdot 0,00001\%\\ &= 14,1\cdot \cancel{10^6}Hz \cdot 0,1\cdot \cancel{10^{-6}}\\ &= 1,41Hz\end{split}$
 </fragment>
 ---
 [question:AI508]
@@ -73,7 +73,7 @@ $\begin{aligned}\Delta f &= 14100kHz \cdot 0,00001\%\\ &= 14,1\cdot \cancel{10^6
 * gesucht: $\Delta f$
 
 <fragment>
-$\begin{aligned}\Delta f &= 100MHz \cdot \frac{1}{10^6}\\ &= \frac{100\cdot \cancel{10^6}Hz}{\cancel{10^6}}\\ &= 100Hz\end{aligned}$
+$\begin{split}\Delta f &= 100MHz \cdot \frac{1}{10^6}\\ &= \frac{100\cdot \cancel{10^6}Hz}{\cancel{10^6}}\\ &= 100Hz\end{split}$
 </fragment>
 ---
 [question:AI509]
@@ -84,14 +84,14 @@ $\begin{aligned}\Delta f &= 100MHz \cdot \frac{1}{10^6}\\ &= \frac{100\cdot \can
 * gesucht: $f_{min},f_{max}$
 
 <fragment>
-$\begin{aligned}\Delta f &= 145MHz \cdot \frac{10}{10^6}\\ &= \frac{145\cdot \cancel{10^6}Hz \cdot 10}{\cancel{10^6}}\\ &= 1450Hz\end{aligned}$
+$\begin{split}\Delta f &= 145MHz \cdot \frac{10}{10^6}\\ &= \frac{145\cdot \cancel{10^6}Hz \cdot 10}{\cancel{10^6}}\\ &= 1450Hz\end{split}$
 </fragment>
 <fragment>
 <left>
-$\begin{aligned}f_{min} &= f\,-\,\Delta f\\ &= 145MHz\,-\,1450Hz\\ &= 144,99855MHz\end{aligned}$
+$\begin{split}f_{min} &= f\,-\,\Delta f\\ &= 145MHz\,-\,1450Hz\\ &= 144,99855MHz\end{split}$
 </left>
 <right>
-$\begin{aligned}f_{max} &= f\,+\,\Delta f\\ &= 145MHz\,+\,1450Hz\\ &= 145,00145MHz\end{aligned}$
+$\begin{split}f_{max} &= f\,+\,\Delta f\\ &= 145MHz\,+\,1450Hz\\ &= 145,00145MHz\end{split}$
 </right>
 </fragment>
 ---
@@ -105,11 +105,11 @@ $\begin{aligned}f_{max} &= f\,+\,\Delta f\\ &= 145MHz\,+\,1450Hz\\ &= 145,00145M
 
 <fragment>
 <left>
-$\begin{aligned}\Delta f &= 144,4MHz \cdot \frac{1}{10^6}\\ &= \frac{144,4\cdot \cancel{10^6}Hz}{\cancel{10^6}}\\ &= 144,4Hz\end{aligned}$
+$\begin{split}\Delta f &= 144,4MHz \cdot \frac{1}{10^6}\\ &= \frac{144,4\cdot \cancel{10^6}Hz}{\cancel{10^6}}\\ &= 144,4Hz\end{split}$
 </left>
 </fragment>
 <fragment>
 <right>
-$\begin{aligned}f_{B,max,Abw} &= f_{B,max} + \Delta f\\ &= 2,7kHz + 144,4Hz\\ &= 2,8444kHz\end{aligned}$
+$\begin{split}f_{B,max,Abw} &= f_{B,max} + \Delta f\\ &= 2,7kHz + 144,4Hz\\ &= 2,8444kHz\end{split}$
 </right>
 </fragment>

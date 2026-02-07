@@ -17,7 +17,7 @@ $Z = \dfrac{120Ω}{\sqrt{\epsilon_\mathrm{r}}} \cdot \ln{(\dfrac{2 \cdot a}{d})}
 * gesucht: $Z$
 
 <fragment>
-$\begin{aligned}Z &= \dfrac{120Ω}{\sqrt{\epsilon_\mathrm{r}}} \cdot \ln{(\dfrac{2 \cdot a}{d})}\\ &= \dfrac{120Ω}{\sqrt{1}} \cdot \ln{(\dfrac{2 \cdot 200mm}{2mm})}\\ &\approx 635Ω\end{aligned}$
+$\begin{split}Z &= \dfrac{120Ω}{\sqrt{\epsilon_\mathrm{r}}} \cdot \ln{(\dfrac{2 \cdot a}{d})}\\ &= \dfrac{120Ω}{\sqrt{1}} \cdot \ln{(\dfrac{2 \cdot 200mm}{2mm})}\\ &\approx 635Ω\end{split}$
 </fragment>
 ---
 ## Wellenwiderstand einer Koaxialleitung
@@ -39,7 +39,7 @@ $Z = \dfrac{60Ω}{\sqrt{\epsilon_\mathrm{r}}} \cdot \ln{\dfrac{D}{d}}$
 * gesucht: $Z$
 
 <fragment>
-$\begin{aligned}Z &= \dfrac{60Ω}{\sqrt{\epsilon_\mathrm{r}}} \cdot \ln{(\dfrac{D}{d})}\\ &= \dfrac{60Ω}{\sqrt{1}} \cdot \ln{(\dfrac{5mm}{1mm})}\\ &\approx 97Ω\end{aligned}$
+$\begin{split}Z &= \dfrac{60Ω}{\sqrt{\epsilon_\mathrm{r}}} \cdot \ln{(\dfrac{D}{d})}\\ &= \dfrac{60Ω}{\sqrt{1}} \cdot \ln{(\dfrac{5mm}{1mm})}\\ &\approx 97Ω\end{split}$
 </fragment>
 ---
 [question:AG307]
@@ -51,7 +51,7 @@ $\begin{aligned}Z &= \dfrac{60Ω}{\sqrt{\epsilon_\mathrm{r}}} \cdot \ln{(\dfrac{
 * gesucht: $Z$
 
 <fragment>
-$\begin{aligned}Z &= \dfrac{60Ω}{\sqrt{\epsilon_\mathrm{r}}} \cdot \ln{(\dfrac{D}{d})}\\ &= \dfrac{60Ω}{\sqrt{2,29}} \cdot \ln{(\dfrac{4,4mm}{0,7mm})}\\ &\approx 75Ω\end{aligned}$
+$\begin{split}Z &= \dfrac{60Ω}{\sqrt{\epsilon_\mathrm{r}}} \cdot \ln{(\dfrac{D}{d})}\\ &= \dfrac{60Ω}{\sqrt{2,29}} \cdot \ln{(\dfrac{4,4mm}{0,7mm})}\\ &\approx 75Ω\end{split}$
 </fragment>
 ---
 ### Anpassung von Koaxialleitungen

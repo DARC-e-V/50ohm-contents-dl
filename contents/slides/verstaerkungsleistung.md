@@ -11,7 +11,7 @@
 * gesucht: $g$
 
 <fragment>
-$\begin{equation}\begin{split}\nonumber g &= 20\cdot \log_{10}{\left(\frac{U_2}{U_1}\right)}dB\\ &= 20\cdot \log_{10}{\left(\frac{4mV}{1mV}\right)}dB = 12dB \end{split}\end{equation}$
+$\begin{split} g &= 20\cdot \log_{10}{\left(\frac{U_2}{U_1}\right)}dB\\ &= 20\cdot \log_{10}{\left(\frac{4mV}{1mV}\right)}dB = 12dB \end{split}$
 </fragment>
 ---
 [question:AD428]
@@ -22,7 +22,7 @@ $\begin{equation}\begin{split}\nonumber g &= 20\cdot \log_{10}{\left(\frac{U_2}{
 * gesucht: $g$
 
 <fragment>
-$\begin{equation}\begin{split}\nonumber g &= 10\cdot \log_{10}{\left(\frac{P_2}{P_1}\right)}dB\\ &= 10\cdot \log_{10}{\left(\frac{38W}{2,5W}\right)}dB = 11,8dB \end{split}\end{equation}$
+$\begin{split} g &= 10\cdot \log_{10}{\left(\frac{P_2}{P_1}\right)}dB\\ &= 10\cdot \log_{10}{\left(\frac{38W}{2,5W}\right)}dB = 11,8dB \end{split}$
 </fragment>
 ---
 [question:AD426]

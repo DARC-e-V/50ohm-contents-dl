@@ -68,8 +68,8 @@
 $f_{ZF} = |f_E − f_{OSZ}| \Rightarrow f_{OSZ} = f_{ZF} \pm f_{E}$
 </fragment>
 <fragment>
-1. Lösung: $\begin{equation}\begin{split}\nonumber f_{OSZ} &= f_{ZF} \, + \, f_{E}\\ &= 50MHz \, + \, 3\dots30MHz\\ &= 53\dots80MHz \end{split}\end{equation}$
-2. Lösung: $\begin{equation}\begin{split}\nonumber f_{OSZ} &= f_{ZF} \, - \, f_{E}\\ &= 50MHz \, - \, 3\dots30MHz\\ &= 47\dots20MHz \end{split}\end{equation}$
+1. Lösung: $\begin{split} f_{OSZ} &= f_{ZF} \, + \, f_{E}\\ &= 50MHz \, + \, 3\dots30MHz\\ &= 53\dots80MHz \end{split}$
+2. Lösung: $\begin{split} f_{OSZ} &= f_{ZF} \, - \, f_{E}\\ &= 50MHz \, - \, 3\dots30MHz\\ &= 47\dots20MHz \end{split}$
 </fragment>
 ---
 [question:AF120]

@@ -137,7 +137,7 @@
 * gesucht: $f_{USB}$
 
 <fragment>
-$\begin{aligned}f_{USB} &= f_Q - (f_{LSB} - f_Q)\\ &= 9MHz - (9,0015MHz - 9MHz)\\ &= 9MHz - 0,0015MHz\\ &=8,9985MHz\end{aligned}$ 
+$\begin{split}f_{USB} &= f_Q - (f_{LSB} - f_Q)\\ &= 9MHz - (9,0015MHz - 9MHz)\\ &= 9MHz - 0,0015MHz\\ &=8,9985MHz\end{split}$ 
 </fragment>
 
 ---

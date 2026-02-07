@@ -34,7 +34,7 @@ DIN EN 50413, für Amateurfunk relevant nur ATV mit 0,38 und SATV mit 0,54
 </right>
 
 <fragment>
-$\begin{aligned}E &= \frac{\sqrt{30Ω \cdot P_A \cdot G_i}}{d}\\ \Rightarrow d &= \frac{\sqrt{30Ω \cdot P_A \cdot G_i}}{E}\\ &= \frac{\sqrt{30Ω \cdot 100W \cdot 1,64}}{28\frac{V}{m}}\\ &= 2,5m\end{aligned}$
+$\begin{split}E &= \frac{\sqrt{30Ω \cdot P_A \cdot G_i}}{d}\\ \Rightarrow d &= \frac{\sqrt{30Ω \cdot P_A \cdot G_i}}{E}\\ &= \frac{\sqrt{30Ω \cdot 100W \cdot 1,64}}{28\frac{V}{m}}\\ &= 2,5m\end{split}$
 </fragment>
 
 ---
@@ -63,12 +63,12 @@ $P_\text{EIRP} = P_S\cdot10^{\frac{g_d - a + 2,15}{10}}$
 
 <fragment>
 <left>
-$\begin{aligned}P_{EIRP} &= P_S \cdot 10^{\frac{g_d -a + 2,15dB}{10dB}}\\ &= 300W \cdot 10^{\frac{0dBd - 0,5dB + 2,15dB}{10dB}}\\ &= 438,7W\end{aligned}$
+$\begin{split}P_{EIRP} &= P_S \cdot 10^{\frac{g_d -a + 2,15dB}{10dB}}\\ &= 300W \cdot 10^{\frac{0dBd - 0,5dB + 2,15dB}{10dB}}\\ &= 438,7W\end{split}$
 </left>
 </fragment>
 <fragment>
 <right>
-$\begin{aligned}E &= \frac{\sqrt{30Ω \cdot P_{EIRP}}}{d}\\ \Rightarrow d &= \frac{\sqrt{30Ω \cdot P_{EIRP}}}{E}\\ &= \frac{\sqrt{30Ω \cdot 438,7W}}{28\frac{V}{m}}\\ &= 4,10m\end{aligned}$
+$\begin{split}E &= \frac{\sqrt{30Ω \cdot P_{EIRP}}}{d}\\ \Rightarrow d &= \frac{\sqrt{30Ω \cdot P_{EIRP}}}{E}\\ &= \frac{\sqrt{30Ω \cdot 438,7W}}{28\frac{V}{m}}\\ &= 4,10m\end{split}$
 </right>
 </fragment>
 
@@ -90,12 +90,12 @@ $\begin{aligned}E &= \frac{\sqrt{30Ω \cdot P_{EIRP}}}{d}\\ \Rightarrow d &= \fr
 
 <fragment>
 <left>
-$\begin{aligned}P_{EIRP} &= P_S \cdot 10^{\frac{g_d -a + 2,15dB}{10dB}}\\ &= 700W \cdot 10^{\frac{0dBd - 0,5dB + 2,15dB}{10dB}}\\ &= 1023,5W\end{aligned}$
+$\begin{split}P_{EIRP} &= P_S \cdot 10^{\frac{g_d -a + 2,15dB}{10dB}}\\ &= 700W \cdot 10^{\frac{0dBd - 0,5dB + 2,15dB}{10dB}}\\ &= 1023,5W\end{split}$
 </left>
 </fragment>
 <fragment>
 <right>
-$\begin{aligned}E &= \frac{\sqrt{30Ω \cdot P_{EIRP}}}{d}\\ \Rightarrow d &= \frac{\sqrt{30Ω \cdot P_{EIRP}}}{E}\\ &= \frac{\sqrt{30Ω \cdot 1023,5W}}{28\frac{V}{m}}\\ &= 6,26m\end{aligned}$
+$\begin{split}E &= \frac{\sqrt{30Ω \cdot P_{EIRP}}}{d}\\ \Rightarrow d &= \frac{\sqrt{30Ω \cdot P_{EIRP}}}{E}\\ &= \frac{\sqrt{30Ω \cdot 1023,5W}}{28\frac{V}{m}}\\ &= 6,26m\end{split}$
 </right>
 </fragment>
 
@@ -117,12 +117,12 @@ $\begin{aligned}E &= \frac{\sqrt{30Ω \cdot P_{EIRP}}}{d}\\ \Rightarrow d &= \fr
 
 <fragment>
 <left>
-$\begin{aligned}P_{EIRP} &= P_S \cdot 10^{\frac{g_d -a + 2,15dB}{10dB}}\\ &= 75W \cdot 10^{\frac{11,5dBd - 1,5dB + 2,15dB}{10dB}}\\ &= 1230,4W\end{aligned}$
+$\begin{split}P_{EIRP} &= P_S \cdot 10^{\frac{g_d -a + 2,15dB}{10dB}}\\ &= 75W \cdot 10^{\frac{11,5dBd - 1,5dB + 2,15dB}{10dB}}\\ &= 1230,4W\end{split}$
 </left>
 </fragment>
 <fragment>
 <right>
-$\begin{aligned}E &= \frac{\sqrt{30Ω \cdot P_{EIRP}}}{d}\\ \Rightarrow d &= \frac{\sqrt{30Ω \cdot P_{EIRP}}}{E}\\ &= \frac{\sqrt{30Ω \cdot 1230,4W}}{28\frac{V}{m}}\\ &= 6,86m\end{aligned}$
+$\begin{split}E &= \frac{\sqrt{30Ω \cdot P_{EIRP}}}{d}\\ \Rightarrow d &= \frac{\sqrt{30Ω \cdot P_{EIRP}}}{E}\\ &= \frac{\sqrt{30Ω \cdot 1230,4W}}{28\frac{V}{m}}\\ &= 6,86m\end{split}$
 </right>
 </fragment>
 
@@ -144,12 +144,12 @@ $\begin{aligned}E &= \frac{\sqrt{30Ω \cdot P_{EIRP}}}{d}\\ \Rightarrow d &= \fr
 
 <fragment>
 <left>
-$\begin{aligned}P_{EIRP} &= P_S \cdot 10^{\frac{g_d -a + 2,15dB}{10dB}}\\ &= 100W \cdot 10^{\frac{10,5dBd - 1,5dB + 2,15dB}{10dB}}\\ &= 1303,2W\end{aligned}$
+$\begin{split}P_{EIRP} &= P_S \cdot 10^{\frac{g_d -a + 2,15dB}{10dB}}\\ &= 100W \cdot 10^{\frac{10,5dBd - 1,5dB + 2,15dB}{10dB}}\\ &= 1303,2W\end{split}$
 </left>
 </fragment>
 <fragment>
 <right>
-$\begin{aligned}E &= \frac{\sqrt{30Ω \cdot P_{EIRP}}}{d}\\ \Rightarrow d &= \frac{\sqrt{30Ω \cdot P_{EIRP}}}{E}\\ &= \frac{\sqrt{30Ω \cdot 1303,2W}}{28\frac{V}{m}}\\ &= 7,1m\end{aligned}$
+$\begin{split}E &= \frac{\sqrt{30Ω \cdot P_{EIRP}}}{d}\\ \Rightarrow d &= \frac{\sqrt{30Ω \cdot P_{EIRP}}}{E}\\ &= \frac{\sqrt{30Ω \cdot 1303,2W}}{28\frac{V}{m}}\\ &= 7,1m\end{split}$
 </right>
 </fragment>
 
@@ -171,11 +171,11 @@ $\begin{aligned}E &= \frac{\sqrt{30Ω \cdot P_{EIRP}}}{d}\\ \Rightarrow d &= \fr
 
 <fragment>
 <left>
-$\begin{aligned}P_{EIRP} &= P_S \cdot 10^{\frac{g_d -a + 2,15dB}{10dB}}\\ &= 40W \cdot 10^{\frac{18dBd - 2dB + 2,15dB}{10dB}}\\ &= 2612,5W\end{aligned}$
+$\begin{split}P_{EIRP} &= P_S \cdot 10^{\frac{g_d -a + 2,15dB}{10dB}}\\ &= 40W \cdot 10^{\frac{18dBd - 2dB + 2,15dB}{10dB}}\\ &= 2612,5W\end{split}$
 </left>
 </fragment>
 <fragment>
 <right>
-$\begin{aligned}E &= \frac{\sqrt{30Ω \cdot P_{EIRP}}}{d}\\ \Rightarrow d &= \frac{\sqrt{30Ω \cdot P_{EIRP}}}{E}\\ &= \frac{\sqrt{30Ω \cdot 2612,5W}}{61\frac{V}{m}}\\ &= 4,6m\end{aligned}$
+$\begin{split}E &= \frac{\sqrt{30Ω \cdot P_{EIRP}}}{d}\\ \Rightarrow d &= \frac{\sqrt{30Ω \cdot P_{EIRP}}}{E}\\ &= \frac{\sqrt{30Ω \cdot 2612,5W}}{61\frac{V}{m}}\\ &= 4,6m\end{split}$
 </right>
 </fragment>
