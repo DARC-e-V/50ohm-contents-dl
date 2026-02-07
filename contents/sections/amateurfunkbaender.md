@@ -5,7 +5,7 @@ Für diese Fragen ist wirklich kein Auswendiglernen oder Ausrechnen erforderlich
 </tip>
 
 <margin>
-[picture:749:amateuerfunkbaender_2:Frequenzbereiche im Amateurfunk unter 300 MHz]
+[picture:749:amateuerfunkbaender_2:Frequenzbereiche im Amateurfunk unter $\qty{300}{\mega\hertz}$]
 </margin>
 
 [question:VD709]
@@ -20,7 +20,7 @@ Für diese Fragen ist wirklich kein Auswendiglernen oder Ausrechnen erforderlich
 [question:VD718]
 
 <margin>
-[picture:750:amateuerfunkbaender_1:Frequenzbereiche im Amateurfunk über 300 MHz]
+[picture:750:amateuerfunkbaender_1:Frequenzbereiche im Amateurfunk über $\qty{300}{\mega\hertz}$]
 </margin>
 
 [question:VD719]
