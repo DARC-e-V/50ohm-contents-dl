@@ -13,11 +13,11 @@ Die beiden Formeln finden sich auch in der Formelsammlung, die bei der Prüfung 
 
 Teilt man also 300 durch die Wellenlänge in Metern, erhält man die Frequenz in MHz. Und genauso andersherum: Teilt man 300 durch die Frequenz in MHz, erhält man die Wellenlänge in Metern.
 
-Wollen wir also beispielsweise die Wellenlänge der Frequenz 145,3 MHz berechnen, dann setzen wir diese in die erste Formel ein und lösen dann:
+Wollen wir also beispielsweise die Wellenlänge der Frequenz 145,3 MHz berechnen, dann setzen wir diese in die zweite Formel ein und lösen dann:
 
 $\lambda[[\text{m}]] = \dfrac{300}{f[[\text{MHz}]]} = \dfrac{300}{145,3 \ \text{MHz}} \approx 2,06 \ \text{m}$
 
-Genauso funktioniert es andersherum. Setzen wir die Wellenlänge von 2,06 m in die zweite Formel ein, dann kommt die ursprüngliche Frequenz heraus:
+Genauso funktioniert es andersherum. Setzen wir die Wellenlänge von 2,06 m in die erste Formel ein, dann kommt die ursprüngliche Frequenz heraus:
 
 $f[[\text{MHz}]] = \dfrac{300}{\lambda[[\text{m}]]} = \dfrac{300}{2,06 \ \text{m}} \approx 145,3 \ \text{MHz}$
 
