@@ -14,15 +14,15 @@ In den Prüfungsfragen der Klasse E wurden die wichtigsten Regionen der Ionosph�
 [picture:874:a_schichten_jahreszeiten:Mögliche höhen der Regionen in Abhängigkeit von der Jahres- und Tageszeit]
 </margin>
 
-Diese Abhängigkeit von der Tageszeit hat eine große Auswirkung auf die Ausbreitung unserer Funkwellen. Im Sonnenfleckenmaximum funktioniert das 10-Meter-Band auch tagsüber gut. Im Sonnenfleckenminimum dagegen ist das 10-Meter-Band tagsüber kaum nutzbar. Deshalb wird in dieser Zeit für Weitverbindungen tagsüber häufig auf das 20-Meter-Band zurückgegriffen.
+Diese Abhängigkeit von der Tageszeit hat eine große Auswirkung auf die Ausbreitung unserer Funkwellen. Im Sonnenfleckenmaximum funktioniert das $\qty{10}{\meter}$-Band auch tagsüber gut. Im Sonnenfleckenminimum dagegen ist das $\qty{10}{\meter}$-Band tagsüber kaum nutzbar. Deshalb wird in dieser Zeit für Weitverbindungen tagsüber häufig auf das $\qty{20}{\meter}$-Band zurückgegriffen.
 
 [question:AH202]
 
-Ein Band, das eigentlich fast immer gut und zuverlässig funktioniert, ist das 40-Meter-Band, das genauso wie das 20-Meter-Band der Klasse A vorbehalten ist. Gerade für innerdeutsche Weitverbindungen, zum Beispiel von Hamburg nach München, zeigt es eine sehr verlässliche Performance.
+Ein Band, das eigentlich fast immer gut und zuverlässig funktioniert, ist das $\qty{40}{\meter}$-Band, das genauso wie das $\qty{20}{\meter}$-Band der Klasse A vorbehalten ist. Gerade für innerdeutsche Weitverbindungen, zum Beispiel von Hamburg nach München, zeigt es eine sehr verlässliche Performance.
 
 [question:AH201]
 
-Tagsüber sind aufgrund der stark ionisierten D-Schicht das 80- und das 160-Meter-Band kaum nutzbar, doch sobald die Sonne untergeht, ermöglichen auch diese Bänder eine zuverlässige Kommunikation. Mit dem 40-Meter-Band sind sogar noch größere Reichweiten möglich, da die Ausbreitung dann ausschließlich über die höhere F2-Schicht erfolgt und nicht mehr durch die niedrigere F1-Schicht. Letztere führt aufgrund ihrer geringeren Höhe zu kürzeren Sprungdistanzen und ist deshalb meist unerwünscht.
+Tagsüber sind aufgrund der stark ionisierten D-Schicht das $\num{80}$ und das $\qty{160}{\meter}$-Band kaum nutzbar, doch sobald die Sonne untergeht, ermöglichen auch diese Bänder eine zuverlässige Kommunikation. Mit dem $\qty{40}{\meter}$-Band sind sogar noch größere Reichweiten möglich, da die Ausbreitung dann ausschließlich über die höhere F2-Schicht erfolgt und nicht mehr durch die niedrigere F1-Schicht. Letztere führt aufgrund ihrer geringeren Höhe zu kürzeren Sprungdistanzen und ist deshalb meist unerwünscht.
 
 
 [question:AH203]

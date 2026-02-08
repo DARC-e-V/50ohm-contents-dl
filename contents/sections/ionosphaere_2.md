@@ -4,7 +4,7 @@ Die von der Sonne kommende Strahlung schlägt Elektronen aus den Sauerstoff- und
 
 [question:EH101]
 
-Dieser Prozess verleiht insbesondere der Kurzwelle ihre einzigartigen Fähigkeiten. Dabei bestimmt die Dichte dieser freien Elektronen, welche Frequenzen noch gebrochen werden können: Je höher die Dichte, desto höher die Frequenz. Daher brauchen wir für die oberen Kurzwellenbänder hohe Ionisation und damit ein hohes Maß an der dafür notwendigen Sonnenstrahlung. Deshalb ist insbesondere während des Sonnenfleckenmaximums das 10-Meter-Band ($\qtyrange{28,0}{29,7}{\mega\hertz}$) tagsüber besonders gut nutzbar – und das selbst bei geringer Sendeleistung.
+Dieser Prozess verleiht insbesondere der Kurzwelle ihre einzigartigen Fähigkeiten. Dabei bestimmt die Dichte dieser freien Elektronen, welche Frequenzen noch gebrochen werden können: Je höher die Dichte, desto höher die Frequenz. Daher brauchen wir für die oberen Kurzwellenbänder hohe Ionisation und damit ein hohes Maß an der dafür notwendigen Sonnenstrahlung. Deshalb ist insbesondere während des Sonnenfleckenmaximums das $\qty{10}{\meter}$-Band ($\qtyrange{28,0}{29,7}{\mega\hertz}$) tagsüber besonders gut nutzbar – und das selbst bei geringer Sendeleistung.
 
 <margin>
 [picture:865:e_wellenausbreitung_refraktion:Refraktion an Schichten der Ionosphäre]
@@ -39,7 +39,7 @@ Wenn nach Sonnenuntergang keine Strahlung von der Sonne mehr kommt, rekombiniere
 
 In $\num{90}$ bis $\qty{130}{\kilo\meter}$ Höhe schließt sich die *E-Region* an, welche wir schon in den Prüfungsfragen zur Klasse N kennen gelernt haben. Sie bricht unter normalen Umständen schräg einfallende Funkwellen bis etwa $\qty{10}{\mega\hertz}$, mit einem Sprung können dabei etwas mehr als $\qty{2000}{\kilo\meter}$ überbrückt werde. Auch die E-Region löst sich nach Sonnenuntergang binnen weniger Minuten auf.
 
-In dieser Region findet sich in den gemäßigten Breiten vor allem in den Sommermonaten ein besonderes Phänomen, die *sporadische E-Schicht* (kurz *Es*). Sie besteht aus meist kleinräumigen, sehr stark ionosierten Bereichen und ist in der Lage, Funkwellen viel höherer Frequenz zu brechen, bis hinauf in das 2-Meter-Band.
+In dieser Region findet sich in den gemäßigten Breiten vor allem in den Sommermonaten ein besonderes Phänomen, die *sporadische E-Schicht* (kurz *Es*). Sie besteht aus meist kleinräumigen, sehr stark ionosierten Bereichen und ist in der Lage, Funkwellen viel höherer Frequenz zu brechen, bis hinauf in das $\qty{2}{\meter}$-Band.
 
 <margin>
 [picture:733:e_sporadic_e:Refraktion (Brechung) von Funkwellen an stark ionisierten Bereichen der E-Schicht]
@@ -69,6 +69,6 @@ Zur Ionisation wird Strahlung im extremen Ultraviolett- sowie im Röntgenbereich
 
 [question:EH107]
 
-Während des Aktivitätsmaximums erreicht die Sonnenaktivität ein besonders hohes Niveau und führt zu einer ausgeprägten Ionisation der F-Region. Deshalb können dann alle oberen Kurzwellenbänder und teilweise sogar das 6-Meter-Band für DX-Verbindungen genutzt werden, währenddessen im Aktivitätsminimum die Frequenzbänder oberhalb des 20-Meter-Bandes (z.B. $\qty{10}{\meter}$) meist nicht nutzbar sind.
+Während des Aktivitätsmaximums erreicht die Sonnenaktivität ein besonders hohes Niveau und führt zu einer ausgeprägten Ionisation der F-Region. Deshalb können dann alle oberen Kurzwellenbänder und teilweise sogar das $\qty{6}{\meter}$-Band für DX-Verbindungen genutzt werden, währenddessen im Aktivitätsminimum die Frequenzbänder oberhalb des $\qty{20}{\meter}$-Bandes (z.B. $\qty{10}{\meter}$) meist nicht nutzbar sind.
 
 [question:EH205]
