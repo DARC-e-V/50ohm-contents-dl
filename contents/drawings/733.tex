@@ -13,12 +13,12 @@
     \draw (c1) node [dinantenna, scale={\getDarcImageFactor*0.5}, rotate=+45](tx){};
     \draw (c0) node [dinantenna, scale={\getDarcImageFactor*0.5}, rotate=-45](rx){};
     %
-    \path[DARCred, ultra thick] (tx.right)
-    -- (0,3.9) coordinate(reflectionpoint)
+    \path[DARCred, ultra thick] (tx.right) 
+    -- (0,3.9) coordinate(reflectionpoint) 
     -- (rx.left);
     \draw(reflectionpoint) node[ellipse, fill={DARCorange!50!DARCgray}, minimum height=0.25cm, minimum width=0.5cm, inner sep=0pt](){};
-    \draw[DARCred, ultra thick] (tx.right)
-    -- (reflectionpoint)
+    \draw[DARCred, ultra thick] (tx.right) [rounded corners]
+    -- (reflectionpoint) [rounded corners]
     -- (rx.left);
     \draw[DARCred, ultra thick, dashed] (tx.right)
     -- (0.25,5.5);
