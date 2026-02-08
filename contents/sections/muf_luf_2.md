@@ -3,7 +3,7 @@ Die *MUF* (*maximum usable frequency*), also die höchste Frequenz, die die Iono
 [question:AH206]
 [question:AH207]
 
-Wie wir auch schon wissen, ist die reichweite der Raumwellen vom Abstrahlwinkel abhängig. Je flacher die Welle auf die Ionosphäre auftrifft, desto leichter erfolgt die Brechnung. Dieser Zusammenhang gitl auch für die MUF: Die gerade noch zurückgebrochene Frequenz, die *MUF*, ist umso höher, je flacher unser Signal in die Ionosphäre einfällt. Die Abbildung [ref:e_muf_winkel2] zeigt eine Simulation der Sprungdistanz für einen Sommertag im Jahr 2024 für ein Amateurfunksignal um die $\qty{7}{\mega\hertz}$. Bei $\qty{45}{\degree}$ lag die MUF an diesem Tag bei $\qty{7.5}{\mega\hertz}$. Ändert man den Abstrahlwinkel, verändert sich auch die MUF: Strahlt man steiler ab (z. B. $\qty{60}{\degree}$), sinkt die MUF und die Funkwelle wird nicht mehr refraktiert. Strahlt man hingegen flacher ab (z. B. $\qty{30}{\degree}$), so erhöht sich die MUF. Im Folgenden werden wir diesen Zusammenhang genauer betrachten.
+Wie wir auch schon wissen, ist die reichweite der Raumwellen vom Abstrahlwinkel abhängig. Je flacher die Welle auf die Ionosphäre auftrifft, desto leichter erfolgt die Brechnung. Dieser Zusammenhang gitl auch für die MUF: Die gerade noch zurückgebrochene Frequenz, die *MUF*, ist umso höher, je flacher unser Signal in die Ionosphäre einfällt. Die Abbildung [ref:e_muf_winkel2] zeigt eine Simulation der Sprungdistanz für einen Sommertag im Jahr 2024 für ein Amateurfunksignal um die $\qty{7}{\mega\hertz}$. Bei $\qty{45}{\degree}$ lag die MUF an diesem Tag bei $\qty{7,5}{\mega\hertz}$. Ändert man den Abstrahlwinkel, verändert sich auch die MUF: Strahlt man steiler ab (z. B. $\qty{60}{\degree}$), sinkt die MUF und die Funkwelle wird nicht mehr refraktiert. Strahlt man hingegen flacher ab (z. B. $\qty{30}{\degree}$), so erhöht sich die MUF. Im Folgenden werden wir diesen Zusammenhang genauer betrachten.
 
 <margin>
 [picture:998:e_muf_winkel2:Sprungdistanz bei 7 MHz im Sommer 2024]
@@ -30,13 +30,13 @@ Die kritische Frequenz ist also die höchste Frequenz, die aus der Ionosphäre w
 
 ---
 
-Die Abbildung [ref:e_muf_fof2] zeigt den zeitlichen Verlauf von MUF und $f_\text{c}$ am 08.09.2025, gemessen mit der Ionosonde in Juliusruh. MUF $\qty{3000}{km}$ bedeutet in diesem Fall, dass sehr flach abgestrahlt wird, um eine Sprungdistanz von $\qty{3000}{km}$ zu erreichen.
+Die Abbildung [ref:e_muf_fof2] zeigt den zeitlichen Verlauf von MUF und $f_\text{c}$ am 08.09.2025, gemessen mit der Ionosonde in Juliusruh. MUF $\qty{3000}{\kilo\meter}$ bedeutet in diesem Fall, dass sehr flach abgestrahlt wird, um eine Sprungdistanz von $\qty{3000}{\kilo\meter}$ zu erreichen.
 
 <margin>
 [picture:999:e_muf_fof2:MUF und $f_\text{c}$ am 08.09.2025]
 </margin>
 
-Für andere Abstrahlwinkel lässt sich die MUF aus der $f_\text{c}$ mithilfe der folgenden Formel aus der Formelsammlung näherungsweise bestimmen (gilt für $\alpha > 40\degree$): 
+Für andere Abstrahlwinkel lässt sich die MUF aus der $f_\text{c}$ mithilfe der folgenden Formel aus der Formelsammlung näherungsweise bestimmen (gilt für $\alpha > \qty{40}{\degree}$):
 
 $MUF \approx \frac{f_\text{c}}{sin(\alpha)}$
 

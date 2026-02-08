@@ -31,7 +31,7 @@ Tagsüber sind aufgrund der stark ionisierten D-Schicht das 80- und das 160-Mete
 
 ---
 
-Zur Messung der Sonnenaktivität gibt es zwei verbreitete Methoden: Die Zählung der Sonnenflecken (für die wir seit Mitte des 18. Jahrhunderts zuverlässige Werte haben) und die Messung des solaren Flux, der Strahlung der Sonne auf 2,8 GHz (Wellenlänge von 10,7 cm), die seit Mitte des 20. Jahrhunderts durchgeführt wird. Beide Angaben korrelieren stark miteinander. Der solare Flux ist weniger sprunghaft und reicht von etwa 65 im Aktivitätsminimum bis über 300 bei sehr starken Maxima. Fluxwerte über 100 führen zu einem stark erhöhten Ionisationsgrad in der Ionosphäre und zu einer erheblich verbesserten Fernausbreitung auf den höheren Kurzwellenbändern.
+Zur Messung der Sonnenaktivität gibt es zwei verbreitete Methoden: Die Zählung der Sonnenflecken (für die wir seit Mitte des 18. Jahrhunderts zuverlässige Werte haben) und die Messung des solaren Flux, der Strahlung der Sonne auf $\qty{2,8}{\giga\hertz}$ (Wellenlänge von $\qty{10,7}{\centi\meter}$), die seit Mitte des 20. Jahrhunderts durchgeführt wird. Beide Angaben korrelieren stark miteinander. Der solare Flux ist weniger sprunghaft und reicht von etwa 65 im Aktivitätsminimum bis über 300 bei sehr starken Maxima. Fluxwerte über 100 führen zu einem stark erhöhten Ionisationsgrad in der Ionosphäre und zu einer erheblich verbesserten Fernausbreitung auf den höheren Kurzwellenbändern.
 
 <margin>
 [picture:988:a_flux:Solarer Flux und Anzahl der Sonnenflecken von 2005 bis 2025]

@@ -4,7 +4,7 @@ Die von der Sonne kommende Strahlung schlägt Elektronen aus den Sauerstoff- und
 
 [question:EH101]
 
-Dieser Prozess verleiht insbesondere der Kurzwelle ihre einzigartigen Fähigkeiten. Dabei bestimmt die Dichte dieser freien Elektronen, welche Frequenzen noch gebrochen werden können: Je höher die Dichte, desto höher die Frequenz. Daher brauchen wir für die oberen Kurzwellenbänder hohe Ionisation und damit ein hohes Maß an der dafür notwendigen Sonnenstrahlung. Deshalb ist insbesondere während des Sonnenfleckenmaximums das 10-Meter-Band (28,0–29,7 MHz) tagsüber besonders gut nutzbar – und das selbst bei geringer Sendeleistung. 
+Dieser Prozess verleiht insbesondere der Kurzwelle ihre einzigartigen Fähigkeiten. Dabei bestimmt die Dichte dieser freien Elektronen, welche Frequenzen noch gebrochen werden können: Je höher die Dichte, desto höher die Frequenz. Daher brauchen wir für die oberen Kurzwellenbänder hohe Ionisation und damit ein hohes Maß an der dafür notwendigen Sonnenstrahlung. Deshalb ist insbesondere während des Sonnenfleckenmaximums das 10-Meter-Band ($\qtyrange{28,0}{29,7}{\mega\hertz}$) tagsüber besonders gut nutzbar – und das selbst bei geringer Sendeleistung.
 
 <margin>
 [picture:865:e_wellenausbreitung_refraktion:Refraktion an Schichten der Ionosphäre]
@@ -26,9 +26,9 @@ Für den Kurzwellenbereich sind insbesondere drei Regionen der Ionosphäre von B
 
 **D-Region**
 
-Die niedrigste der Drei ist die *D-Region* in etwa 50 bis 90 km Höhe. Hier ist allerdings die Gasdichte noch so hoch, dass die zum Schwingen angeregten Elektronen schnell mit anderen Teilchen kollidieren. Dadurch verliert die Funkwelle Energie. Die D-Region *dämpft* also diese Wellen, bis hin zur völligen Auslöschung. Dieser Effekt wird mit steigender Frequenz geringer und ist oberhalb etwa 10 MHz nicht mehr bedeutend. 
+Die niedrigste der Drei ist die *D-Region* in etwa $\num{50}$ bis $\qty{90}{\kilo\meter}$ Höhe. Hier ist allerdings die Gasdichte noch so hoch, dass die zum Schwingen angeregten Elektronen schnell mit anderen Teilchen kollidieren. Dadurch verliert die Funkwelle Energie. Die D-Region *dämpft* also diese Wellen, bis hin zur völligen Auslöschung. Dieser Effekt wird mit steigender Frequenz geringer und ist oberhalb etwa $\qty{10}{\mega\hertz}$ nicht mehr bedeutend.
 
-Wenn nach Sonnenuntergang keine Strahlung von der Sonne mehr kommt, rekombinieren die Elektronen unmittelbar und die D-Region löst sich praktisch auf. Deswegen sind die unteren Kurzwellenbänder, z.B. 80 m oder 160 m, (genauso wir die Lang- und Mittelwelle) tagsüber weitgehend leer, denn dann können sich die Funkwellen nur über die Bodenwelle ausbreiten, weil die Raumwelle von der D-Region quasi verschluckt wird.
+Wenn nach Sonnenuntergang keine Strahlung von der Sonne mehr kommt, rekombinieren die Elektronen unmittelbar und die D-Region löst sich praktisch auf. Deswegen sind die unteren Kurzwellenbänder, z.B. $\qty{80}{\meter}$ oder $\qty{160}{\meter}$, (genauso wir die Lang- und Mittelwelle) tagsüber weitgehend leer, denn dann können sich die Funkwellen nur über die Bodenwelle ausbreiten, weil die Raumwelle von der D-Region quasi verschluckt wird.
 
 [question:EH210]
 [question:EH105]
@@ -37,7 +37,7 @@ Wenn nach Sonnenuntergang keine Strahlung von der Sonne mehr kommt, rekombiniere
 
 **E-Region**
 
-In 90 bis 130 km Höhe schließt sich die *E-Region* an, welche wir schon in den Prüfungsfragen zur Klasse N kennen gelernt haben. Sie bricht unter normalen Umständen schräg einfallende Funkwellen bis etwa 10 MHz, mit einem Sprung können dabei etwas mehr als 2000 km überbrückt werde. Auch die E-Region löst sich nach Sonnenuntergang binnen weniger Minuten auf.
+In $\num{90}$ bis $\qty{130}{\kilo\meter}$ Höhe schließt sich die *E-Region* an, welche wir schon in den Prüfungsfragen zur Klasse N kennen gelernt haben. Sie bricht unter normalen Umständen schräg einfallende Funkwellen bis etwa $\qty{10}{\mega\hertz}$, mit einem Sprung können dabei etwas mehr als $\qty{2000}{\kilo\meter}$ überbrückt werde. Auch die E-Region löst sich nach Sonnenuntergang binnen weniger Minuten auf.
 
 In dieser Region findet sich in den gemäßigten Breiten vor allem in den Sommermonaten ein besonderes Phänomen, die *sporadische E-Schicht* (kurz *Es*). Sie besteht aus meist kleinräumigen, sehr stark ionosierten Bereichen und ist in der Lage, Funkwellen viel höherer Frequenz zu brechen, bis hinauf in das 2-Meter-Band.
 
@@ -51,7 +51,7 @@ In dieser Region findet sich in den gemäßigten Breiten vor allem in den Sommer
 
 **F-Region**
 
-Darüber findet sich schließlich die *F-Region*, die sich tagsüber zudem in die F1- und die darüberliegende F2 Region aufspaltet. Letztere kann sich bis in eine Höhe von 450 km ausdehnen und ist für die Kurzwellenausbreitung am bedeutsamsten. Denn zum einen erlaubt es ihre größere Höhe, mit einem Sprung Distanzen von bis zu 4000 km zu überbrücken. Zum anderen sorgt die geringe Gasdichte in diesen Höhen dafür, dass es sehr lange dauert, bis freie Elektronen wieder ein Ion finden, mit dem sie zu einem neutralen Atom bzw. Molekül rekombinieren können. Deswegen gibt es dort immer genügend freie Elektronen, um Kurzwellen zu brechen. Ihre Anzahl und damit Dichte nimmt aber bei zurückgehender Sonneneintrahlung ab und damit auch die gerade noch zurückgebrochene Frequenz. Daher schließen die oberen Bänder als erstes.
+Darüber findet sich schließlich die *F-Region*, die sich tagsüber zudem in die F1- und die darüberliegende F2 Region aufspaltet. Letztere kann sich bis in eine Höhe von $\qty{450}{\kilo\meter}$ ausdehnen und ist für die Kurzwellenausbreitung am bedeutsamsten. Denn zum einen erlaubt es ihre größere Höhe, mit einem Sprung Distanzen von bis zu $\qty{4000}{\kilo\meter}$ zu überbrücken. Zum anderen sorgt die geringe Gasdichte in diesen Höhen dafür, dass es sehr lange dauert, bis freie Elektronen wieder ein Ion finden, mit dem sie zu einem neutralen Atom bzw. Molekül rekombinieren können. Deswegen gibt es dort immer genügend freie Elektronen, um Kurzwellen zu brechen. Ihre Anzahl und damit Dichte nimmt aber bei zurückgehender Sonneneintrahlung ab und damit auch die gerade noch zurückgebrochene Frequenz. Daher schließen die oberen Bänder als erstes.
 
 [question:EH103]
 
@@ -69,6 +69,6 @@ Zur Ionisation wird Strahlung im extremen Ultraviolett- sowie im Röntgenbereich
 
 [question:EH107]
 
-Während des Aktivitätsmaximums erreicht die Sonnenaktivität ein besonders hohes Niveau und führt zu einer ausgeprägten Ionisation der F-Region. Deshalb können dann alle oberen Kurzwellenbänder und teilweise sogar das 6-Meter-Band für DX-Verbindungen genutzt werden, währenddessen im Aktivitätsminimum die Frequenzbänder oberhalb des 20-Meter-Bandes (z.B. 10 m) meist nicht nutzbar sind.
+Während des Aktivitätsmaximums erreicht die Sonnenaktivität ein besonders hohes Niveau und führt zu einer ausgeprägten Ionisation der F-Region. Deshalb können dann alle oberen Kurzwellenbänder und teilweise sogar das 6-Meter-Band für DX-Verbindungen genutzt werden, währenddessen im Aktivitätsminimum die Frequenzbänder oberhalb des 20-Meter-Bandes (z.B. $\qty{10}{\meter}$) meist nicht nutzbar sind.
 
 [question:EH205]

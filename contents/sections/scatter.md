@@ -1,6 +1,6 @@
 Der Begriff *Scatter* wird zusammenfassend für verschiedene besondere Formen der Reflexion und Streuung eines Funksignals benutzt, durch die größere Entfernungen überbrückt werden können.
 
-Bei *Regenscatter* (*Rainscatter*) werden Wellen an Regentropfen gestreut (wer nachlesen möchte: physikalisch ist das eine Rayleigh-Streuung). Weil hier die Tropfengröße zur Wellenlänge passen muss, erzielt man damit im 6- und 3-cm-Band (bei 5,7 und 10 GHz) die besten Ergebnisse. Gestreut wird dabei in alle Richtungen, d.h. man richtet die Antenne üblichweise auf die Regenwolke aus und nicht auf den Standort der Gegenstation. CW und SSB Signale haben dabei häufig einen rauen Ton, ähnlich der Ausbreitung über Aurora.
+Bei *Regenscatter* (*Rainscatter*) werden Wellen an Regentropfen gestreut (wer nachlesen möchte: physikalisch ist das eine Rayleigh-Streuung). Weil hier die Tropfengröße zur Wellenlänge passen muss, erzielt man damit im $\num{6}$ und $\qty{3}{\centi\meter}$-Band (bei $\num{5,7}$ und $\qty{10}{\giga\hertz}$) die besten Ergebnisse. Gestreut wird dabei in alle Richtungen, d.h. man richtet die Antenne üblichweise auf die Regenwolke aus und nicht auf den Standort der Gegenstation. CW und SSB Signale haben dabei häufig einen rauen Ton, ähnlich der Ausbreitung über Aurora.
 
 [question:AH311]
 
