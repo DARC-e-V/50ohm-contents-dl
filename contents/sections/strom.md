@@ -11,7 +11,7 @@ Die Einheit Ampere ist nach dem französischem Physiker und Mathematiker *André
 Schauen wir uns wieder einige Beispiele an: Durch eine Leuchtdiode (LED) fließen beispielsweise 5 mA Strom. Bei einem Transceiver im Empfangsbetrieb sind es z. B. schon 900 mA, also fast ein Ampere. Durch einen Transceiver im Sendebetrieb kann schon wesentlich mehr Strom fließen, beispielsweise 21 A.
 
 <webmargin>
-| l: Verbraucher | r | c | l |
+| l: Verbraucher | r: | c: | l: |
 | Leuchtdiode (LED) | 5 mA | = | 0,005 A |
 | Transceiver im Empfangsbetrieb | 900 mA | = | 0,9 A |
 | Transceiver im Sendebetrieb | 21 A | = | 21 A |

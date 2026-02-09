@@ -7,7 +7,7 @@
 Der Frequenzbereich elektromagnetischer Wellen ist sehr groß (Abbildung [ref:n_frequenzspektrum]). Für Funkwellen wird nur ein Teil dieses Spektrums genutzt, üblicherweise der Frequenzbereich zwischen 30 kHz und 300 GHz. In der Tabelle [ref:n_frequenzspektrum_bereiche] ist zu sehen, welche Frequenzen welchen Bereichen zugeordnet sind. Den Frequenzbereichen werden Abkürzungen zugeordnet. Für die Prüfung müssen  die Frequenzbereiche von 3 MHz bis 3000 MHz den entsprechenden Begriffen zugeordnet werden können.
 
 <webmargin>
-| r | c |  r | X | l |
+| r: | c: | r: | X: | l: |
 | von | | bis | Bezeichnung | Abk. |
 | 30 kHz | - | 300 kHz | Low Frequency | LF |
 | | | | (Langwelle) | (LW) |

@@ -5,7 +5,7 @@ Morsetelegrafie ist das älteste Übertragungsverfahren, das im Funk benutzt wir
 Um verschiedene Zeichen, also Buchstaben, Ziffern und Satzzeichen, zu übertragen, wird der Morsecode verwendet. Für jedes Zeichen ist eine bestimmte Abfolge an kurzen und langen Tönen festgelegt. In den Tabellen [ref:n_morsetelegrafie_morsecode_buchstaben], [ref:n_morsetelegrafie_morsecode_ziffern_satzzeichen] und [ref:n_morsetelegrafie_morsecode_spezial] findet sich ein Teil des Morsecodes. Ein Punkt ([morse:e]) steht für einen kurzen Ton und ein Strich ([morse:t]) für einen langen Ton. Die Decodierung, also die Übersetzung der Töne in Zeichen beim Empfänger, erfolgt mit den Ohren und dem Gehirn - oder heutzutage auch mit dem Computer.
 
 <webmargin>
-| c | l | c | l | c | l |
+| c: | l: | c: | l: | c: | l: |
 |  |  |  |  |  |  |
 | A | [morse:a] | K | [morse:k] | U | [morse:u] |
 | B | [morse:b] | L | [morse:l] | V | [morse:v] |
@@ -21,7 +21,7 @@ Um verschiedene Zeichen, also Buchstaben, Ziffern und Satzzeichen, zu übertrage
 </webmargin>
 
 <webmargin>
-| c | l | c | l | c | l | 
+| c: | l: | c: | l: | c: | l: |
 |  |  |  |  |  |  | 
 | 0 | [morse:0] | 5 | [morse:5] | / | [morse:/] |
 | 1 | [morse:1] | 6 | [morse:6] | . | [morse:.] |
@@ -33,7 +33,7 @@ Um verschiedene Zeichen, also Buchstaben, Ziffern und Satzzeichen, zu übertrage
 </webmargin>
 
 <webmargin>
-| l | l |
+| l: | l: |
 |  |  |
 | Unterbrechung (BK) | [morse:bk] |
 | Trennung innerhalb eines Durchgangs (BT, =) | [morse:=] |

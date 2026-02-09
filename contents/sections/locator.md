@@ -29,7 +29,7 @@ Eigentlich sind die Quadrate (squares) des Maidenhead-Locator gar keine Quadrate
 
 Jedes Quadrat wird nun wiederum in Unter-Quadrate aufgeteilt, die nach der gleichen Logik wie die Felder mit Buchstaben versehen sind, allerdings von AA bis XX. Die DARC-Geschäftsstelle liegt im Feld JO, Quadrat 41, Unter-Quadrat RG.
 
-| X: Bezeichnung | l: Übersetzung | l: Alternative Bez. | c | c: z.B. |
+| X: Bezeichnung | l: Übersetzung | l: Alternative Bez. | c: | c: z.B. |
 | Field | Feld | Größtfeld | AA-RR | JO |
 | Square | Quadrat | Großfeld | 00-99 | 41 |
 | Subsquare | Unter-Quadrat | Kleinfeld | AA-XX | RG |

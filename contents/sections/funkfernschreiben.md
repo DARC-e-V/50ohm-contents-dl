@@ -28,7 +28,7 @@ BK QSL = VY 73 DE DL2AB SK
 </qso>
 
 <webmargin>
-| l | X |
+| l: | X: |
 | Abkz. | Bedeutung |
 | BK | Unterbrechung der Sendung; Formlose Übergabe |
 | CQ | Allgemeiner Anruf |
