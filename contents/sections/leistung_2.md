@@ -131,7 +131,7 @@ Das ist dann auch schon die gesuchte maximale Gleichspannung!
 
 Hier ist der Rechenweg derselbe wie in der Aufgabe davor, nur die Zahlenwerte sind anders:
 
-$U = \sqrt{P \cdot R} = \sqrt{6\  \text{W} \cdot 10^5\ \Omega} \approx 774,6\  \text{V} \approx 775\ \text{V}$
+$U = \sqrt{P \cdot R} = \sqrt{\qty{6}{\watt} \cdot \qty{10^5}{\ohm}} \approx \qty{774,6}{\volt} \approx \qty{775}{\volt}$
 
 %%%%%
 
@@ -157,7 +157,7 @@ Damit ließe sich auch die effektive Leistung berechnen, doch so weit geht die F
 
 [question:EB514]
 
-Die Antwort zu dieser Frage schließlich lässt sich sehr gut im Kopf rechnen. Hier werden 11 gleiche Widerstände, wie in Abbildung [ref:e_dummyload_11] gezeigt, parallel geschaltet. Das heißt, der Strom durch jeden einzelnen Widerstand ist 1/11 des Gesamtstroms. Also ist die Leistung an jedem Widerstand auch nur 1/11 der Gesamtleistung. 
+Die Antwort zu dieser Frage schließlich lässt sich sehr gut im Kopf rechnen. Hier werden 11 gleiche Widerstände, wie in Abbildung [ref:e_dummyload_11] gezeigt, parallel geschaltet. Das heißt, der Strom durch jeden einzelnen Widerstand ist $1/11$ des Gesamtstroms. Also ist die Leistung an jedem Widerstand auch nur $1/11$ der Gesamtleistung.
 
 Also ist die zulässige Gesamtleistung $11 \cdot \qty{5}{\watt} =\qty{55}{\watt}$.
 

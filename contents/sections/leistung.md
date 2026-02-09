@@ -1,6 +1,6 @@
-Auf dem Typschild elektrischer Geräte ist meistens die Leistungsaufnahme angegeben. Zum Beispiel könnte man auf einem LED-Leuchtmittel die Angabe 7 W finden oder 425 W auf einem Staubsauger.
+Auf dem Typschild elektrischer Geräte ist meistens die Leistungsaufnahme angegeben. Zum Beispiel könnte man auf einem LED-Leuchtmittel die Angabe $\qty{7}{\watt}$ finden oder $\qty{425}{\watt}$ auf einem Staubsauger.
 
-Auch an jedem Widerstand wird elektrische Leistung umgesetzt. Sobald ein Strom durch einen Widerstand fließt, wird elektrische Energie in thermische Energie umgewandelt, also in Wärme. Je größer der Strom ist, desto mehr Wärme wird an die Umgebung abgegeben. Deshalb werden auch viele elektrische Geräte beim Betrieb warm. Die elektrische Leistung gibt an, wieviel elektrische Energie in einer gewissen Zeit umgesetzt wird. Die Einheit der Leistung ist Watt, abgekürzt W.
+Auch an jedem Widerstand wird elektrische Leistung umgesetzt. Sobald ein Strom durch einen Widerstand fließt, wird elektrische Energie in thermische Energie umgewandelt, also in Wärme. Je größer der Strom ist, desto mehr Wärme wird an die Umgebung abgegeben. Deshalb werden auch viele elektrische Geräte beim Betrieb warm. Die elektrische Leistung gibt an, wieviel elektrische Energie in einer gewissen Zeit umgesetzt wird. Die Einheit der Leistung ist Watt, abgekürzt $\unit{\watt}$.
 
 [question:NA204]
 [question:NA211]

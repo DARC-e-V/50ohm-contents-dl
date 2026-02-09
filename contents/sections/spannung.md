@@ -1,4 +1,4 @@
-Wir haben bereits die elektrische Spannung kennengelernt. Fassen wir nochmal zusammen: Trennt man gezielt positive von negativen Ladungen, z. B. in einer Batterie, dann versuchen diese Ladungen wieder zusammenzukommen. Es liegt eine elektrische Spannung vor, z. B. zwischen den Polen der Batterie. Gemessen wird die elektrische Spannung in der Einheit Volt, die mit V abgekürzt wird.
+Wir haben bereits die elektrische Spannung kennengelernt. Fassen wir nochmal zusammen: Trennt man gezielt positive von negativen Ladungen, z. B. in einer Batterie, dann versuchen diese Ladungen wieder zusammenzukommen. Es liegt eine elektrische Spannung vor, z. B. zwischen den Polen der Batterie. Gemessen wird die elektrische Spannung in der Einheit Volt, die mit $\unit{V}$ abgekürzt wird.
 
 <person>
 Die Einheit Volt ist nach dem italienischen Physiker *Alessandro Volta* benannt.
@@ -8,44 +8,44 @@ Die Einheit Volt ist nach dem italienischen Physiker *Alessandro Volta* benannt.
 
 ---
 
-In der Funktechnik kommen sowohl sehr große als auch sehr kleine Spannungen vor. Wie bei der Frequenz helfen uns Einheitenvorzeichen, große Werte anzugeben. 1 kHz steht für 1000 Hz. Genauso ist es bei Spannungen: 1 kV bedeutet 1000 V. Die wichtigsten Einheitenvorzeichen werden in der Tabelle [ref:n_spannung_einheitenvorzeichen] anhand der Einheit Volt vorgestellt.
+In der Funktechnik kommen sowohl sehr große als auch sehr kleine Spannungen vor. Wie bei der Frequenz helfen uns Einheitenvorzeichen, große Werte anzugeben. $\qty{1}{\kilo\hertz}$ steht für $\qty{1000}{\hertz}$. Genauso ist es bei Spannungen: $\qty{1}{\kilo\volt}$ bedeutet $\qty{1000}{\volt}$. Die wichtigsten Einheitenvorzeichen werden in der Tabelle [ref:n_spannung_einheitenvorzeichen] anhand der Einheit Volt vorgestellt.
 
 <margin>
 | l: Bezeichnung | r: Abk. | X: Wert |
-| 1 Kilovolt | 1 kV | 1000 V |
-| 1 Megavolt | 1 MV | 1000000 V |
-| 1 Gigavolt | 1 GV | 1000000000 V |
+| 1 Kilovolt | $\qty{1}{\kilo\volt}$ | $\qty{1000}{\volt}$ |
+| 1 Megavolt | $\qty{1}{\mega\volt}$ | $\qty{1000000}{\volt}$ |
+| 1 Gigavolt | $\qty{1}{\giga\volt}$ | $\qty{1000000000}{\volt}$ |
 [table:n_spannung_einheitenvorzeichen:Kurzschreibweise für große Spannungen]
 </margin>
 
 <margin>
 | l: Bezeichnung | r: Abkürzung | X: Wert |
-| 1 Mikrovolt | 1 μV | 0,000001 V |
-| 1 Millivolt | 1 mV | 0,001 V |
-| 1 Volt | 1 V | 1 V |
+| 1 Mikrovolt | $\qty{1}{\micro\volt}$ | $\qty{0,000001}{\volt}$ |
+| 1 Millivolt | $\qty{1}{\milli\volt}$ | $\qty{0,001}{\volt}$ |
+| 1 Volt | $\qty{1}{\volt}$ | $\qty{1}{\volt}$ |
 [table:n_spannung_einheitenvorzeichen_2:Kurzschreibweisen für kleine Spannungen]
 </margin>
 
 ---
 
-Es gibt aber auch Einheitenvorzeichen für sehr kleine Werte. Wir kennen das beispielsweise vom Milliliter (ml): 1 Liter sind 1000 ml. Die wichtigsten Einheitenvorzeichen werden in der Tabelle [ref:n_spannung_einheitenvorzeichen_2] anhand der Einheit Volt vorgestellt. 1 mV ist beispielsweise dasselbe wie 0,001 V. Umgekehrt entsprechen 1000 mV genau 1 V.
+Es gibt aber auch Einheitenvorzeichen für sehr kleine Werte. Wir kennen das beispielsweise vom Milliliter ($\unit{\milli\liter}$): 1 Liter sind $\qty{1000}{\milli\liter}$. Die wichtigsten Einheitenvorzeichen werden in der Tabelle [ref:n_spannung_einheitenvorzeichen_2] anhand der Einheit Volt vorgestellt. $\qty{1}{\milli\volt}$ ist beispielsweise dasselbe wie $\qty{0,001}{\volt}$. Umgekehrt entsprechen $\qty{1000}{\milli\volt}$ genau $\qty{1}{\volt}$.
 
 <webmargin>
 | l: Spannungsquelle | r: | c: | l: |
-| Empfängereingang | 10 μV | = | 0,00001 V |
-| Mikrofon | 200 mV | = | 0,2 V |
-| Batterie | 1,5 V | = | 1,5 V |
-| Steckdose | 230 V | = | 230 V |
-| elektrostatisch aufgeladenen Antenne | 1,5 kV | = | 1500 V |
-| Höchstspannungsleitung | 380 kV | = | 380000 V |
+| Empfängereingang | $\qty{10}{\micro\volt}$ | = | $\qty{0,00001}{\volt}$ |
+| Mikrofon | $\qty{200}{\milli\volt}$ | = | $\qty{0,2}{\volt}$ |
+| Batterie | $\qty{1,5}{\volt}$ | = | $\qty{1,5}{\volt}$ |
+| Steckdose | $\qty{230}{\volt}$ | = | $\qty{230}{\volt}$ |
+| elektrostatisch aufgeladenen Antenne | $\qty{1,5}{\kilo\volt}$ | = | $\qty{1500}{\volt}$ |
+| Höchstspannungsleitung | $\qty{380}{\kilo\volt}$ | = | $\qty{380000}{\volt}$ |
 [table:spannung_beispiele:Beispiele für Spannungen]
 </webmargin>
 
-Betrachten wir einige Beispiele für große und kleine Spannungen. Eine ganz besonders kleine Spannung liegt an einer Antenne beim Empfang an. Die aufgenommenen Funkwellen sind so schwach, dass die elektrischen Schwingungen nur eine Spannung von etwa 10 μV aufweisen. Wenn wir in ein Mikrofon sprechen, entstehen bereits etwas höhere Spannungen von ca. 200 mV.
+Betrachten wir einige Beispiele für große und kleine Spannungen. Eine ganz besonders kleine Spannung liegt an einer Antenne beim Empfang an. Die aufgenommenen Funkwellen sind so schwach, dass die elektrischen Schwingungen nur eine Spannung von etwa $\qty{10}{\micro\volt}$ aufweisen. Wenn wir in ein Mikrofon sprechen, entstehen bereits etwas höhere Spannungen von ca. $\qty{200}{\milli\volt}$.
 
-Ein wenig größer ist die Spannung, die üblicherweise an einer Batterie anliegt, beispielsweise 1,5 V oder 9 V. Noch etwas größer ist die Spannung an Steckdosen im Haushalt. Diese beträgt bereits 230 V. Bei Gewitter oder Regen kann sich eine Antenne elektrisch aufladen. Dann kann an ihr eine Spannung von beispielsweise 1,5 kV anliegen. Besonders hohe Spannungen finden sich an den Hochspannungsleitungen im Stromnetz. Hier kann man bis zu 380 kV antreffen.
+Ein wenig größer ist die Spannung, die üblicherweise an einer Batterie anliegt, beispielsweise $\qty{1,5}{\volt}$ oder $\qty{9}{\volt}$. Noch etwas größer ist die Spannung an Steckdosen im Haushalt. Diese beträgt bereits $\qty{230}{\volt}$. Bei Gewitter oder Regen kann sich eine Antenne elektrisch aufladen. Dann kann an ihr eine Spannung von beispielsweise $\qty{1,5}{\kilo\volt}$ anliegen. Besonders hohe Spannungen finden sich an den Hochspannungsleitungen im Stromnetz. Hier kann man bis zu $\qty{380}{\kilo\volt}$ antreffen.
 
-Für die nächste Aufgabe müssen wir daran denken, dass 1 V das Gleiche ist wie 1000 mV. Dann sollte die Aufgabe leicht lösbar sein.
+Für die nächste Aufgabe müssen wir daran denken, dass $\qty{1}{\volt}$ das Gleiche ist wie $\qty{1000}{\milli\volt}$. Dann sollte die Aufgabe leicht lösbar sein.
 
 [question:NA208]
 

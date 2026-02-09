@@ -10,7 +10,7 @@ Das Formelzeichen $l$ steht für die Länge des Leiters. Ein Leiter besteht aus 
 
 Das Formelzeichen $A_\text{Dr}$ bezeichnet die Querschnittsfläche des Drahtes. Ein größerer Querschnitt bietet den Elektronen mehr Raum zum Fließen, sodass sie sich seltener gegenseitig behindern. Der Widerstand wird dadurch kleiner. In der Formel wird durch die Querschnittsfläche geteilt, was genau diesen Zusammenhang ausdrückt: Je größer der Querschnitt, desto geringer der Widerstand.
 
-Das Formelzeichen $\rho$ steht für den spezifischen Widerstand des Materials. Er beschreibt die materialabhängigen Eigenschaften des Leiters und gibt an, welchen Widerstand ein Leiter aus diesem Material bei einer Länge von $\qty{1}{\meter}$ und einem Querschnitt von $\qty{1}{\milli\meter\squared}$ bei $\qty{20}{\degree}$ besitzt. Das bedeutet, dass auch das Material einen Einfluss darauf hat, wie häufig die Elektronen durch Zusammenstöße mit den Atomen gebremst werden. Materialien wie Kupfer oder Eisen haben unterschiedliche Werte für $\rho$ und leiten den elektrischen Strom daher unterschiedlich gut.
+Das Formelzeichen $\rho$ steht für den spezifischen Widerstand des Materials. Er beschreibt die materialabhängigen Eigenschaften des Leiters und gibt an, welchen Widerstand ein Leiter aus diesem Material bei einer Länge von $\qty{1}{\meter}$ und einem Querschnitt von $\qty{1}{\milli\meter\squared}$ bei $\qty{20}{\degreeCelsius}$ besitzt. Das bedeutet, dass auch das Material einen Einfluss darauf hat, wie häufig die Elektronen durch Zusammenstöße mit den Atomen gebremst werden. Materialien wie Kupfer oder Eisen haben unterschiedliche Werte für $\rho$ und leiten den elektrischen Strom daher unterschiedlich gut.
 
 <margin>
 [picture:713:a_leitermodell:Atome (+) und bewegliche Elektronen (-) in einem metallischen Leiter]
@@ -26,13 +26,13 @@ $R=\frac{\rho\cdot l}{A_{Dr}}$
 
 $A_{Dr}=\frac{d^2\cdot \pi}{4}$
 
-$\rho=0,018\frac{mm^2}{m}$
+$\rho=\qty{0,018}{\frac{\milli\meter\squared}{\meter}}$
 
 Gegeben sind: $l=\qty{1,8}{\meter}$ und $d=\qty{0,2}{\milli\meter}$. Gesucht wird $R$.
 
-$A_{Dr}=\dfrac{(\qty{0,2}{\milli\meter})^2\cdot \pi}{4}=0,01 \cdot \pi \unit{\milli\meter\squared}$
+$A_{Dr}=\dfrac{(\qty{0,2}{\milli\meter})^2\cdot \pi}{4}=0,01 \cdot \pi \cdot \unit{\milli\meter\squared}$
 
-$R=\frac{\qty{0,018}{\ohm\milli\meter\squared\per\meter} \cdot \qty{1,8}{\meter}}{0,01 \cdot \pi \unit{\milli\meter\squared}}=\qty{1,03}{\ohm}$
+$R=\frac{\qty{0,018}{\ohm\cdot\milli\meter\squared\per\meter} \cdot \qty{1,8}{\meter}}{0,01 \cdot \pi \cdot \unit{\milli\meter\squared}}=\qty{1,03}{\ohm}$
 
 [question:AB102]
 

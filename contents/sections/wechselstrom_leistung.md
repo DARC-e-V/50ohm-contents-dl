@@ -20,7 +20,7 @@ $P_\text{Wechselstrom} = \dfrac {\hat{U} \cdot \hat{I}} {\sqrt{2} \cdot \sqrt{2}
 [question:AB301]
 
 Der Lösungsweg für die Frage AB301 ergibt somit:
-$P=I_\text{eff}^2 \cdot R = \left(\dfrac{0,5 \text{A}} {\sqrt{2}}\right)^2 \cdot 20 \Omega = 0,125 \cdot 20 = 2,5 \text{W}$
+$P=I_\text{eff}^2 \cdot R = \left(\dfrac{\qty{0,5}{\ampere}}{\sqrt{2}}\right)^2 \cdot \qty{20}{\ohm} = \qty{0,125}{\ampere\squared} \cdot \qty{20}{\ohm} = \qty{2,5}{\watt}$
 
 
 %TODO: Folgenden Text kürzen und vereinfachen!

@@ -12,7 +12,7 @@ Den elektrischen Widerstand haben wir bereits im Zusammenhang mit dem ohmschen G
 | l: Widerstand | X: Eigenschaft |
 | Drahtwiderstände | Hochlastwiderstände für niedrige Frequenzen |
 | Metallschichtwiderstände | Geringe Fertigungstoleranzen und Temperaturabhängigkeit, Präzisionswiderstände |
-| Metalloxidschichtwiderstände | Für Frequenzen oberhalb von 30 MHz |
+| Metalloxidschichtwiderstände | Für Frequenzen oberhalb von $\qty{30}{\mega\hertz}$ |
 [table:e_eigenschaften_widerstaende:Übersicht der Eigenschaften]
 </margin>
 
@@ -25,7 +25,7 @@ Im Folgenden gehen wir auf diese Materialien genauer ein - eine Zusammenfassung 
 
 Bei Kohleschichtwiderständen wird als Widerstandswerkstoff eine dünne Kohleschicht auf einen Träger aufgedampft. Kohleschichtwiderstände sind kostengünstig, weisen jedoch eine vergleichsweise große Fertigungstoleranz auf.
 
-Bei *Metalloxidschichtwiderständen* wird das Widerstandsmaterial in Form einer dünnen Schicht auf ein Trägermaterial aufgebracht. Diese Widerstandsart ist weitgehend induktionsarm und weist eine gute Temperaturstabilität auf, sodass sie sich besonders für den Einsatz bei höheren Frequenzen oberhalb von 30 MHz eignet.
+Bei *Metalloxidschichtwiderständen* wird das Widerstandsmaterial in Form einer dünnen Schicht auf ein Trägermaterial aufgebracht. Diese Widerstandsart ist weitgehend induktionsarm und weist eine gute Temperaturstabilität auf, sodass sie sich besonders für den Einsatz bei höheren Frequenzen oberhalb von $\qty{30}{\mega\hertz}$ eignet.
 
 %EC103 induktionsarm 30Mhz - >Metalloxid
 [question:EC103]

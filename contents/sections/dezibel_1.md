@@ -21,46 +21,46 @@ Ein technisch-wissenschaftlicher Taschenrechner bietet neben dem dekadischen Log
 
 <margin>
 | c:dB | c:≈ Leistungsfaktor |
-| 0 | 1 |
-| 1,5 | $\sqrt{2} = 1,41$ |
-| 2,15 | 1,64 |
-| 3 | 2 |
-| 5 | $\sqrt{10} = 3,16$ |
-| 6 | 4 |
-| 10 | 10 |
-| 20 | 100 |
-[table:e_dezibel_leistungsfaktoren:Wichtige Leistungsfaktoren in dB]
+| $0$ | $1$ |
+| $1,5$ | $\sqrt{2} = 1,41$ |
+| $2,15$ | $1,64$ |
+| $3$ | $2$ |
+| $5$ | $\sqrt{10} = 3,16$ |
+| $6$ | $4$ |
+| $10$ | $10$ |
+| $20$ | $100$ |
+[table:e_dezibel_leistungsfaktoren:Wichtige Leistungsfaktoren in $\unit{\dB}$]
 </margin>
 
 Vom dekadischen Logarithmus ist das *Bel* ($\unit{\bel}$) abgeleitet. Der Name ehrt den amerikanischen Gehörlosenlehrer und Telefonpionier, *Alexander Graham Bell*. Im obigen Beispiel hätten wir auch schreiben können:
 
 $\log_{10}(b)=\qty{a}{\bel}$
 
-In der Regel wird statt des Bels das *Dezibel* (Einheitenzeichen dB) verwendet, also der zehnte Teil eines Bels:
+In der Regel wird statt des Bels das *Dezibel* (Einheitenzeichen $\unit{\dB}$) verwendet, also der zehnte Teil eines Bels:
 
-$10 \cdot \lg(b) = a\ \unit{\dB}$
+$10 \cdot \lg(b) = \qty{a}{\dB}$
 
 ---
 
 Die Formelsammlung gibt für das Umrechnen eines Leistungsverhältnisses folgende Formel an:
 
-$g = 10\cdot \log_{10}\left(\frac{P_2}{P_1}\right)\unit{dB}$
+$g = 10\cdot \log_{10}\left(\frac{P_2}{P_1}\right)\unit{\dB}$
 
 Wobei $P_1$ der Eingangsleistung entspricht und $P_2$ der Ausgangsleistung. Nehmen wir nun an, wir haben einen Verstärker der die Eingangsleistung $P_1=\qty{50}{\watt}$ auf $P_2=\qty{100}{\watt}$ verstärkt, also verdoppelt. So ergibt sich nach unserer Formel folgender Verstärkungsfaktor in $\unit{\dB}$:
 
-$g = 10\cdot \log_{10}\left(\frac{\qty{100}{\watt}}{\qty{50}{\watt}}\right)\unit{dB} = 10\cdot \log_{10}\left(2\right)\unit{dB} = 10\cdot 0.301 \unit{dB} \approx 3 \unit{dB} $
+$g = 10\cdot \log_{10}\left(\frac{\qty{100}{\watt}}{\qty{50}{\watt}}\right)\unit{\dB} = 10\cdot \log_{10}\left(2\right)\unit{\dB} = 10\cdot 0.301 \unit{\dB} \approx 3 \unit{\dB} $
 
-Für die Klasse E ist es zunächst ausreichend, den Dezibelwert für den Leistungsfaktor 2 zu kennen. Die Formelsammlung enthält dazu eine Tabelle, die auch in Tabelle [ref:e_dezibel_leistungsfaktoren] dargestellt ist. Daraus lässt sich ablesen, dass ein Leistungsfaktor von 2 einem Dezibelwert von $\qty{3}{dB}$ entspricht. Das ausführliche Rechnen mit Dezibelwerten wird erst in der Klasse A behandelt.
+Für die Klasse E ist es zunächst ausreichend, den Dezibelwert für den Leistungsfaktor 2 zu kennen. Die Formelsammlung enthält dazu eine Tabelle, die auch in Tabelle [ref:e_dezibel_leistungsfaktoren] dargestellt ist. Daraus lässt sich ablesen, dass ein Leistungsfaktor von 2 einem Dezibelwert von $\qty{3}{\dB}$ entspricht. Das ausführliche Rechnen mit Dezibelwerten wird erst in der Klasse A behandelt.
 
 %TODO: ^--- Prüfen ob Formeln in der Klasse E gebraucht werden! (DL9MJ)
 
 <tip>
-Ganz ohne Taschenrechner lassen sich Dezibelwerte  abschätzen, die auf "0" enden .. einfach die letzte Null zuhalten, die Ziffer gibt dann die Anzahl der Nullen des Verhältnisfaktors an. Beispiel: 30 dB $\rightarrow$ 3  $\rightarrow$ 3 Nullen $\rightarrow$ Verhältnisfaktor 1000!
+Ganz ohne Taschenrechner lassen sich Dezibelwerte  abschätzen, die auf "0" enden .. einfach die letzte Null zuhalten, die Ziffer gibt dann die Anzahl der Nullen des Verhältnisfaktors an. Beispiel: $\qty{30}{\dB} \rightarrow 3 \rightarrow \text{3 Nullen} \rightarrow \text{Verhältnisfaktor 1000}$!
 </tip>
 
 [question:EA107]
 
-Neben der Einheit dB begegnet man in der Praxis häufig auch Angaben wie $\unit{\dBi}$, $\unit{\dBm}$, $\unit{\dBW}$ oder $\unit{\dBu}$. Diese Zusätze geben an, auf welche Bezugsgröße sich der jeweilige Dezibelwert bezieht.
+Neben der Einheit $\unit{dB}$ begegnet man in der Praxis häufig auch Angaben wie $\unit{\dBi}$, $\unit{\dBm}$, $\unit{\dBW}$ oder $\unit{\dBu}$. Diese Zusätze geben an, auf welche Bezugsgröße sich der jeweilige Dezibelwert bezieht.
 
 Das Bel ($\unit{\bel}$) beziehungsweise das Dezibel ($\unit{\dB}$) beschreibt grundsätzlich ein dimensionsloses Verhältnis, etwa von Leistungen oder Spannungen. Deshalb wird $\unit{\dB}$ vor allem zur Angabe von Verstärkungen und Dämpfungen verwendet. In diesen Fällen ist kein weiterer Zusatz notwendig, da lediglich das Verhältnis zweier Größen angegeben wird.
 
@@ -88,9 +88,9 @@ Abbildung [ref:e_signalkette_2] zeigt ein weiteres Beispiel einer Signalkette, b
 </margin>
 
 <indepth>
-Wieso ist es zulässig vom Pegel 9 dBm eine Dämpfung von 3 dB abzuziehen? Beide Werte haben doch unterschiedliche Maßeinheiten!
-Bei der Einheit Bel (B) bzw. Dezibel (dB) handelt es sich um eine Hilfsmaßeinheit (auch Pseudoeinheit). 
-Im Prinzip könnte der Zahlenwert auch ohne  die Einheit dB geschrieben werden, aber mit dem Zusatz dB wird deutlich, dass es um ein logarithmisches Verhältnis von zwei Größen geht. Ohne diese Einheit müsste man verbal beschreiben welche Bedeutung der Zahlenwert hat.
+Wieso ist es zulässig vom Pegel $\qty{9}{\dBm}$ eine Dämpfung von $\qty{3}{\dB}$ abzuziehen? Beide Werte haben doch unterschiedliche Maßeinheiten!
+Bei der Einheit Bel ($\unit{\bel}$) bzw. Dezibel ($\unit{\dB}$) handelt es sich um eine Hilfsmaßeinheit (auch Pseudoeinheit).
+Im Prinzip könnte der Zahlenwert auch ohne  die Einheit $\unit{\dB}$ geschrieben werden, aber mit dem Zusatz $\unit{\dB}$ wird deutlich, dass es um ein logarithmisches Verhältnis von zwei Größen geht. Ohne diese Einheit müsste man verbal beschreiben welche Bedeutung der Zahlenwert hat.
 </indepth>
   
 Zusätzlich gibt es die Zusätze $\unit{\dBd}$ und $\unit{\dBi}$, die bei der Angabe von Antennengewinnen verwendet werden. In diesem Fall bezieht sich der Dezibelwert nicht auf eine Leistung oder Spannung, sondern auf einen bestimmten Referenzstrahler. Üblich sind dabei $\unit{\dBi}$, bezogen auf den isotropen Kugelstrahler, sowie $\unit{\dBd}$, bezogen auf den Halbwellendipol. Dieses Wissen werden wir benötigen, wenn wir uns später mit Antennen beschäftigen.

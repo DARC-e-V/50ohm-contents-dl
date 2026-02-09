@@ -1,13 +1,13 @@
 Zeigerinstrumente haben im Amateurfunk auch heute noch ihre Bedeutung nicht verloren. Viele Messgeräte wie Multimeter oder SWR-Meter arbeiten weiterhin mit Zeigeranzeigen. Während bei digitalen Anzeigen oft die letzte Stelle hin- und herspringt, bleibt ein Zeiger stabil. Änderungen des Messwerts sind sofort erkennbar und oft intuitiv ables- und interpretierbar. Deshalb setzen auch viele digitale Funkgeräte oder SDR-Programme weiterhin auf animierte Zeigeranzeigen.
 
-Abbildung [ref:e_zeigerinstrument_strom] zeigt ein Analoges Multimeter mit Zeigeranzeige. Wie bei digitalen Messgeräten sollte man auch bei Zeigerinstrumenten jede Messung im höchsten Messbereich beginnen. Das ist hier besonders wichtig: Ist der Messbereich zu niedrig eingestellt – etwa auf 10 V, während tatsächlich 100 V anliegen – schlägt der Zeiger nach rechts aus, prallt an den Anschlag und kann das Messgerät so beschädigen. Nach der ersten Messung im hohen Bereich kann auf den kleinsten Bereich heruntergeschaltet, der den Wert noch darstellen kann. So ist ein Ablesen sehr genau möglich. 
+Abbildung [ref:e_zeigerinstrument_strom] zeigt ein Analoges Multimeter mit Zeigeranzeige. Wie bei digitalen Messgeräten sollte man auch bei Zeigerinstrumenten jede Messung im höchsten Messbereich beginnen. Das ist hier besonders wichtig: Ist der Messbereich zu niedrig eingestellt – etwa auf $\qty{10}{\volt}$, während tatsächlich $\qty{100}{\volt}$ anliegen – schlägt der Zeiger nach rechts aus, prallt an den Anschlag und kann das Messgerät so beschädigen. Nach der ersten Messung im hohen Bereich kann auf den kleinsten Bereich heruntergeschaltet, der den Wert noch darstellen kann. So ist ein Ablesen sehr genau möglich.
 
 <margin>
-[photo:197:e_zeigerinstrument_strom:Hier ist der Messbereich 300 mA eingestellt. Das Gerät zeigt etwa 37 mA an.]
+[photo:197:e_zeigerinstrument_strom:Hier ist der Messbereich $\qty{300}{\milli\ampere}$ eingestellt. Das Gerät zeigt etwa $\qty{37}{\milli\ampere}$ an.]
 </margin>
 
 <tip>
-Bei schräger Blickrichtung scheint der Zeiger einen falschen Wert anzuzeigen. In Abbildung [ref:e_zeigerinstrument_parallaxenfehler] würde man statt 7 Volt nur etwas mehr als 6,9 Volt ablesen. Dieser Effekt heißt Parallaxenfehler. 
+Bei schräger Blickrichtung scheint der Zeiger einen falschen Wert anzuzeigen. In Abbildung [ref:e_zeigerinstrument_parallaxenfehler] würde man statt $\qty{7}{\volt}$ nur etwas mehr als $\qty{6,9}{\volt}$ ablesen. Dieser Effekt heißt Parallaxenfehler.
  
 [photo:196:e_zeigerinstrument_parallaxenfehler:ungünstiger Blickwinkel auf eine Skala]
   

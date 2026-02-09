@@ -1,4 +1,4 @@
-Wir haben nun den Widerstand und seine Einheit Ω (Ohm) kennengelernt. In der Praxis wird auf Widerständen allerdings meistens nicht der Zahlenwert aufgedruckt. Stattdessen werden Farbringe verwendet. Diese Farbringe kodieren den Wert des Widerstandes.
+Wir haben nun den Widerstand und seine Einheit $\unit{\ohm}$ (Ohm) kennengelernt. In der Praxis wird auf Widerständen allerdings meistens nicht der Zahlenwert aufgedruckt. Stattdessen werden Farbringe verwendet. Diese Farbringe kodieren den Wert des Widerstandes.
 
 <margin>
 [picture:665:n_widerstandsfarbcodes: Ein Widerstand mit 4 Farbringen]
@@ -11,25 +11,25 @@ Die Abbildung [ref:n_widerstandsfarbcodes] zeigt einen Widerstand mit vier Farbr
 
 <webmargin>
 | X:Farbe | l:Wert | l:Multiplikator | l:Toleranz |
-| Silber | - | 0,01 | ±10% |
-| Gold | - | 0,1| ±5% |
-| Schwarz | 0 | 1 | - |
-| Braun | 1 | 10 | ±1% |
-| Rot | 2 | 100 | ±2% |
-| Orange| 3 | 1000 | - |
-| Gelb | 4 | 10000 | - |
-| Grün | 5 | 100000 | - |
-| Blau | 6 | 1000000 | ±0,25%|
-| Violett | 7 | 10000000 | ±0,1%|
-| Grau | 8 | 100000000 | - |
-| Weiß | 9 | 1000000000 | - |
-| Keine | - | - | ±20%|
+| Silber | - | $\num{0,01}$ | $\qty{\pm 10}{\percent}$ |
+| Gold | - | $\num{0,1}$ | $\qty{\pm 5}{\percent}$ |
+| Schwarz | 0 | $\num{1}$ | - |
+| Braun | 1 | $\num{10}$ | $\qty{\pm 1}{\percent}$ |
+| Rot | 2 | $\num{100}$ | $\qty{\pm 2}{\percent}$ |
+| Orange| 3 | $\num{1000}$ | - |
+| Gelb | 4 | $\num{10000}$ | - |
+| Grün | 5 | $\num{100000}$ | - |
+| Blau | 6 | $\num{1000000}$ | $\qty{\pm 0,25}{\percent}$ |
+| Violett | 7 | $\num{10000000}$ | $\qty{\pm 0,1}{\percent}$ |
+| Grau | 8 | $\num{100000000}$ | - |
+| Weiß | 9 | $\num{1000000000}$ | - |
+| Keine | - | - | $\qty{\pm 20}{\percent}$ |
 [table:n_widerstandsfarbcodes_tabelle:Widerstandsfarbcodes Tabelle]
 </webmargin>
 
 Der erste und der zweite Ring zusammen ergeben die Zahl 47. Wenn man diese Zahl mit dem Multiplikator multipliziert, kann man den Wert des Widerstandes berechnen:
 
-$ 47 \cdot 1000 \ Ω = 47000 \ Ω = 47 \ \text{kΩ} $
+$ 47 \cdot \qty{1000}{\ohm} = \qty{47000}{\ohm} = \qty{47}{\kilo\ohm} $
 
 ---
 
@@ -37,7 +37,7 @@ Es bleibt noch ein vierter Farbring übrig. Dieser steht für die sogenannte Tol
 Weitere Details dazu folgen in der Klasse E. 
 
 <indepth>
-*Vertiefung:* In unserem Beispiel ist der letzte Ring *silber*, was eine Toleranz von ±10% bedeutet. Der wahre Wert des Widerstandes kann 10% von 47 kΩ = 4,7 kΩ mehr oder weniger als der angegebene Wert sein. Er kann also zwischen 42,3 kΩ und 51,7 kΩ liegen.
+*Vertiefung:* In unserem Beispiel ist der letzte Ring *silber*, was eine Toleranz von $\qty{\pm 10}{\percent}$ bedeutet. Der wahre Wert des Widerstandes kann $\qty{10}{\percent} \cdot \qty{47}{\kilo\ohm} = \qty{4,7}{\kilo\ohm}$ mehr oder weniger als der angegebene Wert sein. Er kann also zwischen $\qty{42,3}{\kilo\ohm}$ und $\qty{51,7}{\kilo\ohm}$ liegen.
 </indepth>
 
 ---
