@@ -16,4 +16,4 @@ Die folgende Frage lässt sich leicht mit der Formelsammlung beantworten, in dem
 
 [question:EG109]
 
-$\lambda = \frac{\qty{300}{\mega\meter\per\second}}{\qty{28,5}{\mega\hertz}} \cdot \frac{5}{8} = \qty{6.58}{\meter}$
+$\lambda = \frac{\qty{300}{\mega\meter\per\second}}{\qty{28,5}{\mega\hertz}} \cdot \frac{5}{8} = \qty{6,58}{\meter}$
