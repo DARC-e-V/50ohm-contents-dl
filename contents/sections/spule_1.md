@@ -8,13 +8,13 @@ Das dritte passive Bauelement in der Funktechnik – nach Widerstand und Kondens
 
 ---
 
-Eine Zylinderspule hat eine sogenannte Induktivität $L$ welche sich nach folgender Formel berechnet:
+Eine Zylinderspule hat eine sogenannte Induktivität $L$, welche sich nach folgender Formel berechnet:
 
 $L = \frac{\mu_0 \cdot \mu_r \cdot N^2 \cdot A_S}{l}$
 
-Betrachtet man den Aufbau einr Spule, dann findet man also folgende Größen:
+Betrachtet man den Aufbau einer Spule, dann findet man also folgende Größen:
 1. $\mu_0$ ist die magnetische Feldkonstante, eine Naturkonstante mit dem Wert $ 1.2566 10^{-6} \unit{\henry\per\meter}$. Den Wert kann man immer in der Formelsammlung nachschlagen. 
-2. $\mu_r$ ist eine Materialkonstante, denn Der Spulenkern kann aus einem speziellen Material bestehen, das magnetische Felder verstärken kann.
+2. $\mu_r$ ist eine Materialkonstante, denn der Spulenkern kann aus einem speziellen Material bestehen, das magnetische Felder verstärken kann.
 3. Anzahl $N$ der Spulenwindungen aus Kupferlackdraht oder versilbertem Kupferdraht 
 4. $A_S$ gibt die Querschnittsfläche des Spulenkerns an $A$
 5. Spulenlänge $l$
@@ -31,7 +31,7 @@ Eine Spule besitzt die Induktivität $L$ mit der Einheit $\qty{1}{\volt\second\p
 
 ---
 
-Mit Hilfe der Formel und den folgenden qualitativen Zusammenhängen kann man bereits eine Reihe von Prüfungsfragen lösen:
+Mithilfe der Formel und den folgenden qualitativen Zusammenhängen kann man bereits eine Reihe von Prüfungsfragen lösen:
 
 1. Die Induktivität steigt quadratisch mit der Windungszahl. Wenn die Windungszahl verdoppelt wird, dann steigt die Induktivität auf das Vierfache
 2. Wenn die Spule zusammengedrückt wird, dann steigt die Induktivität L
@@ -60,7 +60,7 @@ Als *ferromagnetisch* bezeichnen wir eine bestimmte Klasse an Materialien, die a
 
 Wenn man ein ferromagnetisches Material wie Eisen in die Spule einführt, dann wird das Magnetfeld verstärkt und die Induktivität steigt. 
 
-Wenn wir in eine Zylinderspule einen Kern aus einem gut leitenden (nicht-ferromagnetischen) Metall wie Aluminium oder Kupfer einführen, dann sinkt die Induktivität der Spule hingegen. Das liegt daran, dass das hochfrequente Magnetfeld der Spule in den Kernen Ströme, so genannte Wirbelströme, erzeugt ("induziert"). Diese sekundären Ströme erzeugen wiederum Magnetfelder, die dem Magnetfeld der Spule entgegenwirken. Deshalb sinkt die Induktivität. Das magnetische Feld im Inneren des Kerns wird dabei reduziert. 
+Wenn wir in eine Zylinderspule einen Kern aus einem gut leitenden (nicht-ferromagnetischen) Metall wie Aluminium oder Kupfer einführen, dann sinkt die Induktivität der Spule hingegen. Das liegt daran, dass das hochfrequente Magnetfeld der Spule in den Kernen Ströme, sogenannte Wirbelströme, erzeugt ("induziert"). Diese sekundären Ströme erzeugen wiederum Magnetfelder, die dem Magnetfeld der Spule entgegenwirken. Deshalb sinkt die Induktivität. Das magnetische Feld im Inneren des Kerns wird dabei reduziert. 
 
 Die in der folgenden Frage als richtig betrachtete Antwort ist die, dass das Magnetfeld nicht in den Kern eindringen kann und deshalb der Querschnitt des Feldes verringert. Das ist aber nicht ganz das, was physikalisch passiert. Einfach die "richtige" Antwort merken. 
 
@@ -85,19 +85,19 @@ Ist der stationäre Zustand erreicht, verhält sich die Spule bei Gleichstrom n�
 
 ---
 
-Im Ausschaltmoment will die Selbstinduktionsspannung den Stromfluss aufrecht erhalten. Die Spule wirkt dann als Generator, dessen Induktionsspanung entgegengesetzt zur vorherigen Polarität entsteht. Damit verhällt sich die Spule exat gegenteilatig zum Kondensator. Diese Vorgänge kann man gut mit Hilfe eines Oszilloskops wie in Abbildung [ref:e_Spulenstrom] beobachten.
+Im Ausschaltmoment will die Selbstinduktionsspannung den Stromfluss aufrechterhalten. Die Spule wirkt dann als Generator, dessen Induktionsspannung entgegengesetzt zur vorherigen Polarität entsteht. Damit verhält sich die Spule exat gegenteilig zum Kondensator. Diese Vorgänge kann man gut mithilfe eines Oszilloskops wie in Abbildung [ref:e_Spulenstrom] beobachten.
 
 <margin>
 [photo:257:e_Spulenstrom:Ein-und Ausschaltverhalten der Spulenspannung und des Spulenstroms]
 </margin>
 
-Man kann deshlab Spulen auch zur Verzörgerung benutzen. In der folgenden Frage,  steigt der Stromfluss durch Lampe 2 langsamer an, als durch Lampe 1, da eine Spule vorgeschaltet ist, deren Selbstinduktionsspannung den Einschaltstrom nur langsam ansteigen lässt.
+Man kann deshalb Spulen auch zur Verzögerung benutzen. In der folgenden Frage,  steigt der Stromfluss durch Lampe 2 langsamer an, als durch Lampe 1, da eine Spule vorgeschaltet ist, deren Selbstinduktionsspannung den Einschaltstrom nur langsam ansteigen lässt.
 
 [question:EC302]
 
-Ähnlich wie beim Kondensator verhält sich eine Spule unterschiedlich, wenn sie an Gleichspannung oder an Wechselspnnung angeschlossen wird. In der Funktechnik ist vor allem das Verhalten an Wechselspannung wichtig, deshalb schauen wir uns nun das Wechselstromverhalten an. 
+Ähnlich wie beim Kondensator verhält sich eine Spule unterschiedlich, wenn sie an Gleichspannung oder an Wechselspannung angeschlossen wird. In der Funktechnik ist vor allem das Verhalten an Wechselspannung wichtig. Deshalb schauen wir uns nun das Wechselstromverhalten an. 
 
-Die Spule zeigt, ähnlich wie ein Kondensator, einen Wechselstromwiderstand $X_{\textrm{L}}$, dass heißt, obwohl der Spulendraht nur einen sehr kleinen ohmschen Widerstand (Leiterwiderstand) besitzt, fließt ein Strom, der aber mit steigender Frequenz der Wechselspannung kleiner wird:
+Die Spule zeigt, ähnlich wie ein Kondensator, einen Wechselstromwiderstand $X_{\textrm{L}}$, das heißt, obwohl der Spulendraht nur einen sehr kleinen ohmschen Widerstand (Leiterwiderstand) besitzt, fließt ein Strom, der aber mit steigender Frequenz der Wechselspannung kleiner wird:
 
 $X_{L} = \omega \cdot L = 2\cdot\pi\cdot f \cdot L$
 
