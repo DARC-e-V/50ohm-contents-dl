@@ -132,7 +132,7 @@ So ergibt sich die Formel:
   
 $ f_0 = \frac{1}{2\pi \sqrt{L\cdot C}} $
   
-Die genaue Herleitung der Formeln kann man z. B. auf [Wikipedia](50ohm.de/schwk) nachlesen. Es sollte an dieser Stelle erwähnt werden, dass alle Frequenzgänge qualitativ aufgezeichnet sind und in der Realität ggf. etwas anders aussehen.
+Die genaue Herleitung der Formeln kann man z. B. auf [Wikipedia](https://de.wikipedia.org/wiki/Schwingkreis) nachlesen. Es sollte an dieser Stelle erwähnt werden, dass alle Frequenzgänge qualitativ aufgezeichnet sind und in der Realität ggf. etwas anders aussehen.
 </indepth>
 
 [question:ED206] 
