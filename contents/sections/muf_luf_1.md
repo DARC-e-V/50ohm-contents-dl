@@ -11,7 +11,7 @@ Die MUF hängt von der Dichte der freien Elektronen in der brechenden Region (hi
 </margin>
 
 <margin>
-[picture:997:e_muf_luf2:Simulation der Sprungdistanzen für verschiedene Frequenzen und einer MUF bei ca. 7,5 MHz in einer Augustnacht 2024 bei einem Abstrahlwinkel von $\qty{45}{\degree}$]
+[picture:997:e_muf_luf2:Simulation der Sprungdistanzen für verschiedene Frequenzen und einer MUF bei ca. $\qty{7,5}{\mega\hertz}$ in einer Augustnacht 2024 bei einem Abstrahlwinkel von $\qty{45}{\degree}$]
 </margin>
 
 Die genauen Zusammenhänge der MUF, beispielsweise in Bezug auf den Abstrahlwinkel, werden erst in der Klasse A behandelt. Für die Klasse E ist wichtig zu wissen: Je stärker die Ionisation der Ionosphäre, desto höher ist in der Regel auch die MUF.

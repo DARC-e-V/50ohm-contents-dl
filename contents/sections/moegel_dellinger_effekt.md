@@ -12,7 +12,7 @@ Abbildung [ref:e_dellinger] zeigt das Zentrum der Sonneneruption auf der Erdober
 Abbildung [ref:e_dellinger2] stellt die durch den Mögel-Dellinger-Effekt verursachte Dämpfung der Amateurfunkbänder dar, wobei deutlich wird, dass die Auswirkungen mit steigender Frequenz abnehmen.
 
 <margin>
-[picture:1011:e_dellinger:Höchste Frequenz, die von einer Absorption von 1 dB betroffen ist am 03.10.2024 um 12 Uhr und 19 Minuten. Dies zeigt an, wo der Mögel-Dellinger-Effekt am stärksten wirkt. Quelle NOAA]
+[picture:1011:e_dellinger:Höchste Frequenz, die von einer Absorption von $\qty{1}{\dB}$ betroffen ist am 03.10.2024 um 12 Uhr und 19 Minuten. Dies zeigt an, wo der Mögel-Dellinger-Effekt am stärksten wirkt. Quelle NOAA]
 [picture:1010:e_dellinger2:Dämpfung durch Mögel-Dellinger-Effekt am 03.10.2024 um 12 Uhr und 19 Minuten. Quelle NOAA]
 </margin>
 

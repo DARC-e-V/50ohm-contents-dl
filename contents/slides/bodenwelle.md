@@ -1,7 +1,7 @@
 <left>
 * Die Bodenwelle reicht über den sichtbaren Horizont raus
 * Folgt der Erdkrümmung
-* Am besten für Frequenzen unter 3 MHz
+* Am besten für Frequenzen unter $\qty{3}{\mega\hertz}$
 </left>
 <right>
 [picture:866:e_reichweite_bodenwelle:Reichweite der Bodenwelle je nach Band]
@@ -11,9 +11,9 @@
 ## Reichweite
 
 * Reichweite ist von Frequenz und Bodenbeschaffenheit abhängig
-* Langwelle (30 kHz–300 kHz) bis zu 1000 km, Mittelwelle (300 kHz–3 MHz) bis zu 250 km
-* Gut nutzbar im 160 m-Band
-* Im 10 m-Band für Kommunikation im Stadtbereich nutzbar
+* Langwelle ($\qtyrange{30}{300}{\kilo\hertz}$) bis zu $\qty{1000}{\kilo\meter}$, Mittelwelle ($\qty{300}{\kilo\hertz}--\qty{3}{\mega\hertz}$) bis zu $\qty{250}{\kilo\meter}$
+* Gut nutzbar im $\qty{160}{\meter}$-Band
+* Im $\qty{10}{\meter}$-Band für Kommunikation im Stadtbereich nutzbar
 * VHF und höhere Frequenzen vernachlässigbar
 
 <note>

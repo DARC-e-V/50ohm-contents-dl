@@ -16,7 +16,7 @@
 ## Kritische Frequenz
 
 <left>
-* Bei 90° Abstrahlwinkel muss das Signal in der Ionosphäre eine 180°-Wendung vollziehen
+* Bei $\qty{90}{\degree}$ Abstrahlwinkel muss das Signal in der Ionosphäre eine $\qty{180}{\degree}$-Wendung vollziehen
 * Kritische Frequenz $f_c$ bei der das Signal reflektiert wird
 * MUF ist größer als $f_c$, da in der Regel nicht senkrecht nach oben gesendet wird
 </left>
@@ -47,7 +47,7 @@ Kritische Frequenz wird auch als $f_k$ oder $f_\mathrm{krit}$ angegeben
 ---
 ### Lösungsweg
 <left>
-* gegeben: $\alpha = 45\degree$
+* gegeben: $\alpha = \qty{45}{\degree}$
 * gegeben: $f_c = 3MHz$
 </left>
 <right>
@@ -57,12 +57,12 @@ Kritische Frequenz wird auch als $f_k$ oder $f_\mathrm{krit}$ angegeben
 
 <left>
 <fragment>
-$\begin{equation}\begin{split} \nonumber \mathrm{MUF} & \approx \frac{f_c}{\sin(\alpha)}\\&\approx \frac{3MHz}{0,71}\\&\approx 4,2MHz\end{split}\end{equation}$
+$\begin{equation}\begin{split} \nonumber \mathrm{MUF} & \approx \frac{f_c}{\sin(\alpha)}\\&\approx \frac{\qty{3}{\mega\hertz}}{0,71}\\&\approx \qty{4,2}{\mega\hertz}\end{split}\end{equation}$
 </fragment>
 </left>
 <right>
 <fragment>
-$\begin{equation}\begin{split} \nonumber f_{\mathrm{opt}} &= \mathrm{MUF}\cdot 0,85\\ &= 4,2MHz \cdot 0,85\\ &= 3,6MHz \end{split}\end{equation}$
+$\begin{equation}\begin{split} \nonumber f_{\mathrm{opt}} &= \mathrm{MUF}\cdot 0,85\\ &= \qty{4,2}{\mega\hertz} \cdot 0,85\\ &= \qty{3,6}{\mega\hertz} \end{split}\end{equation}$
 </fragment>
 </right>
 
@@ -84,7 +84,7 @@ Niedrigste Frequenz mit der eine Verbindung über die Raumwelle hergestellt werd
 Wiederholung
 </left>
 <right>
-* Bei 90° Abstrahlwinkel muss das Signal in der Ionosphäre eine 180°-Wendung vollziehen
+* Bei $\qty{90}{\degree}$ Abstrahlwinkel muss das Signal in der Ionosphäre eine $\qty{180}{\degree}$-Wendung vollziehen
 * Kritische Frequenz $f_c$ bei der das Signal reflektiert wird
 * MUF liegt höher als $f_c$, da in der Regel nicht senkrecht nach oben gesendet wird
 </right>

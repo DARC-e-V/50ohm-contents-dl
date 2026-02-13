@@ -10,8 +10,8 @@ Eine geradlinige Verbindung zwischen zwei Orten auf einer Kugel verläuft immer 
 
 ---
 
-* Der Drehwinkel unterscheidet sich dabei um 180°
-* Beispiel: von Berlin nach Sydney/Australien ist der kurze Weg bei 75°, der lange Weg bei 255°
+* Der Drehwinkel unterscheidet sich dabei um $\qty{180}{\degree}$
+* Beispiel: von Berlin nach Sydney/Australien ist der kurze Weg bei $\qty{75}{\degree}$, der lange Weg bei $\qty{255}{\degree}$
 
 ---
 [question:AH216]
@@ -19,11 +19,11 @@ Eine geradlinige Verbindung zwischen zwei Orten auf einer Kugel verläuft immer 
 ### Rechnung
 
 Für den langen Weg
-* Bei Drehwinkel zwischen 0° und 180°: Drehwinkel + 180°
-* Bei Drehwinkel zwischen 180° und 360°: Drehwinkel - 180°
+* Bei Drehwinkel zwischen $\qty{0}{\degree}$ und $\qty{180}{\degree}$: Drehwinkel + $\qty{180}{\degree}$
+* Bei Drehwinkel zwischen $\qty{180}{\degree}$ und $\qty{360}{\degree}$: Drehwinkel - $\qty{180}{\degree}$
 
 <note>
-Edge Cases für Besserwisser: 0°, 180° und 360° können mit beiden Formeln berechnet werden
+Edge Cases für Besserwisser: $\qty{0}{\degree}$, $\qty{180}{\degree}$ und $\qty{360}{\degree}$ können mit beiden Formeln berechnet werden
 </note>
 
 ---

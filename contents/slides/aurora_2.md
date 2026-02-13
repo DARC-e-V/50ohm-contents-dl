@@ -5,7 +5,7 @@
 </left>
 <right>
 * Die Aurora findet in der Nähe der Pole statt
-* Die Aurora ist auf Höhe der E-Region (90 bis 130 km)
+* Die Aurora ist auf Höhe der E-Region ($\num{90}$ bis $\qty{130}{\kilo\meter}$)
 * Geladene Teilchen der Sonne dringen in die Atmosphäre ein
 </right>
 
@@ -22,7 +22,7 @@ Die richtigen Fragen enthalten "Pole" oder "Polarregion" und für uns in Europa 
 ---
 ## Nutzung für Wellenausbreitung
 
-* Die Aurora ist ein stark ionisierter Bereich, die Funkwellen über 30 MHz reflektiert
+* Die Aurora ist ein stark ionisierter Bereich, die Funkwellen über $\qty{30}{\mega\hertz}$ reflektiert
 * Wird also hauptsächlich mit UHF und VHF verwendet
 * Sprache ist zu breitbandig, deshalb eignet sich CW am besten
 * Trotzdem ist das Signal "flatternd" und "verbrummt"

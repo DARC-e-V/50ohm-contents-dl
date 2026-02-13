@@ -30,13 +30,13 @@ Die kritische Frequenz ist also die höchste Frequenz, die aus der Ionosphäre w
 
 ---
 
-Die Abbildung [ref:e_muf_fof2] zeigt den zeitlichen Verlauf von MUF und $f_\text{c}$ am 08.09.2025, gemessen mit der Ionosonde in Juliusruh. MUF $\qty{3000}{km}$ bedeutet in diesem Fall, dass sehr flach abgestrahlt wird, um eine Sprungdistanz von $\qty{3000}{km}$ zu erreichen.
+Die Abbildung [ref:e_muf_fof2] zeigt den zeitlichen Verlauf von MUF und $f_\text{c}$ am 08.09.2025, gemessen mit der Ionosonde in Juliusruh. MUF $\qty{3000}{\kilo\meter}$ bedeutet in diesem Fall, dass sehr flach abgestrahlt wird, um eine Sprungdistanz von $\qty{3000}{\kilo\meter}$ zu erreichen.
 
 <margin>
 [picture:999:e_muf_fof2:MUF und $f_\text{c}$ am 08.09.2025]
 </margin>
 
-Für andere Abstrahlwinkel lässt sich die MUF aus der $f_\text{c}$ mithilfe der folgenden Formel aus der Formelsammlung näherungsweise bestimmen (gilt für $\alpha > 40\degree$): 
+Für andere Abstrahlwinkel lässt sich die MUF aus der $f_\text{c}$ mithilfe der folgenden Formel aus der Formelsammlung näherungsweise bestimmen (gilt für $\alpha > \qty{40}{\degree}$):
 
 $MUF \approx \frac{f_\text{c}}{sin(\alpha)}$
 

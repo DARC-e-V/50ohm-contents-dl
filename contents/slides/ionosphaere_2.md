@@ -5,7 +5,7 @@
 
 ---
 <left>
-* In ca. 50 bis 450 km Höhe
+* In ca. $\num{50}$ bis $\qty{450}{\kilo\meter}$ Höhe
 * Refraktion von Kurzwellen, wodurch weltweite Kommunikation ermöglicht wird
 </left>
 <right>
@@ -29,7 +29,7 @@
 
 * Mehr Sonnenstrahlung &rarr; Ausbreitung auf höherer Frequenz möglich
 * Besonders viel Strahlung tagsüber im Sonnenfleckenmaximum
-* 10m-Band selbst bei geringer Sendeleistung tagsüber nutzbar
+* $\qty{10}{\meter}$-Band selbst bei geringer Sendeleistung tagsüber nutzbar
 
 ---
 [question:EH219]
@@ -53,19 +53,19 @@
 
 ---
 * Für die Prüfungsfragen der Klasse E ist ein grundlegendes, qualitatives Verständnis der Regionen erforderlich
-* Die für die Kurzwellen-Fernausbreitung (DX) wichtigen F-Regionen der Ionosphäre befinden sich in einer Höhe von etwa 130 bis 450 Kilometern
+* Die für die Kurzwellen-Fernausbreitung (DX) wichtigen F-Regionen der Ionosphäre befinden sich in einer Höhe von etwa $\num{130}$ bis $\qty{450}{\kilo\meter}$
 * In der Klasse A müssen die genauen Höhenlagen der einzelnen Regionen für Tag und Nacht benannt werden können
 
 ---
 [question:EH102]
 ---
 ### D-Region
-* In ca. 50–90 km Höhe
+* In ca. $\qtyrange{50}{90}{\kilo\meter}$ Höhe
 * Existiert *nur am Tag*
 * Nach Sonnenuntergang sehr schnell verschwunden
 * Energieverlust durch Kollision der Elektronen mit anderen Teilchen
-* Starke *Dämpfung* von Funkwellen unter 10 MHz
-* Keine Raumwelle für Amateurfunkbänder wie 160 m oder 80 m
+* Starke *Dämpfung* von Funkwellen unter $\qty{10}{\mega\hertz}$
+* Keine Raumwelle für Amateurfunkbänder wie $\qty{160}{\meter}$ oder $\qty{80}{\meter}$
 
 <note>
 * Die Schichten verschwinden durch Rekombination der Ionen und Elektronen, wenn sie nicht mehr durch Sonnenstrahlung angeregt werden
@@ -77,10 +77,10 @@
 
 ---
 ### E-Region
-* In ca. 90–130 km Höhe
+* In ca. $\qtyrange{90}{130}{\kilo\meter}$ Höhe
 * Entsteht *tagsüber* mit Maximum zur Mittagszeit
 * Verschwindet etwa 1 Stunde nach Sonnenuntergang
-* Sprungdistanz ca. 2000 km bis 10 MHz
+* Sprungdistanz ca. $\qty{2000}{\kilo\meter}$ bis $\qty{10}{\mega\hertz}$
 * Starke Ionisation &rarr; Sporadic-E
 * Namensgebene: *E*(lektrische)*-Schicht*
 
@@ -92,11 +92,11 @@
 
 ---
 ### F-Regionen
-* In ca. 200–400 km Höhe
+* In ca. $\qtyrange{200}{400}{\kilo\meter}$ Höhe
 * Am stärksten ionisierte Schicht
 * F<sub>1</sub>-Schicht existiert *nur am Tag*
 * F<sub>2</sub>-Schicht bleibt *nachts* bestehen
-* Sprungdistanz ca. 4000 km
+* Sprungdistanz ca. $\qty{4000}{\kilo\meter}$
 
 <note>
 Wenig Restatmosphäre, weshalb die Elektronen lange brauchen, um ein Ion zur Rekombination zu finden
@@ -122,8 +122,8 @@ Wenig Restatmosphäre, weshalb die Elektronen lange brauchen, um ein Ion zur Rek
 [question:EH107]
 
 ---
-* Während dieser Zeit können alle oberen Kurzwellenbänder und teilweise sogar das 6-Meter-Band für DX-Verbindungen genutzt werden
-* Im Aktivitätsminimum sind die Frequenzbänder oberhalb des 20-Meter-Bandes (z. B. 10 m) meist nicht nutzbar
+* Während dieser Zeit können alle oberen Kurzwellenbänder und teilweise sogar das $\qty{6}{\meter}$-Band für DX-Verbindungen genutzt werden
+* Im Aktivitätsminimum sind die Frequenzbänder oberhalb des $\qty{20}{\meter}$-Bandes (z. B. $\qty{10}{\meter}$) meist nicht nutzbar
 
 ---
 [question:EH205]

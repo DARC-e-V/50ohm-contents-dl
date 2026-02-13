@@ -1,4 +1,4 @@
-Wenn sich zwei (oder mehr) Signale gleicher Frequenz überlagern, dann addieren sich im Empfänger ihre Amplituden. Je nach Phasenlage führt das zu einer Verstärkung oder Abschwächung des resultierenden Summensignals. Sind die Amplituden zweier Signale gleich groß, aber die Phase um 180° verschoben, wird ihr Summensignal sogar zu Null, verschwindet also.
+Wenn sich zwei (oder mehr) Signale gleicher Frequenz überlagern, dann addieren sich im Empfänger ihre Amplituden. Je nach Phasenlage führt das zu einer Verstärkung oder Abschwächung des resultierenden Summensignals. Sind die Amplituden zweier Signale gleich groß, aber die Phase um $\qty{180}{\degree}$ verschoben, wird ihr Summensignal sogar zu Null, verschwindet also.
 
 <indepth>
 [include:fading_applet]

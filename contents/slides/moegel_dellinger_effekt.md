@@ -1,5 +1,5 @@
 * Sonneneruptionen mit Plasma-Flares ionisieren die D-Region
-* Hohe Dämpfung der Raumwelle bis 300 MHz
+* Hohe Dämpfung der Raumwelle bis $\qty{300}{\mega\hertz}$
 * Totaler Ausfall der Raumwelle für wenige Minuten bis Stunden möglich
 * Kann nur tagsüber auftreten
 * Besonders stark bei Sonnenfleckenmaximum

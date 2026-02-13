@@ -39,7 +39,7 @@ Im folgenden Kapitel werden mehrere Begriffe verwendet, die vorab erklärt werde
 
 * Schichten unterschiedlicher Temperatur liegen aufeinander
 * An der Grenze der Schichten werden Funkwellen im VHF-Bereich reflektiert
-* Ermöglichen Funkverbindungen mit Stationen in rund 800 bis 1000 km Entfernung
+* Ermöglichen Funkverbindungen mit Stationen in rund $\num{800}$ bis $\qty{1000}{\kilo\meter}$ Entfernung
 * Troposphärische Inversionsbildung tritt hauptsächlich im Frühjahr und Herbst auf
 
 ---

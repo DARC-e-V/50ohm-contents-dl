@@ -28,24 +28,24 @@
 ### Sonnenfleckenminimum
 
 * Die Abhängigkeit von der Tageszeit beeinflusst die Ausbreitung von Funkwellen
-* Im Sonnenfleckenmaximum funktioniert das 10-Meter-Band tagsüber gut
-* Im Sonnenfleckenminimum ist das 10-Meter-Band tagsüber kaum nutzbar
-* Während des Sonnenfleckenminimums wird tagsüber häufig das 20-Meter-Band für Weitverbindungen verwendet
+* Im Sonnenfleckenmaximum funktioniert das $\qty{10}{\meter}$-Band tagsüber gut
+* Im Sonnenfleckenminimum ist das $\qty{10}{\meter}$-Band tagsüber kaum nutzbar
+* Während des Sonnenfleckenminimums wird tagsüber häufig das $\qty{20}{\meter}$-Band für Weitverbindungen verwendet
 
 ---
 [question:AH202]
 ---
-* Das 40-Meter-Band ist ein zuverlässiges Band für die Kommunikation
-* Ebenso wie das 20-Meter-Band nur Klasse A vorbehalten
-* Das 40-Meter-Band ist besonders für die Kommunikation über große Entfernungen innerhalb Deutschlands geeignet, wie z. B. von Hamburg nach München
+* Das $\qty{40}{\meter}$-Band ist ein zuverlässiges Band für die Kommunikation
+* Ebenso wie das $\qty{20}{\meter}$-Band nur Klasse A vorbehalten
+* Das $\qty{40}{\meter}$-Band ist besonders für die Kommunikation über große Entfernungen innerhalb Deutschlands geeignet, wie z. B. von Hamburg nach München
 
 ---
 [question:AH201]
 ---
 ### Nachts
 
-* 80- und 160-Meter-Bänder sind tagsüber aufgrund der D-Schicht kaum nutzbar, aber nachts zuverlässig
-* 40-Meter-Band ermöglicht nachts größere Reichweiten, da die Ausbreitung über die F2-Schicht erfolgt
+* $\qty{80}{\meter}$ und $\qty{160}{\meter}$-Bänder sind tagsüber aufgrund der D-Schicht kaum nutzbar, aber nachts zuverlässig
+* $\qty{40}{\meter}$-Band ermöglicht nachts größere Reichweiten, da die Ausbreitung über die F2-Schicht erfolgt
 * F1-Schicht: Führt aufgrund geringerer Höhe zu kürzeren Sprungdistanzen und ist meist unerwünscht
 
 ---
@@ -61,7 +61,7 @@
 [picture:988:a_flux:Solarer Flux und Anzahl der Sonnenflecken von 2005 bis 2025]
 </left>
 <right>
-* Strahlung der Sonne auf 2,8 GHz
+* Strahlung der Sonne auf $\qty{2,8}{\giga\hertz}$
 * Wird seit Mitte des 20. Jahrhunderts durchgeführt
 * Ist weniger sprunghaft als Zählung der Sonnenflecken
 * Reicht von 65 im Aktivitätsminimum und bis über 300 bei starken Maxima
