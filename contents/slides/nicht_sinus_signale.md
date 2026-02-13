@@ -110,5 +110,5 @@ $3 \cdot f = 3 \cdot 7,050MHz = 21,150MHz$
 * gesucht: mehrere Harmonische
 
 <fragment>
-$\begin{aligned}2 \cdot 144,300MHz &= 288,600MHz\\ 3 \cdot 144,300MHz &= \bold{432,900MHz}\\ &\vdots\\ 9 \cdot 144,300MHz &= \bold{1298,700MHz}\end{aligned}$
+$\begin{split}2 \cdot 144,300MHz &= 288,600MHz\\ 3 \cdot 144,300MHz &= \bold{432,900MHz}\\ &\vdots\\ 9 \cdot 144,300MHz &= \bold{1298,700MHz}\end{split}$
 </fragment>

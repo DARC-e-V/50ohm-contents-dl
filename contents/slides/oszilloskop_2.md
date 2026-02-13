@@ -58,7 +58,7 @@ Definition: Die Pulsbreite liegt bei 50% des Spitzenwerts
 * gesucht: $P_{\textrm{PEP}}$
 
 <fragment>
-$\begin{equation}\begin{split} \nonumber P_{\textrm{PEP}} &= \frac{U_{\textrm{eff}}^2}{R} = \frac{(\frac{100V}{\sqrt{2}})^2}{50\Omega}\\ &=\frac{\frac{(100V)^2}{2}}{50\Omega} = \frac{5000V^2}{50\Omega} = 100W \end{split}\end{equation}$
+$\begin{split} P_{\textrm{PEP}} &= \frac{U_{\textrm{eff}}^2}{R} = \frac{(\frac{100V}{\sqrt{2}})^2}{50\Omega}\\ &=\frac{\frac{(100V)^2}{2}}{50\Omega} = \frac{5000V^2}{50\Omega} = 100W \end{split}$
 </fragment>
 ---
 [question:AI306]
@@ -69,7 +69,7 @@ $\begin{equation}\begin{split} \nonumber P_{\textrm{PEP}} &= \frac{U_{\textrm{ef
 * gesucht: $P_{\textrm{PEP}}$
 
 <fragment>
-$\begin{equation}\begin{split} \nonumber P_{\textrm{PEP}} &= \frac{U_{\textrm{eff}}^2}{R} = \frac{(\frac{6V\cdot 10}{\sqrt{2}})^2}{50\Omega}\\ &=\frac{\frac{(60V)^2}{2}}{50\Omega} = 36W \end{split}\end{equation}$
+$\begin{split} P_{\textrm{PEP}} &= \frac{U_{\textrm{eff}}^2}{R} = \frac{(\frac{6V\cdot 10}{\sqrt{2}})^2}{50\Omega}\\ &=\frac{\frac{(60V)^2}{2}}{50\Omega} = 36W \end{split}$
 </fragment>
 
 ---

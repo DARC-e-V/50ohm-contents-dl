@@ -64,7 +64,7 @@ Ein VNA misst die Veränderung des Blindwiderstandes $X_C$ in Abhängigkeit der 
 * gesucht: $X_{\textrm{C}}$
 
 <fragment>
-$\begin{equation}\begin{split}\nonumber X_{\textrm{C}} &= \frac{1}{\omega \cdot C} = \frac{1}{2\pi \cdot f \cdot C}\\ &= \frac{1}{2\pi \cdot 100MHz \cdot 10pF}\\ &\approx 159\Omega \end{split}\end{equation}$
+$\begin{split} X_{\textrm{C}} &= \frac{1}{\omega \cdot C} = \frac{1}{2\pi \cdot f \cdot C}\\ &= \frac{1}{2\pi \cdot 100MHz \cdot 10pF}\\ &\approx 159\Omega \end{split}$
 </fragment>
 
 ---
@@ -76,7 +76,7 @@ $\begin{equation}\begin{split}\nonumber X_{\textrm{C}} &= \frac{1}{\omega \cdot 
 * gesucht: $X_{\textrm{C}}$
 
 <fragment>
-$\begin{equation}\begin{split}\nonumber X_{\textrm{C}} &= \frac{1}{\omega \cdot C} = \frac{1}{2\pi \cdot f \cdot C}\\ &= \frac{1}{2\pi \cdot 145MHz \cdot 50pF}\\ &\approx 22\Omega \end{split}\end{equation}$
+$\begin{split} X_{\textrm{C}} &= \frac{1}{\omega \cdot C} = \frac{1}{2\pi \cdot f \cdot C}\\ &= \frac{1}{2\pi \cdot 145MHz \cdot 50pF}\\ &\approx 22\Omega \end{split}$
 </fragment>
 ---
 [question:AC106]
@@ -87,7 +87,7 @@ $\begin{equation}\begin{split}\nonumber X_{\textrm{C}} &= \frac{1}{\omega \cdot 
 * gesucht: $X_{\textrm{C}}$
 
 <fragment>
-$\begin{equation}\begin{split}\nonumber X_{\textrm{C}} &= \frac{1}{\omega \cdot C} = \frac{1}{2\pi \cdot f \cdot C}\\ &= \frac{1}{2\pi \cdot 100MHz \cdot 100pF}\\ &\approx 15,9\Omega \end{split}\end{equation}$
+$\begin{split} X_{\textrm{C}} &= \frac{1}{\omega \cdot C} = \frac{1}{2\pi \cdot f \cdot C}\\ &= \frac{1}{2\pi \cdot 100MHz \cdot 100pF}\\ &\approx 15,9\Omega \end{split}$
 </fragment>
 
 ---
@@ -99,7 +99,7 @@ $\begin{equation}\begin{split}\nonumber X_{\textrm{C}} &= \frac{1}{\omega \cdot 
 * gesucht: $X_{\textrm{C}}$
 
 <fragment>
-$\begin{equation}\begin{split}\nonumber X_{\textrm{C}} &= \frac{1}{\omega \cdot C} = \frac{1}{2\pi \cdot f \cdot C}\\ &= \frac{1}{2\pi \cdot 435MHz \cdot 100pF}\\ &\approx 3,7\Omega \end{split}\end{equation}$
+$\begin{split} X_{\textrm{C}} &= \frac{1}{\omega \cdot C} = \frac{1}{2\pi \cdot f \cdot C}\\ &= \frac{1}{2\pi \cdot 435MHz \cdot 100pF}\\ &\approx 3,7\Omega \end{split}$
 </fragment>
 
 ---
@@ -120,7 +120,7 @@ $X_{\textrm{C}} = \frac{U}{I} = \frac{16V}{32mA} = 500\Omega$
 </fragment>
 
 <fragment>
-$\begin{equation}\begin{align}\nonumber X_{\textrm{C}} &= \frac{1}{\omega \cdot C} \\ \nonumber \Rightarrow C &= \frac{1}{\omega \cdot X_{\textrm{C}}} = \frac{1}{2\pi \cdot f \cdot X_{\textrm{C}}}\\ \nonumber &= \frac{1}{2\pi \cdot 50Hz \cdot 500\Omega}\\ \nonumber &\approx 6,37\mu F\end{align}\end{equation}$
+$\begin{split} X_{\textrm{C}} &= \frac{1}{\omega \cdot C} \\ \Rightarrow C &= \frac{1}{\omega \cdot X_{\textrm{C}}} = \frac{1}{2\pi \cdot f \cdot X_{\textrm{C}}}\\ &= \frac{1}{2\pi \cdot 50Hz \cdot 500\Omega}\\ &\approx 6,37\mu F\end{split}$
 </fragment>
 
 ---

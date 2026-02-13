@@ -93,7 +93,7 @@ Keine Berechnung notwendig, da es nur eine Antwort mit Dämpfungsglied gibt
 
 
 <fragment>
-$\begin{aligned}R &= (\frac{1}{R_T + R_T} + \frac{1}{R_V} + \frac{1}{R_V})^{-1}\\ &= (\frac{1}{330Ω + 330Ω} + \frac{1}{110Ω} + \frac{1}{110Ω})^{-1}\\ &= 50,77Ω\end{aligned}$
+$\begin{split}R &= (\frac{1}{R_T + R_T} + \frac{1}{R_V} + \frac{1}{R_V})^{-1}\\ &= (\frac{1}{330Ω + 330Ω} + \frac{1}{110Ω} + \frac{1}{110Ω})^{-1}\\ &= 50,77Ω\end{split}$
 </fragment>
 
 --- style="font-size: smaller;"
@@ -103,7 +103,7 @@ $\begin{aligned}R &= (\frac{1}{R_T + R_T} + \frac{1}{R_V} + \frac{1}{R_V})^{-1}\
 * gesucht: $U_A$
 
 <fragment>
-$\begin{aligned}P_E &= \frac{U_{E,eff}^2}{R}\\ \Rightarrow U_{E,eff} &= \sqrt{P_E \cdot R}\\ &= \sqrt{1W \cdot 50,77Ω}\\ &= 7,125V\end{aligned}$
+$\begin{split}P_E &= \frac{U_{E,eff}^2}{R}\\ \Rightarrow U_{E,eff} &= \sqrt{P_E \cdot R}\\ &= \sqrt{1W \cdot 50,77Ω}\\ &= 7,125V\end{split}$
 </fragment>
 
 --- style="font-size: smaller;"
@@ -113,12 +113,12 @@ $\begin{aligned}P_E &= \frac{U_{E,eff}^2}{R}\\ \Rightarrow U_{E,eff} &= \sqrt{P_
 
 <left>
 <fragment>
-$\begin{aligned}U_S &= U_{E,eff} \cdot \sqrt{2}\\ &= 7,071V \cdot 1,414\\ &= 10,07V\end{aligned}$
+$\begin{split}U_S &= U_{E,eff} \cdot \sqrt{2}\\ &= 7,071V \cdot 1,414\\ &= 10,07V\end{split}$
 </fragment>
 </left>
 <right>
 <fragment>
-$\begin{aligned}U_A &= \frac{U_S}{2}\,-\,U_F\\ &= \frac{10,07V}{2}\,-\,0,23V\\ &= 5,035V\,-\,0,23V\\ &= 4,805V \approx 4,8V\end{aligned}$
+$\begin{split}U_A &= \frac{U_S}{2}\,-\,U_F\\ &= \frac{10,07V}{2}\,-\,0,23V\\ &= 5,035V\,-\,0,23V\\ &= 4,805V \approx 4,8V\end{split}$
 </fragment>
 </right>
 
@@ -146,12 +146,12 @@ $\begin{aligned}U_A &= \frac{U_S}{2}\,-\,U_F\\ &= \frac{10,07V}{2}\,-\,0,23V\\ &
 
 <left>
 <fragment>
-$\begin{aligned}R &= (\frac{1}{R_T + R_T} + \frac{1}{R_1})^{-1}\\ &= (\frac{1}{330Ω + 330Ω} + \frac{1}{54,1Ω})^{-1}\\ &= 50Ω\end{aligned}$
+$\begin{split}R &= (\frac{1}{R_T + R_T} + \frac{1}{R_1})^{-1}\\ &= (\frac{1}{330Ω + 330Ω} + \frac{1}{54,1Ω})^{-1}\\ &= 50Ω\end{split}$
 </fragment>
 </left>
 <right>
 <fragment>
-$\begin{aligned}U_S &= (U_A + U_F) \cdot 2\\ &= (14,9V + 0,7V) \cdot 2\\ &= 31,2V\end{aligned}$
+$\begin{split}U_S &= (U_A + U_F) \cdot 2\\ &= (14,9V + 0,7V) \cdot 2\\ &= 31,2V\end{split}$
 </fragment>
 </right>
 
@@ -162,12 +162,12 @@ $\begin{aligned}U_S &= (U_A + U_F) \cdot 2\\ &= (14,9V + 0,7V) \cdot 2\\ &= 31,2
 * gesucht: $P_E$
 
 <fragment>
-$\begin{aligned}U_{E,eff}\\ &= \frac{U_S}{\sqrt{2}}\\ &= \frac{31,2V}{1,414}\\ &= 22,06V\end{aligned}$
+$\begin{split}U_{E,eff}\\ &= \frac{U_S}{\sqrt{2}}\\ &= \frac{31,2V}{1,414}\\ &= 22,06V\end{split}$
 </fragment>
 </left>
 <right>
 <fragment>
-$\begin{aligned}P_E &= \frac{U_{E,eff}^2}{R}\\ &= \frac{(22,06V)^2}{50Ω}\\ &\approx 9,7W\end{aligned}$
+$\begin{split}P_E &= \frac{U_{E,eff}^2}{R}\\ &= \frac{(22,06V)^2}{50Ω}\\ &\approx 9,7W\end{split}$
 </fragment>
 </right>
 
@@ -196,12 +196,12 @@ $\begin{aligned}P_E &= \frac{U_{E,eff}^2}{R}\\ &= \frac{(22,06V)^2}{50Ω}\\ &\ap
 
 <left>
 <fragment>
-$\begin{aligned}R &= (\frac{1}{R_{V1}} + \frac{1}{R_{V2}})^{-1}\\ &= (\frac{1}{R_{56Ω}} + \frac{1}{R_{470Ω}})^{-1}\\ &= 50,04Ω\end{aligned}$
+$\begin{split}R &= (\frac{1}{R_{V1}} + \frac{1}{R_{V2}})^{-1}\\ &= (\frac{1}{R_{56Ω}} + \frac{1}{R_{470Ω}})^{-1}\\ &= 50,04Ω\end{split}$
 </fragment>
 </left>
 <right>
 <fragment>
-$\begin{aligned}U_S &= \frac{U_A}{2} + U_F\\ &= \frac{15,3V}{2} + 0,23V\\ &= 7,88V\end{aligned}$
+$\begin{split}U_S &= \frac{U_A}{2} + U_F\\ &= \frac{15,3V}{2} + 0,23V\\ &= 7,88V\end{split}$
 </fragment>
 </right>
 
@@ -212,12 +212,12 @@ $\begin{aligned}U_S &= \frac{U_A}{2} + U_F\\ &= \frac{15,3V}{2} + 0,23V\\ &= 7,8
 * gesucht: $P_E$
 
 <fragment>
-$\begin{aligned}U_{E,eff} &= \frac{U_S}{\sqrt{2}}\\ &= \frac{7,88V}{1,414}\\ &= 5,57V\end{aligned}$
+$\begin{split}U_{E,eff} &= \frac{U_S}{\sqrt{2}}\\ &= \frac{7,88V}{1,414}\\ &= 5,57V\end{split}$
 </fragment>
 </left>
 <right>
 <fragment>
-$\begin{aligned}P_E &= \frac{U_{E,eff}^2}{R}\\ &= \frac{{5,57V}^2}{50,04Ω}\\ &\approx 600mW\end{aligned}$
+$\begin{split}P_E &= \frac{U_{E,eff}^2}{R}\\ &= \frac{{5,57V}^2}{50,04Ω}\\ &\approx 600mW\end{split}$
 </fragment>
 </right>
 
@@ -234,12 +234,12 @@ $\begin{aligned}P_E &= \frac{U_{E,eff}^2}{R}\\ &= \frac{{5,57V}^2}{50,04Ω}\\ &\
 
 <left>
 <fragment>
-$\begin{aligned}U_S &= \frac{U_A}{2} + U_F\\ &= \frac{15,3V}{2} + 0,23V\\ &= 7,88V\end{aligned}$
+$\begin{split}U_S &= \frac{U_A}{2} + U_F\\ &= \frac{15,3V}{2} + 0,23V\\ &= 7,88V\end{split}$
 </fragment>
 </left>
 <right>
 <fragment>
-$\begin{aligned}U_{E,eff} &= \frac{U_S}{\sqrt{2}}\\ &= \frac{7,88V}{1,414}\\ &= 5,57V\end{aligned}$
+$\begin{split}U_{E,eff} &= \frac{U_S}{\sqrt{2}}\\ &= \frac{7,88V}{1,414}\\ &= 5,57V\end{split}$
 </fragment>
 </right>
   
@@ -249,7 +249,7 @@ $\begin{aligned}U_{E,eff} &= \frac{U_S}{\sqrt{2}}\\ &= \frac{7,88V}{1,414}\\ &= 
 * gesucht: $P_E$
 
 <fragment>
-$\begin{aligned}P_E &= \frac{(U_{E,eff} \cdot 10)^2}{R}\\ &= \frac{(5,57V \cdot 10)^2}{50Ω}\\ &\approx 60W\end{aligned}$
+$\begin{split}P_E &= \frac{(U_{E,eff} \cdot 10)^2}{R}\\ &= \frac{(5,57V \cdot 10)^2}{50Ω}\\ &\approx 60W\end{split}$
 </fragment>
 
 --- style="font-size: smaller;"

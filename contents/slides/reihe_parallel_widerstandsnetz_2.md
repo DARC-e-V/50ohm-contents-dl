@@ -87,7 +87,7 @@ $R_{ges} = 200Ω + \frac{100Ω \cdot (200Ω + 1kΩ)}{100Ω + 200Ω +1kΩ} \appro
 * gesucht: $R_{ges}$
 
 <fragment>
-$\begin{equation}\begin{split}\nonumber R_{ges} &= \frac{(R_1 + R_2) \cdot (R_3 + R_4)}{(R_1 + R_2) + (R_3 + R_4)}\\ &= \frac{(2,2kΩ + 220Ω) \cdot (2,2kΩ + 220Ω)}{2,2kΩ + 220Ω + 2,2kΩ + 220Ω}\\ &= 1210Ω\end{split}\end{equation}$
+$\begin{split} R_{ges} &= \frac{(R_1 + R_2) \cdot (R_3 + R_4)}{(R_1 + R_2) + (R_3 + R_4)}\\ &= \frac{(2,2kΩ + 220Ω) \cdot (2,2kΩ + 220Ω)}{2,2kΩ + 220Ω + 2,2kΩ + 220Ω}\\ &= 1210Ω\end{split}$
 </fragment>
 ---
 [question:AD114]

@@ -28,7 +28,7 @@ Der angezeigte Messwert unterscheidet sich meist vom tatsächlichen Wert
 * gesucht: Abweichung der Leistung $P = U \cdot I$
 
 <fragment>
-$\begin{equation}\begin{split} \nonumber P_{\textrm{Abw}} &= 100\% - (U_{\mathrm{Abw}} \cdot I_{\mathrm{Abw}})\\ &= 100\% - (95\% \cdot 95\%)\\ &= 100\% - 90,25\%\\ &= 9,75\% \end{split}\end{equation}$
+$\begin{split} P_{\textrm{Abw}} &= 100\% - (U_{\mathrm{Abw}} \cdot I_{\mathrm{Abw}})\\ &= 100\% - (95\% \cdot 95\%)\\ &= 100\% - 90,25\%\\ &= 9,75\% \end{split}$
 </fragment>
 
 ---
@@ -47,6 +47,6 @@ $\begin{equation}\begin{split} \nonumber P_{\textrm{Abw}} &= 100\% - (U_{\mathrm
 * gesucht: $I$
 
 <fragment>
-$\begin{equation} \nonumber I = \frac{U}{R} = \frac{0,5V}{10M\Omega} = 50nA \end{equation}$
+$$I = \frac{U}{R} = \frac{0,5V}{10M\Omega} = 50nA$$
 </fragment>
 

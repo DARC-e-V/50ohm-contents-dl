@@ -58,7 +58,7 @@ Maßnahme für eine möglichst hohe Unterdrückung:
 * gesucht: $f_S$
 
 <fragment>
-$\begin{aligned}f_S &= 2 \cdot f_{OSZ} - f_E\\ &= 2 \cdot 134,9MHz - 145,6MHz\\ &= 124,2MHz\end{aligned}$
+$\begin{split}f_S &= 2 \cdot f_{OSZ} - f_E\\ &= 2 \cdot 134,9MHz - 145,6MHz\\ &= 124,2MHz\end{split}$
 </fragment>
 ---
 [question:AF203]
@@ -69,7 +69,7 @@ $\begin{aligned}f_S &= 2 \cdot f_{OSZ} - f_E\\ &= 2 \cdot 134,9MHz - 145,6MHz\\ 
 * gesucht: $f_S$
 
 <fragment>
-$\begin{aligned}f_S &= 2 \cdot f_{OSZ} - f_E\\ &= 2 \cdot 39MHz - 28,3MHz\\ &= 49,7MHz\end{aligned}$
+$\begin{split}f_S &= 2 \cdot f_{OSZ} - f_E\\ &= 2 \cdot 39MHz - 28,3MHz\\ &= 49,7MHz\end{split}$
 </fragment>
 ---
 [question:AF204]
@@ -84,7 +84,7 @@ $\begin{aligned}f_S &= 2 \cdot f_{OSZ} - f_E\\ &= 2 \cdot 39MHz - 28,3MHz\\ &= 4
 * gesucht: $f_S$
 
 <fragment>
-$\begin{aligned}f_S &= 2 \cdot f_{OSZ} - f_E\\ &= 2 \cdot 24,94MHz - 14,24MHz\\ &= 35,64MHz\end{aligned}$
+$\begin{split}f_S &= 2 \cdot f_{OSZ} - f_E\\ &= 2 \cdot 24,94MHz - 14,24MHz\\ &= 35,64MHz\end{split}$
 </fragment>
 ---
 [question:AF108]
@@ -96,7 +96,7 @@ $\begin{aligned}f_S &= 2 \cdot f_{OSZ} - f_E\\ &= 2 \cdot 24,94MHz - 14,24MHz\\ 
 
 <fragment>
 Bei $f_E &lt; f_{OSZ}$:
-$\begin{aligned}f_S &= f_E + 2 \cdot f_{ZF}\\ &= 28,5MHz + 2 \cdot 10,7MHz\\ &= 49,9MHz\end{aligned}$
+$\begin{split}f_S &= f_E + 2 \cdot f_{ZF}\\ &= 28,5MHz + 2 \cdot 10,7MHz\\ &= 49,9MHz\end{split}$
 </fragment>
 ---
 [question:AF109]

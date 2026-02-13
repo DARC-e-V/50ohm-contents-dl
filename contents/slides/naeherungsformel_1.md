@@ -6,7 +6,7 @@
 * Gilt nur im Freiraum <br/> ($d > \frac{\lambda}{2\pi}$)
 </left>
 <right>
-$\begin{equation}\begin{split}\nonumber E &= \dfrac{\sqrt{30\Omega \cdot P_A \cdot G_i}}{d}\\ &= \dfrac{\sqrt{30\Omega \cdot P_{\textrm{EIRP}}}}{d} \end{split}\end{equation}$
+$\begin{split} E &= \dfrac{\sqrt{30\Omega \cdot P_A \cdot G_i}}{d}\\ &= \dfrac{\sqrt{30\Omega \cdot P_{\textrm{EIRP}}}}{d} \end{split}$
 </right>
 
 ---
@@ -16,7 +16,7 @@ $\begin{equation}\begin{split}\nonumber E &= \dfrac{\sqrt{30\Omega \cdot P_A \cd
 * Umstellen nach $d$
 </left>
 <right>
-$\begin{equation}\begin{split}\nonumber d &= \dfrac{\sqrt{30\Omega \cdot P_A \cdot G_i}}{E}\\ &= \dfrac{\sqrt{30\Omega \cdot P_{\textrm{EIRP}}}}{E} \end{split}\end{equation}$
+$\begin{split} d &= \dfrac{\sqrt{30\Omega \cdot P_A \cdot G_i}}{E}\\ &= \dfrac{\sqrt{30\Omega \cdot P_{\textrm{EIRP}}}}{E} \end{split}$
 </right>
 
 ---
@@ -36,12 +36,12 @@ $\begin{equation}\begin{split}\nonumber d &= \dfrac{\sqrt{30\Omega \cdot P_A \cd
 
 <left>
 <fragment>
-$\begin{equation}\begin{split} \nonumber P_{\textrm{EIRP}} &= P_S \cdot 10^{\frac{g_d - a + 2,15dB}{10dB}}\\ &= 100W \cdot 10^{\frac{7,5dB - 1,5dB + 2,15dB}{10dB}}\\ &\approx 100W \cdot 6,5\\ &= 650W \end{split}\end{equation}$
+$\begin{split} P_{\textrm{EIRP}} &= P_S \cdot 10^{\frac{g_d - a + 2,15dB}{10dB}}\\ &= 100W \cdot 10^{\frac{7,5dB - 1,5dB + 2,15dB}{10dB}}\\ &\approx 100W \cdot 6,5\\ &= 650W \end{split}$
 </fragment>
 </left>
 <right>
 <fragment>
-$\begin{equation}\begin{split} \nonumber d &= \dfrac{\sqrt{30\Omega \cdot P_{\textrm{EIRP}}}}{E}\\ &= \dfrac{\sqrt{30\Omega \cdot 650W}}{28\frac{V}{m}}\\ &\approx 5m \end{split}\end{equation}$
+$\begin{split} d &= \dfrac{\sqrt{30\Omega \cdot P_{\textrm{EIRP}}}}{E}\\ &= \dfrac{\sqrt{30\Omega \cdot 650W}}{28\frac{V}{m}}\\ &\approx 5m \end{split}$
 </fragment>
 </right>
 
@@ -51,7 +51,7 @@ $\begin{equation}\begin{split} \nonumber d &= \dfrac{\sqrt{30\Omega \cdot P_{\te
 Liegen die errechneten 5m nicht im Nahfeld für das 10m-Band aus der Frage?
 
 <fragment>
-$\begin{equation}\nonumber \begin{split} \nonumber d &> \frac{\lambda}{2\pi}\\ \nonumber 5m &> \frac{10m}{2\pi}\\ \nonumber 5m &\gtrapprox 1,6m \end{split}\end{equation}$
+$\begin{split} d &> \frac{\lambda}{2\pi}\\ 5m &> \frac{10m}{2\pi}\\ 5m &\gtrapprox 1,6m \end{split}$
 </fragment>
 
 ---

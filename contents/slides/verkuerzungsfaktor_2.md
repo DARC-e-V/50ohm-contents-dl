@@ -22,12 +22,12 @@
 
 <left>
 <fragment>
-$\begin{aligned}l_E &= \frac{1}{2} \cdot \frac{\lambda}{2}\\ &= \frac{1}{4} \cdot \frac{c}{f}\\ &= \frac{1}{4} \cdot \frac{3\cdot 10^8\frac{m}{s}}{14,2MHz}\\ &= \frac{1}{4} \cdot 21,13m\\ &= 5,28m\end{aligned}$
+$\begin{split}l_E &= \frac{1}{2} \cdot \frac{\lambda}{2}\\ &= \frac{1}{4} \cdot \frac{c}{f}\\ &= \frac{1}{4} \cdot \frac{3\cdot 10^8\frac{m}{s}}{14,2MHz}\\ &= \frac{1}{4} \cdot 21,13m\\ &= 5,28m\end{split}$
 </fragment>
 </left>
 <right>
 <fragment>
-$\begin{aligned}k_v &= \frac{l_G}{l_E}\\ \Rightarrow l_G &= k_v \cdot l_E\\ &= 0,95 \cdot 5,28m\\ &= 5,02m\end{aligned}$
+$\begin{split}k_v &= \frac{l_G}{l_E}\\ \Rightarrow l_G &= k_v \cdot l_E\\ &= 0,95 \cdot 5,28m\\ &= 5,02m\end{split}$
 </fragment>
 </right>
 
@@ -49,12 +49,12 @@ $\begin{aligned}k_v &= \frac{l_G}{l_E}\\ \Rightarrow l_G &= k_v \cdot l_E\\ &= 0
 
 <left>
 <fragment>
-$\begin{aligned}l_E &= \frac{1}{2} \cdot \frac{\lambda}{2}\\ &= \frac{1}{4} \cdot \frac{c}{f}\\ &= \frac{1}{4} \cdot \frac{3\cdot 10^8\frac{m}{s}}{7,1MHz}\\ &= \frac{1}{4} \cdot 42,25m\\ &= 10,56m\end{aligned}$
+$\begin{split}l_E &= \frac{1}{2} \cdot \frac{\lambda}{2}\\ &= \frac{1}{4} \cdot \frac{c}{f}\\ &= \frac{1}{4} \cdot \frac{3\cdot 10^8\frac{m}{s}}{7,1MHz}\\ &= \frac{1}{4} \cdot 42,25m\\ &= 10,56m\end{split}$
 </fragment>
 </left>
 <right>
 <fragment>
-$\begin{aligned}k_v &= \frac{l_G}{l_E}\\ \Rightarrow l_G &= k_v \cdot l_E\\ &= 0,95 \cdot 10,56m\\ &= 10,04m\end{aligned}$
+$\begin{split}k_v &= \frac{l_G}{l_E}\\ \Rightarrow l_G &= k_v \cdot l_E\\ &= 0,95 \cdot 10,56m\\ &= 10,04m\end{split}$
 </fragment>
 </right>
 
@@ -75,12 +75,12 @@ $\begin{aligned}k_v &= \frac{l_G}{l_E}\\ \Rightarrow l_G &= k_v \cdot l_E\\ &= 0
 
 <left>
 <fragment>
-$\begin{aligned}k_v &= \frac{l_G}{l_E}\\ \Rightarrow l_E &= \frac{l_G}{k_v}\\ &= \frac{20m}{0,95}\\ &= 21,05m\end{aligned}$
+$\begin{split}k_v &= \frac{l_G}{l_E}\\ \Rightarrow l_E &= \frac{l_G}{k_v}\\ &= \frac{20m}{0,95}\\ &= 21,05m\end{split}$
 </fragment>
 </left>
 <right>
 <fragment>
-$\begin{aligned}l_E &= \frac{\lambda}{2}\\ &= \frac{1}{2} \cdot \frac{c}{f}\\ \Rightarrow f &= \frac{1}{2} \cdot \frac{c}{l_E}\\ &= \frac{1}{2} \cdot \frac{3\cdot 10^8\frac{m}{s}}{21,05m}\\&= 7,125MHz\end{aligned}$
+$\begin{split}l_E &= \frac{\lambda}{2}\\ &= \frac{1}{2} \cdot \frac{c}{f}\\ \Rightarrow f &= \frac{1}{2} \cdot \frac{c}{l_E}\\ &= \frac{1}{2} \cdot \frac{3\cdot 10^8\frac{m}{s}}{21,05m}\\&= 7,125MHz\end{split}$
 </fragment>
 </right>
 
@@ -102,12 +102,12 @@ $\begin{aligned}l_E &= \frac{\lambda}{2}\\ &= \frac{1}{2} \cdot \frac{c}{f}\\ \R
 
 <left>
 <fragment>
-$\begin{aligned}l_E &= \frac{\lambda}{4}\\ &= \frac{1}{4} \cdot \frac{c}{f}\\ &= \frac{1}{4} \cdot \frac{3\cdot 10^8\frac{m}{s}}{7,1MHz}\\ &= \frac{1}{4} \cdot 42,25m\\ &= 10,56m\end{aligned}$
+$\begin{split}l_E &= \frac{\lambda}{4}\\ &= \frac{1}{4} \cdot \frac{c}{f}\\ &= \frac{1}{4} \cdot \frac{3\cdot 10^8\frac{m}{s}}{7,1MHz}\\ &= \frac{1}{4} \cdot 42,25m\\ &= 10,56m\end{split}$
 </fragment>
 </left>
 <right>
 <fragment>
-$\begin{aligned}k_v &= \frac{l_G}{l_E}\\ \Rightarrow l_G &= k_v \cdot l_E\\ &= 0,95 \cdot 10,56m\\ &= 10,04m\end{aligned}$
+$\begin{split}k_v &= \frac{l_G}{l_E}\\ \Rightarrow l_G &= k_v \cdot l_E\\ &= 0,95 \cdot 10,56m\\ &= 10,04m\end{split}$
 </fragment>
 </right>
 
@@ -129,12 +129,12 @@ $\begin{aligned}k_v &= \frac{l_G}{l_E}\\ \Rightarrow l_G &= k_v \cdot l_E\\ &= 0
 
 <left>
 <fragment>
-$\begin{aligned}l_E &= \frac{5}{8}\lambda\\ &= \frac{5}{8} \cdot \frac{c}{f}\\ &= \frac{5}{8} \cdot \frac{3\cdot 10^8\frac{m}{s}}{14,2MHz}\\ &= \frac{5}{8} \cdot 21,13\\ &= 13,20m\end{aligned}$
+$\begin{split}l_E &= \frac{5}{8}\lambda\\ &= \frac{5}{8} \cdot \frac{c}{f}\\ &= \frac{5}{8} \cdot \frac{3\cdot 10^8\frac{m}{s}}{14,2MHz}\\ &= \frac{5}{8} \cdot 21,13\\ &= 13,20m\end{split}$
 </fragment>
 </left>
 <right>
 <fragment>
-$\begin{aligned}k_v &= \frac{l_G}{l_E}\\ \Rightarrow l_G &= k_v \cdot l_E\\ &= 0,97 \cdot 13,20m\\ &= 12,80m\end{aligned}$
+$\begin{split}k_v &= \frac{l_G}{l_E}\\ \Rightarrow l_G &= k_v \cdot l_E\\ &= 0,97 \cdot 13,20m\\ &= 12,80m\end{split}$
 </fragment>
 </right>
 
@@ -179,12 +179,12 @@ Ein Verlängerungsfaktor bedeutet <u>nicht</u>, dass sich die Welle mit *Überli
 
 <left>
 <fragment>
-$\begin{aligned}l_E &= \lambda\\ &= \frac{c}{f}\\ &= \frac{3\cdot 10^8\frac{m}{s}}{7,1MHz}\\ &= 42,23m\end{aligned}$
+$\begin{split}l_E &= \lambda\\ &= \frac{c}{f}\\ &= \frac{3\cdot 10^8\frac{m}{s}}{7,1MHz}\\ &= 42,23m\end{split}$
 </fragment>
 </left>
 <right>
 <fragment>
-$\begin{aligned}k_v &= \frac{l_G}{l_E}\\ \Rightarrow l_G &= k_v \cdot l_E\\ &= 1,02 \cdot 42,23m\\ &= 43,10m\end{aligned}$
+$\begin{split}k_v &= \frac{l_G}{l_E}\\ \Rightarrow l_G &= k_v \cdot l_E\\ &= 1,02 \cdot 42,23m\\ &= 43,10m\end{split}$
 </fragment>
 </right>
 
@@ -230,11 +230,11 @@ $v_\mathrm{k} = \dfrac{1}{\sqrt{\epsilon_\mathrm{r}}}$
 
 <left>
 <fragment>
-$\begin{aligned}l_E &= \lambda\\ &= \frac{c}{f}\\ &= \frac{3\cdot 10^8\frac{m}{s}}{145MHz}\\ &= 2,07m\end{aligned}$
+$\begin{split}l_E &= \lambda\\ &= \frac{c}{f}\\ &= \frac{3\cdot 10^8\frac{m}{s}}{145MHz}\\ &= 2,07m\end{split}$
 </fragment>
 </left>
 <right>
 <fragment>
-$\begin{aligned}k_v &= \frac{l_G}{l_E}\\ \Rightarrow l_G &= k_v \cdot l_E\\ &= 0,66 \cdot 2,07m\\ &= 1,37m\end{aligned}$
+$\begin{split}k_v &= \frac{l_G}{l_E}\\ \Rightarrow l_G &= k_v \cdot l_E\\ &= 0,66 \cdot 2,07m\\ &= 1,37m\end{split}$
 </fragment>
 </right>

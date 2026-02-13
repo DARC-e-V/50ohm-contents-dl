@@ -42,7 +42,7 @@ Die letzte Formel steht so in der Formelsammlung
 * gesucht: $I_P$
 
 <fragment>
-$\begin{equation}\begin{align} \nonumber \frac{U_P}{U_S} &= \frac{I_S}{I_P} \\ \nonumber \Rightarrow I_P &= \frac{I_S \cdot U_S}{U_P} = \frac{1,15A \cdot 6V}{230V} \\ \nonumber &= 30mA \end{align}\end{equation}$
+$\begin{split} \frac{U_P}{U_S} &= \frac{I_S}{I_P} \\ \Rightarrow I_P &= \frac{I_S \cdot U_S}{U_P} = \frac{1,15A \cdot 6V}{230V} \\ &= 30mA \end{split}$
 </fragment>
 ---
 [question:AC303]
@@ -53,7 +53,7 @@ $\begin{equation}\begin{align} \nonumber \frac{U_P}{U_S} &= \frac{I_S}{I_P} \\ \
 * gesucht: $Z_P$
 
 <fragment>
-$\begin{equation}\begin{align} \nonumber ü &= \sqrt{\frac{Z_P}{Z_S}} \\ \nonumber \Rightarrow Z_P &= ü^2 \cdot Z_S = \frac{1^2}{4^2} \cdot 16k\Omega \\ \nonumber &= \frac{16k\Omega}{16} = 1k\Omega \end{align}\end{equation}$
+$\begin{split} ü &= \sqrt{\frac{Z_P}{Z_S}} \\ \Rightarrow Z_P &= ü^2 \cdot Z_S = \frac{1^2}{4^2} \cdot 16k\Omega \\ &= \frac{16k\Omega}{16} = 1k\Omega \end{split}$
 </fragment>
 
 ---
@@ -65,7 +65,7 @@ $\begin{equation}\begin{align} \nonumber ü &= \sqrt{\frac{Z_P}{Z_S}} \\ \nonumb
 * gesucht: $Z_P$
 
 <fragment>
-$\begin{equation}\begin{align} \nonumber ü &= \sqrt{\frac{Z_P}{Z_S}} \\ \nonumber \Rightarrow Z_P &= ü^2 \cdot Z_S = \frac{1^2}{4^2} \cdot 6,4k\Omega \\ \nonumber &= \frac{6,4k\Omega}{16} = 0,4k\Omega \end{align}\end{equation}$
+$\begin{split} ü &= \sqrt{\frac{Z_P}{Z_S}} \\ \Rightarrow Z_P &= ü^2 \cdot Z_S = \frac{1^2}{4^2} \cdot 6,4k\Omega \\ &= \frac{6,4k\Omega}{16} = 0,4k\Omega \end{split}$
 </fragment>
 
 ---
@@ -77,7 +77,7 @@ $\begin{equation}\begin{align} \nonumber ü &= \sqrt{\frac{Z_P}{Z_S}} \\ \nonumb
 * gesucht: $ü$
 
 <fragment>
-$\begin{equation}\begin{split} \nonumber ü &= \sqrt{\frac{Z_P}{Z_S}} = \sqrt{\frac{450\Omega}{50\Omega}} \\ &= \sqrt{\frac{9}{1}} = \frac{3}{1} \end{split}\end{equation}$
+$\begin{split} ü &= \sqrt{\frac{Z_P}{Z_S}} = \sqrt{\frac{450\Omega}{50\Omega}} \\ &= \sqrt{\frac{9}{1}} = \frac{3}{1} \end{split}$
 </fragment>
 
 ---
@@ -89,7 +89,7 @@ $\begin{equation}\begin{split} \nonumber ü &= \sqrt{\frac{Z_P}{Z_S}} = \sqrt{\f
 * gesucht: $ü$
 
 <fragment>
-$\begin{equation}\begin{split} \nonumber ü &= \sqrt{\frac{Z_P}{Z_S}} = \sqrt{\frac{50\Omega}{2,5k\Omega}} \\ &= \sqrt{\frac{1}{50}} \approx \frac{1}{7} \end{split}\end{equation}$
+$\begin{split} ü &= \sqrt{\frac{Z_P}{Z_S}} = \sqrt{\frac{50\Omega}{2,5k\Omega}} \\ &= \sqrt{\frac{1}{50}} \approx \frac{1}{7} \end{split}$
 </fragment>
 
 ---

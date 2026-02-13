@@ -68,7 +68,7 @@ Details zur Berechnung des Faktor 20 sind im Online-Kurs. Kurzfassung: Im Spannu
 * gesucht: $P$
 
 <fragment>
-$\begin{equation}\begin{align} \nonumber p &= 10\cdot \log_{10}\left(\frac{P}{1W}\right)\textrm{dBW}\\ \nonumber \Rightarrow P &= 10^{\frac{p}{10}} \cdot 1W = 10^{\frac{20\textrm{dBW}}{10}} \cdot 1W = 10^2W \end{align}\end{equation}$
+$\begin{split} p &= 10\cdot \log_{10}\left(\frac{P}{1W}\right)\textrm{dBW}\\ \Rightarrow P &= 10^{\frac{p}{10}} \cdot 1W = 10^{\frac{20\textrm{dBW}}{10}} \cdot 1W = 10^2W \end{split}$
 </fragment>
 ---
 [question:AA107]
@@ -99,7 +99,7 @@ Aus der Tabelle in der Formelsammlung
 * gesucht: $U$
 
 <fragment>
-$\begin{equation}\begin{align} \nonumber u &= 20\cdot \log_{10}\left(\frac{U}{1\textrm{µV}}\right)\textrm{\textrm{dBµV}}\\ \nonumber \Rightarrow U &= 10^{\frac{u}{20}} \cdot 1\textrm{µV} = 10^{\frac{120\textrm{dBµV}/m}{20}} \cdot 1\textrm{µV} = 1V/m \end{align}\end{equation}$
+$\begin{split} u &= 20\cdot \log_{10}\left(\frac{U}{1\textrm{µV}}\right)\textrm{\textrm{dBµV}}\\ \Rightarrow U &= 10^{\frac{u}{20}} \cdot 1\textrm{µV} = 10^{\frac{120\textrm{dBµV}/m}{20}} \cdot 1\textrm{µV} = 1V/m \end{split}$
 </fragment>
 <fragment>
 In der Literatur ist oft zu finden: 120dBµV = 1V

@@ -255,7 +255,7 @@ MOSFET: metal oxide semiconductor FET
 </left>
 <right>
 <fragment>
-$\begin{equation}\begin{align}\nonumber \frac{U_{\textrm{R2}}}{U_{\textrm{B}}} &= \frac{R_2}{R_1+R_2}\\ \nonumber \Rightarrow U_{\textrm{R2}} &= \frac{R_2}{R_1+R_2} \cdot U_{\textrm{G}}\\ \nonumber &= \frac{1k\Omega}{10k\Omega+1k\Omega} \cdot 44V\\ \nonumber &= \frac{1}{11} \cdot 44V = 4V \end{align}\end{equation}$
+$\begin{split} \frac{U_{\textrm{R2}}}{U_{\textrm{B}}} &= \frac{R_2}{R_1+R_2}\\ \Rightarrow U_{\textrm{R2}} &= \frac{R_2}{R_1+R_2} \cdot U_{\textrm{G}}\\ &= \frac{1k\Omega}{10k\Omega+1k\Omega} \cdot 44V\\ &= \frac{1}{11} \cdot 44V = 4V \end{split}$
 </fragment>
 </right>
 
@@ -274,7 +274,7 @@ $\begin{equation}\begin{align}\nonumber \frac{U_{\textrm{R2}}}{U_{\textrm{B}}} &
 </left>
 <right>
 <fragment>
-$\begin{equation}\begin{align}\nonumber \frac{U_{\textrm{R1}}}{U_{\textrm{R2}}} &= \frac{R_1}{R_2}\\ \nonumber \Rightarrow R_2 &= R_1 \cdot \frac{U_{\textrm{R2}}}{U_{\textrm{R1}}}\\ \nonumber &= R_1 \cdot \frac{U_{\textrm{R2}}}{U_{\textrm{B}}-U_{\textrm{GS}}}\\ \nonumber &= 10k\Omega \cdot \frac{2,8V}{44V-2,8V}\\ \nonumber &\approx 680\Omega \end{align}\end{equation}$
+$\begin{split} \frac{U_{\textrm{R1}}}{U_{\textrm{R2}}} &= \frac{R_1}{R_2}\\ \Rightarrow R_2 &= R_1 \cdot \frac{U_{\textrm{R2}}}{U_{\textrm{R1}}}\\ &= R_1 \cdot \frac{U_{\textrm{R2}}}{U_{\textrm{B}}-U_{\textrm{GS}}}\\ &= 10k\Omega \cdot \frac{2,8V}{44V-2,8V}\\ &\approx 680\Omega \end{split}$
 </fragment>
 </right>
 ---

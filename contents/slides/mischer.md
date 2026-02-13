@@ -1,8 +1,8 @@
 <left>
 * Beim Mischen von zwei Eingangs-Frequenzen entstehen immer zwei Ausgangs-Frequenzen
 
-$\begin{equation}f_\text{A1} = f_\text{E1} + f_\text{E2}\end{equation}$
-$\begin{equation}f_\text{A2} = |f_\text{E1} - f_\text{E2}|\end{equation}$
+$$f_\text{A1} = f_\text{E1} + f_\text{E2}$$
+$$f_\text{A2} = |f_\text{E1} - f_\text{E2}|$$
 </left>
 <right>
 [picture:102:e_mischer:Mischer mit zwei Eingangsfrequenzen]

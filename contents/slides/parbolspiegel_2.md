@@ -51,7 +51,7 @@ $g_i = 10 \cdot \log_{10}{(\frac{\pi \cdot d}{\lambda})^2} \cdot \eta\,dB$
 $\lambda = \frac{c}{f} = \frac{3\cdot 10^8\frac{m}{s}}{5,7GHz} = 0,053m$
 </fragment>
 <fragment>
-$\begin{aligned}g_i &= 10 \cdot \log_{10}{(\frac{\pi \cdot d}{\lambda})^2} \cdot \eta\,dB\\ &= 10 \cdot \log_{10}{(\frac{\pi \cdot 0,3m}{0,053m})^2} \cdot 1dB\\ &= 25,1dBi\end{aligned}$
+$\begin{split}g_i &= 10 \cdot \log_{10}{(\frac{\pi \cdot d}{\lambda})^2} \cdot \eta\,dB\\ &= 10 \cdot \log_{10}{(\frac{\pi \cdot 0,3m}{0,053m})^2} \cdot 1dB\\ &= 25,1dBi\end{split}$
 </fragment>
 ---
 [question:AG227]
@@ -70,7 +70,7 @@ $\begin{aligned}g_i &= 10 \cdot \log_{10}{(\frac{\pi \cdot d}{\lambda})^2} \cdot
 $\lambda = \frac{c}{f} = \frac{3\cdot 10^8\frac{m}{s}}{5,7GHz} = 0,053m$
 </fragment>
 <fragment>
-$\begin{aligned}g_i &= 10 \cdot \log_{10}{(\frac{\pi \cdot d}{\lambda})^2} \cdot \eta\,dB\\ &= 10 \cdot \log_{10}{(\frac{\pi \cdot 0,8m}{0,053m})^2} \cdot 1dB\\ &= 33,6dBi\end{aligned}$
+$\begin{split}g_i &= 10 \cdot \log_{10}{(\frac{\pi \cdot d}{\lambda})^2} \cdot \eta\,dB\\ &= 10 \cdot \log_{10}{(\frac{\pi \cdot 0,8m}{0,053m})^2} \cdot 1dB\\ &= 33,6dBi\end{split}$
 </fragment>
 ---
 [question:AG228]
@@ -89,7 +89,7 @@ $\begin{aligned}g_i &= 10 \cdot \log_{10}{(\frac{\pi \cdot d}{\lambda})^2} \cdot
 $\lambda = \frac{c}{f} = \frac{3\cdot 10^8\frac{m}{s}}{10,4GHz} = 0,029m$
 </fragment>
 <fragment>
-$\begin{aligned}g_i &= 10 \cdot \log_{10}{(\frac{\pi \cdot d}{\lambda})^2} \cdot \eta\,dB\\ &= 10 \cdot \log_{10}{(\frac{\pi \cdot 0,8m}{0,029m})^2} \cdot 1dB\\ &= 38,8dBi\end{aligned}$
+$\begin{split}g_i &= 10 \cdot \log_{10}{(\frac{\pi \cdot d}{\lambda})^2} \cdot \eta\,dB\\ &= 10 \cdot \log_{10}{(\frac{\pi \cdot 0,8m}{0,029m})^2} \cdot 1dB\\ &= 38,8dBi\end{split}$
 </fragment>
 ---
 [question:AG229]
@@ -108,5 +108,5 @@ $\begin{aligned}g_i &= 10 \cdot \log_{10}{(\frac{\pi \cdot d}{\lambda})^2} \cdot
 $\lambda = \frac{c}{f} = \frac{3\cdot 10^8\frac{m}{s}}{10,4GHz} = 0,029m$
 </fragment>
 <fragment>
-$\begin{aligned}g_i &= 10 \cdot \log_{10}{(\frac{\pi \cdot d}{\lambda})^2} \cdot \eta\,dB\\ &= 10 \cdot \log_{10}{(\frac{\pi \cdot 1,2m}{0,029m})^2} \cdot 1dB\\ &= 42,3dBi\end{aligned}$
+$\begin{split}g_i &= 10 \cdot \log_{10}{(\frac{\pi \cdot d}{\lambda})^2} \cdot \eta\,dB\\ &= 10 \cdot \log_{10}{(\frac{\pi \cdot 1,2m}{0,029m})^2} \cdot 1dB\\ &= 42,3dBi\end{split}$
 </fragment>

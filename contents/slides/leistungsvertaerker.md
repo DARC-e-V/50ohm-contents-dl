@@ -176,12 +176,12 @@
 
 <left>
 <fragment>
-$\begin{aligned}R_E &= \frac{(R_3+R_6) \cdot R_4}{(R_3 + R_6) + R_4}\\ &= \frac{220Ω + 150Ω) \cdot 6,8kΩ}{220Ω + 150Ω + 6,8kΩ}\\ &= \frac{2,516MΩ^2}{7170Ω}\\ &= 351Ω\end{aligned}$
+$\begin{split}R_E &= \frac{(R_3+R_6) \cdot R_4}{(R_3 + R_6) + R_4}\\ &= \frac{220Ω + 150Ω) \cdot 6,8kΩ}{220Ω + 150Ω + 6,8kΩ}\\ &= \frac{2,516MΩ^2}{7170Ω}\\ &= 351Ω\end{split}$
 </fragment>
 </left>
 <right>
 <fragment>
-$\begin{aligned}\frac{U_Z}{U_{GS}} &= \frac{R_2 + R_E}{R_E}\\ \Rightarrow \frac{6,2V}{U_{GS}} &= \frac{270Ω+351Ω}{351Ω}\\ &= 1,77\\ \Rightarrow U_{GS} &= \frac{6,2V}{1,77}\\ &= 3,50V\end{aligned}$
+$\begin{split}\frac{U_Z}{U_{GS}} &= \frac{R_2 + R_E}{R_E}\\ \Rightarrow \frac{6,2V}{U_{GS}} &= \frac{270Ω+351Ω}{351Ω}\\ &= 1,77\\ \Rightarrow U_{GS} &= \frac{6,2V}{1,77}\\ &= 3,50V\end{split}$
 </fragment>
 </right>
 
@@ -243,11 +243,11 @@ $\begin{aligned}\frac{U_Z}{U_{GS}} &= \frac{R_2 + R_E}{R_E}\\ \Rightarrow \frac{
 
 <left>
 <fragment>
-$\begin{aligned}g &= P_2 - P_1\\ &= 43dBm - (-5dBm)\\ &= 43dBm + 5dBm\\ &= 48dB\end{aligned}$
+$\begin{split}g &= P_2 - P_1\\ &= 43dBm - (-5dBm)\\ &= 43dBm + 5dBm\\ &= 48dB\end{split}$
 </fragment>
 </left>
 <right>
 <fragment>
-$\begin{aligned}g &= 10 \cdot \log_{10}{(\frac{P_2}{P_1})}dB\\ &= 10 \cdot \log_{10}{(\frac{20W}{0,3mW})}dB \\ &\approx 48dB\end{aligned}$
+$\begin{split}g &= 10 \cdot \log_{10}{(\frac{P_2}{P_1})}dB\\ &= 10 \cdot \log_{10}{(\frac{20W}{0,3mW})}dB \\ &\approx 48dB\end{split}$
 </fragment>
 </right>

@@ -53,5 +53,5 @@ Diese Tabelle ist in der Formelsammlung enthalten und steht während der Prüfun
 * gesucht: $P_{\textrm{ERP}}$
 
 <fragment>
-$\begin{equation}\begin{split}\nonumber P_{\textrm{ERP}} &= P_S \cdot 10^{\frac{g_d - a}{10dB}}\\ &= 50W \cdot 10^{\frac{-20dBd - 0W}{10dB}}\\ &= 50W \cdot 10^{-2} = 0,5W$
+$\begin{split} P_{\textrm{ERP}} &= P_S \cdot 10^{\frac{g_d - a}{10dB}}\\ &= 50W \cdot 10^{\frac{-20dBd - 0W}{10dB}}\\ &= 50W \cdot 10^{-2} = 0,5W\end{split}$
 </fragment>

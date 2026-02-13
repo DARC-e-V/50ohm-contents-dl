@@ -49,12 +49,12 @@ $d > \dfrac{\lambda}{2\pi}$
 
 <fragment>
 <left>
-$\begin{aligned}E &= \frac{\sqrt{30Ω \cdot P_{EIRP}}}{d}\\ \Rightarrow P_{EIRP} &= \frac{(E \cdot d)^2}{30Ω}\\ &= \frac{(28\frac{V}{m} \cdot 5m)^2}{30Ω}\\ &= 653W\end{aligned}$
+$\begin{split}E &= \frac{\sqrt{30Ω \cdot P_{EIRP}}}{d}\\ \Rightarrow P_{EIRP} &= \frac{(E \cdot d)^2}{30Ω}\\ &= \frac{(28\frac{V}{m} \cdot 5m)^2}{30Ω}\\ &= 653W\end{split}$
 </left>
 </fragment>
 <fragment>
 <right>
-$\begin{aligned}P_{EIRP} &= P_S \cdot 10^{\frac{g_d - a + 2,15dB}{10dB}}\\ \Rightarrow P_S &= \frac{P_{EIRP}}{10^{\frac{g_d - a + 2,15dB}{10dB}}}\\ &= \frac{653W}{10^{\frac{6dBd - 0 + 2,15dB}{10dB}}}\\ &= \frac{653W}{6,53}\\ &\approx 100W\end{aligned}$
+$\begin{split}P_{EIRP} &= P_S \cdot 10^{\frac{g_d - a + 2,15dB}{10dB}}\\ \Rightarrow P_S &= \frac{P_{EIRP}}{10^{\frac{g_d - a + 2,15dB}{10dB}}}\\ &= \frac{653W}{10^{\frac{6dBd - 0 + 2,15dB}{10dB}}}\\ &= \frac{653W}{6,53}\\ &\approx 100W\end{split}$
 </right>
 </fragment>
 
@@ -75,12 +75,12 @@ $\begin{aligned}P_{EIRP} &= P_S \cdot 10^{\frac{g_d - a + 2,15dB}{10dB}}\\ \Righ
 
 <fragment>
 <left>
-$\begin{aligned}G_i &= 10^{\frac{g_i}{10dB}}\\ &= 10^{\frac{12,15dBi}{10dB}}\\ &= 16,4\end{aligned}$
+$\begin{split}G_i &= 10^{\frac{g_i}{10dB}}\\ &= 10^{\frac{12,15dBi}{10dB}}\\ &= 16,4\end{split}$
 </left>
 </fragment>
 <fragment>
 <right>
-$\begin{aligned}E &= \frac{\sqrt{30Ω \cdot P_A \cdot G_i}}{d}\\ &= \frac{\sqrt{30Ω \cdot 250W \cdot 16,4}}{30m}\\ &= \frac{350V}{30m}\\ &\approx 11,7\frac{V}{m}\end{aligned}$
+$\begin{split}E &= \frac{\sqrt{30Ω \cdot P_A \cdot G_i}}{d}\\ &= \frac{\sqrt{30Ω \cdot 250W \cdot 16,4}}{30m}\\ &= \frac{350V}{30m}\\ &\approx 11,7\frac{V}{m}\end{split}$
 </right>
 </fragment>
 
@@ -96,12 +96,12 @@ $\begin{aligned}E &= \frac{\sqrt{30Ω \cdot P_A \cdot G_i}}{d}\\ &= \frac{\sqrt{
 
 <fragment>
 <left>
-$\begin{aligned}P_{EIRP} &= P_{ERP} \cdot 1,64\\ &= 100W \cdot 1,64\\ &= 164W\end{aligned}$
+$\begin{split}P_{EIRP} &= P_{ERP} \cdot 1,64\\ &= 100W \cdot 1,64\\ &= 164W\end{split}$
 </left>
 </fragment>
 <fragment>
 <right>
-$\begin{aligned}E &= \frac{\sqrt{30Ω \cdot P_{EIRP}}}{d}\\ &= \frac{\sqrt{30Ω \cdot 164W}}{100m}\\ &= 0,7\frac{V}{m}\end{aligned}$
+$\begin{split}E &= \frac{\sqrt{30Ω \cdot P_{EIRP}}}{d}\\ &= \frac{\sqrt{30Ω \cdot 164W}}{100m}\\ &= 0,7\frac{V}{m}\end{split}$
 </right>
 </fragment>
 
@@ -117,11 +117,11 @@ $\begin{aligned}E &= \frac{\sqrt{30Ω \cdot P_{EIRP}}}{d}\\ &= \frac{\sqrt{30Ω 
 
 <fragment>
 <left>
-$\begin{aligned}P_{EIRP} &= P_{ERP} \cdot 1,64\\ &= 100W \cdot 1,64\\ &= 164W\end{aligned}$
+$\begin{split}P_{EIRP} &= P_{ERP} \cdot 1,64\\ &= 100W \cdot 1,64\\ &= 164W\end{split}$
 </left>
 </fragment>
 <fragment>
 <right>
-$\begin{aligned}E &= \frac{\sqrt{30Ω \cdot P_{EIRP}}}{d}\\ &= \frac{\sqrt{30Ω \cdot 164W}}{100m}\\ &= 0,7\frac{V}{m}\end{aligned}$
+$\begin{split}E &= \frac{\sqrt{30Ω \cdot P_{EIRP}}}{d}\\ &= \frac{\sqrt{30Ω \cdot 164W}}{100m}\\ &= 0,7\frac{V}{m}\end{split}$
 </right>
 </fragment>
