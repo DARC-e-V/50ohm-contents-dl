@@ -1,7 +1,7 @@
-Wenn man jetzt diesen Kurs abgeschlossen und die Prüfung zum Funkamateur bestanden hat, dann erhält man ein Amateurfunkzeugnis und darf sich Funkamateur nennen. Darf man damit dann eine Amateurfunkstelle betreiben? Eindeutig nein! Man braucht zusätzlich noch eine *Zulassung zur Teilnahme am Amateurfunkdienst*. Erst mit der Zulassung wird das persönliche Rufzeichen zugeteilt. 
+Wenn man jetzt diesen Kurs abgeschlossen und die Prüfung zum Funkamateur bestanden hat, dann erhält man einen *Prüfungsbescheid* sowie eine *Amateurfunk-Prüfungsbescheinigung* und darf sich Funkamateur nennen. Darf man damit dann eine Amateurfunkstelle betreiben? Eindeutig nein! Man braucht zusätzlich noch eine *Zulassung zur Teilnahme am Amateurfunkdienst*. Erst mit dem Zulassungsbescheid wird das persönliche Rufzeichen zugeteilt. 
 
 <margin>
-[photo:91:n_zulassung_urkunde:Die Zulassungsurkunde]
+[photo:91:n_zulassung_urkunde:Der Zulassungsbescheid zur Teilnahme am Amateurfunkdienst]
 </margin>
 
 [question:VC106]
