@@ -75,13 +75,13 @@ Hierbei gilt: $R_i$ = $R_L$
   
 </margin>
 
-<summary>
-|c: Zusammenfassung Innenwiderstand | c: Innenwiderstand |
+<margin>
+|c: Zusammenfassung | c: Innenwiderstand |
 | Spannungsanpassung bei einer Konstantspannungsquelle| $R_i$ =  "sehr niederhohmig" ; theoretisch  $0\ \Omega$;  $R_i$$\ll$$R_L$ identisch mit $R_L$$\gg$$R_i$| 
 |Stromanpassung bei einer Konstantstromquelle|$R_i$ =  "sehr hochohmig" ;  $R_i$$\gg$$R_L$ identisch mit $R_L$$\ll$$R_i$ |
 | Leistungsanpassung bei Verstärkern| $R_L$ = $R_i$|
 [table:a_Innenwiderstand Zusammenfassung:Zusammenfassung zum Innenwiderstand]
-</summary>
+</margin>
 
   
 ---

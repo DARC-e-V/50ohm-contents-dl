@@ -8,7 +8,7 @@ Lösen wir exemplarisch die erste Prüfungsaufgabe in Abbildung [ref:e_widerstan
 
 Im Schritt 2 fassen wir nun die Parallelschaltungen zusammen. Da hier zwei $\qty{200}{\ohm}$-Widerstände parallel geschaltet sind, halbiert sich der Widerstandswert auf $\qty{100}{\ohm}$, wie in Abbildung [ref:e_widerstandsnetzwerk_schritt2] dargestellt.
 
-Im letzten Schritt 3 addieren wir alle verbleibenden Widerstandswerte der Reihenschaltung. Daraus ergibt sich ein Gesamtwiderstand von $\qty{550}{\ohm}$ wie in den Abbildungen [ref:e_widerstandsnetzwerk_schritt2] und [ref:e_widerstandsnetzwerk_schritt4] gezeigt.
+Im letzten Schritt 3 addieren wir alle verbleibenden Widerstandswerte der Reihenschaltung. Daraus ergibt sich ein Gesamtwiderstand von $\qty{550}{\ohm}$ wie in den Abbildungen [ref:e_widerstandsnetzwerk_schritt2] und [ref:e_widerstandsnetzwerk_schritt3] gezeigt.
 
 <margin>
 [picture:306:e_widerstandsnetzwerk_schritt0:Schritt 0 - Ausgangsschaltung]

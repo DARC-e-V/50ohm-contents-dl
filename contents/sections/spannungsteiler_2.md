@@ -14,7 +14,7 @@ Der Strom $I_1$ ist die Summe von $I_2$ und $I_L$ und damit der größte Strom.
 
 <margin>
   Zur Veranschaulichung hilft am Besten eine Rechnung mit konkreten Bauteilwerten.
-Angenommen: Alle Widerstände haben einen Wet von 1 kOhm und die Gesamtspannung $U_B$ beträgt 12 V.
+Angenommen: Alle Widerstände haben einen Wert von 1 kOhm und die Gesamtspannung $U_B$ beträgt 12 V.
   
  *unbelasteter Fall:*
  Ohne Rechnung ist sofort zu sehen: An jedem Widerstand können 6 V gemesen werden.

@@ -4,7 +4,7 @@ Die folgenden Aufgaben erfordern mehrere Rechenschritte bis zur Lösung. Dazu ze
 [question:AD106]
 
 <margin>
-Wenn alle Widerstände gleich groß sind und durch $R_3$ ein Strom von 1mA fließt, dann muss durch $R_2$ auch der gleiche Srtrom fließen, also auch 1mA. Beide Ströme müssen in der Summe durch $R_1$ fließen.
+Wenn alle Widerstände gleich groß sind und durch $R_3$ ein Strom von 1mA fließt, dann muss durch $R_2$ auch der gleiche Strom fließen, also auch 1mA. Beide Ströme müssen in der Summe durch $R_1$ fließen.
 Alles klar?
 Wie komme ich nun auf die Gesamtspannung U?
 Diese Spannung muss so groß sein, dass durch den Gesamtwiderstand auch der Gesamtstrom fließen kann. Der Gesamtstrom entspricht dem Strom durch $R_1$.
@@ -96,10 +96,3 @@ AD 114: 1,8 V
 |Kontrollüberlegung, ob das Ergenis stimmen kann |
 [table:a_Widerstandsnetzwerke 2:Zusammenfassung]
 </margin>
-
-<summary>
-*Zusammenfassung*:
-Aufgabe in Teilbereiche zerlegen  
-Teilbereiche berechnen
-Kontrollüberlegung, ob das Ergenis stimmen kann
-</summary>

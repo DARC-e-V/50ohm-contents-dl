@@ -105,7 +105,7 @@ Wenn $R_1$ durch den Fehler nicht von Strom durchflossen, so fällt an $R_2$ kei
 
 [question:AC520]
 
-Bei dem hier gegebenen Fehlerbild ist $R_2$ stromlos. Die Basis ist über $R_1$ mit der Betriebsspannung verbunden. Über diesen Pfad wird ein Basisstrom injiziert. Bei der üblichen Dimensionierung (Querstrom ist der zehnfache reguläre Basisstrom) ist der Basisstrom 11-fach höher als der reguläre Basisstrom -- der Kollektorstrom wird sehr stark ansteigen, der Spannungsabfall an $R_C$ steigt stark an, die Kollektor-Emitter-Spannung  sinkt auf den Sättigungswert von etwa 0,1 V ab. Der Kollektorstrom wird nur durch $R_C$ begrenzt.
+Bei dem hier gegebenen Fehlerbild ist $R_2$ stromlos. Die Basis ist über $R_1$ mit der Betriebsspannung verbunden. Über diesen Pfad wird ein Basisstrom injiziert. Bei der üblichen Dimensionierung (Querstrom ist der zehnfache reguläre Basisstrom) ist der Basisstrom 11-fach höher als der reguläre Basisstrom -- der Kollektorstrom wird sehr stark ansteigen, der Spannungsabfall an $R_C$ steigt stark an, die Kollektor-Emitter-Spannung sinkt auf den Sättigungswert von etwa 0,1 V ab. Der Kollektorstrom wird nur durch $R_C$ begrenzt.
 
 [question:AC521]
 
@@ -129,6 +129,6 @@ $P_V = I^2 \cdot R_{ch} = 2,5\ W$
 
 In dieser Aufgabe geht es um ein Relais, das über den in Serie dargestellten npn-Transistor geschaltet wird. Nehmen wir an, dass der Transistor zunächst durchgeschaltet ist, es fließt ein Strom durch die Relaisspule, das Relais hat angezogen.
 
-Nun schaltet der Transistor ab, der Stromfluss bricht zusammen. Die starke Änderung des Stroms induziert allerdings kurzzeitig in der Spule des Transistors eine hohe negative Spannung, die zur Zerstörung des Transistors führen kann.
+Nun schaltet der Transistor ab, der Stromfluss bricht zusammen. Die starke Änderung des Stroms induziert allerdings kurzzeitig in der Spule des Relais eine hohe negative Spannung, die zur Zerstörung des Transistors führen kann.
 
 Um dies zu verhindern, schalten wir eine Freilaufdiode *parallel*. Sie ist so geschaltet, dass sie im Regelbetrieb (Transistor durchgeschaltet) keinen Strom führt -- sie muss also in Sperrrichtung eingebaut werden. Die negative Spannung, die beim Zusammenbruch des Stroms kurzzeitig auftritt, schaltet die Diode in Flussrichtung, die enstehende Spannung wird auf (bei Siliziumdioden) -0,7 .. -0,8 V begrenzt.
