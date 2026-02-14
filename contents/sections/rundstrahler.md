@@ -1,23 +1,29 @@
-Wenn man einen Teil eines Dipols senkrecht nach oben und den anderen parallel zum Erdboden ausrichtet, erhält man eine "Up- and Outer"-Antenne (Abbildung [ref:n_up_and_outer]). Den senkrechten Teil dieser Antenne bezeichnet man als *Strahler*, den waagerechten Teil als *Radial* oder *Gegengewicht*.
+Wenn man einen Teil eines Dipols senkrecht nach oben und den anderen parallel zum Erdboden ausrichtet, erhält man eine "Up- and Outer"-Antenne (Abbildung [ref:n_up_and_outer]). Die Up- and Outer-Antenne wird auch als *Upper and Outer* bezeichnet. Den senkrechten Teil dieser Antenne bezeichnet man als *Strahler*, den waagerechten Teil als *Radial* oder *Gegengewicht*.
 
 <margin>
 [picture:659:n_up_and_outer:Up- and Outer-Antenne]
 </margin>
 
-<indepth>
-Auch wenn der senkrechte Teil von Vertikalantennen wie der Up- and Outer-Antenne als *Strahler* bezeichnet wird, bedeutet das nicht, dass er das einzige Teil der Antenne ist, das die Funkwelle abstrahlt. Vielmehr wird die Funkwelle von Gesamtgebilde bestehend aus Strahler und Gegengewicht abgegeben. Nur bei bestimmten Bauformen wird abgestrahlte Welle fast ausschließlich vom Strahler bestimmt, beispielsweise bei einer Groundplane mit horizontal und exakt symmetrisch angeordneten Gegengewichten. Doch auch bei diesen Antennen bildet sich an den Gegengewichten unter Umständen ein sogenanntes "Nahfeld" aus, welches hohe Feldstärken aufweisen kann. Aus diesem Grunde sind Radials bei der Betrachtung des Sicherheitsabstands stets mit zu berücksichtigen.
-</indepth>
+Die Up- and Outer-Antenne gehört zu den sogenannten Vertikalantennen, da der Strahler senkrecht (vertikal) angeordnet ist. Wie beim Dipol beträgt die Länge beider Teile der Up- and Outer-Antenne zusammen etwa $\lambda{} / 2$, also etwa eine halbe Wellenlänge. Der Strahler und das Gegengewicht sind also jeweils etwa $\lambda{} / 4$ lang.
 
-Die Up- and Outer-Antenne gehört zu den sogenannten Vertikalantennen, da der Strahler senkrecht (vertikal) angeordnet ist. Wie beim Dipol beträgt die Länge beider Teile der Up- and Outer-Antenne zusammen $\lambda{} / 2$, also eine halbe Wellenlänge. Der Strahler und das Gegengewicht sind demzufolge also jeweils $\lambda{} / 4$ lang.
+---
 
-Wird das parallel zum Erdboden geführte Radial nun vervielfacht, dann entsteht eine *Groundplane-Antenne*, die im Amateurfunk häufig verwendet wird.
+Wird das Radial vervielfacht, entsteht eine *Groundplane-Antenne*. Groundplane-Antennen werden im Amateurfunk häufig verwendet. Die Radiale können parallel zum Erdboden geführt werden, bei VHF/UHF-Groundplanes sind sie oft nach unten abgewinkelt.
 
 [question:NG105]
 [question:NG106]
 
+<indepth>
+Der senkrechte Teil einer Vertikalantennen wie der Up- and Outer wird als *Strahler* bezeichnet. Er ist aber nicht der einzige Teil der Antenne, der Funkwellen abstrahlt oder empfängt. Die Funkwelle wird von Gesamtgebilde abgegeben oder aufgenommen, das aus Strahler und Gegengewicht besteht.
+
+Bei bestimmten Bauformen wird fast nur vom Strahler gesendet oder empfangen. Eine solche Bauform ist eine Groundplane, deren Gegengewichte horizontal und symmetrisch sind. Aber auch bei ihr bildet sich beim Senden um die Gegengewichte ein sogenanntes "Nahfeld" aus, das hohe Feldstärken erreichen kann.
+
+Geht es um Sicherheitsabstände, die von sendenden Antennen einzuhalten sind, sind Radials grundsätzlich mit zu berücksichtigen.
+</indepth>
+
 ---
 
-Man kann das Radial einer Up- and Outer-Antenne auch durch den Erdboden ersetzen. Dann erhält man die in Abbildung [ref:n_marconi_antenne] gezeigte *Marconi-Antenne*. Das Gegengewicht, also der zweite Teil der Antenne, wird jetzt durch die *Erde* gebildet, die im Idealfall sehr gut leitet. Für die Darstellung der Erde wird in Schaltbildern das in Abbildung [ref:n_schaltzeichen_erde] gezeigte Symbol verwendet.
+Man kann das Radial einer Up- and Outer-Antenne auch durch den Erdboden ersetzen. Dann erhält man die in Abbildung [ref:n_marconi_antenne] gezeigte *Marconi-Antenne*. Das Gegengewicht, also der zweite Teil der Antenne, wird jetzt durch die *Erde* gebildet. Für die Darstellung der Erde wird in Schaltbildern das in Abbildung [ref:n_schaltzeichen_erde] gezeigte Symbol verwendet.
 
 <margin>
 [picture:669:n_marconi_antenne:Marconi-Antenne]
@@ -27,18 +33,16 @@ Man kann das Radial einer Up- and Outer-Antenne auch durch den Erdboden ersetzen
 [picture:544:n_schaltzeichen_erde:Schaltzeichen für Erde]
 </margin>
 
-<tip>
-In der Praxis ist es manchmal gar nicht so einfach, eine gute Verbindung zwischen Antennenkabel und der *Erde* herzustellen. Im einfachsten Fall verwendet man einen Erdnagel: Ein Metallstab wird in den Erdboden gesteckt und anstelle des Radials mit dem Antennenkabel verbunden. Etwas aufwändiger - aber oft auch wirkungsvoller - ist es beispielsweise, viele Drähte im Erdboden zu vergraben und diese wie Radials einer Groundplane rund um die Antennen anzuordnen. So kann eine gute Verbindung zur Erde hergestellt werden, die auch für Hochfrequenz geeignet ist.
-</tip>
+<indepth>
+In der Praxis ist es gar nicht so einfach, eine gute Verbindung zwischen Antennenkabel und der *Erde* herzustellen. Man kann es mit einen sogenannten Erdnagel versuchen: Ein langer Metallstab wird in den Erdboden gerammt und anstelle der Radials mit dem Antennenkabel verbunden. Das funktioniert in aller Regel nur sehr unbefriedigend. Aufwändiger, aber wirkungsvoller ist es, viele Drähte im Erdboden zu vergraben und diese wie Radials einer Groundplane rund um die Antennen anzuordnen. So kann eine gute Verbindung zur Erde hergestellt werden, die auch für Hochfrequenz funktioniert.
+</indepth>
 
-Wie bei der Up- and Outer-Antenne ist der vertikale Strahler der Marconi-Antenne $\lambda{} / 4$ lang. Da anstelle eines Gegengewichts die Erde verwendet wird, kann man die Marconi-Antenne auch als eine "gegen Erde erregte $\lambda{} / 4$-Vertikalantenne" beschreiben.
+Wie bei der Up- and Outer-Antenne ist der vertikale Strahler der Marconi-Antenne etwa $\lambda{} / 4$ lang. Da anstelle eines Gegengewichts die Erde verwendet wird, kann man die Marconi-Antenne auch als eine "gegen Erde erregte $\lambda{} / 4$-Vertikalantenne" beschreiben.
 
 [question:NG104]
 [question:NG102]
 
-Sowohl die Groundplane- als auch die Marconi-Antenne strahlen gleichmäßig in alle Himmelsrichtungen. Deshalb nennt man diese beiden Antennen auch "Rundstrahler". Im Gegensatz zu Richtantennen eignen sich Rundstrahler, um Funkamateure oder Relaisfunkstellen in unterschiedlichen Richtungen im Umkreis zu erreichen. Eine Richtantenne müsste immer wieder neu ausgerichtet werden.
-
-Damit ein Rundstrahler gut funktionert, sollte er möglichst hoch und rundherum frei positioniert werden. Die optimale Position ist daher auf einem hohem Mast, der umgebende Gebäude und Bäume überragt, oder dem Hausdach.
+Sowohl die Groundplane- als auch die Marconi-Antenne strahlen gleichmäßig in alle Himmelsrichtungen in die Ferne. Antennen, die das tun, nennt man "Rundstrahler". Im Gegensatz zu Richtantennen eignen sich Rundstrahler, um Funkamateure oder Relaisfunkstellen in unterschiedlichen Richtungen gleichzeitig zu erreichen oder zu hören. Eine Richtantenne müsste dazu immer wieder neu ausgerichtet werden.
 
 [question:NG110]
 
@@ -46,7 +50,6 @@ Damit ein Rundstrahler gut funktionert, sollte er möglichst hoch und rundherum 
 
 [question:NG111]
 
-<indepth>
-Die in der falschen Antwort erwähnten *Magnetfußantennen* werden übrigens gerne für mobilen Funkbetrieb auf einem Autodach betrieben. Das Autodach bildet dann - ähnlich der Erde bei der Marconi-Antenne - das Gegengewicht. Auf den Funkbetrieb aus Kraftfahrzeugen werden wir im Kapitel Einbau Kfz noch näher eingehen.
-</indepth>
+Die in der falschen Antwort erwähnten *Magnetfußantennen* werden übrigens gerne für mobilen VHF/UHF-Funkbetrieb aufs Autodach gesetzt. Das Blech des Daches bildet dann das Gegengewicht, ähnlich wie die Erde bei der Marconi-Antenne. Wird eine Magetfußantenne ohne größere Metallfläche betrieben, zum Beispiel auf dem Dachboden eines Hauses, fehlt ihr das Gegengewicht und sie funktioniert nicht gut.
 
+Auf Magnetfussantennen werden wir im Abschnitt [Einbau Kfz](N_einbau_kfz.html) noch näher eingehen.

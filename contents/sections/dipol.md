@@ -1,4 +1,4 @@
-Die Grundform der Antenne ist die *Dipol-Antenne* (Abbildung [ref:n_dipol]). Sie wird von Funkamateuren in Kurzform auch einfach als Dipol bezeichnet. Ein Dipol besteht aus zwei Teilen, üblicherweise sind dies Drähte oder Metallstäbe. Einer der Leiter des Antennenkabels wird an das eine Teil, der andere Leiter an das andere Teil angeschlossen.
+Die Grundform der Antenne ist die *Dipol-Antenne* (Abbildung [ref:n_dipol]). Sie wird abgekürzt meist einfach als *Dipol* bezeichnet. Ein Dipol besteht aus zwei länglichen Teilen, üblicherweise sind dies Drähte oder Metallstäbe. Einer der Leiter des Antennenkabels wird an das eine Teil, der andere Leiter an das andere Teil angeschlossen.
 
 <margin>
 [picture:589:n_dipol:Darstellung einer Dipol-Antenne]
@@ -8,34 +8,36 @@ Die Grundform der Antenne ist die *Dipol-Antenne* (Abbildung [ref:n_dipol]). Sie
 Der Begriff *Dipol* kommt aus dem Griechischen und bedeutet soviel wie "Zweipol".
 </wordorigin>
 
----
-
-In der Praxis wird häufig der sogenannte Halbwellendipol verwendet, der eine Länge von $\lambda / 2$ aufweist, also einer halben Wellenlänge. Beispiel: Im 10 m-Band beträgt die Wellenlänge rund 10 m. Die halbe Wellenlänge ist demnach 5 m. Ein Halbwellendipol für das 10 m-Band hat also 5 m lang zu sein. Jedes Teilstück muss daher eine Länge von ca. 2,5 m haben. Man spricht dann davon, dass der Halbwellendipol in *Resonanz* ist.
-
-<indepth>
-Es gibt auch andere *Varianten der Dipol-Antenne*, beispielsweise den Ganzwellendipol, den verkürzten Dipol oder den asymmetrisch gespeisten Dipol, bei dem das Antennenkabel nicht in der Mitte angeschlossen wird und die beiden Teile entsprechend unterschiedlich lang sind.
-</indepth>
-
----
-
-Ein Dipol der richtigen Länge hat eine gute *Abstrahlung*. Er gibt bei Sendebetrieb möglichst viel der elektrischen Schwingung als Funkwelle ab bzw. nimmt beim Empfang möglichst viel von einer Funkwelle als elektrische Schwingung auf. Verwendet man den Dipol auf höheren oder niedrigeren Frequenzen, dann funktioniert er zunehmend schlechter.
-
-<indepth>
-*Resonanz* gibt es nicht nur bei Antennen, sondern beispielsweise auch bei Instrumenten in der Musik. Dies wird am Beispiel von Kontrabass und Geige deutlich: Ein Kontrabass hat vergleichsweise lange Saiten und erzeugt tiefe Töne, also tiefe Frequenzen. Eine Geige hingegen hat eher kurze Saiten und erzeugt hohe Töne, also hohe Frequenzen. Bei Antennen ist es im Prinzip genauso. Lange Dipol-Antennen eignen sich für tiefe Frequenzen und kurze Dipol-Antennen für hohe Frequenzen.
-</indepth>
-
 [question:NG103]
 
-Liegt die Resonanzfrequenz unterhalb der gewünschten Frequenz, dann ist der Dipol zu lang. Die Dipol-Antenne kann auf die gewünschte Frequenz gebracht werden, indem man sie an beiden Seiten gleichmäßig kürzt.
+---
 
-[question:NG304]
+In der Praxis wird häufig der sogenannte Halbwellendipol verwendet, der ungefähr $\lambda / 2$ lang ist, also so lang wie eine halben Wellenlänge. Beispiel: Im 10 m-Band beträgt die Wellenlänge rund 10 m. Die halbe Wellenlänge ist demnach etwa 5 m. Ein Halbwellendipol für das 10 m-Band wird also etwa 5 m lang sein, jede Hälfte etwa 2,5 m.
 
 ---
+
+Bei der richtigen Länge von ungefähr einer halben Wellenlänge (in Wirklichkeit ein Weniges kürzer) ist der Halbwellendipol in *Resonanz*. Dann ist er vom Funkgerät besonders einfach zu speisen.
+
+<indepth>
+*Resonanz* gibt es nicht nur bei Antennen, sondern beispielsweise auch bei Musikinstrumenten, zum Beispiel bei Kontrabass und Geige: Ein Kontrabass hat vergleichsweise lange Saiten und erzeugt tiefe Töne, also tiefe Frequenzen. Eine Geige hingegen hat eher kurze Saiten und erzeugt hohe Töne, also hohe Frequenzen. Bei Antennen ist es ähnlich: Lange Dipol-Antennen haben ihre Halbwellenresonanz bei tiefen Frequenzen und kurze bei hohen.
+</indepth>
+
+Liegt die Resonanzfrequenz unterhalb der gewünschten Frequenz, dann ist der Dipol zu lang. So ein Dipol kann auf die gewünschte Resonanzfrequenz gebracht werden, indem er an beiden Enden gleichmäßig gekürzt wird.
+
+[question:NG304]
 
 Andersherum kann eine zu hohe Resonanzfrequenz eines Dipols nach unten verändert werden, indem man beide Seiten gleichmäßig verlängert.
 
 <tip>
-Ein Draht oder Metallstab lässt sich viel einfacher kürzen als verlängern. Daher ist es beim Bau eines Dipols zweckmäßig ihn zunächst etwas länger als berechnet auszulegen und dann schrittweise vorsichtig zu kürzen, bis Resonanz erreicht ist.
+Ein Draht oder Metallstab lässt sich viel einfacher kürzen als verlängern. Daher wird eine Dipol meist zunächst etwas länger als berechnet ausgelegt und dann schrittweise vorsichtig gekürzt, bis Resonanz bei der gewünschten Frequenz erreicht ist.
 </tip>
 
 [question:NG305]
+
+<indepth>
+Bei Kontrabass oder Geige lässt sich die Resonanzfrequenz einer Saite in einem weiten Bereich verändern, indem sie mehr oder weniger gespannt wird. Ähnlich kann ein Dipol fester Länge durch elektrische Maßnahmen über einen weiten Frequenzbereich resonant gemacht werden.
+</indepth>
+
+<indepth>
+Es gibt neben den Halbwellendipolen auch andere *Varianten der Dipol-Antenne*, beispielsweise den doppelt so langen Ganzwellendipol oder den verkürzten Dipol. Weiter gibt es asymmetrisch gespeisten Dipole, bei denen die beiden Dipolteile unterschiedlich lang sind und also das Antennenkabel außerhalb der Mitte angeschlossen wird.
+</indepth>
