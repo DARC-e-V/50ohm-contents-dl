@@ -1,6 +1,6 @@
 * Stromschlag vermeiden!
 * An anerkannte Regeln der Technik halten
-* Vom Verband der Elektrotechnik Elektronik und Informationstechnik e.V. (VDE)
+* Vom Verband der Elektrotechnik Elektronik und Informationstechnik e. V. (VDE)
 * Schutz von Menschen, Tieren und Sachen
 
 ---

@@ -7,8 +7,8 @@
 
 <note>
 * Selbstregulierung des Amateurfunks
-* Der DARC e.V. ist der einzige deutsche Verband in der IARU
-* Man kann Mitglied im DARC e.V. werden
+* Der DARC e. V. ist der einzige deutsche Verband in der IARU
+* Man kann Mitglied im DARC e. V. werden
 </note>
 
 ---
