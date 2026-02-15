@@ -1,4 +1,4 @@
-Ein Stehwellenmessgerät (vgl. Abbildung swr_meter_kreuzzeiger) wird bei Sendern eingesetzt, um die Anpassung der Antenne beziehungsweise der Speiseleitung an die Antenne zu überprüfen. Oft wird ein SWR-Meter,  entsprechend seines Aufbaus, als SWR-Messbrücke bezeichnet. Damit lassen sich die folgenden Fragen leicht beantworten:
+Ein Stehwellenmessgerät (vgl. Abbildung [ref:swr_meter_kreuzzeiger]) wird bei Sendern eingesetzt, um die Anpassung der Antenne beziehungsweise der Speiseleitung an die Antenne zu überprüfen. Oft wird ein SWR-Meter,  entsprechend seines Aufbaus, als SWR-Messbrücke bezeichnet. Damit lassen sich die folgenden Fragen leicht beantworten:
 
 <margin>
 [photo:143:swr_meter_kreuzzeiger:SWR-Meter mit Kreuzzeiger, linker Zeiger für die vorlaufende und rechter Zeiger für die rücklaufende Leistung; um das SWR abzulesen, wird der grünen Linie am Schnittpunkt beider Zeiger nach unten gefolgt]
