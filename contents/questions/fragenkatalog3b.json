@@ -2621,7 +2621,7 @@
                                     "class": "2",
                                     "question": "Eine unbelastete Z-Diode soll eine 13,8 V Betriebsspannung auf 5 V stabilisieren. Dabei soll ein Strom von 30 mA durch die Z-Diode flie\u00dfen. Der Ausgang der Schaltung soll nicht belastet werden. Berechnen Sie den Wert des Vorwiderstands.",
                                     "answer_a": "ca. 293 Ohm",
-                                    "answer_b": "ca. 3,41 \\milliOhm",
+                                    "answer_b": "ca. 3,41 mOhm",
                                     "answer_c": "ca. 460 Ohm",
                                     "answer_d": "ca. 167 Ohm",
                                     "picture_question": "EC521_q"
