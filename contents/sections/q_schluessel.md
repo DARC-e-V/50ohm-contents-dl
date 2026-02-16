@@ -35,7 +35,7 @@ Im Folgenden besprechen wir alle Q-Gruppen, die in der Prüfung vorkommen, geben
 [question:BB202]
 
 <margin>
-Einige Funkamateure versuchen, mit besonders geringer Sendeleistung - in der Regel weniger als 5 W - möglichst große Distanzen zu überbrücken. Dabei spricht man nach der gleich lautenden Q-Gruppe von *QRP-Betrieb*. Telegrafie mittels CW oder digitalen Übertragungsverfahren ist für QRP-Betrieb besonders gut geeignet.
+Einige Funkamateure versuchen, mit besonders geringer Sendeleistung - in der Regel weniger als $\qty{5}{\watt}$ - möglichst große Distanzen zu überbrücken. Dabei spricht man nach der gleich lautenden Q-Gruppe von *QRP-Betrieb*. Telegrafie mittels CW oder digitalen Übertragungsverfahren ist für QRP-Betrieb besonders gut geeignet.
 </margin>
 
 * QRP: Selbst wenn man sich erst seit kurzem mit dem Amateurfunk befasst, hat man den Begriff "QRP" vielleicht schon gehört. Wenn wir von QRP-Geräten oder QRP-Verbindungen reden, meinen wir Geräte beziehungsweise Funkverbindungen mit kleiner Sendeleistung. Der ursprüngliche Sinn ist naheliegend. "QRP" ist die Aufforderung, die Sendeleistung zu verringern.
@@ -58,11 +58,11 @@ Einige Funkamateure versuchen, mit besonders geringer Sendeleistung - in der Reg
 | QRP | Senken Sie die Sendeleistung! | *P*iano (sanft, leise), *P*ssst!|
 | QRT | Stellen Sie die Übermittlung ein! | *T*erminate (Beenden) |
 | QRV | Ich bin bereit | *v*orbereitet |
-| QRX | Wann rufen Sie mich wieder? | Zeitpunkt *X* |
-| QRZ | Wer hat mich gerufen? | Bitte nenne das Rufzeichen ein *z*weites Mal! |
+| QRX? | Wann rufen Sie mich wieder? | Zeitpunkt *X* |
+| QRZ? | Wer hat mich gerufen? | Bitte nenne das Rufzeichen ein *z*weites Mal! |
 | QSB | Fading, Schwankungen | *B*ergauf, *B*ergab |
 | QSL | Ich bestätige den Empfang | Ich habe ge*l*oggt |
-| QSO | Erreichen Sie Station ... ? |  |
+| QSO? | Erreichen Sie Station ... ? |  |
 | QSY | Frequenzwechsel | Change Frequenc*y* |
 | QTH | Mein Standort | *H*ome, *H*eimat |
 [table:n_q_gruppen:Alle prüfungsrelevanten Q-Gruppen in der Übersicht mit Merkhilfen]
