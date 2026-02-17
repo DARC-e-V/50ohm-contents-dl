@@ -10,11 +10,11 @@ Der Übergang zwischen dem reaktiven Nahfeld und dem strahlendes Nahfeld (Fernfe
 
 $d > \dfrac {\lambda} {2 \cdot \pi}$
 
-Bei einer Wellenlänge von z.B. $20 \text{ m}$ ist der Übergang also in etwa in einem Abstand von $d = \dfrac {20 \text{ m}} {2 \cdot \pi} \approx 3,18 \text { m}$.
+Bei einer Wellenlänge von z.B. $\qty{20}{\meter}$ ist der Übergang also in etwa in einem Abstand von $d = \dfrac {\qty{20}{\meter}} {2 \cdot \pi} \approx \qty{3,18}{\meter}$.
 
 Für die Berechnung von den Personenschutzabständen ist im Fernfeld eine Näherungformel möglich. Dies erspart einem ggf. aufwendige Messungen oder Simulation.
 
-Die Formel $d = \dfrac{\sqrt{30 Ω\cdot P_{\textrm{EIRP}}}}{E}$ gilt für die meisten Antennenformen, wenn die Bedingung $d > \dfrac {\lambda} {2 \cdot \pi}$ erfüllt ist. 
+Die Formel $d = \dfrac{\sqrt{\qty{30}{\ohm}\cdot P_{\textrm{EIRP}}}}{E}$ gilt für die meisten Antennenformen, wenn die Bedingung $d > \dfrac {\lambda} {2 \cdot \pi}$ erfüllt ist.
 
 Bei Antennen, die klein im Verhältnis zur Wellenlänge sind, oder wenn der Sicherheitsabstand im Nahbereich liegt kann die obige Näherungsformel nicht angewandt werden.
  

@@ -26,17 +26,13 @@ Auf diesen Sachverhalt zielt die folgende Frage ab:
 
 [question:EK105]
 
-Für 3,5 MHz beginnt das Fernfeld (strahlendes Nahfeld) erst bei 13,64 m.
+Für $\qty{3,5}{\mega\hertz}$ beginnt das Fernfeld (strahlendes Nahfeld) erst bei $\qty{13,64}{\meter}$.
 
- $ d > \frac{\lambda}{2 \cdot \pi} $
- 
- $ d > \frac{\qty{85,7}{\meter}}{2 \cdot \pi} $
- 
- $ d > \qty{13,64}{\meter} $ 
+ $\begin{split} d &> \frac{\lambda}{2 \cdot \pi}\\ d &> \frac{\qty{85,7}{\meter}}{2 \cdot \pi}\\ d &> \qty{13,64}{\meter}\end{split}$
  
 Der mit $\qty{3,65}{\meter}$ ermittelte Abstand liegt deutlich im reaktiven Nahfeld und ist deshalb ungültig. Statt der Näherungsformel für das Fernfeld muss eine andere Methode gewählt werden. In Frage kommen Messungen der E- und H-Feldanteile, Simulations- oder Nahfeldberechnungen.
 
-Damit die folgende Frage beantwortet werden kann, muss berechnet werden wo das Fernfeld (strahlendes Nahfeld) für das 160 und 80-m-Band beginnt. 
+Damit die folgende Frage beantwortet werden kann, muss berechnet werden wo das Fernfeld (strahlendes Nahfeld) für das $\qty{160}{\meter}$- und $\qty{80}{\meter}$-Band beginnt.
 
 [question:EK106]
 
@@ -56,10 +52,10 @@ Zunächst müssen wir die Strahlungsleistung in $P_\textrm{EIRP}$ berechnen. Au�
 
 $P_\text{EIRP} = P_\text{Sender} \cdot 10^{\frac{g_i-a+\qty{2,15}{\dB}}{\qty{10}{\dB}}} = \qty{100}{W} \cdot 10^{\frac{\qty{7,5}{\dBd}-\qty{1,5}{\dB}+\qty{2,15}{\dB}}{\qty{10}{\dB}}} \approx \qty{653}{\watt}$
 
-Die Summe der Gewinne und Dämpfungen des gesamten Antennensystems ist der Antennengewinn von 7,5 dBd, abzüglich der Kabeldämpfung von 1,5 dB und plus der Gewinn von 2,15 dBi für den isotropen Strahler (der Antennengewinn bezieht sich auf den Dipol).
+Die Summe der Gewinne und Dämpfungen des gesamten Antennensystems ist der Antennengewinn von $\qty{7,5}{\dBd}$, abzüglich der Kabeldämpfung von $\qty{1,5}{\dB}$ und plus der Gewinn von $\qty{2,15}{\dBi}$ für den isotropen Strahler (der Antennengewinn bezieht sich auf den Dipol).
 
 Alternativ können wir, wie schon in den vorherigen Kapiteln, für die Gewinne und die Dämpfung die jeweiligen Faktoren ermittelt werden.
-$\qty{7,5}{\dB} - \qty{1,5}{dB} = \qty{6}{\dB}$, das entspricht einem Faktor von $4$. Der Faktor für $\qty{2,15}{\dBi}$ ist $1,64$.
+$\qty{7,5}{\dB} - \qty{1,5}{dB} = \qty{6}{\dB}$, das entspricht einem Faktor von $\num{4}$. Der Faktor für $\qty{2,15}{\dBi}$ ist $\num{1,64}$.
 
 $P_\textrm{EIRP} = \qty{100}{\watt} \cdot 4 \cdot 1,64 = \qty{656}{\watt}$
 
@@ -69,16 +65,12 @@ Die Ergebnisse der beiden Rechenwegen sollten eigentlich gleich sein. Sie weiche
 
 $ d = \frac{\sqrt{\qty{30}{\ohm}\cdot P_\text{EIRP}}}{E} = \frac{\sqrt{\qty{30}{\ohm}\cdot \qty{656}{\watt}}}{\qty{28}{\volt\per\meter}} \approx \qty{5}{\meter}  $
 
-Den Sicherheitsabstand von 5 m wurde mit der Formel für das Fernfeld ermittelt. Deshalb ist er nur dann gültig, wenn der er auch im Fernfeld (bzw. strahlenden Nahfeld) liegt. Das wie oben schnell geprüft werden.
+Der Sicherheitsabstand von $\qty{5}{\meter}$ wurde mit der Formel für das Fernfeld ermittelt. Deshalb ist er nur dann gültig, wenn der er auch im Fernfeld (bzw. strahlenden Nahfeld) liegt. Das wie oben schnell geprüft werden.
 
-$d > \frac{\lambda}{2\pi}$
+$\begin{split} d &> \frac{\lambda}{2\pi}\\ d &> \frac{\qty{10}{\meter}}{2\pi}\\ d &> \qty{1,6}{\meter} \end{split}$
 
-$d > \frac{\qty{10}{\meter}}{2\pi}$
-
-$d > \qty{1,6}{\meter} $
-
-Der berechnete Sicherheitsabstand von $\qty{5}{\meter}$ ist Größer als $\qty{1,6}{\meter}$ und liegt eindeutig im Fernfeld (bzw. strahlendem Nahfeld). Die Berechnung ist damit gültig. Die richtige Antwort ist $\qty{5}{\meter}$.
+Der berechnete Sicherheitsabstand von $\qty{5}{\meter}$ ist größer als $\qty{1,6}{\meter}$ und liegt eindeutig im Fernfeld (bzw. strahlenden Nahfeld). Die Berechnung ist damit gültig. Die richtige Antwort ist $\qty{5}{\meter}$.
 
 <indepth>
-In der Tabelle steht für $\qty{6}{\dB}$ ein Faktor von $4$. Das ist ein gerundeter Wert und beträgt eigentlich $3,981071706$. Deshalb kommt es zum Rundungsfehler.
+In der Tabelle steht für $\qty{6}{\dB}$ ein Faktor von $\num{4}$. Das ist ein gerundeter Wert und beträgt eigentlich $\num{3,981071706}$. Deshalb kommt es zum Rundungsfehler.
 </indepth>

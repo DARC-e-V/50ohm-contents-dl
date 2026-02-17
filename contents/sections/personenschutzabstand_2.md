@@ -1,4 +1,4 @@
-Jede ortsfeste Amateurfunkanlage muss bei einer Äquivalenten Isotropen Strahlungsleistung (EIRP) von 10 Watt oder mehr bei der BNetzA, nach § 9 BEMFV, angezeigt werden. Dies hat vor Aufnahme des Funkbetriebs zu geschehen. Der Funkamateur hat dabei den Nachweis zu erbringen, dass er die Grenzwerte einhält und die dazu notwendigen Sicherheitsabstände ermittelt hat und dass sie innerhalb des kontrollierten Bereichs liegen. Umgangssprachlich wird dies von Funkamateuren als *Selbsterklärung* bezeichnet.
+Jede ortsfeste Amateurfunkanlage muss bei einer Äquivalenten Isotropen Strahlungsleistung (EIRP) von $\qty{10}{\watt}$ oder mehr bei der BNetzA, nach § 9 BEMFV, angezeigt werden. Dies hat vor Aufnahme des Funkbetriebs zu geschehen. Der Funkamateur hat dabei den Nachweis zu erbringen, dass er die Grenzwerte einhält und die dazu notwendigen Sicherheitsabstände ermittelt hat und dass sie innerhalb des kontrollierten Bereichs liegen. Umgangssprachlich wird dies von Funkamateuren als *Selbsterklärung* bezeichnet.
 
 Auf eine Selbsterklärung kann nur verzichtet werden, wenn die Äquivalente Isotrope Strahlungsleistung (EIRP) *kleiner* als $\qty{10}{\watt}$ EIRP ist - nicht $\qty{10}{\watt}$ Sendeleistung, auch nicht $\qty{10}{\watt}$ ERP!
 
@@ -11,7 +11,7 @@ $P_\text{EIRP} = P_\text{Sender} \cdot 10^{\frac{g_i-a+\qty{2,15}{\dB}}{\qty{10}
 
 Auch diese Rechnung lässt sich wieder leicht im Kopf durchführen, indem man den Gesamtgewinn in einzelne sinvolle Anteile zerlegt:
   
-$\qty{13}{\dBd} + \qty{2,15}{\dB} = \qty{10}{\dBd} + \qty{3}{\dBd} + \qty{2,15}{\dB}$
+$\qty{13}{\dBd} + \qty{2,15}{\dB} = \qty{10}{\dBd} + \qty{3}{\dB} + \qty{2,15}{\dB}$
 
 So ergibt sich:
 

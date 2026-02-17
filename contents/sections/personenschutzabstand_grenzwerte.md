@@ -16,8 +16,8 @@ Wichtig für die Beantwortung der Frage ist hier Punkt 2, die Energieabsortion d
 
 In der [Verordnung über elektromagnetische Felder (26. BImSchV)](https://50ohm.de/BImSchV) werden im Anhang 1 (Tabellen 1a und 1b) sowie im Anhang 3 die Grenzwerte beschrieben. Dabei wird zwischen drei Fällen unterschieden:
 
-* Momentaner Spitzenwert (in kV/m über Hz, vgl. Abbildung [ref:e_grenzwerte_max])
-* 6-Minuten-Intervalle (in V/m über MHz, vgl. Abbildung [ref:e_grenzwerte_avg])
+* Momentaner Spitzenwert (in $\unit{\kilo\volt\per\meter}$ über $\unit{\hertz}$, vgl. Abbildung [ref:e_grenzwerte_max])
+* 6-Minuten-Intervalle (in $\unit{\volt\per\meter}$ über $\unit{\mega\hertz}$, vgl. Abbildung [ref:e_grenzwerte_avg])
 * Gepulste Felder (Wird aus den ersten beiden und frequenzabhängigen Faktoren berechnet, vgl. Abbildung [ref:e_grenzwerte_pulse])
 
 
@@ -29,7 +29,7 @@ In der [Verordnung über elektromagnetische Felder (26. BImSchV)](https://50ohm.
 
 ---
 
-Da nicht ständig gesendet wird, verwenden wir in der Regel den quadratischen Mittelwert der Feldstärke (V/m), gemittelt über einen Zeitraum von 6 Minuten. Ein wichtiger Wert hierbei ist $\qty{28}{\volt\per\meter}$, der für den Bereich von $\qtyrange{10}{400}{\mega\hertz}$, also eine Vielzahl von Amateurfunkbändern gültig ist und in einigen folgenden Prüfungsfragen zum Personenschutz vorkommt.
+Da nicht ständig gesendet wird, verwenden wir in der Regel den quadratischen Mittelwert der Feldstärke ($\unit{\volt\per\meter}$), gemittelt über einen Zeitraum von 6 Minuten. Ein wichtiger Wert hierbei ist $\qty{28}{\volt\per\meter}$, der für den Bereich von $\qtyrange{10}{400}{\mega\hertz}$, also eine Vielzahl von Amateurfunkbändern gültig ist und in einigen folgenden Prüfungsfragen zum Personenschutz vorkommt.
 
 <tip>
 Die Grenzwerte müssen für die Prüfung nicht auswendig gelernt werden und werden in der Prüfung immer in der Frage genannt.

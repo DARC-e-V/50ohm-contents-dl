@@ -6,21 +6,21 @@ Die vom Nachweisverfahren zum Schutz von Personen in elektromagnetischen Feldern
 
 ---
 
-Wie stark eine Antenne in ihre Hauptstrahlrichtung abstrahlt, wird durch den *Gewinnfaktor* bezogen auf den Halbwellendipol ausgedrückt. Dieser gibt an, wieviel besser eine Antenne im Vergleich zu einem Halbwellendipol in die jeweilige Hauptstrahlrichtung abstrahlt. Ein Gewinnfaktor von 2 gegenüber dem Halbwellendipol bedeutet beispielsweise, dass eine Antenne in die Hauptstrahlrichtung doppelt so stark abstrahlt wie ein Halbwellendipol in seine Hauptstrahlrichtung.
+Wie stark eine Antenne in ihre Hauptstrahlrichtung abstrahlt, wird durch den *Gewinnfaktor* bezogen auf den Halbwellendipol ausgedrückt. Dieser gibt an, wieviel besser eine Antenne im Vergleich zu einem Halbwellendipol in die jeweilige Hauptstrahlrichtung abstrahlt. Ein Gewinnfaktor von $\num{2}$ gegenüber dem Halbwellendipol bedeutet beispielsweise, dass eine Antenne in die Hauptstrahlrichtung doppelt so stark abstrahlt wie ein Halbwellendipol in seine Hauptstrahlrichtung.
 
 <indepth>
 % TODO: Editionsspezifisch machen
-Anstelle des Gewinnfaktors von Antennen wird häufig der "Gewinn in Dezibel (dB)" angegeben. Mit der Einheit Dezibel beschäftigt sich der Kurs für die Klasse E.
+Anstelle des Gewinnfaktors von Antennen wird häufig der "Gewinn in Dezibel ($\unit{\dB}$)" angegeben. Mit der Einheit Dezibel beschäftigt sich der Kurs für die Klasse E.
 </indepth>
 
 ---
 
-Um nun anzugeben, wieviel eine konkrete Antenne in die Hauptstrahlrichtung abstrahlt wenn man eine bestimmte Sendeleistung eingibt, multipliziert man die Sendeleistung mit dem auf den Halbwellendipol bezogenen Gewinnfaktor. Dann erhält man die *effektive Strahlungsleistung*, die meist als ERP (vom englischen "effective radiated power") abgekürzt wird. Geben wir beispielsweise eine Sendeleistung von 5 W in eine Antenne mit einem Gewinnfaktor von 2 gegenüber dem Halbwellendipol, dann ergibt sich eine Strahlungsleistung von 10 W ERP.
+Um nun anzugeben, wieviel eine konkrete Antenne in die Hauptstrahlrichtung abstrahlt wenn man eine bestimmte Sendeleistung eingibt, multipliziert man die Sendeleistung mit dem auf den Halbwellendipol bezogenen Gewinnfaktor. Dann erhält man die *effektive Strahlungsleistung*, die meist als ERP (vom englischen "effective radiated power") abgekürzt wird. Geben wir beispielsweise eine Sendeleistung von $\qty{5}{\watt}$ in eine Antenne mit einem Gewinnfaktor von $\num{2}$ gegenüber dem Halbwellendipol, dann ergibt sich eine Strahlungsleistung von $\qty{10}{\watt}$ ERP.
 
 <margin>
 Man kann sich die effektive Strahlungsleistung (ERP) auch so vorstellen: Es ist die Leistung, die man in einen Halbwellendipol einspeisen müsste, damit dieser in seiner Hauptstrahlrichtung genauso stark abstrahlt wie die betrachtete Antenne.
 </margin>
 
-Richtantennen können viel größere Gewinnfaktoren haben. Eine Yagi-Uda-Antenne aus 9 Elementen kann beispielsweise leicht einen Gewinnfaktor von 10 oder mehr gegenüber dem Halbwellendipol erreichen. Gibt man in eine solche Antenne z. B. 100 W ein, beträgt die Strahlungsleistung bereits 1000 W ERP oder mehr!
+Richtantennen können viel größere Gewinnfaktoren haben. Eine Yagi-Uda-Antenne aus 9 Elementen kann beispielsweise leicht einen Gewinnfaktor von $\num{10}$ oder mehr gegenüber dem Halbwellendipol erreichen. Gibt man in eine solche Antenne z. B. $\qty{100}{\watt}$ ein, beträgt die Strahlungsleistung bereits $\qty{1000}{\watt}$ ERP oder mehr!
 
 [question:NG401]

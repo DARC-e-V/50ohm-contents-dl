@@ -6,7 +6,7 @@ Die Erstellung der *Standortbescheinigung* ist auch für Funkamateure immer kost
 
 [question:VC121]
 
-Aber auch die Bundesnetzagentur kann unter bestimmten Voraussetzungen eine Standortbescheinigung für eine ortsfeste Amateurfunkstelle verlangen. Dies gilt immer dann, wenn sich am vorgesehenen Standort bereits eine andere ortsfeste Funkanlage befindet, wie z. B. eine Sendeanlage für das Mobilfunknetz, und insgesamt eine Strahlungsleistung von 10 W EIRP oder höher erreicht wird.
+Aber auch die Bundesnetzagentur kann unter bestimmten Voraussetzungen eine Standortbescheinigung für eine ortsfeste Amateurfunkstelle verlangen. Dies gilt immer dann, wenn sich am vorgesehenen Standort bereits eine andere ortsfeste Funkanlage befindet, wie z. B. eine Sendeanlage für das Mobilfunknetz, und insgesamt eine Strahlungsleistung von $\qty{10}{\watt}$ EIRP oder höher erreicht wird.
 
 [question:VE519]
 [question:VE518]
