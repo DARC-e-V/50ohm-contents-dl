@@ -1,6 +1,6 @@
 * Die Wellenlänge $\lambda$ im Freiraum steht zur Frequenz $f$ in Relation mit der Lichtgeschwindigkeit $c_0$
 * Freiraum bedeutet: Vakuum, Luft
-* Lichtgeschwindigkeit $c_0 = \qty{299.792.458}{\meter\per\second}$
+* Lichtgeschwindigkeit $c_0 = \qty{299792458}{\meter\per\second}$
 * Im Amateurfunk rechnen wir mit $c = \qty{3 \cdot 10^8}{\meter\per\second}$
 
 $c = f\cdot \lambda \quad f = \dfrac{c}{\lambda} \quad \lambda = \dfrac{c}{f}$
@@ -26,7 +26,7 @@ $f[[\unit{\mega\hertz}]] = \frac{300}{80} = 3,75$
 Umrechnen in die Grundeinheit $\unit{\meter}$:
 $\qty{30}{\milli\meter} = \qty{3}{\centi\meter} = \qty{0,03}{\meter}$
 
-$f[[\unit{\mega\hertz}]] = \frac{300}{0,03} = \frac{300 \cdot 100}{3} = 10.000$
+$f[[\unit{\mega\hertz}]] = \frac{300}{0,03} = \frac{300 \cdot 100}{3} = \num{10000}$
 
 % $f=\qty{10}{\giga\hertz}$, da $\qty{1}{\giga\hertz} = \qty{1000}{\mega\hertz}$
 $f=\qty{10}{\giga\hertz}$, da $\qty{1}{\giga\hertz} = \qty{1000}{\mega\hertz}$

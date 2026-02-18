@@ -19,7 +19,7 @@ In Grundeinheiten ($\unit{\second}$, $\unit{\meter}$) lautet der Zusammenhang zw
 
 $\lambda = \dfrac{c_0}{f}$
 
-Dabei ist $c_0$ die Ausbreitungsgeschwindigkeit von elektromagnetischen Wellen im Vakuum ("Lichtgeschwindigkeit"), $c_o \approx \qty{300.000.000}{\frac{\meter}{\second}}$
+Dabei ist $c_0$ die Ausbreitungsgeschwindigkeit von elektromagnetischen Wellen im Vakuum ("Lichtgeschwindigkeit"), $c_o \approx \qty{300000000}{\frac{\meter}{\second}}$
 </indepth>
 
 Wir betrachten den Zusammenhang zwischen Frequenz und Wellenlänge hier in der abstrakteren Form:
@@ -56,7 +56,7 @@ $f = \dfrac{c_0}{\lambda}$
 
 Dies ist die gesuchte Beziehung. Wir setzen die Zahlenwerte ein:
 
-$f = \dfrac{\qty{300.000.000}{\meter\per\second}}{\qty{2,069}{\meter}} = \dfrac{300.000.000}{\qty{2,069}{\second}}  = \qty{144.997.583}{\hertz} \approx \qty{145}{\mega\hertz} $
+$f = \dfrac{\qty{300000000}{\meter\per\second}}{\qty{2,069}{\meter}} = \dfrac{\num{300000000}}{\qty{2,069}{\second}}  = \qty{144997583}{\hertz} \approx \qty{145}{\mega\hertz} $
 
 Dabei haben wir berücksichtigt, dass $\frac{1}{\unit{\second}} = \qty{1}{\hertz}$ ist.
 

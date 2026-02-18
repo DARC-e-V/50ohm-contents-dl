@@ -26,7 +26,7 @@ Bei dieser Frage ist die Wellenlänge $\qty{30}{\milli\meter} = \qty{3}{\centi\m
 Achte beim Einsetzen von Werten in eine Formel stets darauf, die Grundeinheiten zu verwenden. Das bedeutet, dass Werte gegebenenfalls umgerechnet werden müssen – zum Beispiel von Millimetern in Meter.
 </attention>
 
-$f[[\unit{\mega\hertz}]] = \frac{300}{0,03} = \frac{300 \cdot 100}{3} = 10.000$
+$f[[\unit{\mega\hertz}]] = \frac{300}{0,03} = \frac{300 \cdot 100}{3} = \num{10000}$
 
 Also ist $f=\qty{10}{\giga\hertz}$ die richtige Antwort, weil ja $\qty{1}{\giga\hertz} = 1000 {\mega\hertz}$ ist.
 

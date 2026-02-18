@@ -16,7 +16,7 @@ Die Wellenlänge wird mit dem griechischen Buchstaben $\lambda$ (Lambda) angegeb
 ## Zusammenhang Frequenz – Wellenlänge
 
 * Über die Lichtgeschwindigkeit
-* Eine Welle mit einer Frequenz von $\qty{1}{\hertz}$ breitet sich $\qty{300.000}{\kilo\meter}$ aus bevor der nächste Durchlauf beginnt
+* Eine Welle mit einer Frequenz von $\qty{1}{\hertz}$ breitet sich $\qty{300000}{\kilo\meter}$ aus bevor der nächste Durchlauf beginnt
 * Bei $\qty{1000}{\hertz}$ sind es nur $\qty{300}{\kilo\meter}$
 * Bei $\qty{1}{\mega\hertz}$ sind es $\qty{300}{\meter}$
 
