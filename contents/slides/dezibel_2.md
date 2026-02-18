@@ -53,7 +53,7 @@ $u = 20\cdot \log_{10}\left(\frac{U}{\qty{0,775}{\volt}}\right)\unit{\dBu}$
 </fragment>
 
 <note>
-Details zur Berechnung des Faktor 20 sind im Online-Kurs. Kurzfassung: Im Spannungsverhältnis wird mit Quadraten gerchnet, was als Faktor vor den Logarithmus gezogen werde kann.
+Details zur Berechnung des Faktor 20 sind im Online-Kurs. Kurzfassung: Im Spannungsverhältnis wird mit Quadraten gerechnet, was als Faktor vor den Logarithmus gezogen werden kann.
 </note>
 ---
 [question:AA111]
