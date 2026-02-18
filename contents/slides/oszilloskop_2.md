@@ -58,7 +58,7 @@ Definition: Die Pulsbreite liegt bei 50% des Spitzenwerts
 * gesucht: $P_{\textrm{PEP}}$
 
 <fragment>
-$\begin{split} P_{\textrm{PEP}} &= \frac{U_{\textrm{eff}}^2}{R} = \frac{(\frac{\qty{100}{\volt}}{\sqrt{2}})^2}{\qty{50}{\ohm}}\\ &=\frac{\frac{(\qty{100}{\volt})^2}{2}}{\qty{50}{\ohm}} = \frac{\qty{5000}{\volt}^2}{\qty{50}{\ohm}} = \qty{100}{\watt} \end{split}$
+$\begin{split} P_{\textrm{PEP}} &= \frac{U_{\textrm{eff}}^2}{R} = \frac{\left(\frac{\qty{100}{\volt}}{\sqrt{2}}\right)^2}{\qty{50}{\ohm}}\\ &=\frac{\frac{(\qty{100}{\volt})^2}{2}}{\qty{50}{\ohm}} = \frac{\qty{5000}{\volt}^2}{\qty{50}{\ohm}} = \qty{100}{\watt} \end{split}$
 </fragment>
 ---
 [question:AI306]
@@ -69,7 +69,7 @@ $\begin{split} P_{\textrm{PEP}} &= \frac{U_{\textrm{eff}}^2}{R} = \frac{(\frac{\
 * gesucht: $P_{\textrm{PEP}}$
 
 <fragment>
-$\begin{split} P_{\textrm{PEP}} &= \frac{U_{\textrm{eff}}^2}{R} = \frac{(\frac{\qty{6}{\volt}\cdot 10}{\sqrt{2}})^2}{\qty{50}{\ohm}}\\ &=\frac{\frac{(\qty{60}{\volt})^2}{2}}{\qty{50}{\ohm}} = \qty{36}{\watt} \end{split}$
+$\begin{split} P_{\textrm{PEP}} &= \frac{U_{\textrm{eff}}^2}{R} = \frac{\left(\frac{\qty{6}{\volt}\cdot 10}{\sqrt{2}}\right)^2}{\qty{50}{\ohm}}\\ &=\frac{\frac{(\qty{60}{\volt})^2}{2}}{\qty{50}{\ohm}} = \qty{36}{\watt} \end{split}$
 </fragment>
 
 ---
