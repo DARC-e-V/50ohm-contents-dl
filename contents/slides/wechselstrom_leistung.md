@@ -18,12 +18,12 @@ $P = U_{\text{eff}} \cdot I_{\text{eff}}$
 [question:AB301]
 ---
 ### Lösungsweg
-* gegeben: $I_{\textrm{max}} = 0,5A$
-* gegeben: $R = 20\Omega$
+* gegeben: $I_{\textrm{max}} = \qty{0,5}{\ampere}$
+* gegeben: $R = \qty{20}{\ohm}$
 * gesucht: $P$
 
 <fragment>
-$\begin{split} P &=  I^2 \cdot R = \left(\frac{I_{\textrm{max}}}{\sqrt{2}}\right)^2 \cdot R\\ &= \frac{(0,5A)^2}{2} \cdot 20\Omega \\ &= \frac{1}{8}A^2 \cdot 20\Omega = 2,5W \end{split}$
+$\begin{split} P &=  I^2 \cdot R = \left(\frac{I_{\textrm{max}}}{\sqrt{2}}\right)^2 \cdot R\\ &= \frac{(\qty{0,5}{\ampere})^2}{2} \cdot \qty{20}{\ohm} \\ &= \qty{\frac{1}{8}}{\ampere\squared} \cdot \qty{20}{\ohm} = \qty{2,5}{\watt} \end{split}$
 </fragment>
 
 ---

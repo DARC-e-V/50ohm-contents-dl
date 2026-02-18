@@ -12,7 +12,7 @@ in Amperesekunde (As)
 Leistung über Zeit
 
 $W = P\cdot t$
-in Joule (J) auf Sekunde bezogen oder Wattstunden (Wh)
+in Joule ($\unit{\joule}$) auf Sekunde bezogen oder Wattstunden ($\unit{\watt\hour}$)
 
 ---
 [question:AA103]
@@ -20,24 +20,24 @@ in Joule (J) auf Sekunde bezogen oder Wattstunden (Wh)
 [question:AB502]
 ---
 ### Lösungweg
-* gegeben: $U = 230V$
-* gegeben: $I = 0,63A$
-* gegeben: $t = 7h$
+* gegeben: $U = \qty{230}{\volt}$
+* gegeben: $I = \qty{0,63}{\ampere}$
+* gegeben: $t = \qty{7}{\hour}$
 * gesucht: $W$
 
 <fragment>
-$$W = P\cdot t = U\cdot I\cdot t = 230V\cdot 0,63A\cdot 7h = 1,01kWh$$
+$$W = P\cdot t = U\cdot I\cdot t = \qty{230}{\volt} \cdot \qty{0,63}{\ampere} \cdot \qty{7}{\hour} = \qty{1,01}{\kilo\watt\hour}$$
 </fragment>
 
 ---
 [question:AB503]
 ---
 ### Lösungsweg
-* gegeben: $U = 10V$
-* gegeben: $R = 100\Omega$
-* gegeben: $t = 1h$
+* gegeben: $U = \qty{10}{\volt}$
+* gegeben: $R = \qty{100}{\ohm}$
+* gegeben: $t = \qty{1}{\hour}$
 * gesucht: $W$
 
 <fragment>
-$\begin{split} W = P\cdot t = \frac{U^2}{R} \cdot t = \frac{(10V)^2}{100\Omega}\cdot 1h &= 1Wh \cdot 3600\frac{s}{h}\\ &= 3600J\end{split}$
+$\begin{split} W = P\cdot t = \frac{U^2}{R} \cdot t = \frac{(\qty{10}{\volt})^2}{\qty{100}{\ohm}} \cdot \qty{1}{\hour} &= \qty{1}{\watt\hour} \cdot \qty{3600}{\second\per\hour}\\ &= \qty{3600}{\joule}\end{split}$
 </fragment>

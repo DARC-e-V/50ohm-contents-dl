@@ -9,18 +9,18 @@
 
 Faktor 10
 
-*Leistung bezogen auf 1 mW*
-$p = 10\cdot \log_{10}\left(\frac{P}{1mW}\right)\textrm{dBm}$
+*Leistung bezogen auf $\qty{1}{\milli\watt}$*
+$p = 10\cdot \log_{10}\left(\frac{P}{\qty{1}{\milli\watt}}\right)\unit{\dBm}$
 <fragment>
-&rarr; $0\textrm{dBm}$ liegt bei $P = 1mW$ vor
+&rarr; $\qty{0}{\dBm}$ liegt bei $P = \qty{1}{\milli\watt}$ vor
 </fragment>
 
 <fragment>
-*Leistung bezogen auf 1 W*
-$p = 10\cdot \log_{10}\left(\frac{P}{1W}\right)\textrm{dBW}$
+*Leistung bezogen auf \qty{1}{\watt}*
+$p = 10\cdot \log_{10}\left(\frac{P}{\qty{1}{\watt}}\right)\unit{\dBW}$
 </fragment>
 <fragment>
-&rarr; $0\textrm{dBW}$ liegt bei $P = 1W$ vor
+&rarr; $\qty{0}{\dBW}$ liegt bei $P = \qty{1}{\watt}$ vor
 </fragment>
 
 ---
@@ -37,19 +37,19 @@ Nur einsetzen
 
 Faktor 20
 
-$u = 20\cdot \log_{10}\left(\frac{U}{0,775V}\right)\textrm{dBu}$
+$u = 20\cdot \log_{10}\left(\frac{U}{\qty{0,775}{\volt}}\right)\unit{\dBu}$
 
 <fragment>
-*Spannung bezogen auf 0,775 V*
-&rarr; $0\textrm{dBu}$ liegt bei $U = 0,775V$ vor
+*Spannung bezogen auf $\qty{0,775}{\volt}$*
+&rarr; $\qty{0}{\dBu}$ liegt bei $U = \qty{0,775}{\volt}$ vor
 </fragment>
 <fragment>
-*Spannung bezogen auf 1 V*
-&rarr; $0\textrm{dBV}$ liegt bei $U = 1V$ vor
+*Spannung bezogen auf $\qty{1}{\volt}$*
+&rarr; $\qty{0}{\dBV}$ liegt bei $U = \qty{1}{\volt}$ vor
 </fragment>
 <fragment>
-*Spannung bezogen auf 1 µV*
-&rarr; $0\textrm{dBµV}$ liegt bei $U = 1µV$ vor
+*Spannung bezogen auf $\qty{1}{\micro\volt}$*
+&rarr; $\qty{0}{\dBuV}$ liegt bei $U = \qty{1}{\micro\volt}$ vor
 </fragment>
 
 <note>
@@ -64,11 +64,11 @@ Details zur Berechnung des Faktor 20 sind im Online-Kurs. Kurzfassung: Im Spannu
 [question:AA108]
 ---
 ### Lösungsweg
-* gegeben: $p = 20\textrm{dBW}$
+* gegeben: $p = \qty{20}{\dBW}$
 * gesucht: $P$
 
 <fragment>
-$\begin{split} p &= 10\cdot \log_{10}\left(\frac{P}{1W}\right)\textrm{dBW}\\ \Rightarrow P &= 10^{\frac{p}{10}} \cdot 1W = 10^{\frac{20\textrm{dBW}}{10}} \cdot 1W = 10^2W \end{split}$
+$\begin{split} p &= 10\cdot \log_{10}\left(\frac{P}{\qty{1}{\watt}}\right)\unit{\dBW}\\ \Rightarrow P &= 10^{\frac{p}{10}} \cdot \qty{1}{\watt} = 10^{\frac{\qty{20}{\dBW}}{10}} \cdot \qty{1}{\watt} = \qty{10^2}{\watt} \end{split}$
 </fragment>
 ---
 [question:AA107]
@@ -77,15 +77,15 @@ $\begin{split} p &= 10\cdot \log_{10}\left(\frac{P}{1W}\right)\textrm{dBW}\\ \Ri
 ---
 ### Lösungsweg
 
-1W = 1000mW
-10 dB = Faktor 10
-1000mW &times; 10 = 10000mW = 40dBm
+$\qty{1}{\watt} = \qty{1000}{\milli\watt}$
+$\qty{10}{\dB} = \text{Faktor 10}$
+$\qty{1000}{\milli\watt} \cdot 10 = \qty{10000}{\milli\watt} = \qty{40}{\dBm}$
 ---
 [question:AA106]
 ---
 ## Lösungsweg
-* 16dB = 10dB + 6dB = 10 &times; 4 = 40
-* 1W &times; 40 = 40W
+* $\qty{16}{\dB} = \qty{10}{\dB} + \qty{6}{\dB} = 10 \cdot 4 = 40$
+* $\qty{1}{\watt} \cdot 40 = \qty{40}{\watt}$
 
 <note>
 Aus der Tabelle in der Formelsammlung
@@ -95,12 +95,12 @@ Aus der Tabelle in der Formelsammlung
 [question:AA112]
 ---
 ### Lösungsweg
-* gegeben: $u = 120\textrm{dBµV}/m$
+* gegeben: $u = \qty{120}{\dBuV\per\meter}$
 * gesucht: $U$
 
 <fragment>
-$\begin{split} u &= 20\cdot \log_{10}\left(\frac{U}{1\textrm{µV}}\right)\textrm{\textrm{dBµV}}\\ \Rightarrow U &= 10^{\frac{u}{20}} \cdot 1\textrm{µV} = 10^{\frac{120\textrm{dBµV}/m}{20}} \cdot 1\textrm{µV} = 1V/m \end{split}$
+$\begin{split} u &= 20\cdot \log_{10}\left(\frac{U}{\qty{1}{\micro\volt}}\right)\unit{\dBuV}\\ \Rightarrow U &= 10^{\frac{u}{20}} \cdot \qty{1}{\micro\volt} = 10^{\frac{\qty{120}{\dBuV\per\meter}}{20}} \cdot \qty{1}{\micro\volt} = \qty{1}{\volt\per\meter} \end{split}$
 </fragment>
 <fragment>
-In der Literatur ist oft zu finden: 120dBµV = 1V
+In der Literatur ist oft zu finden: $\qty{120}{\dBuV} = \qty{1}{\volt}$
 </fragment>

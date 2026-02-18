@@ -16,7 +16,7 @@ $R = \frac{\rho\cdot l}{A_{\textrm{Dr}}}$
 
 * $l$: Drahtlänge
 * $A_{\textrm{Dr}}$: Drahtquerschnitt
-* $\rho$: Spezifischer Widerstand in Ωmm<sup>2</sup>/m
+* $\rho$: Spezifischer Widerstand in $\unit{\ohm\cdot\milli\meter\squared\per\meter}$
 </left>
 <right>
 <fragment>
@@ -37,28 +37,28 @@ Damit lässt sich der ohmsche Widerstand eines Drahtes bei bekanntem Material, L
 [question:AB101]
 --- style="font-size: smaller;"
 ### Lösungsweg
-* gegeben: $l = 1,8m$
-* gegeben: $d = 0,2mm$
-* gegeben: $\rho = 0,018 \frac{\Omega mm^2}{m}$
+* gegeben: $l = \qty{1,8}{\meter}$
+* gegeben: $d = \qty{0,2}{\milli\meter}$
+* gegeben: $\rho = \qty{0,018}{\ohm\cdot\milli\meter\squared\per\meter}$
 * gesucht: $R$
 
 <fragment>
-$$A_{\textrm{Dr}} = \frac{d^2\cdot \pi}{4} = \frac{(0,2mm)^2 \cdot \pi}{4} = \frac{\pi}{100}mm^2 = 0,0314mm^2$$
+$$A_{\textrm{Dr}} = \frac{d^2\cdot \pi}{4} = \frac{(\qty{0,2}{\milli\meter})^2 \cdot \pi}{4} = \qty{\frac{\pi}{100}}{\milli\meter\squared} = \qty{0,0314}{\milli\meter\squared}$$
 </fragment>
 <fragment>
-$$R = \frac{\rho\cdot l}{A_{\textrm{Dr}}} = \frac{0,018 \frac{\Omega mm^2}{m} \cdot 1,8m}{0,0314mm^2} \approx 1,02\Omega$$
+$$R = \frac{\rho\cdot l}{A_{\textrm{Dr}}} = \frac{\qty{0,018}{\ohm\cdot\milli\meter\squared\per\meter} \cdot \qty{1,8}{\meter}}{\qty{0,0314}{\milli\meter\squared}} \approx \qty{1,02}{\ohm}$$
 </fragment>
 ---
 [question:AB102]
 ---
 ### Lösungsweg
-* gegeben: $A_{\textrm{Dr}} = 0,5mm^2$
-* gegeben: $R = 1,5\Omega$
-* gegeben: $\rho = 0,018 \frac{\Omega mm^2}{m}$
+* gegeben: $A_{\textrm{Dr}} = \qty{0,5}{\milli\meter\squared}$
+* gegeben: $R = \qty{1,5}{\ohm}$
+* gegeben: $\rho = \qty{0,018}{\ohm\cdot\milli\meter\squared\per\meter}$
 * gesucht: $l$
 
 <fragment>
-$\begin{split} R &= \frac{\rho\cdot l}{A_{\textrm{Dr}}}\\ \Rightarrow l &= \frac{R\cdot A_{\textrm{Dr}}}{\rho} = \frac{1,5\Omega \cdot 0,5mm^2}{0,018 \frac{\Omega mm^2}{m}} \approx 41,7m \end{split}$
+$\begin{split} R &= \frac{\rho\cdot l}{A_{\textrm{Dr}}}\\ \Rightarrow l &= \frac{R\cdot A_{\textrm{Dr}}}{\rho} = \frac{\qty{1,5}{\ohm} \cdot \qty{0,5}{\milli\meter\squared}}{\qty{0,018}{\ohm\cdot\milli\meter\squared\per\meter}} \approx \qty{41,7}{\meter} \end{split}$
 </fragment>
 
 ---

@@ -43,7 +43,7 @@ $\hat{U} = U_{eff}\cdot \sqrt{2}$
 
 $\hat{U} = U_{eff}\cdot \sqrt{2}$
 $U_{eff} = \dfrac{\hat{U}}{\sqrt{2}}$
-$U_{eff} = \dfrac{1V}{1,41} \approx 0,7V$
+$U_{eff} = \dfrac{\qty{1}{\volt}}{1,41} \approx \qty{0,7}{\volt}$
 
 ---
 [question:EB404]
@@ -56,7 +56,7 @@ $U_{eff} = \dfrac{1V}{1,41} \approx 0,7V$
 
 $\hat{U} = U_{eff}\cdot \sqrt{2}$
 $U_{eff} = \dfrac{\hat{U}}{\sqrt{2}}$
-$U_{eff} = \dfrac{12V}{1,41} \approx 8,5V$
+$U_{eff} = \dfrac{\qty{12}{\volt}}{1,41} \approx \qty{8,5}{\volt}$
 
 ---
 [question:EB403]
@@ -64,10 +64,10 @@ $U_{eff} = \dfrac{12V}{1,41} \approx 8,5V$
 ### Lösungsweg
 
 $\hat{U} = U_{eff}\cdot \sqrt{2}$
-$\hat{U} = 12V\cdot 1,41 \approx 17V$
+$\hat{U} = \qty{12}{\volt}\cdot 1,41 \approx \qty{17}{\volt}$
 
 $U_{SS} = 2\cdot \hat{U}$
-$U_{SS} = 2\cdot 17V = 34V$
+$U_{SS} = 2\cdot \qty{17}{\volt} = \qty{34}{\volt}$
 
 ---
 [question:EB401]
@@ -79,7 +79,7 @@ $U_{SS} = 2\cdot 17V = 34V$
 ### Lösungsweg
 
 $\hat{U} = U_{eff}\cdot \sqrt{2}$
-$\hat{U} = 230V\cdot 1,41 \approx 325V$
+$\hat{U} = \qty{230}{\volt}\cdot 1,41 \approx \qty{325}{\volt}$
 
 ---
 [question:EB402]
