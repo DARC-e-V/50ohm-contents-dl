@@ -23,21 +23,21 @@ Leider kann man diese gezeigten Einheitenvorsätze nicht direkt in jeden Taschen
 
 ---
 
-Schauen wir uns das zunächst am Beispiel des Vorsatzes Kilo an, der für $1000$ steht: Statt $1000$ kann man auch $10 \cdot 10 \cdot 10$ schreiben. Dafür gibt es die Abkürzung $10^3$ (gesprochen "10 hoch 3" oder "3. Potenz von 10"). Die Angaben $\qty{1500}{\hertz}$, $\qty{1,5}{\kilo\hertz}$ und $\qty{1,5 \cdot 10^3}{\hertz}$ stehen für den selben Wert.
+Schauen wir uns das zunächst am Beispiel des Vorsatzes Kilo an, der für $1000$ steht: Statt $1000$ kann man auch $10 \cdot 10 \cdot 10$ schreiben. Dafür gibt es die Abkürzung $10^3$ (gesprochen "10 hoch 3" oder "3. Potenz von 10"). Die Angaben $\qty{1500}{\hertz}$, $\qty{1,5}{\kilo\hertz}$ und $\qty{1,5e3}{\hertz}$ stehen für den selben Wert.
 
 <tip>
 Man kann es sich auch anders merken: Man multipliziert die Zahl so oft mit 10, wie die Hochzahl (der Exponent) angibt. Bei Zahlen ohne Komma hängt man einfach so viele Nullen an, wie im Exponent steht.
 </tip>
 
-Für eine Million muss man nicht drei, sondern sechs Exemplare der Zahl 10 miteinander multiplizieren. Also entspricht der Vorsatz Mega dem Wert $10^6$. Die Schreibweise $\qty{28 \cdot 10^6}{\hertz}$ bedeutet demnach dasselbe wie $\qty{28}{\mega\hertz}$.
+Für eine Million muss man nicht drei, sondern sechs Exemplare der Zahl 10 miteinander multiplizieren. Also entspricht der Vorsatz Mega dem Wert $10^6$. Die Schreibweise $\qty{28e6}{\hertz}$ bedeutet demnach dasselbe wie $\qty{28}{\mega\hertz}$.
 
-Für kleine Zahlen funktioniert es ähnlich. Ein Tausendstel ist $\frac{1}{10} \cdot \frac{1}{10} \cdot \frac{1}{10}$. Das schreibt man als $10^{-3}$ ("zehn hoch minus drei"). Der Wert $\qty{3,5 \cdot 10^{-3}}{\volt}$ ist also nichts anderes als $\qty{3,5}{\milli\volt}$ und $\qty{22 \cdot 10^{-6}}{\volt}$ steht für $\qty{22}{\micro\volt}$. Die wichtigsten Zehnerpotenzen stehen wieder in Tabelle [ref:e_einheitenvorzeichen].
+Für kleine Zahlen funktioniert es ähnlich. Ein Tausendstel ist $\frac{1}{10} \cdot \frac{1}{10} \cdot \frac{1}{10}$. Das schreibt man als $10^{-3}$ ("zehn hoch minus drei"). Der Wert $\qty{3,5e-3}}{\volt}$ ist also nichts anderes als $\qty{3,5}{\milli\volt}$ und $\qty{22e-6}{\volt}$ steht für $\qty{22}{\micro\volt}$. Die wichtigsten Zehnerpotenzen stehen wieder in Tabelle [ref:e_einheitenvorzeichen].
 
 ---
 
 Technisch-wissenschaftliche Taschenrechner verfügen in der Regel über eine Taste für Potenzen, meist bezeichnet mit $x^y$. Manche Modelle bieten zusätzlich eine vereinfachte Eingabemöglichkeit für Zehnerpotenzen: eine Taste mit der Beschriftung *Exp*, *E* oder $\cdot 10^x$. Diese steht für "mal zehn hoch …" und erleichtert die Eingabe sehr großer oder sehr kleiner Zahlen.
 
-Beispiel: Um den Wert $3,5 \cdot 10^6$ einzugeben, drückt man: 3.5 → Exp → 6
+Beispiel: Um den Wert $\num{3,5e6}$ einzugeben, drückt man: 3.5 → Exp → 6
 
 <tip>
 Schau am besten in die Bedienungsanleitung deines Taschenrechners, um die genaue Tastenkombination zu finden.

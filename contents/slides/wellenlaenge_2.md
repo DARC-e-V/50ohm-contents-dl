@@ -1,7 +1,7 @@
 * Die Wellenlänge $\lambda$ im Freiraum steht zur Frequenz $f$ in Relation mit der Lichtgeschwindigkeit $c_0$
 * Freiraum bedeutet: Vakuum, Luft
 * Lichtgeschwindigkeit $c_0 = \qty{299792458}{\meter\per\second}$
-* Im Amateurfunk rechnen wir mit $c = \qty{3 \cdot 10^8}{\meter\per\second}$
+* Im Amateurfunk rechnen wir mit $c = \qty{3e8}{\meter\per\second}$
 
 $c = f\cdot \lambda \quad f = \dfrac{c}{\lambda} \quad \lambda = \dfrac{c}{f}$
 

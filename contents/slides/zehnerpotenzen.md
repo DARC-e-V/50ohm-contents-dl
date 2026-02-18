@@ -13,8 +13,8 @@
 * Abgekürzt $10^3$
 
 <fragment>
-$\qty{1500}{\hertz} \rArr \qty{1,5}{\kilo\hertz} \rArr \qty{1,5 \cdot 10^3}{\hertz}$
-$\qty{1500000}{\hertz} \rArr \qty{1,5}{\mega\hertz} \rArr \qty{1,5 \cdot 10^6}{\hertz}$
+$\qty{1500}{\hertz} \rArr \qty{1,5}{\kilo\hertz} \rArr \qty{1,5e3}{\hertz}$
+$\qty{1500000}{\hertz} \rArr \qty{1,5}{\mega\hertz} \rArr \qty{1,5e6}{\hertz}$
 </fragment>
   
 <note>
@@ -27,7 +27,7 @@ $\qty{1500000}{\hertz} \rArr \qty{1,5}{\mega\hertz} \rArr \qty{1,5 \cdot 10^6}{\
 * Abgekürzt $10^{-3}$
 
 <fragment>
-$\qty{0,0035}{\volt} \rArr \qty{3,5}{\milli\volt} \rArr \qty{3,5 \cdot 10^{-3}}{\volt}$
+$\qty{0,0035}{\volt} \rArr \qty{3,5}{\milli\volt} \rArr \qty{3,5e-3}{\volt}$
 </fragment>
 
 --- style="font-size: 0.5em;"
