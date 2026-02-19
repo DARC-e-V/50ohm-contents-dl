@@ -78,7 +78,7 @@ Formel: $C = \frac{1}{2\pi \cdot f \cdot X_C}$
 [question:AC108]
 Zuerst muss $X_C$ berechnet werden: $X_C = \qty{16}{\volt} / \qty{32}{\milli\ampere} = \qty{500}{\ohm}$
 Danach die Formel für $C$ anwenden: $C = \frac{1}{6,28 \cdot \qty{50}{\hertz} \cdot \qty{500}{\ohm}}$
-Im Ergebnis taucht die Zehnerpotenz  $10^{-6}$ auf, die in eine Vorslbe umgewandelt werden muss.
+Im Ergebnis taucht die Zehnerpotenz  $10^{-6}$ auf, die in eine Vorsilbe umgewandelt werden muss.
 
 *Kondensatorverluste*
 Die vielfältigen Kondensatorarten unterscheiden sich auch hinsichtlich ihrer unerwünschten Verluste bei der Belastung durch Hochfrequenzströme. Die technische Beurteilung geschieht über den Begriff der Güte $Q$ (Quality) und dem sogenannten   tan "delta".
