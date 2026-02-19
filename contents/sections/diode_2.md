@@ -8,7 +8,7 @@ Etwas verwirrend ist gegebenenfalls, dass die technische Stromrichtung entgegeng
 
 [question:AC403]
 
-pn-Dioden zeigen eine exponentielle Abhängigkeit des Diodenstroms von der Diodenspannung. Der Sättigungsstrom steigt mit steigender Temperatur. Dies sorgt dafür, dass die für einen bestimmten Diodenstrom notwendige Diodenspannung mit steigender Temperatur kleiner wird. Die "Durchlassspannung" sinkt also (als Faustformel um -2 mV/K Temperaturerhöhung).
+pn-Dioden zeigen eine exponentielle Abhängigkeit des Diodenstroms von der Diodenspannung. Der Sättigungsstrom steigt mit steigender Temperatur. Dies sorgt dafür, dass die für einen bestimmten Diodenstrom notwendige Diodenspannung mit steigender Temperatur kleiner wird. Die "Durchlassspannung" sinkt also (als Faustformel um $\qty{-2}{\milli\volt\per\kelvin}$ Temperaturerhöhung).
 <indepth>
 
 Der Diodenstrom ist:
@@ -31,13 +31,13 @@ In den Fragen AC405 und AC406 werden *antiparallele Dioden* eingesetzt, um die A
 
 [question:AC405]
 
-Hier handelt es sich um Silizium-Dioden, die eine Schwellspannung von etwa 0,6 V haben. Wenn die Eingangsspannung also 0,6 V überschreitet, schaltet die rechte Diode durch. Unterschreitet sie -0,6 V, schaltet die linke Diode durch.
+Hier handelt es sich um Silizium-Dioden, die eine Schwellspannung von etwa $\qty{0,6}{\volt}$ haben. Wenn die Eingangsspannung also $\qty{0,6}{\volt}$ überschreitet, schaltet die rechte Diode durch. Unterschreitet sie $\qty{-0,6}{\volt}$, schaltet die linke Diode durch.
 
-Bei der ersten Halbwelle wird die nötige Spannung noch nicht erreicht, sie wird also unverändert übertragen. Die beiden nächsten Halbwellen allerdings haben Amplituden, die die Schwellspannung überschreiten. Die Amplituden werden bei $\pm$ 0,6 V "geklippt".
+Bei der ersten Halbwelle wird die nötige Spannung noch nicht erreicht, sie wird also unverändert übertragen. Die beiden nächsten Halbwellen allerdings haben Amplituden, die die Schwellspannung überschreiten. Die Amplituden werden bei $\qty{\pm 0,6}{\volt}$ "geklippt".
 
 [question:AC406]
 
-Die Lösung verläuft analog zur vorhergehenden Aufgabe - aber die Dioden sind hier *Germanium-Dioden*, die Schwellspannung beträgt etwa 0,3 V. Daher werden alle Halbwellen geklippt.
+Die Lösung verläuft analog zur vorhergehenden Aufgabe - aber die Dioden sind hier *Germanium-Dioden*, die Schwellspannung beträgt etwa $\qty{0,3}{\volt}$. Daher werden alle Halbwellen geklippt.
 
 [question:AC407]
 

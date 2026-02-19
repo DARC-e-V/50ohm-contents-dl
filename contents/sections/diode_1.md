@@ -12,7 +12,7 @@ Ist allerdings $U_d$ nur ein ganz wenig größer als 0, fließt noch kein merkba
 
 $I_d = I_S \left(e^{\frac{U_d}{U_T}}-1\right)$
 
-$e$ ist die sogenannte Euler'sche Zahl ($e\approx 2,718$), $U_T$ eine Konstante, die bei Raumtemperatur etwa 26 mV beträgt.
+$e$ ist die sogenannte Euler'sche Zahl ($e\approx 2,718$), $U_T$ eine Konstante, die bei Raumtemperatur etwa $\qty{26}{\milli\volt}$ beträgt.
 
 $I_S$ ist hier der *Sperrsättigungsstrom*, das ist der sehr kleine Strom, der bei negativen Spannungen durch die Diode fließt. Der Wert von $I_S$ hängt neben ein paar Parametern der Diode, wie der Diodenfläche, vor allem auch vom verwendeten Halbleitermaterial ab. Bei Materialien wie Germanium (Ge) mit einer geringen *Energiebandlücke* (darauf gehen wir in der Ausbildung zur Klasse A näher ein) ist $I_S$ größer, bei Materialien mit größerer Energiebandlücke ist $I_S$ kleiner. 
 
@@ -24,9 +24,9 @@ $I_S$ ist hier der *Sperrsättigungsstrom*, das ist der sehr kleine Strom, der b
 
 Betrachten wir eine Diodenkennlinie in Abbildung [ref:e_diode_kennlinie_iu], so steigt der Diodenstrom bei positiven $U_d$ ab einer gewissen Spannung steil an. Diese Spannung wird auch als *Schwellspannung* $U_{th}$ bezeichnet, sie ist aber nur Ausdruck der unterschiedlichen $I_S$: je kleiner $I_S$, desto höher ist die Schwellspannung. 
 
-Als Anhaltspunkte für die Schwellspannung von pn-Dioden können wir für Ge etwa 0,2-0,3 V und für Si etwa 0,6-0,7 V angeben. 
+Als Anhaltspunkte für die Schwellspannung von pn-Dioden können wir für Ge etwa $\qtyrange{0,2}{0,3}{\volt}$ und für Si etwa $\qtyrange{0,6}{0,7}{\volt}$ angeben.
 
-*Leuchtdioden* (LEDs) sind ebenfalls pn-Dioden, bei denen das Halbleitermaterial so beschaffen ist, dass es bei Polung der Diode in Flußrichtung Licht aussendet. Das geht nur mit bestimmten Materialien -- mit Si und Ge nicht. Die Farbe des Lichts ist durch die Energiebandlücke gegeben. Je größer die Energiebandlücke, desto kurzwelliger das Licht, um so geringer der Sperrsättigungsstrom, und daher um so höher die Schwellspannung. Daher haben rote LEDs etwa 1,7 V Schwellspannung und grüne LEDs 2,5 V. Die verschienden Kennlinien sind in der Abbildung [ref:e_diode_kennlinien] dargestellt.
+*Leuchtdioden* (LEDs) sind ebenfalls pn-Dioden, bei denen das Halbleitermaterial so beschaffen ist, dass es bei Polung der Diode in Flußrichtung Licht aussendet. Das geht nur mit bestimmten Materialien -- mit Si und Ge nicht. Die Farbe des Lichts ist durch die Energiebandlücke gegeben. Je größer die Energiebandlücke, desto kurzwelliger das Licht, um so geringer der Sperrsättigungsstrom, und daher um so höher die Schwellspannung. Daher haben rote LEDs etwa $\qty{1,7}{\volt}$ Schwellspannung und grüne LEDs $\qty{2,5}{\volt}$. Die verschienden Kennlinien sind in der Abbildung [ref:e_diode_kennlinien] dargestellt.
 
 [question:EC513]
 [question:EC510]
@@ -66,7 +66,7 @@ Dieser *Sperrdurchbruch* kann verschiedene physikalische Ursachen haben, die wir
 
 ---
 
-Das Schaltsymbol einer Zenerdiode (Abbildung [ref:e_zener_symbol]) ist das einer regulären Diode, bei der der Kathodenstrich eine zuätzliche Fortsetzung unter 90° erhält. Dies soll an das "Abknicken" der Kennlinie im Durchbruch erinnern.
+Das Schaltsymbol einer Zenerdiode (Abbildung [ref:e_zener_symbol]) ist das einer regulären Diode, bei der der Kathodenstrich eine zuätzliche Fortsetzung unter $\qty{90}{\degree}$ erhält. Dies soll an das "Abknicken" der Kennlinie im Durchbruch erinnern.
 
 <margin>
 [picture:860:e_zener_symbol:Schaltsymbol einer Zenerdiode]

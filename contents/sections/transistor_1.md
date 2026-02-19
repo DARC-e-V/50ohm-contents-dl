@@ -33,7 +33,7 @@ Im aktiven Betrieb ist die Emitter-Basis-Diode stets in Flussrichtung geschaltet
 Die Transistorfunktion stellt sich aber nur ein, wenn die Basiszone zwischen Emitter und Kollektor maximal wenige Mikrometer breit ist. Also können wir keinen Transistor erzeugen, indem wir zwei separate Dioden aneinander löten.
 </tip>
 
-Die minimale Spannung am Emitter-Basis-Übergang hängt vom verwendeten Halbleiter ab. Bei einem Silizium-NPN-Transistor muss die Basis etwa 0,6 V positiver als der Emitter sein, beim Silizium-PNP-Transistor etwa 0,6 V negativer.
+Die minimale Spannung am Emitter-Basis-Übergang hängt vom verwendeten Halbleiter ab. Bei einem Silizium-NPN-Transistor muss die Basis etwa $\qty{0,6}{\volt}$ positiver als der Emitter sein, beim Silizium-PNP-Transistor etwa $\qty{0,6}{\volt}$ negativer.
 
 [question:EC610]
 [question:EC612]
@@ -53,7 +53,7 @@ Die Ströme und Spannungen an einem npn-Transistor sind in der Abbildung [ref:e_
 
 $I_C = I_\text{S}\ e^{\frac{U_{BE}}{U_T}}$
 
-$U_T$ ist bei Raumtemperatur etwa 26 mV.  
+$U_T$ ist bei Raumtemperatur etwa $\qty{26}{\milli\volt}$.
 
 <indepth>
 $I_\text{S}$ bezeichnet den sogenannten Sättigungs-Sperrstrom eines Bipolartransistors. Er ist ein charakteristischer Bauteilparameter und steht in engem Zusammenhang mit der Emitter-Basis-Diode. Dabei handelt es sich um einen sehr kleinen Leckstrom, der auch dann durch den Transistor fließt, wenn die Basis-Emitter-Strecke nicht leitend ist.

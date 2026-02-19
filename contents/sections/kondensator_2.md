@@ -27,13 +27,13 @@ Wird ein Kondensator an Wechselspannung angeschlossen, dann fließt ein Wechsels
 1. Wenn die Frequenz der Wechselspannung an einem Kondesator erhöht wird, dann fließt mehr Strom, dies bedeutet, der kapazitive Blindwiderstand ist kleiner geworden. 
 2. Wenn die Kapazität des Kondensators erhöht wird, dann steigt auch der Strom, d.h. der Blindwiderstand wird auch kleiner. 
 Daraus ergibt sich die Berechnungsformel:
-$X_C = \frac{1}{\omega \cdot C} = \frac{1}{{2\pi \cdot f \cdot C}}\\ $
+$X_C = \frac{1}{\omega \cdot C} = \frac{1}{{2\pi \cdot f \cdot C}}$
 
 (siehe Formelsammlung Seite 236 links unten:  Stichwort: Kapazitiver Blindwiderstand)
 Moderne, kostengünstige Messgeräte, die  Funkamateure heutzutage gerne einsetzen, sind Antennenanalyzer oder vektoriellen Network Analyzer (VNA). Sie messen die Veränderung des Blindwiderstandes $X_C$ in Abhängigkeit der Frequenz und können das Messergebnis auch grafisch darstellen.
 
 [photo:248:a_kapazitiver Blindwiderstand:Kapazitiver Blindwiderstand $X_C$]
-Das Abbildung [ref:a_kapazitiver Blindwiderstand] zeigt die Veränderung des kapazitiven Blindwiderstandes (blaue Linie) eines 1500 pF Styroflexkondensators im Frequenzbereich von 1 MHz bis 4,5 MHz. Die rote Linie stellt die Phasenlage des kapazitiven Blindwiderstandes bei nahezu konstanten  - 90 Grad dar.
+Das Abbildung [ref:a_kapazitiver Blindwiderstand] zeigt die Veränderung des kapazitiven Blindwiderstandes (blaue Linie) eines $\qty{1500}{\pico\farad}$ Styroflexkondensators im Frequenzbereich von $\qtyrange{1}{4,5}{\mega\hertz}$. Die rote Linie stellt die Phasenlage des kapazitiven Blindwiderstandes bei nahezu konstanten $\qty{-90}{\degree}$ dar.
 
 [question:AC102]
 Die blaue Linie von Abbildung [ref:a_kapazitiver Blindwiderstand] hilft zur Lösung.
@@ -48,17 +48,17 @@ umgestellt nach C:
 $C =\frac{1}{{2\pi \cdot f \cdot X_C}}\\$ 
 mit eingesetzten Werten aus der Abbildung [ref:a_kapazitiver Blindwiderstand]: 
 
-$X_C$ = 50 Ohm bei 2 MHz
-C =$\frac{1}{6,28 * {2*10^6} * 50}$
+$X_C = \qty{50}{\ohm} \text{ bei } \qty{2}{\mega\hertz}$
+$C = \frac{1}{6,28 \cdot 2 \cdot 10^6 \cdot 50}$
 Bei der Berechnung mit dem Taschenrechner ist die Zehnerpotenz für Megahertz einzugeben.
-Das Ergebnis lautet: 0,000000001592 F
-C = 1592 pF
+Das Ergebnis lautet: $\qty{0,000000001592}{\farad}$
+$C = \qty{1592}{\pico\farad}$
 </tip>
 
 [question:AC104]
 Bei den folgenden Berechnungen von $X_C$ müssen immer die Zehnerpotenzen beachtet werden.
 Die Berechnungsformel lautet: $X_C = \frac{1}{\omega \cdot C} = \frac{1}{{2\pi \cdot f \cdot C}}\\ $
-Folgende Werte müssen eingesetzt werden: 10 pF = $10 * {10^{-12}}$ und 100 MHz = ${100 * {10^6}}$
+Folgende Werte müssen eingesetzt werden: $\qty{10}{\pico\farad} = \qty{10e-12}{\hertz}$ und $\qty{100}{\mega\hertz} = \qty{100e6}{\hertz}$
 Berechnen sie schrittweise, wenn sie unsicher sind.
 Beispiel: 6,28 * 10 * 100 = 6280; $10^{-12} * {10^6}$ = $ {10^{-6}}$
 $6280 * 10^{-6} = 0,00628$; 1/0,00628 = 159
@@ -75,7 +75,7 @@ Formel: $C =\frac{1}{{2\pi \cdot f \cdot X_C}}\\$
 (Siehe auch das Rechenbeispiel zum Styroflexkondensator)
 
 [question:AC108]
-Zuerst muss $X_C$ berechnet werden: $X_C$= 16 V / 32 mA = 0,5 kOhm
+Zuerst muss $X_C$ berechnet werden: $X_C = \qty{16}{\volt} / \qty{32}{\milli\ampere} = \qty{0,5}{\kilo\ohm}$
 Danach die Formel für C anwenden: C =$\frac{1}{6,28 * 50 * 500}$
 Im Ergebnis taucht die Zehnerpotenz  $10^{-6}$ auf, die in eine Vorslbe umgewandelt werden muss.
 
@@ -126,10 +126,10 @@ In linear geregelten Netzteilen und in Schaltnetzteilen müssen Elektrolytkonden
 
 
   Lösungshinweise:
-*AC 104:* 159 Ohm
-*AC 105:* 22 Ohm
-*AC 106:* 15,9 Ohm
-*AC 107:* 3,7 Ohm
-*AC 108:* 6,37 µF
+*AC 104:* $\qty{159}{\ohm}$
+*AC 105:* $\qty{22}{\ohm}$
+*AC 106:* $\qty{15,9}{\ohm}$
+*AC 107:* $\qty{3,7}{\ohm}$
+*AC 108:* $\qty{6,37}{\micro\farad}$
 </margin>
 

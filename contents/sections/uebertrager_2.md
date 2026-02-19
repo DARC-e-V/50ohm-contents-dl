@@ -1,22 +1,22 @@
 % todo Hinweis: Es gibt nur eine einzige Frage zur Stromdichte.
 Da alle stromführenden Leitungen nicht zu warm werden dürfen, damit die Isolation nicht schmilzt oder der Leiter gar zu glühen anfängt, darf eine maximale Stromstärke bezogen auf den Leiterquerschnitt nicht überschritten werden.
-Bildet man das Verhältnis von Stromstärke bezogen auf den Leiterquerschnitt in $mm^2$, dann erhält man einen Wert für die Stromdichte S.
+Bildet man das Verhältnis von Stromstärke bezogen auf den Leiterquerschnitt in $\unit{\milli\meter\square}$, dann erhält man einen Wert für die Stromdichte S.
 Die Berechnungsformel lautet:
-Stromdichte $S = \frac{I}{A} $ in  $\frac{A}{mm^2}$
+Stromdichte $S = \frac{I}{A} $ in  $\unit{\ampere\per\milli\meter\squared}$
 
 (siehe Formelsammlung Seite 236 Mitte rechts -  Stichwort: Belastbarkeit von Wicklungen)
-Nach VDE ist für frei verlegte Leiter aus Kupfer die maximal zulässige Stromstärke mit 12 A bei einer Querschnittsfläche von $0,75mm^2$ festgelegt.
-Bei Schmelzsicherungen kann die Stromdichte bis zu 3000 A/mm² erreichen.
+Nach VDE ist für frei verlegte Leiter aus Kupfer die maximal zulässige Stromstärke mit $\qty{12}{\ampere}$ bei einer Querschnittsfläche von $\qty{0,75}{\milli\meter\squared}$ festgelegt.
+Bei Schmelzsicherungen kann die Stromdichte bis zu $\qty{3000}{\ampere\per\milli\meter\squared}$ erreichen.
 
-Bei Transformatoren muss eine maximale Stromdichte von ca. 2,5 A/mm²  eingehalten werden, da die Wicklungen die Wärme nicht optimal abstrahlen können.
+Bei Transformatoren muss eine maximale Stromdichte von ca. $\qty{2,5}{\ampere\per\milli\meter\squared}$  eingehalten werden, da die Wicklungen die Wärme nicht optimal abstrahlen können.
 
-Zur Berechnung der Stromdichte ist aus dem Drahtdurchmesser die Querschnittsfläche in $mm^2$ zu ermitteln.
+Zur Berechnung der Stromdichte ist aus dem Drahtdurchmesser die Querschnittsfläche in $\unit{\milli\meter\squared}$ zu ermitteln.
 Querschnittsfläche $A = d^2 \cdot \frac{\pi}{4}$
 (siehe Formelsammlung Seite 234 Mitte links -  Stichwort: Widerstand von Drähten)
 
-Querschnittsfläche des Drahtes: $A = {0,5}^2 \cdot \frac{3,14}{4}$ = $0,2 {mm^2}$
-Die Aufgabe kann nur mit der nach I umgestellten Formel berechnet werden:
-Strom I = S * A  = $2,5 {\frac {A}{mm^2}}  * 0,2{mm^2} $ = 0,5 A
+Querschnittsfläche des Drahtes: $A = (\qty{0,5}{\milli\meter})^2 \cdot \frac{3,14}{4} = \qty{0,2}{\milli\meter\squared}$
+Die Aufgabe kann nur mit der nach $I$ umgestellten Formel berechnet werden:
+Strom $I = S \cdot A = \qty{2,5}{\ampere\per\milli\meter\squared} \cdot \qty{0,2}{\milli\meter\squared} = \qty{0,5}{\ampere}$
 [question:AC307]
 
 % todo Der Begriff Gegeninduktion sollte in das Kapitel Trafo 1 verschoben werden.
@@ -29,8 +29,8 @@ Dabei besteht der Transformatorkern nicht aus Eisen sondern aus gepresstem Eisen
 % todo Bild: Ferrit Ringkernübertrager mit Typenbezeichnung und Farbmarkierung
 % todo Bild: Eisenpulver Ringkernübertrager mit Typenbezeichnung und Farbmarkierung
 Ein Anpassungsübertrager hat die Aufgabe, eine Impedanz an eine andere anzupassen.
-Als Beispiel betrachten wir eine endgespeiste Antenne, deren Eingangsimpedanz ca. 2450 Ohm beträgt.
-Sie soll an einen Sender für 50 Ohm Lastimpedanz angepasst werden soll.
+Als Beispiel betrachten wir eine endgespeiste Antenne, deren Eingangsimpedanz ca. $\qty{2450}{\ohm}$ beträgt.
+Sie soll an einen Sender für $\qty{50}{\ohm}$ Lastimpedanz angepasst werden soll.
 
 Die Berechnung der Impedanzübertragung läßt sich aus den TRAFO-Grundformeln ermitteln.
 Die Formel für die Impedanzübertragung lautet:
@@ -74,9 +74,9 @@ Beispielrechnung Q1038:
 <margin>
 Lösungshilfe:
 
-AC 302: 30 mA
-AC 303: 1 kOhm
-AC 304: 0,4 kOhm
+AC 302: $\qty{30}{\milli\ampere}$
+AC 303: $\qty{1}{\kilo\ohm}$
+AC 304: $\qty{0,4}{\kilo\ohm}$
 AC 305: Verhältnis 3 : 1
 AC 306: Verhältnis 1 : 7
 

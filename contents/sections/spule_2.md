@@ -1,7 +1,7 @@
-In der Funktechnik spricht man auch von einer Impedanz. Beispiele: Antennenimpedanz bei 3,6 MHz, Eingangs- und Ausgangsimpedanz einer Verstärkerstufe, Impedanzwandler
+In der Funktechnik spricht man auch von einer Impedanz. Beispiele: Antennenimpedanz bei $\qty{3,6}{\mega\hertz}$, Eingangs- und Ausgangsimpedanz einer Verstärkerstufe, Impedanzwandler
 <indepth>
 [photo:269:a_Widerstandsdreieck R - L:Geometrische Addition von R und $X_L$ und Phasenverschiebung zwischen Z und R]
-Da die Gesamtspannung an Z anliegt und der Strom in Phase mit R zu sehen ist, ergibt sich eine Phasenverschiebung von $phi$ = 45 Grad, wobei I gegenüber U nacheilend ist.
+Da die Gesamtspannung an Z anliegt und der Strom in Phase mit R zu sehen ist, ergibt sich eine Phasenverschiebung von $\varphi = \qty{45}{\degree}$, wobei I gegenüber U nacheilend ist.
 
 </indepth>
 
@@ -13,11 +13,11 @@ Da die Gesamtspannung an Z anliegt und der Strom in Phase mit R zu sehen ist, er
 Bei einer Reihenschaltung von Blindwiderstand und Wirkwiderstand ergibt sich ein Scheinwiderstand Z, der nur im Betrieb an Wechselspannung auftritt und nicht mit einem Ohm-Meter gemessen werden kann. Er wird auch als Impedanz Z bezeichnet und als Widerstand in Ohm angegeben.
 Merke: Der Begriff Impedanz steht für einen Widerstand, der sich aus einem ohmschen Anteil (R) und einem kapazitiven  ($X_C$) und/oder induktiven Anteil ($X_L$) zusammensetzt. 
 
-Beispiel: Wirkwiderstand 100 Ohm und Blindwiderstand 100 Ohm in Reihenschaltung ergeben einen Scheinwiderstand (Impedanz) von 141 Ohm.
+Beispiel: Wirkwiderstand $\qty{100}{\ohm}$ und Blindwiderstand $\qty{100}{\ohm}$ in Reihenschaltung ergeben einen Scheinwiderstand (Impedanz) von $\qty{141}{\ohm}$.
 Das Ergebnis entsteht durch geometrische Addition der beiden Widerstände über ein rechtwinliges Dreieck nach dem den Satz des Pythagoras.
 $a^2$ +$b^2$ = $c^2$
 Für die Widerstände bedeutet dies: $R^2$ +$X_L ^2$ = $Z^2$
-$Z  = \sqrt{{100^2} + {100^2}} $ = 141 Ohm
+$Z  = \sqrt{(\qty{100}{\ohm})^2 + (\qty{100}{\ohm})^2} = \qty{141}{\ohm}$
 Bitte nachrechnen!
 [question:AA101]
 
@@ -32,16 +32,16 @@ Die Ursache ist der Anstieg des induktiven Blindwiderstandes $X_L$.
 $X_L$"  links oben.
 $X_L =\omega * L = 2 * \pi * f * L$
 Beispielrechnung für die Frage AC 204:
-$X_L$ = 2 *$ \pi$ * 100 MHz * 3 µH 
+$X_L = 2\pi \cdot \qty{100}{\mega\hertz} \cdot \qty{3}{\micro\henry}$
 Jetzt werden die Vorsilben in Zehnerpotenzen umgewandelt, damit das Ergebnis in Ohm berechnet werden kann.
-$X_L$ = $6,28 * 100 *10^6 * 3 * 10^{-6}$ Ohm
-Die Zehnerpotenzen  $10^6 * 10^{-6}$ ergeben 1. Im letzten Schritt werden die verbliebenen Zahlen multipliziert.
-$X_L$ = 6,28 * 100 * 3 =  1884 Ohm 
+$X_L = 6,28 \cdot \qty{100e6}{\hertz} \cdot \qty{3e-6}{\henry}$
+Die Zehnerpotenzen  $10^6 \cdot 10^{-6}$ ergeben $1$. Im letzten Schritt werden die verbliebenen Zahlen multipliziert.
+$X_L = 6,28 \cdot \qty{(100 \cdot 3)}{\ohm} = \qty{1884}{\ohm}$
 [question:AC204]
 Mit einem vektoriellen Network Analyzer (VNA) läßt sich die Veränderung des induktiven Blindwiderstandes $X-L$ in Abhängigkeit von der Frequenz darstellen. Wir sprechen auch hier von einem Blindwiderstand, da eine verlustfreie Spule keine Wirkenergie aufnimmt. Sollte eine Spule bei Hochfrequenzanwendungen warm werden, dann besitz sie Verluste, die diese Erwärmung bewirken.
 Die Verluste entstehen durch den ohmschen Widerstand des Drahtes und zusätzlich wirkt auch noch der Skin-Effekt, der den Drahtquerschnitt scheinbar verkleinert.
 % todo BILD XL in Abhängigkeit der Frequenz
-[photo:265:a_XL Verlauf V2:Veränderung des induktiven Blindwiderstandes $X_L$ einer Spule von 500 kHz bis 10 MHz]
+[photo:265:a_XL Verlauf V2:Veränderung des induktiven Blindwiderstandes $X_L$ einer Spule von $\qty{500}{\kilo\hertz}$ bis $\qty{10}{\mega\hertz}$]
 Die rote Linie zeigt die Phasenlage des induktiven Blindwiderstandes $X_L$.
 [question:AC202]
 
@@ -72,7 +72,7 @@ L = $N^2$ * $A_L$
 ACHTUNG: Die Benennung des $A_L$-Wertes ist in Nanohenry pro Windungen im Quadrat angegeben.
 Berechnungsbeispiel für die Induktivität einer Ringkernspule Frage AC 205:
 L = $N^2$ * $A_L$
-L = $14^2$ * 1,5 nH = 294 nH = 0,294 µH
+$L = 14^2 \cdot \qty{1,5}{\nano\henry} = \qty{294}{\nano\henry} = \qty{0,294}{\micro\henry}$
 Die letzte Umwandlung ist notwendig, da die Lösung mit dieser Vorsilbe angegeben ist.
 [question:AC205]
 
@@ -81,9 +81,9 @@ Die letzte Umwandlung ist notwendig, da die Lösung mit dieser Vorsilbe angegebe
 Beispielrechnung für die Frage AC 207:
 Berechnungsbeispiel für die Windungszahl einer Ringkernspule:
 $N = \sqrt \frac{L}{A_L}$
-$N = \sqrt \frac{2 \  {mH}}{250 \  { nH} }$ 
-Wichtig: Umwandlung von 2 mH in 2 000 000 nH, damit sich gleiche Vorsilben kürzen lassen.
-$N = \sqrt \frac{2000 000 \ {nH} }{250 \ {nH} }$
+$N = \sqrt \frac{\qty{2}{\milli\henry}}{\qty{250}{\nano\henry}}$
+Wichtig: Umwandlung von $\qty{2}{\milli\henry}$ in $\qty{2000000}{\nano\henry}$, damit sich gleiche Vorsilben kürzen lassen.
+$N = \sqrt \frac{\qty{2000000}{\nano\henry}}{\qty{250}{\nano\henry}}$
 $N = \sqrt {8000}$
 $N = 89,4$
 Man wird 90 Windungen aufbringen.
@@ -95,7 +95,7 @@ Man wird 90 Windungen aufbringen.
 Wenn sich innerhalb der Spule ein magnetisch leitfähiges Material befindet (z.B. Eisen, Ferrit) dann wird das Magnetfeld verstärkt. Die dann wirksame magnetische Flussdichte B läßt sich mit folgender Formel berechnen:
 $B = \mu_0  *  \mu_r *  \cdot H$
 (siehe Formelsammlung Seite 236 oben rechts -  Stichwort: Magnetische Flussdichte)
-Dabei enspricht $\mu_0$ der magnetischen Feldkonstante 1,2566 * ${10^{-6}}$ Vs/Am
+Dabei enspricht $\mu_0$ der magnetischen Feldkonstante $\qty{1,2566e-6}{\volt\second\per\ampere\meter}$
 $\mu_r$ steht für die relative Permeabilität des Kernmaterials in der Spule. Für Luft wird der Faktor 1 eingesetzt.
 (siehe Formelsammlung Seite 243 unten rechts -  Stichwort: Magnetische Feldkonstante; relative Permeabilität )
 </indepth>
@@ -111,7 +111,7 @@ $X_L =\omega * L = 2 * \pi * f * L$
 Umgestellt nach L:
 $L =\frac{X_L}{2\pi \cdot f}$
   
-$A_L$ - Wert in nH !!!
+$A_L$ - Wert in $\unit{\nano\henry}$ !!!
 L = $N^2$ * $A_L$
 Umgestellt nach N:  
 $N = \sqrt \frac{L}{A_L}$
@@ -127,7 +127,7 @@ Hohe Spulenverluste = niedrige Güte = großer tan "delta" = großer ESR
 |$X_L =\omega * L = 2 * \pi * f * L$|
 Umgestellt nach L:|
 $L =\frac{X_L}{2\pi \cdot f}$| 
-|$A_L$ - Wert in nH !!!|
+|$A_L$ - Wert in $\unit{\nano\henry}$ !!!|
 |L = $N^2$ * $A_L$|
 |Umgestellt nach N:|  
 |$N = \sqrt \frac{L}{A_L}$|
@@ -145,7 +145,7 @@ Zur Abschirmung eines Magnetfeldes benötigt man ein magnetisch gut leitfähiges
 <margin>
 Lösungshilfe:
 
-*AC 206:* 112,5 mH
+*AC 206:* $\qty{112,5}{\milli\henry}$
 *AC 208:* 20 Windungen
 </margin>
 

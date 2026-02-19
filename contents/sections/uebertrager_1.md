@@ -1,4 +1,4 @@
-Warum gibt es ein 230-V-Wechselspannungsnetz? Wechselspannung bietet gegenüber Gleichspannung einen entscheidenden Vorteil: Sie lässt sich mithilfe von Transformatoren einfach und mit geringen Verlusten auf andere Spannungswerte umsetzen. Dadurch ist eine effiziente Anpassung der Spannung für Übertragung und Nutzung möglich.
+Warum gibt es ein $\qty{230}{\volt}$-Wechselspannungsnetz? Wechselspannung bietet gegenüber Gleichspannung einen entscheidenden Vorteil: Sie lässt sich mithilfe von Transformatoren einfach und mit geringen Verlusten auf andere Spannungswerte umsetzen. Dadurch ist eine effiziente Anpassung der Spannung für Übertragung und Nutzung möglich.
 
 Auf Grund der Selbstinduktion in Spulen läßt sich Energie bei Wechselspannung zwischen zwei Spulen, wie in Abbildung [ref:e_netztrafo] gezeigt, übertragen. Es entsteht ein neues Bauelement, der *Übertrager* oder *Transformator*, kurz *Trafo*. Er besteht aus zwei Spulen, die über einen Eisen- oder Ferritkern magnetisch gekoppelt sind. Damit die Seiten auseinandergehalten werden können, spricht man von Primärseite mit der Windungszahl $N_P$ und der Sekundärseite mit der Windungszahl $N_S$.
 
