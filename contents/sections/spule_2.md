@@ -15,8 +15,8 @@ Merke: Der Begriff Impedanz steht für einen Widerstand, der sich aus einem ohms
 
 Beispiel: Wirkwiderstand $\qty{100}{\ohm}$ und Blindwiderstand $\qty{100}{\ohm}$ in Reihenschaltung ergeben einen Scheinwiderstand (Impedanz) von $\qty{141}{\ohm}$.
 Das Ergebnis entsteht durch geometrische Addition der beiden Widerstände über ein rechtwinliges Dreieck nach dem den Satz des Pythagoras.
-$a^2$ +$b^2$ = $c^2$
-Für die Widerstände bedeutet dies: $R^2$ +$X_L ^2$ = $Z^2$
+$a^2 + b^2 = c^2$
+Für die Widerstände bedeutet dies: $R^2 + X_L^2 = Z^2$
 $Z  = \sqrt{(\qty{100}{\ohm})^2 + (\qty{100}{\ohm})^2} = \qty{141}{\ohm}$
 Bitte nachrechnen!
 [question:AA101]
@@ -67,11 +67,11 @@ Eine wichtige Kenngöße einer Spule ist die Induktivität $L$. Sie gibt an, wel
 
 Bei Ringkernspulen wird zur Erleichterung der Induktivitätsberechnung ein sogenannter $A_L$-Wert des Kernmaterials angegeben.
 Die Berechnung der Induktivität lautet dann:
-L = $N^2$ * $A_L$
+$L = N^2 \cdot A_L$
 (siehe Formelsammlung Seite 236 oben rechts -  Stichwort: Induktivität einer Ringkernspule)
 ACHTUNG: Die Benennung des $A_L$-Wertes ist in Nanohenry pro Windungen im Quadrat angegeben.
 Berechnungsbeispiel für die Induktivität einer Ringkernspule Frage AC 205:
-L = $N^2$ * $A_L$
+$L = N^2 \cdot A_L$
 $L = 14^2 \cdot \qty{1,5}{\nano\henry} = \qty{294}{\nano\henry} = \qty{0,294}{\micro\henry}$
 Die letzte Umwandlung ist notwendig, da die Lösung mit dieser Vorsilbe angegeben ist.
 [question:AC205]

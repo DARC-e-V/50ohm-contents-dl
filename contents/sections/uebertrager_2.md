@@ -34,10 +34,10 @@ Sie soll an einen Sender für $\qty{50}{\ohm}$ Lastimpedanz angepasst werden sol
 
 Die Berechnung der Impedanzübertragung läßt sich aus den TRAFO-Grundformeln ermitteln.
 Die Formel für die Impedanzübertragung lautet:
-$ \frac {Z_p}{Z_s}$ = $ü^2$ =$( \frac {N_p}{N_s})^2$ = $( \frac {U_p}{U_s})^2$
+$ \frac {Z_p}{Z_s} = ü^2 =( \frac {N_p}{N_s})^2 = ( \frac {U_p}{U_s})^2$
 Merke: Das Impedanzverhältnis ist das Quadrat des Spannungsverhältnisses und damit auch das Quadrat des Windungszahlenverhältnisses.
 
-oder ü =$ \sqrt \frac {Z_p}{Z_s}$ = $ \frac {N_p}{N_s}$ =  $ \frac {U_p}{U_s}$ = $  \frac {I_s}{I_p}$
+oder $ü = \sqrt{\frac {Z_p}{Z_s}} = \frac {N_p}{N_s} = \frac {U_p}{U_s} = \frac {I_s}{I_p}$
 
 
 
@@ -45,22 +45,22 @@ oder ü =$ \sqrt \frac {Z_p}{Z_s}$ = $ \frac {N_p}{N_s}$ =  $ \frac {U_p}{U_s}$ 
 
 <indepth>
  Ableitung der Formel zur Impedanzübertragung:
- $ P_p$ =$ P_s$
+ $ P_p = P_s$
   $U_p \cdot I_p = U_s \cdot I_s$
   Für $U$ das Ohmsche Gestz einsetzen: U = I * R;
   $R$ wird durch $Z$ ersetzt
 $(I_p \cdot Z_p) \cdot I_p = (I_s \cdot Z_s) \cdot I_s$
- Das Impedanzverhältmnis auf einer Seite bilden:
- $ \frac {Z_p}{Z_s}$ =$ \frac {{I_s}^2}{{I_p}^2}$ = $ü^2$
+ Das Impedanzverhältnis auf einer Seite bilden:
+ $ \frac {Z_p}{Z_s} = \frac {{I_s}^2}{{I_p}^2} = ü^2$
   oder
   Für $I$ das Ohmsche Gesetz einsetzen:
-  I = $\frac {U}{R}$ 
+  $I = \frac{U}{R}$
   $R$ wird durch $Z$ ersetzt
 $ \frac {U_p}{Z_p} \cdot U_p  = \frac {U_s}{Z_s} \cdot U_s$
  Das Impedanzverhältnis auf einer Seite bilden:
- $ \frac {Z_p}{Z_s}$ =$ \frac {{U_p}^2}{{U_s}^2}$ = $ü^2$
+ $ \frac {Z_p}{Z_s} = \frac {{U_p}^2}{{U_s}^2} = ü^2$
 </indepth>
-Impedanzübertragung 1 : 49  bedeutet: $ü^2$ =49  ; daraus die Wurzel ergibt ü=7
+Impedanzübertragung 1 : 49  bedeutet: $ü^2 =49$  ; daraus die Wurzel ergibt $ü=7$
 % todo BILD: UNUN mit EndFED
 Beispielrechnung Q1038:
 
@@ -85,7 +85,7 @@ AC 306: Verhältnis 1 : 7
  Querschnittsfläche $A = d^2 \cdot \frac{\pi}{4}$ 
 Stromdichte $S = \frac{I}{A} $ 
   
-$ \frac {Z_p}{Z_s}$ = $ü^2$ =$( \frac {N_p}{N_s})^2$ = $( \frac {U_p}{U_s})^2$
-ü =$ \sqrt \frac {Z_p}{Z_s}$ = $ \frac {N_p}{N_s}$ =  $ \frac {U_p}{U_s}$ = $  \frac {I_s}{I_p}$
+$ \frac {Z_p}{Z_s} = ü^2 =( \frac{N_p}{N_s})^2 = ( \frac{U_p}{U_s})^2$
+$ü = \sqrt{\frac{Z_p}{Z_s}} = \frac{N_p}{N_s} = \frac{U_p}{U_s} = \frac{I_s}{I_p}$
   
 </margin>
