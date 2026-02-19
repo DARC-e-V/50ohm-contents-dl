@@ -155,7 +155,7 @@ $\begin{split} L &= N^2 \cdot A_{\textrm{L}}\\ N &= \sqrt{\frac{L}{A_{\textrm{L}
 * Kann nicht mit einem Ohm-Meter gemessen werden
 * Spule in der Funktechnik &rarr; *Impedanz*
 * Antennenimpedanz, Eingangs- und Ausgangsimpedanz, Impedanzwandler, …
-* Impedanz Z in $\unit{\ohm}$
+* Impedanz $Z$ in $\unit{\ohm}$
 
 ---
 <left>
