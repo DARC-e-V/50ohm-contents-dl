@@ -21,7 +21,7 @@
 $L = \dfrac{N\cdot \Phi}{I}$
 
 * mit $N$ Anzahl Windungen und $\Phi$ als magnetischer Fluss
-* Einheit: $\frac{Vs}{A}$ bzw. Henry $H$
+* Einheit: $\unit{\volt\second\per\ampere}$ bzw. Henry $\unit{\henry}$
 * Die Induktivität ist der magnetische Fluss pro Ampere
 
 <note>
@@ -40,7 +40,7 @@ $L = \dfrac{\mu_0 \cdot \mu_r \cdot N^2 \cdot A_S}{l}$
 * &rarr; Induktivität ist viel größer bei höherer Windungszahl
 </left>
 <right>
-* $\mu_0 = 1,2566 \cdot 10^{-6}\frac{H}{m}$: magnetische Feldkonstante
+* $\mu_0 = \qty{1,2566e-6}{\henry\per\meter}$: magnetische Feldkonstante
 * $\mu_r$: relative Permeabilität, abhängig vom Spulenkern (Luft ≈ 1)
 * $N$: Windungszahl
 * $A_S$: Querschnittsfläche der Spule

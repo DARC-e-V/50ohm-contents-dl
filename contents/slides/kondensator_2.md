@@ -2,7 +2,7 @@
 [photo:268:a_I eilt vor:Phasenverschiebung am Kondensator zwischen Spannung und Strom]
 </left>
 <right>
-* Phasenverschiebung von 90°
+* Phasenverschiebung von $\qty{90}{\degree}$
 * Strom eilt der Spannung voraus
 </right>
 <note>
@@ -59,47 +59,47 @@ Ein VNA misst die Veränderung des Blindwiderstandes $X_C$ in Abhängigkeit der 
 [question:AC104]
 ---
 #### Lösungsweg
-* gegeben: $C = 10pF$
-* gegeben: $f = 100MHz$
+* gegeben: $C = \qty{10}{\pico\farad}$
+* gegeben: $f = \qty{100}{\mega\hertz}$
 * gesucht: $X_{\textrm{C}}$
 
 <fragment>
-$\begin{split} X_{\textrm{C}} &= \frac{1}{\omega \cdot C} = \frac{1}{2\pi \cdot f \cdot C}\\ &= \frac{1}{2\pi \cdot 100MHz \cdot 10pF}\\ &\approx 159\Omega \end{split}$
+$\begin{split} X_{\textrm{C}} &= \frac{1}{\omega \cdot C} = \frac{1}{2\pi \cdot f \cdot C}\\ &= \frac{1}{2\pi \cdot \qty{100}{\mega\hertz} \cdot \qty{10}{\pico\farad}}\\ &\approx \qty{159}{\ohm} \end{split}$
 </fragment>
 
 ---
 [question:AC105]
 ---
 #### Lösungsweg
-* gegeben: $C = 50pF$
-* gegeben: $f = 145MHz$
+* gegeben: $C = \qty{50}{\pico\farad}$
+* gegeben: $f = \qty{145}{\mega\hertz}$
 * gesucht: $X_{\textrm{C}}$
 
 <fragment>
-$\begin{split} X_{\textrm{C}} &= \frac{1}{\omega \cdot C} = \frac{1}{2\pi \cdot f \cdot C}\\ &= \frac{1}{2\pi \cdot 145MHz \cdot 50pF}\\ &\approx 22\Omega \end{split}$
+$\begin{split} X_{\textrm{C}} &= \frac{1}{\omega \cdot C} = \frac{1}{2\pi \cdot f \cdot C}\\ &= \frac{1}{2\pi \cdot \qty{145}{\mega\hertz} \cdot \qty{50}{\pico\farad}}\\ &\approx \qty{22}{\ohm} \end{split}$
 </fragment>
 ---
 [question:AC106]
 ---
 #### Lösungsweg
-* gegeben: $C = 100pF$
-* gegeben: $f = 100MHz$
+* gegeben: $C = \qty{100}{\pico\farad}$
+* gegeben: $f = \qty{100}{\mega\hertz}$
 * gesucht: $X_{\textrm{C}}$
 
 <fragment>
-$\begin{split} X_{\textrm{C}} &= \frac{1}{\omega \cdot C} = \frac{1}{2\pi \cdot f \cdot C}\\ &= \frac{1}{2\pi \cdot 100MHz \cdot 100pF}\\ &\approx 15,9\Omega \end{split}$
+$\begin{split} X_{\textrm{C}} &= \frac{1}{\omega \cdot C} = \frac{1}{2\pi \cdot f \cdot C}\\ &= \frac{1}{2\pi \cdot \qty{100}{\mega\hertz} \cdot \qty{100}{\pico\farad}}\\ &\approx \qty{15,9}{\ohm} \end{split}$
 </fragment>
 
 ---
 [question:AC107]
 ---
 #### Lösungsweg
-* gegeben: $C = 100pF$
-* gegeben: $f = 435MHz$
+* gegeben: $C = \qty{100}{\pico\farad}$
+* gegeben: $f = \qty{435}{\mega\hertz}$
 * gesucht: $X_{\textrm{C}}$
 
 <fragment>
-$\begin{split} X_{\textrm{C}} &= \frac{1}{\omega \cdot C} = \frac{1}{2\pi \cdot f \cdot C}\\ &= \frac{1}{2\pi \cdot 435MHz \cdot 100pF}\\ &\approx 3,7\Omega \end{split}$
+$\begin{split} X_{\textrm{C}} &= \frac{1}{\omega \cdot C} = \frac{1}{2\pi \cdot f \cdot C}\\ &= \frac{1}{2\pi \cdot \qty{435}{\mega\hertz} \cdot \qty{100}{\pico\farad}}\\ &\approx \qty{3,7}{\ohm} \end{split}$
 </fragment>
 
 ---
@@ -107,20 +107,20 @@ $\begin{split} X_{\textrm{C}} &= \frac{1}{\omega \cdot C} = \frac{1}{2\pi \cdot 
 ---
 #### Lösungsweg
 <left>
-* gegeben: $U = 16V$
-* gegeben: $I = 32mA$
+* gegeben: $U = \qty{16}{\volt}$
+* gegeben: $I = \qty{32}{\milli\ampere}$
 </left>
 <right>
-* gegeben: $f = 50Hz$
+* gegeben: $f = \qty{50}{\hertz}$
 * gesucht: $C$
 </right>
 
 <fragment>
-$X_{\textrm{C}} = \frac{U}{I} = \frac{16V}{32mA} = 500\Omega$
+$X_{\textrm{C}} = \frac{U}{I} = \frac{\qty{16}{\volt}}{\qty{32}{\milli\ampere}} = \qty{500}{\ohm}$
 </fragment>
 
 <fragment>
-$\begin{split} X_{\textrm{C}} &= \frac{1}{\omega \cdot C} \\ \Rightarrow C &= \frac{1}{\omega \cdot X_{\textrm{C}}} = \frac{1}{2\pi \cdot f \cdot X_{\textrm{C}}}\\ &= \frac{1}{2\pi \cdot 50Hz \cdot 500\Omega}\\ &\approx 6,37\mu F\end{split}$
+$\begin{align} X_{\textrm{C}} &= \frac{1}{\omega \cdot C} \\ \Rightarrow C &= \frac{1}{\omega \cdot X_{\textrm{C}}} = \frac{1}{2\pi \cdot f \cdot X_{\textrm{C}}}\\ &= \frac{1}{2\pi \cdot \qty{50}{\hertz} \cdot \qty{500}{\ohm}}\\ &\approx \qty{6,37}{\micro\farad}\end{align}$
 </fragment>
 
 ---

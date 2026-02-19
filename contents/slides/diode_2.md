@@ -11,7 +11,7 @@
 * Bei höherer Temperatur gibt es mehr freie Elektronen
 * Der Sättigungsstrom steigt mit steigender Temperatur
 * Aber die Beweglichkeit ändert sich
-* Dadurch sinkt die Durchlassspannung (mit ca. &minus;2mV/°C)
+* Dadurch sinkt die Durchlassspannung (mit ca. $\qty{-2}{\milli\volt\per\degreeCelsius}$)
 
 ---
 [question:AC403]
@@ -36,8 +36,8 @@ Je negativer die Diodenspannung, umso mehr dehnt sich die Raumladungszone aus un
 
 * Antiparallele Dioden
 * Begrenzung der Amplitude einer Wechselspannung
-* Silizium: ca. 0,6V Schwellspannung
-* Germanium: ca. 0,3V Schwellspannung
+* Silizium: ca. $\qty{0,6}{\volt}$ Schwellspannung
+* Germanium: ca. $\qty{0,3}{\volt}$ Schwellspannung
 * &rarr; *Clipping*
 
 <note>

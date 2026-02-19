@@ -2,7 +2,7 @@
 [photo:267:a_U_eilt_vor:Phasenverschiebung an einer Spule zwischen Spannung und Strom]
 </left>
 <right>
-* Phasenverschiebung von 90°
+* Phasenverschiebung von $\qty{90}{\degree}$
 * Spannung eilt dem Strom voraus
 </right>
 <note>
@@ -52,12 +52,12 @@ $X_{\textrm{L}} = \omega \cdot L = 2\pi \cdot f \cdot L$
 [question:AC204]
 ---
 #### Lösungsweg
-* gegeben: $L = 3\mu H$
-* gegeben: $f = 100MHz$
+* gegeben: $L = \qty{3}{\micro\henry}$
+* gegeben: $f = \qty{100}{\mega\hertz}$
 * gesucht: $X_{\textrm{L}}$
 
 <fragment>
-$\begin{split} X_{\textrm{L}} &= \omega \cdot L = 2\pi \cdot f \cdot L\\ &= 2\pi \cdot 100MHz \cdot 3\mu H\\ &\approx 1885\Omega \end{split}$
+$\begin{split} X_{\textrm{L}} &= \omega \cdot L = 2\pi \cdot f \cdot L\\ &= 2\pi \cdot \qty{100}{\mega\hertz} \cdot \qty{3}{\micro\henry}\\ &\approx \qty{1885}{\ohm} \end{split}$
 </fragment>
 
 ---
@@ -95,11 +95,11 @@ Deshalb werden (Ring-)Kerne eingesetzt
 ---
 #### Lösungsweg
 * gegeben: $N = 14$
-* gegeben: $A_{\textrm{L}} = 1,5nH$
+* gegeben: $A_{\textrm{L}} = \qty{1,5}{\nano\henry}$
 * gesucht: $L$
 
 <fragment>
-$\begin{split} L &= N^2 \cdot A_{\textrm{L}}\\ &= 14^2 \cdot 1,5nH\\ &= 0,294\mu H \end{split}$
+$\begin{split} L &= N^2 \cdot A_{\textrm{L}}\\ &= 14^2 \cdot \qty{1,5}{\nano\henry}\\ &= \qty{0,294}{\micro\henry} \end{split}$
 </fragment>
 
 ---
@@ -107,35 +107,35 @@ $\begin{split} L &= N^2 \cdot A_{\textrm{L}}\\ &= 14^2 \cdot 1,5nH\\ &= 0,294\mu
 ---
 #### Lösungsweg
 * gegeben: $N = 300$
-* gegeben: $A_{\textrm{L}} = 1250nH$
+* gegeben: $A_{\textrm{L}} = \qty{1250}{\nano\henry}$
 * gesucht: $L$
 
 <fragment>
-$\begin{split} L &= N^2 \cdot A_{\textrm{L}}\\ &= 300^2 \cdot 1250nH\\ &= 112,5mH \end{split}$
+$\begin{split} L &= N^2 \cdot A_{\textrm{L}}\\ &= 300^2 \cdot \qty{1250}{\nano\henry}\\ &= \qty{112,5}{\milli\henry} \end{split}$
 </fragment>
 
 ---
 [question:AC207]
 ---
 #### Lösungsweg
-* gegeben: $L = 2mH$
-* gegeben: $A_{\textrm{L}} = 250nH$
+* gegeben: $L = \qty{2}{\milli\henry}$
+* gegeben: $A_{\textrm{L}} = \qty{250}{\nano\henry}$
 * gesucht: $N$
 
 <fragment>
-$\begin{split} L &= N^2 \cdot A_{\textrm{L}}\\ N &= \sqrt{\frac{L}{A_{\textrm{L}}}} = \sqrt{\frac{2mH}{250nH}} \\ &= 89\ \textrm{Windungen} \end{split}$
+$\begin{split} L &= N^2 \cdot A_{\textrm{L}}\\ N &= \sqrt{\frac{L}{A_{\textrm{L}}}} = \sqrt{\frac{\qty{2}{\milli\henry}}{\qty{250}{\nano\henry}}} \\ &= 89\,\text{Windungen} \end{split}$
 </fragment>
 
 ---
 [question:AC208]
 ---
 #### Lösungsweg
-* gegeben: $L = 12\mu H$
-* gegeben: $A_{\textrm{L}} = 30nH$
+* gegeben: $L = \qty{12}{\micro\henry}$
+* gegeben: $A_{\textrm{L}} = \qty{30}{\nano\henry}$
 * gesucht: $N$
 
 <fragment>
-$\begin{split} L &= N^2 \cdot A_{\textrm{L}}\\ N &= \sqrt{\frac{L}{A_{\textrm{L}}}} = \sqrt{\frac{12\mu H}{30nH}} \\ &= 20\ \textrm{Windungen} \end{split}$
+$\begin{split} L &= N^2 \cdot A_{\textrm{L}}\\ N &= \sqrt{\frac{L}{A_{\textrm{L}}}} = \sqrt{\frac{\qty{12}{\micro\henry}}{\qty{30}{\nano\henry}}} \\ &= 20\,\text{Windungen} \end{split}$
 </fragment>
 
 ---
@@ -155,7 +155,7 @@ $\begin{split} L &= N^2 \cdot A_{\textrm{L}}\\ N &= \sqrt{\frac{L}{A_{\textrm{L}
 * Kann nicht mit einem Ohm-Meter gemessen werden
 * Spule in der Funktechnik &rarr; *Impedanz*
 * Antennenimpedanz, Eingangs- und Ausgangsimpedanz, Impedanzwandler, …
-* Impedanz Z in Ω
+* Impedanz Z in $\unit{\ohm}$
 
 ---
 <left>
