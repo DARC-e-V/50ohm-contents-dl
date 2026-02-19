@@ -11,7 +11,7 @@
 * Bei höherer Temperatur gibt es mehr freie Elektronen
 * Der Sättigungsstrom steigt mit steigender Temperatur
 * Aber die Beweglichkeit ändert sich
-* Dadurch sinkt die Durchlassspannung (mit ca. $\qty{-2}{\milli\volt\per\degreeCelsius}$)
+* Dadurch sinkt die Durchlassspannung (mit ca. $\qty{-2}{\milli\volt\per\kelvin}$)
 
 ---
 [question:AC403]
