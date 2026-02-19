@@ -46,17 +46,17 @@ oder ü =$ \sqrt \frac {Z_p}{Z_s}$ = $ \frac {N_p}{N_s}$ =  $ \frac {U_p}{U_s}$ 
 <indepth>
  Ableitung der Formel zur Impedanzübertragung:
  $ P_p$ =$ P_s$
-  $U_p$ * $I_p$ = $U_s$ * $I_s$
+  $U_p \cdot I_p = U_s \cdot I_s$
   Für $U$ das Ohmsche Gestz einsetzen: U = I * R;
   $R$ wird durch $Z$ ersetzt
-($I_p$ * $Z_p$) * $I_p$ = ($I_s$ * $Z_s$) * $I_s$
+$(I_p \cdot Z_p) \cdot I_p = (I_s \cdot Z_s) \cdot I_s$
  Das Impedanzverhältmnis auf einer Seite bilden:
  $ \frac {Z_p}{Z_s}$ =$ \frac {{I_s}^2}{{I_p}^2}$ = $ü^2$
   oder
   Für $I$ das Ohmsche Gesetz einsetzen:
   I = $\frac {U}{R}$ 
   $R$ wird durch $Z$ ersetzt
-$ \frac {U_p}{Z_p} * U_p$  = $\frac {U_s}{Z_s} * U_s$
+$ \frac {U_p}{Z_p} \cdot U_p  = \frac {U_s}{Z_s} \cdot U_s$
  Das Impedanzverhältnis auf einer Seite bilden:
  $ \frac {Z_p}{Z_s}$ =$ \frac {{U_p}^2}{{U_s}^2}$ = $ü^2$
 </indepth>

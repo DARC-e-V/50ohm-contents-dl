@@ -9,7 +9,7 @@ MERKE: Kondensatooor, Strom eilt vooor!
 [photo:268:a_I eilt vor:Phasenverschiebung am Kondensator zwischen Spannung und Strom]
 </margin>
 
-[picture:943:a_Blindleistung Kondensator:Das Produkt von U * I ergibt die grüne Leistungskurve]
+[picture:943:a_Blindleistung Kondensator:Das Produkt von $U \cdot I$ ergibt die grüne Leistungskurve]
 Die Phasenverschiebung zwischen Spannung und Strom beträgt 90 Grad, wobei der Strom voreilend ist.
 Daraus ergibt sich eine Leistungskurve, die um die Nulllinie symmetrisch schwankt. Der Mittelwert ergibt Null, d.h. es wird keine Wirkleistung aufgenommen.
 Wir sprechen deshalb auch bei einem verlustfreien Kondensator von Blindleistung und Blindwiderstand.
@@ -76,7 +76,7 @@ Formel: $C =\frac{1}{{2\pi \cdot f \cdot X_C}}\\$
 
 [question:AC108]
 Zuerst muss $X_C$ berechnet werden: $X_C = \qty{16}{\volt} / \qty{32}{\milli\ampere} = \qty{0,5}{\kilo\ohm}$
-Danach die Formel für C anwenden: C =$\frac{1}{6,28 * 50 * 500}$
+Danach die Formel für C anwenden: $C = \frac{1}{6,28 \cdot 50 \cdot 500}$
 Im Ergebnis taucht die Zehnerpotenz  $10^{-6}$ auf, die in eine Vorslbe umgewandelt werden muss.
 
 *Kondensatorverluste*

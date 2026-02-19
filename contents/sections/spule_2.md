@@ -30,7 +30,7 @@ Die Ursache ist der Anstieg des induktiven Blindwiderstandes $X_L$.
 [question:AC203]
 (siehe Formelsammlung Seite 236 oben links -  Stichwort: Induktiver Blindwiderstand)
 $X_L$"  links oben.
-$X_L =\omega * L = 2 * \pi * f * L$
+$X_L = \omega \cdot L = 2\pi \cdot f \cdot L$
 Beispielrechnung für die Frage AC 204:
 $X_L = 2\pi \cdot \qty{100}{\mega\hertz} \cdot \qty{3}{\micro\henry}$
 Jetzt werden die Vorsilben in Zehnerpotenzen umgewandelt, damit das Ergebnis in Ohm berechnet werden kann.
@@ -45,7 +45,7 @@ Die Verluste entstehen durch den ohmschen Widerstand des Drahtes und zusätzlich
 Die rote Linie zeigt die Phasenlage des induktiven Blindwiderstandes $X_L$.
 [question:AC202]
 
-[picture:944:a_Blindleistung Spule:Das Produkt von U * I ergibt die grüne Leistungskurve]
+[picture:944:a_Blindleistung Spule:Das Produkt von $U \cdot I$ ergibt die grüne Leistungskurve]
 Die Phasenverschiebung zwischen Spannung und Strom beträgt 90 Grad, wobei der Strom nacheilend ist.
 Daraus ergibt sich eine Leistungskurve, die um die Nulllinie symmetrisch schwankt. Der Mittelwert ergibt Null, d.h. es wird keine Wirkleistung aufgenommen.
 Wir sprechen deshalb auch bei einer verlustfreien Spule von Blindleistung und Blindwiderstand.
@@ -93,7 +93,7 @@ Man wird 90 Windungen aufbringen.
 
 <indepth>
 Wenn sich innerhalb der Spule ein magnetisch leitfähiges Material befindet (z.B. Eisen, Ferrit) dann wird das Magnetfeld verstärkt. Die dann wirksame magnetische Flussdichte B läßt sich mit folgender Formel berechnen:
-$B = \mu_0  *  \mu_r *  \cdot H$
+$B = \mu_0 \cdot \mu_r \cdot H$
 (siehe Formelsammlung Seite 236 oben rechts -  Stichwort: Magnetische Flussdichte)
 Dabei enspricht $\mu_0$ der magnetischen Feldkonstante $\qty{1,2566e-6}{\volt\second\per\ampere\meter}$
 $\mu_r$ steht für die relative Permeabilität des Kernmaterials in der Spule. Für Luft wird der Faktor 1 eingesetzt.
@@ -107,12 +107,12 @@ $\mu_r$ steht für die relative Permeabilität des Kernmaterials in der Spule. F
 *MERKE: Induktivitäät, Strom zu späät!*
    
 Formel Seite 236
-$X_L =\omega * L = 2 * \pi * f * L$
+$X_L =\omega \cdot L = 2\pi \cdot f \cdot L$
 Umgestellt nach L:
 $L =\frac{X_L}{2\pi \cdot f}$
   
 $A_L$ - Wert in $\unit{\nano\henry}$ !!!
-L = $N^2$ * $A_L$
+$L = N^2 \cdot A_L$
 Umgestellt nach N:  
 $N = \sqrt \frac{L}{A_L}$
 Hohe Spulenverluste = niedrige Güte = großer tan "delta" = großer ESR  
@@ -124,11 +124,11 @@ Hohe Spulenverluste = niedrige Güte = großer tan "delta" = großer ESR
 |Impedanz = besteht aus Wirkwiderstand und Blindwiderstand = Scheinwiderstand in Ohm|
 |*MERKE: Induktivitäät, Strom zu späät!*|  
 |Formel Seite 236|
-|$X_L =\omega * L = 2 * \pi * f * L$|
+|$X_L =\omega \cdot L = 2\pi \cdot f \cdot L$|
 Umgestellt nach L:|
 $L =\frac{X_L}{2\pi \cdot f}$| 
 |$A_L$ - Wert in $\unit{\nano\henry}$ !!!|
-|L = $N^2$ * $A_L$|
+|$L = N^2 \cdot A_L$|
 |Umgestellt nach N:|  
 |$N = \sqrt \frac{L}{A_L}$|
 |Hohe Spulenverluste = niedrige Güte = großer tan "delta" = großer ESR|    
