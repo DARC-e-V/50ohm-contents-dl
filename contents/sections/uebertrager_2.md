@@ -34,7 +34,7 @@ Sie soll an einen Sender für $\qty{50}{\ohm}$ Lastimpedanz angepasst werden sol
 
 Die Berechnung der Impedanzübertragung läßt sich aus den TRAFO-Grundformeln ermitteln.
 Die Formel für die Impedanzübertragung lautet:
-$ \frac {Z_p}{Z_s} = ü^2 =( \frac {N_p}{N_s})^2 = ( \frac {U_p}{U_s})^2$
+$ \frac {Z_p}{Z_s} = ü^2 = \left(\frac{N_p}{N_s}\right)^2 = \left(\frac{U_p}{U_s}\right)^2$
 Merke: Das Impedanzverhältnis ist das Quadrat des Spannungsverhältnisses und damit auch das Quadrat des Windungszahlenverhältnisses.
 
 oder $ü = \sqrt{\frac {Z_p}{Z_s}} = \frac {N_p}{N_s} = \frac {U_p}{U_s} = \frac {I_s}{I_p}$
@@ -85,7 +85,7 @@ AC 306: Verhältnis 1 : 7
  Querschnittsfläche $A = d^2 \cdot \frac{\pi}{4}$ 
 Stromdichte $S = \frac{I}{A} $ 
   
-$ \frac {Z_p}{Z_s} = ü^2 =( \frac{N_p}{N_s})^2 = ( \frac{U_p}{U_s})^2$
+$ \frac{Z_p}{Z_s} = ü^2 = \left(\frac{N_p}{N_s}\right)^2 = \left(\frac{U_p}{U_s}\right)^2$
 $ü = \sqrt{\frac{Z_p}{Z_s}} = \frac{N_p}{N_s} = \frac{U_p}{U_s} = \frac{I_s}{I_p}$
   
 </margin>
