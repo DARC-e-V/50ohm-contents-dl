@@ -37,7 +37,7 @@ Die Formel für die Impedanzübertragung lautet:
 $ \frac {Z_p}{Z_s} = ü^2 = \left(\frac{N_p}{N_s}\right)^2 = \left(\frac{U_p}{U_s}\right)^2$
 Merke: Das Impedanzverhältnis ist das Quadrat des Spannungsverhältnisses und damit auch das Quadrat des Windungszahlenverhältnisses.
 
-oder $ü = \sqrt{\frac {Z_p}{Z_s}} = \frac {N_p}{N_s} = \frac {U_p}{U_s} = \frac {I_s}{I_p}$
+oder $ü = \sqrt{\frac{Z_p}{Z_s}} = \frac{N_p}{N_s} = \frac{U_p}{U_s} = \frac{I_s}{I_p}$
 
 
 
@@ -51,14 +51,14 @@ oder $ü = \sqrt{\frac {Z_p}{Z_s}} = \frac {N_p}{N_s} = \frac {U_p}{U_s} = \frac
   $R$ wird durch $Z$ ersetzt
 $(I_p \cdot Z_p) \cdot I_p = (I_s \cdot Z_s) \cdot I_s$
  Das Impedanzverhältnis auf einer Seite bilden:
- $ \frac {Z_p}{Z_s} = \frac {{I_s}^2}{{I_p}^2} = ü^2$
+ $ \frac{Z_p}{Z_s} = \frac{{I_s}^2}{{I_p}^2} = ü^2$
   oder
   Für $I$ das Ohmsche Gesetz einsetzen:
   $I = \frac{U}{R}$
   $R$ wird durch $Z$ ersetzt
-$ \frac {U_p}{Z_p} \cdot U_p  = \frac {U_s}{Z_s} \cdot U_s$
+$ \frac{U_p}{Z_p} \cdot U_p  = \frac{U_s}{Z_s} \cdot U_s$
  Das Impedanzverhältnis auf einer Seite bilden:
- $ \frac {Z_p}{Z_s} = \frac {{U_p}^2}{{U_s}^2} = ü^2$
+ $ \frac{Z_p}{Z_s} = \frac{{U_p}^2}{{U_s}^2} = ü^2$
 </indepth>
 Impedanzübertragung $1 : 49$  bedeutet: $ü^2 =49$  ; daraus die Wurzel ergibt $ü=7$
 % todo BILD: UNUN mit EndFED
