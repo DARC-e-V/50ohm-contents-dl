@@ -75,7 +75,7 @@ Im Folgenden betrachten wir noch ein paar einfache Transistor-Schaltungen.
 
 Der gewünschte Arbeitspunkt wird dadurch eingestellt, dass über $R_1$ ein Basisstrom eingeprägt wird. Der Basisstrom ist um die gegebene Stromverstärkung von 298 kleiner als der Kollektorstrom. Über dem Widerstand fällt die Differenz von Betriebsspannung und Basispotential ab. Das Basispotential ist mit $\qty{0,6}{\volt}$ gegeben. Also rechnen wir:
 
-$R_1 = 298 \cdot \frac{12-0,6}{0,005} \approx \qty{680}{\kilo\ohm}$
+$R_1 = 298 \cdot \frac{\qty{12}{\volt} - \qty{0,6}{\volt}}{\qty{0,005}{\ampere}} \approx \qty{680}{\kilo\ohm}$
 
 Die Schaltung hat allerdings in der Praxis einen gewaltigen Nachteil: die Stromverstärkung eines Bipolartransistors ist nicht besonders gut kontrolliert. Nehmen wir als Beispiel den populären BC547B. Seine Stromverstärkung kann nach Spezifikation zwischen 200 und 450 liegen. Der Kollektorstrom kann also mit dieser Schaltung durchaus um mehr als einen Faktor 2 vom Entwurf abweichen.
 
@@ -111,7 +111,7 @@ Bei dem hier gegebenen Fehlerbild ist $R_2$ stromlos. Die Basis ist über $R_1$ 
 
 In den Gate-Anschluss eines MOSFETs fließt kein Gleichstrom. Daher handelt es sich im einen *unbelasteten* Spannungsteiler und es gilt:
 
-$U_{GS} = \frac{R_2}{R_1 + R_2} \cdot U_B = \frac{1}{11} \cdot \qty{44}{\volt} = \qty{4}{\volt}$
+$U_{GS} = \frac{R_2}{R_1 + R_2} \cdot U_B = \frac{\qty{1}{\kilo\ohm}}{\qty{11}{\kilo\ohm}} \cdot \qty{44}{\volt} = \qty{4}{\volt}$
 
 [question:AC522]
 

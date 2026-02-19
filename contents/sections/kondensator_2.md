@@ -76,8 +76,8 @@ Formel: $C = \frac{1}{2\pi \cdot f \cdot X_C}$
 (Siehe auch das Rechenbeispiel zum Styroflexkondensator)
 
 [question:AC108]
-Zuerst muss $X_C$ berechnet werden: $X_C = \qty{16}{\volt} / \qty{32}{\milli\ampere} = \qty{0,5}{\kilo\ohm}$
-Danach die Formel für C anwenden: $C = \frac{1}{6,28 \cdot 50 \cdot 500}$
+Zuerst muss $X_C$ berechnet werden: $X_C = \qty{16}{\volt} / \qty{32}{\milli\ampere} = \qty{500}{\ohm}$
+Danach die Formel für $C$ anwenden: $C = \frac{1}{6,28 \cdot \qty{50}{\hertz} \cdot \qty{500}{\ohm}}$
 Im Ergebnis taucht die Zehnerpotenz  $10^{-6}$ auf, die in eine Vorslbe umgewandelt werden muss.
 
 *Kondensatorverluste*
