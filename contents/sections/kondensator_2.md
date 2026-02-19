@@ -43,9 +43,9 @@ Die blaue Linie von Abbildung [ref:a_kapazitiver Blindwiderstand] hilft zur Lös
 <tip>
 Kennt man den kapazitiven Blindwiderstand und die Frequenz der Wechselspannung, dann kann auch die Kapazität des Kondensators berechnet werden. 
 Betrachten wir das Beispiel genauer und verwenden die Formel:
-$X_C = \frac{1}{\omega \cdot C} = \frac{1}{{2\pi \cdot f \cdot C}}\\ $
+$X_C = \frac{1}{\omega \cdot C} = \frac{1}{{2\pi \cdot f \cdot C}}$
 umgestellt nach C:
-$C =\frac{1}{{2\pi \cdot f \cdot X_C}}\\$ 
+$C =\frac{1}{{2\pi \cdot f \cdot X_C}}$
 mit eingesetzten Werten aus der Abbildung [ref:a_kapazitiver Blindwiderstand]: 
 
 $X_C = \qty{50}{\ohm} \text{ bei } \qty{2}{\mega\hertz}$
@@ -71,7 +71,7 @@ Bei den folgenden Fragen verwenden sie die gleiche Formel und ändern nur die ei
 [question:AC107]
 
 Berechnung der Kapazität aus $X_C$ und der Frequenz:
-Formel: $C =\frac{1}{{2\pi \cdot f \cdot X_C}}\\$
+Formel: $C = \frac{1}{2\pi \cdot f \cdot X_C}$
 (Siehe auch das Rechenbeispiel zum Styroflexkondensator)
 
 [question:AC108]
@@ -108,9 +108,9 @@ In linear geregelten Netzteilen und in Schaltnetzteilen müssen Elektrolytkonden
 |*Zusammenfassung Kondensator 2*|
 |*MERKE: Kondensatooor, Strom eilt vooor!*|
 |Formel Seite 236| 
-| $X_C = \frac{1}{\omega \cdot C} = \frac{1}{{2\pi \cdot f \cdot C}}\\ $|
+| $X_C = \frac{1}{\omega \cdot C} = \frac{1}{{2\pi \cdot f \cdot C}}$|
 | Umgestellt nach C:|
-| $C =\frac{1}{{2\pi \cdot f \cdot X_C}}\\$|
+| $C =\frac{1}{{2\pi \cdot f \cdot X_C}}$|
 |Hohe Kondensatorverluste bewirken: |
 |niedrige Güte; großer tan "delta"; großer ESR|
 [table:a_Kondensator 2 Zusammenfassung:Zusammenfassung Kondensatorblindwiderstand und Güte]
@@ -119,9 +119,9 @@ In linear geregelten Netzteilen und in Schaltnetzteilen müssen Elektrolytkonden
    *MERKE: Kondensatooor, Strom eilt vooor!*
   
  Formel Seite 236
- $X_C = \frac{1}{\omega \cdot C} = \frac{1}{{2\pi \cdot f \cdot C}}\\ $
+ $X_C = \frac{1}{\omega \cdot C} = \frac{1}{{2\pi \cdot f \cdot C}}$
  Umgestellt nach C:
- $C =\frac{1}{{2\pi \cdot f \cdot X_C}}\\$
+ $C =\frac{1}{{2\pi \cdot f \cdot X_C}}$
  Hohe Kondensatorverluste = niedrige Güte = großer tan "delta" = großer ESR
 
 
