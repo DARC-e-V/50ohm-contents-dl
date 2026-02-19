@@ -16,7 +16,7 @@ Merke: Bei Induktivitäten, Ströme sich verspäten -oder- Induktivitääät, St
 ### Wirkleistung
 
 <left>
-[picture:944:a_Blindleistung Spule:Das Produkt von U &times; I ergibt die grüne Leistungskurve]
+[picture:944:a_Blindleistung Spule:Das Produkt von $U \cdot I$ ergibt die grüne Leistungskurve]
 </left>
 <right>
 * Die grüne Leistungskurve ist das Produkt von Strom und Spannung

@@ -13,7 +13,7 @@ Merke: Kondensatoooor, Strom eilt vooor!
 ---
 ### Wirkleistung
 <left>
-[picture:943:a_Blindleistung Kondensator:Das Produkt von U &times; I ergibt die grüne Leistungskurve]
+[picture:943:a_Blindleistung Kondensator:Das Produkt von $U \cdot I$ ergibt die grüne Leistungskurve]
 </left>
 <right>
 * Die grüne Leistungskurve ist das Produkt von Strom und Spannung

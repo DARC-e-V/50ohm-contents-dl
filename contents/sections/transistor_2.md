@@ -7,13 +7,13 @@ Den Bipolartransistor hatten wir bereits in den Ausbildungsunterlagen zur Klasse
 
 Physikalisch steuert die Basis-Emitter-Spannung $U_{BE}$ den Kollektorstrom $I_C$ und zwar exponentiell. Beim npn-Transistor gilt zum Beispiel:
 
-$I_C = I_S \exp\left(\frac{U_{BE}}{U_T}\right)$
+$I_C = I_S \cdot \exp\left(\frac{U_{BE}}{U_T}\right)$
 
 $I_S$ ist der Sättigungsstrom, der stark von der Bauart des Transistors abhängt. Er ist dem Datenblatt zu entnehmen. $U_T$ ist die sogenannte Temperaturspannung, die bei Raumtemperatur etwa $\qty{26}{\milli\volt}$ beträgt.
 
 Ein Unterschied zum später betrachteten Feldeffekt-Transistor ist, dass beim Bipolartransistor immer auch ein Strom im Eingang (der Basis) fließt, der Basisstrom $I_B$. Auch er ist exponentiell von $U_{BE}$ abhängig, wobei $I_S$ um einen Faktor $B$ kleiner ist als beim Kollektorstrom.
 
-$I_B = \frac{I_S}{B} \exp \left(\frac{U_{BE}}{U_T}\right)$
+$I_B = \frac{I_S}{B} \cdot \exp \left(\frac{U_{BE}}{U_T}\right)$
 
 Der Faktor $B$ ist also der Quotient aus Kollektor- und Basisstrom:
 
