@@ -60,8 +60,9 @@ Bei den folgenden Berechnungen von $X_C$ müssen immer die Zehnerpotenzen beacht
 Die Berechnungsformel lautet: $X_C = \frac{1}{\omega \cdot C} = \frac{1}{{2\pi \cdot f \cdot C}}\\ $
 Folgende Werte müssen eingesetzt werden: $\qty{10}{\pico\farad} = \qty{10e-12}{\hertz}$ und $\qty{100}{\mega\hertz} = \qty{100e6}{\hertz}$
 Berechnen sie schrittweise, wenn sie unsicher sind.
-Beispiel: 6,28 * 10 * 100 = 6280; $10^{-12} * {10^6}$ = $ {10^{-6}}$
-$6280 * 10^{-6} = 0,00628$; 1/0,00628 = 159
+Beispiel:
+
+$\begin{split} 6,28 \cdot 10 \cdot 100 &= 6280 \\ 10^{-12} \cdot 10^6 &= 10^{-6} \\ \num{6280} \cdot 10^{-6} &= \num{0,00628} \\ 1/\num{0,00628} &= \num{159} \end{split}$
 
 Bei den folgenden Fragen verwenden sie die gleiche Formel und ändern nur die eingesetzten Werte.
 [question:AC105]
