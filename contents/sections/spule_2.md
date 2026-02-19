@@ -22,7 +22,7 @@ Bitte nachrechnen!
 [question:AA101]
 
 In der Funktechnik ist vor allem das Verhalten an Wechselspannung wichtig.
-Die Spule zeigt, ähnlich wie ein Kondensator, einen "Wechselstromwiderstand ", dass heißt, obwohl der Spulendraht nur einen sehr kleinen ohmschen Widerstand (Leiterwiderstand) besitzt, fließt bei einem Betrieb an Wechselspannung kein Kurzschlussstrom, sondern ein Strom, der mit steigender Frequenz der Wechselspannung kleiner wird. 
+Die Spule zeigt, ähnlich wie ein Kondensator, einen "Wechselstromwiderstand", dass heißt, obwohl der Spulendraht nur einen sehr kleinen ohmschen Widerstand (Leiterwiderstand) besitzt, fließt bei einem Betrieb an Wechselspannung kein Kurzschlussstrom, sondern ein Strom, der mit steigender Frequenz der Wechselspannung kleiner wird.
 
 % todo Bild Stromkreis mit XL
 
@@ -38,7 +38,7 @@ $X_L = 6,28 \cdot \qty{100e6}{\hertz} \cdot \qty{3e-6}{\henry}$
 Die Zehnerpotenzen  $10^6 \cdot 10^{-6}$ ergeben $1$. Im letzten Schritt werden die verbliebenen Zahlen multipliziert.
 $X_L = 6,28 \cdot \qty{(100 \cdot 3)}{\ohm} = \qty{1884}{\ohm}$
 [question:AC204]
-Mit einem vektoriellen Network Analyzer (VNA) läßt sich die Veränderung des induktiven Blindwiderstandes $X-L$ in Abhängigkeit von der Frequenz darstellen. Wir sprechen auch hier von einem Blindwiderstand, da eine verlustfreie Spule keine Wirkenergie aufnimmt. Sollte eine Spule bei Hochfrequenzanwendungen warm werden, dann besitz sie Verluste, die diese Erwärmung bewirken.
+Mit einem vektoriellen Network Analyzer (VNA) läßt sich die Veränderung des induktiven Blindwiderstandes $X_L$ in Abhängigkeit von der Frequenz darstellen. Wir sprechen auch hier von einem Blindwiderstand, da eine verlustfreie Spule keine Wirkenergie aufnimmt. Sollte eine Spule bei Hochfrequenzanwendungen warm werden, dann besitz sie Verluste, die diese Erwärmung bewirken.
 Die Verluste entstehen durch den ohmschen Widerstand des Drahtes und zusätzlich wirkt auch noch der Skin-Effekt, der den Drahtquerschnitt scheinbar verkleinert.
 % todo BILD XL in Abhängigkeit der Frequenz
 [photo:265:a_XL Verlauf V2:Veränderung des induktiven Blindwiderstandes $X_L$ einer Spule von $\qty{500}{\kilo\hertz}$ bis $\qty{10}{\mega\hertz}$]

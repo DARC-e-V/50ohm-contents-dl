@@ -12,7 +12,7 @@ Erklärung zur Abbildung [ref:a_phasenwinkel_zeit].
 Eine halbe Umdrehung entspricht dann $\qty{180}{\degree}$ und eine Viertelumdrehung ist nach $\qty{90}{\degree}$ vollendet. Mit diesen Werten kann nun die horizontale Achse der Sinusschwingung benannt werden.
 Siehe in der Abbildung [ref:a_phasenwikel_zeit] die zweite horizontale Achse mit der Beschriftung "Drehwinkel".
 3. Einen Winkel kann man auch im sogenannten Bogenmaß angeben.
-Für den vollen Umfang ($\qty{360}{\degree}$) eines Kreises mit dem Radius 1 gilt das Bogenmaß:
+Für den vollen Umfang ($\qty{360}{\degree}$) eines Kreises mit dem Radius $r = 1$ gilt das Bogenmaß:
 $U = 2 \cdot r \cdot \pi = 2 \cdot \pi$
 $\qty{180}{\degree}$ entspricht somit $\pi$. $\qty{90}{\degree}$ entspricht $\frac{\pi}{2}$ und $\qty{45}{\degree}$ entspricht $\frac{\pi}{4}$.
 Siehe in der Abbildung [ref:a_phasenwinkel_zeit] die dritte horizontale Achse mit der Beschriftung "Bogenmaß".

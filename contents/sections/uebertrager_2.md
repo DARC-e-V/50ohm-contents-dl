@@ -60,7 +60,7 @@ $ \frac {U_p}{Z_p} \cdot U_p  = \frac {U_s}{Z_s} \cdot U_s$
  Das Impedanzverhältnis auf einer Seite bilden:
  $ \frac {Z_p}{Z_s} = \frac {{U_p}^2}{{U_s}^2} = ü^2$
 </indepth>
-Impedanzübertragung 1 : 49  bedeutet: $ü^2 =49$  ; daraus die Wurzel ergibt $ü=7$
+Impedanzübertragung $1 : 49$  bedeutet: $ü^2 =49$  ; daraus die Wurzel ergibt $ü=7$
 % todo BILD: UNUN mit EndFED
 Beispielrechnung Q1038:
 
@@ -77,8 +77,8 @@ Lösungshilfe:
 AC 302: $\qty{30}{\milli\ampere}$
 AC 303: $\qty{1}{\kilo\ohm}$
 AC 304: $\qty{0,4}{\kilo\ohm}$
-AC 305: Verhältnis 3 : 1
-AC 306: Verhältnis 1 : 7
+AC 305: Verhältnis $3 : 1$
+AC 306: Verhältnis $1 : 7$
 
  *Zusammenfassung*:
  Formelsammlung auf Seite 234
