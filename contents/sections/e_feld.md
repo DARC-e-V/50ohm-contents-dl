@@ -61,7 +61,7 @@ $U_d =E_d \cdot d$
 
 Hier rechnen wir mit der Formel von oben (Achtung auf die Einheiten aufpassen!):
 
-$U_d = \qty{400}{\kilo\volt\per\centi\meter} \cdot \qty{0,15}{\milli\meter} = \qty{40000000}{\volt\per\meter} \cdot \qty{0,00015}{m} = \qty{6000}{\volt} = \qty{6}{\kilo\volt}$
+$\begin{split} U_d &= \qty{400}{\kilo\volt\per\centi\meter} \cdot \qty{0,15}{\milli\meter} \\ &= \qty{40000000}{\volt\per\meter} \cdot \qty{0,00015}{m} \\ &= \qty{6000}{\volt} \\ &= \qty{6}{\kilo\volt} \end{split}$
 
 ---
 
