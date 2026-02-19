@@ -15,7 +15,7 @@ Der Diodenstrom ist:
   
 $I_D(T) = I_S(T) \cdot \exp \left( \frac{U_D}{U_T}\right)$
   
-$I_S$ ist der Sättigungsstrom, $U_T = k T/q$ die sogenannte Temperaturspannung. Hier ist k die Boltzmann-Konstante, q die Elementarladung.
+$I_S$ ist der Sättigungsstrom, $U_T = k T/q$ die sogenannte Temperaturspannung. Hier ist $k$ die Boltzmann-Konstante, $q$ die Elementarladung.
   
 Mit steigender Temperatur steigt der Sättigungsstrom und die Exponentialfunktion sinkt. Es überwiegt allerdings die Temperaturabhängigkeit des Sättigungsstroms.
 

@@ -80,7 +80,7 @@ Danach die Formel für C anwenden: C =$\frac{1}{6,28 * 50 * 500}$
 Im Ergebnis taucht die Zehnerpotenz  $10^{-6}$ auf, die in eine Vorslbe umgewandelt werden muss.
 
 *Kondensatorverluste*
-Die vielfältigen Kondensatorarten unterscheiden sich auch hinsichtlich ihrer unerwünschten Verluste bei der Belastung durch Hochfrequenzströme. Die technische Beurteilung geschieht über den Begriff der Güte Q (Quality) und dem sogenannten   tan "delta".
+Die vielfältigen Kondensatorarten unterscheiden sich auch hinsichtlich ihrer unerwünschten Verluste bei der Belastung durch Hochfrequenzströme. Die technische Beurteilung geschieht über den Begriff der Güte $Q$ (Quality) und dem sogenannten   tan "delta".
 
 ---
 [photo:259:a_tan delta:tan "delta" verschiedener Kondensatorarten]

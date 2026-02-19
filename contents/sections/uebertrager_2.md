@@ -1,6 +1,6 @@
 % todo Hinweis: Es gibt nur eine einzige Frage zur Stromdichte.
 Da alle stromführenden Leitungen nicht zu warm werden dürfen, damit die Isolation nicht schmilzt oder der Leiter gar zu glühen anfängt, darf eine maximale Stromstärke bezogen auf den Leiterquerschnitt nicht überschritten werden.
-Bildet man das Verhältnis von Stromstärke bezogen auf den Leiterquerschnitt in $\unit{\milli\meter\square}$, dann erhält man einen Wert für die Stromdichte S.
+Bildet man das Verhältnis von Stromstärke bezogen auf den Leiterquerschnitt in $\unit{\milli\meter\square}$, dann erhält man einen Wert für die Stromdichte $S$.
 Die Berechnungsformel lautet:
 Stromdichte $S = \frac{I}{A} $ in  $\unit{\ampere\per\milli\meter\squared}$
 
@@ -47,15 +47,15 @@ oder ü =$ \sqrt \frac {Z_p}{Z_s}$ = $ \frac {N_p}{N_s}$ =  $ \frac {U_p}{U_s}$ 
  Ableitung der Formel zur Impedanzübertragung:
  $ P_p$ =$ P_s$
   $U_p$ * $I_p$ = $U_s$ * $I_s$
-  Für U das Ohmsche Gestz einsetzen: U = I * R; 
-  R wird durch Z ersetzt
+  Für $U$ das Ohmsche Gestz einsetzen: U = I * R;
+  $R$ wird durch $Z$ ersetzt
 ($I_p$ * $Z_p$) * $I_p$ = ($I_s$ * $Z_s$) * $I_s$
  Das Impedanzverhältmnis auf einer Seite bilden:
  $ \frac {Z_p}{Z_s}$ =$ \frac {{I_s}^2}{{I_p}^2}$ = $ü^2$
   oder
-  Für I das Ohmsche Gesetz einsetzen: 
+  Für $I$ das Ohmsche Gesetz einsetzen:
   I = $\frac {U}{R}$ 
-  R wird durch Z ersetzt
+  $R$ wird durch $Z$ ersetzt
 $ \frac {U_p}{Z_p} * U_p$  = $\frac {U_s}{Z_s} * U_s$
  Das Impedanzverhältnis auf einer Seite bilden:
  $ \frac {Z_p}{Z_s}$ =$ \frac {{U_p}^2}{{U_s}^2}$ = $ü^2$

@@ -34,9 +34,9 @@ Eine Spule besitzt die Induktivität $L$ mit der Einheit $\qty{1}{\volt\second\p
 Mithilfe der Formel und den folgenden qualitativen Zusammenhängen kann man bereits eine Reihe von Prüfungsfragen lösen:
 
 1. Die Induktivität steigt quadratisch mit der Windungszahl. Wenn die Windungszahl verdoppelt wird, dann steigt die Induktivität auf das Vierfache
-2. Wenn die Spule zusammengedrückt wird, dann steigt die Induktivität L
-3. Wenn die Querschnittsfläche vergrößert wird, dann steigt die Induktivität L
-4. Wenn das Magnetfeld in der Spule durch ein geeignetes, magnetisch leitfähiges Material (z.B. Eisen) verstärkt wird, dann steigt die Induktivität L
+2. Wenn die Spule zusammengedrückt wird, dann steigt die Induktivität $L$
+3. Wenn die Querschnittsfläche vergrößert wird, dann steigt die Induktivität $L$
+4. Wenn das Magnetfeld in der Spule durch ein geeignetes, magnetisch leitfähiges Material (z.B. Eisen) verstärkt wird, dann steigt die Induktivität $L$
 
 [question:EC305]
 

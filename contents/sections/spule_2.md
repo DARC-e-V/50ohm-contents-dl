@@ -1,7 +1,7 @@
 In der Funktechnik spricht man auch von einer Impedanz. Beispiele: Antennenimpedanz bei $\qty{3,6}{\mega\hertz}$, Eingangs- und Ausgangsimpedanz einer Verstärkerstufe, Impedanzwandler
 <indepth>
 [photo:269:a_Widerstandsdreieck R - L:Geometrische Addition von R und $X_L$ und Phasenverschiebung zwischen Z und R]
-Da die Gesamtspannung an Z anliegt und der Strom in Phase mit R zu sehen ist, ergibt sich eine Phasenverschiebung von $\varphi = \qty{45}{\degree}$, wobei I gegenüber U nacheilend ist.
+Da die Gesamtspannung an $Z$ anliegt und der Strom in Phase mit $R$ zu sehen ist, ergibt sich eine Phasenverschiebung von $\varphi = \qty{45}{\degree}$, wobei $I$ gegenüber $U$ nacheilend ist.
 
 </indepth>
 
@@ -10,8 +10,8 @@ Da die Gesamtspannung an Z anliegt und der Strom in Phase mit R zu sehen ist, er
 [photo:271:a_Ferritringkern:Beispiel für einen Ferritkern]  
 </indepth>
 
-Bei einer Reihenschaltung von Blindwiderstand und Wirkwiderstand ergibt sich ein Scheinwiderstand Z, der nur im Betrieb an Wechselspannung auftritt und nicht mit einem Ohm-Meter gemessen werden kann. Er wird auch als Impedanz Z bezeichnet und als Widerstand in Ohm angegeben.
-Merke: Der Begriff Impedanz steht für einen Widerstand, der sich aus einem ohmschen Anteil (R) und einem kapazitiven  ($X_C$) und/oder induktiven Anteil ($X_L$) zusammensetzt. 
+Bei einer Reihenschaltung von Blindwiderstand und Wirkwiderstand ergibt sich ein Scheinwiderstand $Z$, der nur im Betrieb an Wechselspannung auftritt und nicht mit einem Ohm-Meter gemessen werden kann. Er wird auch als Impedanz $Z$ bezeichnet und als Widerstand in Ohm angegeben.
+Merke: Der Begriff Impedanz steht für einen Widerstand, der sich aus einem ohmschen Anteil ($R$) und einem kapazitiven  ($X_C$) und/oder induktiven Anteil ($X_L$) zusammensetzt.
 
 Beispiel: Wirkwiderstand $\qty{100}{\ohm}$ und Blindwiderstand $\qty{100}{\ohm}$ in Reihenschaltung ergeben einen Scheinwiderstand (Impedanz) von $\qty{141}{\ohm}$.
 Das Ergebnis entsteht durch geometrische Addition der beiden Widerstände über ein rechtwinliges Dreieck nach dem den Satz des Pythagoras.
@@ -63,7 +63,7 @@ Zur Erhöhung der Induktivität, ohne die Windungszahl drastisch zu steigern,  w
 ---
 
 [question:AC211]
-Eine wichtige Kenngöße einer Spule ist die Induktivität L. Sie gibt an, welche Selbstinduktionsspannung die Spule erzeugen kann und dadurch den fließenden Strom, im Einschalt- und Ausschaltmoment verzögert. Der Formelbuchstabe L wurde zu Ehren des Professors Emil Lenz aus St. Petersburg (1804 - 1864, Verfasser der Lenzschen Regel) gewählt.
+Eine wichtige Kenngöße einer Spule ist die Induktivität $L$. Sie gibt an, welche Selbstinduktionsspannung die Spule erzeugen kann und dadurch den fließenden Strom, im Einschalt- und Ausschaltmoment verzögert. Der Formelbuchstabe $L$ wurde zu Ehren des Professors Emil Lenz aus St. Petersburg (1804 - 1864, Verfasser der Lenzschen Regel) gewählt.
 
 Bei Ringkernspulen wird zur Erleichterung der Induktivitätsberechnung ein sogenannter $A_L$-Wert des Kernmaterials angegeben.
 Die Berechnung der Induktivität lautet dann:
