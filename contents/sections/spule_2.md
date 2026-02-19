@@ -80,11 +80,11 @@ Die letzte Umwandlung ist notwendig, da die Lösung mit dieser Vorsilbe angegebe
 
 Beispielrechnung für die Frage AC 207:
 Berechnungsbeispiel für die Windungszahl einer Ringkernspule:
-$N = \sqrt \frac{L}{A_L}$
-$N = \sqrt \frac{\qty{2}{\milli\henry}}{\qty{250}{\nano\henry}}$
+$N = \sqrt{\frac{L}{A_L}}$
+$N = \sqrt{\frac{\qty{2}{\milli\henry}}{\qty{250}{\nano\henry}}}$
 Wichtig: Umwandlung von $\qty{2}{\milli\henry}$ in $\qty{2000000}{\nano\henry}$, damit sich gleiche Vorsilben kürzen lassen.
-$N = \sqrt \frac{\qty{2000000}{\nano\henry}}{\qty{250}{\nano\henry}}$
-$N = \sqrt {8000}$
+$N = \sqrt{\frac{\qty{2000000}{\nano\henry}}{\qty{250}{\nano\henry}}}$
+$N = \sqrt{8000}$
 $N = 89,4$
 Man wird 90 Windungen aufbringen.
 [question:AC207]
@@ -114,7 +114,7 @@ $L =\frac{X_L}{2\pi \cdot f}$
 $A_L$ - Wert in $\unit{\nano\henry}$ !!!
 $L = N^2 \cdot A_L$
 Umgestellt nach N:  
-$N = \sqrt \frac{L}{A_L}$
+$N = \sqrt{\frac{L}{A_L}}$
 Hohe Spulenverluste = niedrige Güte = großer tan "delta" = großer ESR  
 </summary>
 
@@ -130,7 +130,7 @@ $L =\frac{X_L}{2\pi \cdot f}$|
 |$A_L$ - Wert in $\unit{\nano\henry}$ !!!|
 |$L = N^2 \cdot A_L$|
 |Umgestellt nach N:|  
-|$N = \sqrt \frac{L}{A_L}$|
+|$N = \sqrt{\frac{L}{A_L}}$|
 |Hohe Spulenverluste = niedrige Güte = großer tan "delta" = großer ESR|    
 [table:a_Spule Zusammenfassung:Zusammenfassung zur Spule in Klasse A]
 </margin>
