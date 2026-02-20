@@ -1,6 +1,6 @@
 ## Lecherleitung: Resonanzverhalten
 * Lecherleitung: am Ende offene Zweidrahtleitung
-* Bei $\lambda/4$-Betrieb wird das offene Ende ($\infty\,\Omega$) in einen Kurzschluss ($0\,\Omega$) transformiert
+* Bei $\lambda/4$-Betrieb wird das offene Ende ($\qty{\infty}{\ohm}$) in einen Kurzschluss ($\qty{0}{\ohm}$) transformiert
 * Im Resonanzfall wird die Leitung leitend, obwohl die Drähte nicht verbunden sind
 * Umgekehrt gilt: Eine kurzgeschlossene Leitung wird im Resonanzfall hochohmig
 

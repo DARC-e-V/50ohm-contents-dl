@@ -6,6 +6,6 @@ Je länger eine Yagi-Uda-Antenne gemacht wird, umso höher ist ihr Gewinn. Bei s
 
 [question:AG222]
 
-Eine besondere Bauform der Yagi-Uda-Antenne ist die Kreuzyagi, bei der zwei Antennen 90° um die Strahlungsachse gegeneinander verdreht werden. Die eine Antenne ist dann z. B. horizontal und die andere dann vertikal polarisiert. Ohne weitere Maßnahmen würde im gegebenen Beispiel die direkte Zusammenschaltung der Antennen eine diagonale Polarisation erzeugen (für die man auch eine einzelne Antenne nehmen könnte). Wenn man allerdings die eine Yagi-Uda-Antenne mit einem um 90° phasenverschobenen Signal speist oder, alternativ, die eine Yagi-Uda-Antenne um eine Viertelwellenlänge nach vorne oder hinten verschiebt, dann kann man auf diesem Wege zirkulare Polarisation erzeugen.
+Eine besondere Bauform der Yagi-Uda-Antenne ist die Kreuzyagi, bei der zwei Antennen $\qty{90}{\degree}$ um die Strahlungsachse gegeneinander verdreht werden. Die eine Antenne ist dann z. B. horizontal und die andere dann vertikal polarisiert. Ohne weitere Maßnahmen würde im gegebenen Beispiel die direkte Zusammenschaltung der Antennen eine diagonale Polarisation erzeugen (für die man auch eine einzelne Antenne nehmen könnte). Wenn man allerdings die eine Yagi-Uda-Antenne mit einem um $\qty{90}{\degree}$ phasenverschobenen Signal speist oder, alternativ, die eine Yagi-Uda-Antenne um eine Viertelwellenlänge nach vorne oder hinten verschiebt, dann kann man auf diesem Wege zirkulare Polarisation erzeugen.
 
 [question:AG126]

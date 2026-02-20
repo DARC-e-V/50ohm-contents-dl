@@ -9,9 +9,9 @@
 ---
 ### Lösungsweg
 
-Anstatt direkt die ungefähre Wellenlänge des 10m-Bands zu verwenden, wird hier erst die angegebene Frequenz in die exakte Wellenlänge umgerechnet.
+Anstatt direkt die ungefähre Wellenlänge des $\qty{10}{\meter}$-Bands zu verwenden, wird hier erst die angegebene Frequenz in die exakte Wellenlänge umgerechnet.
 
-$\begin{split} l &= \frac{5}{8}\lambda\\ &= \frac{5}{8} \cdot \dfrac{300}{28,5MHz}\\ &= \frac{5}{8} \cdot 10,53m\\ &= 6,58m\\ \end{split}$
+$\begin{split} l &= \frac{5}{8}\lambda\\ &= \frac{5}{8} \cdot \frac{\qty{300}{\mega\meter\per\second}}{\qty{28,5}{\mega\hertz}}\\ &\approx \frac{5}{8} \cdot \qty{10,53}{\meter}\\ &\approx \qty{6,58}{\meter}\\ \end{split}$
 
 ---
 

@@ -25,7 +25,7 @@ Werden Antennenleitungen einer Mobilfunkanlage parallel und sehr dicht zu andere
 
 ---
 
-Die Bordnetzspannung im Kraftfahrzeug erscheint zunächst ungefährlich, da man beim Berühren der Spannungen von 12 Volt oder 24 Volt keinen Stromschlag bekommen kann. Es muss aber auch bedacht werden, dass eine Fahrzeugbatterie sehr hohe Ströme liefern kann. Im Falle eines Kurzschlusses kann es schnell zu einem Lichtbogen, einem Kabelbrand oder sogar zu einem Fahrzeugbrand kommen. Mit dem *Unterschied zwischen Spannung und Strom* beschäftigen wir uns im Kapitel Spannungsversorgung noch näher. 
+Die Bordnetzspannung im Kraftfahrzeug erscheint zunächst ungefährlich, da man beim Berühren der Spannungen von $\qty{12}{\volt}$ oder $\qty{24}{\volt}$ keinen Stromschlag bekommen kann. Es muss aber auch bedacht werden, dass eine Fahrzeugbatterie sehr hohe Ströme liefern kann. Im Falle eines Kurzschlusses kann es schnell zu einem Lichtbogen, einem Kabelbrand oder sogar zu einem Fahrzeugbrand kommen. Mit dem *Unterschied zwischen Spannung und Strom* beschäftigen wir uns im Kapitel Spannungsversorgung noch näher. 
 
 <margin>
 [photo:76:n_Kabelsicherung:Stromkabel mit Sicherungshalter]

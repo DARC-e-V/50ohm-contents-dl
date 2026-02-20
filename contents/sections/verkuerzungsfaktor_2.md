@@ -1,4 +1,4 @@
-Bei bekanntem Verkürzungsfaktor lässt sich die Antennenlänge eines Halbwellendipols bzw. eines Viertel-Lambda-Schenkels einer Antenne leicht berechnen, in dem man die Hälfte bzw. ein Viertel der Wellenlänge mit dem Verkürzungsfaktor (meist $0,95$) multipliziert.
+Bei bekanntem Verkürzungsfaktor lässt sich die Antennenlänge eines Halbwellendipols bzw. eines Viertel-Lambda-Schenkels einer Antenne leicht berechnen, in dem man die Hälfte bzw. ein Viertel der Wellenlänge mit dem Verkürzungsfaktor (meist $\num{0,95}$) multipliziert.
 
 [question:AG101]
 [question:AG102]
@@ -24,7 +24,7 @@ Bei elektrischen Schleifenantennen gibt es im Gegensatz zum Verkürzungsfaktor e
 
 ---
 
-Bei einer Paralleldrahtleitung befindet sich die elektromagnetische Welle weitgehend zwischen den Leitern und dringt aufgrund des Skineffekts auch nicht tief in das Metall ein, so dass der Verkürzungsfaktor annähernd $1$ entsprechend einer Freiraumausbreitung beträgt.
+Bei einer Paralleldrahtleitung befindet sich die elektromagnetische Welle weitgehend zwischen den Leitern und dringt aufgrund des Skineffekts auch nicht tief in das Metall ein, so dass der Verkürzungsfaktor annähernd $\num{1}$ entsprechend einer Freiraumausbreitung beträgt.
 
 % TODO: Komma in Frage Q1636 nicht richtig dargestellt.
 [question:AG313]

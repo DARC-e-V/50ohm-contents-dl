@@ -14,7 +14,7 @@ Das metallische Außengehäuse des Koaxialsteckers bzw. der Koaxialkupplung wird
 
 ---
 
-Einige im Amateurfunk häufiger anzutreffende Koaxialsteckverbinder müssen für die Prüfung an ihrer Bauform erkannt werden. Daher gehen wir in den nächsten Abschnitten auf folgende 4 Steckverbinder näher ein:
+Einige im Amateurfunk häufiger anzutreffende Koaxialsteckverbinder müssen für die Prüfung an ihrer Bauform erkannt werden. Daher gehen wir in den nächsten Abschnitten auf folgende vier Steckverbinder näher ein:
 * PL
 * N
 * BNC

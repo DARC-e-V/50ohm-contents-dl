@@ -1,4 +1,4 @@
-Wie wir bereits für Klasse E gelernt haben, hat ein horizontaler Dipol, der in der Mitte gespeist wird, ab einer Aufbauhöhe von ungefähr einer Wellenlänge über dem Erdboden etwa den selben Speisewiderstand wie ein Dipol im Freiraum ($73,1 Ohm$).
+Wie wir bereits für Klasse E gelernt haben, hat ein horizontaler Dipol, der in der Mitte gespeist wird, ab einer Aufbauhöhe von ungefähr einer Wellenlänge über dem Erdboden etwa den selben Speisewiderstand wie ein Dipol im Freiraum ($\qty{73,1}{\ohm}$).
 
 % TODO: Automatischer Umbruch nach der Klammer vor der LaTeX-Formelumgebung) wird ermöglicht. Das ist falsch.
 % TODO: Frage wurde schon in E behandelt.

@@ -1,6 +1,6 @@
 Der Wellenwiderstand $Z$ einer Koaxialleitung hängt vom Verhältnis des Innendurchmessers des Außenleiters ($D$) zum Durchmesser des Innenleiters ($d$) sowie des dazwischen befindlichen Dielektrikums ab. Der Formelsammlung entnehmen wir:
 
-$Z = \dfrac{60Ω}{\sqrt{\epsilon_\mathrm{r}}} \cdot \ln{\dfrac{D}{d}}$
+$Z = \dfrac{\qty{60}{\ohm}}{\sqrt{\epsilon_\mathrm{r}}} \cdot \ln{\dfrac{D}{d}}$
 
 Hierbei ist $\ln$ der natürliche Logarithmus und $\epsilon_\mathrm{r}$ die relative Dielektrizitätszahl des Dielektrikums.
 

@@ -34,7 +34,7 @@ Bei vollständig symmetrischen Antennen kann ein sogenannter Spannungsbalun eing
 
 % TODO: Bild Spannungsbalun / Spartransformator
 
-Bei dieser Bauform kommt es neben der gewünschten Symmetrierung zusätzlich zu einer Verdoppelung der Spannung ($ü = 2$) sowie einer entsprechenden Halbierung des Stroms, was einer 1:4 Impedanztransformation entspricht, d. h. an ein 50 Ohm Koaxialkabel ist eine Antenne mit einem Speisewiderstand von möglichst 200 Ohm anzuschließen.
+Bei dieser Bauform kommt es neben der gewünschten Symmetrierung zusätzlich zu einer Verdoppelung der Spannung ($ü = 2$) sowie einer entsprechenden Halbierung des Stroms, was einer 1:4 Impedanztransformation entspricht, d. h. an ein $\qty{50}{\ohm}$ Koaxialkabel ist eine Antenne mit einem Speisewiderstand von möglichst $\qty{200}{\ohm}$ anzuschließen.
 
 [question:AG421]
 [question:AG422]

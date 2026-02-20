@@ -1,4 +1,4 @@
-Die sogenannten *Mikrowellen* haben nichts mit dem Einheitenvorsatz "Mikro-" zu tun, sondern Mikrowellen bezeichnen elektromagnetische Wellen mit Frequenzen zwischen ca. 1 GHz und etwa 300 GHz. Die Wellenlänge von Mikrowellen entspricht also Millimetern bis zu wenigen Dezimetern.
+Die sogenannten *Mikrowellen* haben nichts mit dem Einheitenvorsatz "Mikro-" zu tun, sondern Mikrowellen bezeichnen elektromagnetische Wellen mit Frequenzen zwischen ca. $\qty{1}{\giga\hertz}$ und etwa $\qty{300}{\giga\hertz}$. Die Wellenlänge von Mikrowellen entspricht also Millimetern bis zu wenigen Dezimetern.
 
 <margin>
 [picture:850:e_parabolspiegel_funktion:Funktionsweise eines Parabolspiegels]

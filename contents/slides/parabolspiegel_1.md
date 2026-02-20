@@ -1,6 +1,6 @@
 ## Mikrowellen
 
-* Frequenzen zwischen 1 GHz und 300 GHz
+* Frequenzen zwischen $\qty{1}{\giga\hertz}$ und $\qty{300}{\giga\hertz}$
 * Wellenlänge von Millimetern bis wenigen Dezimetern
 * Können von Metallen reflektiert werden 
 

@@ -4,7 +4,7 @@
 * Wird auch SWR-Messbrücke genannt
 </left>
 <right>
-[photo:144:e_swr_meter_geraet:Ein SWR-Meter zur Messung bis maximal 100 W]
+[photo:144:e_swr_meter_geraet:Ein SWR-Meter zur Messung bis maximal $\qty{100}{\watt}$]
 </right>
 
 ---

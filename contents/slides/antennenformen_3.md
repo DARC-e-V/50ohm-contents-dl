@@ -6,7 +6,7 @@
 
 <right>
 * Eine Halbwellenantenne kann auch an einem Ende gespeist werden
-* Bei einer Drahtlänge von λ/2 (oder Vielfachen) ist der Speisewiderstand hochohmig (ca. 2000–2500 Ω)
+* Bei einer Drahtlänge von λ/2 (oder Vielfachen) ist der Speisewiderstand hochohmig (ca. $\qtyrange{2000}{2500}{\ohm}$)
 * Als Anpassungsmöglichkeit dient der Fuchskreis
 </right>
 ---
@@ -16,7 +16,7 @@
 ### Transformator zur Impedanzanpassung
 
 * Ein Transformator mit einem Übersetzungsverhältnis von 1:7 bewirkt eine 1:49-Impedanztransformation, da das Windungsverhältnis im Quadrat eingeht
-* Dabei werden Spannung und Strom um den Faktor 7 multipliziert bzw. dividiert
+* Dabei werden Spannung und Strom um den Faktor $\num{7}$ multipliziert bzw. dividiert
 * Häufig kommt es zu Verwechslungen, wenn statt des Impedanzverhältnisses das reine Windungsverhältnis angegeben wird
 
 ---
@@ -57,9 +57,9 @@
 [picture:311:a_antennenformen_deltaloop:Delta-Loop]
 </left>
 <right>
-* Eine Delta-Loop-Antenne hat bei gleichlangen Schenkeln eine Speiseimpedanz von ca. 100 Ω
-* Durch den Einsatz einer λ/4-Leitung mit einem Wellenwiderstand von 75 Ω wird eine Anpassung auf ca. 50 Ω erreicht
-* Optimal ist der Wellenwiderstand als geometrisches Mittel $(\sqrt{50\Omega \cdot 100\Omega} \approx 70,7\Omega)$
+* Eine Delta-Loop-Antenne hat bei gleichlangen Schenkeln eine Speiseimpedanz von ca. $\qty{100}{\ohm}$
+* Durch den Einsatz einer λ/4-Leitung mit einem Wellenwiderstand von $\qty{75}{\ohm}$ wird eine Anpassung auf ca. $\qty{50}{\ohm}$ erreicht
+* Optimal ist der Wellenwiderstand als geometrisches Mittel $(\sqrt{\qty{50}{\ohm}\cdot \qty{100}{\ohm}} \approx \qty{70,7}{\ohm})$
 </right>
 ---
 [question:AG117]

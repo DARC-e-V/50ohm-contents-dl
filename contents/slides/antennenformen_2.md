@@ -25,7 +25,7 @@
 
 * Magnetische Ringantenne, da Abstrahlung im Nahfeld über das Magnetfeld erfolgt
 * Ca. $\frac{\lambda}{10}$ Umfang
-* Wirkungsgrad bei 1%-10% im Sendebetrieb
+* Wirkungsgrad bei $\qtyrange{1}{10}{\percent}$ im Sendebetrieb
 * Weniger Störungen bei elektrisch leitfähigen oder dämpfenden Gegenständen im Nahfeld
 
 <note>
@@ -146,7 +146,7 @@
 ## Weitere Antennen für Kurzwelle
 
 * Die *Windom-Antenne* ist eine Mehrbandantenne, die aufgrund zwei unterschiedlich langer Schenkel eine Anpassung für mehrere Frequenzen erlaubt
-* Die *W3DZZ-Antenne* ist ein Dipol für 40m und 80m, deren Enden sich durch Sperrkreise bei 40m verkürzen
+* Die *W3DZZ-Antenne* ist ein Dipol für $\qty{40}{\meter}$ und $\qty{80}{\meter}$, deren Enden sich durch Sperrkreise bei $\qty{40}{\meter}$ verkürzen
 
 ---
 [question:EG106]

@@ -31,7 +31,7 @@ Von den Ganzwellen-Schleifenantennen zu unterscheiden sind die sogenannten *magn
 [question:EG105]
 
 <indepth>
-Obwohl solche magnetischen Ringantennen grundsätzlich auch für den Sendebetrieb geeignet sind, ist es schwierig, einen hohen *Wirkungsgrad* zu erzielen. Wirkungsgrade zwischen 1% und 10% sind bei Magnetantennen im Sendebetrieb üblich. Dennoch können diese Magnetic-Loops gegenüber anderen Antennen Vorteile bieten: Neben dem kompakten Aufbau stören sie sich oft weniger an im Nahfeld befindlichen elektrisch leitfähigen oder dämpfenden Gegenständen, z. B. Mauern oder Dachziegeln bei Montage im Innenraum oder unter einem Hausdach. 
+Obwohl solche magnetischen Ringantennen grundsätzlich auch für den Sendebetrieb geeignet sind, ist es schwierig, einen hohen *Wirkungsgrad* zu erzielen. Wirkungsgrade zwischen $\qty{1}{\percent}$ und $\qty{10}{\percent}$ sind bei Magnetantennen im Sendebetrieb üblich. Dennoch können diese Magnetic-Loops gegenüber anderen Antennen Vorteile bieten: Neben dem kompakten Aufbau stören sie sich oft weniger an im Nahfeld befindlichen elektrisch leitfähigen oder dämpfenden Gegenständen, z. B. Mauern oder Dachziegeln bei Montage im Innenraum oder unter einem Hausdach. 
 </indepth>
 
 ---
@@ -127,6 +127,6 @@ Bei höheren Frequenzen z. B. im UHF-Bereich oder darüber hinaus kommen auch Ho
 [picture:850:e_parabolantenne:Parabolantenne]
 </margin>
 
-Die Sperrtopfantenne besteht aus einem $\lambda / 4$-langen Topf, der als Symmetrierglied bzw. Mantelwellensperre wirkt. Mit diesem Wissen lässt sich die folgende Frage beantworten, denn sowohl ein Sperrtopf als auch eine Kreuz-Yagi-Uda wären ebenso wie Parabolspiegel im 80 m-Band unhandlich groß.
+Die Sperrtopfantenne besteht aus einem $\lambda / 4$-langen Topf, der als Symmetrierglied bzw. Mantelwellensperre wirkt. Mit diesem Wissen lässt sich die folgende Frage beantworten, denn sowohl ein Sperrtopf als auch eine Kreuz-Yagi-Uda wären ebenso wie Parabolspiegel im $\qty{80}{\meter}$-Band unhandlich groß.
 
 [question:EG107]

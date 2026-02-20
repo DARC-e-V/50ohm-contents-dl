@@ -1,6 +1,6 @@
 ## Horizontaler Dipol im Freiraum
 
-* Ein horizontaler, mittengespeister Dipol hat ab ca. 1‑λ Aufbauhöhe über dem Erdboden den gleichen Speisewiderstand wie im Freiraum (73,1 Ω).
+* Ein horizontaler, mittengespeister Dipol hat ab ca. 1‑λ Aufbauhöhe über dem Erdboden den gleichen Speisewiderstand wie im Freiraum ($\qty{73,1}{\ohm}$).
 
 ---
 [question:AG211]

@@ -1,7 +1,7 @@
 Ein einfaches Multimeter ist nicht geeignet, um frequenzabhängige Widerstände zu messen. Stattdessen kann man einen vektoriellen Netzwerkanalysator (VNA) verwenden. Hierbei handelt es sich um ein aktives Messgerät, welches für eine Vielzahl von Frequenzen (einen einstellbaren Frequenzbereich) bestimmt, wie sich Strom und Spannung zu einander Verhalten (Verhältnis der Amplituden und die Phasenverschiebung zwischen Spannung und Strom).
 
 <margin>
-[photo:201:e_vna_tiefpassmessung:Messung eines Tiefpassfilters von 0 MHz bis 100 MHz mit Grenzfrequenz bei 30 MHz]
+[photo:201:e_vna_tiefpassmessung:Messung eines Tiefpassfilters von $\qty{0}{\mega\hertz}$ bis $\qty{100}{\mega\hertz}$ mit Grenzfrequenz bei $\qty{30}{\mega\hertz}$]
 </margin>
 
 ---
@@ -29,6 +29,6 @@ Zur Kalibrierung als auch zum Funktionstest misst man oft die Zustände "offen" 
 [photo:327:e_vna_solt:SOL(T)-Kalibierkit. Von links nach rechts: Load, Open, Closed]
 </margin>
 
-Bei angeschlossenem Leitungsabschluss (z. B. $\qty{50}{\ohm}$ Abschlusswiderstand) sollte der VNA ein SWR von nahe $1$ anzeigen, da keine Leistung reflektiert wird. Ist nichts am Messanschluss angeschlossen oder wird dieser kurzgeschlossen, so ergibt sich ein SWR von nahe unendlich (vollständige Reflexion).
+Bei angeschlossenem Leitungsabschluss (z. B. $\qty{50}{\ohm}$ Abschlusswiderstand) sollte der VNA ein SWR von nahe $\num{1}$ anzeigen, da keine Leistung reflektiert wird. Ist nichts am Messanschluss angeschlossen oder wird dieser kurzgeschlossen, so ergibt sich ein SWR von nahe unendlich (vollständige Reflexion).
 
 [question:EI206]

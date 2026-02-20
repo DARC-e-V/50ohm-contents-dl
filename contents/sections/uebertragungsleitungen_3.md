@@ -19,6 +19,6 @@ Die durch das Dielektrikum reduzierte Ausbreitungsgeschwindigkeit schlägt sich 
 
 $k_\mathrm{v} = \frac{L_\mathrm{G}}{L_\mathrm{E}} = \frac{1}{\sqrt{\epsilon_\mathrm{r}}}$
 
-Hierbei ist $k_\mathrm{v}$ der Verkürzungsfaktor, $L_\mathrm{G}$ die geometrische ("mechanische") Länge, und $L_\mathrm{E}$ die elektrische Länge. Die relative Dielektrizitätszahl $\epsilon_\mathrm{r}$ ist abhängig vom eingesetzten Dielektrikum. Für nicht-geschäumtes Polyethylen (PE) können wir der Formelsammlung eine Dielektrizitätszahl von 2,29 entnehmen.
+Hierbei ist $k_\mathrm{v}$ der Verkürzungsfaktor, $L_\mathrm{G}$ die geometrische ("mechanische") Länge, und $L_\mathrm{E}$ die elektrische Länge. Die relative Dielektrizitätszahl $\epsilon_\mathrm{r}$ ist abhängig vom eingesetzten Dielektrikum. Für nicht-geschäumtes Polyethylen (PE) können wir der Formelsammlung eine Dielektrizitätszahl von $\num{2,29}$ entnehmen.
 
 [question:AG317]

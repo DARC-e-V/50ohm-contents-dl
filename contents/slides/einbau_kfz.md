@@ -34,7 +34,7 @@ Die Verkehrsinformationen kommen natürlich von anderen Funkamateuren, die ggf. 
 [photo:76:n_Kabelsicherung:Stromkabel mit Sicherungshalter]
 </left>
 <right>
-* Bordnetzspannung von 12 V oder 24 V scheint ungefährlich
+* Bordnetzspannung von $\qty{12}{\volt}$ oder $\qty{24}{\volt}$ scheint ungefährlich
 * Hohe Ströme sind möglich
 * Bei Kurzschluss sind Lichtbogen, Kabelbrand oder Fahrzeugbrand möglich
 * Sicherung des richtigen Werts für das Funkgerät verbauen

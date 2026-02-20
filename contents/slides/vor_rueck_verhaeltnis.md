@@ -36,12 +36,12 @@
 
 ---
 #### Lösungsweg
-* gegeben: $P_R = 0,6W$
-* gegeben: $P_V = 15W$
+* gegeben: $P_R = \qty{0,6}{\watt}$
+* gegeben: $P_V = \qty{15}{\watt}$
 * gesucht: $\frac{Vor}{Rück}$
 
 <fragment>
-$\begin{split}\frac{Vor}{Rück} &= 10 \cdot \log_{10}{(\frac{P_V}{P_R})} dB\\ &= 10 \cdot \log_{10}{(\frac{15W}{0,6W})} dB\\ &= 14dB\end{split}$
+$\begin{split}\frac{Vor}{Rück} &= 10 \cdot \log_{10}{\left(\frac{P_V}{P_R}\right)} \unit{\dB}\\ &= 10 \cdot \log_{10}{\left(\frac{\qty{15}{\watt}}{\qty{0,6}{\watt}}\right)} \unit{\dB}\\ &= \qty{14}{\dB}\end{split}$
 </fragment>
 
 ---
@@ -51,22 +51,22 @@ $\begin{split}\frac{Vor}{Rück} &= 10 \cdot \log_{10}{(\frac{P_V}{P_R})} dB\\ &=
 --- style="font-size: smaller;"
 #### Lösungsweg
 <left>
-* gegeben: $g_D= 10dB$
-* gegeben: $\frac{Vor}{Rück} = 20dB$
+* gegeben: $g_D= \qty{10}{\dB}$
+* gegeben: $\frac{Vor}{Rück} = \qty{20}{\dB}$
 </left>
 <right>
-* gegeben: $P_S = 100W$
+* gegeben: $P_S = \qty{100}{\watt}$
 * gesucht: $P_R$
 </right>
 
 <left>
 <fragment>
-$\begin{split}P_V &= P_{ERP}\\ &= P_S \cdot 10^{\frac{g_d}{10dB}}\\ &= 100W \cdot 10^{\frac{10dB}{10dB}}\\ &= 1000W\end{split}$
+$\begin{split}P_V &= P_{ERP}\\ &= P_S \cdot 10^{\frac{g_d}{\qty{10}{\dB}}}\\ &= \qty{100}{\watt} \cdot 10^{\frac{\qty{10}{\dB}}{\qty{10}{\dB}}}\\ &= \qty{1000}{\watt}\end{split}$
 </fragment>
 </left>
 <right>
 <fragment>
-$\begin{split}20dB &= 10 \cdot \log_{10}{(\frac{P_V}{P_R})} dB\\ \Rightarrow \frac{P_V}{P_R} &= 10^{\frac{20dB}{10}}\\ &= 100\\ \Rightarrow P_R &= \frac{P_V}{100}\\ &= \frac{1000W}{100}\\ &= 10W\end{split}$
+$\begin{split}\qty{20}{\dB} &= 10 \cdot \log_{10}{\left(\frac{P_V}{P_R}\right)} \unit{\dB}\\ \Rightarrow \frac{P_V}{P_R} &= 10^{\frac{\qty{20}{\dB}}{\qty{10}{\dB}}}\\ &= 100\\ \Rightarrow P_R &= \frac{P_V}{100}\\ &= \frac{\qty{1000}{\watt}}{100}\\ &= \qty{10}{\watt}\end{split}$
 </fragment>
 </right>
 ---
@@ -76,22 +76,22 @@ $\begin{split}20dB &= 10 \cdot \log_{10}{(\frac{P_V}{P_R})} dB\\ \Rightarrow \fr
 --- style="font-size: smaller;"
 #### Lösungsweg
 <left>
-* gegeben: $g_D= 15dB$
-* gegeben: $\frac{Vor}{Rück} = 25dB$
+* gegeben: $g_D= \qty{15}{\dB}$
+* gegeben: $\frac{Vor}{Rück} = \qty{25}{\dB}$
 </left>
 <right>
-* gegeben: $P_S = 6W$
+* gegeben: $P_S = \qty{6}{\watt}$
 * gesucht: $P_R$
 </right>
 
 <left>
 <fragment>
-$\begin{split}P_V &= P_{ERP}\\ &= P_S \cdot 10^{\frac{g_d}{10dB}}\\ &= 6W \cdot 10^{\frac{15dB}{10dB}}\\ &= 189,7W\end{split}$
+$\begin{split}P_V &= P_{ERP}\\ &= P_S \cdot 10^{\frac{g_d}{\qty{10}{\dB}}}\\ &= \qty{6}{\watt} \cdot 10^{\frac{\qty{15}{\dB}}{\qty{10}{\dB}}}\\ &= \qty{189,7}{\watt}\end{split}$
 </fragment>
 </left>
 <right>
 <fragment>
-$\begin{split}25dB &= 10 \cdot \log_{10}{(\frac{P_V}{P_R})} dB\\ \Rightarrow \frac{P_V}{P_R} &= 10^{\frac{25dB}{10}}\\ &= 316,2\\ \Rightarrow P_R &= \frac{P_V}{316,2}\\ &= \frac{189,7W}{316,2}\\ &= 0,6W\end{split}$
+$\begin{split}\qty{25}{\dB} &= 10 \cdot \log_{10}{\left(\frac{P_V}{P_R}\right)} \unit{\dB}\\ \Rightarrow \frac{P_V}{P_R} &= 10^{\frac{\qty{25}{\dB}}{\qty{10}{\dB}}}\\ &= 316,2\\ \Rightarrow P_R &= \frac{P_V}{316,2}\\ &= \frac{\qty{189,7}{\watt}}{316,2}\\ &= \qty{0,6}{\watt}\end{split}$
 </fragment>
 </right>
 
@@ -102,21 +102,21 @@ $\begin{split}25dB &= 10 \cdot \log_{10}{(\frac{P_V}{P_R})} dB\\ \Rightarrow \fr
 --- style="font-size: smaller;"
 #### Lösungsweg
 <left>
-* gegeben: $U_V = 300µV/m$
-* gegeben: $U_R = 20µV/m$
+* gegeben: $U_V = \qty{300}{\micro\volt\per\meter}$
+* gegeben: $U_R = \qty{20}{\micro\volt\per\meter}$
 </left>
 <right>
-* gegeben: $U_D = 128µV/m$
+* gegeben: $U_D = \qty{128}{\micro\volt\per\meter}$
 * gesucht: $g_D$, $\frac{Vor}{Rück}$
 </right>
 
 <left>
 <fragment>
-$\begin{split}g_D &= 20 \cdot \log_{10}{(\frac{U_V}{U_D})} dB\\ &= 20 \cdot \log_{10}{(\frac{300µV/m}{128µV/m})}\\ &= 7,4dB\end{split}$
+$\begin{split}g_D &= 20 \cdot \log_{10}{\left(\frac{U_V}{U_D}\right)} \unit{\dB}\\ &= 20 \cdot \log_{10}{\left(\frac{\qty{300}{\micro\volt\per\meter}}{\qty{128}{\micro\volt\per\meter}}\right)}\\ &= \qty{7,4}{\dB}\end{split}$
 </fragment>
 </left>
 <right>
 <fragment>
-$\begin{split}\frac{Vor}{Rück} &= 20 \cdot \log_{10}{(\frac{U_V}{U_R})} dB\\ &= 20 \cdot \log_{10}{(\frac{300µV/m}{20µV/m})}\\ &= 23,5dB\end{split}$
+$\begin{split}\frac{Vor}{Rück} &= 20 \cdot \log_{10}{\left(\frac{U_V}{U_R}\right)} \unit{\dB}\\ &= 20 \cdot \log_{10}{\left(\frac{\qty{300}{\micro\volt\per\meter}}{\qty{20}{\micro\volt\per\meter}}\right)}\\ &= \qty{23,5}{\dB}\end{split}$
 </fragment>
 </right>

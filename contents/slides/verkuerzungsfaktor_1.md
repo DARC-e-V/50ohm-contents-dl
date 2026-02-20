@@ -5,7 +5,7 @@ $\lambda = \dfrac{c}{f}$
 <right>
 * Leitungen und Antennendrähte benötigen einen Korrekturfaktor
 * Den *Verkürzungsfaktor* $k_\mathrm{v}$
-* In etwa 95% zur Vakuumausbreitung
+* In etwa $\qty{95}{\percent}$ zur Vakuumausbreitung
 * $\lambda_\mathrm{Leitung} = k_\mathrm{v} \cdot \dfrac{c}{f}$
 </right>
 <note>
@@ -16,7 +16,7 @@ $\lambda = \dfrac{c}{f}$
 [question:EG201]
 ---
 * Korrekturfaktor hängt von Drahtdurchmesser, Isolierung und Umgebungseinflüssen ab
-* Bei Drahtantennen sind diese für Resonanz um ca. 5% zu kürzen
+* Bei Drahtantennen sind diese für Resonanz um ca. $\qty{5}{\percent}$ zu kürzen
 
 ---
 [question:EG202]

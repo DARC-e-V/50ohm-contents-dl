@@ -10,7 +10,7 @@ Der Begriff *Dipol* kommt aus dem Griechischen und bedeutet soviel wie "Zweipol"
 
 ---
 
-In der Praxis wird häufig der sogenannte Halbwellendipol verwendet, der eine Länge von $\lambda / 2$ aufweist, also einer halben Wellenlänge. Beispiel: Im 10 m-Band beträgt die Wellenlänge rund 10 m. Die halbe Wellenlänge ist demnach 5 m. Ein Halbwellendipol für das 10 m-Band hat also 5 m lang zu sein. Jedes Teilstück muss daher eine Länge von ca. 2,5 m haben. Man spricht dann davon, dass der Halbwellendipol in *Resonanz* ist.
+In der Praxis wird häufig der sogenannte Halbwellendipol verwendet, der eine Länge von $\lambda / 2$ aufweist, also einer halben Wellenlänge. Beispiel: Im $\qty{10}{\meter}$-Band beträgt die Wellenlänge rund $\qty{10}{\meter}$. Die halbe Wellenlänge ist demnach $\qty{5}{\meter}$. Ein Halbwellendipol für das $\qty{10}{\meter}$-Band hat also $\qty{5}{\meter}$ lang zu sein. Jedes Teilstück muss daher eine Länge von ca. $\qty{2,5}{\meter}$ haben. Man spricht dann davon, dass der Halbwellendipol in *Resonanz* ist.
 
 <indepth>
 Es gibt auch andere *Varianten der Dipol-Antenne*, beispielsweise den Ganzwellendipol, den verkürzten Dipol oder den asymmetrisch gespeisten Dipol, bei dem das Antennenkabel nicht in der Mitte angeschlossen wird und die beiden Teile entsprechend unterschiedlich lang sind.

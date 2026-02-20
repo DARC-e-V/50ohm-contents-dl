@@ -27,11 +27,11 @@
 [question:AI403]
 ---
 #### Lösungsweg
-* gegeben: $R_2 = 150Ω$
-* gegeben: $Z = 50Ω$
+* gegeben: $R_2 = \qty{150}{\ohm}$
+* gegeben: $Z = \qty{50}{\ohm}$
 * gesucht: $s$
 
 <fragment>
-$s = \frac{R_2}{Z} = \frac{150Ω}{50Ω} = 3$
+$s = \frac{R_2}{Z} = \frac{\qty{150}{\ohm}}{\qty{50}{\ohm}} = 3$
 </fragment>
 
