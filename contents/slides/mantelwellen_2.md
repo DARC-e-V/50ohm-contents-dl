@@ -53,7 +53,7 @@ Zwischen den Spulenwindungen bildet sich Kapazität, die den Gleichtaktanteil ni
 ---
 ### Einfluss der Erdung bei Antennen
 
-* Gut geerdete Antennen (z. B. Groundplane mit abgestimmten oder vergrabenen Radialen) haben nahezu 0 V am Speisepunkt
+* Gut geerdete Antennen (z. B. Groundplane mit abgestimmten oder vergrabenen Radialen) haben nahezu $\qty{0}{\volt}$ am Speisepunkt
 * Schlecht geerdete Groundplane-Antennen können anfällig für Mantelwellen sein
 
 ---
@@ -83,7 +83,7 @@ Zwischen den Spulenwindungen bildet sich Kapazität, die den Gleichtaktanteil ni
 </left>
 <right>
 * Verdopplung der Spannung ($ü = 2$) und Halbierung des Stroms führen zu einer 1:4 Impedanztransformation
-* An ein 50 Ohm Koaxialkabel wird idealerweise eine Antenne mit ca. 200 Ohm angeschlossen
+* An ein $\qty{50}{\ohm}$ Koaxialkabel wird idealerweise eine Antenne mit ca. $\qty{200}{\ohm}$ angeschlossen
 </right>
 
 ---

@@ -19,10 +19,10 @@
 * Stehwellenverhältnisse
 </left>
 <right>
-[photo:201:e_vna_tiefpassmessung:Messung eines Tiefpassfilters mit Grenzfrequenz bei 30MHz]
+[photo:201:e_vna_tiefpassmessung:Messung eines Tiefpassfilters mit Grenzfrequenz bei $\qty{30}{\mega\hertz}$]
 </right>
 <note>
-* Im Bild wird von 0 bis 100 MHz gemessen und der Durchgang bis ca. 30 MHz ist erkennbar
+* Im Bild wird von $\qtyrange{0}{100}{\mega\hertz}$ gemessen und der Durchgang bis ca. $\qty{30}{\mega\hertz}$ ist erkennbar
 </note>
 ---
 [question:EI201]
@@ -38,7 +38,7 @@
 * Vor der Benutzung kalibrieren
 * Zustand *offen*: unendlicher Widerstand
 * Zustand *Kurzschluss*: Widerstand nahe Null
-* Zustand *angepasst*: z.B. mit 50 Ω Widerstand sollte ein SWR von 1 angezeigt werden
+* Zustand *angepasst*: z.B. mit $\qty{50}{\ohm}$ Widerstand sollte ein SWR von $\num{1}$ angezeigt werden
 
 ---
 [question:EI205]

@@ -1,4 +1,4 @@
-Einsatz: Für Funkgeräte mit kleiner Leistung bis hinauf zum 70 cm-Band und in der Messtechnik
+Einsatz: Für Funkgeräte mit kleiner Leistung bis hinauf zum $\qty{70}{\centi\meter}$-Band und in der Messtechnik
 
 [photo:71:n_koaxsteckverbinder_bnc:BNC-Winkeladapter mit Stecker links und Kupplung rechts]
 

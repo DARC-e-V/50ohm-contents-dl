@@ -4,20 +4,20 @@
 * Formel aus der Formelsammlung mit $\epsilon_\mathrm{r}$ als relative Dielektrizitätszahl:
 
 <fragment>
-$Z = \dfrac{120Ω}{\sqrt{\epsilon_\mathrm{r}}} \cdot \ln{(\dfrac{2 \cdot a}{d})}$
+$Z = \dfrac{\qty{120}{\ohm}}{\sqrt{\epsilon_\mathrm{r}}} \cdot \ln{\left(\dfrac{2 \cdot a}{d}\right)}$
 </fragment>
 
 ---
 [question:AG305]
 ---
 #### Lösungsweg
-* gegeben: $d = 2mm$
-* gegeben: $a = 20cm$
+* gegeben: $d = \qty{2}{\milli\meter}$
+* gegeben: $a = \qty{20}{\centi\meter}$
 * gegeben: $\epsilon_\mathrm{r} \approx 1$ für Luft
 * gesucht: $Z$
 
 <fragment>
-$\begin{split}Z &= \dfrac{120Ω}{\sqrt{\epsilon_\mathrm{r}}} \cdot \ln{(\dfrac{2 \cdot a}{d})}\\ &= \dfrac{120Ω}{\sqrt{1}} \cdot \ln{(\dfrac{2 \cdot 200mm}{2mm})}\\ &\approx 635Ω\end{split}$
+$\begin{split}Z &= \dfrac{\qty{120}{\ohm}}{\sqrt{\epsilon_\mathrm{r}}} \cdot \ln{\left(\dfrac{2 \cdot a}{d}\right)}\\ &= \dfrac{\qty{120}{\ohm}}{\sqrt{1}} \cdot \ln{\left(\dfrac{2 \cdot \qty{200}{\milli\meter}}{\qty{2}{\milli\meter}}\right)}\\ &\approx \qty{635}{\ohm}\end{split}$
 </fragment>
 ---
 ## Wellenwiderstand einer Koaxialleitung
@@ -26,32 +26,32 @@ $\begin{split}Z &= \dfrac{120Ω}{\sqrt{\epsilon_\mathrm{r}}} \cdot \ln{(\dfrac{2
 * Formel aus der Formelsammlung mit $\epsilon_\mathrm{r}$ als relative Dielektrizitätszahl
 
 <fragment>
-$Z = \dfrac{60Ω}{\sqrt{\epsilon_\mathrm{r}}} \cdot \ln{\dfrac{D}{d}}$
+$Z = \dfrac{\qty{60}{\ohm}}{\sqrt{\epsilon_\mathrm{r}}} \cdot \ln{\dfrac{D}{d}}$
 </fragment>
 
 ---
 [question:AG306]
 ----
 #### Lösungsweg
-* gegeben: $D = 5mm$
-* gegeben: $d = 1mm$
+* gegeben: $D = \qty{5}{\milli\meter}$
+* gegeben: $d = \qty{1}{\milli\meter}$
 * gegeben: $\epsilon_\mathrm{r} \approx 1$ für Luft
 * gesucht: $Z$
 
 <fragment>
-$\begin{split}Z &= \dfrac{60Ω}{\sqrt{\epsilon_\mathrm{r}}} \cdot \ln{(\dfrac{D}{d})}\\ &= \dfrac{60Ω}{\sqrt{1}} \cdot \ln{(\dfrac{5mm}{1mm})}\\ &\approx 97Ω\end{split}$
+$\begin{split}Z &= \dfrac{\qty{60}{\ohm}}{\sqrt{\epsilon_\mathrm{r}}} \cdot \ln{\left(\dfrac{D}{d}\right)}\\ &= \dfrac{\qty{60}{\ohm}}{\sqrt{1}} \cdot \ln{\left(\dfrac{\qty{5}{\milli\meter}}{\qty{1}{\milli\meter}}\right)}\\ &\approx \qty{97}{\ohm}\end{split}$
 </fragment>
 ---
 [question:AG307]
 ---
 #### Lösungsweg
-* gegeben: $d = 0,7mm$
-* gegeben: $D = 4,4mm$
+* gegeben: $d = \qty{0,7}{\milli\meter}$
+* gegeben: $D = \qty{4,4}{\milli\meter}$
 * gegeben: $\epsilon_\mathrm{r} = 2,29$
 * gesucht: $Z$
 
 <fragment>
-$\begin{split}Z &= \dfrac{60Ω}{\sqrt{\epsilon_\mathrm{r}}} \cdot \ln{(\dfrac{D}{d})}\\ &= \dfrac{60Ω}{\sqrt{2,29}} \cdot \ln{(\dfrac{4,4mm}{0,7mm})}\\ &\approx 75Ω\end{split}$
+$\begin{split}Z &= \dfrac{\qty{60}{\ohm}}{\sqrt{\epsilon_\mathrm{r}}} \cdot \ln{\left(\dfrac{D}{d}\right)}\\ &= \dfrac{\qty{60}{\ohm}}{\sqrt{2,29}} \cdot \ln{\left(\dfrac{\qty{4,4}{\milli\meter}}{\qty{0,7}{\milli\meter}}\right)}\\ &\approx \qty{75}{\ohm}\end{split}$
 </fragment>
 ---
 ### Anpassung von Koaxialleitungen

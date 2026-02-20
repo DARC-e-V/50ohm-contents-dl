@@ -6,8 +6,8 @@
 
 --- style="font-size: smaller;"
 ### Funktionsweise der $\lambda/2$-Umwegleitung
-* Symmetrische Antenne: Beide Anschlusspunkte benötigen HF-Spannung (betragsgleich, 180° phasenverschoben)
-* Mit der $\lambda/2$-Umwegleitung wird einer der Anschlusspunkte (z. B. beim Faltdipol) über eine 180°-Phasenverschiebung an den Innenleiter angeschlossen
+* Symmetrische Antenne: Beide Anschlusspunkte benötigen HF-Spannung (betragsgleich, $\qty{180}{\degree}$ phasenverschoben)
+* Mit der $\lambda/2$-Umwegleitung wird einer der Anschlusspunkte (z. B. beim Faltdipol) über eine $\qty{180}{\degree}$-Phasenverschiebung an den Innenleiter angeschlossen
 * Der Schirm des Koaxialkabels liegt auf Erdpotential – dadurch entstehen keine Mantelwellen
 * Impedanz beachten: Die Antenne muss das Vierfache der Impedanz des Koaxialkabels aufweisen, da jeder Anschlusspunkt nur den halben Widerstand zeigt
 
@@ -16,7 +16,7 @@
 [picture:562:a_umwegeleitung:Umwegeleitung]
 </left>
 <right>
-Für die beiden folgenden Fragen zur Umwegleitung reicht es sich zu *merken*, dass es sich bei der dargestellten Antenne um einen Faltdipol handelt und eine $\lambda/2$-Umwegleitung eine 180°-Phasenverschiebung erzeugt.
+Für die beiden folgenden Fragen zur Umwegleitung reicht es sich zu *merken*, dass es sich bei der dargestellten Antenne um einen Faltdipol handelt und eine $\lambda/2$-Umwegleitung eine $\qty{180}{\degree}$-Phasenverschiebung erzeugt.
 </right>
 
 ---

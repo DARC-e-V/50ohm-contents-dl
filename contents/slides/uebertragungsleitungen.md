@@ -23,7 +23,7 @@ Umgangssprachlich: "Koaxkabel"
 ## Kabeldämpfung
 * Im Koaxialkabel entsteht Verlust durch Umsetzung von Sendeleistung in Wärme
 * Der Verlust wird *Kabeldämpfung* genannt
-* Messung in Dezibel (dB) je 100&nbsp;m
+* Messung in Dezibel ($\unit{\dB}$) je $\qty{100}{\meter}$
 * Verluste steigen mit zunehmender Länge und Frequenz
 
 ---
@@ -33,20 +33,20 @@ Umgangssprachlich: "Koaxkabel"
 ## Wellenwiderstand
 
 <left>
-* Wird in Ohm (Ω) angegeben
+* Wird in Ohm ($\unit{\ohm}$) angegeben
 * Eigenschaft der Leitung, wie den Aufbau (z.B. Abstand zwischen Innen- und Außenleiter)
 * Länge hat keine Auswirkung
 </left>
 <right>
 <fragment>
-* Antennenanschluss von Amateurfunkgeräten: 50&nbsp;Ω
-* Koaxialkabel im Amateurfunk: 50&nbsp;Ω
-* Fernsehtechnik: 75&nbsp;Ω
-* Selten sind 60&nbsp;Ω anzufinden
+* Antennenanschluss von Amateurfunkgeräten: $\qty{50}{\ohm}$
+* Koaxialkabel im Amateurfunk: $\qty{50}{\ohm}$
+* Fernsehtechnik: $\qty{75}{\ohm}$
+* Selten sind $\qty{60}{\ohm}$ anzufinden
 </fragment>
 </right>
 <note>
-* Es gibt Ausnahmen zu den 50&nbsp;Ω
+* Es gibt Ausnahmen zu den $\qty{50}{\ohm}$
 </note>
 
 ---

@@ -28,7 +28,7 @@ Bild eines Hornstrahlers folgt
 ---
 ## Gewinn eines Parabolspiegels
 
-$g_i = 10 \cdot \log_{10}{(\frac{\pi \cdot d}{\lambda})^2} \cdot \eta\,dB$
+$g_i = 10 \cdot \log_{10}{\left(\left(\frac{\pi \cdot d}{\lambda}\right)^2 \cdot \eta\right)}\unit{\dBi}$
 
 * Berechnung mit der Formel in der Formelsammlung
 * Abhängig vom Durchmesser
@@ -39,74 +39,74 @@ $g_i = 10 \cdot \log_{10}{(\frac{\pi \cdot d}{\lambda})^2} \cdot \eta\,dB$
 ---
 #### Lösungsweg
 <left>
-* gegeben: $d = 30cm$
+* gegeben: $d = \qty{30}{\centi\meter}$
 * gegeben: $\eta_{eff} = 1$
 </left>
 <right>
-* gegeben: $f = 5,7GHz$
+* gegeben: $f = \qty{5,7}{\giga\hertz}$
 * gesucht: $g_i$
 </right>
 
 <fragment>
-$\lambda = \frac{c}{f} = \frac{3\cdot 10^8\frac{m}{s}}{5,7GHz} = 0,053m$
+$\lambda = \frac{c}{f} = \frac{\qty{3\cdot 10^8}{\meter\per\second}}{\qty{5,7}{\giga\hertz}} = \qty{0,053}{\meter}$
 </fragment>
 <fragment>
-$\begin{split}g_i &= 10 \cdot \log_{10}{(\frac{\pi \cdot d}{\lambda})^2} \cdot \eta\,dB\\ &= 10 \cdot \log_{10}{(\frac{\pi \cdot 0,3m}{0,053m})^2} \cdot 1dB\\ &= 25,1dBi\end{split}$
+$\begin{split}g_i &= 10 \cdot \log_{10}{\left(\left(\frac{\pi \cdot d}{\lambda}\right)^2 \cdot \eta\right)}\unit{\dBi}\\ &= 10 \cdot \log_{10}{\left(\left(\frac{\pi \cdot \qty{0,3}{\meter}}{\qty{0,053}{\meter}}\right)^2 \cdot 1\right)} \unit{\dBi}\\ &= \qty{25,1}{\dBi}\end{split}$
 </fragment>
 ---
 [question:AG227]
 ---
 #### Lösungsweg
 <left>
-* gegeben: $d = 80cm$
+* gegeben: $d = \qty{80}{\centi\meter}$
 * gegeben: $\eta_{eff} = 1$
 </left>
 <right>
-* gegeben: $f = 5,7GHz$
+* gegeben: $f = \qty{5,7}{\giga\hertz}$
 * gesucht: $g_i$
 </right>
 
 <fragment>
-$\lambda = \frac{c}{f} = \frac{3\cdot 10^8\frac{m}{s}}{5,7GHz} = 0,053m$
+$\lambda = \frac{c}{f} = \frac{\qty{3\cdot 10^8}{\meter\per\second}}{\qty{5,7}{\giga\hertz}} = \qty{0,053}{\meter}$
 </fragment>
 <fragment>
-$\begin{split}g_i &= 10 \cdot \log_{10}{(\frac{\pi \cdot d}{\lambda})^2} \cdot \eta\,dB\\ &= 10 \cdot \log_{10}{(\frac{\pi \cdot 0,8m}{0,053m})^2} \cdot 1dB\\ &= 33,6dBi\end{split}$
+$\begin{split}g_i &= 10 \cdot \log_{10}{\left(\left(\frac{\pi \cdot d}{\lambda}\right)^2 \cdot \eta\right)}\unit{\dBi}\\ &= 10 \cdot \log_{10}{\left(\left(\frac{\pi \cdot \qty{0,8}{\meter}}{\qty{0,053}{\meter}}\right)^2 \cdot 1\right)}\unit{\dBi}\\ &= \qty{33,6}{\dBi}\end{split}$
 </fragment>
 ---
 [question:AG228]
 ---
 #### Lösungsweg
 <left>
-* gegeben: $d = 80cm$
+* gegeben: $d = \qty{80}{\centi\meter}$
 * gegeben: $\eta_{eff} = 1$
 </left>
 <right>
-* gegeben: $f = 10,4GHz$
+* gegeben: $f = \qty{10,4}{\giga\hertz}$
 * gesucht: $g_i$
 </right>
 
 <fragment>
-$\lambda = \frac{c}{f} = \frac{3\cdot 10^8\frac{m}{s}}{10,4GHz} = 0,029m$
+$\lambda = \frac{c}{f} = \frac{\qty{3\cdot 10^8}{\meter\per\second}}{\qty{10,4}{\giga\hertz}} = \qty{0,029}{\meter}$
 </fragment>
 <fragment>
-$\begin{split}g_i &= 10 \cdot \log_{10}{(\frac{\pi \cdot d}{\lambda})^2} \cdot \eta\,dB\\ &= 10 \cdot \log_{10}{(\frac{\pi \cdot 0,8m}{0,029m})^2} \cdot 1dB\\ &= 38,8dBi\end{split}$
+$\begin{split}g_i &= 10 \cdot \log_{10}{\left(\left(\frac{\pi \cdot d}{\lambda}\right)^2 \cdot \eta\right)}\unit{\dBi}\\ &= 10 \cdot \log_{10}{\left(\left(\frac{\pi \cdot \qty{0,8}{\meter}}{\qty{0,029}{\meter}}\right)^2 \cdot 1\right)}\unit{\dBi}\\ &= \qty{38,8}{\dBi}\end{split}$
 </fragment>
 ---
 [question:AG229]
 ---
 #### Lösungsweg
 <left>
-* gegeben: $d = 120cm$
+* gegeben: $d = \qty{120}{\centi\meter}$
 * gegeben: $\eta_{eff} = 1$
 </left>
 <right>
-* gegeben: $f = 10,4GHz$
+* gegeben: $f = \qty{10,4}{\giga\hertz}$
 * gesucht: $g_i$
 </right>
 
 <fragment>
-$\lambda = \frac{c}{f} = \frac{3\cdot 10^8\frac{m}{s}}{10,4GHz} = 0,029m$
+$\lambda = \frac{c}{f} = \frac{\qty{3\cdot 10^8}{\meter\per\second}}{\qty{10,4}{\giga\hertz}} = \qty{0,029}{\meter}$
 </fragment>
 <fragment>
-$\begin{split}g_i &= 10 \cdot \log_{10}{(\frac{\pi \cdot d}{\lambda})^2} \cdot \eta\,dB\\ &= 10 \cdot \log_{10}{(\frac{\pi \cdot 1,2m}{0,029m})^2} \cdot 1dB\\ &= 42,3dBi\end{split}$
+$\begin{split}g_i &= 10 \cdot \log_{10}{\left(\left(\frac{\pi \cdot d}{\lambda}\right)^2 \cdot \eta\right)}\unit{\dBi}\\ &= 10 \cdot \log_{10}{\left(\left(\frac{\pi \cdot \qty{1,2}{\meter}}{\qty{0,029}{\meter}}\right)^2 \cdot 1\right)}\unit{\dBi}\\ &= \qty{42,3}{\dBi}\end{split}$
 </fragment>

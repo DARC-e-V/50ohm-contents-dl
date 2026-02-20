@@ -5,11 +5,11 @@
 
 ---
 <left>
-* Dämpfung wird in der Regel in Dezibel (dB) angegeben
+* Dämpfung wird in der Regel in Dezibel ($\unit{\dB}$) angegeben
 * Wenn von Dämpfung gesprochen wird, bleibt die Zahl positiv
 </left>
 <right>
-* Faktor zu dB-Umrechnung verwenden
+* Faktor zu $\unit{\dB}$-Umrechnung verwenden
 * Oder in der Formelsammlung nachschlagen
 </right>
 <note>
@@ -37,7 +37,7 @@
 <left>
 * Im Anhang der Formelsammlung
 * Dämpfungen verschiedener Kabel in Abhängigkeit zur Frequenz
-* Bezug auf 100m &ndash; bei kürzeren Kabeln muss umgerechnet werden
+* Bezug auf $\qty{100}{\meter}$ &ndash; bei kürzeren Kabeln muss umgerechnet werden
 </left>
 <right>
 [picture:202:e_kabeldaempfung_diagramm:Kabeldämpfungsdiagramm im Anhang der Formelsammlung]
@@ -51,32 +51,32 @@
 ---
 ### Lösungsweg
 
-* gesucht: Dämpfung für 100m RG58 Kabel bei 145 MHz
+* gesucht: Dämpfung für $\qty{100}{\meter}$ RG58 Kabel bei $\qty{145}{\mega\hertz}$
 * Lösung: Ablesen aus Diagramm
-* Schnittpunkt der RG58 Linie mit 145 MHz &rarr; 20 dB
+* Schnittpunkt der RG58 Linie mit $\qty{145}{\mega\hertz}$ &rarr; $\qty{20}{\dB}$
 
 ---
 [question:EG311]
 ---
 ### Lösungsweg
 
-* gesucht: Dämpfung für 20m bei 20dB Dämpfung auf 100m
+* gesucht: Dämpfung für $\qty{20}{\meter}$ bei $\qty{20}{\dB}$ Dämpfung auf $\qty{100}{\meter}$
 * Lösung: Dreisatz
 
-$\dfrac{20dB}{100m} = \dfrac{x}{20m}$
-$x = \dfrac{20dB\cdot 20m}{100m} = 4dB$
+$\dfrac{\qty{20}{\dB}}{\qty{100}{\meter}} = \dfrac{x}{\qty{20}{\meter}}$
+$x = \dfrac{\qty{20}{\dB}\cdot \qty{20}{\meter}}{\qty{100}{\meter}} = \qty{4}{\dB}$
 
 ---
 [question:EG313]
 ---
 ### Lösungsweg
 
-* gesucht: Dämpfung für 15m RG58 Kabel bei 145 MHz
+* gesucht: Dämpfung für $\qty{15}{\meter}$ RG58 Kabel bei $\qty{145}{\mega\hertz}$
 * Lösung: Ablesen aus Diagramm und Dreisatz
-* Schnittpunkt der RG58 Linie mit 145 MHz &rarr; 20 dB
+* Schnittpunkt der RG58 Linie mit $\qty{145}{\mega\hertz}$ &rarr; $\qty{20}{\dB}$
 
-$\dfrac{20dB}{100m} = \dfrac{x}{15m}$
-$x = \dfrac{20dB\cdot 15m}{100m} = 3dB$
+$\dfrac{\qty{20}{\dB}}{\qty{100}{\meter}} = \dfrac{x}{\qty{15}{\meter}}$
+$x = \dfrac{\qty{20}{\dB}\cdot \qty{15}{\meter}}{\qty{100}{\meter}} = \qty{3}{\dB}$
 
 ---
 [question:EG314]

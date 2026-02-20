@@ -10,8 +10,8 @@
 ## Gewinn in dBi
 
 * Gewinn in eine Richtung gegenüber dem Isotropstrahler
-* Kann in dB angegeben werden
-* Bei Bezug auf den Isotropstrahler wird *dBi* verwendet
+* Kann in $\unit{\dB}$ angegeben werden
+* Bei Bezug auf den Isotropstrahler wird *$\unit{\dBi}$* verwendet
 
 ---
 
@@ -20,15 +20,15 @@
 ---
 ## Gewinn eines Halbwellendipols
 
-* Ein Halbwellendipol strahlt senkrecht zum Leiter um 2,15 dB stärker ab als ein Isotropstrahler
-* Der Gewinn beträgt 2,15 dBi
+* Ein Halbwellendipol strahlt senkrecht zum Leiter um $\qty{2,15}{\dB}$ stärker ab als ein Isotropstrahler
+* Der Gewinn beträgt $\qty{2,15}{\dBi}$
 
 ---
 ## Gewinn in dBd
 
 * Bei anderen Antennen ist der Gewinn gegenüber einem Halbwellendipol interessant
-* Bei Bezug auf den Halbwellendipol wird *dBd* verwendet
-* Ein Halbwellendipol hat in Hauptstrahlrichtung einen Gewinn von 0 dBd und 2,15 dBi
+* Bei Bezug auf den Halbwellendipol wird *$\unit{\dBd}$* verwendet
+* Ein Halbwellendipol hat in Hauptstrahlrichtung einen Gewinn von $\qty{0}{\dBd}$ und $\qty{2,15}{\dBi}$
 
 ---
 [question:EG221]

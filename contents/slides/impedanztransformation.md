@@ -40,23 +40,23 @@
 [question:AG417]
 ---
 #### Lösungsweg
-* gegeben: $Z_A = 60Ω$
-* gegeben: $Z_E = 240Ω$
+* gegeben: $Z_A = \qty{60}{\ohm}$
+* gegeben: $Z_E = \qty{240}{\ohm}$
 * gesucht: $Z$
 
 <fragment>
-$\begin{split}Z &= \sqrt{Z_E \cdot Z_A}\\ &= \sqrt{240Ω \cdot 60Ω}\\ &= 120Ω\end{split}$ 
+$\begin{split}Z &= \sqrt{Z_E \cdot Z_A}\\ &= \sqrt{\qty{240}{\ohm} \cdot \qty{60}{\ohm}}\\ &= \qty{120}{\ohm}\end{split}$ 
 </fragment>
 ---
 [question:AG418]
 ---
 #### Lösungsweg
-* gegeben: $Z_A = 240Ω$
-* gegeben: $Z_E = 600Ω$
+* gegeben: $Z_A = \qty{240}{\ohm}$
+* gegeben: $Z_E = \qty{600}{\ohm}$
 * gesucht: $Z$
 
 <fragment>
-$\begin{split}Z &= \sqrt{Z_E \cdot Z_A}\\ &= \sqrt{600Ω \cdot 240Ω}\\ &= 380Ω\end{split}$ 
+$\begin{split}Z &= \sqrt{Z_E \cdot Z_A}\\ &= \sqrt{\qty{600}{\ohm} \cdot \qty{240}{\ohm}}\\ &= \qty{380}{\ohm}\end{split}$ 
 </fragment>
 ---
 

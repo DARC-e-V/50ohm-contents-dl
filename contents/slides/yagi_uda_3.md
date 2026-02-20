@@ -16,8 +16,8 @@
 ---
 ### Kreuzyagi – Erzeugung zirkularer Polarisation
 
-* Bei der Kreuzyagi werden zwei Yagi‑Uda‑Antennen um 90° zueinander verdreht (z. B. eine horizontal, eine vertikal).
-* Durch Einspeisung eines um 90° phasenverschobenen Signals oder Verschiebung einer Antenne um eine Viertelwellenlänge wird zirkulare Polarisation erzeugt.
+* Bei der Kreuzyagi werden zwei Yagi‑Uda‑Antennen um $\qty{90}{\degree}$ zueinander verdreht (z. B. eine horizontal, eine vertikal).
+* Durch Einspeisung eines um $\qty{90}{\degree}$ phasenverschobenen Signals oder Verschiebung einer Antenne um eine Viertelwellenlänge wird zirkulare Polarisation erzeugt.
 
 ---
 [question:AG126]

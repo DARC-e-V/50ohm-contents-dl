@@ -5,10 +5,10 @@
 
 ---
 
-* Zeitverzögerung in Leitern führt zu einer messbaren Phasenverschiebung (0° bis 360°)  
-* 360° entspricht einer kompletten Schwingungsperiode, d.h. 360° = 0°  
+* Zeitverzögerung in Leitern führt zu einer messbaren Phasenverschiebung ($\qty{0}{\degree}$ bis $\qty{360}{\degree}$)  
+* 360° entspricht einer kompletten Schwingungsperiode, d.h. $\qty{360}{\degree} = \qty{0}{\degree}$  
 * Bei der *elektrischen Länge* eines Koaxialkabels ist der Verkürzungsfaktor bereits einberechnet  
-* Eine Wellenlänge ($\lambda$) entspricht 360°; z. B. entspricht $\lambda/2$ genau $\frac{360\degree}{2} = 180\degree$  
+* Eine Wellenlänge ($\lambda$) entspricht $\qty{360}{\degree}$; z. B. entspricht $\lambda/2$ genau $\frac{\qty{360}{\degree}}{2} = \qty{180}{\degree}$  
 
 ---  
 [question:AG407]

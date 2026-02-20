@@ -3,7 +3,7 @@
 * Antennenlänge hängt vom Verkürzungsfaktor ab  
 * Halbwellendipol: Hälfte der Wellenlänge $\times$ Verkürzungsfaktor  
 * Viertelwellenstrahler: Viertel der Wellenlänge $\times$ Verkürzungsfaktor  
-* Typischer Wert: $0,95$  
+* Typischer Wert: $\num{0,95}$  
 
 ---
 
@@ -12,7 +12,7 @@
 ---
 #### Lösungsweg
 <left>
-* gegeben: $f = 14,2MHz$
+* gegeben: $f = \qty{14,2}{\mega\hertz}$
 * gegeben: $k_v = 0,95$
 </left>
 <right>
@@ -22,12 +22,12 @@
 
 <left>
 <fragment>
-$\begin{split}l_E &= \frac{1}{2} \cdot \frac{\lambda}{2}\\ &= \frac{1}{4} \cdot \frac{c}{f}\\ &= \frac{1}{4} \cdot \frac{3\cdot 10^8\frac{m}{s}}{14,2MHz}\\ &= \frac{1}{4} \cdot 21,13m\\ &= 5,28m\end{split}$
+$\begin{split}l_E &= \frac{1}{2} \cdot \frac{\lambda}{2}\\ &= \frac{1}{4} \cdot \frac{c}{f}\\ &\approx \frac{1}{4} \cdot \frac{\qty{3\cdot 10^8}{\meter\per\second}}{\qty{14,2}{\mega\hertz}}\\ &\approx \frac{1}{4} \cdot \qty{21,13}{\meter}\\ &\approx \qty{5,28}{\meter}\end{split}$
 </fragment>
 </left>
 <right>
 <fragment>
-$\begin{split}k_v &= \frac{l_G}{l_E}\\ \Rightarrow l_G &= k_v \cdot l_E\\ &= 0,95 \cdot 5,28m\\ &= 5,02m\end{split}$
+$\begin{split}k_v &= \frac{l_G}{l_E}\\ \Rightarrow l_G &= k_v \cdot l_E\\ &= 0,95 \cdot \qty{5,28}{\meter}\\ &\approx \qty{5,02}{\meter}\end{split}$
 </fragment>
 </right>
 
@@ -39,7 +39,7 @@ $\begin{split}k_v &= \frac{l_G}{l_E}\\ \Rightarrow l_G &= k_v \cdot l_E\\ &= 0,9
 
 #### Lösungsweg
 <left>
-* gegeben: $f = 7,1MHz$
+* gegeben: $f = \qty{7,1}{\mega\hertz}$
 * gegeben: $k_v = 0,95$
 </left>
 <right>
@@ -49,12 +49,12 @@ $\begin{split}k_v &= \frac{l_G}{l_E}\\ \Rightarrow l_G &= k_v \cdot l_E\\ &= 0,9
 
 <left>
 <fragment>
-$\begin{split}l_E &= \frac{1}{2} \cdot \frac{\lambda}{2}\\ &= \frac{1}{4} \cdot \frac{c}{f}\\ &= \frac{1}{4} \cdot \frac{3\cdot 10^8\frac{m}{s}}{7,1MHz}\\ &= \frac{1}{4} \cdot 42,25m\\ &= 10,56m\end{split}$
+$\begin{split}l_E &= \frac{1}{2} \cdot \frac{\lambda}{2}\\ &= \frac{1}{4} \cdot \frac{c}{f}\\ &\approx \frac{1}{4} \cdot \frac{\qty{3\cdot 10^8}{\meter\per\second}}{\qty{7,1}{\mega\hertz}}\\ &\approx \frac{1}{4} \cdot \qty{42,25}{\meter}\\ &\approx \qty{10,56}{\meter}\end{split}$
 </fragment>
 </left>
 <right>
 <fragment>
-$\begin{split}k_v &= \frac{l_G}{l_E}\\ \Rightarrow l_G &= k_v \cdot l_E\\ &= 0,95 \cdot 10,56m\\ &= 10,04m\end{split}$
+$\begin{split}k_v &= \frac{l_G}{l_E}\\ \Rightarrow l_G &= k_v \cdot l_E\\ &= 0,95 \cdot \qty{10,56}{\meter}\\ &\approx \qty{10,04}{\meter}\end{split}$
 </fragment>
 </right>
 
@@ -65,7 +65,7 @@ $\begin{split}k_v &= \frac{l_G}{l_E}\\ \Rightarrow l_G &= k_v \cdot l_E\\ &= 0,9
 ---
 #### Lösungsweg
 <left>
-* gegeben: $l_G = 20m$
+* gegeben: $l_G = \qty{20}{\meter}$
 * gegeben: $k_v = 0,95$
 </left>
 <right>
@@ -75,12 +75,12 @@ $\begin{split}k_v &= \frac{l_G}{l_E}\\ \Rightarrow l_G &= k_v \cdot l_E\\ &= 0,9
 
 <left>
 <fragment>
-$\begin{split}k_v &= \frac{l_G}{l_E}\\ \Rightarrow l_E &= \frac{l_G}{k_v}\\ &= \frac{20m}{0,95}\\ &= 21,05m\end{split}$
+$\begin{split}k_v &= \frac{l_G}{l_E}\\ \Rightarrow l_E &= \frac{l_G}{k_v}\\ &= \frac{\qty{20}{\meter}}{0,95}\\ &\approx \qty{21,05}{\meter}\end{split}$
 </fragment>
 </left>
 <right>
 <fragment>
-$\begin{split}l_E &= \frac{\lambda}{2}\\ &= \frac{1}{2} \cdot \frac{c}{f}\\ \Rightarrow f &= \frac{1}{2} \cdot \frac{c}{l_E}\\ &= \frac{1}{2} \cdot \frac{3\cdot 10^8\frac{m}{s}}{21,05m}\\&= 7,125MHz\end{split}$
+$\begin{split}l_E &= \frac{\lambda}{2}\\ &= \frac{1}{2} \cdot \frac{c}{f}\\ \Rightarrow f &= \frac{1}{2} \cdot \frac{c}{l_E}\\ &\approx \frac{1}{2} \cdot \frac{\qty{3\cdot 10^8}{\meter\per\second}}{\qty{21,05}{\meter}}\\&\approx \qty{7,125}{\mega\hertz}\end{split}$
 </fragment>
 </right>
 
@@ -92,7 +92,7 @@ $\begin{split}l_E &= \frac{\lambda}{2}\\ &= \frac{1}{2} \cdot \frac{c}{f}\\ \Rig
 
 #### Lösungsweg
 <left>
-* gegeben: $f = 7,1MHz$
+* gegeben: $f = \qty{7,1}{\mega\hertz}$
 * gegeben: $k_v = 0,95$
 </left>
 <right>
@@ -102,12 +102,12 @@ $\begin{split}l_E &= \frac{\lambda}{2}\\ &= \frac{1}{2} \cdot \frac{c}{f}\\ \Rig
 
 <left>
 <fragment>
-$\begin{split}l_E &= \frac{\lambda}{4}\\ &= \frac{1}{4} \cdot \frac{c}{f}\\ &= \frac{1}{4} \cdot \frac{3\cdot 10^8\frac{m}{s}}{7,1MHz}\\ &= \frac{1}{4} \cdot 42,25m\\ &= 10,56m\end{split}$
+$\begin{split}l_E &= \frac{\lambda}{4}\\ &= \frac{1}{4} \cdot \frac{c}{f}\\ &\approx \frac{1}{4} \cdot \frac{\qty{3\cdot 10^8}{\meter\per\second}}{\qty{7,1}{\mega\hertz}}\\ &\approx \frac{1}{4} \cdot \qty{42,25}{\meter}\\ &\approx \qty{10,56}{\meter}\end{split}$
 </fragment>
 </left>
 <right>
 <fragment>
-$\begin{split}k_v &= \frac{l_G}{l_E}\\ \Rightarrow l_G &= k_v \cdot l_E\\ &= 0,95 \cdot 10,56m\\ &= 10,04m\end{split}$
+$\begin{split}k_v &= \frac{l_G}{l_E}\\ \Rightarrow l_G &= k_v \cdot l_E\\ &= 0,95 \cdot \qty{10,56}{\meter}\\ &\approx \qty{10,04}{\meter}\end{split}$
 </fragment>
 </right>
 
@@ -119,7 +119,7 @@ $\begin{split}k_v &= \frac{l_G}{l_E}\\ \Rightarrow l_G &= k_v \cdot l_E\\ &= 0,9
 
 #### Lösungsweg
 <left>
-* gegeben: $f = 14,2MHz$
+* gegeben: $f = \qty{14,2}{\mega\hertz}$
 * gegeben: $k_v = 0,97$
 </left>
 <right>
@@ -129,12 +129,12 @@ $\begin{split}k_v &= \frac{l_G}{l_E}\\ \Rightarrow l_G &= k_v \cdot l_E\\ &= 0,9
 
 <left>
 <fragment>
-$\begin{split}l_E &= \frac{5}{8}\lambda\\ &= \frac{5}{8} \cdot \frac{c}{f}\\ &= \frac{5}{8} \cdot \frac{3\cdot 10^8\frac{m}{s}}{14,2MHz}\\ &= \frac{5}{8} \cdot 21,13\\ &= 13,20m\end{split}$
+$\begin{split}l_E &= \frac{5}{8}\lambda\\ &= \frac{5}{8} \cdot \frac{c}{f}\\ &\approx \frac{5}{8} \cdot \frac{\qty{3\cdot 10^8}{\meter\per\second}}{\qty{14,2}{\mega\hertz}}\\ &\approx \frac{5}{8} \cdot \qty{21,13}{\meter}\\ &\approx \qty{13,20}{\meter}\end{split}$
 </fragment>
 </left>
 <right>
 <fragment>
-$\begin{split}k_v &= \frac{l_G}{l_E}\\ \Rightarrow l_G &= k_v \cdot l_E\\ &= 0,97 \cdot 13,20m\\ &= 12,80m\end{split}$
+$\begin{split}k_v &= \frac{l_G}{l_E}\\ \Rightarrow l_G &= k_v \cdot l_E\\ &= 0,97 \cdot \qty{13,20}{\meter}\\ &\approx \qty{12,80}{\meter}\end{split}$
 </fragment>
 </right>
 
@@ -169,7 +169,7 @@ Ein Verlängerungsfaktor bedeutet <u>nicht</u>, dass sich die Welle mit *Überli
 
 #### Lösungsweg
 <left>
-* gegeben: $f = 7,1MHz$
+* gegeben: $f = \qty{7,1}{\mega\hertz}$
 * gegeben: $k_v = 1,02$
 </left>
 <right>
@@ -179,12 +179,12 @@ Ein Verlängerungsfaktor bedeutet <u>nicht</u>, dass sich die Welle mit *Überli
 
 <left>
 <fragment>
-$\begin{split}l_E &= \lambda\\ &= \frac{c}{f}\\ &= \frac{3\cdot 10^8\frac{m}{s}}{7,1MHz}\\ &= 42,23m\end{split}$
+$\begin{split}l_E &= \lambda\\ &= \frac{c}{f}\\ &= \frac{\qty{3\cdot 10^8}{\meter\per\second}}{\qty{7,1}{\mega\hertz}}\\ &\approx \qty{42,23}{\meter}\end{split}$
 </fragment>
 </left>
 <right>
 <fragment>
-$\begin{split}k_v &= \frac{l_G}{l_E}\\ \Rightarrow l_G &= k_v \cdot l_E\\ &= 1,02 \cdot 42,23m\\ &= 43,10m\end{split}$
+$\begin{split}k_v &= \frac{l_G}{l_E}\\ \Rightarrow l_G &= k_v \cdot l_E\\ &= 1,02 \cdot \qty{42,23}{\meter}\\ &\approx \qty{43,10}{\meter}\end{split}$
 </fragment>
 </right>
 
@@ -224,17 +224,17 @@ $v_\mathrm{k} = \dfrac{1}{\sqrt{\epsilon_\mathrm{r}}}$
 
 ---
 #### Lösungsweg
-* gegeben: $f = 145MHz$
+* gegeben: $f = \qty{145}{\mega\hertz}$
 * gegeben: $k_v = 0,66$
 * gesucht: $l_G$
 
 <left>
 <fragment>
-$\begin{split}l_E &= \lambda\\ &= \frac{c}{f}\\ &= \frac{3\cdot 10^8\frac{m}{s}}{145MHz}\\ &= 2,07m\end{split}$
+$\begin{split}l_E &= \lambda\\ &= \frac{c}{f}\\ &\approx \frac{\qty{3\cdot 10^8}{\meter\per\second}}{\qty{145}{\mega\hertz}}\\ &\approx \qty{2,07}{\meter}\end{split}$
 </fragment>
 </left>
 <right>
 <fragment>
-$\begin{split}k_v &= \frac{l_G}{l_E}\\ \Rightarrow l_G &= k_v \cdot l_E\\ &= 0,66 \cdot 2,07m\\ &= 1,37m\end{split}$
+$\begin{split}k_v &= \frac{l_G}{l_E}\\ \Rightarrow l_G &= k_v \cdot l_E\\ &= 0,66 \cdot \qty{2,07}{\meter}\\ &\approx \qty{1,37}{\meter}\end{split}$
 </fragment>
 </right>

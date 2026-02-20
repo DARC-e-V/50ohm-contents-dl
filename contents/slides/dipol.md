@@ -7,9 +7,9 @@
 <right>
 <fragment>
 Beispiel:
-* Wellenlänge von 10 m
-* halbe Wellenlänge 5 m
-* Jedes Teilstück des Dipols 2,5 m
+* Wellenlänge von $\qty{10}{\meter}$
+* halbe Wellenlänge $\qty{5}{\meter}$
+* Jedes Teilstück des Dipols $\qty{2,5}{\meter}$
 </fragment>
 </right>
 
