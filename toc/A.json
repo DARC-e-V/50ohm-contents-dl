@@ -44,6 +44,13 @@
                     "video_url": null
                 },
                 {
+                    "title": "Tote Zone II",
+                    "ident": "tote_zone_2",
+                    "status": "prod",
+                    "class": "A",
+                    "video_url": null
+                },
+                {
                     "title": "Sprungdistanz II",
                     "ident": "sprungdistanz_2",
                     "status": "prod",
