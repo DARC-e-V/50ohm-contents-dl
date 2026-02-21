@@ -1,14 +1,14 @@
-Bevor wir auf die Strahlungsleistung eingegangen sind, haben wir besprochen, dass der Nachweis der Einhaltung der Personenschutzgrenzwerte erst dann erforderlich ist, wenn eine bestimmte Strahlungsleistung erreicht wird. Da wir jetzt wissen, was EIRP bedeutet, können wir diese jetzt auch beziffern: Für ortsfeste Amateurfunkstellen muss das Nachweisverfahren nur dann durchgeführt werden, wenn die Sendeanlage eine Strahlungsleistung von 10 W EIRP oder höher erreicht.
+Bevor wir auf die Strahlungsleistung eingegangen sind, haben wir besprochen, dass der Nachweis der Einhaltung der Personenschutzgrenzwerte erst dann erforderlich ist, wenn eine bestimmte Strahlungsleistung erreicht wird. Da wir jetzt wissen, was EIRP bedeutet, können wir diese jetzt auch beziffern: Für ortsfeste Amateurfunkstellen muss das Nachweisverfahren nur dann durchgeführt werden, wenn die Sendeanlage eine Strahlungsleistung von $\qty{10}{\watt}$ EIRP oder höher erreicht.
 
 [question:VE508]
 [question:VE507]
 
 ---
 
-% Da für Klasse N die Strahlungsleistung ohnehin auf 10 W EIRP beschränkt ist, spielt das Nachweisverfahren eigentlich erst für Inhaber der Klassen E und A eine praktische Rolle. Da aber der Bereich Vorschriften auch in Klasse N bereits komplett geprüft wird, können wir es in keinem Fall vermeiden, uns mit den folgenden Fragen zum Nachweisverfahren zu beschäftigen.
+% Da für Klasse N die Strahlungsleistung ohnehin auf $\qty{10}{\watt}$ EIRP beschränkt ist, spielt das Nachweisverfahren eigentlich erst für Inhaber der Klassen E und A eine praktische Rolle. Da aber der Bereich Vorschriften auch in Klasse N bereits komplett geprüft wird, können wir es in keinem Fall vermeiden, uns mit den folgenden Fragen zum Nachweisverfahren zu beschäftigen.
 
 <indepth>
-*Spitzfindig* betrachtet muss man darauf hinweisen, dass Funkamateure der Klasse N berechtigt sind, Sendeanlagen mit bis zu 10 W EIRP zu betreiben und der Nachweis der Einhaltung der Personenschutzgrenzwerte bereits ab 10 W EIRP erforderlich ist. Würde man also eine Sendeanlage mit genau 10 W EIRP betreiben, wäre man verpflichtet, den Nachweis gegenüber der Behörde zu führen. In der Praxis sollte man den Maximalwert aber ohnehin nicht ausreizen, sondern zumindest geringfügig darunterbleiben. Dann vermeidet man, die zulässige Strahlungsleistung durch Messfehler oder andere Ungenauigkeiten versehentlich zu überschreiten. Zugleich besteht dann auch keine Pflicht, das Nachweisverfahren durchzuführen.
+*Spitzfindig* betrachtet muss man darauf hinweisen, dass Funkamateure der Klasse N berechtigt sind, Sendeanlagen mit bis zu $\qty{10}{\watt}$ EIRP zu betreiben und der Nachweis der Einhaltung der Personenschutzgrenzwerte bereits ab $\qty{10}{\watt}$ EIRP erforderlich ist. Würde man also eine Sendeanlage mit genau $\qty{10}{\watt}$ EIRP betreiben, wäre man verpflichtet, den Nachweis gegenüber der Behörde zu führen. In der Praxis sollte man den Maximalwert aber ohnehin nicht ausreizen, sondern zumindest geringfügig darunterbleiben. Dann vermeidet man, die zulässige Strahlungsleistung durch Messfehler oder andere Ungenauigkeiten versehentlich zu überschreiten. Zugleich besteht dann auch keine Pflicht, das Nachweisverfahren durchzuführen.
 </indepth>
 
 ---
@@ -17,7 +17,7 @@ Bevor wir auf die Strahlungsleistung eingegangen sind, haben wir besprochen, das
 [photo:79:n_Deckblatt_Anleitung:Deckblatt der Anleitung]
 </margin>
 
-Die Anzeige über die Einhaltung der Personenschutzgrenzwerte für eine Amateurfunkstelle mit mehr als 10 Watt EIRP im Rahmen des Nachweisverfahrens zur Begrenzung elektromagnetischer Felder (BEMFV) ist bereits vor Aufnahme des Betriebs der Amateurfunkanlage bei der zuständigen Außenstelle der BNetzA einzureichen. 
+Die Anzeige über die Einhaltung der Personenschutzgrenzwerte für eine Amateurfunkstelle mit mehr als $\qty{10}{\watt}$ EIRP im Rahmen des Nachweisverfahrens zur Begrenzung elektromagnetischer Felder (BEMFV) ist bereits vor Aufnahme des Betriebs der Amateurfunkanlage bei der zuständigen Außenstelle der BNetzA einzureichen.
 
 <tip>
 Die zuständige Außenstelle kann auf der [Webseite der Bundesnetzagentur](https://50ohm.de/so) ermittelt werden.

@@ -6,11 +6,11 @@
 </left>
 <right>
 * Abhilfe: Einbringen von Ableitwiderständen zwischen Leitern der Antennenzuführund und der Erdung der Amateurfunkstation
-* Hochohmig, z.B. 100 kΩ
+* Hochohmig, z.B. $\qty{100}{\kilo\ohm}$
 * Dadurch wird die Funktion der Funkanlage nicht beeinträchtigt
 </right>
 <note>
-* Die 100kΩ stammen aus dem Rothammel
+* Die $\qty{100}{\kilo\ohm}$ stammen aus dem Rothammel
 </note>
 ---
 [question:EK206]

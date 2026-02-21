@@ -9,9 +9,9 @@
 
 ## Maidenhead-Locator
 
-* Erdoberfläche wird in 18.662.400 Kästchen eingeteilt
-* Ein Kästchen entspricht in Deutschland grob einer Genauigkeit von 5 x 5 km
-* Diese Kästchen werden Subsquare genannt
+* Erdoberfläche wird in $\num{18662400}$ Kästchen eingeteilt
+* Ein Kästchen entspricht in Deutschland grob einer Genauigkeit von $\qty{5}{\kilo\meter}\times\qty{5}{\kilo\meter}$
+* Diese Kästchen werden Subsquares genannt
 * Übergeordnet sind Squares und Fields
 
 <note>
@@ -29,7 +29,7 @@ Es sind die Fields des Squares JO gezeigt
 --- style="font-size: 0.7em;"
 ## Stufen des Maidenhead Locators
 
-| X: Bezeichnung | l: Übersetzung | l: Alternative Bez. | c | c: z.B. |
+| X: Bezeichnung | l: Übersetzung | l: Alternative Bez. | c: | c: z.B. |
 | Field | Feld | Größtfeld | AA-RR | JO |
 | Square | Quadrat | Großfeld | 00-99 | 41 |
 | Subsquare | Unter-Quadrat | Kleinfeld | AA-XX | RG |

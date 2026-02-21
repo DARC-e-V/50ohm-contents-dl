@@ -19,7 +19,7 @@ Bei einer 3-adrigen Leitung mit Schutzleiter z.B. NYM-J 3 x 1,5 mm² sind die Ad
 * Außenleiter (L) = braun  
 
 <indepth>
-Der Verband der Elektrotechnik Elektronik und Informationstechnik e.V. (VDE) ist u.a. Herausgeber von Normen in der Elektrotechnik. In der Norm DIN VDE 0293-308 sind die Aderkennzeichnungen festgelegt. 
+Der Verband der Elektrotechnik Elektronik und Informationstechnik e. V. (VDE) ist u.a. Herausgeber von Normen in der Elektrotechnik. In der Norm DIN VDE 0293-308 sind die Aderkennzeichnungen festgelegt. 
 </indepth>
 
 <margin>

@@ -12,7 +12,7 @@
 ## Abhängigkeit von Antennentyp und Sicherheit
 
 <left>
-[picture:852:a_spannungsbauch_multiband:Eine endgespeiste Halbwellenantenne für das 80-m-Band kann ohne Probleme auch für das 20-m-Band genutzt werden. In diesem Fall bilden sich mehrere Spannungsbäuche aus. Deshalb ist Verletzungsgefahr nicht nur an den Antennenenden besonders hoch, das ist sie auch bei den Spannungsbäuchen dazwischen.]
+[picture:852:a_spannungsbauch_multiband:Eine endgespeiste Halbwellenantenne für das $\qty{80}{\meter}$-Band kann ohne Probleme auch für das $\qty{20}{\meter}$-Band genutzt werden. In diesem Fall bilden sich mehrere Spannungsbäuche aus. Deshalb ist Verletzungsgefahr nicht nur an den Antennenenden besonders hoch, das ist sie auch bei den Spannungsbäuchen dazwischen.]
 </left>
 <right>
 * Der Ort der Spannungsbäuche hängt vom Antennentyp ab (z. B. Monobandantenne, Mehrbandantenne).

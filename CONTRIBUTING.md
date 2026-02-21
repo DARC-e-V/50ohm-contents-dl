@@ -2,17 +2,18 @@
 
 ## Lizenzierung deiner Arbeit an uns
 
-Wenn du einen Pull Request eröffnest, erklärst du dich damit einverstanden, dass deine Beiträge unter der [Projektlizenz](LICENSE) bereitgestellt werden. Außerdem stimmst du zu, uns die notwendigen Rechte an deiner Arbeit einzuräumen, damit diese auch in zukünftigen Druckausgaben verwendet werden kann, insbesondere für den DARC-Verlag.
+Alle Beiträge in diesem Repository stehen unter der [Projektlizenz](LICENSE) und sind von uns und allen anderen unter dieser Lizenz nutzbar. Wenn du hier einen Pull Request eröffnest, versicherst du uns, dass das so bleibt, wenn wir den Pull Request in dieses Repository übernehmen. Der Regelfall, von dem wir ausgehen können, wenn du nichts anderes erwähnst, ist, dass das Material, das durch deinen Pull Request hinzukommt, von dir persönlich stammt, du das Recht hast, es unter die Projektlizenz zu stellen und du das auch tust. Falls Du noch nicht in der Autorenliste in der [README](README.md) stehst, trag dich bitte selbst dort ein (im selben Pull Request). Handelt es sich dagegen um Material von Dritten, das unter der Projektlizenz benutzt werden kann, wirst du uns entsprechende Details im Rahmen des Pull Requests proaktiv mitteilen.
 
-Sollten deine Änderungen in einer gedruckten Ausgabe erscheinen, wirst du in der [Mitwirkendenliste](README.md) in der README aufgeführt.
+Wir nutzen die Projektlizenz zum Beispiel, um das Material dieses Repositorys in Druckausgaben zu verwenden, die über den DARC-Verlag veröffentlicht und vertrieben werden.  Die [Autorenliste](README.md) aus der README wird dann mit abgedruckt.
 
 ## Ein Problem melden
 
-Suche zunächst nach ähnlichen Issues, bevor du ein neues erstellst. Vergewissere dich, dass das von dir gefundene Problem wirklich ein Fehler ist. 
+Suche zunächst nach ähnlichen Issues, bevor du ein neues erstellst. Vergewissere dich, dass das von dir gefundene Problem wirklich ein Fehler ist.
 
 ## Kleine Korrekturen
 
 Errata und grundlegende Klarstellungen werden akzeptiert, sofern wir der Meinung sind, dass sie den Inhalt verbessern.
+
 Du kannst auch ein Issue eröffnen, damit wir besprechen können, wie oder ob das Problem behoben werden sollte.
 
 ## Größere Überarbeitungen
@@ -25,7 +26,7 @@ Im Sinne der Qualitätssicherung sowie zur Einhaltung der Vorgaben des vom DARC 
 
 ## DARCDown und Syntax
 
-Für die Inhalte nutzen wir einen Markdown-Dialekt namens DARCdown, dessen Syntax in diesem [Dokument](README-FORMAT.md) beschrieben wird.  
+Für die Inhalte nutzen wir einen Markdown-Dialekt namens DARCdown, dessen Syntax in diesem [Dokument](README-FORMAT.md) beschrieben wird.
 
 ## VS-Code Plugin
 

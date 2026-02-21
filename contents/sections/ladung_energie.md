@@ -1,7 +1,7 @@
 Die elektrische Ladung (auch *Elektrizitätsmenge* genannt) ist eine grundlegende physikalische Größe. Sie beschreibt eine Eigenschaft von Teilchen und Körpern und ist die Ursache für elektrische und elektromagnetische Wechselwirkungen. Sicher hast du schon auf Akkus oder Batterien eine Angabe wie z.B. $\qty{3000}{\milli\ampere\hour}$ für die elektrische Ladung gelesen. 
 
 <unit>
-Die elektrische Ladung hat das Formelzeichen $Q$ und die Einheit Coulomb ($\unit{coulomb}$).  
+Die elektrische Ladung hat das Formelzeichen $Q$ und die Einheit Coulomb ($\unit{\coulomb}$).  
 Ein Coulomb ist definiert als die Ladungsmenge, die bei einem Strom von $\qty{1}{\ampere}$ innerhalb von $\qty{1}{\second}$ transportiert wird:
 $\qty{1}{\coulomb} = \qty{1}{\ampere} \cdot \qty{1}{\second}$
 </unit>

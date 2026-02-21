@@ -2,7 +2,7 @@ Auch ohne Blitz und Donner können an Antennen unerwünschte Spannungen auftrete
 
 [question:EK206]
 
-Statische Aufladungen können durch Ableitwiderstände zwischen den Leitern der Antennenzuführung und der Erdung der Amateurfunkstation wirksam verhindert werden. Die Widerstände müssen hochohmig sein (z.B. 100 kΩ), um die Funktion der Antenne nicht zu beeinträchtigen.
+Statische Aufladungen können durch Ableitwiderstände zwischen den Leitern der Antennenzuführung und der Erdung der Amateurfunkstation wirksam verhindert werden. Die Widerstände müssen hochohmig sein (z.B. $\qty{100}{\kilo\ohm}$), um die Funktion der Antenne nicht zu beeinträchtigen.
 
 % *** Anmerkung: 100 kΩ nach Rothammel, 1984, Seite 318 ***
 

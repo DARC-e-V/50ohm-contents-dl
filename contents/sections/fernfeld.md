@@ -4,7 +4,7 @@
 
 %$d > \dfrac {\lambda} {2 \cdot \pi}$
 
-%Bei einer Wellenlänge von z.B. $20 \text{ m}$ ist der Übergang also in etwa in einem Abstand von $d = \frac {20 \text{ m}} {2 \cdot \pi} \approx 3,18 \text { m}$.
+%Bei einer Wellenlänge von z.B. $\qty{20}{\meter}$ ist der Übergang also in etwa in einem Abstand von $d = \frac {\qty{20}{\meter}} {2 \cdot \pi} \approx \qty{3,18}{\meter}$.
 
 %Bei Antennen, die geometrisch klein im Verhältnis zu ihrer Wellenlänge sind, kann sich das Fernfeld jedoch auch erst noch später ausbilden.
 
@@ -24,7 +24,7 @@ $d > \dfrac {\lambda} {2 \cdot \pi}$
 
 Die Berechnung mit der Näherungformel erspart einem ggf. aufwendige Messungen oder Simulationen.
 
-Die Formel $d = \dfrac{\sqrt{30 Ω\cdot P_{\textrm{EIRP}}}}{E}$ gilt für die meisten Antennenformen, wenn der berechnete Sicherheitsabstand im strahlenden Nahfeld oder im Fernfeld liegt.
+Die Formel $d = \dfrac{\sqrt{\qty{30}{\ohm}\cdot P_{\textrm{EIRP}}}}{E}$ gilt für die meisten Antennenformen, wenn der berechnete Sicherheitsabstand im strahlenden Nahfeld oder im Fernfeld liegt.
 
 <indepth>
 In den [Erläuterung der Bewertungsverfahren nach BEMFV](https://50ohm.de/bemfv)  hat die BNetzA die Begriffe und Verfahren für die Ermittlung der Sicherheitsabstände erläutert.

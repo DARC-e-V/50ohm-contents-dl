@@ -22,7 +22,7 @@ Bei der nächsten Frage ist unbedingt auf die Rechenzeichen zu achten. Die Verlu
 
 ---
 
-Im Kapitel zu Dezibel haben wir gelernt, dass es sinnvoll ist, mit dB-Werten zu rechnen, da sich viele Berechnungen dadurch deutlich vereinfachen. Verstärkungen und Dämpfungen lassen sich in Dezibel einfach addieren beziehungsweise subtrahieren. Abbildung [ref:e_verstaerkung_daempfung] zeigt eine Funkanlage mit mehreren Verstärkungs- und Dämpfungsgliedern. Die Gesamtverstärkung dieser Anlage ergibt sich durch Addition der einzelnen Beiträge zu $\qty{-2}{\dB} + \qty{6}{\dB} - \qty{3}{\dB} + \qty{2}{\dB} = \qty{3}{\dB}$, was einem Leistungsfaktor von 2 entspricht.
+Im Kapitel zu Dezibel haben wir gelernt, dass es sinnvoll ist, mit dB-Werten zu rechnen, da sich viele Berechnungen dadurch deutlich vereinfachen. Verstärkungen und Dämpfungen lassen sich in Dezibel einfach addieren beziehungsweise subtrahieren. Abbildung [ref:e_verstaerkung_daempfung] zeigt eine Funkanlage mit mehreren Verstärkungs- und Dämpfungsgliedern. Die Gesamtverstärkung dieser Anlage ergibt sich durch Addition der einzelnen Beiträge zu $\qty{-2}{\dB} + \qty{6}{\dB} - \qty{3}{\dB} + \qty{2}{\dB} = \qty{3}{\dB}$, was einem Leistungsfaktor von $\num{2}$ entspricht.
 
 <margin>
 [picture:439:e_verstaerkung_daempfung:Verstärkungen und Dämpfungen in einer Funkanlage]
@@ -68,28 +68,28 @@ $P_\text{EIRP} = P_\text{Sender} \cdot 10^{\frac{g_i-a}{\qty{10}{\dB}}}= \qty{25
 
 ---
 
-Der zweite mögliche Rechenweg nutzt die Tatsache, dass man dB-Werte "zerlegen" kann. In der Frage beträgt der Antennengewinn $g = \qty{26}{dBi}$. In der Formelsammlung findet sich in Tabelle [ref:e_dezibel_leistungsfaktoren] eine Übersicht über Leistungsfaktoren für wichtige dB-Werte. Für $\qty{26}{\dB}$ gibt es dort keinen direkten Eintrag. Da sich Pegel in Dezibel jedoch addieren lassen, kann man den Wert sinnvoll aufteilen:
+Der zweite mögliche Rechenweg nutzt die Tatsache, dass man dB-Werte "zerlegen" kann. In der Frage beträgt der Antennengewinn $g = \qty{26}{\dBi}$. In der Formelsammlung findet sich in Tabelle [ref:e_dezibel_leistungsfaktoren] eine Übersicht über Leistungsfaktoren für wichtige dB-Werte. Für $\qty{26}{\dB}$ gibt es dort keinen direkten Eintrag. Da sich Pegel in Dezibel jedoch addieren lassen, kann man den Wert sinnvoll aufteilen:
 
-$\qty{26}{\dBi} = \qty{20}{\dBi} + \qty{6}{\dBi}$
+$\qty{26}{\dBi} = \qty{20}{\dBi} + \qty{6}{\dB}$
 
 <margin>
 | c:dB | c:≈ Leistungsfaktor |
-| 0 | 1 |
-| 1,5 | $\sqrt{2} = 1,41$ |
-| 2,15 | 1,64 |
-| 3 | 2 |
-| 5 | $\sqrt{10} = 3,16$ |
-| 6 | 4 |
-| 10 | 10 |
-| 20 | 100 |
+| $\num{0}$ | $\num{1}$ |
+| $\num{1,5}$ | $\sqrt{2} = 1,41$ |
+| $\num{2,15}$ | $\num{1,64}$ |
+| $\num{3}$ | $\num{2}$ |
+| $\num{5}$ | $\sqrt{10} = 3,16$ |
+| $\num{6}$ | $\num{4}$ |
+| $\num{10}$ | $\num{10}$ |
+| $\num{20}$ | $\num{100}$ |
 [table:e_dezibel_leistungsfaktoren:Wichtige Leistungsfaktoren in dB]
 </margin>
 
-Für $\qty{20}{\dB}$ ist in der Tabelle ein Leistungsfaktor von 100 angegeben, für $\qty{6}{\dB}$ ein Faktor von 4. Damit lässt sich die äquivalente isotrope Strahlungsleistung sehr einfach berechnen:
+Für $\qty{20}{\dB}$ ist in der Tabelle ein Leistungsfaktor von $\num{100}$ angegeben, für $\qty{6}{\dB}$ ein Faktor von $\num{4}$. Damit lässt sich die äquivalente isotrope Strahlungsleistung sehr einfach berechnen:
 
 $P_\text{EIRP} = \qty{250}{\milli\watt} \cdot 100 \cdot 4 = \qty{100}{\watt}$
 
-Die richtige Antwort ist also 100 W EIRP.
+Die richtige Antwort ist also $\qty{100}{\watt}$ EIRP.
 
 Bei der nächsten Frage können wir genauso vorgehen wie bei der vorhergehenden Frage. 
 
@@ -97,7 +97,7 @@ Bei der nächsten Frage können wir genauso vorgehen wie bei der vorhergehenden 
 
 ---
 
-Für viele Funkamateure ist es schwierig den notwendigen Sicherheitsabstand bei einer Sendeleistung von z.B. $\qty{100}{\watt}$ einzuhalten. Der QRP-Betrieb ist in diesen Fällen eine Lösung. Bleibt man mit der Strahlungsleistung unter der 10-W-EIRP-Grenze, kann die Anzeige einer ortsfesten Amateurfunkanlage nach § 9 BEMFV entfallen. Auch bei einem nicht-QRP-Gerät kann man die Ausgangsleistung auf einen bestimmten Wert reduzieren, wie in Abbildung [ref:e_ausgangsleistung_ic] dargestellt.
+Für viele Funkamateure ist es schwierig den notwendigen Sicherheitsabstand bei einer Sendeleistung von z.B. $\qty{100}{\watt}$ einzuhalten. Der QRP-Betrieb ist in diesen Fällen eine Lösung. Bleibt man mit der Strahlungsleistung unter der $\qty{10}{\watt}$-EIRP-Grenze, kann die Anzeige einer ortsfesten Amateurfunkanlage nach § 9 BEMFV entfallen. Auch bei einem nicht-QRP-Gerät kann man die Ausgangsleistung auf einen bestimmten Wert reduzieren, wie in Abbildung [ref:e_ausgangsleistung_ic] dargestellt.
 
 <margin>
 [photo:229:e_ausgangsleistung_ic:Bei vielen Transeiver lässt sich die Ausgangsleistung stufenlos, oder wie hier beim IC-705 in kleinen Schritten einstellen.]
@@ -105,7 +105,7 @@ Für viele Funkamateure ist es schwierig den notwendigen Sicherheitsabstand bei 
 
 [question:EG511]
 
-Die in dieser Frage angegebene Vertikalantenne hat einen Gewinn von $g=\qty{5,15}{\dBi}$, die Kabelverluste werden vernachlässigt d.h. $a = 0$. Hätte die Antenne keinen Gewinn ($\qty{0}{\dBi}$) müsste die Sendeleistung einfach auf maximal $\qty{10}{\watt}$ beschränkt werden. Die Strahlungsleistung wäre dann nur $\qty{10}{\watt}$ EIRP. Da aber ein Antennengewinn von $\qty{5,15}{\dBi}$ vorhanden ist, muss die Sendeleistung entsprechend abgesenkt werden. Die Sendeleistung muss mindesten $\qty{5,15}{\dBi}$ geringer als $\qty{10}{\watt}$ sein.
+Die in dieser Frage angegebene Vertikalantenne hat einen Gewinn von $g=\qty{5,15}{\dBi}$, die Kabelverluste werden vernachlässigt d.h. $a = 0$. Hätte die Antenne keinen Gewinn ($\qty{0}{\dBi}$) müsste die Sendeleistung einfach auf maximal $\qty{10}{\watt}$ beschränkt werden. Die Strahlungsleistung wäre dann nur $\qty{10}{\watt}$ EIRP. Da aber ein Antennengewinn von $\qty{5,15}{\dBi}$ vorhanden ist, muss die Sendeleistung entsprechend abgesenkt werden. Die Sendeleistung muss mindesten $\qty{5,15}{\dB}$ geringer als $\qty{10}{\watt}$ sein.
 
 Auch hier gibt es wieder zwei mögliche Rechenwege. Beginnen wir mit dem Weg über die bekannte Formel. In dieser Aufgabe ist jedoch nicht die Strahlungsleistung $P_\text{EIRP}$ gesucht, sondern die Sendeleistung $P_\text{Sender}$. Daher müssen wir die Formel entsprechend umstellen:
 
@@ -123,11 +123,11 @@ Die Berechnung mit dem Taschenrechner ergibt $\qty{3,05}{\watt}$. Mit einer Begr
 
 Der Zweite Rechenweg geht wieder über die Zerlegung der dB-Werte. Schaut man sich den Wert $g=\qty{5,15}{\dBi}$ an so erkennt man, dass man diesen Wert in 
 
-$\qty{5,15}{\dBi} = \qty{3}{\dBi} + \qty{2,15}{\dBi}$
+$\qty{5,15}{\dBi} = \qty{3}{\dBi} + \qty{2,15}{\dB}$
 
-zerlegen kann. In der Tabelle [ref:e_dezibel_leistungsfaktoren] findet man den Faktor für $\qty{2,15}{\dBi}$ als $1,64$. Somit ergibt sich für die maximale Sendeleistung:
+zerlegen kann. In der Tabelle [ref:e_dezibel_leistungsfaktoren] findet man den Faktor für $\qty{2,15}{\dB}$ als $\num{1,64}$. Somit ergibt sich für die maximale Sendeleistung:
 
-$P_{Sender} = \frac{\qty{10}{\watt}}{2\cdot 1,64} = \frac{\qty{10}{\watt}}{3.28} \approx \qty{3}{\watt}$
+$P_{Sender} = \frac{\qty{10}{\watt}}{2\cdot 1,64} = \frac{\qty{10}{\watt}}{3,28} \approx \qty{3}{\watt}$
 
 Wie zu erwarten kommen wir hier zum gleichen Ergebnis. Mit $\qty{3}{\watt}$ ist man auf der sicheren Seite.
 
@@ -135,29 +135,29 @@ Die nächste Frage könnte man wieder mit der Formelsammlung lösen, in dem man 
 
 [question:EG505]
 
-Wie ganz am Anfang des Abschnitts beschrieben, wird für die Strahlungsleistung EIRP der Antennengewinn ($\qty{11}{\dBi}$) und die Leistung berücksichtigt, die tatsächlich an der Antenne ankommt. Die Sendeleistung wird durch das Kabel um $\qty{1}{\dB}$ gedämpft, das gesamte Antennensystem hat real einen Gewinn von $\qty{10}{\dBi}$. In unserer Tabelle [ref:e_dezibel_leistungsfaktoren] in der Formelsammlung wird für $\qty{10}{\dB}$ der Faktor $10$ angegeben. Aus der Sendeleistung von $\qty{100}{\watt}$ wird eine Strahlungsleistung von $\qty{1000}{\watt}$.
+Wie ganz am Anfang des Abschnitts beschrieben, wird für die Strahlungsleistung EIRP der Antennengewinn ($\qty{11}{\dBi}$) und die Leistung berücksichtigt, die tatsächlich an der Antenne ankommt. Die Sendeleistung wird durch das Kabel um $\qty{1}{\dB}$ gedämpft, das gesamte Antennensystem hat real einen Gewinn von $\qty{10}{\dBi}$. In unserer Tabelle [ref:e_dezibel_leistungsfaktoren] in der Formelsammlung wird für $\qty{10}{\dB}$ der Faktor $\num{10}$ angegeben. Aus der Sendeleistung von $\qty{100}{\watt}$ wird eine Strahlungsleistung von $\qty{1000}{\watt}$.
 
 Für die nächste Frage muss man darauf achten, dass eine Dipol-Antenne verwendet wird. Auch sie kann ganz einfach im Kopf gerechnet werden.
 
 [question:EG506]
 
-Der Gewinn einer Dipol-Antenne gegenüber dem Kugelstrahler beträgt $\qty{2,15}{\dB}$. Dies entspricht dem Faktor von $1,64$. Dies steht auch in der Formelsammlung: 
+Der Gewinn einer Dipol-Antenne gegenüber dem Kugelstrahler beträgt $\qty{2,15}{\dB}$. Dies entspricht dem Faktor von $\num{1,64}$. Dies steht auch in der Formelsammlung:
 
 $P_{EIRP} = P_{ERP} + \qty{2,15}{\dB}$
 
-bzw als Faktor:
+bzw. als Faktor:
 
 $P_{EIRP} = P_{ERP}  \cdot 1,64$
 
 Wobei $P_{ERP}$ die Strahlungsleistung bezogen auf den Dipol darstellt. 
 
-Der Gewinn des Dipols beträgt $\qty{2,15}{\dB}$, das entspricht hier exakt der Kabeldämpfung in der Frage. Beiden gleichen sich damit aus. Die Dipolantenne strahlt $\qty{75}{\watt}$ EIRP ab.
+Der Gewinn des Dipols beträgt $\qty{2,15}{\dBi}$, das entspricht hier exakt der Kabeldämpfung in der Frage. Beiden gleichen sich damit aus. Die Dipolantenne strahlt $\qty{75}{\watt}$ EIRP ab.
 
 In der nächsten Frage ist auch wieder ein Dipol als Antenne vorgegeben. 
 
 [question:EG507]
 
-Gesucht ist die äquivalente isotrope Strahlungsleistung $P_\text{EIRP}$. Zunächst muss die Kabeldämpfung berücksichtigt werden. Eine Dämpfung von $\qty{10}{\dB}$ entspricht einem Leistungsverhältnis von $0,1$. Mit diesem Dämpfungsfaktor sowie dem Antennengewinnfaktor des Dipols von $1,64$ lässt sich die Strahlungsleistung anschließend berechnen.
+Gesucht ist die äquivalente isotrope Strahlungsleistung $P_\text{EIRP}$. Zunächst muss die Kabeldämpfung berücksichtigt werden. Eine Dämpfung von $\qty{10}{\dB}$ entspricht einem Leistungsverhältnis von $\num{0,1}$. Mit diesem Dämpfungsfaktor sowie dem Antennengewinnfaktor des Dipols von $\num{1,64}$ lässt sich die Strahlungsleistung anschließend berechnen.
 
 $P_\text{EIRP} = \qty{100}{\watt} \cdot 0,1 \cdot 1,64 = \qty{16,4}{\watt}$
 
@@ -196,6 +196,6 @@ In der nächsten Frage ist eine Antenne mit einem Gewinn von $\qty{0}{\dB}$ auf 
 
 Hier kann wieder die Folmel aus der Formelsammlung verwendet werden:
 
-$P_\text{EIRP} = P_\text{Sender} \cdot 10^{\frac{g_i-a+\qty{2,15}{\dB}}{\qty{10}{\dB}}} = \qty{8,5}{\watt} \cdot 10^{\frac{0\qty{-1,5}{\dB}+\qty{2,15}{\dB}}{\qty{10}{\dB}}} = \qty{9,9}{\watt}$
+$P_\text{EIRP} = P_\text{Sender} \cdot 10^{\frac{g_i-a+\qty{2,15}{\dB}}{\qty{10}{\dB}}} = \qty{8,5}{\watt} \cdot 10^{\frac{\qty{0}{\dB}-\qty{1,5}{\dB}+\qty{2,15}{\dB}}{\qty{10}{\dB}}} = \qty{9,9}{\watt}$
 
-Im Kopf kann man es auch überschlagen: Rechnet man wieder den Gesamtgewinn des Systems aus, so beträgt dieser nur $\qty{0,65}{\dB}$, also nicht einmal $\qty{1}{\dB}$. $\qty{1}{\dB}$ entspricht, laut unserer Tabelle [ref:e_dezibel_leistungsfaktoren], einem Faktor von $1,26$. Der Zielwert muss also zwischen $\qty{8,5}{\watt}$ und $\qty{10,71}{\watt}$ liegen. Nur die $\qty{9,9}{\watt}$ kommen also in Frage.
+Im Kopf kann man es auch überschlagen: Rechnet man wieder den Gesamtgewinn des Systems aus, so beträgt dieser nur $\qty{0,65}{\dB}$, also nicht einmal $\qty{1}{\dB}$. $\qty{1}{\dB}$ entspricht, laut unserer Tabelle [ref:e_dezibel_leistungsfaktoren], einem Faktor von $\num{1,26}$. Der Zielwert muss also zwischen $\qty{8,5}{\watt}$ und $\qty{10,71}{\watt}$ liegen. Nur die $\qty{9,9}{\watt}$ kommen also in Frage.

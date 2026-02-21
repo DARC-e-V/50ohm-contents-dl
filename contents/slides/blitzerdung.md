@@ -26,9 +26,9 @@
 </left>
 <right>
 * Massiver Draht, keine Litze
-* Kupfer 16 mm<sup>2</sup>
-* Aluminium 25 mm<sup>2</sup>
-* Stahl 50 mm<sup>2</sup>
+* Kupfer $\qty{16}{\milli\meter\squared}$
+* Aluminium $\qty{25}{\milli\meter\squared}$
+* Stahl $\qty{50}{\milli\meter\squared}$
 </right>
 <note>
 * Antenne erden: Antennenkabel abschrauben und an Erde anschließen

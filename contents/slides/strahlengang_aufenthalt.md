@@ -1,10 +1,10 @@
-* Insbesondere im Mikrowellenbereich werden Parabol- oder Helixantenen verwendet
+* Insbesondere im Mikrowellenbereich werden Parabol- oder Helixantennen verwendet
 * Hoher Antennengewinn
 * Aus wenig Eingangsleistung wird eine hohe Strahlungsleistung
-* 20 dB sind üblich &rArr; 1 W Sendeleistung werden 100 W Strahlungsleistung
+* $\qty{20}{\dB}$  sind üblich &rArr; $\qty{1}{\watt}$ Sendeleistung werden $\qty{100}{\watt}$ Strahlungsleistung
 
 <note>
-* 20 dB = Faktor 100
+* $\qty{20}{\dB}$ = Faktor $\num{100}$
 </note>
 
 ---

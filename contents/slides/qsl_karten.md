@@ -55,7 +55,7 @@ Eine QSL-Karte sollte mindestens folgende Angaben enthalten:
 * Über teilnehmende Amateurfunkverbände in den Ländern
 * via Vermittlungsbüro - international "Bureau"
 * Weltweites alternatives Postnetz
-* In Deutschland bietet das der DARC e.V. für Mitglieder kostenlos an
+* In Deutschland bietet das der DARC e. V. für Mitglieder kostenlos an
 
 <note>
 * Austausch von QSL-Karten zwischen den Managern findet oftmals auf Veranstaltungen statt

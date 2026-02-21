@@ -13,7 +13,7 @@ $g_\text{i} = 10 \cdot \log_{10} \left[\left(\frac{\pi\cdot d}{\lambda}\right) ^
   
 Die Wellenlänge geht in die Berechnung mit ein. Sie steht im Nenner d.h. je kleiner die Wellenlänge, desto größer ist der Gewinn.
   
-Links im [Hamnet](https://50ohm.de/hamnet) werden im Frequenzbereich $\qtyrange{5.650}{5.850}{\mega\hertz}$ betrieben ($\lambda = \qty{5,2}{\centi\meter}$ in der Bandmitte). Schon mit einem Spiegel mit einem Durchmesser von $\qty{0,80}{\meter}$ erzielt man einen Gewinn von rund $\qty{33}{\dB}$ (bei $\eta=1$). Für einen vergleichbaren Gewinn wäre im 70-cm-Band ein Durchmesser von $\qty{10}{\meter}$ erforderlich. So große Parabolantennen könnte man nicht einfach irgendwo aufstellen. Deshalb wird speziell nach dem Umgang mit Mikrowellen gefragt, bei denen die Gefahr, wegen der relativ kleinen Antennen, leicht unterschätzt werden kann. 
+Links im [Hamnet](https://50ohm.de/hamnet) werden im Frequenzbereich $\qtyrange{5650}{5850}{\mega\hertz}$ betrieben ($\lambda = \qty{5,2}{\centi\meter}$ in der Bandmitte). Schon mit einem Spiegel mit einem Durchmesser von $\qty{0,80}{\meter}$ erzielt man einen Gewinn von rund $\qty{33}{\dB}$ (bei $\eta=1$). Für einen vergleichbaren Gewinn wäre im $\qty{70}{\centi\meter}$-Band ein Durchmesser von $\qty{10}{\meter}$ erforderlich. So große Parabolantennen könnte man nicht einfach irgendwo aufstellen. Deshalb wird speziell nach dem Umgang mit Mikrowellen gefragt, bei denen die Gefahr, wegen der relativ kleinen Antennen, leicht unterschätzt werden kann. 
 </indepth>
 
 ---
