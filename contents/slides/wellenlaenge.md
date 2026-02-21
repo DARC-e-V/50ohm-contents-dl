@@ -4,7 +4,7 @@
 * Je größer die Frequenz, desto kleiner die Wellenlänge
 
 <fragment>
-Die Wellenlänge wird mit dem griechischen Buchstaben $\lambda$ (Lambda) angegeben und in Meter ($m$) gemessen.
+Die Wellenlänge wird mit dem griechischen Buchstaben $\lambda$ (Lambda) angegeben und in Meter ($\unit{\meter}$) gemessen.
 </fragment>
 
 ---
@@ -16,16 +16,16 @@ Die Wellenlänge wird mit dem griechischen Buchstaben $\lambda$ (Lambda) angegeb
 ## Zusammenhang Frequenz – Wellenlänge
 
 * Über die Lichtgeschwindigkeit
-* Eine Welle mit einer Frequenz von 1 Hz breitet sich 300.000 km aus bevor der nächste Durchlauf beginnt
-* Bei 1000 Hz sind es nur 300 km
-* Bei 1 MHz sind es 300 m
+* Eine Welle mit einer Frequenz von $\qty{1}{\hertz}$ breitet sich $\qty{300000}{\kilo\meter}$ aus bevor der nächste Durchlauf beginnt
+* Bei $\qty{1000}{\hertz}$ sind es nur $\qty{300}{\kilo\meter}$
+* Bei $\qty{1}{\mega\hertz}$ sind es $\qty{300}{\meter}$
 
 <note>
 Ausbreitung in Lichtgeschwindigkeit gilt nur im Vakuum
 </note>
 
 ---
-$f[\textrm{MHz}] = \dfrac{300}{\lambda[\textrm{m}]} \quad\quad\quad \lambda[\textrm{m}] = \dfrac{300}{f[\textrm{MHz}]}$
+$f[\unit{\mega\hertz}] = \dfrac{300}{\lambda[\unit{\meter}]} \quad\quad\quad \lambda[\unit{\meter}] = \dfrac{300}{f[\unit{\mega\hertz}]}$
 
 <note>
 Die Formeln sind in der Formelsammlung
@@ -35,12 +35,12 @@ Die Formeln sind in der Formelsammlung
 
 Wellenlänge aus Frequenz
 
-$\lambda[\text{m}] = \dfrac{300}{f[\text{MHz}]} = \dfrac{300}{145,3 \ \text{MHz}} \approx 2,06 \ \text{m}$
+$\lambda[\unit{\meter}] = \dfrac{300}{f[\unit{\mega\hertz}]} = \dfrac{300}{\qty{145,3}{\mega\hertz}} \approx \qty{2,06}{\meter}$
 
 <fragment>
 Frequenz aus Wellenlänge
 
-$f[\text{MHz}] = \dfrac{300}{\lambda[\text{m}]} = \dfrac{300}{2,06 \ \text{m}} \approx 145,3 \ \text{MHz}$
+$f[\unit{\mega\hertz}] = \dfrac{300}{\lambda[\unit{\meter}]} = \dfrac{300}{\qty{2,06}{\meter}} \approx \qty{145,3}{\mega\hertz}$
 </fragment>
 
 --- style="font-size: 0.8em;"
@@ -49,9 +49,9 @@ $f[\text{MHz}] = \dfrac{300}{\lambda[\text{m}]} = \dfrac{300}{2,06 \ \text{m}} \
 Statt der Frequenz wird häufig das gerundete Band angegeben
 
 | l: Frequenz | l: Wellenlänge | l: Band |
-| 28 MHz &mdash; 29,7 MHz | 10,7 m &mdash; 10,1 m | 10 m-Band |
-| 144 MHz &mdash; 146 MHz | 2,08 m &mdash; 2,05 m | 2 m-Band |
-| 430 MHz &mdash; 440 MHz | 68 cm &mdash; 70 cm | 70 cm-Band |
+| $\qtyrange{28}{29,7}{\mega\hertz}$ | $\qtyrange{10,7}{10,1}{\meter}$ | $\qty{10}{\meter}$-Band |
+| $\qtyrange{144}{146}{\mega\hertz}$ | $\qtyrange{2,08}{2,05}{\meter}$ | $\qty{2}{\meter}$-Band |
+| $\qtyrange{430}{440}{\mega\hertz}$ | $\qtyrange{68}{70}{\centi\meter}$ | $\qty{70}{\centi\meter}$-Band |
 [table:n_funkwellen_baender:Die drei Amateurfunkbänder, die für alle Klassen freigegeben sind]
 ---
 [question:NB302]

@@ -1,7 +1,7 @@
 Wir haben gelernt: Elektrische Schwingungen bestehen aus Wechselspannung, die abwechselnd positive und negative Polarität annimmt. Die Spannung wechselt meist aber nicht abrupt von positiv nach negativ und zurück. Wie man im Bild [ref:n_frequenz_sinusschwingung] sehen kann, schwingt die Spannung im Stromnetz beispielsweise immer wieder sanft wie ein Pendel von Plus über 0 nach Minus und wieder über 0 zurück nach Plus.
 
 <webmargin>
-[picture:725:n_frequenz_sinusschwingung:Die Spannung des Stromnetzes im zeitlichen Verlauf. Da die Spannung nicht die ganze Zeit den Höchstwert von 325 V aufweist, wirkt sie effektiv übrigens nur mit 230 V.]
+[picture:725:n_frequenz_sinusschwingung:Die Spannung des Stromnetzes im zeitlichen Verlauf. Da die Spannung nicht die ganze Zeit den Höchstwert von $\qty{325}{\volt}$ aufweist, wirkt sie effektiv übrigens nur mit $\qty{230}{\volt}$.]
 </webmargin>
   
 ---

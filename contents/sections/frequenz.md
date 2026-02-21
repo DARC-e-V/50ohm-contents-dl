@@ -1,9 +1,9 @@
-Die Wechselspannung in unserem Stromnetz *schwingt* 50 mal in der Sekunde hin und wieder zurück. Die Anzahl der Schwingungen pro Sekunde nennt man Frequenz. Die Frequenz wird in der Einheit Hertz mit der Abkürzung Hz angegeben. Ein Hz entspricht genau einer Schwingung pro Sekunde. Das Stromnetz hat also eine Frequenz von 50 Hz.
+Die Wechselspannung in unserem Stromnetz *schwingt* 50 mal in der Sekunde hin und wieder zurück. Die Anzahl der Schwingungen pro Sekunde nennt man Frequenz. Die Frequenz wird in der Einheit Hertz mit der Abkürzung $\unit{\hertz}$ angegeben. Ein $\unit{\hertz}$ entspricht genau einer Schwingung pro Sekunde. Das Stromnetz hat also eine Frequenz von $\qty{50}{\hertz}$.
 
 <unit>
 In der *Einheit Hertz* wird die Frequenz gemessen. Ein Hertz ist gleich einer Schwingung pro Sekunde. Die Einheit wurde nach dem deutschen Physiker Heinrich Rudolf Hertz benannt, der im Jahr 1886 als erster Mensch elektromagnetische Wellen erzeugen und nachweisen konnte.
   
-1 Hz = 1/s
+$$\qty{1}{\hertz} = \frac{1}{\unit{\second}}$$
   
 </unit>
 
@@ -12,19 +12,19 @@ In der *Einheit Hertz* wird die Frequenz gemessen. Ein Hertz ist gleich einer Sc
 
 ---
 
-Im Funk benutzen wir auch elektrische Schwingungen, allerdings mit sehr viel höheren Frequenzen als das Stromnetz, z. B. 144000000 Hz.  Bei so vielen Ziffern wird es schnell unübersichtlich. Daher verwenden wir den Ausdruck Megahertz (MHz) für eine Million Hertz und sagen "144 Megahertz". Wir haben das *Einheitenvorzeichen* "M" verwendet und es vor die eigentliche Einheit "Hz" gesetzt. Damit drücken wir aus, dass der angegebene Wert mit einer Million multipliziert wird. Weitere Beispiele für Frequenzen mit Einheitenvorzeichen sind  in der Tabelle [ref:n_frequenz_einheitenvorzeichen] zusammengestellt.
+Im Funk benutzen wir auch elektrische Schwingungen, allerdings mit sehr viel höheren Frequenzen als das Stromnetz, z. B. $\qty{144000000}{\hertz}$.  Bei so vielen Ziffern wird es schnell unübersichtlich. Daher verwenden wir den Ausdruck Megahertz ($\unit{\mega\hertz}$) für eine Million Hertz und sagen "144 Megahertz". Wir haben das *Einheitenvorzeichen* "$\unit{\mega}$" verwendet und es vor die eigentliche Einheit "$\unit{\hertz}$" gesetzt. Damit drücken wir aus, dass der angegebene Wert mit einer Million multipliziert wird. Weitere Beispiele für Frequenzen mit Einheitenvorzeichen sind in der Tabelle [ref:n_frequenz_einheitenvorzeichen] zusammengestellt.
 
 <webmargin>
 | X: Bezeichnung | r: Abkürzung | r: Wert |
-| 1 Kilohertz | 1 kHz | 1000 Hz |
-| 1 Megahertz | 1 MHz | 1000000 Hz |
-| 1 Gigahertz | 1 GHz | 1000000000 Hz |
+| 1 Kilohertz | $\qty{1}{\kilo\hertz}$ | $\qty{1000}{\hertz}$ |
+| 1 Megahertz | $\qty{1}{\mega\hertz}$ | $\qty{1000000}{\hertz}$ |
+| 1 Gigahertz | $\qty{1}{\giga\hertz}$ | $\qty{1000000000}{\hertz}$ |
 [table:n_frequenz_einheitenvorzeichen:Kurzschreibweise für große Frequenzen]
 </webmargin>
 
 [question:NA212]
 
-In der Amateurfunk-Einsteigerklasse N darf man beispielsweise die Frequenzen von 28 bis 29,7 MHz, von 144 bis 146 MHz sowie von 430 bis 440 MHz benutzen. Bei der Klasse E bzw. A kommen weitere Frequenzbereiche dazu.
+In der Amateurfunk-Einsteigerklasse N darf man beispielsweise die Frequenzen von $\num{28}$ bis $\qty{29,7}{\mega\hertz}$, von $\num{144}$ bis $\qty{146}{\mega\hertz}$ sowie von $\qty{430}{\mega\hertz}$ bis $\qty{440}{\mega\hertz}$ benutzen. Bei der Klasse E bzw. A kommen weitere Frequenzbereiche dazu.
 
 [question:VD723]
 
@@ -43,7 +43,7 @@ Der Begriff *Oszillator* leitet sich vom lateinischen Wort oscillare ab, das sov
 Beim Funkbetrieb müssen wir genau wissen, auf welcher Frequenz wir senden. Für die Messung der Sendefrequenz benutzt man deshalb einen Frequenzzähler, wie er beispielsweise in Abbildung [ref:frequenz_frequenzzaehler] zu sehen ist. Beim Bauen und Abgleichen von Funkgeräten benutzt man Frequenzzähler, um zu messen, ob die Sendefrequenz mit der Anzeige am Gerät übereinstimmt.
 
 <margin>
-[photo:150:frequenz_frequenzzaehler:Frequenzzähler, der gerade 29,6 MHz misst und anzeigt]
+[photo:150:frequenz_frequenzzaehler:Frequenzzähler, der gerade $\qty{29,6}{\mega\hertz}$ misst und anzeigt]
 </margin>
 
 [question:NI301]

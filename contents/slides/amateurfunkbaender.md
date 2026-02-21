@@ -4,11 +4,11 @@
 
 ---
 
-[picture:829:amateuerfunkbaender_2:Frequenzbereiche im Amateurfunk unter 300 MHz]
+[picture:829:amateuerfunkbaender_2:Frequenzbereiche im Amateurfunk unter $\qty{300}{\mega\hertz}$]
 
 ---
 
-[picture:830:amateuerfunkbaender_1:Frequenzbereiche im Amateurfunk über 300 MHz]
+[picture:830:amateuerfunkbaender_1:Frequenzbereiche im Amateurfunk über $\qty{300}{\mega\hertz}$]
 
 ---
 [question:VD709]

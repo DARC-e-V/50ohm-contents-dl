@@ -2,27 +2,27 @@
 
 <note>
 * Funkwellen nutzen nur ein Teil dieses Spektrums
-* Überlicherweise zwischen 30kHz und 300GHz
+* Überlicherweise zwischen $\qty{30}{\kilo\hertz}$ und $\qty{300}{\giga\hertz}$
 * Es werden Abkürzungen verwendet
-* Für Prüfung 3MHz-3GHz mit Bezeichnungen wichtig
+* Für Prüfung $\qty{3}{\mega\hertz}$-$\qty{3}{\giga\hertz}$ mit Bezeichnungen wichtig
 </note>
   
 --- style="font-size: 0.5em;"
 | r | c |  r | X | l |
-| 30 kHz | - | 300 kHz | Low Frequency | LF |
+| $\qty{30}{\kilo\hertz}$ | - | $\qty{300}{\kilo\hertz}$ | Low Frequency | LF |
 | | | | (Langwelle) | (LW) |
-| 300 kHz | - | 3000 kHz | Medium Frequency | MF |
+| $\qty{300}{\kilo\hertz}$ | - | $\qty{3000}{\kilo\hertz}$ | Medium Frequency | MF |
 | | | | (Mittelwelle) | (MW) |
-| 3 MHz | - | 30 MHz | *High Frequency* | *HF* |
+| $\qty{3}{\mega\hertz}$ | - | $\qty{30}{\mega\hertz}$ | *High Frequency* | *HF* |
 | | | | Short Wave | SW |
 | | | | (Kurzwelle) | (KW) |
-| 30 MHz | - | 300 MHz | *Very High Frequency* | *VHF* |
+| $\qty{30}{\mega\hertz}$ | - | $\qty{300}{\mega\hertz}$ | *Very High Frequency* | *VHF* |
 | | | | (Ultrakurzwelle) | (UKW) |
-| 300 MHz | - | 3000 MHz | *Ultra High Frequency* | *UHF* |
+| $\qty{300}{\mega\hertz}$ | - | $\qty{3000}{\mega\hertz}$ | *Ultra High Frequency* | *UHF* |
 | | | | (Dezimeterwelle) | |
-| 3 GHz | - | 30 GHz | Super High Frequency | SHF |
-| 30 GHz | - | 300 GHz | Extemely High Frequency | EHF |
-[table:n_frequenzspektrum_bereiche:Die Frequenzbereiche von 30 kHz bis 300 GHz und ihre üblichen Bezeichnungen.]
+| $\qty{3}{\giga\hertz}$ | - | $\qty{30}{\giga\hertz}$ | Super High Frequency | SHF |
+| $\qty{30}{\giga\hertz}$ | - | $\qty{300}{\giga\hertz}$ | Extemely High Frequency | EHF |
+[table:n_frequenzspektrum_bereiche:Die Frequenzbereiche von $\qty{30}{\kilo\hertz}$ bis $\qty{300}{\giga\hertz}$ und ihre üblichen Bezeichnungen.]
 ---
 [question:BC104]
 ---

@@ -1,4 +1,4 @@
-[photo:103:n_iaru_bandplan_70cm:IARU-Bandplan 70 cm]
+[photo:103:n_iaru_bandplan_70cm:IARU-Bandplan $\qty{70}{\centi\meter}$]
 
 <note>
 * Die Fragen dazu lassen sich gleichartig beantworten
