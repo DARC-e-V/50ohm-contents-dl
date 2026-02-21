@@ -41,7 +41,7 @@
 ## Auflösung des A/D-Umsetzers
 
 * Anzahl der möglichen digital darstellbaren Stufen  
-* Wird in Bit angegeben (z. B. 8 Bit = 256 Stufen, 16 Bit = 65.536 Stufen)  
+* Wird in Bit angegeben (z. B. $\qty{8}{\bit} = \num{256}$ Stufen, $\qty{16}{\bit} = \num{65536}$ Stufen)
 * Häufig wird die Hälfte der Werte für den positiven und die andere Hälfte für den negativen Bereich verwendet
 
 ---

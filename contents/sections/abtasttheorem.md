@@ -11,6 +11,6 @@ Man kann mathematisch zeigen, dass für die Erfassung eines Signals mit der höc
 
 [question:AF618]
 
-Nehmen wir ein praktisches Beispiel wie im Fall unseres CD-Players, der mit einer Abtastrate von z. B. 44,1 ksps arbeitet. Wenn man das Abtasttheorem wie oben beschrieben zugrunde legt, bedeutet dies, dass mit einer Abtastrate von 44,1 ksps nur Frequenzen unterhalb von 22,05 kHz abgebildet werden können. Somit können Frequenzen bis ca. 22 kHz noch korrekt abgebildet werden. Dies entspricht dem HiFi-Frequenzbereich von guten Stereoanlagen. Merke: Die Abtastfrequenz sollte daher immer knapp über dem 2-Fachen der maximal zu verarbeitenden Frequenz des Eingangssignals liegen.
+Nehmen wir ein praktisches Beispiel wie im Fall unseres CD-Players, der mit einer Abtastrate von z. B. $\qty{44,1}{\kilo\sps}$ arbeitet. Wenn man das Abtasttheorem wie oben beschrieben zugrunde legt, bedeutet dies, dass mit einer Abtastrate von $\qty{44,1}{\kilo\sps}$ nur Frequenzen unterhalb von $\qty{22,05}{\kilo\hertz}$ abgebildet werden können. Somit können Frequenzen bis ca. $\qty{22}{\kilo\hertz}$ noch korrekt abgebildet werden. Dies entspricht dem HiFi-Frequenzbereich von guten Stereoanlagen. Merke: Die Abtastfrequenz sollte daher immer knapp über dem 2-Fachen der maximal zu verarbeitenden Frequenz des Eingangssignals liegen.
 
 [question:AF619]

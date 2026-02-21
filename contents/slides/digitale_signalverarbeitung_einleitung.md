@@ -13,11 +13,11 @@
 
 ---
 <left>
-* Hierbei wird das analoge Signal in festen Zeitintervallen abgetastet und in einem digitalen Wertebereich (z.B. von -128 bis +127) abgebildet.
+* Hierbei wird das analoge Signal in festen Zeitintervallen abgetastet und in einem digitalen Wertebereich (z.B. von $\num{-128}$ bis $\num{+127}$) abgebildet.
 * Die einzelnen gemessenen Signalwerte werden als Samples (Proben) bezeichnet.
 </left>
 <right>
-[picture:411:e_digitale_signalverarbeitung:Einfache Darstellung einer Sinuswelle aus 16 Samples und 7 Werten]
+[picture:411:e_digitale_signalverarbeitung:Einfache Darstellung einer Sinuswelle aus $\num{16}$ Samples und $\num{7}$ Werten]
 </right>
 <note>
 * Mehr dazu in Klasse A

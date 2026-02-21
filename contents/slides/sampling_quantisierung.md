@@ -14,7 +14,7 @@
 ## Wertkontinuität vs. Wertdiskretheit
 
 * Analoge Signale können beliebige Spannungswerte annehmen – sie sind wertkontinuierlich  
-* Bei der Digitalisierung gibt es nur begrenzte Abstufungen (z. B. -128 bis +127) – Samples sind wertdiskret  
+* Bei der Digitalisierung gibt es nur begrenzte Abstufungen (z. B. $\num{-128}$ bis $\num{+127}$) – Samples sind wertdiskret
 * Zwischen zwei Spannungsstufen muss der A/D-Umsetzer eine Entscheidung treffen (Quantisierung)
 
 ---
@@ -22,7 +22,7 @@
 ## Praktisches Beispiel: Dimmer vs. Stufenschalter
 
 * Ein analoger Dimmer erlaubt feine, stufenlose Helligkeitseinstellungen  
-* Ein Stufenschalter (z. B. 5 Stufen) ermöglicht nur feste Helligkeitswerte – Zwischenstufen sind nicht möglich  
+* Ein Stufenschalter (z. B. $\num{5}$ Stufen) ermöglicht nur feste Helligkeitswerte – Zwischenstufen sind nicht möglich
 * Quantisierung: Auswahl der nächstpassenden Stufe, um den analogen Wert abzubilden
 
 ---

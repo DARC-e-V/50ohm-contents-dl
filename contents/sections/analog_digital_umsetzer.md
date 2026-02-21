@@ -9,7 +9,7 @@ Da ein A/D-Umsetzer stets mit einer begrenzten Zahl an möglichen digitalen Wert
 
 [question:AF607]
 
-Die Anzahl der möglichen Stufen eines A/D-Umsetzers wird auch als dessen Auflösung bezeichnet. Man gibt diese Anzahl oft in Bit an. Kann ein Umsetzer 256 Stufen (beispielsweise von -128 bis +127) unterscheiden, hat er 8 Bit. Ein 16-Bit-Umsetzer kann bereits 65536 Stufen unterscheiden. Hierbei werden in der Regel die Hälfte der Werte für den positiven Signalbereich und die andere Hälfte der Werte für den negativen Signalbereich verwendet.
+Die Anzahl der möglichen Stufen eines A/D-Umsetzers wird auch als dessen Auflösung bezeichnet. Man gibt diese Anzahl oft in Bit ($\unit{\bit}$) an. Kann ein Umsetzer $\num{256}$ Stufen (beispielsweise von $\num{-128}$ bis $\num{+127}$) unterscheiden, hat er $\qty{8}{\bit}$. Ein $\qty{16}{\bit}$-Umsetzer kann bereits $\num{65536}$ Stufen unterscheiden. Hierbei werden in der Regel die Hälfte der Werte für den positiven Signalbereich und die andere Hälfte der Werte für den negativen Signalbereich verwendet.
 
 [question:AF608]
 

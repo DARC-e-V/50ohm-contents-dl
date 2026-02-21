@@ -2,6 +2,6 @@ Wie wir im vorigen Kapitel bereits gelernt haben, bezeichnet man den Prozess, de
 
 [question:AF606]
 
-Die Geschwindigkeit, mit der ein A/D-Umsetzer die Abtastung eines analogen Signals vornimmt, wird auch als Samplingrate bezeichnet. Man definiert die Samplingrate herbei als Abtastungen, die pro Zeiteinheit (z. B. pro Sekunde) vorgenommen werden. Die Angabe erfolgt hierbei in der Einheit Samples/sek. Beispielsweise werden analoge Tonsignale bei digitalen Datenträgern wie CDs oft mit Samplingraten von 44100 Samples pro Sekunde vorgenommen. Man gibt dies dann z. B. als 44,1 Kilosamples/s oder kurz 44,1 ksps an.
+Die Geschwindigkeit, mit der ein A/D-Umsetzer die Abtastung eines analogen Signals vornimmt, wird auch als Samplingrate bezeichnet. Man definiert die Samplingrate herbei als Abtastungen, die pro Zeiteinheit (z. B. pro Sekunde) vorgenommen werden. Die Angabe erfolgt hierbei in der Einheit Samples/sek. Beispielsweise werden analoge Tonsignale bei digitalen Datenträgern wie CDs oft mit Samplingraten von $\num{44100}$ Samples pro Sekunde vorgenommen. Man gibt dies dann z. B. als $\num{44,1}$ Kilosamples/s oder kurz $\qty{44,1}{\kilo\sps}$ an.
 
 [question:AF615]

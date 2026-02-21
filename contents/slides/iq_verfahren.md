@@ -1,7 +1,7 @@
 ## QAM und I/Q-Verfahren
 
 * Digitale Modulationstechnik, die zwei Träger derselben Frequenz verwendet  
-* Einer der Träger ist um 90° phasenverschoben  
+* Einer der Träger ist um $\qty{90}{\degree}$ phasenverschoben
 * Erzeugt ein Signal, das sich in Amplitude und Phase ändert
 
 ---
@@ -11,7 +11,7 @@
 <left>
 * Zwei Träger:  
 * Einer wird mit dem I-Signal (In-Phase) moduliert  
-* Der andere, um 90° verschoben, mit dem Q-Signal (Quadrature)
+* Der andere, um $\qty{90}{\degree}$ verschoben, mit dem Q-Signal (Quadrature)
 </left>
 <right>
 * Beide modulierten Träger werden überlagert  
@@ -42,8 +42,8 @@
 
 ### I/Q-Verfahren – Empfängerseite
 
-* Das empfangene Signal wird mit einem 0°-Träger gemischt, um das I-Signal zu extrahieren  
-* Gleichzeitig erfolgt eine Mischung mit einem um 90° phasenverschobenen Träger, um das Q-Signal zu erhalten  
+* Das empfangene Signal wird mit einem $\qty{0}{\degree}$-Träger gemischt, um das I-Signal zu extrahieren
+* Gleichzeitig erfolgt eine Mischung mit einem um $\qty{90}{\degree}$ phasenverschobenen Träger, um das Q-Signal zu erhalten
 * Beide Signale werden A/D-umgesetzt und bilden so den digitalen I/Q-Datenstrom
 
 ---
@@ -56,9 +56,9 @@
 
 * Der I/Q-Datenstrom bildet den Frequenzbereich um eine Mittenfrequenz ab  
 * Beispiel:  
-* 435 MHz-Träger  
-* Abtastrate von 10 Mio. Samples/s &rarr; Bandbreite = 10 MHz (±5 MHz um die Mittenfrequenz)  
-* Abgedeckter Bereich: ca. 430 bis 440 MHz
+* $\qty{435}{\mega\hertz}$-Träger
+* Abtastrate von $\num{10}$ Mio. Samples/s &rarr; Bandbreite = $\qty{10}{\mega\hertz}$ ($\pm\qty{5}{\mega\hertz}$ um die Mittenfrequenz)
+* Abgedeckter Bereich: ca. $\qty{430}{\mega\hertz}$ bis $\qty{440}{\mega\hertz}$
 
 ---
 
@@ -68,7 +68,7 @@
 
 ### Abhängigkeit der Bandbreite von der Abtastrate
 
-* Die abgedeckte Bandbreite in Hz entspricht der Abtastrate in Samples pro Sekunde
+* Die abgedeckte Bandbreite in $\unit{\hertz}$ entspricht der Abtastrate in Samples pro Sekunde
 
 ---
 
