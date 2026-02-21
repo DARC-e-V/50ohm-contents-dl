@@ -1,4 +1,4 @@
-In der Klasse E haben wir gelernt, das ein Oszilloskop stellt den zeitlichen Verlauf von Spannungen darstellt. Wir können also mit einem Oszilloskop Signalverläufe prüfen. 
+In der Klasse E haben wir gelernt, dass ein Oszilloskop den zeitlichen Verlauf von Spannungen darstellt. Wir können also mit einem Oszilloskop Signalverläufe prüfen. 
 
 [question:AI301]
 
@@ -8,7 +8,7 @@ In der Klasse E haben wir gelernt, das ein Oszilloskop stellt den zeitlichen Ver
 
 ---
 
-Neben den Sinusförmingen Wechselspannugen kommen durch die Digitaltechnik auch  rechteckförmige Spannungen vor.  Einen exakt rechteckigen Spannungsverlauf kann es aber nicht geben. Die Kanten sind immer ein bisschen schräg oder verformt. Die Zeit zwischen dem Ansteigen und dem Abfallen eines Rechtecks, die man Pulsbreite oder Impulsdauer nennt, wird deshalb immer bei halber Höhe, also bei 50% der Spannung, gemessen. So  ist sichergestellt, dass beim gleichen Signal alle zum gleichen Messergebnis kommen.
+Neben den sinusförmigen Wechselspannungen kommen durch die Digitaltechnik auch rechteckförmige Spannungen vor. Einen exakt rechteckigen Spannungsverlauf kann es aber nicht geben. Die Kanten sind immer ein bisschen schräg oder verformt. Die Zeit zwischen dem Ansteigen und dem Abfallen eines Rechtecks, die man Pulsbreite oder Impulsdauer nennt, wird deshalb immer bei halber Höhe, also bei 50% der Spannung, gemessen. So  ist sichergestellt, dass beim gleichen Signal alle zum gleichen Messergebnis kommen.
 
 <indepth>
 Grund für diese Verformungen sind die unvermeidlichen Kapazitäten und Induktivitäten in Leitungen und Bauteilen, die wie Filter wirken und die hohen Frequenzanteile eines Rechtecksignals dämpfen.

@@ -8,7 +8,7 @@ Bei der ersten Frage geht es um die Leistungsmessung eines Verstärkers (Power A
 
 [question:AI101]
 
-Für die nächste Frage erinnern wir uns an die Regeln aus der Klasse E, das Spannungsmessgeräte immer Parallel und Strommesgeräte immer in Reihe geschaltet werden. Dadurch ist die Frage sehr leicht zu lösen. 
+Für die nächste Frage erinnern wir uns an die Regeln aus der Klasse E, dass Spannungsmessgeräte immer arallel und Strommessgeräte immer in Reihe geschaltet werden. Dadurch ist die Frage sehr leicht zu lösen. 
 
 [question:AI102]
 
