@@ -1,4 +1,4 @@
-Während Spannungsmessgeräte die Spannung messen, messen Strommessgeräte den elektrischen Strom. Die Messung erfolgt in in *Ampere* (A). Entsprechend ist das Schaltsymbol des Strommessgeräts der Kreis mit einem A, wie in der Abbildung [ref:n_messgeraete_symbol_strommessgerät] gezeigt.
+Während Spannungsmessgeräte die Spannung messen, messen Strommessgeräte den elektrischen Strom. Die Messung erfolgt in in *Ampere* ($\unit{A}$). Entsprechend ist das Schaltsymbol des Strommessgeräts der Kreis mit einem A, wie in der Abbildung [ref:n_messgeraete_symbol_strommessgerät] gezeigt.
 
 <margin>
 [picture:624:n_messgeraete_symbol_strommessgerät:Schaltsymbol Strommessgerät]
@@ -15,13 +15,13 @@ Strommessgeräte haben selber keinen Widerstand wie ein Verbraucher, damit sie w
 </danger>
 
 <webtip>
-Strom wird - wie Spannung - ebenfalls meistens mit einem Multimeter gemessen. Auch hier ist es wichtig, zunächst die Messleitungen mit den richtigen Anschlüssen des Messgeräts zu verbinden. Die schwarze Messleitung kommt in den "COM"-Anschluss und die rote Messleitung an den Anschluss, der in der Regel mit A beschriftet ist. Oft haben Messgeräte für die Strommessung mehrere Anschlüsse, die für den eingestellten Messbereich passend zu wählen sind. Je nach Messbereich sind diese dann beispielsweise mit "μA", "mA" oder "A" beschriftet.
+Strom wird - wie Spannung - ebenfalls meistens mit einem Multimeter gemessen. Auch hier ist es wichtig, zunächst die Messleitungen mit den richtigen Anschlüssen des Messgeräts zu verbinden. Die schwarze Messleitung kommt in den "COM"-Anschluss und die rote Messleitung an den Anschluss, der in der Regel mit A beschriftet ist. Oft haben Messgeräte für die Strommessung mehrere Anschlüsse, die für den eingestellten Messbereich passend zu wählen sind. Je nach Messbereich sind diese dann beispielsweise mit "$\unit{\micro\ampere}$", "$\unit{\milli\ampere}$" oder "$\unit{\ampere}$" beschriftet.
 
 Ähnlich der Spannungsmessung ist die richtige Einstellung am Messgerät zu wählen. Möchte man Gleichstrom messen, wählt man "A =". Will man hingegen Wechselstrom messen, dann ist "A ~" einzustellen.
 
 Ebenfalls entsprechend zur Spannungsmessung verhält es sich mit dem Messbereich: Zu Beginn sollte der größte Messbereich gewählt werden und dann - je nach Anzeigewert - bei Bedarf auf einen kleinen Messbereich gewechselt werden. Es kann dann auch erforderlich sein, die rote Messleitung in den zum Messbereich passenden Anschluss umzustecken.
 
-Und auch hier noch einmal der Hinweis: Wechselspannungen größer 50 V und Gleichspannungen größer 120 V können lebensgefährlich sein.
+Und auch hier noch einmal der Hinweis: Wechselspannungen größer $\qty{50}{\volt}$ und Gleichspannungen größer $\qty{120}{\volt}$ können lebensgefährlich sein.
 </webtip>
 
 [question:NI102] 

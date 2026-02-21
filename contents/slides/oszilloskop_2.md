@@ -58,18 +58,18 @@ Definition: Die Pulsbreite liegt bei 50% des Spitzenwerts
 * gesucht: $P_{\textrm{PEP}}$
 
 <fragment>
-$\begin{split} P_{\textrm{PEP}} &= \frac{U_{\textrm{eff}}^2}{R} = \frac{(\frac{100V}{\sqrt{2}})^2}{50\Omega}\\ &=\frac{\frac{(100V)^2}{2}}{50\Omega} = \frac{5000V^2}{50\Omega} = 100W \end{split}$
+$\begin{split} P_{\textrm{PEP}} &= \frac{U_{\textrm{eff}}^2}{R} = \frac{\left(\frac{\qty{100}{\volt}}{\sqrt{2}}\right)^2}{\qty{50}{\ohm}}\\ &=\frac{\frac{(\qty{100}{\volt})^2}{2}}{\qty{50}{\ohm}} = \frac{\qty{5000}{\volt}^2}{\qty{50}{\ohm}} = \qty{100}{\watt} \end{split}$
 </fragment>
 ---
 [question:AI306]
 ---
 ### Lösungsweg
-* gegeben: $R=50\Omega$
-* gegeben: (aus Darstellung mit 10:1-Tastkopf) $\hat{U} = 6V\cdot 10$
+* gegeben: $R=\qty{50}{\ohm}$
+* gegeben: (aus Darstellung mit 10:1-Tastkopf) $\hat{U} = \qty{6}{\volt}\cdot 10$
 * gesucht: $P_{\textrm{PEP}}$
 
 <fragment>
-$\begin{split} P_{\textrm{PEP}} &= \frac{U_{\textrm{eff}}^2}{R} = \frac{(\frac{6V\cdot 10}{\sqrt{2}})^2}{50\Omega}\\ &=\frac{\frac{(60V)^2}{2}}{50\Omega} = 36W \end{split}$
+$\begin{split} P_{\textrm{PEP}} &= \frac{U_{\textrm{eff}}^2}{R} = \frac{\left(\frac{\qty{6}{\volt}\cdot 10}{\sqrt{2}}\right)^2}{\qty{50}{\ohm}}\\ &=\frac{\frac{(\qty{60}{\volt})^2}{2}}{\qty{50}{\ohm}} = \qty{36}{\watt} \end{split}$
 </fragment>
 
 ---

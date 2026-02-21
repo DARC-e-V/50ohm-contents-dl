@@ -8,7 +8,7 @@ Der VDE, also der Verband der Elektrotechnik Elektronik und Informationstechnik 
 
 ---
 
-Die Hauptgefahr besteht durch Berührung einer elektrischen Spannung. In der Elektrotechnik spricht man von einer gefährlichen Spannung, wenn diese bei Wechselspannung über 50 V und bei Gleichspannung über 120 V liegt. Diese Grenzen wurden so gelegt, dass es zu keiner lebensbedrohlichen Beeinträchtigung des menschlichen Körpers kommen kann. Wechselspannung wird auch als "AC" (englisch "alternating current") und Gleichspannung als "DC" (englisch "direct current") abgekürzt.
+Die Hauptgefahr besteht durch Berührung einer elektrischen Spannung. In der Elektrotechnik spricht man von einer gefährlichen Spannung, wenn diese bei Wechselspannung über $\qty{50}{\volt}$ und bei Gleichspannung über $\qty{120}{\volt}$ liegt. Diese Grenzen wurden so gelegt, dass es zu keiner lebensbedrohlichen Beeinträchtigung des menschlichen Körpers kommen kann. Wechselspannung wird auch als "AC" (englisch "alternating current") und Gleichspannung als "DC" (englisch "direct current") abgekürzt.
 
 <indepth>
 Der Grund für die *unterschiedlichen Grenzwerte für Gleich- und Wechselspannung* hängt mit den unterschiedlichen Auswirkungen auf den Körper zusammen: Wechselspannung kann den Herzrhythmus beeinflussen, während es bei Gleichspannung eher zu Verbrennungen kommt.
@@ -18,7 +18,7 @@ Der Grund für die *unterschiedlichen Grenzwerte für Gleich- und Wechselspannun
 
 ---
 
-Bei einer Einwirkung des Stroms auf den Körper kann das Gewebe geschädigt werden. Wie stark die Schädigung ist, hängt von der Stromstärke und Dauer des Stromflusses ab. Auch der Weg, den der Strom durch den Körper nimmt, spielt eine große Rolle. Eine Stromstärke von über 30 mA kann schon zu lebensgefährlichen Schäden führen (siehe Abbildung [ref:n_fehlerstrom]).
+Bei einer Einwirkung des Stroms auf den Körper kann das Gewebe geschädigt werden. Wie stark die Schädigung ist, hängt von der Stromstärke und Dauer des Stromflusses ab. Auch der Weg, den der Strom durch den Körper nimmt, spielt eine große Rolle. Eine Stromstärke von über $\qty{30}{\milli\ampere}$ kann schon zu lebensgefährlichen Schäden führen (siehe Abbildung [ref:n_fehlerstrom]).
 
 <margin>
 [picture:681:n_fehlerstrom:Stromschlag / Körperdurchströmung]

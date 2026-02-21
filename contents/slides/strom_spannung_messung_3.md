@@ -23,8 +23,8 @@ Der angezeigte Messwert unterscheidet sich meist vom tatsächlichen Wert
 ### Lösungsweg
 
 * Prozentrechnung – die absoluten Werte sind nicht relevant
-* gegeben: $U_{\mathrm{Abw}}$ mit 95% vom Realwert
-* gegeben: $I_{\mathrm{Abw}}$ mit 95% vom Realwert
+* gegeben: $U_{\mathrm{Abw}}$ mit $\qty{95}{\percent}$ vom Realwert
+* gegeben: $I_{\mathrm{Abw}}$ mit $\qty{95}{\percent}$ vom Realwert
 * gesucht: Abweichung der Leistung $P = U \cdot I$
 
 <fragment>
@@ -42,11 +42,11 @@ $\begin{split} P_{\textrm{Abw}} &= 100\% - (U_{\mathrm{Abw}} \cdot I_{\mathrm{Ab
 [question:AI104]
 ---
 ### Lösungsweg
-* gegeben: $U = 0,5V$
-* gegeben: $R = 10M\Omega$
+* gegeben: $U = \qty{0,5}{\volt}$
+* gegeben: $R = \qty{10}{\mega\ohm}$
 * gesucht: $I$
 
 <fragment>
-$$I = \frac{U}{R} = \frac{0,5V}{10M\Omega} = 50nA$$
+$$I = \frac{U}{R} = \frac{\qty{0,5}{\volt}}{\qty{10}{\mega\ohm}} = \qty{50}{\nano\ampere}$$
 </fragment>
 

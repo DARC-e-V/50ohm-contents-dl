@@ -1,7 +1,7 @@
 Wiederholung vom Anfang des Kurses:
 * Nach Trennung von positiven und negativen Ladungen versuchen diese wieder zusammenzukommen
 * Es liegt eine elektrische Spannung vor
-* Die Einheit ist Volt, abgekürzt V
+* Die Einheit ist Volt, abgekürzt $\unit{\volt}$
 
 ---
 
@@ -11,15 +11,15 @@ Wiederholung vom Anfang des Kurses:
 ## Kleine Spannungen
 
 <left>
-* Empfängereingang: 10 µV
-* Mikrofon: 200 mV
-* Batterie: 1,5 V oder 9 V
+* Empfängereingang: $\qty{10}{\micro\volt}$
+* Mikrofon: $\qty{200}{\milli\volt}$
+* Batterie: $\qty{1,5}{\volt}$ oder $\qty{9}{\volt}$
 </left>
 <right>
 | l: Bezeichnung | r: Abkürzung | l: Wert |
-| 1 Mikrovolt | 1 μV | 0,000001 V |
-| 1 Millivolt | 1 mV | 0,001 V |
-| 1 Volt | 1 V | 1 V |
+| 1 Mikrovolt | $\qty{1}{\micro\volt}$ | $\qty{0,000001}{\volt}$ |
+| 1 Millivolt | $\qty{1}{\milli\volt}$ | $\qty{0,001}{\volt}$ |
+| 1 Volt | $\qty{1}{\volt}$ | $\qty{1}{\volt}$ |
 [table:spannung_einheitenvorzeichen:Kurzschreibweise für kleine Spannungen]
 </right>
 <note>
@@ -31,15 +31,15 @@ Wiederholung vom Anfang des Kurses:
 ## Große Spannungen
 
 <left>
-* Steckdose: 230 V
-* Elektrostatisch aufgeladene Antenne: 1,5 kV
-* Höchstspannungsleitung: 380 kV
+* Steckdose: $\qty{230}{\volt}$
+* Elektrostatisch aufgeladene Antenne: $\qty{1,5}{\kilo\volt}$
+* Höchstspannungsleitung: $\qty{380}{\kilo\volt}$
 </left>
 <right>
 | l: Bezeichnung | r: Abk. | r: Wert |
-| 1 Kilovolt | 1 kV | 1000 V |
-| 1 Megavolt | 1 MV | 1000000 V |
-| 1 Gigavolt | 1 GV | 1000000000 V |
+| 1 Kilovolt | $\qty{1}{\kilo\volt}$ | $\qty{1000}{\volt}$ |
+| 1 Megavolt | $\qty{1}{\mega\volt}$ | $\qty{1000000}{\volt}$ |
+| 1 Gigavolt | $\qty{1}{\giga\volt}$ | $\qty{1000000000}{\volt}$ |
 [table:n_frequenz_einheitenvorzeichen:Kurzschreibweise für große Spannungen]
 </right>
 <note>

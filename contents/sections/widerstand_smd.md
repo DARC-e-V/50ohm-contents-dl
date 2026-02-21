@@ -12,7 +12,7 @@ Abbildung [ref:e_smd] zeigt einen SMD-Widerstand. Zur Kennzeichnung des Widersta
 [picture:1006:e_smd:SMD-Bauteil]
 </margin>
 
-In unserem Beispiel erhalten wir also: $11 \cdot 10^3$ also $\qty{11000}{\ohm}$ Ohm bzw.$\qty{11}{\kilo\ohm}$.
+In unserem Beispiel erhalten wir also: $11 \cdot 10^3$ also $\qty{11000}{\ohm}$ Ohm bzw. $\qty{11}{\kilo\ohm}$.
 
 [question:EC114]
 [question:EC115]

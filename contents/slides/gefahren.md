@@ -11,8 +11,8 @@
 
 ## Gefährliche Spannung
 
-* Wechselspannung (AC) über 50 V
-* Gleichspannung (DC) über 120 V
+* Wechselspannung (AC) über $\qty{50}{\volt}$
+* Gleichspannung (DC) über $\qty{120}{\volt}$
 * Darunter kommt es zu keinen lebensbedrohlichen Beeinträchtigungen des menschlichen Körpers
 
 <note>
@@ -32,7 +32,7 @@
 <left>
 * Abhängig von Stromstärke und Dauer des Stromflusses
 * Weg durch den Körper
-* Ab 30 mA lebensgefährliche Schäden
+* Ab $\qty{30}{\milli\ampere}$ lebensgefährliche Schäden
 </left>
 <right>
 [picture:681:n_fehlerstrom:Stromschlag / Körperdurchströmung]

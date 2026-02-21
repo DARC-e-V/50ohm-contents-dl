@@ -1,4 +1,4 @@
-Spannungen kann man mit einem Messgerät ermitteln. Dabei ist es sehr wichtig, das Messgerät richtig einzustellen und an den richtigen Stellen zu messen. Spannungen misst man mit einem Spannungsmessgerät. Da Spannungen in *Volt* (V) gemessen werden, ist das Schaltsymbol für ein Spannungsmessgerät ein Kreis mit einem V, wie in Abbildung [ref:n_messgeraete_symbol_spannungsmessgerät] gezeigt.
+Spannungen kann man mit einem Messgerät ermitteln. Dabei ist es sehr wichtig, das Messgerät richtig einzustellen und an den richtigen Stellen zu messen. Spannungen misst man mit einem Spannungsmessgerät. Da Spannungen in *Volt* ($\unit{V}$) gemessen werden, ist das Schaltsymbol für ein Spannungsmessgerät ein Kreis mit einem V, wie in Abbildung [ref:n_messgeraete_symbol_spannungsmessgerät] gezeigt.
 
 <margin>
 [picture:625:n_messgeraete_symbol_spannungsmessgerät:Schaltsymbol Spannungsmessgerät]
@@ -25,14 +25,14 @@ Um Spannungen zu messen, ist am Messgerät die Spannungsmessung auszuwählen. M�
 
 Die meisten Multimeter verfügen über unterschiedliche Messbereiche für kleine und große Spannungen. Da vor dem Messen meist unklar ist, welche Größenordnung zu erwarten ist, sollte man am Anfang immer den größtmöglichen Messbereich wählen, um dem Gerät keinen Schaden zuzufügen. Je nach angezeigtem Messwert wird anschließend auf einen Messbereich für kleinere Werte umgeschaltet.
 
-Verwechselt man Strom- und Spannungsmessung oder überschreitet die Messbereichseinstellung, kann das Messgerät einen Schaden erleiden. Vor der Messung sollte man außerdem an das denken, was wir zu Gefahren von elektrischem Strom gelernt haben: Wechselspannungen größer 50 V und Gleichspannungen größer 120 V können lebensgefährlich sein!
+Verwechselt man Strom- und Spannungsmessung oder überschreitet die Messbereichseinstellung, kann das Messgerät einen Schaden erleiden. Vor der Messung sollte man außerdem an das denken, was wir zu Gefahren von elektrischem Strom gelernt haben: Wechselspannungen größer $\qty{50}{\volt}$ und Gleichspannungen größer $\qty{120}{\volt}$ können lebensgefährlich sein!
 </webtip>
 
 
 [question:NI101] 
 [question:NI103]
 
-Wie wir bereits im Kapitel Strom- und Spannungsversorgung gelernt haben, kann man mehrere Batterien in Serie schalten, um eine höhere Spannung zu erhalten. Dazu wird der Pluspol der einen Batterie mit dem Minuspol der anderen Batterie verbunden. Die beiden Einzelspannungen der Batterie addieren sich dann. Schaltet man hingegen zwei Batterien so in Reihe, dass gleiche Pole miteinander verbunden sind, dann subtrahieren sich die Spannungen. Falls beide Batterien die gleiche Spannung haben, wird man keine Spannung, also 0 V, messen.
+Wie wir bereits im Kapitel Strom- und Spannungsversorgung gelernt haben, kann man mehrere Batterien in Serie schalten, um eine höhere Spannung zu erhalten. Dazu wird der Pluspol der einen Batterie mit dem Minuspol der anderen Batterie verbunden. Die beiden Einzelspannungen der Batterie addieren sich dann. Schaltet man hingegen zwei Batterien so in Reihe, dass gleiche Pole miteinander verbunden sind, dann subtrahieren sich die Spannungen. Falls beide Batterien die gleiche Spannung haben, wird man keine Spannung, also $\qty{0}{\volt}$, messen.
 
 
 [question:NB205]

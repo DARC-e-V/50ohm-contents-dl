@@ -4,7 +4,7 @@ Ein Oszilloskop ist ein Spannungsmessgerät, das den zeitlichen Verlauf von Span
 [photo:212:e_oszilloskop_digital: Oszilloskop mit zahlreichen Zusatzfunktionen]
 </margin>
 
-Betrachten wir die Anzeige des Oszilloskops in Abbildung [ref:e_oszilloskop_bildschirmfoto_sinus] nun etwas genauer. Mit einem Oszilloskop lassen sich beispielsweise die Kenngrößen einer sinusförmigen Wechselspannung ($T$, $\hat{U}$, $U_\text{SS}$ und $U_\text{eff}$) bestimmen. Neben dem Signalverlauf werden eine Zeit- und eine Spannungsangabe eingeblendet – im Beispiel $\qty{50,0}{\nano\second}$ und $\qty{500}{\milli\volt}$. Das bedeutet, dass ein Kästchen in horizontaler Richtung 50 Nanosekunden und in vertikaler Richtung 500 Millivolt entspricht. Diese Kästchen werden oft als Divisionen oder Skalenteile bezeichnet, daher auch die Schreibweise $\qty{500}{\milli\volt\per div}$.
+Betrachten wir die Anzeige des Oszilloskops in Abbildung [ref:e_oszilloskop_bildschirmfoto_sinus] nun etwas genauer. Mit einem Oszilloskop lassen sich beispielsweise die Kenngrößen einer sinusförmigen Wechselspannung ($T$, $\hat{U}$, $U_\text{SS}$ und $U_\text{eff}$) bestimmen. Neben dem Signalverlauf werden eine Zeit- und eine Spannungsangabe eingeblendet – im Beispiel $\qty{50,0}{\nano\second}$ und $\qty{500}{\milli\volt}$. Das bedeutet, dass ein Kästchen in horizontaler Richtung 50 Nanosekunden und in vertikaler Richtung 500 Millivolt entspricht. Diese Kästchen werden oft als Divisionen oder Skalenteile bezeichnet, daher auch die Schreibweise $\qty{500}{\milli\volt\per\oszidiv}$.
 
 <margin>
 [photo:214:e_oszilloskop_bildschirmfoto_sinus:eine sinusförmige Spannung, dargestellt auf einem digitalen Oszilloskop]
@@ -22,7 +22,7 @@ Für einfache Messungen haben viele digitale Oszilloskope eine AUTO-Taste. Wenn 
  
 ---
 
-Sobald die Periodendauer einer Schwingung bekannt ist, lässt sich daraus auch die Frequenz bestimmen. In der Klasse N haben wir bereits den qualitativen Zusammenhang kennengelernt: Die Frequenz gibt die Zahl der Schwingungen pro Sekunde an. Beträgt die Periodendauer eine Sekunde, so ergibt sich eine Frequenz von 1 Hz. Halbieren wir die Periodendauer auf eine halbe Sekunde, passen zwei Schwingungen in eine Sekunde – die Frequenz liegt dann bei 2 Hz.
+Sobald die Periodendauer einer Schwingung bekannt ist, lässt sich daraus auch die Frequenz bestimmen. In der Klasse N haben wir bereits den qualitativen Zusammenhang kennengelernt: Die Frequenz gibt die Zahl der Schwingungen pro Sekunde an. Beträgt die Periodendauer eine Sekunde, so ergibt sich eine Frequenz von $\qty{1}{\hertz}$. Halbieren wir die Periodendauer auf eine halbe Sekunde, passen zwei Schwingungen in eine Sekunde – die Frequenz liegt dann bei $\qty{2}{\hertz}$.
 
 In der Klasse E betrachten wir diesen Zusammenhang nun als Formel:
   
@@ -32,7 +32,7 @@ Die Frequenz in Hertz ist der Kehrwert der Periodendauer in Sekunden.
 
 Das Signal in Abbildung [ref:e_oszilloskop_bildschirmfoto_sinus] hat also die Frequenz
 
-$f = \dfrac{1}{250\text{ ns}} = 4 \text{ MHz}$.
+$f = \dfrac{1}{\qty{250}{\nano\second}} = \qty{4}{\mega\hertz}$.
  
 [question:EB408]
 [question:EB409]
