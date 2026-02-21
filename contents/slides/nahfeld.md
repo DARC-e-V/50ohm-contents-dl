@@ -24,13 +24,13 @@
 
 * Der Übergang ist abhängig von der Wellenlänge
 * Erfüllte Bedingung: $d > \frac{\lambda}{2\pi}$
-* Beispiel: Bei $\lambda = 20\,\text{m}$ liegt der Übergang bei ca. $d \approx 3,18\,\text{m}$
+* Beispiel: Bei $\lambda = \qty{20}{\meter}$ liegt der Übergang bei ca. $d \approx \qty{3,18}{\meter}$
 
 ---
 ### Personenschutzabstände im Fernfeld
 
 * Im Fernfeld kann eine Näherungsformel zur Berechnung von Personenschutzabständen angewendet werden
-* Formel: $d = \dfrac{\sqrt{30\,\Omega\cdot P_{\textrm{EIRP}}}}{E}$
+* Formel: $d = \dfrac{\sqrt{\qty{30}{\ohm}\cdot P_{\textrm{EIRP}}}}{E}$
 * Gilt für die meisten Antennenformen, wenn $d > \frac{\lambda}{2\pi}$ erfüllt ist
 * Bei kleinen Antennen oder Sicherheitsabständen im Nahfeld ist die Formel nicht anwendbar
 

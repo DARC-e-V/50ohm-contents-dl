@@ -6,9 +6,9 @@
 
 <left>
 Eindringtiefe der Strahlung:
-* MHz ca. 10-30 cm
-* GHz wenige cm
-* &gt;10 GHz ca. &lt; 1 mm
+* $\unit{\mega\hertz}$ ca. $\qtyrange{10}{30}{\centi\meter}$
+* $\unit{\giga\hertz}$ wenige $\unit{\centi\meter}$
+* $>\qty{10}{\giga\hertz}$ ca. $<\qty{1}{\milli\meter}$
 </left>
 <right>
 * Resonanz bei $\textrm{Körpergröße} \approx \frac{\lambda}{2}$
@@ -29,24 +29,24 @@ Eindringtiefe der Strahlung:
 
 ---
 ### 6-Minuten-Intervalle
-* Da nicht ständig gesendet wird, Verwendung des quadratischen Mittels der Feldstärke (V/m) über 6 Minuten
+* Da nicht ständig gesendet wird, Verwendung des quadratischen Mittels der Feldstärke ($\unit{\volt\per\meter}$) über 6 Minuten
 * Grenzwerte sind frequenzabhängig
-* z.B. 28 V/m bei 14 MHz
+* z.B. $\qty{28}{\volt\per\meter}$ bei $\qty{14}{\mega\hertz}$
 * Berechnung erfolgt mit Näherungsformel (im nächsten Abschnitt)
 
 ---
 ### Momentaner Spitzenwert
 * Maximaler momentaner Spitzenwert
-* Elektrische Feldstärke in kV/m
-* Grenzwerte sind bis 10 MHz frequenzabhängig
-* z.B. 0,083 kV/m bei 3,5 MHz
+* Elektrische Feldstärke in $\unit{\kilo\volt\per\meter}$
+* Grenzwerte sind bis $\qty{10}{\mega\hertz}$ frequenzabhängig
+* z.B. $\qty{0,083}{\kilo\volt\per\meter}$ bei $\qty{3,5}{\mega\hertz}$
 
 ---
 ### Gepulste Felder
 * Schnelles Ein- und Ausschalten
 * Als Faktor für den momentanen Spitzenwert oder das 6-Minuten-Intervall
 * Grenzwerte sind frequenzabhängig
-* z.B. 32-fache des 6-Minuten-Intervalls bei 14 MHz
+* z.B. 32-fache des 6-Minuten-Intervalls bei $\qty{14}{\mega\hertz}$
 
 ---
 

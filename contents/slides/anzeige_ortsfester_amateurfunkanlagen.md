@@ -1,8 +1,8 @@
-Für ortsfeste Amateurfunkstellen muss das Nachweisverfahren nur dann durchgeführt werden, wenn die Sendeanlage eine Strahlungsleistung von 10 W EIRP oder höher erreicht.
+Für ortsfeste Amateurfunkstellen muss das Nachweisverfahren nur dann durchgeführt werden, wenn die Sendeanlage eine Strahlungsleistung von $\qty{10}{\watt}$ EIRP oder höher erreicht.
 
 <note>
-* Klasse N: 10 m Band mit 10 W ERP
-* 10 W ERP &times; 1,64 = 16,4 W EIRP
+* Klasse N: $\qty{10}{\meter}$-Band mit $\qty{10}{\watt}$ ERP
+* $\qty{10}{\watt}\text{ ERP} \cdot 1,64 = \qty{16,4}{\watt}$ EIRP
 </note>
 
 ---

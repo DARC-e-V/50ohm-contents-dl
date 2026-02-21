@@ -1,6 +1,6 @@
 ## Personenschutzgrenzwerte
 
-* Müssen ab einer EIRP von 10 W nachgewiesen werden
+* Müssen ab einer EIRP von $\qty{10}{\watt}$ nachgewiesen werden
 * Trotz kleiner Leistung kann es einen hohen Antennengewinn geben
 * Dann besteht eine Pflicht zur Nachweisführung
 

@@ -6,7 +6,7 @@
 * Gilt nur im Freiraum <br/> ($d > \frac{\lambda}{2\pi}$)
 </left>
 <right>
-$\begin{split} E &= \dfrac{\sqrt{30\Omega \cdot P_A \cdot G_i}}{d}\\ &= \dfrac{\sqrt{30\Omega \cdot P_{\textrm{EIRP}}}}{d} \end{split}$
+$\begin{split} E &= \dfrac{\sqrt{\qty{30}{\ohm} \cdot P_A \cdot G_i}}{d}\\ &= \dfrac{\sqrt{\qty{30}{\ohm} \cdot P_{\textrm{EIRP}}}}{d} \end{split}$
 </right>
 
 ---
@@ -16,7 +16,7 @@ $\begin{split} E &= \dfrac{\sqrt{30\Omega \cdot P_A \cdot G_i}}{d}\\ &= \dfrac{\
 * Umstellen nach $d$
 </left>
 <right>
-$\begin{split} d &= \dfrac{\sqrt{30\Omega \cdot P_A \cdot G_i}}{E}\\ &= \dfrac{\sqrt{30\Omega \cdot P_{\textrm{EIRP}}}}{E} \end{split}$
+$\begin{split} d &= \dfrac{\sqrt{\qty{30}{\ohm} \cdot P_A \cdot G_i}}{E}\\ &= \dfrac{\sqrt{\qty{30}{\ohm} \cdot P_{\textrm{EIRP}}}}{E} \end{split}$
 </right>
 
 ---
@@ -24,34 +24,34 @@ $\begin{split} d &= \dfrac{\sqrt{30\Omega \cdot P_A \cdot G_i}}{E}\\ &= \dfrac{\
 ---
 ### Lösungsweg
 <left>
-* gegeben: $E = 28\frac{V}{m}$
-* gegeben: $g_d = 7,5dBd$
-* gegeben: $P_S = 100W$
+* gegeben: $E = \qty{28}{\volt\per\meter}$
+* gegeben: $g_d = \qty{7,5}{\dBd}$
+* gegeben: $P_S = \qty{100}{\watt}$
 </left>
 <right>
-* gegeben: $a_{\textrm{Kabel}} = 1,5dB$
+* gegeben: $a_{\textrm{Kabel}} = \qty{1,5}{\dB}$
 * gesucht: $P_{\textrm{EIRP}}$
 * gesucht: $d$
 </right>
 
 <left>
 <fragment>
-$\begin{split} P_{\textrm{EIRP}} &= P_S \cdot 10^{\frac{g_d - a + 2,15dB}{10dB}}\\ &= 100W \cdot 10^{\frac{7,5dB - 1,5dB + 2,15dB}{10dB}}\\ &\approx 100W \cdot 6,5\\ &= 650W \end{split}$
+$\begin{split} P_{\textrm{EIRP}} &= P_S \cdot 10^{\frac{g_d - a + \qty{2,15}{\dB}}{\qty{10}{\dB}}}\\ &= \qty{100}{\watt} \cdot 10^{\frac{\qty{7,5}{\dBd} - \qty{1,5}{\dB} + \qty{2,15}{\dB}}{\qty{10}{\dB}}}\\ &\approx \qty{100}{\watt} \cdot 6,5\\ &= \qty{650}{\watt} \end{split}$
 </fragment>
 </left>
 <right>
 <fragment>
-$\begin{split} d &= \dfrac{\sqrt{30\Omega \cdot P_{\textrm{EIRP}}}}{E}\\ &= \dfrac{\sqrt{30\Omega \cdot 650W}}{28\frac{V}{m}}\\ &\approx 5m \end{split}$
+$\begin{split} d &= \dfrac{\sqrt{\qty{30}{\ohm} \cdot P_{\textrm{EIRP}}}}{E}\\ &= \dfrac{\sqrt{\qty{30}{\ohm} \cdot \qty{650}{\watt}}}{\qty{28}{\volt\per\meter}}\\ &\approx \qty{5}{\meter} \end{split}$
 </fragment>
 </right>
 
 ---
 ### Bonusfrage
 
-Liegen die errechneten 5m nicht im Nahfeld für das 10m-Band aus der Frage?
+Liegen die errechneten $\qty{5}{\meter}$ nicht im Nahfeld für das $\qty{10}{\meter}$-Band aus der Frage?
 
 <fragment>
-$\begin{split} d &> \frac{\lambda}{2\pi}\\ 5m &> \frac{10m}{2\pi}\\ 5m &\gtrapprox 1,6m \end{split}$
+$\begin{split} d &> \frac{\lambda}{2\pi}\\ \qty{5}{\meter} &> \frac{\qty{10}{\meter}}{2\pi}\\ \qty{5}{\meter} &\gtrapprox \qty{1,6}{\meter} \end{split}$
 </fragment>
 
 ---
@@ -61,8 +61,8 @@ $\begin{split} d &> \frac{\lambda}{2\pi}\\ 5m &> \frac{10m}{2\pi}\\ 5m &\gtrappr
 
 * Personenschutz-Sicherheitsabstand gilt nur im Freiraum
 * $d > \frac{\lambda}{2\pi}$
-* 160m-Band: 25,5 m
-* 80m-Band: 12,7 m
+* $\qty{160}{\meter}$-Band: $\qty{25,5}{\meter}$
+* $\qty{80}{\meter}$-Band: $\qty{12,7}{\meter}$
 
 ---
 [question:EK105]

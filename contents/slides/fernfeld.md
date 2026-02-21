@@ -9,12 +9,12 @@
 
 * Die Grenze ist primär abhängig von der Wellenlänge
 * Bei Drahtantennen (z. B. Dipole) bildet sich das Fernfeld typischerweise ab einem Abstand von etwa $4\cdot\lambda$
-* Übergangsbedingung im Nahfeld: $d > \frac{\lambda}{2\pi}$; bei $\lambda = 20\,\text{m}$ ca. $d \approx 3,18\,\text{m}$
+* Übergangsbedingung im Nahfeld: $d > \frac{\lambda}{2\pi}$; bei $\lambda = \qty{20}{\meter}$ ca. $d \approx \qty{3,18}{\meter}$
 
 ---
 ### Anwendung der Fernfeld-Näherungsformel
 
-* Die Näherungsformel $d = \dfrac{\sqrt{30\,\Omega\cdot P_{\textrm{EIRP}}}}{E}$ gilt für die meisten Antennenformen
+* Die Näherungsformel $d = \dfrac{\sqrt{\qty{30}{\ohm} \cdot P_{\textrm{EIRP}}}}{E}$ gilt für die meisten Antennenformen
 * Sie wird angewendet, wenn der berechnete Sicherheitsabstand im strahlenden Nahfeld oder im Fernfeld liegt
 * Die Formel erspart aufwendige Messungen oder Simulationen zur Ermittlung der Personenschutzabstände
 

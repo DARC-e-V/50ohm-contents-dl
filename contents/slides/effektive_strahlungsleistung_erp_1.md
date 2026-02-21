@@ -13,10 +13,10 @@ Bei der Berechnung der Grenzwerte für den Schutzabstand wird die *Hauptstrahlri
 ## Gewinnfaktor
 
 * Wie viel besser eine Antenne in Hauptstrahlrichtung im Vergleich zu einem Halbwellendipol abstrahlt
-* Gewinnfaktor 2: Antenne strahlt in Hauptstrahlrichtung doppelt so stark wie ein Halbwellendipol in seine Hauptstrahlrichtung
+* Gewinnfaktor $\num{2}$: Antenne strahlt in Hauptstrahlrichtung doppelt so stark wie ein Halbwellendipol in seine Hauptstrahlrichtung
 
 <note>
-* Anstelle von Gewinnfaktor wird oft "Gewinn in Dezibel (dB)" angegeben
+* Anstelle von Gewinnfaktor wird oft "Gewinn in Dezibel ($\unit{dB}$)" angegeben
 * Das ist Stoff für die Klasse E
 </note>
 
@@ -26,12 +26,12 @@ Bei der Berechnung der Grenzwerte für den Schutzabstand wird die *Hauptstrahlri
 Sendeleistung zur Antenne multipliziert mit Gewinnfaktor
 
 <fragment>
-Beispiel: 5&nbsp;W auf eine Antenne mit Gewinnfaktor 2 ergibt die effektive Strahlungsleistung von 10&nbsp;W
+Beispiel: $\qty{5}{\watt}$ auf eine Antenne mit Gewinnfaktor $\num{2}$ ergibt die effektive Strahlungsleistung von $\qty{10}{\watt}$
 </fragment>
 
 <note>
 * ERP: (englisch) effective radiated power
-* 9-Element Yagi-Uda kann einen Gewinnfaktor von 10 haben, also 100&nbsp;W Eingangsleistung sind 1000&nbsp;W ERP
+* 9-Element Yagi-Uda kann einen Gewinnfaktor von 10 haben, also $\qty{100}{\watt}$ Eingangsleistung sind $\qty{1000}{\watt}$ ERP
 </note>
 
 ---

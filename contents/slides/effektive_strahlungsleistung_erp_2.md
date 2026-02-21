@@ -18,10 +18,10 @@
 
 ### ERP im Amateurfunk – Praxisbeispiel
 
-* Der Frequenzplan für das 630-m-Band gibt eine maximale ERP von 1 W vor
-* Ein Halbwellendipol hätte bei 630 m eine Länge von 315 m – meist nicht realisierbar, daher werden verkürzte Antennen eingesetzt
-* Verkürzte Antennen haben einen geringeren Wirkungsgrad, z. B. ein Antennengewinn von -20 dBd
-* Leistungsverhältnis: -20 dB entspricht einem Faktor von 0,01; Beispiel: 50 W · 0,01 = 0,5 W ERP
+* Der Frequenzplan für das $\qty{630}{\meter}$-Band gibt eine maximale ERP von $\qty{1}{\watt}$ vor
+* Ein Halbwellendipol hätte bei $\qty{630}{\meter}$ eine Länge von $\qty{315}{\meter}$ – meist nicht realisierbar, daher werden verkürzte Antennen eingesetzt
+* Verkürzte Antennen haben einen geringeren Wirkungsgrad, z. B. ein Antennengewinn von $\qty{-20}{\dBd}$
+* Leistungsverhältnis: $\qty{-20}{\dB}$ entspricht einem Faktor von $\num{0,01}$; Beispiel: $\qty{50}{\watt} \cdot 0,01 = \qty{0,5}{\watt}$ ERP
 
 --- style="font-size: 0.7em;"
 
@@ -30,28 +30,28 @@
 Diese Tabelle ist in der Formelsammlung enthalten und steht während der Prüfung zur Verfügung.
 
 | r:   | r: Leistungsverhältnis | r: Spannungsverhältnis |
-| -20 dB | 0,01 | 0,1 |
-| -10 dB | 0,1 | 0,32 |
-| -6 dB | 0,25 | 0,5 |
-| -3 dB | 0,5 | 0,71 |
-| -1 dB | 0,79 | 0,89 |
-| 0 dB | 1 | 1 |
-| 1 dB | 1,26 | 1,12 |
-| 3 dB | 2 | 1,41 | 
-| 6 dB | 4 | 2 |
-| 10 dB | 10  | 3,16 |
-| 20 dB | 100 | 10 |
+| $\qty{-20}{\dB}$ | $\num{0,01}$ | $\num{0,1}$ |
+| $\qty{-10}{\dB}$ | $\num{0,1}$ | $\num{0,32}$ |
+| $\qty{-6}{\dB}$ | $\num{0,25}$ | $\num{0,5}$ |
+| $\qty{-3}{\dB}$ | $\num{0,5}$ | $\num{0,71}$ |
+| $\qty{-1}{\dB}$ | $\num{0,79}$ | $\num{0,89}$ |
+| $\qty{0}{\dB}$ | $\num{1}$ | $\num{1}$ |
+| $\qty{1}{\dB}$ | $\num{1,26}$ | $\num{1,12}$ |
+| $\qty{3}{\dB}$ | $\num{2}$ | $\num{1,41}$ |
+| $\qty{6}{\dB}$ | $\num{4}$ | $\num{2}$ |
+| $\qty{10}{\dB}$ | $\num{10}$  | $\num{3,16}$ |
+| $\qty{20}{\dB}$ | $\num{100}$ | $\num{10}$ |
 [table:Pegel_Verhältnis:Leistungs- und Spannungsverhältnisse für wichtige Dämpfungs- und Verstärkungswerte]
 
 ---
 [question:AG503]
 ---
 #### Lösungsweg
-* gegeben: $P_S = 50W$
-* gegeben: $a \approx 0W$
-* gegeben: $g_d = -20dBd$
+* gegeben: $P_S = \qty{50}{\watt}$
+* gegeben: $a \approx \qty{0}{\dB}$
+* gegeben: $g_d = \qty{-20}{\dBd}$
 * gesucht: $P_{\textrm{ERP}}$
 
 <fragment>
-$\begin{split} P_{\textrm{ERP}} &= P_S \cdot 10^{\frac{g_d - a}{10dB}}\\ &= 50W \cdot 10^{\frac{-20dBd - 0W}{10dB}}\\ &= 50W \cdot 10^{-2} = 0,5W\end{split}$
+$\begin{split} P_{\textrm{ERP}} &= P_S \cdot 10^{\frac{g_d - a}{\qty{10}{\dB}}}\\ &= \qty{50}{\watt} \cdot 10^{\frac{\qty{-20}{\dBd} - \qty{0}{\dB}}{\qty{10}{\dB}}}\\ &= \qty{50}{\watt} \cdot 10^{-2} = \qty{0,5}{\watt}\end{split}$
 </fragment>

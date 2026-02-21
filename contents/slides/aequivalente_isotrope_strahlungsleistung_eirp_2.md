@@ -12,15 +12,15 @@ Aus Klasse N bekannt:
 $P_{\mathrm{ERP}} = (P_{\mathrm{Sender}} - P_{\mathrm{Verluste}}) \cdot G_{\mathrm{Antenne}}$
 
 <fragment>
-Bei der Rechnung mit dB zu verwenden:
+Bei der Rechnung mit $\unit{\dB}$ zu verwenden:
 
 $P_{\mathrm{ERP}} = P_{\mathrm{Sender}} - a + g_d$
 </fragment>
 
 <fragment>
-Aus der Formelsammlung mit Umwandlung von dB in Leistungsfaktor:
+Aus der Formelsammlung mit Umwandlung von $\unit{\dB}$ in Leistungsfaktor:
 
-$P_{\mathrm{ERP}} = P_{\mathrm{Sender}} \cdot 10^{\frac{g_d - a}{10\mathrm{dB}}}$
+$P_{\mathrm{ERP}} = P_{\mathrm{Sender}} \cdot 10^{\frac{g_d - a}{\qty{10}{\dB}}}$
 </fragment>
 
 ---
@@ -28,18 +28,18 @@ $P_{\mathrm{ERP}} = P_{\mathrm{Sender}} \cdot 10^{\frac{g_d - a}{10\mathrm{dB}}}
 
 Umrechnung ERP zu EIRP:
 
-$P_{\mathrm{EIRP}} = P_{\mathrm{ERP}} + 2,15 \mathrm{dB}$
+$P_{\mathrm{EIRP}} = P_{\mathrm{ERP}} + \qty{2,15}{\dB}$
 
 <fragment>
-Aus der Formelsammlung mit Umwandlung von dB in Leistungsfaktor:
+Aus der Formelsammlung mit Umwandlung von $\unit{\dB}$ in Leistungsfaktor:
 
-$P_{\mathrm{EIRP}} = P_{\mathrm{Sender}} \cdot 10^{\frac{g_d - a + 2,15\mathrm{dB}}{10\mathrm{dB}}}$
+$P_{\mathrm{EIRP}} = P_{\mathrm{Sender}} \cdot 10^{\frac{g_d - a + \qty{2,15}{\dB}}{\qty{10}{\dB}}}$
 </fragment>
 
 <fragment>
-Wenn der Gewinn in dBi angegeben ist:
+Wenn der Gewinn in $\unit{\dBi}$ angegeben ist:
 
-$P_{\mathrm{EIRP}} = P_{\mathrm{Sender}} \cdot 10^{\frac{g_i - a}{10\mathrm{dB}}}$
+$P_{\mathrm{EIRP}} = P_{\mathrm{Sender}} \cdot 10^{\frac{g_i - a}{\qty{10}{\dB}}}$
 </fragment>
 
 ---
@@ -49,19 +49,19 @@ $P_{\mathrm{EIRP}} = P_{\mathrm{Sender}} \cdot 10^{\frac{g_i - a}{10\mathrm{dB}}
 ---
 ## Ortsfeste Amateurfunkanlage
 
-Eine ortsfeste Amateurfunkanlage ist nach § 9 BEMFV bei der BNetzA anzuzeigen, wenn eine Strahlungsleistung von 10 W EIRP überschritten wird.
+Eine ortsfeste Amateurfunkanlage ist nach § 9 BEMFV bei der BNetzA anzuzeigen, wenn eine Strahlungsleistung von $\qty{10}{\watt}$ EIRP überschritten wird.
 ---
 [question:EG503]
 --- style="font-size: smaller;"
 ### Lösungsweg
 
-* gegeben: $P_{\mathrm{Sender}} = 250mW$
-* gegeben: $g_i = 26\mathrm{dB}$
-* gegeben: $a = 0$
+* gegeben: $P_{\mathrm{Sender}} = \qty{250}{\milli\watt}$
+* gegeben: $g_i = \qty{26}{\dBi}$
+* gegeben: $a = \qty{0}{\dB}$
 * gesucht: $P_{\mathrm{EIRP}}$
 
 <fragment>
-$\begin{split} P_{\mathrm{EIRP}} &= P_{\mathrm{Sender}} \cdot 10^{\frac{g_i - a}{10\mathrm{dB}}}\\ &= 250mW \cdot 10^{\frac{26\mathrm{dB}}{10\mathrm{dB}}}\\ &= 250mW \cdot 398\\ &\approx 100W \end{split}$
+$\begin{split} P_{\mathrm{EIRP}} &= P_{\mathrm{Sender}} \cdot 10^{\frac{g_i - a}{\qty{10}{\dB}}}\\ &= \qty{250}{\milli\watt} \cdot 10^{\frac{\qty{26}{\dBi}}{\qty{10}{\dB}}}\\ &= \qty{250}{\milli\watt} \cdot 398\\ &\approx \qty{100}{\watt} \end{split}$
 </fragment>
 
 ---
@@ -75,13 +75,13 @@ $\begin{split} P_{\mathrm{EIRP}} &= P_{\mathrm{Sender}} \cdot 10^{\frac{g_i - a}
 --- style="font-size: smaller;"
 ### Lösungsweg
 
-* gegeben: $P_{\mathrm{EIRP}} = 10W$
-* gegeben: $g_i = 5,15\mathrm{dB}$
-* gegeben: $a = 0$
+* gegeben: $P_{\mathrm{EIRP}} = \qty{10}{\watt}$
+* gegeben: $g_i = \qty{5,15}{\dBi}$
+* gegeben: $a = \qty{0}{\dB}$
 * gesucht: $P_{\mathrm{Sender}}$
 
 <fragment>
-$\begin{split} P_{\mathrm{EIRP}} &= P_{\mathrm{Sender}} \cdot 10^{\frac{g_i - a}{10\mathrm{dB}}}\\ \Rightarrow P_{\mathrm{Sender}} &= \dfrac{P_{\mathrm{EIRP}}}{10^{\frac{g_i - a}{10\mathrm{dB}}}}\\ &= \dfrac{10W}{10^{\frac{5,15\mathrm{dB}}{10\mathrm{dB}}}}\\ &\approx \frac{10W}{3,27} \approx 3W \end{split}$
+$\begin{split} P_{\mathrm{EIRP}} &= P_{\mathrm{Sender}} \cdot 10^{\frac{g_i - a}{\qty{10}{\dB}}}\\ \Rightarrow P_{\mathrm{Sender}} &= \dfrac{P_{\mathrm{EIRP}}}{10^{\frac{g_i - a}{\qty{10}{\dB}}}}\\ &= \dfrac{\qty{10}{\watt}}{10^{\frac{\qty{5,15}{\dBi}}{\qty{10}{\dB}}}}\\ &\approx \frac{\qty{10}{\watt}}{3,27} \approx \qty{3}{\watt} \end{split}$
 </fragment>
 
 <note>
@@ -91,20 +91,20 @@ Es führen mehrere Wege zum Ziel.  So kann auch mit Logarithmen direkt gerechnet
 [question:EG505]
 
 <note>
-Gewinn: 10dB, also auch Faktor 10
+Gewinn: $\qty{10}{\dB}$, also auch Faktor $\num{10}$
 </note>
 ---
 [question:EG507]
 
 <note>
-* 10 dB Verlust ist Faktor 10, also kommen an der Antenne 10 W ERP an
-* Faktor ERP zu EIRP ist 1,64
+* $\qty{10}{\dB}$ Verlust ist Faktor $\num{10}$, also kommen an der Antenne $\qty{10}{\watt}$ ERP an
+* Faktor ERP zu EIRP ist $\num{1,64}$
 </note>
 ---
 [question:EG506]
 
 <note>
-* Der Gewinn des Dipols von 2,15 dB gleicht die Kabelverluste exakt aus
+* Der Gewinn des Dipols von $\qty{2,15}{\dBi}$ gleicht die Kabelverluste exakt aus
 </note>
 ---
 
@@ -115,13 +115,13 @@ Gewinn: 10dB, also auch Faktor 10
 ---
 ### Lösungsweg
 
-* gegeben: $P_{\mathrm{Sender}} = 5W$
-* gegeben: $g_d = 5\mathrm{dB}$
-* gegeben: $a = 2\mathrm{dB}$
+* gegeben: $P_{\mathrm{Sender}} = \qty{5}{\watt}$
+* gegeben: $g_d = \qty{5}{\dBd}$
+* gegeben: $a = \qty{2}{\dB}$
 * gesucht: $P_{\mathrm{EIRP}}$
 
 <fragment>
-$\begin{split} P_{\mathrm{EIRP}} &= P_{\mathrm{Sender}} \cdot 10^{\frac{g_d - a + 2,15\mathrm{dB}}{10\mathrm{dB}}}\\ &= 5W \cdot 10^{\frac{5\mathrm{dB} - 2\mathrm{dB} + 2,15\mathrm{dB}}{10\mathrm{dB}}}\\ &= 5W \cdot 3,27\\ &\approx 16,4W \end{split}$
+$\begin{split} P_{\mathrm{EIRP}} &= P_{\mathrm{Sender}} \cdot 10^{\frac{g_d - a + \qty{2,15}{\dB}}{\qty{10}{\dB}}}\\ &= \qty{5}{\watt} \cdot 10^{\frac{\qty{5}{\dBd} - \qty{2}{\dB} + \qty{2,15}{\dB}}{\qty{10}{\dB}}}\\ &= \qty{5}{\watt} \cdot 3,27\\ &\approx \qty{16,4}{\watt} \end{split}$
 </fragment>
 
 ---
