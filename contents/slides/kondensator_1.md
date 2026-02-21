@@ -6,7 +6,7 @@
 $C = \dfrac{Q}{U}$
 
 * mit $Q$ als elektrische Ladung
-* Einheit: $\frac{As}{V}$ bzw. Farad $F$
+* Einheit: $\unit{\ampere\second\per\volt}$ bzw. Farad $\unit{\farad}$
 * Die Kapazität ist die elektrische Ladung pro Volt
 
 <note>
@@ -26,7 +26,7 @@ $C = \dfrac{\varepsilon_0 \cdot \varepsilon_r \cdot A}{d}$
 * &rarr; Kapazität ist größer bei größerer Fläche, kleinem Abstand oder anderem Dielektrikum
 </left>
 <right>
-* $\varepsilon_0 = 0,855 \cdot 10^{-11}\frac{As}{Vm}$: elektrische Feldkonstante
+* $\varepsilon_0 = \qty{0,855e-11}{\ampere\second\per\volt\meter}$: elektrische Feldkonstante
 * $\varepsilon_r$: relative Dielektrizitätszahl, abhängig vom Dielektrikum (ohne Einheit)
 * $A$: Fläche der Kondensatorplatten
 * $d$: Abstand der Platten

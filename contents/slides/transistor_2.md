@@ -49,17 +49,17 @@ Höherer Faktor benötigt kleineren Basistrom zur Steuerung eines größeren Kol
 * Für die Spannung an $R_1$ muss der Transistorverlust abgezogen werden
 
 ---
-* gegeben: $U = 12V$
-* gegeben: $I_{\textrm{C}} = 5mA$
+* gegeben: $U = \qty{12}{\volt}$
+* gegeben: $I_{\textrm{C}} = \qty{5}{\milli\ampere}$
 * gegeben: $B = 298$
-* gegeben: $U_{\textrm{BE}} = 0,6V$
+* gegeben: $U_{\textrm{BE}} = \qty{0,6}{\volt}$
 * gesucht: $R_1$
 
 <fragment>
-$B = \frac{I_{\textrm{C}}}{I_{\textrm{B}}} \Rightarrow I_{\textrm{B}} = \frac{I_{\textrm{C}}}{B} = \frac{5mA}{298} = 16,779\mu A$
+$B = \frac{I_{\textrm{C}}}{I_{\textrm{B}}} \Rightarrow I_{\textrm{B}} = \frac{I_{\textrm{C}}}{B} = \frac{\qty{5}{\milli\ampere}}{298} = \qty{16,779}{\micro\ampere}$
 </fragment>
 <fragment>
-$R_1 = \frac{U-U_{\textrm{BE}}}{I_{\textrm{B}}} = \frac{12V - 0,6V}{16,779\mu A} \approx 680k\Omega$
+$R_1 = \frac{U-U_{\textrm{BE}}}{I_{\textrm{B}}} = \frac{\qty{12}{\volt} - \qty{0,6}{\volt}}{\qty{16,779}{\micro\ampere}} \approx \qty{680}{\kilo\ohm}$
 </fragment>
 
 <note>
@@ -87,27 +87,27 @@ Kollektorstrom hängt exponentiell von der Basis-Emitter-Spannung ab; Toleranz d
 --- style="font-size: smaller;"
 #### Lösungsweg
 <left>
-* gegeben: $U = 10V$
-* gegeben: $I_{\textrm{C}} = 2mA$
+* gegeben: $U = \qty{10}{\volt}$
+* gegeben: $I_{\textrm{C}} = \qty{2}{\milli\ampere}$
 * gegeben: $B = 200$
 </left>
 <right>
-* gegeben: $U_{\textrm{R2}} = 0,6$
+* gegeben: $U_{\textrm{R2}} = \qty{0,6}{\volt}$
 * gegeben: $I_{\textrm{R2}} = 10 \cdot I_{\textrm{B}}$
 * gesucht: $R_1$
 </right>
 
 <fragment>
-$B = \frac{I_{\textrm{C}}}{I_{\textrm{B}}} \Rightarrow I_{\textrm{B}} = \frac{I_{\textrm{C}}}{B} = \frac{2mA}{200} = 10\mu A$
+$B = \frac{I_{\textrm{C}}}{I_{\textrm{B}}} \Rightarrow I_{\textrm{B}} = \frac{I_{\textrm{C}}}{B} = \frac{\qty{2}{\milli\ampere}}{200} = \qty{10}{\micro\ampere}$
 </fragment>
 <fragment>
-$U_{\textrm{R1}} = U - U_{\textrm{R2}} = 10V - 0,6V = 9,4V$
+$U_{\textrm{R1}} = U - U_{\textrm{R2}} = \qty{10}{\volt} - \qty{0,6}{\volt} = \qty{9,4}{\volt}$
 </fragment>
 <fragment>
-$I_{\textrm{R1}} = I_{\textrm{B}} + I_{\textrm{R2}} = I_{\textrm{B}} + 10 \cdot I_{\textrm{B}} = 110\mu A$
+$I_{\textrm{R1}} = I_{\textrm{B}} + I_{\textrm{R2}} = I_{\textrm{B}} + 10 \cdot I_{\textrm{B}} = \qty{110}{\micro\ampere}$
 </fragment>
 <fragment>
-$R_1 = \frac{U_{\textrm{R1}}}{I_{\textrm{R1}}} = \frac{9,4V}{110\mu A} \approx 85,5k\Omega$
+$R_1 = \frac{U_{\textrm{R1}}}{I_{\textrm{R1}}} = \frac{\qty{9,4}{\volt}}{\qty{110}{\micro\ampere}} \approx \qty{85,5}{\kilo\ohm}$
 </fragment>
 
 ---
@@ -121,31 +121,31 @@ $R_1 = \frac{U_{\textrm{R1}}}{I_{\textrm{R1}}} = \frac{9,4V}{110\mu A} \approx 8
 
 --- style="font-size: smaller;"
 <left>
-* gegeben: $U = 10V$
-* gegeben: $I_{\textrm{C}} = 2mA$
+* gegeben: $U = \qty{10}{\volt}$
+* gegeben: $I_{\textrm{C}} = \qty{2}{\milli\ampere}$
 * gegeben: $B = 200$
 </left>
 <right>
-* gegeben: $U_{\textrm{BE}} = 0,6V$
-* gegeben: $U_{\textrm{RE}} = 1V$
+* gegeben: $U_{\textrm{BE}} = \qty{0,6}{\volt}$
+* gegeben: $U_{\textrm{RE}} = \qty{1}{\volt}$
 * gegeben: $I_{\textrm{R2}} = 10 \cdot I_{\textrm{B}}$
 </right>
 * gesucht: $R_1$
 
 <fragment>
-$B = \frac{I_{\textrm{C}}}{I_{\textrm{B}}} \Rightarrow I_{\textrm{B}} = \frac{I_{\textrm{C}}}{B} = \frac{2mA}{200} = 10\mu A$
+$B = \frac{I_{\textrm{C}}}{I_{\textrm{B}}} \Rightarrow I_{\textrm{B}} = \frac{I_{\textrm{C}}}{B} = \frac{\qty{2}{\milli\ampere}}{200} = \qty{10}{\micro\ampere}$
 </fragment>
 <fragment>
-$U_{\textrm{R2}} = U_{\textrm{BE}} + U_{R_{\textrm{E}}} = 0,6V + 1V = 1,6V$
+$U_{\textrm{R2}} = U_{\textrm{BE}} + U_{R_{\textrm{E}}} = \qty{0,6}{\volt} + \qty{1}{\volt} = \qty{1,6}{\volt}$
 </fragment>
 <fragment>
-$U_{\textrm{R1}} = U - U_{\textrm{R2}} = 10V - 1,6V = 8,4V$
+$U_{\textrm{R1}} = U - U_{\textrm{R2}} = \qty{10}{\volt} - \qty{1,6}{\volt} = \qty{8,4}{\volt}$
 </fragment>
 <fragment>
-$I_{\textrm{R1}} = I_{\textrm{B}} + I_{\textrm{R2}} = I_{\textrm{B}} + 10 \cdot I_{\textrm{B}} = 110\mu A$
+$I_{\textrm{R1}} = I_{\textrm{B}} + I_{\textrm{R2}} = I_{\textrm{B}} + 10 \cdot I_{\textrm{B}} = \qty{110}{\micro\ampere}$
 </fragment>
 <fragment>
-$R_1 = \frac{U_{\textrm{R1}}}{I_{\textrm{R1}}} = \frac{8,4V}{110\mu A} \approx 76,4k\Omega$
+$R_1 = \frac{U_{\textrm{R1}}}{I_{\textrm{R1}}} = \frac{\qty{8,4}{\volt}}{\qty{110}{\micro\ampere}} \approx \qty{76,4}{\kilo\ohm}$
 </fragment>
 
 ---
@@ -165,7 +165,7 @@ $R_1 = \frac{U_{\textrm{R1}}}{I_{\textrm{R1}}} = \frac{8,4V}{110\mu A} \approx 7
 * $R_2$ ist stromlos &rarr; Basis ist über $R_1$ ist mit der Betriebsspannung verbunden
 * Aufgrund der Dimensionierung ist der Basisstrom nun 11-fach höher als geplant
 * Kollektorstrom wird stark ansteigen &rarr; Spannungsabfall an $R_{\textrm{C}}$ steigt stark
-* $U_{\textrm{CE}}$ sinkt auf den Sättigungswert von ca. 0,1V
+* $U_{\textrm{CE}}$ sinkt auf den Sättigungswert von ca. $\qty{0,1}{\volt}$
 
 ---
 ## Feldeffekttransistor (FET)
@@ -246,16 +246,16 @@ MOSFET: metal oxide semiconductor FET
 #### Lösungsweg
 
 <left>
-* gegeben: $U_{\textrm{B}} = 44V$
-* gegeben: $R_1 = 10k\Omega$
-* gegeben: $R_2 = 1k\Omega$
-* gegeben: $R_3 = 2,2k\Omega$
+* gegeben: $U_{\textrm{B}} = \qty{44}{\volt}$
+* gegeben: $R_1 = \qty{10}{\kilo\ohm}$
+* gegeben: $R_2 = \qty{1}{\kilo\ohm}$
+* gegeben: $R_3 = \qty{2,2}{\kilo\ohm}$
 * gesucht: $U_{\textrm{GS}}$
 * Ansatz: Unbelasteter Spannungsteiler über $R_1$ und $R_2$, mit $U_{\textrm{GS}} = U_{\textrm{R2}}$
 </left>
 <right>
 <fragment>
-$\begin{split} \frac{U_{\textrm{R2}}}{U_{\textrm{B}}} &= \frac{R_2}{R_1+R_2}\\ \Rightarrow U_{\textrm{R2}} &= \frac{R_2}{R_1+R_2} \cdot U_{\textrm{G}}\\ &= \frac{1k\Omega}{10k\Omega+1k\Omega} \cdot 44V\\ &= \frac{1}{11} \cdot 44V = 4V \end{split}$
+$\begin{split} \frac{U_{\textrm{R2}}}{U_{\textrm{B}}} &= \frac{R_2}{R_1+R_2}\\ \Rightarrow U_{\textrm{R2}} &= \frac{R_2}{R_1+R_2} \cdot U_{\textrm{G}}\\ &= \frac{\qty{1}{\kilo\ohm}}{\qty{10}{\kilo\ohm}+\qty{1}{\kilo\ohm}} \cdot \qty{44}{\volt}\\ &= \frac{1}{11} \cdot \qty{44}{\volt} = \qty{4}{\volt} \end{split}$
 </fragment>
 </right>
 
@@ -265,16 +265,16 @@ $\begin{split} \frac{U_{\textrm{R2}}}{U_{\textrm{B}}} &= \frac{R_2}{R_1+R_2}\\ \
 #### Lösungsweg
 
 <left>
-* gegeben: $U_{\textrm{B}} = 44V$
-* gegeben: $R_1 = 10k\Omega$
-* gegeben: $R_3 = 2,2k\Omega$
-* gegeben: $U_{\textrm{GS}} = U_{\textrm{R2}} = 2,8V$
+* gegeben: $U_{\textrm{B}} = \qty{44}{\volt}$
+* gegeben: $R_1 = \qty{10}{\kilo\ohm}$
+* gegeben: $R_3 = \qty{2,2}{\kilo\ohm}$
+* gegeben: $U_{\textrm{GS}} = U_{\textrm{R2}} = \qty{2,8}{\volt}$
 * gegeben: $U_{\textrm{B}} = U_{\textrm{R1}} + U_{\textrm{R2}}$
 * gesucht: $R_2$
 </left>
 <right>
 <fragment>
-$\begin{split} \frac{U_{\textrm{R1}}}{U_{\textrm{R2}}} &= \frac{R_1}{R_2}\\ \Rightarrow R_2 &= R_1 \cdot \frac{U_{\textrm{R2}}}{U_{\textrm{R1}}}\\ &= R_1 \cdot \frac{U_{\textrm{R2}}}{U_{\textrm{B}}-U_{\textrm{GS}}}\\ &= 10k\Omega \cdot \frac{2,8V}{44V-2,8V}\\ &\approx 680\Omega \end{split}$
+$\begin{split} \frac{U_{\textrm{R1}}}{U_{\textrm{R2}}} &= \frac{R_1}{R_2}\\ \Rightarrow R_2 &= R_1 \cdot \frac{U_{\textrm{R2}}}{U_{\textrm{R1}}}\\ &= R_1 \cdot \frac{U_{\textrm{R2}}}{U_{\textrm{B}}-U_{\textrm{GS}}}\\ &= \qty{10}{\kilo\ohm} \cdot \frac{\qty{2,8}{\volt}}{\qty{44}{\volt}-\qty{2,8}{\volt}}\\ &\approx \qty{680}{\ohm} \end{split}$
 </fragment>
 </right>
 ---
@@ -282,12 +282,12 @@ $\begin{split} \frac{U_{\textrm{R1}}}{U_{\textrm{R2}}} &= \frac{R_1}{R_2}\\ \Rig
 ---
 #### Lösungsweg
 
-* gegeben: $R_{\textrm{DSon}} = 4m\Omega$
-* gegeben: $I = 25A$
+* gegeben: $R_{\textrm{DSon}} = \qty{4}{\milli\ohm}$
+* gegeben: $I = \qty{25}{\ampere}$
 * gesucht: $P$
 
 <fragment>
-$P = I^2 \cdot R = 25^2A \cdot 4m\Omega = 2,5W$
+$P = I^2 \cdot R = (\qty{25}{\ampere})^2 \cdot \qty{4}{\milli\ohm} = \qty{2,5}{\watt}$
 </fragment>
 
 <note>

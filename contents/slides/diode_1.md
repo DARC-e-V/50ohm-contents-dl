@@ -25,11 +25,11 @@
 * Je nach Basis des chemischen Elements ist die Schwellenspannung unterschiedlich hoch
 </left>
 <right>
-* Germanium: 0,2 V-0,4 V
-* Silizium: 0,6 V-0,8 V
-* LED (Rot): 1,6 V-2,2 V
-* LED (Gelb, Grün): 1,9 V-2,5 V
-* LED (Blau, Weiß): 2,7 V-3,5 V
+* Germanium: $\qtyrange{0,2}{0,4}{\volt}$
+* Silizium: $\qtyrange{0,6}{0,8}{\volt}$
+* LED (Rot): $\qtyrange{1,6}{2,2}{\volt}$
+* LED (Gelb, Grün): $\qtyrange{1,9}{2,5}{\volt}$
+* LED (Blau, Weiß): $\qtyrange{2,7}{3,5}{\volt}$
 </right>
 
 ---
@@ -39,7 +39,7 @@
 ## Schottky-Diode
 
 * Erlaubt eine hohe Schaltfrequenz
-* Nur eine sehr niedrige Schwellenspannung von 0,4 V bis unter 0,1 V ist nötig
+* Nur eine sehr niedrige Schwellenspannung von $\qty{0,4}{\volt}$ bis unter $\qty{0,1}{\volt}$ ist nötig
 
 ---
 [question:EC504]
@@ -62,7 +62,7 @@
 <left>
 * Eine Diode leitet immer dann, wenn die Spannung an der Anode um die Schwellenspannung positiver ist als an der Kathode
 * Gilt auch für negative Spannungen
-* In der Prüfung kommen nur Siliziumdioden mit 0,7 V Schwellenspannung vor
+* In der Prüfung kommen nur Siliziumdioden mit $\qty{0,7}{\volt}$ Schwellenspannung vor
 </left>
 <right>
 [picture:113:e_leitende_siliziumdiode:Spannungen an einer leitenden Siliziumdiode]
@@ -117,8 +117,8 @@
 ## Z-Diode
 
 <left>
-* Normalerweise liegt die maximale Sperrspannung einer Diode bei ca. 1000 V
-* Bei Z-Dioden erfolgt ein Spannungsdurchbruch je nach Bauart zwischen 3 V und 100 V
+* Normalerweise liegt die maximale Sperrspannung einer Diode bei ca. $\qty{1000}{\volt}$
+* Bei Z-Dioden erfolgt ein Spannungsdurchbruch je nach Bauart zwischen $\qty{3}{\volt}$ und $\qty{100}{\volt}$
 * Dienen zur Spannungsstabilisierung
 </left>
 <right>
@@ -156,8 +156,8 @@
 </left>
 <right>
 * $U_Z$ ist die Spannung, auf die die Z-Diode stabiliert
-* $U_V = U_1 - U_Z = 13,8\,V - 5\,V = 8,8\,V$
-* $R_V = \frac{U_V}{I} = \frac{8,8\,V}{30\,mA} \approx 293\,\Omega$
+* $U_V = U_1 - U_Z = \qty{13,8}{\volt} - \qty{5}{\volt} = \qty{8,8}{\volt}$
+* $R_V = \frac{U_V}{I} = \frac{\qty{8,8}{\volt}}{\qty{30}{\milli\ampere}} \approx \qty{293}{\ohm}$
 </right>
 ---
 [question:EC521]

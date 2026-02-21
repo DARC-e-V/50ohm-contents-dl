@@ -9,7 +9,7 @@ MERKE: Kondensatooor, Strom eilt vooor!
 [photo:268:a_I eilt vor:Phasenverschiebung am Kondensator zwischen Spannung und Strom]
 </margin>
 
-[picture:943:a_Blindleistung Kondensator:Das Produkt von U * I ergibt die grüne Leistungskurve]
+[picture:943:a_Blindleistung Kondensator:Das Produkt von $U \cdot I$ ergibt die grüne Leistungskurve]
 Die Phasenverschiebung zwischen Spannung und Strom beträgt 90 Grad, wobei der Strom voreilend ist.
 Daraus ergibt sich eine Leistungskurve, die um die Nulllinie symmetrisch schwankt. Der Mittelwert ergibt Null, d.h. es wird keine Wirkleistung aufgenommen.
 Wir sprechen deshalb auch bei einem verlustfreien Kondensator von Blindleistung und Blindwiderstand.
@@ -27,13 +27,13 @@ Wird ein Kondensator an Wechselspannung angeschlossen, dann fließt ein Wechsels
 1. Wenn die Frequenz der Wechselspannung an einem Kondesator erhöht wird, dann fließt mehr Strom, dies bedeutet, der kapazitive Blindwiderstand ist kleiner geworden. 
 2. Wenn die Kapazität des Kondensators erhöht wird, dann steigt auch der Strom, d.h. der Blindwiderstand wird auch kleiner. 
 Daraus ergibt sich die Berechnungsformel:
-$X_C = \frac{1}{\omega \cdot C} = \frac{1}{{2\pi \cdot f \cdot C}}\\ $
+$X_C = \frac{1}{\omega \cdot C} = \frac{1}{{2\pi \cdot f \cdot C}}$
 
 (siehe Formelsammlung Seite 236 links unten:  Stichwort: Kapazitiver Blindwiderstand)
 Moderne, kostengünstige Messgeräte, die  Funkamateure heutzutage gerne einsetzen, sind Antennenanalyzer oder vektoriellen Network Analyzer (VNA). Sie messen die Veränderung des Blindwiderstandes $X_C$ in Abhängigkeit der Frequenz und können das Messergebnis auch grafisch darstellen.
 
 [photo:248:a_kapazitiver Blindwiderstand:Kapazitiver Blindwiderstand $X_C$]
-Das Abbildung [ref:a_kapazitiver Blindwiderstand] zeigt die Veränderung des kapazitiven Blindwiderstandes (blaue Linie) eines 1500 pF Styroflexkondensators im Frequenzbereich von 1 MHz bis 4,5 MHz. Die rote Linie stellt die Phasenlage des kapazitiven Blindwiderstandes bei nahezu konstanten  - 90 Grad dar.
+Das Abbildung [ref:a_kapazitiver Blindwiderstand] zeigt die Veränderung des kapazitiven Blindwiderstandes (blaue Linie) eines $\qty{1500}{\pico\farad}$ Styroflexkondensators im Frequenzbereich von $\qtyrange{1}{4,5}{\mega\hertz}$. Die rote Linie stellt die Phasenlage des kapazitiven Blindwiderstandes bei nahezu konstanten $\qty{-90}{\degree}$ dar.
 
 [question:AC102]
 Die blaue Linie von Abbildung [ref:a_kapazitiver Blindwiderstand] hilft zur Lösung.
@@ -43,25 +43,26 @@ Die blaue Linie von Abbildung [ref:a_kapazitiver Blindwiderstand] hilft zur Lös
 <tip>
 Kennt man den kapazitiven Blindwiderstand und die Frequenz der Wechselspannung, dann kann auch die Kapazität des Kondensators berechnet werden. 
 Betrachten wir das Beispiel genauer und verwenden die Formel:
-$X_C = \frac{1}{\omega \cdot C} = \frac{1}{{2\pi \cdot f \cdot C}}\\ $
+$X_C = \frac{1}{\omega \cdot C} = \frac{1}{{2\pi \cdot f \cdot C}}$
 umgestellt nach C:
-$C =\frac{1}{{2\pi \cdot f \cdot X_C}}\\$ 
+$C =\frac{1}{{2\pi \cdot f \cdot X_C}}$
 mit eingesetzten Werten aus der Abbildung [ref:a_kapazitiver Blindwiderstand]: 
 
-$X_C$ = 50 Ohm bei 2 MHz
-C =$\frac{1}{6,28 * {2*10^6} * 50}$
+$X_C = \qty{50}{\ohm} \text{ bei } \qty{2}{\mega\hertz}$
+$C = \frac{1}{6,28 \cdot 2 \cdot 10^6 \cdot 50}$
 Bei der Berechnung mit dem Taschenrechner ist die Zehnerpotenz für Megahertz einzugeben.
-Das Ergebnis lautet: 0,000000001592 F
-C = 1592 pF
+Das Ergebnis lautet: $\qty{0,000000001592}{\farad}$
+$C = \qty{1592}{\pico\farad}$
 </tip>
 
 [question:AC104]
 Bei den folgenden Berechnungen von $X_C$ müssen immer die Zehnerpotenzen beachtet werden.
 Die Berechnungsformel lautet: $X_C = \frac{1}{\omega \cdot C} = \frac{1}{{2\pi \cdot f \cdot C}}\\ $
-Folgende Werte müssen eingesetzt werden: 10 pF = $10 * {10^{-12}}$ und 100 MHz = ${100 * {10^6}}$
+Folgende Werte müssen eingesetzt werden: $\qty{10}{\pico\farad} = \qty{10e-12}{\hertz}$ und $\qty{100}{\mega\hertz} = \qty{100e6}{\hertz}$
 Berechnen sie schrittweise, wenn sie unsicher sind.
-Beispiel: 6,28 * 10 * 100 = 6280; $10^{-12} * {10^6}$ = $ {10^{-6}}$
-$6280 * 10^{-6} = 0,00628$; 1/0,00628 = 159
+Beispiel:
+
+$\begin{split} 6,28 \cdot 10 \cdot 100 &= 6280 \\ 10^{-12} \cdot 10^6 &= 10^{-6} \\ \num{6280} \cdot 10^{-6} &= \num{0,00628} \\ 1/\num{0,00628} &= \num{159} \end{split}$
 
 Bei den folgenden Fragen verwenden sie die gleiche Formel und ändern nur die eingesetzten Werte.
 [question:AC105]
@@ -71,16 +72,16 @@ Bei den folgenden Fragen verwenden sie die gleiche Formel und ändern nur die ei
 [question:AC107]
 
 Berechnung der Kapazität aus $X_C$ und der Frequenz:
-Formel: $C =\frac{1}{{2\pi \cdot f \cdot X_C}}\\$
+Formel: $C = \frac{1}{2\pi \cdot f \cdot X_C}$
 (Siehe auch das Rechenbeispiel zum Styroflexkondensator)
 
 [question:AC108]
-Zuerst muss $X_C$ berechnet werden: $X_C$= 16 V / 32 mA = 0,5 kOhm
-Danach die Formel für C anwenden: C =$\frac{1}{6,28 * 50 * 500}$
-Im Ergebnis taucht die Zehnerpotenz  $10^{-6}$ auf, die in eine Vorslbe umgewandelt werden muss.
+Zuerst muss $X_C$ berechnet werden: $X_C = \qty{16}{\volt} / \qty{32}{\milli\ampere} = \qty{500}{\ohm}$
+Danach die Formel für $C$ anwenden: $C = \frac{1}{6,28 \cdot \qty{50}{\hertz} \cdot \qty{500}{\ohm}}$
+Im Ergebnis taucht die Zehnerpotenz  $10^{-6}$ auf, die in eine Vorsilbe umgewandelt werden muss.
 
 *Kondensatorverluste*
-Die vielfältigen Kondensatorarten unterscheiden sich auch hinsichtlich ihrer unerwünschten Verluste bei der Belastung durch Hochfrequenzströme. Die technische Beurteilung geschieht über den Begriff der Güte Q (Quality) und dem sogenannten   tan "delta".
+Die vielfältigen Kondensatorarten unterscheiden sich auch hinsichtlich ihrer unerwünschten Verluste bei der Belastung durch Hochfrequenzströme. Die technische Beurteilung geschieht über den Begriff der Güte $Q$ (Quality) und dem sogenannten   tan "delta".
 
 ---
 [photo:259:a_tan delta:tan "delta" verschiedener Kondensatorarten]
@@ -108,9 +109,9 @@ In linear geregelten Netzteilen und in Schaltnetzteilen müssen Elektrolytkonden
 |*Zusammenfassung Kondensator 2*|
 |*MERKE: Kondensatooor, Strom eilt vooor!*|
 |Formel Seite 236| 
-| $X_C = \frac{1}{\omega \cdot C} = \frac{1}{{2\pi \cdot f \cdot C}}\\ $|
+| $X_C = \frac{1}{\omega \cdot C} = \frac{1}{{2\pi \cdot f \cdot C}}$|
 | Umgestellt nach C:|
-| $C =\frac{1}{{2\pi \cdot f \cdot X_C}}\\$|
+| $C =\frac{1}{{2\pi \cdot f \cdot X_C}}$|
 |Hohe Kondensatorverluste bewirken: |
 |niedrige Güte; großer tan "delta"; großer ESR|
 [table:a_Kondensator 2 Zusammenfassung:Zusammenfassung Kondensatorblindwiderstand und Güte]
@@ -119,17 +120,17 @@ In linear geregelten Netzteilen und in Schaltnetzteilen müssen Elektrolytkonden
    *MERKE: Kondensatooor, Strom eilt vooor!*
   
  Formel Seite 236
- $X_C = \frac{1}{\omega \cdot C} = \frac{1}{{2\pi \cdot f \cdot C}}\\ $
+ $X_C = \frac{1}{\omega \cdot C} = \frac{1}{{2\pi \cdot f \cdot C}}$
  Umgestellt nach C:
- $C =\frac{1}{{2\pi \cdot f \cdot X_C}}\\$
+ $C =\frac{1}{{2\pi \cdot f \cdot X_C}}$
  Hohe Kondensatorverluste = niedrige Güte = großer tan "delta" = großer ESR
 
 
   Lösungshinweise:
-*AC 104:* 159 Ohm
-*AC 105:* 22 Ohm
-*AC 106:* 15,9 Ohm
-*AC 107:* 3,7 Ohm
-*AC 108:* 6,37 µF
+*AC 104:* $\qty{159}{\ohm}$
+*AC 105:* $\qty{22}{\ohm}$
+*AC 106:* $\qty{15,9}{\ohm}$
+*AC 107:* $\qty{3,7}{\ohm}$
+*AC 108:* $\qty{6,37}{\micro\farad}$
 </margin>
 

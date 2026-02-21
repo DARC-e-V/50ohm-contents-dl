@@ -37,7 +37,7 @@ Im Folgenden sind die einzelnen Größen der Formel aufgeschlüsselt:
 
 - $A$ ist die gegenüberstehende Fläche der leitenden Platten
 - $d$ ist der Abstand zwischen den Flächen
-- $\varepsilon_0 = 0,855 \cdot 10^{-11}\unit{\ampere\second\per\volt\meter}$ ist die elektrische Feldkonstante, eine Naturkonstante
+- $\varepsilon_0 = \qty{0,855e-11}{\ampere\second\per\volt\meter}$ ist die elektrische Feldkonstante, eine Naturkonstante
 - $\varepsilon_r$  (sprich: "Epsilon R") ist eine spezielle Eigenschaft des Isolators (Dielektrikum) ist die sogenannte relative Dielektrizitätszahl welche vom Verwendeten Material abhängt. Die Tabelle [ref:e_Dielektrizitätszahl] mit Materialwerten findet man auch in der Formelsammlung.
 
 <margin>

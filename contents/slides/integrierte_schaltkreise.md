@@ -8,7 +8,7 @@
 ## Monolithic Microwave Integrated Circuit (MMIC)
 
 * Breitbandiger Verstärker mit wenigen Bauteilen
-* Typischerweise 50Ω Ein- und Ausgangsimpedanz
+* Typischerweise $\qty{50}{\ohm}$ Ein- und Ausgangsimpedanz
 * Vereint aktive und passive Bauelemente
 
 ---
@@ -37,41 +37,41 @@
 [question:AF425]
 ---
 #### Lösungsweg
-* gegeben: $U_{\textrm{D}} = 4V$
-* gegeben: $U_{\textrm{CC}} = 13,5V$
-* gegeben: $I_{\textrm{D}} = 10mA$
+* gegeben: $U_{\textrm{D}} = \qty{4}{\volt}$
+* gegeben: $U_{\textrm{CC}} = \qty{13,5}{\volt}$
+* gegeben: $I_{\textrm{D}} = \qty{10}{\milli\ampere}$
 * gesucht: $R_{\textrm{BIAS}}$
 
 <fragment>
-$R_{\textrm{BIAS}} = \frac{U_{\textrm{CC}} - U_{\textrm{D}}}{I_{\textrm{D}}} = \frac{13,5V -4V}{10mA} = 950\Omega$
+$R_{\textrm{BIAS}} = \frac{U_{\textrm{CC}} - U_{\textrm{D}}}{I_{\textrm{D}}} = \frac{\qty{13,5}{\volt} - \qty{4}{\volt}}{\qty{10}{\milli\ampere}} = \qty{950}{\ohm}$
 </fragment>
 
 ---
 [question:AF426]
 ---
 #### Lösungsweg
-* gegeben: $U_{\textrm{D}} = 4V$
-* gegeben: $U_{\textrm{CC}} = 13,8V$
-* gegeben: $I_{\textrm{D}} = 15mA$
+* gegeben: $U_{\textrm{D}} = \qty{4}{\volt}$
+* gegeben: $U_{\textrm{CC}} = \qty{13,8}{\volt}$
+* gegeben: $I_{\textrm{D}} = \qty{15}{\milli\ampere}$
 * gesucht: $R_{\textrm{BIAS}}$
 
 <fragment>
-$R_{\textrm{BIAS}} = \frac{U_{\textrm{CC}} - U_{\textrm{D}}}{I_{\textrm{D}}} = \frac{13,8V -4V}{15mA} = 653,3\Omega \rightarrow 680\Omega$
+$R_{\textrm{BIAS}} = \frac{U_{\textrm{CC}} - U_{\textrm{D}}}{I_{\textrm{D}}} = \frac{\qty{13,8}{\volt} - \qty{4}{\volt}}{\qty{15}{\milli\ampere}} = \qty{653,3}{\ohm} \rightarrow \qty{680}{\ohm}$
 </fragment>
 
 ---
 [question:AF427]
 ---
 #### Lösungsweg
-* gegeben: $U = 9V$
-* gegeben: $R_{\textrm{BIAS}} = 470\Omega$
-* gegeben: $U_{\textrm{D}} = 4V$
+* gegeben: $U = \qty{9}{\volt}$
+* gegeben: $R_{\textrm{BIAS}} = \qty{470}{\ohm}$
+* gegeben: $U_{\textrm{D}} = \qty{4}{\volt}$
 * gesucht: $P$
 * Ansatz: Strom durch $R_{\textrm{BIAS}}$ ist überall gleich, weil kein anderer ohmschmer Verbraucher in der Schaltung vorhanden ist
 
 <fragment>
-$I_{\textrm{D}} = \frac{U_{\textrm{BIAS}}}{R_{\textrm{BIAS}}} = \frac{U-U_{\textrm{D}}}{R_{\textrm{BIAS}}} = \frac{9V-4V}{470\Omega} = 10,64mA$
+$I_{\textrm{D}} = \frac{U_{\textrm{BIAS}}}{R_{\textrm{BIAS}}} = \frac{U-U_{\textrm{D}}}{R_{\textrm{BIAS}}} = \frac{\qty{9}{\volt}-\qty{4}{\volt}}{\qty{470}{\ohm}} = \qty{10,64}{\milli\ampere}$
 </fragment>
 <fragment>
-$P = U_{\textrm{D}} \cdot I_{\textrm{D}} = 4V \cdot 10,64mA \approx 43mW$ 
+$P = U_{\textrm{D}} \cdot I_{\textrm{D}} = \qty{4}{\volt} \cdot \qty{10,64}{\milli\ampere} \approx \qty{43}{\milli\watt}$
 </fragment>
