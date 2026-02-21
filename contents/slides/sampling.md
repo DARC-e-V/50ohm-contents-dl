@@ -11,7 +11,7 @@
 
 * Geschwindigkeit, mit der ein A/D-Umsetzer Abtastungen vornimmt  
 * Definiert als Anzahl der Samples pro Zeiteinheit (z. B. pro Sekunde)  
-* Einheit: Samples/s (z. B. 44,100 Samples/s bei CDs, oft als 44,1 ksps angegeben)
+* Einheit: Samples/s (z. B. $\qty{44100}{\text{Samples}\per\second}$ bei CDs, oft als $\qty{44,1}{\kilo\sps}$ angegeben)
 
 ---
 

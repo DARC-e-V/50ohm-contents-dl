@@ -16,10 +16,10 @@ Um kontinuierliche analoge Signale digital verarbeiten zu können, müssen diese
 
 ---
 <margin>
-[picture:411:e_digitale_signalverarbeitung:Einfache Darstellung einer Sinuswelle aus 16 Samples und 7 Werten]
+[picture:411:e_digitale_signalverarbeitung:Einfache Darstellung einer Sinuswelle aus $\num{16}$ Samples und $\num{7}$ Werten]
 </margin>
 
-Hierbei wird das analoge Signal in festen Zeitintervallen abgetastet und in einem digitalen Wertebereich (z. B. von -128 bis +127) abgebildet. Jeder Wert repräsentiert eine bestimmte gemessene Signalspannung, wobei in der Regel negativen Werten negative Spannungen und positiven Werten positive Spannungen zugeordnet werden. Man kann sich das in etwa so vorstellen wie z.B. bei einer Filmkamera, die in festen Abständen Bilder einer Szene aufnimmt. Hierbei haben die aufgenommenen Bilder immer einen festen zeitlichen Abstand zum vorherigen und nächsten Bild und stellen die momentane Szene in zeitlich kleinen Abständen dar. Dieser Prozess nennt sich Sampling (in Deutsch könnten man dies mit dem Wort Probenahme übersetzen). Die einzelnen gemessenen Signalwerte werden als Samples bezeichnet. Im nächsten Abschnitt werden wir uns diesen Prozess noch etwas genauer ansehen.
+Hierbei wird das analoge Signal in festen Zeitintervallen abgetastet und in einem digitalen Wertebereich (z. B. von $\num{-128}$ bis $\num{+127}$) abgebildet. Jeder Wert repräsentiert eine bestimmte gemessene Signalspannung, wobei in der Regel negativen Werten negative Spannungen und positiven Werten positive Spannungen zugeordnet werden. Man kann sich das in etwa so vorstellen wie z.B. bei einer Filmkamera, die in festen Abständen Bilder einer Szene aufnimmt. Hierbei haben die aufgenommenen Bilder immer einen festen zeitlichen Abstand zum vorherigen und nächsten Bild und stellen die momentane Szene in zeitlich kleinen Abständen dar. Dieser Prozess nennt sich Sampling (in Deutsch könnten man dies mit dem Wort Probenahme übersetzen). Die einzelnen gemessenen Signalwerte werden als Samples bezeichnet. Im nächsten Abschnitt werden wir uns diesen Prozess noch etwas genauer ansehen.
 
 Nach der A/D-Umsetzung können die als digitale Werte vorliegenden Samples mittels digitaler Signalverarbeitung beliebig weiter verarbeitet werden.
 

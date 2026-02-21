@@ -8,7 +8,7 @@
 
 ### Sampling – Das Kamerabeispiel
 
-* Eine Kamera nimmt z. B. 24 Bilder pro Sekunde auf  
+* Eine Kamera nimmt z. B. $\num{24}$ Bilder pro Sekunde auf
 * Zwischen den Bildern können schnelle Bewegungen auftreten, die nicht erfasst werden  
 * Wie bei der Kamera kann ein plötzliches Ereignis (z. B. eine Fliege) zwischen zwei Aufnahmen verloren gehen  
 * Dadurch entsteht ein Verlust an zeitlicher Information
@@ -37,8 +37,8 @@
 
 ### Praktisches Beispiel: CD-Player
 
-* CD-Player arbeiten typischerweise mit 44,1 ksps (44.100 Samples pro Sekunde)  
-* Daraus folgt: Frequenzen bis ca. 22 kHz können korrekt abgebildet werden  
+* CD-Player arbeiten typischerweise mit $\qty{44,1}{\kilo\sps}$ ($\num{44100}$ Samples pro Sekunde)
+* Daraus folgt: Frequenzen bis ca. $\qty{22}{\kilo\hertz}$ können korrekt abgebildet werden
 * Dies entspricht dem HiFi-Frequenzbereich guter Stereoanlagen  
 * Merke: Die Abtastfrequenz sollte stets knapp über dem Doppelten der maximal zu verarbeitenden Frequenz liegen
 

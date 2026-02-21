@@ -13,8 +13,8 @@
 ### Auflösung und Spannungsbereich
 
 * Die Anzahl der möglichen Stufen wird durch die Bit-Auflösung bestimmt  
-* Beispiel: 4 Bit &rarr; 16 mögliche Stufen  
-* Ein D/A-Umsetzer arbeitet in einem festen Spannungsbereich (z. B. 0 bis 1 V)  
+* Beispiel: $\qty{4}{\bit}$ &rarr; $\num{16}$ mögliche Stufen
+* Ein D/A-Umsetzer arbeitet in einem festen Spannungsbereich (z. B. $\qty{0}{\volt}$ bis $\qty{1}{\volt}$)
 * Bei einem linear arbeitenden D/A-Umsetzer verteilt sich der Spannungsbereich gleichmäßig auf die Stufen
 
 ---
@@ -22,7 +22,7 @@
 ### Schrittweite (Quantisierungsintervall)
 
 * Die Schrittweite berechnet sich aus dem Spannungsbereich geteilt durch die Anzahl der Stufen  
-* Beispiel: Bei 16 Stufen und einem Bereich von 0 bis 1 V ergibt sich eine Schrittweite von ca. 6,25 mV
+* Beispiel: Bei $\num{16}$ Stufen und einem Bereich von $\qty{0}{\volt}$ bis $\qty{1}{\volt}$ ergibt sich eine Schrittweite von ca. $\qty{6,25}{\milli\volt}$
 
 ---
 
