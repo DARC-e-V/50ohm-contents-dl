@@ -43,7 +43,7 @@ Wie beim Dipol weicht die mechanische Länge einer Ganzwellen-Schleifenantenne v
 
 ---
 
-Da Frequenzbänder unterschiedliche Ausbreitungsbedingungen zu unterschiedlichen Tages-, Jahres- und Sonnenzykluszeiten aufweisen, möchten Funkamateure gerne auf möglichst vielen Frequenzbändern Betrieb machen können. Zwei Beispiele für Multibandantennen sind die *G5RV-Antenne mit zwei gleichlangen Schenklen* und einer Zweidrahtleitung sowie die *asymmetrisch angeregte Windomantenne* bei denen sich durch geschickte Abmessungen viele Resonanzen und damit eine Nutzung auf möglichst vielen Amateurfunkbändern ergeben.
+Da Frequenzbänder unterschiedliche Ausbreitungsbedingungen zu unterschiedlichen Tages-, Jahres- und Sonnenzykluszeiten aufweisen, möchten Funkamateure gerne auf möglichst vielen Frequenzbändern Betrieb machen können. Zwei Beispiele für Multibandantennen sind die *G5RV-Antenne mit zwei gleichlangen Schenkeln* und einer Zweidrahtleitung sowie die *asymmetrisch angeregte Windomantenne*, bei denen sich durch geschickte Abmessungen viele Resonanzen und damit eine Nutzung auf möglichst vielen Amateurfunkbändern ergeben.
 
 [question:AG121]
 [question:AG122]
