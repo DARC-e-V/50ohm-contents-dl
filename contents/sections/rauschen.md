@@ -1,18 +1,13 @@
-Das im Empfänger hörbare Rauschen ist grundsätzlich von dessen Bandbreite abhängig und hierbei proportional zur Bandbreite des Empfängers.
-Um das Verhältnis der Rauschleistungen, bei gegebenen Empfängerbandbreiten, zu berechnen, bedienen wir uns der Formel aus der Formelsammlung hierzu:
-
-% TODO ERKLAERUNG HINZUFUEGEN: was ist b1 und was b2
-$\Delta P_R = 10 \cdot \log_{10}{(\frac{B_1}{B_2})}dB$
-
-Mit Hilfe dieser Formel können die folgenden Fragen beantwortet werden.
-$B_1 und $B_2 sind hierbei die zu betrachtenden Bandbreiten, die zueinander ins Verhältnis gesetzt werden sollen.
-
-Beispiel:
-* gegeben: $B_1 = 2,5kHz$
-* gegeben: $B_2 = 0,5kHz$
-* gesucht: $\Delta P_R$
-
-$\Delta P_R = 10 \cdot \log_{10}{(\frac{B_1}{B_2})}dB = 10 \cdot \log_{10}{(\frac{2,5kHz}{0,5kHz})}dB \approx 7dB$
+Das im Empfänger hörbare Rauschen ist grundsätzlich von dessen Bandbreite abhängig und hierbei proportional zur Bandbreite des Empfängers. Verdoppelt man also die Bandbreite, verdoppelt sich auch die Rauschleistung.
 
 [question:AB408]
+
+Um die Pegeländerung der Rauschleistung ($p_\text{r}$) bei zwei gegebenen Bandbreiten zu berechnen, verwenden wir die folgende Formel aus der Formelsammlung:
+
+$\Delta P_\text{R} = 10 \cdot \log_{10}\left(\frac{B_1}{B_2}\right)\unit{\dB}$
+
+Dabei stehen $B_1$ und $B_2$ für die beiden zu vergleichenden Empfängerbandbreiten, die zueinander ins Verhältnis gesetzt werden.
+
+Mit Hilfe dieser Formel kann die folgende Fragen beantwortet werden.
+
 [question:AB409]
