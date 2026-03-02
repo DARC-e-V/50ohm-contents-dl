@@ -44,6 +44,7 @@ In der Praxis wird bei der Rufzeichennennung auch mit anderen Möglichkeiten var
 Die internationale Buchstabiertafel muss man auswendig lernen. Am Anfang kann das etwas schwerfallen, je mehr man die Buchstabiertafel anwendet, umso flüssiger wird es.
 
 %TODO stroke erklären
+%TODO portable erklären
 
 [question:BA103]
 [question:BA104]
