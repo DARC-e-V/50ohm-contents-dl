@@ -25,8 +25,8 @@ $\frac{1}{C_{\mathrm{ges}}} = \frac{1}{\qty{100}{\pico\farad}} + \frac{1}{\qty{4
 [question:AD104]
 <indepth>
 % Widerstandsdreieck R - XC in Latex erstellen
-[photo:301:a_R-C Widerstandsdreieck:Widerstandsdreieck für die Reihenschaltung von $R$ und $X_C$]
-Das Widerstandsdreieck für die Reihenschaltung von $R$ und $X_C$ veranschaulicht grafisch die Berechnung mit der Formel $|Z| = \sqrt{R^2 + {X_C}^2} = \sqrt{(\qty{100}{\ohm})^2 + (\qty{159}{\ohm})^2}$
+[photo:301:a_R-C Widerstandsdreieck:Widerstandsdreieck für die Reihenschaltung von $R$ und $X_\text{C}$]
+Das Widerstandsdreieck für die Reihenschaltung von $R$ und $X_\text{C}$ veranschaulicht grafisch die Berechnung mit der Formel $|Z| = \sqrt{R^2 + {X_\text{C}}^2} = \sqrt{(\qty{100}{\ohm})^2 + (\qty{159}{\ohm})^2}$
   Zusätzlich sieht man auch den Phasenverschiebungswinkel $\varphi$ zwischen $U$ und $I$ und das $I$ voreilend ist.
 </indepth>
 
@@ -34,28 +34,28 @@ Das Widerstandsdreieck für die Reihenschaltung von $R$ und $X_C$ veranschaulich
 Zur Berechnung eines Scheinwiderstandes benutzen wir die Formel
 $|Z| = \sqrt{R^2 + X^2}$
 (siehe Formelsammlung Seite 235 unten rechts - Stichwort: Wechselspannung -> Scheinwiderstand)
-Zur Anwendung dieser Formel muss der Blindwiderstand $X_C$ des Kondensators bei $\qty{1}{\mega\hertz}$ zuerst berechnet werden.
-Die Formel für $X_C$ lautet:
-$X_C = \frac{1}{\omega \cdot C}$
+Zur Anwendung dieser Formel muss der Blindwiderstand $X_\text{C}$ des Kondensators bei $\qty{1}{\mega\hertz}$ zuerst berechnet werden.
+Die Formel für $X_\text{C}$ lautet:
+$X_\text{C} = \frac{1}{\omega \cdot C}$
 (siehe Formelsammlung Seite 236 unten links - Stichwort: Kapazität -> kapazitiver Blindwiderstand )
 
 Bei der Eingabe der Bauteilwerte in den Taschenrechner müssen die Zehnerpotenzen sorgfältig hinzugefügt werden.
 $\qty{1}{\mega\hertz} = \qty{1e6}{\hertz}$; $\qty{1}{\nano\farad} = \qty{1e-9}{\farad}$
-$X_C$ ergibt sich dann für den $\qty{1}{\nano\farad}$ Kondensator bei $\qty{1}{\mega\hertz}$ zu $\qty{159}{\ohm}$.
+$X_\text{C}$ ergibt sich dann für den $\qty{1}{\nano\farad}$ Kondensator bei $\qty{1}{\mega\hertz}$ zu $\qty{159}{\ohm}$.
 Nun kann der Scheinwiderstand $|Z|$ berechnet werden.
-$|Z| = \sqrt{R^2 + {X_C}^2}$
+$|Z| = \sqrt{R^2 + {X_\text{C}}^2}$
 
 ---
 [question:AD105]
 Der Rechenweg ist der Gleiche wie vorher beschrieben und die Zehnerpotenzen sind wieder zu beachten:
 $\begin{split} \qty{100}{\micro\henry} &= \qty{100e-6}{\henry} \\ \qty{1}{\mega\hertz} &= \qty{1e6}{\hertz} \end{split}$
-$X_L$ muss mit der Formel  $X_L = \omega \cdot L$ zuerst  berechnet werden, danach kann die Berechnung des Scheinwiderstandes $|Z|$  mit der Formel $|Z| = \sqrt{R^2 + {X_L}^2}$ erfolgen.
+$X_\text{L}$ muss mit der Formel  $X_\text{L} = \omega \cdot L$ zuerst  berechnet werden, danach kann die Berechnung des Scheinwiderstandes $|Z|$  mit der Formel $|Z| = \sqrt{R^2 + {X_\text{L}}^2}$ erfolgen.
 
 <indepth>
 % Widerstandsdreieck R - XL in Latex erstellen
 
-[photo:302:a_R-L Widerstandsdreieck:Widerstandsdreieck für die Reihenschaltung von $R$ und $X_L$]
-Das Widerstandsdreieck für die Reihenschaltung von $R$ und $X_L$ veranschaulicht grafisch die Berechnung mit der Formel $|Z| = \sqrt{R^2 + {X_L}^2} = \sqrt{(\qty{100}{\ohm})^2 + (\qty{628}{\ohm})^2}$
+[photo:302:a_R-L Widerstandsdreieck:Widerstandsdreieck für die Reihenschaltung von $R$ und $X_\text{L}$]
+Das Widerstandsdreieck für die Reihenschaltung von $R$ und $X_\text{L}$ veranschaulicht grafisch die Berechnung mit der Formel $|Z| = \sqrt{R^2 + {X_\text{L}}^2} = \sqrt{(\qty{100}{\ohm})^2 + (\qty{628}{\ohm})^2}$
 Zusätzlich sieht man auch den Phasenverschiebungswinkel $\varphi$ zwischen $U$ und $I$ und das $I$ nacheilend ist.
 </indepth>
 
@@ -64,9 +64,9 @@ Zusätzlich sieht man auch den Phasenverschiebungswinkel $\varphi$ zwischen $U$ 
 Lösungshilfe
 AD 103: $\qty{100}{\pico\farad} + \qty{1500}{\pico\farad} + \qty{220}{\pico\farad} + \qty{1}{\pico\farad} = \qty{1821}{\pico\farad}$
 AD 101: $\qty{13}{\pico\farad}$
-AD 104: $X_C = \frac{1}{6,28 \cdot \qty{1e6}{\hertz} \cdot \qty{1e-9}{\farad}} = \qty{159}{\ohm}$
-$|Z| = \sqrt{R^2 + {X_C}^2} = \sqrt{(\qty{100}{\ohm})^2 + (\qty{159}{\ohm})^2} \approx \qty{188}{\ohm}$
+AD 104: $X_\text{C} = \frac{1}{6,28 \cdot \qty{1e6}{\hertz} \cdot \qty{1e-9}{\farad}} = \qty{159}{\ohm}$
+$|Z| = \sqrt{R^2 + {X_\text{C}}^2} = \sqrt{(\qty{100}{\ohm})^2 + (\qty{159}{\ohm})^2} \approx \qty{188}{\ohm}$
 AD 105: $\qty{636}{\ohm}$
-$X_L = \omega \cdot L = 2\pi \cdot f \cdot L = 2\pi \cdot \qty{1}{\mega\hertz} \cdot \qty{100}{\micro\henry} = \qty{628}{\ohm}$
-$|Z| = \sqrt{R^2 + {X_L}^2} = \sqrt{(\qty{100}{\ohm})^2 + (\qty{628}{\ohm})^2} \approx \qty{636}{\ohm}$
+$X_\text{L} = \omega \cdot L = 2\pi \cdot f \cdot L = 2\pi \cdot \qty{1}{\mega\hertz} \cdot \qty{100}{\micro\henry} = \qty{628}{\ohm}$
+$|Z| = \sqrt{R^2 + {X_\text{L}}^2} = \sqrt{(\qty{100}{\ohm})^2 + (\qty{628}{\ohm})^2} \approx \qty{636}{\ohm}$
 </margin>

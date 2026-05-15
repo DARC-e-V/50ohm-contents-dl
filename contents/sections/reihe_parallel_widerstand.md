@@ -1,6 +1,6 @@
 Wir stehen oft vor dem Problem, dass ein gewünschter Widerstandswert nicht in der sogenannten "Widerstands-Normreihe" enthalten ist. Es könnte auch sein, dass ein Widerstand eine große Verlustleistung umsetzen muss, die in handelsüblichen Einzelwiderständen nicht möglich ist -- um nur zwei Beispiele zu nennen. Wir werden jetzt betrachten, wie wir durch Reihenschaltung oder Parallelschaltung von Widerständen andere Widerstandswerte erhalten können.
 
-Aus dem Ohmschen Gesetz können wir die Regeln von Reihen- und Paralelschaltungen von Widerständen herleiten:
+Aus dem Ohmschen Gesetz können wir die Regeln von Reihen- und Parallelschaltungen von Widerständen herleiten:
 
 $U=R \cdot I$
 

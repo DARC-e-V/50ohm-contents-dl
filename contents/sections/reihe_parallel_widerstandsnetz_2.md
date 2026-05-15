@@ -68,14 +68,14 @@ Das Ergebnis ist in Ohm angegeben.
 
 [picture:199:a_Widerstandsnetzwerk2:belasteter Spannungsteiler]
 %todo Diese Frage gehört zum Abschnitt Spannungsteiler 2
-In der Praxis ist ein Spannungsteiler oft durch $R_L$ belastet, wie es im Schaltbild zu sehen ist.
+In der Praxis ist ein Spannungsteiler oft durch $R_\text{L}$ belastet, wie es im Schaltbild zu sehen ist.
 
 
 ---
 [question:AD114]
 <margin>
  Die Spannung $U_2$ muss dann im Vergleich zum unbelasteten Spannungsteiler kleiner werden .
- $U_2$ kann man ermitteln, indem zuerst der Gesamtwiderstand $R_{2L}$ der Parallelschaltung von $R_2$ und $R_L$ berechnet wird. Danach berechnet man den Gesamtwiderstand $R_{\mathrm{ges}}$ der Schaltung und mit $I = \frac{U}{R_{\mathrm{ges}}}$ den Gesamtstrom.  Dieser Strom fließt auch durch den $R_{2L}$ und bewirkt den Spannungsfall $U_2$.
+ $U_2$ kann man ermitteln, indem zuerst der Gesamtwiderstand $R_{2L}$ der Parallelschaltung von $R_2$ und $R_\text{L}$ berechnet wird. Danach berechnet man den Gesamtwiderstand $R_{\mathrm{ges}}$ der Schaltung und mit $I = \frac{U}{R_{\mathrm{ges}}}$ den Gesamtstrom.  Dieser Strom fließt auch durch den $R_{2L}$ und bewirkt den Spannungsfall $U_2$.
 
  Lösungshilfen:
 AD 106: $\qty{30}{\volt}$
