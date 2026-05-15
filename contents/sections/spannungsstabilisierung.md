@@ -6,7 +6,7 @@ Spannungsstabilisierungen gibt es in 3 Varianten:
 <margin>
 Zur Erinnerung:
 [picture:862:n_diode_kennlinie_uz:Kennline einer Z-Diode]
-Die Z-Diode wird immer mit einem Vorwiderstand und in Sperrrichtung ($-U_Z$) betrieben. Z-Dioden mit Durchbruchspannungen $U_Z$ ab $\qty{5}{\volt}$, zeigen einen sehr steilen Verlauf der Kennlinie und eignen sich deshalb sehr gut zur Spannungsstabilisierung.
+Die Z-Diode wird immer mit einem Vorwiderstand und in Sperrrichtung ($-U_\text{Z}$) betrieben. Z-Dioden mit Durchbruchspannungen $U_\text{Z}$ ab $\qty{5}{\volt}$, zeigen einen sehr steilen Verlauf der Kennlinie und eignen sich deshalb sehr gut zur Spannungsstabilisierung.
 (siehe auch Klasse E: Abschnitt Diode 1)
 </margin>
 
@@ -15,11 +15,11 @@ Die Z-Diode wird immer mit einem Vorwiderstand und in Sperrrichtung ($-U_Z$) bet
 ---
 [question:AD321]
 
-Der Wirkungsgrad der Schaltung ist sehr niedrig, da die Verluste im Vorwiderstand $R_V$ und in der Z-Diode berücksichtigt werden müssen. Die Berechnung ist sehr aufwändig.
+Der Wirkungsgrad der Schaltung ist sehr niedrig, da die Verluste im Vorwiderstand $R_\text{V}$ und in der Z-Diode berücksichtigt werden müssen. Die Berechnung ist sehr aufwändig.
 
 <tip>
 Lösungsweg:
-Spannung am Lastwiderstand: $U_L = I_L \cdot R_L = \qty{10}{\milli\ampere} \cdot \qty{470}{\ohm} = \qty{4700}{\milli\volt} = \qty{4,7}{\volt}$
+Spannung am Lastwiderstand: $U_\text{L} = I_\text{L} \cdot R_\text{L} = \qty{10}{\milli\ampere} \cdot \qty{470}{\ohm} = \qty{4700}{\milli\volt} = \qty{4,7}{\volt}$
 Leistung im Lastwiderstand: $P_{\mathrm{out}} = \qty{4,7}{\volt} \cdot \qty{10}{\milli\ampere} = \qty{47}{\milli\watt}$
 Verlustleistung in der Z-Diode: $P_{VZ} = \qty{4,7}{\volt} \cdot \qty{15}{\milli\ampere} = \qty{70,5}{\milli\watt}$
 Eingangsstrom: $I_g = \qty{10}{\milli\ampere} + \qty{15}{\milli\ampere} = \qty{25}{\milli\ampere}$
@@ -48,20 +48,20 @@ Unter der Regelung befindet sich ein großer Kühlkörper mit den Längstransist
 
 
 [question:AD315]
-Die Verlustleistung $P_V$ ergibt sich aus der Differenz von  $P_{\mathrm{in}} - P_{\mathrm{out}}$.
+Die Verlustleistung $P_\text{V}$ ergibt sich aus der Differenz von  $P_{\mathrm{in}} - P_{\mathrm{out}}$.
 
 ------
 [question:AD319]
-Die Verlustleistung $P_V$ bestimmt auch den Wirkungsgrad eines Spannungsreglers. Bei linearen Spannungsreglern ist der Wirkungsgrad systembedingt oft sehr niedrig. Mit der folgenden Formel lässt sich der Wirkungsgrad berechnen:
+Die Verlustleistung $P_\text{V}$ bestimmt auch den Wirkungsgrad eines Spannungsreglers. Bei linearen Spannungsreglern ist der Wirkungsgrad systembedingt oft sehr niedrig. Mit der folgenden Formel lässt sich der Wirkungsgrad berechnen:
 Wirkungsgrad = abgegebene Leistung auf der Lastseite : gesamte Eingangsleistung
 $\eta = \frac{P_{\mathrm{out}}}{P_{\mathrm{in}}}$
 
 <tip>
 Eingangsleistung = Eingangsspannung x Laststrom
-$P_{\mathrm{in}} = U_{\mathrm{in}} \cdot I_L$
+$P_{\mathrm{in}} = U_{\mathrm{in}} \cdot I_\text{L}$
 $P_{\mathrm{in}} = \qty{13,8}{\volt} \cdot \qty{0,9}{\ampere} = \qty{12,42}{\watt}$
 Ausgangsleistung =  Ausgangsspannung x Laststrom
-$P_{\mathrm{out}} = U_{\mathrm{out}} \cdot I_L$
+$P_{\mathrm{out}} = U_{\mathrm{out}} \cdot I_\text{L}$
 $P_{\mathrm{out}} = \qty{9}{\volt} \cdot \qty{0,9}{\ampere} = \qty{8,1}{\watt}$
 </tip>
 ---
@@ -70,10 +70,10 @@ $P_{\mathrm{out}} = \qty{9}{\volt} \cdot \qty{0,9}{\ampere} = \qty{8,1}{\watt}$
 <tip>
 Der Lösungsweg beginnt mit der Berechnung der Einzelleistungen. 
 Eingangsleistung = Eingangsspannung x Laststrom
-$P_{\mathrm{in}} = U_{\mathrm{in}} \cdot I_L$
+$P_{\mathrm{in}} = U_{\mathrm{in}} \cdot I_\text{L}$
 $P_{\mathrm{in}} = \qty{13,8}{\volt} \cdot \qty{0,455}{\ampere} = \qty{6,28}{\watt}$
 Ausgangsleistung = Ausgangsspannung x Laststrom
-$P_{\mathrm{out}} = U_{\mathrm{out}} \cdot I_L$
+$P_{\mathrm{out}} = U_{\mathrm{out}} \cdot I_\text{L}$
 $P_{\mathrm{out}} = \qty{5}{\volt} \cdot \qty{0,450}{\ampere} = \qty{2,25}{\watt}$
   
 $\eta = \frac{P_{\mathrm{out}}}{P_{\mathrm{in}}} = \frac{\qty{2,25}{\watt}}{\qty{6,28}{\watt}} = \num{0,36}$
@@ -88,17 +88,17 @@ Festspannungsregler arbeiten wie lineare Spannungsregler mit Längstransistor un
 [question:AD318]
 
 <tip>
-Der Lösungsweg beginnt mit der Berechnung des Laststromes: $I_L = \frac{\qty{5}{\volt}}{\qty{10}{\ohm}} = \qty{0,5}{\ampere}$
+Der Lösungsweg beginnt mit der Berechnung des Laststromes: $I_\text{L} = \frac{\qty{5}{\volt}}{\qty{10}{\ohm}} = \qty{0,5}{\ampere}$
 Eingangsleistung = Eingangsspannung x Laststrom
 Hinweis: Der Strom in der Masseleitung des Festspannungsreglers ist vernachlässigbar klein und wird deshalb nicht berücksichtigt.
-$P_{\mathrm{in}} = U_{\mathrm{in}} \cdot I_L = \qty{13,8}{\volt} \cdot \qty{0,5}{\ampere} = \qty{6,9}{\watt}$
+$P_{\mathrm{in}} = U_{\mathrm{in}} \cdot I_\text{L} = \qty{13,8}{\volt} \cdot \qty{0,5}{\ampere} = \qty{6,9}{\watt}$
   
 Ausgangsleistung = Ausgangsspannung x Laststrom
-$P_{\mathrm{out}} = U_{\mathrm{out}} \cdot I_L = \qty{5}{\volt} \cdot \qty{0,5}{\ampere} = \qty{2,5}{\watt}$
+$P_{\mathrm{out}} = U_{\mathrm{out}} \cdot I_\text{L} = \qty{5}{\volt} \cdot \qty{0,5}{\ampere} = \qty{2,5}{\watt}$
 </tip>
-Die Verlustleistung $P_V$ des Festspannungsreglers ergibt sich aus der Differenz von $P_{\mathrm{in}}$ und $P_{\mathrm{out}}$.
+Die Verlustleistung $P_\text{V}$ des Festspannungsreglers ergibt sich aus der Differenz von $P_{\mathrm{in}}$ und $P_{\mathrm{out}}$.
 
-$P_V = P_{\mathrm{in}} - P_{\mathrm{out}} = \qty{6,9}{\watt} - \qty{2,5}{\watt} = \qty{4,4}{\watt}$
+$P_\text{V} = P_{\mathrm{in}} - P_{\mathrm{out}} = \qty{6,9}{\watt} - \qty{2,5}{\watt} = \qty{4,4}{\watt}$
 
 <margin>
 [photo:245:a_Festspannungsregler:Festspannungsregler für $\qty{5}{\volt}$, $\qty{12}{\volt}$ und $\qty{9}{\volt}$ auf Kühlkörper]

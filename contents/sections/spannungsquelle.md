@@ -1,10 +1,10 @@
-Gleichspannungsquellen sind notwendig, um unsere Funkgeräte und das dazugehörige Zubehör mit Spannung und Strom zu versorgen. Bisher haben wir dabei vor allem Batterien betrachtet. Das allgemeine Schaltzeichen für eine ideale Spannungsquelle ist in Abbildung [ref:e_vsource] dargestellt. In der Realität ist eine Spannungsquelle jedoch nicht ideal, da sie stets einen Innenwiderstand $R_i$ besitzt, wie in Abbildung [ref:e_vsource_schematic] gezeigt.
+Gleichspannungsquellen sind notwendig, um unsere Funkgeräte und das dazugehörige Zubehör mit Spannung und Strom zu versorgen. Bisher haben wir dabei vor allem Batterien betrachtet. Das allgemeine Schaltzeichen für eine ideale Spannungsquelle ist in Abbildung [ref:e_vsource] dargestellt. In der Realität ist eine Spannungsquelle jedoch nicht ideal, da sie stets einen Innenwiderstand $R_\text{i}$ besitzt, wie in Abbildung [ref:e_vsource_schematic] gezeigt.
 
-Es ist wichtig, auch bei Belastung eine konstante Spannung zu erhalten. Diese Eigenschaft wird dann erreicht, wenn der Innenwiderstand sehr klein ist. Dann gibt es an ihm, auch bei großen Lastströmen, keinen großen Spannungsfall, der die Klemmenspannung $U_k$ absinken lässt.
+Es ist wichtig, auch bei Belastung eine konstante Spannung zu erhalten. Diese Eigenschaft wird dann erreicht, wenn der Innenwiderstand sehr klein ist. Dann gibt es an ihm, auch bei großen Lastströmen, keinen großen Spannungsfall, der die Klemmenspannung $U_\text{k}$ absinken lässt.
 
 <margin>
 [picture:824:e_vsource:Schaltzeichen Spannungsquelle]
-[picture:1018:e_vsource_schematic:Ersatzschaltbild Spannungsquelle $R_i$ niederohmig]
+[picture:1018:e_vsource_schematic:Ersatzschaltbild Spannungsquelle $R_\text{i}$ niederohmig]
 </margin>
 
 [question:ED301]

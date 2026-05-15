@@ -26,7 +26,7 @@ Der Abblockkondensator $C_2$ auf der Gleichspannungseite soll HF-Spannung unterd
 ---
 [question:AD325]
 <margin>
-Die Spule zwischen DC-Seite (Gleichspannungsseite z.B. $\qty{12}{\volt}$) und der HF-Seite (z.B. $\qty{10}{\giga\hertz}$ Empfangssignal) soll  Hochfrequenzanteile nicht zur DC-Seite durchlassen. Es handelt sich deshalb um eine Drosselspule, die bei der Nutzfrequenz hochohmig wirken muss (z.B. $X_L = \qty{10}{\kilo\ohm}$). Durch diese Drosselspule fließt der Versorgungstrom für den Vorverstärker oder Konverter (LNA). Der Drahtdurchmesser der Drosselspule muss so groß sein, dass der Versorgungsgleichstrom keine Erwärmung der Drosselspule bewirkt
+Die Spule zwischen DC-Seite (Gleichspannungsseite z.B. $\qty{12}{\volt}$) und der HF-Seite (z.B. $\qty{10}{\giga\hertz}$ Empfangssignal) soll  Hochfrequenzanteile nicht zur DC-Seite durchlassen. Es handelt sich deshalb um eine Drosselspule, die bei der Nutzfrequenz hochohmig wirken muss (z.B. $X_\text{L} = \qty{10}{\kilo\ohm}$). Durch diese Drosselspule fließt der Versorgungstrom für den Vorverstärker oder Konverter (LNA). Der Drahtdurchmesser der Drosselspule muss so groß sein, dass der Versorgungsgleichstrom keine Erwärmung der Drosselspule bewirkt
 </margin>
 
 <margin>

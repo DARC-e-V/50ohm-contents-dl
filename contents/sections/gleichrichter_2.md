@@ -6,22 +6,22 @@ Wie bereits im Kapitel Gleichrichter I gelernt, kann ich mit einer Diode nur die
 
 ---
 
-Bei der positiven Halbwelle leitet die Diode $D$ und lässt Strom fließen. In dieser Zeit lädt sich der Kondensator $C_L$ auf den Spitzenwert der Wechselspannung auf. Zum Zeitpunkt der negativen Halbwelle sperrt die Diode $D$ den Strom und der Kondensator $C_L$ entlädt sich über den Lastwiderstand $R_L$.
-Somit stellt sich am Lastwiderstand $R_L$ eine pulsierende Gleichspannung $U_L$ ein (vgl. Abb.[ref:a_Restwelligkeit]). Um so größer die Kapazität des Kondensator ist, desto gleichmäßiger wird die Gleichspannung am Lastwiderstand geglättet.
+Bei der positiven Halbwelle leitet die Diode $D$ und lässt Strom fließen. In dieser Zeit lädt sich der Kondensator $C_\text{L}$ auf den Spitzenwert der Wechselspannung auf. Zum Zeitpunkt der negativen Halbwelle sperrt die Diode $D$ den Strom und der Kondensator $C_\text{L}$ entlädt sich über den Lastwiderstand $R_\text{L}$.
+Somit stellt sich am Lastwiderstand $R_\text{L}$ eine pulsierende Gleichspannung $U_\text{L}$ ein (vgl. Abb.[ref:a_Restwelligkeit]). Um so größer die Kapazität des Kondensator ist, desto gleichmäßiger wird die Gleichspannung am Lastwiderstand geglättet.
 
 <margin>
-[picture:75:a_Restwelligkeit:Welligkeit der Ausgangsgleichspannung $U_L$]
+[picture:75:a_Restwelligkeit:Welligkeit der Ausgangsgleichspannung $U_\text{L}$]
 Die Nulllinie befindet sich am unteren Rand der Darstellung.
 % Oszibild von dk1kc einfügen
 %TODO Diagramm einfügen
-%[picture:75:a_einweggleichrichtung_c_diagramm:Pulsierende Ausgangsspannung $U_L$]
+%[picture:75:a_einweggleichrichtung_c_diagramm:Pulsierende Ausgangsspannung $U_\text{L}$]
 </margin>
 
 Bei der Bemessung von Diode und Kondensator müssen wir jedoch wissen, dass die Trafo-Spannungen als Effektivspannungen $U_{\mathrm{eff}}$ angegeben werden. Somit müssen wir die Spitzenspannung $\hat{u}$ vorher bestimmen.
 
 $\hat{u} = \sqrt{2} \cdot U_{\mathrm{eff}}$
 
-Wenn an einem Transformator die Spannung $U_a = \qty{15}{\volt}$ angegeben ist, rechnen wir $\hat{u} = \sqrt{2} \cdot U_{\mathrm{eff}} = \sqrt{2} \cdot \qty{15}{\volt} = \qty{21,21}{\volt}$. Somit wird sich ohne Last eine Leerlaufspitzenspannung von ca. $\qty{21}{\volt}$ einstellen.
+Wenn an einem Transformator die Spannung $U_\text{a} = \qty{15}{\volt}$ angegeben ist, rechnen wir $\hat{u} = \sqrt{2} \cdot U_{\mathrm{eff}} = \sqrt{2} \cdot \qty{15}{\volt} = \qty{21,21}{\volt}$. Somit wird sich ohne Last eine Leerlaufspitzenspannung von ca. $\qty{21}{\volt}$ einstellen.
 
 [question:AD302]
 
