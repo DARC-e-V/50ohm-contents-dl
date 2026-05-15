@@ -29,7 +29,7 @@ Wenn nicht die Spannungs-, sondern die Leistung von Geräten oder die Wärmebela
 
 Bei sinusförmigen Spannungen ist der Spitzen- oder Scheitelwert etwa 1,4-mal so groß wie der Effektivwert (siehe Abbildung [ref:e_wechselspannung_kenngroessen]). Die genaue Rechnung führt zu einer einfachen Formel:
 
-$U_{eff} = \frac{\hat{U}}{\sqrt{2}}$ oder $\hat{U} = U_{eff} \cdot \sqrt{2}$
+$U_\text{eff} = \frac{\hat{U}}{\sqrt{2}}$ oder $\hat{U} = U_\text{eff} \cdot \sqrt{2}$
 
 Wird eine Wechselspannung nur mit dem Buchstaben $U$ ohne Zusatz angegeben, ist in der Regel der Effektivwert gemeint. Das bekannteste Beispiel ist unsere Netzspannung von $\qty{230}{\volt}$ – auch hierbei handelt es sich um den Effektivwert. Die Spitzenspannung liegt deutlich höher, nämlich bei
 

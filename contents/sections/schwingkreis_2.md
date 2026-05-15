@@ -1,6 +1,6 @@
 In der Formelsammlung finden wir die folgende Formel für die Berechnung der Grenzfrequenz von RC-Gliedern, z.B. von Hoch- oder Tiefpassfiltern:
 
-$f_g = \frac{1}{2 \pi \cdot R \cdot C}$
+$f_\text{g} = \frac{1}{2 \pi \cdot R \cdot C}$
 
 Mit dieser Formel können wir eine Reihe von Prüfungsfragen lösen.
 
@@ -11,27 +11,27 @@ Für mathematisch interessierte Leser: Die Formel für die Grenzfrequenz eines R
 
 Für das Verhältnis von Ausgangs- zu Eingangsspannung gilt:
 
-$\frac{|U_A|}{|U_E|} = \frac{|X_C|}{|R + X_C|}$
+$\frac{|U_\text{A}|}{|U_\text{E}|} = \frac{|X_\text{C}|}{|R + X_\text{C}|}$
 
 Der kapazitive Blindwiderstand des Kondensators lautet:
 
-$X_C = \frac{1}{j\omega C}$
+$X_\text{C} = \frac{1}{j\omega C}$
 
 Damit ergibt sich:
 
-$\frac{|U_A|}{|U_E|} = \frac{\left|\frac{1}{j\omega C}\right|}{\left|R + \frac{1}{j\omega C}\right|}$
+$\frac{|U_\text{A}|}{|U_\text{E}|} = \frac{\left|\frac{1}{j\omega C}\right|}{\left|R + \frac{1}{j\omega C}\right|}$
 
 Für die Beträge erhalten wir:
 
-$\frac{|U_A|}{|U_E|} = \frac{\frac{1}{\omega C}}{\sqrt{R^2 + \frac{1}{\omega^2 C^2}}}$
+$\frac{|U_\text{A}|}{|U_\text{E}|} = \frac{\frac{1}{\omega C}}{\sqrt{R^2 + \frac{1}{\omega^2 C^2}}}$
 
 Multipliziert man Zähler und Nenner mit $\omega C$, vereinfacht sich der Ausdruck zu:
 
-$\frac{|U_A|}{|U_E|} = \frac{1}{\sqrt{1 + R^2\omega^2 C^2}}$
+$\frac{|U_\text{A}|}{|U_\text{E}|} = \frac{1}{\sqrt{1 + R^2\omega^2 C^2}}$
 
 Die Grenzfrequenz ist so definiert, dass die Ausgangsspannung auf den Faktor $\frac{1}{\sqrt{2}} \approx 0{,}707$ des ursprünglichen Wertes abgefallen ist. Dies entspricht etwa $\qty{70}{\percent}$ der Ausgangsspannung bzw. einem Pegelabfall von $\qty{3}{\dB}$.
 
-$\frac{|U_A|}{|U_E|} = \frac{1}{\sqrt{2}}$
+$\frac{|U_\text{A}|}{|U_\text{E}|} = \frac{1}{\sqrt{2}}$
 
 Daraus folgt:
 
@@ -47,11 +47,11 @@ $\omega R C = 1$
 
 Mit $\omega = 2\pi f$ ergibt sich:
 
-$2\pi f_g R C = 1$
+$2\pi f_\text{g} R C = 1$
 
 Daraus folgt für die Grenzfrequenz:
 
-$f_g = \frac{1}{2\pi R C}$
+$f_\text{g} = \frac{1}{2\pi R C}$
 </indepth>
 
 [question:AD201] 
@@ -123,7 +123,7 @@ Eine Kombination aus Parallel- und Serienschwingkreisen kann bei geeigneter Anor
 
 [question:AD205]
 
-Die Bandbreiten von Filtern und Bandpässen werden in dB bezogen auf einen Referenzwert des Filters angegeben. Hierbei kann die Bandbreite bei einer vorgegebenen Dämpfung oder in Bezug auf die minimale Dämpfung der Durchlasskurve des Filters gemessen werden.
+Die Bandbreiten von Filtern und Bandpässen werden in $\unit{\dB}$ bezogen auf einen Referenzwert des Filters angegeben. Hierbei kann die Bandbreite bei einer vorgegebenen Dämpfung oder in Bezug auf die minimale Dämpfung der Durchlasskurve des Filters gemessen werden.
 Üblicherweise wird die *Bandbreite* eines Filters als der sog. *$\qty{-3}{\dB}$-Wert* angegeben, bei dem nur noch die halbe Leistung eines Signals das Filter passieren kann; dies entspricht dem *$0,7$-fachen der Signalspannung*.
 Die Bandbreite wird als die *Differenz zwischen dem oberen und unteren $\qty{-3}{\dB}$-Wert* gemessen.
 So wird z.B. die $\qty{-3}{\dB}$-Dämpfung bezogen auf die minimale Dämpfung der Filterkurve verwendet, um die Eignung eines Filters für bestimmte Betriebsarten (SSB, CW, RTTY) anzugeben.
