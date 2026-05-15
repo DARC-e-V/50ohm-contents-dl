@@ -103,10 +103,10 @@
 </right>
 
 ---
-* Berechnung: $R = \dfrac{U_q - U_{\mathrm{LED}}}{I_D}$
-* $U_q$: Spannungsquelle
+* Berechnung: $R = \dfrac{U_\text{q} - U_{\mathrm{LED}}}{I_\text{D}}$
+* $U_\text{q}$: Spannungsquelle
 * $U_{\mathrm{LED}}$: Schwellenspannung LED
-* $I_D$: Durchlassstrom
+* $I_\text{D}$: Durchlassstrom
 
 ---
 [question:EC515]
@@ -155,9 +155,9 @@
 [picture:753:e_z_diode_spannungsstabilisierung:Z-Diode zur Spannungsstabilisierung]
 </left>
 <right>
-* $U_Z$ ist die Spannung, auf die die Z-Diode stabilisiert
-* $U_V = U_1 - U_Z = \qty{13,8}{\volt} - \qty{5}{\volt} = \qty{8,8}{\volt}$
-* $R_V = \frac{U_V}{I} = \frac{\qty{8,8}{\volt}}{\qty{30}{\milli\ampere}} \approx \qty{293}{\ohm}$
+* $U_\text{Z}$ ist die Spannung, auf die die Z-Diode stabilisiert
+* $U_\text{V} = U_1 - U_\text{Z} = \qty{13,8}{\volt} - \qty{5}{\volt} = \qty{8,8}{\volt}$
+* $R_\text{V} = \frac{U_\text{V}}{I} = \frac{\qty{8,8}{\volt}}{\qty{30}{\milli\ampere}} \approx \qty{293}{\ohm}$
 </right>
 ---
 [question:EC521]

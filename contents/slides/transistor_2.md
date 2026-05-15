@@ -17,7 +17,7 @@
 * Basis-Emitter-Spannung $U_{\textrm{BE}}$ steuert Kollektorstrom $I_{\textrm{C}}$ exponentiell
 * Beim Bipolartransistor fließt immer ein exponentiell von $U_{\textrm{BE}}$ abhängiger Basisstrom $I_{\textrm{B}}$
 * Faktor $B$ ist der *Stromverstärkungsfaktor* des Transistors
-* Liegt bei ca. 20 bis 500
+* Liegt bei ca. $20$ bis $500$
 
 <fragment>
 $B = \frac{I_{\textrm{C}}}{I_{\textrm{B}}}$
@@ -41,8 +41,8 @@ Höherer Faktor benötigt kleineren Basistrom zur Steuerung eines größeren Kol
 [question:AC515]
 ---
 #### Lösungsweg
-* Die Größe von $R_1$ stellt den Basisstrom $I_B$ ein
-* $I_B$ ist um 298 kleiner als $I_C$
+* Die Größe von $R_1$ stellt den Basisstrom $I_\text{B}$ ein
+* $I_\text{B}$ ist um $298$ kleiner als $I_\text{C}$
 * Für die Spannung an $R_1$ muss der Transistorverlust abgezogen werden
 
 ---

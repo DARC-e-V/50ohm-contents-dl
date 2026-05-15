@@ -21,13 +21,13 @@ $C = \dfrac{Q}{U}$
   
 * Die Kapazität kann durch die Bauart erreicht werden
 
-$C = \dfrac{\varepsilon_0 \cdot \varepsilon_r \cdot A}{d}$
+$C = \dfrac{\varepsilon_0 \cdot \varepsilon_\text{r} \cdot A}{d}$
 
 * $\rightarrow$ Kapazität ist größer bei größerer Fläche, kleinem Abstand oder anderem Dielektrikum
 </left>
 <right>
 * $\varepsilon_0 = \qty{0,855e-11}{\ampere\second\per\volt\meter}$: elektrische Feldkonstante
-* $\varepsilon_r$: relative Dielektrizitätszahl, abhängig vom Dielektrikum (ohne Einheit)
+* $\varepsilon_\text{r}$: relative Dielektrizitätszahl, abhängig vom Dielektrikum (ohne Einheit)
 * $A$: Fläche der Kondensatorplatten
 * $d$: Abstand der Platten
 </right>

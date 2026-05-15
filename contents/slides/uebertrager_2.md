@@ -15,18 +15,18 @@
 --- style="font-size: 0.7em;"
 Das Verhältnis der Windungen zwischen Primär- und Sekundärseite ist wie das Verhältnis der Spannung zwischen Primär- zu Sekundärseite, aber wie das Verhältnis der Ströme zwischen Sekundär- zu Primärseite:
 
-$ü = \frac{N_P}{N_S} = \frac{U_P}{U_S} = \frac{I_S}{I_P}$
+$ü = \frac{N_\text{P}}{N_\text{S}} = \frac{U_\text{P}}{U_\text{S}} = \frac{I_\text{S}}{I_\text{P}}$
 
 <fragment>
 Das Verhältnis der Primär- zur Sekundärimpedanz ist wie die obigen Verhältnisse zum Quadrat:
 
-$ü^2 = \frac{Z_P}{Z_S} = \left(\frac{N_P}{N_S}\right)^2 = \left(\frac{U_P}{U_S}\right)^2 = \left(\frac{I_S}{I_P}\right)^2$
+$ü^2 = \frac{Z_P}{Z_S} = \left(\frac{N_\text{P}}{N_\text{S}}\right)^2 = \left(\frac{U_\text{P}}{U_\text{S}}\right)^2 = \left(\frac{I_\text{S}}{I_\text{P}}\right)^2$
 </fragment>
 
 <fragment>
 Oder nach ziehen der Wurzel:
 
-$ü = \frac{N_P}{N_S} = \frac{U_P}{U_S} = \frac{I_S}{I_P} = \sqrt{\frac{Z_P}{Z_S}}$
+$ü = \frac{N_\text{P}}{N_\text{S}} = \frac{U_\text{P}}{U_\text{S}} = \frac{I_\text{S}}{I_\text{P}} = \sqrt{\frac{Z_P}{Z_S}}$
 </fragment>
 
 <note>
@@ -36,13 +36,13 @@ Die letzte Formel steht so in der Formelsammlung
 [question:AC302]
 ---
 #### Lösungsweg
-* gegeben: $U_P = \qty{230}{\volt}$
-* gegeben: $U_S = \qty{6}{\volt}$
-* gegeben: $I_S = \qty{1,15}{\ampere}$
-* gesucht: $I_P$
+* gegeben: $U_\text{P} = \qty{230}{\volt}$
+* gegeben: $U_\text{S} = \qty{6}{\volt}$
+* gegeben: $I_\text{S} = \qty{1,15}{\ampere}$
+* gesucht: $I_\text{P}$
 
 <fragment>
-$\begin{split} \frac{U_P}{U_S} &= \frac{I_S}{I_P} \\ \Rightarrow I_P &= \frac{I_S \cdot U_S}{U_P} = \frac{\qty{1,15}{\ampere} \cdot \qty{6}{\volt}}{\qty{230}{\volt}} \\ &= \qty{30}{\milli\ampere} \end{split}$
+$\begin{split} \frac{U_\text{P}}{U_\text{S}} &= \frac{I_\text{S}}{I_\text{P}} \\ \Rightarrow I_\text{P} &= \frac{I_\text{S} \cdot U_\text{S}}{U_\text{P}} = \frac{\qty{1,15}{\ampere} \cdot \qty{6}{\volt}}{\qty{230}{\volt}} \\ &= \qty{30}{\milli\ampere} \end{split}$
 </fragment>
 
 ---

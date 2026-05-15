@@ -14,13 +14,13 @@
 <left>
 * Spannungen an den Anschlüssen des Übertragers verhalten sich wie zur Anzahl der Wicklungen
 
-$ü = \dfrac{N_P}{N_S} = \dfrac{U_P}{U_S}$
+$ü = \dfrac{N_\text{P}}{N_\text{S}} = \dfrac{U_\text{P}}{U_\text{S}}$
 </left>
 <right>
-* $N_P$: Wicklungen auf der Primärseite
-* $N_S$: Wicklungen auf der Sekundärseite
-* $U_P$: Spannung an der Primärseite
-* $U_S$: Spannung an der Sekundärseite
+* $N_\text{P}$: Wicklungen auf der Primärseite
+* $N_\text{S}$: Wicklungen auf der Sekundärseite
+* $U_\text{P}$: Spannung an der Primärseite
+* $U_\text{S}$: Spannung an der Sekundärseite
 </right>
 
 ---

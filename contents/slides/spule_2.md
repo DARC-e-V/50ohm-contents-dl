@@ -65,12 +65,12 @@ $\begin{split} |X_{\textrm{L}}| &= \omega \cdot L = 2\pi \cdot f \cdot L\\ &= 2\
 <left>
 Zylinderspule
 <fragment>
-$L = \dfrac{\mu_0 \cdot \mu_r \cdot N^2 \cdot A_S}{l}$
+$L = \dfrac{\mu_0 \cdot \mu_\text{r} \cdot N^2 \cdot A_\text{S}}{l}$
 </fragment>
 
 * Windungszahl $N$ erhöhen
 * Spulenlänge $l$ verkürzen
-* Querschnittsfläche $A_S$ der Spule vergrößern
+* Querschnittsfläche $A_\text{S}$ der Spule vergrößern
 
 </left>
 <right>
@@ -141,7 +141,7 @@ $\begin{split} L &= N^2 \cdot A_{\textrm{L}}\\ N &= \sqrt{\frac{L}{A_{\textrm{L}
 ---
 ### Spulenverluste
 
-* Verlustfaktor $\tan(\delta) = \frac{R}{X_L}$
+* Verlustfaktor $\tan(\delta) = \frac{R}{X_\text{L}}$
 * Verluste im Leiter
 
 ---

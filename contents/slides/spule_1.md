@@ -34,16 +34,16 @@ $L = \dfrac{N\cdot \Phi}{I}$
 <left>
 * Die Induktivität einer Ringspule kann durch die Bauart erreicht werden
 
-$L = \dfrac{\mu_0 \cdot \mu_r \cdot N^2 \cdot A_S}{l}$
+$L = \dfrac{\mu_0 \cdot \mu_\text{r} \cdot N^2 \cdot A_\text{S}}{l}$
 
 * $\rightarrow$ Induktivität ist größer bei größerem Querschnitt, anderem Kern oder kleinerer Länge
 * $\rightarrow$ Induktivität ist viel größer bei höherer Windungszahl
 </left>
 <right>
 * $\mu_0 = \qty{1,2566e-6}{\henry\per\meter}$: magnetische Feldkonstante
-* $\mu_r$: relative Permeabilität, abhängig vom Spulenkern (Luft $\approx 1$)
+* $\mu_\text{r}$: relative Permeabilität, abhängig vom Spulenkern (Luft $\approx 1$)
 * $N$: Windungszahl
-* $A_S$: Querschnittsfläche der Spule
+* $A_\text{S}$: Querschnittsfläche der Spule
 * $l$: Länge der Spule bzw. mittlere Feldlinienlänge
 </right>
 <note>

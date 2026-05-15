@@ -51,7 +51,7 @@ $X_{\textrm{C}} = \frac{1}{\omega \cdot C} = \frac{1}{2\pi \cdot f \cdot C}$
 </fragment>
 
 <note>
-Ein VNA misst die Veränderung des Blindwiderstandes $X_C$ in Abhängigkeit der Frequenz
+Ein VNA misst die Veränderung des Blindwiderstandes $X_\text{C}$ in Abhängigkeit der Frequenz
 </note>
 ---
 [question:AC102]
@@ -130,7 +130,7 @@ $\begin{split} X_{\textrm{C}} &= \frac{1}{\omega \cdot C} \\ \Rightarrow C &= \f
 [photo:260:a_Kondensator Ersatzschaltbild:Ersatzschaltbild eines realen Kondensators mit einem seriellen Verlustwiderstand (ESR).]
 </left>
 <right>
-* Verlustfaktor<br/>$\tan(\delta) = \frac{R}{X_C}$
+* Verlustfaktor<br/>$\tan(\delta) = \frac{R}{X_\text{C}}$
 * Verluste in Dielektrikum und Zuleitung
 </right>
 
