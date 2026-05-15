@@ -164,7 +164,7 @@
 --- style="font-size: smaller;"
 #### Lösungsweg
 <left>
-* gegeben: $U_Z = \qty{6,2}{\volt}$
+* gegeben: $U_\text{Z} = \qty{6,2}{\volt}$
 * gegeben: $R_2 = \qty{270}{\ohm}$
 * gegeben: $R_3 = \qty{220}{\ohm}$
 </left>
@@ -176,12 +176,12 @@
 
 <left>
 <fragment>
-$\begin{split}R_E &= \frac{(R_3+R_6) \cdot R_4}{(R_3 + R_6) + R_4}\\ &= \frac{(\qty{220}{\ohm} + \qty{150}{\ohm}) \cdot \qty{6,8}{\kilo\ohm}}{\qty{220}{\ohm} + \qty{150}{\ohm} + \qty{6,8}{\kilo\ohm}}\\ &= \frac{\qty{2,516}{\mega\ohm}^2}{\qty{7170}{\ohm}}\\ &= \qty{351}{\ohm}\end{split}$
+$\begin{split}R_\text{E} &= \frac{(R_3+R_6) \cdot R_4}{(R_3 + R_6) + R_4}\\ &= \frac{(\qty{220}{\ohm} + \qty{150}{\ohm}) \cdot \qty{6,8}{\kilo\ohm}}{\qty{220}{\ohm} + \qty{150}{\ohm} + \qty{6,8}{\kilo\ohm}}\\ &= \frac{\qty{2,516}{\mega\ohm}^2}{\qty{7170}{\ohm}}\\ &= \qty{351}{\ohm}\end{split}$
 </fragment>
 </left>
 <right>
 <fragment>
-$\begin{split}\frac{U_Z}{U_{GS}} &= \frac{R_2 + R_E}{R_E}\\ \Rightarrow \frac{\qty{6,2}{\volt}}{U_{GS}} &= \frac{\qty{270}{\ohm}+\qty{351}{\ohm}}{\qty{351}{\ohm}}\\ &= 1,77\\ \Rightarrow U_{GS} &= \frac{\qty{6,2}{\volt}}{1,77}\\ &= \qty{3,50}{\volt}\end{split}$
+$\begin{split}\frac{U_\text{Z}}{U_{GS}} &= \frac{R_2 + R_\text{E}}{R_\text{E}}\\ \Rightarrow \frac{\qty{6,2}{\volt}}{U_{GS}} &= \frac{\qty{270}{\ohm}+\qty{351}{\ohm}}{\qty{351}{\ohm}}\\ &= 1,77\\ \Rightarrow U_{GS} &= \frac{\qty{6,2}{\volt}}{1,77}\\ &= \qty{3,50}{\volt}\end{split}$
 </fragment>
 </right>
 

@@ -24,7 +24,7 @@
 </left>
 <right>
 * gegeben: $R_{ges} = \qty{50}{\ohm}$
-* gegeben: $P_R = \qty{1}{\watt}$
+* gegeben: $P_\text{R} = \qty{1}{\watt}$
 * gesucht: $n$ Widerstände, $P$
 </right>
 
@@ -34,7 +34,7 @@ $\frac{1}{R_{ges}} = n_S \cdot \frac{1}{R_S} \Rightarrow n_S = \frac{R_S}{R_{ges
 $n = 4 \cdot n_S = 4 \cdot 12 = 48$ 
 </fragment>
 <fragment>
-$P = n \cdot P_R = 48 \cdot \qty{1}{\watt} = \qty{48}{\watt}$
+$P = n \cdot P_\text{R} = 48 \cdot \qty{1}{\watt} = \qty{48}{\watt}$
 </fragment>
 
 ---

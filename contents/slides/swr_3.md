@@ -50,13 +50,13 @@ $s = \frac{\sqrt{P_\mathrm{v}}+\sqrt{P_\mathrm{r}}}{\sqrt{P_\mathrm{v}}-\sqrt{P_
 ---
 
 #### Lösungsweg
-* gegeben: $P_V = \qty{10}{\watt}$
+* gegeben: $P_\text{v} = \qty{10}{\watt}$
 * gegeben: $a = \qty{5}{\dB}$
 * gesucht: $s$
 
 <fragment>
-Dämpfung auf gesamtes Kabel für Hin- und Rückweg: $\qty{10}{\dB}$
-$P_R = \qty{-10}{\dB} \cdot P_V = \dfrac{\qty{10}{\watt}}{10} = \qty{1}{\watt}$
+Dämpfung auf gesamtem Kabel für Hin- und Rückweg: $\qty{10}{\dB}$
+$P_\text{r} = \qty{-10}{\dB} \cdot P_\text{v} = \dfrac{\qty{10}{\watt}}{10} = \qty{1}{\watt}$
 </fragment>
 <fragment>
 $s = \dfrac{\sqrt{P_\mathrm{v}}+\sqrt{P_\mathrm{r}}}{\sqrt{P_\mathrm{v}}-\sqrt{P_\mathrm{r}}} = \dfrac{\sqrt{\qty{10}{\watt}}+\sqrt{\qty{1}{\watt}}}{\sqrt{\qty{10}{\watt}}-\sqrt{\qty{1}{\watt}}} = 1,92$

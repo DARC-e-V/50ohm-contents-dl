@@ -13,7 +13,7 @@
 
 Spitzen-Spitzen-Wert bei sinusförmigen Spannungen
 
-$U_{SS} = 2\cdot \hat{U}$
+$U_\text{SS} = 2\cdot \hat{U}$
 
 ---
 [question:EB407]
@@ -30,7 +30,7 @@ Bei einer Wechselspannung der Wert, der in einem Widerstand zu einer vergleichsw
 ---
 Bei sinusförmigen Spannungen (ohne Herleitung)
 
-$\hat{U} = U_{eff}\cdot \sqrt{2}$
+$\hat{U} = U_\text{eff}\cdot \sqrt{2}$
 
 ---
 [question:EB405]
@@ -41,9 +41,9 @@ $\hat{U} = U_{eff}\cdot \sqrt{2}$
 ---
 ### Lösungsweg
 
-$\hat{U} = U_{eff}\cdot \sqrt{2}$
-$U_{eff} = \dfrac{\hat{U}}{\sqrt{2}}$
-$U_{eff} = \dfrac{\qty{1}{\volt}}{1,41} \approx \qty{0,7}{\volt}$
+$\hat{U} = U_\text{eff}\cdot \sqrt{2}$
+$U_\text{eff} = \dfrac{\hat{U}}{\sqrt{2}}$
+$U_\text{eff} = \dfrac{\qty{1}{\volt}}{1,41} \approx \qty{0,7}{\volt}$
 
 ---
 [question:EB404]
@@ -54,20 +54,20 @@ $U_{eff} = \dfrac{\qty{1}{\volt}}{1,41} \approx \qty{0,7}{\volt}$
 ---
 ### Lösungsweg
 
-$\hat{U} = U_{eff}\cdot \sqrt{2}$
-$U_{eff} = \dfrac{\hat{U}}{\sqrt{2}}$
-$U_{eff} = \dfrac{\qty{12}{\volt}}{1,41} \approx \qty{8,5}{\volt}$
+$\hat{U} = U_\text{eff}\cdot \sqrt{2}$
+$U_\text{eff} = \dfrac{\hat{U}}{\sqrt{2}}$
+$U_\text{eff} = \dfrac{\qty{12}{\volt}}{1,41} \approx \qty{8,5}{\volt}$
 
 ---
 [question:EB403]
 ---
 ### Lösungsweg
 
-$\hat{U} = U_{eff}\cdot \sqrt{2}$
+$\hat{U} = U_\text{eff}\cdot \sqrt{2}$
 $\hat{U} = \qty{12}{\volt}\cdot 1,41 \approx \qty{17}{\volt}$
 
-$U_{SS} = 2\cdot \hat{U}$
-$U_{SS} = 2\cdot \qty{17}{\volt} = \qty{34}{\volt}$
+$U_\text{SS} = 2\cdot \hat{U}$
+$U_\text{SS} = 2\cdot \qty{17}{\volt} = \qty{34}{\volt}$
 
 ---
 [question:EB401]
@@ -78,7 +78,7 @@ $U_{SS} = 2\cdot \qty{17}{\volt} = \qty{34}{\volt}$
 ---
 ### Lösungsweg
 
-$\hat{U} = U_{eff}\cdot \sqrt{2}$
+$\hat{U} = U_\text{eff}\cdot \sqrt{2}$
 $\hat{U} = \qty{230}{\volt}\cdot 1,41 \approx \qty{325}{\volt}$
 
 ---
