@@ -96,18 +96,18 @@ $R_1 || R_3 + R_2 || R_4 = \qty{1100}{\ohm} + \qty{110}{\ohm} = \qty{1210}{\ohm}
 <left>
 * gegeben: $R_1 = \qty{10}{\kilo\ohm}$
 * gegeben: $R_2 = \qty{2,2}{\kilo\ohm}$
-* gegeben: $R_L = \qty{8,2}{\kilo\ohm}$
+* gegeben: $R_\text{L} = \qty{8,2}{\kilo\ohm}$
 </left>
 <right>
-* gegeben: $U_B = \qty{12}{\volt}$
+* gegeben: $U_\text{B} = \qty{12}{\volt}$
 * gesucht: $U_2$
 </right>
 
 <fragment>
-$\frac{U_2}{U_B} = \frac{R_2 \parallel R_L}{R_{\mathrm{ges}}}$
-$R_2 \parallel R_L = \frac{R_2 \cdot R_L}{R_2 + R_L} = \frac{\qty{2,2}{\kilo\ohm} \cdot \qty{8,2}{\kilo\ohm}}{\qty{2,2}{\kilo\ohm} + \qty{8,2}{\kilo\ohm}} = \qty{1,74}{\kilo\ohm}$
-$R_{\mathrm{ges}} = R_1 + R_2 \parallel R_L = \qty{10}{\kilo\ohm} + \qty{1,74}{\kilo\ohm} = \qty{11,74}{\kilo\ohm}$
+$\frac{U_2}{U_\text{B}} = \frac{R_2 \parallel R_\text{L}}{R_{\mathrm{ges}}}$
+$R_2 \parallel R_\text{L} = \frac{R_2 \cdot R_\text{L}}{R_2 + R_\text{L}} = \frac{\qty{2,2}{\kilo\ohm} \cdot \qty{8,2}{\kilo\ohm}}{\qty{2,2}{\kilo\ohm} + \qty{8,2}{\kilo\ohm}} = \qty{1,74}{\kilo\ohm}$
+$R_{\mathrm{ges}} = R_1 + R_2 \parallel R_\text{L} = \qty{10}{\kilo\ohm} + \qty{1,74}{\kilo\ohm} = \qty{11,74}{\kilo\ohm}$
 </fragment>
 <fragment>
-$U_2 = \frac{R_2 \parallel R_L}{R_{\mathrm{ges}}} \cdot U_B = \frac{\qty{1,74}{\kilo\ohm}}{\qty{11,74}{\kilo\ohm}} \cdot \qty{12}{\volt} \approx \qty{1,8}{\volt}$
+$U_2 = \frac{R_2 \parallel R_\text{L}}{R_{\mathrm{ges}}} \cdot U_\text{B} = \frac{\qty{1,74}{\kilo\ohm}}{\qty{11,74}{\kilo\ohm}} \cdot \qty{12}{\volt} \approx \qty{1,8}{\volt}$
 </fragment>
