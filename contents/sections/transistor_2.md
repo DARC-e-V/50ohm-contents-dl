@@ -18,25 +18,25 @@ Es empfiehl sich z.B. den NPN-Transistor zu merken. Bei PNP ist dann alles umgek
 
 [question:AC504]
 
-Physikalisch steuert die Basis-Emitter-Spannung $U_{BE}$ den Kollektorstrom $I_C$ und zwar exponentiell. Beim npn-Transistor gilt zum Beispiel:
+Physikalisch steuert die Basis-Emitter-Spannung $U_\text{BE}$ den Kollektorstrom $I_\text{C}$ und zwar exponentiell. Beim npn-Transistor gilt zum Beispiel:
 
-$I_C = I_S \cdot e^{\frac{U_{BE}}{U_T}}$
+$I_\text{C} = I_\text{S} \cdot e^{\frac{U_\text{BE}}{U_\text{T}}}$
 
-$I_S$ ist der Sättigungsstrom, der stark von der Bauart des Transistors abhängt. Er ist dem Datenblatt zu entnehmen. $U_T$ ist die sogenannte Temperaturspannung, die bei Raumtemperatur etwa $\qty{26}{\milli\volt}$ beträgt.
+$I_\text{S}$ ist der Sättigungsstrom, der stark von der Bauart des Transistors abhängt. Er ist dem Datenblatt zu entnehmen. $U_\text{T}$ ist die sogenannte Temperaturspannung, die bei Raumtemperatur etwa $\qty{26}{\milli\volt}$ beträgt.
 
-Ein Unterschied zum später betrachteten Feldeffekt-Transistor ist, dass beim Bipolartransistor immer auch ein Strom im Eingang (der Basis) fließt, der Basisstrom $I_B$. Auch er ist exponentiell von $U_{BE}$ abhängig, wobei $I_S$ um einen Faktor $B$ kleiner ist als beim Kollektorstrom.
+Ein Unterschied zum später betrachteten Feldeffekt-Transistor ist, dass beim Bipolartransistor immer auch ein Strom im Eingang (der Basis) fließt, der Basisstrom $I_\text{B}$. Auch er ist exponentiell von $U_\text{BE}$ abhängig, wobei $I_\text{S}$ um einen Faktor $B$ kleiner ist als beim Kollektorstrom.
 
-$I_B = \frac{I_S}{B} \cdot e^{\frac{U_{BE}}{U_T}}$
+$I_\text{B} = \frac{I_\text{S}}{B} \cdot e^{\frac{U_\text{BE}}{U_\text{T}}}$
 
 Der Faktor $B$ ist also der Quotient aus Kollektor- und Basisstrom:
 
-$B = \frac{I_C}{I_B}$
+$B = \frac{I_\text{C}}{I_\text{B}}$
 
 Auch wenn der Bipolartransistor physikalisch über $U_\mathrm{BE}$ gesteuert wird, bezeichnet man ihn als *stromgesteuert*, weil er nur dann leitet, wenn ein Basisstrom fließt.
 
 [question:AC501]
 
-Ein Transistor wird als "leitend" in "Durchlassrichtung" bezeichnet, wenn ein signifikanter Kollektorstrom fließt. Dazu muss die Basis-Emitter-Diode stets in Flussrichtung geschaltet sein, also $U_{BE}$ positiv bei npn- und negativ bei pnp-Transistoren. Die Kollektor-Basis-Diode dagegen muss sperren, denn es sollen keine Ladungsträger aus dem Kollektor in die Basis injiziert werden.
+Ein Transistor wird als "leitend" in "Durchlassrichtung" bezeichnet, wenn ein signifikanter Kollektorstrom fließt. Dazu muss die Basis-Emitter-Diode stets in Flussrichtung geschaltet sein, also $U_\text{BE}$ positiv bei npn- und negativ bei pnp-Transistoren. Die Kollektor-Basis-Diode dagegen muss sperren, denn es sollen keine Ladungsträger aus dem Kollektor in die Basis injiziert werden.
 
 [question:AC505]
 
@@ -64,15 +64,15 @@ $R_1 = \frac{\qty{10}{\volt} - \qty{0,6}{\volt}}{\qty{110}{\micro\ampere}} = \qt
 
 [question:AC517]
 
-Die obige Schaltung zeigt eine typische Arbeitspunkteinstellung für den Bipolartransistor. Das Basispotential wird über den Spannungsteiler $R_1$ und $R_2$ festgelegt. Da über dem Emitterwiderstand $R_E$ $\qty{1}{\volt}$ abfallen soll, muss das Basispotential $\qty{1,6}{\volt}$ betragen. Bei einem Kollektorstrom von $\qty{2}{\milli\ampere}$ und einer Stromverstärkung von $\num{200}$ beträgt der Basisstrom $\qty{10}{\micro\ampere}$. Da der Strom durch $R_2$ der zehnfache Basisstrom fließen soll, fließt durch $R_1$ der elffache Basisstrom, also $\qty{110}{\micro\ampere}$. Über $R_1$ fällt die Differenz der Betriebsspannung ($\qty{10}{\volt}$) und dem Basispotential ab, also $\qty{8,4}{\volt}$. Nun können wir $R_1$ bestimmen:
+Die obige Schaltung zeigt eine typische Arbeitspunkteinstellung für den Bipolartransistor. Das Basispotential wird über den Spannungsteiler $R_1$ und $R_2$ festgelegt. Da über dem Emitterwiderstand $R_\text{E}$ $\qty{1}{\volt}$ abfallen soll, muss das Basispotential $\qty{1,6}{\volt}$ betragen. Bei einem Kollektorstrom von $\qty{2}{\milli\ampere}$ und einer Stromverstärkung von $\num{200}$ beträgt der Basisstrom $\qty{10}{\micro\ampere}$. Da der Strom durch $R_2$ der zehnfache Basisstrom fließen soll, fließt durch $R_1$ der elffache Basisstrom, also $\qty{110}{\micro\ampere}$. Über $R_1$ fällt die Differenz der Betriebsspannung ($\qty{10}{\volt}$) und dem Basispotential ab, also $\qty{8,4}{\volt}$. Nun können wir $R_1$ bestimmen:
 
 $R_1 = \frac{\qty{8,4}{\volt}}{\qty{110}{\micro\ampere}} = \qty{76,4}{\kilo\ohm}$
 
-Dies ist eine gute Schaltung, weil der Kollektorstrom vor allem durch den Emitterwiderstand $R_E$ festgelegt wird, der eine Serien-Gegenkopplung darstellt.
+Dies ist eine gute Schaltung, weil der Kollektorstrom vor allem durch den Emitterwiderstand $R_\text{E}$ festgelegt wird, der eine Serien-Gegenkopplung darstellt.
 
 [question:AC519]
 
-Wenn $R_1$ durch den Fehler nicht von Strom durchflossen, so fällt an $R_2$ keine Spannung ab - die Basis liegt auf Massepotential. Dann ist $U_{BE} \geq \qty{0,6}{\volt}$ nicht erfüllt, und der Transistor ist stromlos. Da am Kollektorwiderstand $R_C$ keine Spannung abfällt, steigt das Kollektorpotential auf die Betriebsspannung an.
+Wenn $R_1$ durch den Fehler nicht von Strom durchflossen, so fällt an $R_2$ keine Spannung ab - die Basis liegt auf Massepotential. Dann ist $U_\text{BE} \geq \qty{0,6}{\volt}$ nicht erfüllt, und der Transistor ist stromlos. Da am Kollektorwiderstand $R_C$ keine Spannung abfällt, steigt das Kollektorpotential auf die Betriebsspannung an.
 
 [question:AC520]
 
@@ -147,7 +147,7 @@ Im folgenden wollen wir auch ein paar MOSFET-Schaltungen betrachten, die auf den
 
 In den Gate-Anschluss eines MOSFETs fließt kein Gleichstrom. Daher handelt es sich im einen *unbelasteten* Spannungsteiler und es gilt:
 
-$U_{GS} = \frac{R_2}{R_1 + R_2} \cdot U_B = \frac{\qty{1}{\kilo\ohm}}{\qty{11}{\kilo\ohm}} \cdot \qty{44}{\volt} = \qty{4}{\volt}$
+$U_\text{GS} = \frac{R_2}{R_1 + R_2} \cdot U_\text{B} = \frac{\qty{1}{\kilo\ohm}}{\qty{11}{\kilo\ohm}} \cdot \qty{44}{\volt} = \qty{4}{\volt}$
 
 [question:AC522]
 
@@ -157,6 +157,6 @@ $\frac{R_2}{R_1} = \frac{\qty{2,8}{\volt}}{\qty{44}{\volt} - \qty{2,8}{\volt}} \
 
 [question:AC523]
 
-Der Leistungs-MOSFET ist hier vollständig durchgeschaltet, der Kanal lässt sich als ein ohmscher Widerstand von (lt. Aufgabenstellung) $R_{ch} = \qty{4}{\milli\ohm}$ darstellen. Es fließt ein Strom von $\qty{25}{\ampere}$. Die Verlustleistung berechnen wir nach der Formel
+Der Leistungs-MOSFET ist hier vollständig durchgeschaltet, der Kanal lässt sich als ein ohmscher Widerstand von (lt. Aufgabenstellung) $R_\text{ch} = \qty{4}{\milli\ohm}$ darstellen. Es fließt ein Strom von $\qty{25}{\ampere}$. Die Verlustleistung berechnen wir nach der Formel
 
-$P_V = I^2 \cdot R_{ch} = \qty{2,5}{\watt}$
+$P_\text{V} = I^2 \cdot R_\text{ch} = \qty{2,5}{\watt}$

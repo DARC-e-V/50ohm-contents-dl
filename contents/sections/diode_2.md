@@ -13,9 +13,9 @@ pn-Dioden zeigen eine exponentielle Abhängigkeit des Diodenstroms von der Diode
 
 Der Diodenstrom ist:
   
-$I_D(T) = I_S(T) \cdot e^{\frac{U_D}{U_T}}$
+$I_\text{D}(T) = I_\text{S}(T) \cdot e^{\frac{U_\text{D}}{U_\text{T}}}$
   
-$I_S$ ist der Sättigungsstrom, $U_T = k T/q$ die sogenannte Temperaturspannung. Hier ist $k$ die Boltzmann-Konstante, $q$ die Elementarladung.
+$I_\text{S}$ ist der Sättigungsstrom, $U_\text{T} = k T/q$ die sogenannte Temperaturspannung. Hier ist $k$ die Boltzmann-Konstante, $q$ die Elementarladung.
   
 Mit steigender Temperatur steigt der Sättigungsstrom und die Exponentialfunktion sinkt. Es überwiegt allerdings die Temperaturabhängigkeit des Sättigungsstroms.
 
@@ -53,7 +53,7 @@ Der Fotowiderstand ist ein Bauelement, das über zwei nicht-sperrende Kontakte v
 
 ---
 
-Die Fotodiode dagegen ist eine pn-Diode (vgl. Abbildung [ref:a_photodiode]). Das Licht wird hier in der Raumladungszone absorbiert, es entstehen Elektron-Loch-Paare, die im elektrischen Feld der Raumladungszone getrennt werden. Dieses Feld existiert auch ohne äußere Vorspannung. Es fließt auch für $U_D=0$ ein Strom (ein Kurzschlussstrom). Dieser Strom hat die entgegengesetzte Richtung wie der konventionelle Diodenstrom. 
+Die Fotodiode dagegen ist eine pn-Diode (vgl. Abbildung [ref:a_photodiode]). Das Licht wird hier in der Raumladungszone absorbiert, es entstehen Elektron-Loch-Paare, die im elektrischen Feld der Raumladungszone getrennt werden. Dieses Feld existiert auch ohne äußere Vorspannung. Es fließt auch für $U_\text{D}=0$ ein Strom (ein Kurzschlussstrom). Dieser Strom hat die entgegengesetzte Richtung wie der konventionelle Diodenstrom. 
 
 <margin>
 [picture:1069:a_photodiode:Schaltzeichen Photodiode]

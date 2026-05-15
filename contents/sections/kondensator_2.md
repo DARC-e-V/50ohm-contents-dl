@@ -1,6 +1,6 @@
-In der Klasse E haben wir bereits die Kapazität eines Kondensators sowie sein qualitatives Verhalten bei Wechselspannung kennengelernt: Ein Kondensator verhält sich wie ein frequenzabhängiger Widerstand. Dabei haben wir zunächst festgehalten, dass der kapazitive Blindwiderstand umgekehrt proportional zur Frequenz ist. Verringert man die Frequenz, so wird der Blindwiderstand $X_C$ größer. Erhöht man hingegen die Frequenz, nimmt der Widerstand entsprechend ab. Der Sachverhalt eines Kondensators bei Wechselspannung lässt sich durch die Formel für den kapazitiven Blindwiderstand $X_C$ beschreiben:
+In der Klasse E haben wir bereits die Kapazität eines Kondensators sowie sein qualitatives Verhalten bei Wechselspannung kennengelernt: Ein Kondensator verhält sich wie ein frequenzabhängiger Widerstand. Dabei haben wir zunächst festgehalten, dass der kapazitive Blindwiderstand umgekehrt proportional zur Frequenz ist. Verringert man die Frequenz, so wird der Blindwiderstand $X_\text{C}$ größer. Erhöht man hingegen die Frequenz, nimmt der Widerstand entsprechend ab. Der Sachverhalt eines Kondensators bei Wechselspannung lässt sich durch die Formel für den kapazitiven Blindwiderstand $X_\text{C}$ beschreiben:
 
-$|X_C| = \frac{1}{\omega\cdot C} = \frac{1}{2\pi\cdot f \cdot C}$
+$|X_\text{C}| = \frac{1}{\omega\cdot C} = \frac{1}{2\pi\cdot f \cdot C}$
 
 In der Klasse A wollen wir dieses Verhalten nun genauer betrachten und auch erfahren, warum dieser Widerstand als "Blindwiderstand" bezeichnet wird. Zunächst müssen wir uns allerdings noch merken, dass der Blindwiderstand eines Kondensators auch negativ ist, um die folgende Frage lösen zu können: 
 
@@ -11,24 +11,24 @@ Warum ist der kapazitive Blindwiderstand negativ? Der Hintergrund liegt in der k
 
 Für Leserinnen und Leser mit Kenntnissen in komplexen Zahlen sei jedoch angemerkt, dass die korrekte Darstellung des kapazitiven Blindwiderstands eigentlich
 
-$X_C = \frac{1}{j\omega C}$
+$X_\text{C} = \frac{1}{j\omega C}$
 
 lautet. Dabei steht $j$ für die imaginäre Einheit $\sqrt{-1}$.
 
 Erweitert man diesen Ausdruck mit $j$, ergibt sich:
 
-$X_C = \frac{1}{j\omega C} = \frac{1 \cdot j}{j\omega C \cdot j} =\frac{-j}{\omega C}$
+$X_\text{C} = \frac{1}{j\omega C} = \frac{1 \cdot j}{j\omega C \cdot j} =\frac{-j}{\omega C}$
 
 Daraus wird ersichtlich, dass der kapazitive Blindwiderstand nicht nur negativ, sondern auch komplex ist. Das negative Vorzeichen beschreibt dabei die Phasenlage zwischen Strom und Spannung am Kondensator welche wir in diesem Kapitel noch genauer betrachten.
 </indepth>
 
 ---
 
-Moderne, kostengünstige Messgeräte, die Funkamateure heutzutage gerne einsetzen, sind Antennenanalyzer oder vektorielle Network Analyzer (VNA). Sie messen die Veränderung des Blindwiderstandes $X_C$ in Abhängigkeit der Frequenz und können das Messergebnis auch grafisch darstellen.
+Moderne, kostengünstige Messgeräte, die Funkamateure heutzutage gerne einsetzen, sind Antennenanalyzer oder vektorielle Network Analyzer (VNA). Sie messen die Veränderung des Blindwiderstandes $X_\text{C}$ in Abhängigkeit der Frequenz und können das Messergebnis auch grafisch darstellen.
 Abbildung [ref:a_kapazitiver_Blindwiderstand] zeigt die Veränderung des kapazitiven Blindwiderstandes (blaue Linie) eines $\qty{1500}{\pico\farad}$ Styroflexkondensators im Frequenzbereich von $\qtyrange{1}{4,5}{\mega\hertz}$. 
 
 <margin>
-[photo:248:a_kapazitiver_Blindwiderstand:Kapazitiver Blindwiderstand $X_C$ (Blaue Kurve) und Phasenlage (Rote Kurve) eines $\qty{1500}{\pico\farad}$ Styroflexkondensators im Frequenzbereich von $\qtyrange{1}{4,5}{\mega\hertz}$.]
+[photo:248:a_kapazitiver_Blindwiderstand:Kapazitiver Blindwiderstand $X_\text{C}$ (Blaue Kurve) und Phasenlage (Rote Kurve) eines $\qty{1500}{\pico\farad}$ Styroflexkondensators im Frequenzbereich von $\qtyrange{1}{4,5}{\mega\hertz}$.]
 </margin>
 
 
@@ -90,10 +90,10 @@ Zwischen beiden Größen besteht ein direkter Zusammenhang:
 
 $Q = \frac{1}{\tan\delta}$
 
-Merke: Hohe Verluste führen zu einer niedrigen Güte $Q$ und damit zu einem großen Verlustfaktor $\tan\delta$. Je höher die Frequenz, desto stärker wirken sich diese Verluste aus, da der Blindwiderstand $X_C$ mit steigender Frequenz abnimmt, während die parasitären Widerstände konstant bleiben.
+Merke: Hohe Verluste führen zu einer niedrigen Güte $Q$ und damit zu einem großen Verlustfaktor $\tan\delta$. Je höher die Frequenz, desto stärker wirken sich diese Verluste aus, da der Blindwiderstand $X_\text{C}$ mit steigender Frequenz abnimmt, während die parasitären Widerstände konstant bleiben.
 
 <margin>
-[picture:1065:a_ersatzchaltbild_kondensator:Ersatzschaltbild eines realen Kondensators mit parasitären Verlusten.]
+[picture:1065:a_ersatzschaltbild_kondensator:Ersatzschaltbild eines realen Kondensators mit parasitären Verlusten.]
 </margin>
 
 ---
@@ -103,12 +103,12 @@ Merke: Hohe Verluste führen zu einer niedrigen Güte $Q$ und damit zu einem gro
 [question:AC110]
 
 <indepth>
-Durch die komplexe Wechselstromrechnung kann man den Blindwiderstand $X_C$ mit den parasitären Verlusten $R$ in Form eines Zeigerdiagramms darstellen: 
-[picture:1066:a_tan_delta:$\tan\delta$ im Komplexen Zeigerdiagramm]
+Durch die komplexe Wechselstromrechnung kann man den Blindwiderstand $X_\text{C}$ mit den parasitären Verlusten $R$ in Form eines Zeigerdiagramms darstellen: 
+[picture:1066:a_tan_delta:$\tan\delta$ im komplexen Zeigerdiagramm]
 
-Der Tangens beschreibt ja das Verhältnis von Gegenkathete zu Ankathete, also in diesem Fall die Verluste $R$ im Verhältnis zum verlustfreien kapazitiven Blindwiderstand $X_C$. 
+Der Tangens beschreibt ja das Verhältnis von Gegenkathete zu Ankathete, also in diesem Fall die Verluste $R$ im Verhältnis zum verlustfreien kapazitiven Blindwiderstand $X_\text{C}$. 
 
-$\tan\delta = \frac{R}{|X_C|}$
+$\tan\delta = \frac{R}{|X_\text{C}|}$
 
 Je größer die Verluste, desto größer ist der Winkel $\delta$ und damit auch der Verlustfaktor $\tan\delta$. Ein idealer Kondensator würde einen Winkel von $\delta = 0$ Grad aufweisen, da er keine Verluste hat.
 

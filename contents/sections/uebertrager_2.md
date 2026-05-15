@@ -1,4 +1,4 @@
-In der Klasse E haben wir bereits die Grundlagen des Transformators kennengelernt. Er besteht aus zwei Spulen, die über einen Eisen- oder Ferritkern magnetisch gekoppelt sind. Damit die Seiten auseinandergehalten werden können, spricht man von Primärseite mit der Windungszahl $N_P$ und der Sekundärseite mit der Windungszahl $N_S$.
+In der Klasse E haben wir bereits die Grundlagen des Transformators kennengelernt. Er besteht aus zwei Spulen, die über einen Eisen- oder Ferritkern magnetisch gekoppelt sind. Damit die Seiten auseinandergehalten werden können, spricht man von Primärseite mit der Windungszahl $N_\text{P}$ und der Sekundärseite mit der Windungszahl $N_\text{S}$.
 
 Das Transformatorprinzip beruht auf einem grundlegenden physikalischen Effekt: der elektromagnetischen Induktion. Ändert sich das Magnetfeld in einer Spule – wie es beim Anlegen einer Wechselspannung der Fall ist – so wird in einer benachbarten, magnetisch gekoppelten Spule eine elektrische Spannung induziert. Diese ist gemäß dem Induktionsgesetz so gerichtet, dass sie der Ursache ihrer Entstehung entgegenwirkt. Man spricht daher auch von *Gegeninduktion*.
 
@@ -6,11 +6,11 @@ Das Transformatorprinzip beruht auf einem grundlegenden physikalischen Effekt: d
 
 In der Klasse E haben wir bereits die Formel für das Übersetzungsverhältnis $ü$ kennengelernt:
 
-$ü = \frac{N_P}{N_S} = \frac{U_P}{U_S}$
+$ü = \frac{N_\text{P}}{N_\text{S}} = \frac{U_\text{P}}{U_\text{S}}$
 
 Für die Ströme gilt entsprechend umgekehrt:
 
-$ü = \frac{N_P}{N_S} = \frac{I_S}{I_P} = \frac{U_P}{U_S}$
+$ü = \frac{N_\text{P}}{N_\text{S}} = \frac{I_\text{S}}{I_\text{P}} = \frac{U_\text{P}}{U_\text{S}}$
 
 Mit dieser Formel, die auch in der Formelsammlung zu finden ist, kann die nächste Frage gelöst werden:
 
@@ -52,30 +52,30 @@ Ein Anpassungsübertrager hat daher die Aufgabe, eine gegebene Impedanz in eine 
 
 In der Formelsammlung finden wir die Formel für das Übersetzungsverhältnis $ü$:
 
-$ü = \sqrt{\frac{Z_p}{Z_s}} = \frac{N_p}{N_s} = \frac{U_p}{U_s}$
+$ü = \sqrt{\frac{Z_\text{p}}{Z_\text{s}}} = \frac{N_p}{N_s} = \frac{U_\text{p}}{U_\text{s}}$
 
 Quadriert man die Seiten der Gleichung ergibt sich: 
 
 
-$ü^2 = \frac {Z_p}{Z_s} = \left(\frac{N_p}{N_s}\right)^2 = \left(\frac{U_p}{U_s}\right)^2$
+$ü^2 = \frac {Z_\text{p}}{Z_\text{s}} = \left(\frac{N_p}{N_s}\right)^2 = \left(\frac{U_\text{p}}{U_\text{s}}\right)^2$
 
 Daran erkennt man, dass das Impedanzverhältnis ist das Quadrat des Spannungsverhältnisses und damit auch das Quadrat des Windungszahlenverhältnisses. Oder anders herum gesagt, ein bestimmtes Windungsverhältnis führt zu einem quadratisch höheren Impedanzverhältnis.
 
 <indepth>
 Herleitung der Formel zur Impedanzübertragung:
 $ P_p = P_s$
-$U_p \cdot I_p = U_s \cdot I_s$
+$U_\text{p} \cdot I_p = U_\text{s} \cdot I_s$
 Für $U$ das Ohmsche Gesetz einsetzen: $U = I \cdot R$;
 $R$ wird durch $Z$ ersetzt
-$(I_p \cdot Z_p) \cdot I_p = (I_s \cdot Z_s) \cdot I_s$
+$(I_p \cdot Z_\text{p}) \cdot I_p = (I_s \cdot Z_\text{s}) \cdot I_s$
 Das Impedanzverhältnis auf einer Seite bilden:
-$ \frac{Z_p}{Z_s} = \frac{{I_s}^2}{{I_p}^2} = ü^2$
+$ \frac{Z_\text{p}}{Z_\text{s}} = \frac{{I_s}^2}{{I_p}^2} = ü^2$
 Alternativ für $I$ das Ohmsche Gesetz einsetzen:
 $I = \frac{U}{R}$
 $R$ wird durch $Z$ ersetzt
-$\frac{U_p}{Z_p} \cdot U_p  = \frac{U_s}{Z_s} \cdot U_s$
+$\frac{U_\text{p}}{Z_\text{p}} \cdot U_\text{p}  = \frac{U_\text{s}}{Z_\text{s}} \cdot U_\text{s}$
 Das Impedanzverhältnis auf einer Seite bilden:
-$ \frac{Z_p}{Z_s} = \frac{{U_p}^2}{{U_s}^2} = ü^2$
+$ \frac{Z_\text{p}}{Z_\text{s}} = \frac{{U_\text{p}}^2}{{U_\text{s}}^2} = ü^2$
 </indepth>
 
 ---
@@ -86,7 +86,7 @@ Als Beispiel betrachten wir eine endgespeiste Antenne, die wir in einem spätere
 [picture:260:a_endgespeiste_antenne:Endgespeiste Antenne mit Impedanzanpassung druch einen Übertrager]
 </margin>
 
-Für die Impedanzübertragung von $\qty{50}{\ohm}$ auf $\qty{2450}{\ohm}$ ist das Verhältnis $Z_p:Z_s = \qty{50}{\ohm}:\qty{2450}{\ohm} = 1:49$. Das bedeutet $ü^2 = 1:49$ und damit $ü=\sqrt{1}:\sqrt{49}=1:7$. Das bedeutet, dass die Primärseite nur ein Siebtel der Windungen der Sekundärseite haben darf, damit die Impedanzanpassung gelingt, z.B. $N_p=1$ und $N_s=7$. In der Praxis wird üblicherweise ein Windungsverhältnis von $2:14$ verwendet (vgl. Abbildung [ref:a_unun]).
+Für die Impedanzübertragung von $\qty{50}{\ohm}$ auf $\qty{2450}{\ohm}$ ist das Verhältnis $Z_\text{p}:Z_\text{s} = \qty{50}{\ohm}:\qty{2450}{\ohm} = 1:49$. Das bedeutet $ü^2 = 1:49$ und damit $ü=\sqrt{1}:\sqrt{49}=1:7$. Das bedeutet, dass die Primärseite nur ein Siebtel der Windungen der Sekundärseite haben darf, damit die Impedanzanpassung gelingt, z.B. $N_p=1$ und $N_s=7$. In der Praxis wird üblicherweise ein Windungsverhältnis von $2:14$ verwendet (vgl. Abbildung [ref:a_unun]).
 
 <margin>
 [photo:332:a_unun:Beispiel für einen Unun-Übertrager mit einem Windungsverhältnis von 2 zu 14, wobei die Primärseite und Sekundärseite zusammen bifilar (verdrillt) gewickelt sind]

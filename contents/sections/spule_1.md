@@ -10,13 +10,13 @@ Das dritte passive Bauelement in der Funktechnik – nach Widerstand und Kondens
 
 Eine Zylinderspule hat eine sogenannte Induktivität $L$, welche sich nach folgender Formel berechnet:
 
-$L = \frac{\mu_0 \cdot \mu_r \cdot N^2 \cdot A_S}{l}$
+$L = \frac{\mu_0 \cdot \mu_\text{r} \cdot N^2 \cdot A_\text{S}}{l}$
 
 Betrachtet man den Aufbau einer Spule, dann findet man also folgende Größen:
 1. $\mu_0$ ist die magnetische Feldkonstante, eine Naturkonstante mit dem Wert $\qty{1,2566e-6}{\henry\per\meter}$. Den Wert kann man immer in der Formelsammlung nachschlagen.
-2. $\mu_r$ ist eine Materialkonstante, denn der Spulenkern kann aus einem speziellen Material bestehen, das magnetische Felder verstärken kann.
+2. $\mu_\text{r}$ ist eine Materialkonstante, denn der Spulenkern kann aus einem speziellen Material bestehen, das magnetische Felder verstärken kann.
 3. Die Anzahl $N$ der Spulenwindungen aus Kupferlackdraht oder versilbertem Kupferdraht.
-4. $A_S$ gibt die Querschnittsfläche des Spulenkerns an.
+4. $A_\text{S}$ gibt die Querschnittsfläche des Spulenkerns an.
 5. Spulenlänge $l$
 
 [question:EA102]
@@ -59,7 +59,7 @@ Wenn die Windungszahl verringert wird, dann sinkt die Induktivität, aber selbst
 Als *ferromagnetisch* bezeichnen wir eine bestimmte Klasse an Materialien, die auf atomarer Ebene kleine Elementarmagnete enthalten, die sich unter dem Einfluss eines äußeren magnetischen Felds ausrichten und so die *magnetische Flussdichte* stark erhöhen (mit der wir uns an dieser Stelle aber noch nicht beschäftigen). Unter den reinen chemischen Elementen sind nur Eisen, Kobalt und Nickel ferromagnetisch.
 
 <indepth>
-$\mu_r$, man sagt auch relative Permeabilität, ist bei ferromagnetischen Materialien sehr groß (bei Eisen zum Beispiel im Bereich von $300\dots\num{10000}$).
+$\mu_\text{r}$, man sagt auch relative Permeabilität, ist bei ferromagnetischen Materialien sehr groß (bei Eisen zum Beispiel im Bereich von $300\dots\num{10000}$).
 </indepth>
 
 
@@ -106,7 +106,7 @@ Man kann deshalb Spulen auch zur Verzögerung benutzen. In der folgenden Frage, 
 
 Die Spule zeigt, ähnlich wie ein Kondensator, einen Wechselstromwiderstand $X_{\textrm{L}}$, das heißt, obwohl der Spulendraht nur einen sehr kleinen ohmschen Widerstand (Leiterwiderstand) besitzt, fließt ein Strom, der aber mit steigender Frequenz der Wechselspannung kleiner wird:
 
-$X_{L} = \omega \cdot L = 2\cdot\pi\cdot f \cdot L$
+$X_\text{L} = \omega \cdot L = 2\cdot\pi\cdot f \cdot L$
 
 Aus der Formel lässt sich erkennen, dass der Wechselstromwiderstand mit zunehmender Frequenz ansteigt und mit abnehmender Frequenz sinkt.
 

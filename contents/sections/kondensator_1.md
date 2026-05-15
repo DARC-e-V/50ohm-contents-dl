@@ -31,22 +31,22 @@ Zur Berechnung der Kondensatorkapazität aus den Abmessungen dient folgende Form
 
 ---
 
-$C = \frac{\varepsilon_0 \cdot \varepsilon_r \cdot A}{d}$
+$C = \frac{\varepsilon_0 \cdot \varepsilon_\text{r} \cdot A}{d}$
 
 Im Folgenden sind die einzelnen Größen der Formel aufgeschlüsselt:
 
 - $A$ ist die gegenüberstehende Fläche der leitenden Platten
 - $d$ ist der Abstand zwischen den Flächen
 - $\varepsilon_0 = \qty{0,855e-11}{\ampere\second\per\volt\meter}$ ist die elektrische Feldkonstante, eine Naturkonstante
-- $\varepsilon_r$  (sprich: "Epsilon R") ist eine spezielle Eigenschaft des Isolators (Dielektrikum) ist die sogenannte relative Dielektrizitätszahl welche vom Verwendeten Material abhängt. Die Tabelle [ref:e_Dielektrizitätszahl] mit Materialwerten findet man auch in der Formelsammlung.
+- $\varepsilon_\text{r}$  (sprich: "Epsilon R") ist eine spezielle Eigenschaft des Isolators (Dielektrikum) ist die sogenannte relative Dielektrizitätszahl welche vom Verwendeten Material abhängt. Die Tabelle [ref:e_Dielektrizitätszahl] mit Materialwerten findet man auch in der Formelsammlung.
 
 <margin>
-| Material | $\varepsilon_r$  |
+| Material | $\varepsilon_\text{r}$  |
 | Luft (trocken) | 1,00059 |
 | Voll-PE (Polyäthylen) | 2,29 |
 | Schaum-PE | 1,5 |
 | PTFE (Teflon) | 2,0 |
-[table:e_Dielektrizitätszahl:Relative Dielektrizitätszahl $\varepsilon_r$ ]
+[table:e_Dielektrizitätszahl:Relative Dielektrizitätszahl $\varepsilon_\text{r}$ ]
 </margin>
 
 Mit Hilfe der Formel kann man bereits eine Reihe von Prüfungsfragen lösen. Man stellt zunächst fest, dass die Spannung $U$ in der Formel nicht vorkommt. 
@@ -88,11 +88,11 @@ Beim Entladevorgang fließt der Strom entgegen der Ladestromrichtung und die Spa
 
 Im Fall von Wechselstrom und Wechselspannungen müssen wir einen weiteren wichtigen Aspekt berücksichtigen: Ein Kondensator verhält sich wie ein frequenzabhängiger Widerstand. Dieser lässt sich durch die Beziehung
 
-$|X_C| = \frac{1}{\omega\cdot C} = \frac{1}{2\pi\cdot f \cdot C}$
+$|X_\text{C}| = \frac{1}{\omega\cdot C} = \frac{1}{2\pi\cdot f \cdot C}$
 
-beschreiben und wird als kapazitiver Blindwiderstand $X_C$ bezeichnet (vgl. Formelsammlung).
+beschreiben und wird als kapazitiver Blindwiderstand $X_\text{C}$ bezeichnet (vgl. Formelsammlung).
 
-Die genauen physikalischen Hintergründe dazu lernen wir erst in der Klasse A kennen. Für die Klasse E ist es jedoch bereits wichtig zu wissen, dass der Widerstand eines Kondensators umgekehrt proportional von der Frequenz abhängt: Verringert man die Frequenz, so wird der kapazitive Blindwiderstand $X_C$ größer. Erhöht man hingegen die Frequenz, nimmt der Widerstand entsprechend ab.
+Die genauen physikalischen Hintergründe dazu lernen wir erst in der Klasse A kennen. Für die Klasse E ist es jedoch bereits wichtig zu wissen, dass der Widerstand eines Kondensators umgekehrt proportional von der Frequenz abhängt: Verringert man die Frequenz, so wird der kapazitive Blindwiderstand $X_\text{C}$ größer. Erhöht man hingegen die Frequenz, nimmt der Widerstand entsprechend ab.
 
 [question:EC202]
 

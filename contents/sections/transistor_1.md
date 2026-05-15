@@ -49,19 +49,19 @@ Die minimale Spannung am Emitter-Basis-Übergang hängt vom verwendeten Halbleit
 
 ---
 
-Die Ströme und Spannungen an einem npn-Transistor sind in der Abbildung [ref:e_npn_i_u] dargestellt. Die Basis-Emitter-Spannung $U_{BE}$ kennen wir bereits, ebenso die Kollektor-Basis-Spannung $U_{CB}$. Der Kollektorstrom $I_C$ hängt exponentiell von der Basis-Emitter-Spannung ab:
+Die Ströme und Spannungen an einem npn-Transistor sind in der Abbildung [ref:e_npn_i_u] dargestellt. Die Basis-Emitter-Spannung $U_\text{BE}$ kennen wir bereits, ebenso die Kollektor-Basis-Spannung $U_\text{CB}$. Der Kollektorstrom $I_\text{C}$ hängt exponentiell von der Basis-Emitter-Spannung ab:
 
-$I_C = I_\text{S}\ e^{\frac{U_{BE}}{U_T}}$
+$I_\text{C} = I_\text{S}\ e^{\frac{U_\text{BE}}{U_\text{T}}}$
 
-$U_T$ ist bei Raumtemperatur etwa $\qty{26}{\milli\volt}$.
+$U_\text{T}$ ist bei Raumtemperatur etwa $\qty{26}{\milli\volt}$.
 
 <indepth>
 $I_\text{S}$ bezeichnet den sogenannten Sättigungs-Sperrstrom eines Bipolartransistors. Er ist ein charakteristischer Bauteilparameter und steht in engem Zusammenhang mit der Emitter-Basis-Diode. Dabei handelt es sich um einen sehr kleinen Leckstrom, der auch dann durch den Transistor fließt, wenn die Basis-Emitter-Strecke nicht leitend ist.
 </indepth>
 
-Der Basisstrom $I_B$ hat in weiten Betriebsbereichen die gleiche Spannungsabhängig wie der Kollektorstrom, sodass das Verhältnis von Kollektorstrom und Basisstrom konstant ist:
+Der Basisstrom $I_\text{B}$ hat in weiten Betriebsbereichen die gleiche Spannungsabhängig wie der Kollektorstrom, sodass das Verhältnis von Kollektorstrom und Basisstrom konstant ist:
 
-$\frac{I_C}{I_B} = B$
+$\frac{I_\text{C}}{I_\text{B}} = B$
 
 *B* ist die Stromverstärkung (genau genommen die Stromverstärkung in Emitterschaltung). Es ist oft praktischer, sich den Transistor als ein stromgesteuertes Bauelement vorzustellen, auch wenn das physikalisch nicht so ist. Die Stromverstärkung beträgt in praktischen Transistoren $50 \dots 350$.
 
@@ -83,15 +83,15 @@ Jetzt fließt mehr Wasser im Steuerkanal, die Klappe wird weiter angehoben, das 
 
 [question:EC603]
 
-Der Emitterstrom $I_E$ ist die Summe aus Kollektorstrom und Basisstrom:
+Der Emitterstrom $I_\text{E}$ ist die Summe aus Kollektorstrom und Basisstrom:
 
-$I_E = I_C + I_B$
+$I_\text{E} = I_\text{C} + I_\text{B}$
 
 [question:EC611]
 
 Der Spannungsarbeitspunkt von Transistoren wird meist über die Kollektor-Emitter-Spannung angegeben:
 
-$U_{CE} = U_{CB} + U_{BE}$
+$U_\text{CE} = U_\text{CB} + U_\text{BE}$
 
 Neben den hier überwiegend behandelten Bipolartransistoren gibt es vor allem auch *Feldeffekttransistoren*, die physikalisch anders funktionieren, aber nach außen die selbe Grundfunktion (spannungsgesteuerte Stromquelle) haben. In Form der MOSFETs beherrschen sie unsere Elektronik, denn sie sind millionen- bis milliardenfach in den integrierten Schaltkreisen der Digitalelektronik enthalten.
 

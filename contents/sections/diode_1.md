@@ -1,4 +1,4 @@
-Bereits aus der Klasse-N-Ausbildung ist die Grundfunktion der Diode bekannt: sie lässt Strom nur in einer Richtung fließen, nämlich wenn die an der Anode anliegende Spannung ($U_a$) größer ist als die Spannung an der Kathode ($U_k$), vgl. Abbildung [ref:e_diode_u_i].
+Bereits aus der Klasse-N-Ausbildung ist die Grundfunktion der Diode bekannt: sie lässt Strom nur in einer Richtung fließen, nämlich wenn die an der Anode anliegende Spannung ($U_\text{a}$) größer ist als die Spannung an der Kathode ($U_\text{k}$), vgl. Abbildung [ref:e_diode_u_i].
 
 <margin>
 [picture:859:e_diode_u_i:Spannungen und Strom an einer Diode mit Vorwiderstand]
@@ -6,15 +6,15 @@ Bereits aus der Klasse-N-Ausbildung ist die Grundfunktion der Diode bekannt: sie
 
 Mathematisch können wir diese Forderung so schreiben:
 
-$U_d = U_a - U_k > 0$
+$U_\text{d} = U_\text{a} - U_\text{k} > 0$
 
-Ist allerdings $U_d$ nur ein ganz wenig größer als 0, fließt noch kein merkbarer Strom. Das liegt an der *exponentiellen Kennlinie* einer Diode. Der Diodenstrom ist nämlich:
+Ist allerdings $U_\text{d}$ nur ein ganz wenig größer als $0$, fließt noch kein merkbarer Strom. Das liegt an der *exponentiellen Kennlinie* einer Diode. Der Diodenstrom ist nämlich:
 
-$I_d = I_S \left(e^{\frac{U_d}{U_T}}-1\right)$
+$I_\text{d} = I_\text{S} \left(e^{\frac{U_\text{d}}{U_\text{T}}}-1\right)$
 
-$e$ ist die sogenannte Euler'sche Zahl ($e\approx 2,718$), $U_T$ eine Konstante, die bei Raumtemperatur etwa $\qty{26}{\milli\volt}$ beträgt.
+$e$ ist die sogenannte Euler'sche Zahl ($e\approx 2,718$), $U_\text{T}$ eine Konstante, die bei Raumtemperatur etwa $\qty{26}{\milli\volt}$ beträgt.
 
-$I_S$ ist hier der *Sperrsättigungsstrom*, das ist der sehr kleine Strom, der bei negativen Spannungen durch die Diode fließt. Der Wert von $I_S$ hängt neben ein paar Parametern der Diode, wie der Diodenfläche, vor allem auch vom verwendeten Halbleitermaterial ab. Bei Materialien wie Germanium (Ge) mit einer geringen *Energiebandlücke* (darauf gehen wir in der Ausbildung zur Klasse A näher ein) ist $I_S$ größer, bei Materialien mit größerer Energiebandlücke ist $I_S$ kleiner. 
+$I_\text{S}$ ist hier der *Sperrsättigungsstrom*, das ist der sehr kleine Strom, der bei negativen Spannungen durch die Diode fließt. Der Wert von $I_\text{S}$ hängt neben ein paar Parametern der Diode, wie der Diodenfläche, vor allem auch vom verwendeten Halbleitermaterial ab. Bei Materialien wie Germanium (Ge) mit einer geringen *Energiebandlücke* (darauf gehen wir in der Ausbildung zur Klasse A näher ein) ist $I_\text{S}$ größer, bei Materialien mit größerer Energiebandlücke ist $I_\text{S}$ kleiner. 
 
 <margin>
 [picture:861:e_diode_kennlinie_iu:Kennline einer Diode]
@@ -22,7 +22,7 @@ $I_S$ ist hier der *Sperrsättigungsstrom*, das ist der sehr kleine Strom, der b
 
 [question:EC501]
 
-Betrachten wir eine Diodenkennlinie in Abbildung [ref:e_diode_kennlinie_iu], so steigt der Diodenstrom bei positiven $U_d$ ab einer gewissen Spannung steil an. Diese Spannung wird auch als *Schwellspannung* $U_{th}$ bezeichnet, sie ist aber nur Ausdruck der unterschiedlichen $I_S$: je kleiner $I_S$, desto höher ist die Schwellspannung. 
+Betrachten wir eine Diodenkennlinie in Abbildung [ref:e_diode_kennlinie_iu], so steigt der Diodenstrom bei positiven $U_\text{d}$ ab einer gewissen Spannung steil an. Diese Spannung wird auch als *Schwellspannung* $U_\text{th}$ bezeichnet, sie ist aber nur Ausdruck der unterschiedlichen $I_\text{S}$: je kleiner $I_\text{S}$, desto höher ist die Schwellspannung. 
 
 Als Anhaltspunkte für die Schwellspannung von pn-Dioden können wir für Ge etwa $\qtyrange{0,2}{0,3}{\volt}$ und für Si etwa $\qtyrange{0,6}{0,7}{\volt}$ angeben.
 
@@ -46,9 +46,9 @@ Als Anhaltspunkte für die Schwellspannung von pn-Dioden können wir für Ge etw
 [question:EC507]
 [question:EC508]
 
-Da LEDs in Flussrichtung betrieben werden, ist es wichtig, einen Widerstand $R_V$ zwischen Spannungsquelle $U$ und LED zu schalten. $R_V$ stellt den erwünschten Strom $I$ ein. Dabei ist die Schwellspannung $U_{th}$ der LED zu berücksichtigen:
+Da LEDs in Flussrichtung betrieben werden, ist es wichtig, einen Widerstand $R_\text{V}$ zwischen Spannungsquelle $U$ und LED zu schalten. $R_\text{V}$ stellt den erwünschten Strom $I$ ein. Dabei ist die Schwellspannung $U_\text{th}$ der LED zu berücksichtigen:
 
-$ I=\frac{U-U_{th}}{R_V}$
+$ I=\frac{U-U_\text{th}}{R_\text{V}}$
 
 [question:EC514]
 [question:EC515]
@@ -56,9 +56,9 @@ $ I=\frac{U-U_{th}}{R_V}$
 
 ---
 
-In unserem einfachen Modell fließt für negative $U_d$ nur ein geringer Sperrstrom. Das stimmt aber nicht für sehr negative Spannungen. Irgendwann wird das elektrische Feld über der Verarmungszone zwischen n und p zu hoch und die Diode "bricht durch", der Strom in Rückwärtsrichtung steigt extrem stark an, wie in Abbildung [ref:n_diode_kennlinie_uz] gezeigt.
+In unserem einfachen Modell fließt für negative $U_\text{d}$ nur ein geringer Sperrstrom. Das stimmt aber nicht für sehr negative Spannungen. Irgendwann wird das elektrische Feld über der Verarmungszone zwischen n und p zu hoch und die Diode "bricht durch", der Strom in Rückwärtsrichtung steigt extrem stark an, wie in Abbildung [ref:n_diode_kennlinie_uz] gezeigt.
 
-Dieser *Sperrdurchbruch* kann verschiedene physikalische Ursachen haben, die wir hier nicht im Detail behandeln können. Die Spannung, bei der dieser Durchbruch passiert, wird gemeinhin als *Zener-Spannung* $U_z$ bezeichnet, auch wenn der Zener-Effekt (ein quantenmechanischer Tunneleffekt) nur ein möglicher Durchbruchmechanismus ist. *Zenerdioden* werden zur Spannungsstabilisierung verwendet. Dabei ist es wichtig, den Durchbruchstrom durch einen Vorwiderstand zu begrenzen. 
+Dieser *Sperrdurchbruch* kann verschiedene physikalische Ursachen haben, die wir hier nicht im Detail behandeln können. Die Spannung, bei der dieser Durchbruch passiert, wird gemeinhin als *Zener-Spannung* $U_\text{z}$ bezeichnet, auch wenn der Zener-Effekt (ein quantenmechanischer Tunneleffekt) nur ein möglicher Durchbruchmechanismus ist. *Zenerdioden* werden zur Spannungsstabilisierung verwendet. Dabei ist es wichtig, den Durchbruchstrom durch einen Vorwiderstand zu begrenzen. 
 
 <margin>
 [picture:862:n_diode_kennlinie_uz:Kennline einer Z-Diode]
@@ -92,7 +92,7 @@ Fassen wir zusammen:
 
 Dioden lassen Strom nur einer Richtung fließen. Daher eignen sie sich zur Gleichrichtung von Wechselstrom.
 
-Bei hohen Sperrspannungen allerdings ($U_d < U_z$), steigt der Strom in Rückwärtsrichtung stark an. Dieser Betriebspunkt kann sehr gut zur Spannungsstabilisierung genutzt werden (*Zenerdiode*).
+Bei hohen Sperrspannungen allerdings ($U_\text{d} < U_\text{z}$), steigt der Strom in Rückwärtsrichtung stark an. Dieser Betriebspunkt kann sehr gut zur Spannungsstabilisierung genutzt werden (*Zenerdiode*).
 
 Daneben lassen sie sich in Sperrrichtung auch als spannungsgesteuerte Kapazitäten verwenden, dies werden wir aber erst in der Ausbildung zur Klasse A behandeln. 
 
