@@ -17,7 +17,7 @@
 [picture:66:a_netzteil_Ucs:Gleichrichterschaltung mit Siebung]
 </left>
 <right>
-* Mit Ladekondensator $C_L$ und LC-Siebglied mit $C_S$
+* Mit Ladekondensator $C_\text{L}$ und LC-Siebglied mit $C_\text{S}$
 * Kleinere Amplituden der pulsierenden Gleichspannung
 * Kondensatoren laden sich auf die sekundäre Spitzenspannung auf
 </right>
@@ -27,15 +27,15 @@
 [question:AD306]
 ---
 #### Lösungsweg
-* gegeben: $U_P = \qty{230}{\volt}$
+* gegeben: $U_\text{P} = \qty{230}{\volt}$
 * gegeben: $ü = 8:1$
-* gegeben: $U_D = \qty{0,6}{\volt}$
+* gegeben: $U_\text{D} = \qty{0,6}{\volt}$
 * gesucht: $\hat{U}$
 
 <fragment>
-$ü = \frac{U_P}{U_S} \Rightarrow U_S = \frac{U_P}{ü} = \frac{\qty{230}{\volt}}{8} = \qty{28,75}{\volt}$
+$ü = \frac{U_\text{P}}{U_\text{S}} \Rightarrow U_\text{S} = \frac{U_\text{P}}{ü} = \frac{\qty{230}{\volt}}{8} = \qty{28,75}{\volt}$
 </fragment>
 <fragment>
 Im Leerlauf kann die Diodenspannung vernachlässigt werden.
-$\hat{U} = U_S \cdot \sqrt{2} = \qty{28,75}{\volt} \cdot 1,41 \approx \qty{40}{\volt}$
+$\hat{U} = U_\text{S} \cdot \sqrt{2} = \qty{28,75}{\volt} \cdot 1,41 \approx \qty{40}{\volt}$
 </fragment>

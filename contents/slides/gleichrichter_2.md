@@ -3,14 +3,14 @@
 </left>
 <right>
 * Bei positiver Halbwelle lässt Diode $D$ Strom fließen
-* Lädt Kondensator $C_L$ auf Spitzenwert der Wechselspannung und versorgt Lastwiderstand $R_L$
+* Lädt Kondensator $C_\text{L}$ auf Spitzenwert der Wechselspannung und versorgt Lastwiderstand $R_\text{L}$
 * Bei negativer Halbwelle sperrt Diode $D$
-* Kondensator $C_L$ entlädt sich über Lastwiderstand $R_L$
+* Kondensator $C_\text{L}$ entlädt sich über Lastwiderstand $R_\text{L}$
 </right>
 ---
 <left>
-[picture:75:a_Restwelligkeit:Welligkeit der Ausgangsgleichspannung $U_L$]
-Am Lastwiderstand $R_L$ stellt sich eine pulsierende Gleichspannung $U_L$ ein
+[picture:75:a_Restwelligkeit:Welligkeit der Ausgangsgleichspannung $U_\text{L}$]
+Am Lastwiderstand $R_\text{L}$ stellt sich eine pulsierende Gleichspannung $U_\text{L}$ ein
 </left>
 <right>
 * Je größer die Kapazität, umso geglätteter die Gleichspannung
@@ -33,15 +33,15 @@ $\hat{U} = U_{\mathrm{eff}} \cdot \sqrt{2} = \qty{15}{\volt} \cdot 1,41 = \qty{2
 [question:AD303]
 ---
 #### Lösungsweg
-* gegeben: $U_P = \qty{230}{\volt}$
+* gegeben: $U_\text{P} = \qty{230}{\volt}$
 * gegeben: $ü = 20:1$
 * gesucht: $\hat{U} + \qty{50}{\percent}$
 
 <fragment>
-$ü = \frac{U_P}{U_S} \Rightarrow U_S = \frac{U_P}{ü} = \frac{\qty{230}{\volt}}{20} = \qty{11,5}{\volt}$
+$ü = \frac{U_\text{P}}{U_\text{S}} \Rightarrow U_\text{S} = \frac{U_\text{P}}{ü} = \frac{\qty{230}{\volt}}{20} = \qty{11,5}{\volt}$
 </fragment>
 <fragment>
-$\hat{U} = U_S \cdot \sqrt{2} = \qty{11,5}{\volt} \cdot 1,41 \approx \qty{16,26}{\volt}$
+$\hat{U} = U_\text{S} \cdot \sqrt{2} = \qty{11,5}{\volt} \cdot 1,41 \approx \qty{16,26}{\volt}$
 </fragment>
 <fragment>
 $\hat{U} + \qty{50}{\percent} \approx \qty{25}{\volt}$
@@ -50,16 +50,16 @@ $\hat{U} + \qty{50}{\percent} \approx \qty{25}{\volt}$
 [question:AD304]
 ---
 #### Lösungsweg
-* gegeben: $U_P = \qty{230}{\volt}$
+* gegeben: $U_\text{P} = \qty{230}{\volt}$
 * gegeben: $ü = 5:1$
-* gesucht: $U_{SS} + \qty{20}{\percent}$
+* gesucht: $U_\text{SS} + \qty{20}{\percent}$
 
 <fragment>
-$ü = \frac{U_P}{U_S} \Rightarrow U_S = \frac{U_P}{ü} = \frac{\qty{230}{\volt}}{5} = \qty{46}{\volt}$
+$ü = \frac{U_\text{P}}{U_\text{S}} \Rightarrow U_\text{S} = \frac{U_\text{P}}{ü} = \frac{\qty{230}{\volt}}{5} = \qty{46}{\volt}$
 </fragment>
 <fragment>
-$\hat{U} = U_S \cdot \sqrt{2} = \qty{46}{\volt} \cdot 1,41 \approx \qty{65,05}{\volt}$
+$\hat{U} = U_\text{S} \cdot \sqrt{2} = \qty{46}{\volt} \cdot 1,41 \approx \qty{65,05}{\volt}$
 </fragment>
 <fragment>
-$U_{SS} + \qty{20}{\percent} = 2 \cdot \hat{U} + \qty{20}{\percent} \approx \qty{156}{\volt}$
+$U_\text{SS} + \qty{20}{\percent} = 2 \cdot \hat{U} + \qty{20}{\percent} \approx \qty{156}{\volt}$
 </fragment>
