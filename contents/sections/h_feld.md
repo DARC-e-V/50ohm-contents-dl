@@ -32,10 +32,6 @@ Im Inneren einer Zylinderspule ergibt sich im gegensatz zu einem geraden Leiter 
 
 [question:EB202]
 
-Wir müssen aber beachten, dass die magnetischen Feldlinien sich außerhalb der Zylinderspule schließen, dies führt zu einem *Streufeld*. Das Streufeld können wir verringern, wenn wir die Zylinderspule entlang der Längsachse zu einem Kreis (oder "Toroid") verbiegen, wie z.B. bei einer Ringkernspule wie in Abbildung [ref:e_ringkern] gezeigt. Jetzt können sich die Feldlinien im Innern der Spule selbst schließen. 
-
----
-
 Dabei ist zu beachten, dass sich die magnetischen Feldlinien bei einer Zylinderspule auch außerhalb der Spule schließen. Dadurch entsteht ein sogenanntes Streufeld. Dieses *Streufeld* lässt sich verringern, indem man die Zylinderspule entlang ihrer Längsachse zu einem Kreis (oder "Toroid") formt, wie es beispielsweise bei einer Ringkernspule der Fall ist (vgl. Abbildung [ref:e_ringkern]). In diesem Fall können sich die magnetischen Feldlinien vollständig im Inneren der Spule schließen.
 
 <margin>

@@ -42,19 +42,29 @@ Ein Transistor wird als "leitend" in "Durchlassrichtung" bezeichnet, wenn ein si
 
 Im Folgenden betrachten wir noch ein paar einfache Transistor-Schaltungen auf Basis des Bipolartransistors.
 
+---
+
 [question:AC515]
 
 Der gewünschte Arbeitspunkt wird dadurch eingestellt, dass über $R_1$ ein Basisstrom eingeprägt wird. Der Basisstrom ist um die gegebene Stromverstärkung von $\num{298}$ kleiner als der Kollektorstrom. Über dem Widerstand fällt die Differenz von Betriebsspannung und Basispotential ab. Das Basispotential ist mit $\qty{0,6}{\volt}$ gegeben. Also rechnen wir:
 
 $R_1 = 298 \cdot \frac{\qty{12}{\volt} - \qty{0,6}{\volt}}{\qty{0,005}{\ampere}} \approx \qty{680}{\kilo\ohm}$
 
+<indepth>
 Die Schaltung hat allerdings in der Praxis einen gewaltigen Nachteil: die Stromverstärkung eines Bipolartransistors ist nicht besonders gut kontrolliert. Nehmen wir als Beispiel den populären BC547B. Seine Stromverstärkung kann nach Spezifikation zwischen $\num{200}$ und $\num{450}$ liegen. Der Kollektorstrom kann also mit dieser Schaltung durchaus um mehr als einen Faktor $2$ vom Entwurf abweichen.
+</indepth>
+
+Um eine bessere Stabilität des Arbeitspunkts zu erreichen, wird der Arbeitspunkt des Bipolartransistors in der Regel über einen Spannungsteiler eingestellt. Der sogenannte Querstrom ist der Strom, der hier durch $R_2$ fließt. Er sollte mindestens zehnmal so hoch wie der Basisstrom sein, damit der Basisstrom keinen großen Einfluss auf den Arbeitspunkt hat. 
+
+---
 
 [question:AC516]
 
-In Frage AC516 wird der Arbeitspunkt des Bipolartransistors über einen Spannungsteiler eingestellt. Der sogenannte Querstrom ist der Strom, der hier durch $R_2$ fließt. Er sollte mindestens zehnmal so hoch wie der Basisstrom sein, damit der Basisstrom keinen großen Einfluss auf den Arbeitspunkt hat. 
+<indepth>
+Auch diese Schaltung ist aus Praxissicht nicht sehr empfehlenswert. Zum einen hängt der Kollektorstrom exponentiell von der Basis-Emitter-Spannung ab. Die Widerstände haben eine Toleranz, durch die das Basispotential durchaus etwas vom Soll abweichen kann - mit einer großen Auswirkung auf den Kollektorstrom. Außerdem ist die Schwellspannung der Basis-Emitter-Diode mit etwa $\qty{-2}{\milli\volt\per\kelvin}$ recht stark temperaturabhängig. Daher wird diese Schaltung einen starken Temperaturgang des Kollektorstroms haben. Das kann manchmal erwünscht sein, aber man muss es im Blick haben. Wir lernen noch eine Schaltung kennen, die eine Gegenkopplung enthält, die den Arbeitspunkt stabilisiert.
+</indepth>
 
-Allerdings ist auch diese Schaltung nicht sehr empfehlenswert. Zum einen hängt der Kollektorstrom exponentiell von der Basis-Emitter-Spannung ab. Die Widerstände haben eine Toleranz, durch die das Basispotential durchaus etwas vom Soll abweichen kann - mit einer großen Auswirkung auf den Kollektorstrom. Außerdem ist die Schwellspannung der Basis-Emitter-Diode mit etwa $\qty{-2}{\milli\volt\per\kelvin}$ recht stark temperaturabhängig. Daher wird diese Schaltung einen starken Temperaturgang des Kollektorstroms haben. Das kann manchmal erwünscht sein, aber man muss es im Blick haben.
+Auch zu dieser Schaltung gibt es eine Rechenaufgabe:
 
 [question:AC518]
 
@@ -62,23 +72,41 @@ Der Spannungsteiler $R_1$ und $R_2$ stellt das Basispotential ein, das, weil der
 
 $R_1 = \frac{\qty{10}{\volt} - \qty{0,6}{\volt}}{\qty{110}{\micro\ampere}} = \qty{85,5}{\kilo\ohm}$
 
+Die nächste Schaltung zeigt eine typische Arbeitspunkteinstellung für den Bipolartransistor, wie sie auch in der Praxis verwendet wird.
+
+---
+
 [question:AC517]
 
-Die obige Schaltung zeigt eine typische Arbeitspunkteinstellung für den Bipolartransistor. Das Basispotential wird über den Spannungsteiler $R_1$ und $R_2$ festgelegt. Da über dem Emitterwiderstand $R_\text{E}$ $\qty{1}{\volt}$ abfallen soll, muss das Basispotential $\qty{1,6}{\volt}$ betragen. Bei einem Kollektorstrom von $\qty{2}{\milli\ampere}$ und einer Stromverstärkung von $\num{200}$ beträgt der Basisstrom $\qty{10}{\micro\ampere}$. Da der Strom durch $R_2$ der zehnfache Basisstrom fließen soll, fließt durch $R_1$ der elffache Basisstrom, also $\qty{110}{\micro\ampere}$. Über $R_1$ fällt die Differenz der Betriebsspannung ($\qty{10}{\volt}$) und dem Basispotential ab, also $\qty{8,4}{\volt}$. Nun können wir $R_1$ bestimmen:
+<indepth>
+Dies ist eine gute Schaltung, welche auch in der Praxis häufig verwendet wird, weil der Kollektorstrom vor allem durch den Emitterwiderstand $R_\text{E}$ festgelegt wird, der eine Serien-Gegenkopplung darstellt:
+
+Steigt der Kollektorstrom $I_\text{C}$, so steigt auch der Emitterstrom $I_\text{E}$. Dadurch fällt am Emitterwiderstand $R_\text{E}$ eine größere Spannung ab. Der Emitter wird also positiver. Da die Basisspannung durch den Spannungsteiler aus $R_1$ und $R_2$ nahezu konstant bleibt, wird die Basis-Emitter-Spannung $ U_\text{BE} = U_\text{B} - U_\text{E}$ kleiner.
+
+Eine kleinere Basis-Emitter-Spannung bedeutet, dass der Transistor weniger leitend wird. Der ursprünglich angestiegene Strom wird dadurch wieder reduziert.
+
+Die Schaltung wirkt also Änderungen des Stroms automatisch entgegen. Deshalb spricht man von einer Gegenkopplung. Steigt der Strom, wird der Transistor etwas „zugedreht“. Sinkt der Strom, wird der Transistor wieder stärker leitend. Dadurch stabilisiert sich der Arbeitspunkt der Schaltung.
+</indepth>
+
+Das Basispotential wird über den Spannungsteiler $R_1$ und $R_2$ festgelegt. Da über dem Emitterwiderstand $R_\text{E}$ $\qty{1}{\volt}$ abfallen soll, muss das Basispotential $\qty{1,6}{\volt}$ betragen. Bei einem Kollektorstrom von $\qty{2}{\milli\ampere}$ und einer Stromverstärkung von $\num{200}$ beträgt der Basisstrom $\qty{10}{\micro\ampere}$. Da der Strom durch $R_2$ der zehnfache Basisstrom fließen soll, fließt durch $R_1$ der elffache Basisstrom, also $\qty{110}{\micro\ampere}$. Über $R_1$ fällt die Differenz der Betriebsspannung ($\qty{10}{\volt}$) und dem Basispotential ab, also $\qty{8,4}{\volt}$. Nun können wir $R_1$ bestimmen:
 
 $R_1 = \frac{\qty{8,4}{\volt}}{\qty{110}{\micro\ampere}} = \qty{76,4}{\kilo\ohm}$
 
-Dies ist eine gute Schaltung, weil der Kollektorstrom vor allem durch den Emitterwiderstand $R_\text{E}$ festgelegt wird, der eine Serien-Gegenkopplung darstellt.
-
 [question:AC519]
 
-Wenn $R_1$ durch den Fehler nicht von Strom durchflossen, so fällt an $R_2$ keine Spannung ab - die Basis liegt auf Massepotential. Dann ist $U_\text{BE} \geq \qty{0,6}{\volt}$ nicht erfüllt, und der Transistor ist stromlos. Da am Kollektorwiderstand $R_C$ keine Spannung abfällt, steigt das Kollektorpotential auf die Betriebsspannung an.
+Wenn $R_1$ durch den Fehler nicht von Strom durchflossen, so fällt an $R_2$ keine Spannung ab - die Basis liegt auf Massepotential. Dann ist $U_\text{BE} \geq \qty{0,6}{\volt}$ nicht erfüllt, und der Transistor ist stromlos. Da am Kollektorwiderstand $R_\text{C}$ keine Spannung abfällt, steigt das Kollektorpotential auf die Betriebsspannung an.
 
 [question:AC520]
 
-Bei dem hier gegebenen Fehlerbild ist $R_2$ stromlos. Die Basis ist über $R_1$ mit der Betriebsspannung verbunden. Über diesen Pfad wird ein Basisstrom injiziert. Bei der üblichen Dimensionierung (Querstrom ist der zehnfache reguläre Basisstrom) ist der Basisstrom 11-fach höher als der reguläre Basisstrom - der Kollektorstrom wird sehr stark ansteigen, der Spannungsabfall an $R_C$ steigt stark an, die Kollektor-Emitter-Spannung sinkt auf den Sättigungswert von etwa $\qty{0,1}{\volt}$ ab. Der Kollektorstrom wird nur durch $R_C$ begrenzt.
+Bei dem hier gegebenen Fehlerbild ist $R_2$ stromlos. Die Basis ist über $R_1$ mit der Betriebsspannung verbunden. Über diesen Pfad wird ein Basisstrom injiziert. Bei der üblichen Dimensionierung (Querstrom ist der zehnfache reguläre Basisstrom) ist der Basisstrom 11-fach höher als der reguläre Basisstrom - der Kollektorstrom wird sehr stark ansteigen, der Spannungsabfall an $R_\text{C}$ steigt stark an, die Kollektor-Emitter-Spannung sinkt auf den Sättigungswert von etwa $\qty{0,1}{\volt}$ ab. Der Kollektorstrom wird nur durch $R_\text{C}$ begrenzt.
 
-In der nächsten Aufgabe geht es um ein Relais, das über den in Serie dargestellten npn-Transistor geschaltet wird. Nehmen wir an, dass der Transistor zunächst durchgeschaltet ist, es fließt ein Strom durch die Relaisspule, das Relais hat angezogen.
+---
+
+In der nächsten Aufgabe geht es um ein Relais, das über den in Serie dargestellten npn-Transistor geschaltet wird (vgl. Abbildung [ref:a_relais_schaltung]). Nehmen wir an, dass der Transistor zunächst durchgeschaltet ist, es fließt ein Strom durch die Relaisspule, das Relais hat angezogen.
+
+<margin>
+[picture:426:a_relais_schaltung:Relais-Schaltung mit npn-Transistor und Freilaufdiode]
+</margin>
 
 Nun schaltet der Transistor ab, der Stromfluss bricht zusammen. Die starke Änderung des Stroms induziert allerdings kurzzeitig in der Spule des Relais eine hohe negative Spannung, die zur Zerstörung des Transistors führen kann.
 
@@ -119,9 +147,15 @@ Wichtig ist dabei, dass das Gate durch die Oxidschicht elektrisch isoliert ist. 
 
 Wie wir bereits festgestellt hatten, ist der FET ein *spannungsgesteuertes* Bauelement, in dem kein Gate-Strom fließt. Die gewünschte Antwort ist die, dass die Gate-Source-Spannung den *Kanalwiderstand* steuert. Allerdings kann das Verhalten des Kanals nur für sehr kleine Drain-Source-Spannungen als Widerstand beschrieben werden, in sofern ist die Antwort etwas unglücklich formuliert. Besser wäre: die Gate-Source-Spannung steuert den Kanalstrom.
 
-[question:AC506]
+---
 
-Die senkrechte Linie symbolisiert den Kanal, die oben (Drain) und unten (Source) kontaktiert wird. Links ist das Gate zu sehen - der Pfeil erinnert zusammen mit dem senkrechten Strich an eine Diode. Es handelt sich also um einen FET, genau genommen einen Sperrschicht-FET.
+Die senkrechte Linie symbolisiert den Kanal, die oben (Drain) und unten (Source) kontaktiert wird. Links ist das Gate zu sehen - der Pfeil erinnert zusammen mit dem senkrechten Strich an eine Diode. Es handelt sich also um einen FET, genau genommen einen Sperrschicht-FET. Die Abbildung [ref:a_fet_overview] zeigt eine Übersicht über die verschiedenen FET-Typen mit ihren Schaltsymbolen.
+
+<margin>
+[picture:1075:a_fet_overview:FET-Übersicht mit Symbolen]
+</margin>
+
+[question:AC506]
 
 Bei den folgenden Fragen geht es darum, bestimmte FET-Typen ihrem Schaltsymbol zuzuordnen. Dazu ein paar Grundregeln:
 
@@ -157,6 +191,6 @@ $\frac{R_2}{R_1} = \frac{\qty{2,8}{\volt}}{\qty{44}{\volt} - \qty{2,8}{\volt}} \
 
 [question:AC523]
 
-Der Leistungs-MOSFET ist hier vollständig durchgeschaltet, der Kanal lässt sich als ein ohmscher Widerstand von (lt. Aufgabenstellung) $R_\text{ch} = \qty{4}{\milli\ohm}$ darstellen. Es fließt ein Strom von $\qty{25}{\ampere}$. Die Verlustleistung berechnen wir nach der Formel
+Der Leistungs-MOSFET ist hier vollständig durchgeschaltet, der Kanal lässt sich als ein ohmscher Widerstand von (lt. Aufgabenstellung) $R_\mathrm{DSon} = \qty{4}{\milli\ohm}$ darstellen. Es fließt ein Strom von $\qty{25}{\ampere}$. Die Verlustleistung berechnen wir einfach nach der bekannten Leistungs-Formel:
 
-$P_\text{V} = I^2 \cdot R_\text{ch} = \qty{2,5}{\watt}$
+$P_\text{V} = I^2 \cdot R_{\mathrm{DSon}} = \qty{2,5}{\watt}$

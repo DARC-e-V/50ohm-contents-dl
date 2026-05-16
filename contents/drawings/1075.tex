@@ -1,0 +1,16 @@
+% Author: Prof. Dr. Matthias Jung, DL9MJ
+% Year: 2026
+\begin{circuitikz}
+    \draw (0, 0) node[njfet, tr circle](Q1){};
+    \draw (Q1.east) ++(0.45cm,0) node[right] {Selbstleitender N-Kanal-Sperrschicht-FET};
+    \draw (Q1.S) to [open] ++(0,-0.45cm) node[pjfet, tr circle, yscale=-1, anchor=D](Q2){};
+    \draw (Q2.east) ++(0.45cm,0) node[right] {Selbstleitender P-Kanal-Sperrschicht-FET};
+    \draw (Q2.S) to [open] ++(0,-0.45cm) node[nigfete, solderdot, tr circle, anchor=D](Q3){};
+    \draw (Q3.east) ++(0.45cm,0) node[right] {Selbstsperrender N-Kanal-MOSFET};
+    \draw (Q3.S) to [open] ++(0,-0.45cm) node[nigfetd, solderdot, tr circle, yscale=1, anchor=D](Q4){};
+    \draw (Q4.east) ++(0.45cm,0) node[right] {Selbstleitender N-Kanal-MOSFET};
+    \draw (Q4.S) to [open] ++(0,-0.45cm) node[pigfete, solderdot, tr circle, yscale=-1, anchor=D](Q5){};
+    \draw (Q5.east) ++(0.45cm,0) node[right] {Selbstsperrender P-Kanal-MOSFET};
+    \draw (Q5.S) to [open] ++(0,-0.45cm) node[pigfetd, solderdot, tr circle, yscale=-1, anchor=D](Q6){};
+    \draw (Q6.east) ++(0.45cm,0) node[right] {Selbstleitender P-Kanal-MOSFET};
+\end{circuitikz}

@@ -1,29 +1,34 @@
 Integrierte Schaltungen sind komplexe Schaltungen, die auf einem Halbleitersubstrat realisiert sind. Sie sind damit eine wesentliche Erleichterung für den Aufbau von elektronischen Schaltungen.
 
+[question:AC601]
+
+<margin>
+[photo:334:a_ic:Kurzwellensender TinyWhisper der JKU Linz und JMU Würzburg realisiert als integrierte Schaltung in 130nm CMOS-Technologie]
+</margin>
+
 Als spezielle Klasse der integrierten Schaltkreise gibt es die Monolithic Microwave Integrated Circuits (MMIC). Sie vereinen dabei sowohl aktive wie auch passive Bauelemente auf dem gleichen Substrat. Diese werden typischerweise für eine Ein- und Ausgangsimpedanz von $\qty{50}{\ohm}$ ausgelegt. Mit ihnen ist eine hohe breitbandige Verstärkung mit wenigen Bauteilen möglich.
 
-[question:AC601]
 [question:AC602]
 [question:AC603]
 [question:AC604]
 
 ---
 
-Zur Berechnung der Aufgaben aus der Prüfung ist es wichtig, die bestehende Schaltung aus Abbildung [ref:a_mmic] ein bisschen zu analysieren. 
+Zur Berechnung der Aufgaben aus der Prüfung ist es hilfreich, die Schaltung aus Abbildung [ref:a_mmic] zunächst genauer zu betrachten.
 
-Der optimale Arbeitspunkt eines MMICs wie in dieser Schaltung, wird über die Einstellung eines Vorwiderstandes $R_\text{BIAS}$ realisiert, der mit einer Betriebsspannung $U_\text{CC}$ versorgt wird. Aus Sicht der Betriebsspannung (einer Gleichspannung), können die Kondensatoren $C_1$, $C_2$ und $C_3$ als Isolatoren betrachtet werden. Über ihnen fällt keine Spannung ab.
+Die Kondensatoren $C_1$ und $C_3$ dienen als Koppelkondensatoren. Sie lassen HF-Signale passieren, sperren jedoch Gleichspannung. Dadurch wird verhindert, dass Gleichspannungen zwischen den einzelnen Schaltungsstufen übertragen werden und den Arbeitspunkt beeinflussen.
 
-Das bedeutet, dass aus Sicht der Betriebsspannung der Anschluss 2 und Anschluss 4 des MMICs auf Masse liegt, der Anschluss 1 ist offen.
+Die Drossel in der Betriebsspannungsleitung $U_\mathrm{CC}$ verhindert, dass HF-Signale über die Spannungsversorgung abfließen können. Für Hochfrequenz besitzt die Drossel einen hohen Widerstand und wirkt daher als Sperre. Der Kondensator $C_2$ dient zur HF-Abblockung der Versorgungsspannung. Er leitet verbleibende HF-Anteile gegen Masse ab und sorgt dafür, dass die Versorgungsspannung HF-mäßig stabil bleibt. Zusammen mit der Drossel bildet er eine HF-Entkopplung der Betriebsspannung. Diese Schaltung lernen wir später noch als "Bias-T" kennen.
+
+Eine Besonderheit vieler MMICs besteht darin, dass die Versorgungsspannung über den Ausgang zugeführt wird. Der Widerstand $R_\text{BIAS}$ stellt dabei den Arbeitspunkt des MMIC ein.
 
 <margin>
 [picture:773:a_mmic:MMIC-Schaltung]
 </margin>
 
-% TODO Gleichspannungs-Ersatzschaltbild für das Bild aus der Aufgabe AF427
+Abhängig von der Aufgabenstellung kann aus dem Spannungsabfall über dem MMIC zunächst der Spannungsabfall über dem Widerstand $R_\text{BIAS}$ bestimmt werden. Mit dem bekannten Widerstandswert lässt sich anschließend der Strom durch die Schaltung berechnen. Derselbe Strom fließt auch durch den MMIC, sodass sich daraus beispielsweise die thermische Verlustleistung bestimmen lässt.
 
-Daraus wiederum lässt sich ableiten, dass die Betriebsspannung vollständig über den beiden Bauelementen des Vorwiderstands $R_\text{BIAS}$ und des MMICs abfällt.
-
-Abhängig von der Aufgabenstellung kann man bei dem gegebenen Spannungsabfall über dem MMIC den Spannungsabfall über dem Vorwiderstand $R_\text{BIAS}$ berechnen. Damit lässt sich dann, bei gegebenem Widerstand, der Strom berechnen, der durch die Schaltung fließt. Derselbe Strom fließt auch durch den MMIC. Damit lässt sich dort dann zum Beispiel auch die thermische Verlustleistung berechnen.
+Die folgenden Aufgaben lassen sich daher sehr ähnlich zu den bereits bekannten Schaltungen mit Bipolartransistoren lösen.
 
 [question:AF425]
 [question:AF426]
