@@ -3981,7 +3981,7 @@
                                 {
                                     "number": "AD203",
                                     "class": "3",
-                                    "question": "Wo liegt die Grenzfrequenz des Audio-Verst\u00e4rkers, wenn $R_{1}$ = 4,7 \\kiloOhm, $C_1$ = 6,8 nF und $C_2$ = 47 nF betragen? Der Verst\u00e4rker hat eine Grenzfrequenz von 1 MHz und die Impedanz des Eingangs PIN 2 ist mit 1 MOhm sehr hochohmig.",
+                                    "question": "Wo liegt die Grenzfrequenz des Audio-Verst\u00e4rkers, wenn $R_{1}$ = 4,7 kOhm, $C_1$ = 6,8 nF und $C_2$ = 47 nF betragen? Der Verst\u00e4rker hat eine Grenzfrequenz von 1 MHz und die Impedanz des Eingangs PIN 2 ist mit 1 MOhm sehr hochohmig.",
                                     "answer_a": "ca. 5 kHz",
                                     "answer_b": "ca. 720 Hz",
                                     "answer_c": "ca. 2,7 kHz",
