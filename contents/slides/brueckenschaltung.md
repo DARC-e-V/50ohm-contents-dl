@@ -32,5 +32,5 @@ $\frac{U_A}{U} = \frac{R_1}{R_1 + R_2} \Rightarrow U_A = \frac{R_1}{R_1 + R_2} \
 $\frac{U_B}{U} = \frac{R_3}{R_3 + R_4} \Rightarrow U_B = \frac{R_3}{R_3 + R_4} \cdot U = \frac{\qty{10}{\kilo\ohm}}{\qty{10}{\kilo\ohm} + \qty{1}{\kilo\ohm}} \cdot \qty{11}{\volt} = \qty{10}{\volt}$
 </fragment>
 <fragment>
-$U_{AB} = |U_A - U_B| = |\qty{1}{\volt} - \qty{10}{\volt}| = \qty{9}{\volt}$
+$U_{AB} = U_B - U_A = \qty{10}{\volt} - \qty{1}{\volt} = \qty{9}{\volt}$
 </fragment>
