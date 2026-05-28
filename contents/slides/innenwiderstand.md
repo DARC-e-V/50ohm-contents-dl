@@ -1,5 +1,5 @@
 <left>
-[picture:1058:a_vsource_schematic:Ersatzschaltbild Stromquelle $R_i$ hochohmig]
+[picture:1058:a_isource_schematic:Ersatzschaltbild Stromquelle $R_i$ hochohmig]
 </left>
 <right>
 * Liefert konstanten Strom

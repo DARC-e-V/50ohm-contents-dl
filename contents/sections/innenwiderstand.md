@@ -1,9 +1,9 @@
 In der Klasse E haben wir bereits Spannungsquellen kennen gelernt. Zunächst wollen wir uns mit der Stromquelle beschäftigen, bevor wir den Innenwiderstand von Spannungs- und Stromquellen genauer betrachten.
 
-Ähnlich wie bei der Spannungsquelle, sorgt eine Stromquelle dafür, dass diese möglichst einen konstanten Strom liefert. Abbildung [ref:a_vsource_schematic] zeigt deren Ersatzschaltbild.
+Ähnlich wie bei der Spannungsquelle, sorgt eine Stromquelle dafür, dass diese möglichst einen konstanten Strom liefert. Abbildung [ref:a_isource_schematic] zeigt deren Ersatzschaltbild.
 
 <margin>
-[picture:1058:a_vsource_schematic:Ersatzschaltbild Stromquelle $R_i$ hochohmig]
+[picture:1058:a_isource_schematic:Ersatzschaltbild Stromquelle $R_i$ hochohmig]
 </margin>
 
 <indepth>
