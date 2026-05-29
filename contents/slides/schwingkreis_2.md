@@ -271,10 +271,11 @@ $Q = \frac{f_0}{B} = \frac{R_\text{P}}{X_\text{L}}$
 </right>
 
 <fragment>
+Zuerst $f_0$ ausrechnen
 $\begin{split} f_0 &= \frac{1}{2 \pi \cdot \sqrt{L \cdot C}}\\ &= \frac{1}{2 \pi \cdot \sqrt{\qty{100}{\micro\henry} \cdot \qty{0,01}{\micro\farad}}} \approx \qty{159,2}{\kilo\hertz} \end{split}$
 </fragment>
 <fragment>
-$B$ oder $X_\text{L}$ ausrechnen
+Dann $B$ oder $X_\text{L}$ ausrechnen
 $\begin{split} X_\text{L} &= \omega \cdot L = 2 \pi \cdot f_0 \cdot L\\ &= 2 \pi \cdot \qty{159,2}{\kilo\hertz} \cdot \qty{100}{\micro\henry} \approx \qty{100,03}{\ohm} \end{split}$
 </fragment>
 <fragment>
@@ -292,12 +293,13 @@ $Q = \frac{X_\text{L}}{R_\text{S}} = \frac{\qty{100,03}{\ohm}}{\qty{10}{\ohm}} \
 * gegeben: $R_\text{P} = \qty{1}{\kilo\ohm}$
 * gesucht: $Q$
 </right>
-  
+
 <fragment>
+Zuerst $f_0$ ausrechnen
 $\begin{split} f_0 &= \frac{1}{2 \pi \cdot \sqrt{L \cdot C}}\\ &= \frac{1}{2 \pi \cdot \sqrt{\qty{2,2}{\micro\henry} \cdot \qty{56}{\pico\farad}}} \approx \qty{14,34}{\mega\hertz} \end{split}$
 </fragment>
 <fragment>
-$B$ oder $X_\text{L}$ ausrechnen
+Dann $B$ oder $X_\text{L}$ ausrechnen
 $\begin{split} X_\text{L} &= \omega \cdot L = 2 \pi \cdot f_0 \cdot L\\ &= 2 \pi \cdot \qty{14,34}{\mega\hertz} \cdot \qty{2,2}{\micro\henry} \approx \qty{198,2}{\ohm} \end{split}$
 </fragment>
 <fragment>
