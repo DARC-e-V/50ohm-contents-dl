@@ -20,7 +20,7 @@ Der Maximalwert der Änderung der Trägerfrequenz wird als *Frequenzhub* oder ku
 
 <indepth>
 Der *Frequenzhub* wird genauso wie die Bandbreite in Hz angegeben, darf aber mit dieser nicht verwechselt werden. Der Frequenzhub bezeichnet die maximale Änderung der Trägerfrequenz. Die Bandbreite ist näherungsweise doppelt so groß wie die Summe aus Hub und der Bandbreite des NF-Signals. Beispiel: Ein NF-Signal mit einer Bandbreite von $\qty{3}{\kilo\hertz}$ wird mit einem Hub von $\qty{3}{\kilo\hertz}$ moduliert. Dies ergibt eine Bandbreite von:
-$2 \cdot (\qty{3}{\kilo\hertz} + \qty{3}{\kilo\hertz}) = \qty{12}{\kilo\hertz}12
+$2 \cdot (\qty{3}{\kilo\hertz} + \qty{3}{\kilo\hertz}) = \qty{12}{\kilo\hertz}$
 </indepth>
 
 In diesem Zusammenhang sollte auch der IARU-Bandplan berücksichtigt werden, da er Hinweise auf die jeweils maximal empfohlene Bandbreite einer Aussendung in unterschiedlichen Frequenzbereichen gibt. Beispielsweise sollen im Bereich für FM-Telefonie im $\qty{2}{\meter}$-Band maximal $\qty{12}{\kilo\hertz}$ Bandbreite belegt werden. Dies entspricht NFM. Die folgende Frage kann gut mit diesem Wissen und dem IARU-Bandplan gelöst werden, der bei der Prüfung als Hilfsmittel vorliegt.

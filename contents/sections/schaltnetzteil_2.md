@@ -34,7 +34,7 @@ Bei ungenügend entstörten Schaltnetzteilen beeinträchtigt das Störspektrum d
 
 ---
 
-Um zu verhindern das Störungen in das Stromnet gelangen muss im Schaltnetzteil ein hochwertiges Tiefpassfilter auf der Seite des Anschlusses zum $\qty{230}{\volt}$ Wechselspannungsnetzes eingebaut sein. Der typische Aufbau des Filters ist in der Abbildung [ref:a-schaltnetzteilfilter] zu sehen.
+Um zu verhindern, dass Störungen in das Stromnetz gelangen, muss im Schaltnetzteil ein hochwertiges Tiefpassfilter auf der Seite des Anschlusses zum $\qty{230}{\volt}$ Wechselspannungsnetzes eingebaut sein. Der typische Aufbau des Filters ist in der Abbildung [ref:a-schaltnetzteilfilter] zu sehen.
 
 <margin>
 [picture:367:a-schaltnetzteilfilter:Filter am $\qty{230}{\volt}$ Eingang eines Schaltnetzteils]
