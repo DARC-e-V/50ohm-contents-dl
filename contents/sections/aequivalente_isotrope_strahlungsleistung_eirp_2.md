@@ -64,7 +64,7 @@ Dabei ist $g_i$ der Antennengewinn bezogen auf den isotropen Strahler, während 
 
 Der erste Rechenweg nutz die oben angesprochene Formel. Da es keine Leistungsverluste gibt ist die Dämpfung $a=0$ und die Formel vereinfacht sich zu: 
 
-$P_\text{EIRP} = P_\text{Sender} \cdot 10^{\frac{g_i-a}{\qty{10}{\dB}}}= \qty{250}{\milli\watt} \cdot 10^{\frac{\qty{26}{dBi}}{\qty{10}{\dB}}}= \qty{250}{\milli\watt} \cdot 398 \approx \qty{100}{\watt}$
+$P_\text{EIRP} = P_\text{Sender} \cdot 10^{\frac{g_i-a}{\qty{10}{\dB}}}= \qty{250}{\milli\watt} \cdot 10^{\frac{\qty{26}{\dBi}}{\qty{10}{\dB}}}= \qty{250}{\milli\watt} \cdot 398 \approx \qty{100}{\watt}$
 
 ---
 
