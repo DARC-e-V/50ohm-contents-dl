@@ -4,13 +4,15 @@
 <right>
 Berechnung mit Effektivwerten
 <fragment>
-$U_{\text{eff}} = \frac{\hat{U}}{\sqrt{2}}$
+$U_{\mathrm{eff}} = \frac{\hat{U}}{\sqrt{2}} = \frac{U_\mathrm{SS}}{2\sqrt{2}}$
 </fragment>
+
 <fragment>
-$I_{\text{eff}} = \frac{\hat{I}}{\sqrt{2}}$
+$I_{\mathrm{eff}} = \frac{\hat{I}}{\sqrt{2}} = \frac{I_\mathrm{SS}}{2\sqrt{2}}$
 </fragment>
+
 <fragment>
-$P = U_{\text{eff}} \cdot I_{\text{eff}}$
+$P = U_{\mathrm{eff}} \cdot I_{\mathrm{eff}}$
 </fragment>
 </right>
 
@@ -18,7 +20,7 @@ $P = U_{\text{eff}} \cdot I_{\text{eff}}$
 [question:AB301]
 ---
 ### Lösungsweg
-* gegeben: $I_{\mathrm{max}} = \qty{0,5}{\ampere}$
+* gegeben: $I_{\mathrm{max}} = \hat{I} = \qty{0,5}{\ampere}$
 * gegeben: $R = \qty{20}{\ohm}$
 * gesucht: $P$
 

@@ -15,7 +15,7 @@ Kirchhoff'sche Gesetze
 * gesucht: $U$
 
 <fragment>
-$R_{\mathrm{ges}} = R_1 + \frac{R_1 \cdot R_2}{R_1 + R_2} = \qty{10}{\kilo\ohm} + \frac{\qty{10}{\kilo\ohm} \cdot \qty{10}{\kilo\ohm}}{\qty{10}{\kilo\ohm} + \qty{10}{\kilo\ohm}} = \qty{15}{\kilo\ohm}$
+$R_{\mathrm{ges}} = R_1 + \frac{R_2 \cdot R_3}{R_2 + R_3} = \qty{10}{\kilo\ohm} + \frac{\qty{10}{\kilo\ohm} \cdot \qty{10}{\kilo\ohm}}{\qty{10}{\kilo\ohm} + \qty{10}{\kilo\ohm}} = \qty{15}{\kilo\ohm}$
 </fragment>
 <fragment>
 $I = I_2 + I_3 = \qty{1}{\milli\ampere} + \qty{1}{\milli\ampere} = \qty{2}{\milli\ampere}$
@@ -34,7 +34,7 @@ $U = R_{\mathrm{ges}} \cdot I = \qty{15}{\kilo\ohm} \cdot \qty{2}{\milli\ampere}
 * gesucht: $I_3$
 
 <fragment>
-$R_{\mathrm{ges}} = R_1 + \frac{R_1 \cdot R_2}{R_1 + R_2} = \qty{10}{\kilo\ohm} + \frac{\qty{10}{\kilo\ohm} \cdot \qty{10}{\kilo\ohm}}{\qty{10}{\kilo\ohm} + \qty{10}{\kilo\ohm}} = \qty{15}{\kilo\ohm}$
+$R_{\mathrm{ges}} = R_1 + \frac{R_2 \cdot R_3}{R_2 + R_3} = \qty{10}{\kilo\ohm} + \frac{\qty{10}{\kilo\ohm} \cdot \qty{10}{\kilo\ohm}}{\qty{10}{\kilo\ohm} + \qty{10}{\kilo\ohm}} = \qty{15}{\kilo\ohm}$
 </fragment>
 
 <fragment>

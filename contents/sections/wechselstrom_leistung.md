@@ -17,7 +17,7 @@ Entsprechend ergeben sich für sinusförmige Signale folgende Zusammenhänge, be
 
 $\begin{split} P_\text{Wechselstrom} &=  U_\text{eff} \cdot I_\text{eff} \\ &= \frac{\hat{U}\cdot\hat{I}}{\sqrt{2}\cdot\sqrt{2}} = \frac{\hat{U} \cdot \hat{I}}{2} \\ &= \frac{U_\text{eff}^2}{R} = \left(\frac{\hat{U}}{\sqrt{2}}\right)^2 \cdot \frac{1}{R} = \frac{\hat{U}^2}{2 \cdot R} \\ &= I_\text{eff}^2 \cdot R = \left(\frac{\hat{I}}{\sqrt{2}}\right)^2 \cdot R = \frac{\hat{I}^2\cdot R}{2} \end{split}$
 
-Die folgende Frage lässt sich mit diesen Überlegungen sehr leicht lösen:
+Die folgende Frage lässt sich mit diesen Überlegungen sehr leicht lösen ($I_\mathrm{max}$ ist dabei nur eine andere Bezeichnung für $\hat{I}$):
 
 [question:AB301]
 

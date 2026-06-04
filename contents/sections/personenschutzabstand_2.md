@@ -7,7 +7,7 @@ Selbst ohne genaue Rechnung wird schnell deutlich, dass die Kombination aus $\qt
 <indepth>
 Zur Übung kann man das trotzdem Rechenen: Wir nutzen erneut die Formel aus der Formelsammlung: 
 
-$P_\text{EIRP} = P_\text{Sender} \cdot 10^{\frac{g_d-a+\qty{2,15}{\dB}}{\qty{10}{\dB}}} = \qty{6}{\watt} \cdot 10^{\frac{\qty{13}{dBd}+\qty{2,15}{\dB}}{\qty{10}{\dB}}} \approx \qty{197}{\watt}$
+$P_\text{EIRP} = P_\text{Sender} \cdot 10^{\frac{g_d-a+\qty{2,15}{\dB}}{\qty{10}{\dB}}} = \qty{6}{\watt} \cdot 10^{\frac{\qty{13}{\dBd}+\qty{2,15}{\dB}}{\qty{10}{\dB}}} \approx \qty{197}{\watt}$
 
 Auch diese Rechnung lässt sich wieder leicht im Kopf durchführen, indem man den Gesamtgewinn in einzelne sinvolle Anteile zerlegt:
   

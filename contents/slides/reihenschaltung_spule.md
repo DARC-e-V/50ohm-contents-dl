@@ -13,4 +13,4 @@ $L_{\mathrm{ges}} = L_1 + L_2 + L_3 + \dots$
 ---
 #### Lösungsweg
 
-$L_{\mathrm{ges}} = \qty{2200}{\nano\henry} + \qty{0,033}{\milli\henry} + \qty{150}{\micro\henry} = \qty{185,2}{\micro\henry}1$
+$L_{\mathrm{ges}} = \qty{2200}{\nano\henry} + \qty{0,033}{\milli\henry} + \qty{150}{\micro\henry} = \qty{185,2}{\micro\henry}$
