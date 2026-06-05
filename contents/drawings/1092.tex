@@ -1,0 +1,160 @@
+% Author: Dr. Matthias Jung, DL9MJ
+% Zweiton-/Eintonvergleich: NF, AM, SSB
+%
+% Benötigt:
+% \usepackage{pgfplots}
+% \usepgfplotslibrary{fillbetween}
+% \pgfplotsset{compat=1.18}
+
+\begin{tikzpicture}
+
+    \pgfplotsset{
+        samples=1000,
+        every axis/.style={
+            height=2.0cm,
+            scale only axis,
+            width=\linewidth*\getDarcImageFactor,
+            axis lines=none,
+            ticks=none,
+            xmin=0,
+            xmax=8.8,
+            ymin=-2.1,
+            ymax=2.1,
+            domain=0:8.8,
+            thick,
+            smooth,
+            no markers,
+            title style={
+                at={(0,1.02)},
+                anchor=south west,
+                font=\small
+            }
+        }
+    }
+
+    % normierte Frequenzen
+    \pgfmathsetmacro{\fm}{0.70}   % Einton-NF, z.B. 700 Hz
+    \pgfmathsetmacro{\fa}{0.70}   % erster Zweiton, z.B. 700 Hz
+    \pgfmathsetmacro{\fb}{1.20}   % zweiter Zweiton, z.B. 1200 Hz
+    \pgfmathsetmacro{\fc}{7.00}   % HF-Träger, nur für Darstellung
+    \pgfmathsetmacro{\m}{0.70}    % AM-Modulationsgrad
+
+    % ------------------------------------------------------------
+    % 1. NF-Eintonsignal
+    % ------------------------------------------------------------
+    \begin{axis}[
+        name=plot1,
+        title={1. Nutzsignal NF: Einton},
+        at={(0,0)}
+    ]
+        \addplot[DARCred]
+            {sin(deg(2*pi*\fm*x))};
+    \end{axis}
+
+    % ------------------------------------------------------------
+    % 2. AM von 1
+    % ------------------------------------------------------------
+    \begin{axis}[
+        name=plot2,
+        title={2. AM von 1: Einton moduliert Trägeramplitude},
+        at={(0,-2.8cm)}
+    ]
+        \addplot[name path=amoneupper, draw=none]
+            {1 + \m*sin(deg(2*pi*\fm*x))};
+
+        \addplot[name path=amonelower, draw=none]
+            {-(1 + \m*sin(deg(2*pi*\fm*x)))};
+
+        \addplot[gray, opacity=0.35]
+            fill between[of=amoneupper and amonelower];
+
+        \addplot[thick, black]
+            {1 + \m*sin(deg(2*pi*\fm*x))};
+
+        \addplot[thick, black]
+            {-(1 + \m*sin(deg(2*pi*\fm*x)))};
+    \end{axis}
+
+    % ------------------------------------------------------------
+    % 3. SSB von 1
+    % ------------------------------------------------------------
+    \begin{axis}[
+        name=plot3,
+        title={3. SSB von 1: eine HF-Linie, konstante Hüllkurve},
+        at={(0,-5.6cm)}
+    ]
+        \addplot[name path=ssboneupper, draw=none] {1};
+        \addplot[name path=ssbonelower, draw=none] {-1};
+
+        \addplot[gray, opacity=0.18]
+            fill between[of=ssboneupper and ssbonelower];
+
+        \addplot[thick, black] {1};
+        \addplot[thick, black] {-1};
+    \end{axis}
+
+    % ------------------------------------------------------------
+    % 4. Zweiton-Nutzsignal
+    % ------------------------------------------------------------
+    \begin{axis}[
+        name=plot4,
+        title={4. Zweiton-Nutzsignal NF: z.B. 700 Hz und 1200 Hz},
+        at={(0,-8.4cm)}
+    ]
+        \addplot[DARCred]
+            {0.5*(sin(deg(2*pi*\fa*x))
+                + sin(deg(2*pi*\fb*x)))};
+    \end{axis}
+
+    % ------------------------------------------------------------
+    % 5. AM von 4
+    % ------------------------------------------------------------
+    \begin{axis}[
+        name=plot5,
+        title={5. AM von 4: Zweiton moduliert Trägeramplitude},
+        at={(0,-11.2cm)}
+    ]
+        \addplot[name path=amtwoupper, draw=none]
+            {1 + \m*0.5*(sin(deg(2*pi*\fa*x))
+                        + sin(deg(2*pi*\fb*x)))};
+
+        \addplot[name path=amtwolower, draw=none]
+            {-(1 + \m*0.5*(sin(deg(2*pi*\fa*x))
+                         + sin(deg(2*pi*\fb*x))))};
+
+        \addplot[gray, opacity=0.35]
+            fill between[of=amtwoupper and amtwolower];
+
+        \addplot[thick, black]
+            {1 + \m*0.5*(sin(deg(2*pi*\fa*x))
+                        + sin(deg(2*pi*\fb*x)))};
+
+        \addplot[thick, black]
+            {-(1 + \m*0.5*(sin(deg(2*pi*\fa*x))
+                         + sin(deg(2*pi*\fb*x))))};
+    \end{axis}
+
+    % ------------------------------------------------------------
+    % 6. SSB von 4
+    % ------------------------------------------------------------
+    \begin{axis}[
+        name=plot6,
+        title={6. SSB von 4: zwei HF-Linien mit Schwebung},
+        at={(0,-14.0cm)}
+    ]
+        \addplot[name path=ssbtwoupper, draw=none]
+            {abs(cos(deg(pi*(\fb-\fa)*x)))};
+
+        \addplot[name path=ssbtwolower, draw=none]
+            {-abs(cos(deg(pi*(\fb-\fa)*x)))};
+
+        \addplot[gray, opacity=0.35]
+            fill between[of=ssbtwoupper and ssbtwolower];
+
+        \addplot[thick, black]
+            {abs(cos(deg(pi*(\fb-\fa)*x)))};
+
+        \addplot[thick, black]
+            {-abs(cos(deg(pi*(\fb-\fa)*x)))};
+    \end{axis}
+\end{tikzpicture}

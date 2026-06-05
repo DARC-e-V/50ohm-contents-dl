@@ -1,4 +1,4 @@
-Leistungsverstärker werden im Amateurfunkbereich zur Verstärkung des intern erzeugten HF-Signals aus vorherigen Stufen verwendet um die gewünschte Ausgangsleistung des Senders zu erzielen. Hierbei unterscheidet man grundlegend in 2 Typen von HF-Verstärkern. Zum einen breitbandige HF-Verstärker, welche eine gleichbleibende Verstärkung über einen relativ breiten Frequenzbereich haben (z.B. Kurzwellenbereich $\qtyrange{1}{30}{\mega\hertz}$). Zum anderen selektive HF-Verstärker, welche das Maximum Ihrer Verstärkung nur in einem schmalen Frequenzbereich haben (z.B. nur in einem Amateurband des Kurzwellenbereichs).
+Leistungsverstärker werden im Amateurfunkbereich zur Verstärkung des intern erzeugten HF-Signals aus vorherigen Stufen verwendet, um die gewünschte Ausgangsleistung des Senders zu erzielen. Hierbei unterscheidet man grundlegend in 2 Typen von HF-Verstärkern. Zum einen breitbandige HF-Verstärker, welche eine gleichbleibende Verstärkung über einen relativ breiten Frequenzbereich haben (z.B. Kurzwellenbereich $\qtyrange{1}{30}{\mega\hertz}$). Zum anderen selektive HF-Verstärker, welche das Maximum Ihrer Verstärkung nur in einem schmalen Frequenzbereich haben (z.B. nur in einem Amateurband des Kurzwellenbereichs).
 
 Breitbandige HF-Verstärker erkennt man typischerweise an breitbandigen Koppeltransformatoren zwischen den einzelnen Verstärkerstufen, die **nicht** mittels einer Parallel- oder Serienkapazität als Schwingkreis ausgebildet sind.
 
@@ -18,7 +18,7 @@ Zwischen Verstärkerstufen eines Leistungsverstärkers und deren Ein- und Ausgä
 Die Impedanzanpassung kann entweder breitbandig durch Verwendung eines Transformators mit geeignetem Übersetzungsverhältnis oder frequenzselektiv durch einen angezapften Schwingkreis erfolgen.
 
 Bei frequenzselektiver Anpassung gibt es zwei grundlegende Möglichkeiten diese vorzunehmen:
-- durch einen induktiven Spannungsteiler (Spule mit Anzapfung und parallelkondensator)
+- durch einen induktiven Spannungsteiler (Spule mit Anzapfung und Parallelkondensator)
 - durch einen kapazitiven Spannungsteiler (zwei Kondensatoren in Reihenschaltung mit Spule in Parallelschaltung)
 
 Diese Spulen und Kondenstatoren können in unterschiedlichen Konfigurationen angeordnet sein (Parallel- oder Serien-kreis) um die gewünschte Impedanztransformation zu erreichen und gegebenenfalls gleichzeitig Oberwellen zu unterdrücken (Pi-Filter).

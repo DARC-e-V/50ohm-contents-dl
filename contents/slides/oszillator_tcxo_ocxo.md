@@ -5,7 +5,7 @@
 ---
 ### Thermische Isolation
 
-* Oszillatoren möglist gut thermisch isolieren
+* Oszillatoren möglichst gut thermisch isolieren
 * Großer Abstand zu internen und externen Wärme- und Kältequellen
 * Abseits von Luftströmungen
 

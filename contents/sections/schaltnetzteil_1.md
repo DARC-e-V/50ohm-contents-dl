@@ -4,7 +4,7 @@ Ein Schaltnetzteil (engl. switched-mode power supply) wandelt eine Wechselspannu
 [photo:308:e_Ferritkerntrafo im Schaltnetzteils:Innenansicht eines Schaltnetzteils für $\qty{13,8}{\volt}$ und $\qty{35}{\ampere}$ mit einem kleinen Ferritkernübertrager zwischen den beiden Kühlkörpern, Gewicht $\qty{2}{\kilo\gram}$]
 </margin> 
 
-Das Schaltnetzteil mehrere positive Eigenschaften gegen über einem linear geregeltem Netzteil:
+Das Schaltnetzteil besitzt mehrere positive Eigenschaften gegenüber einem linear geregelten Netzteil:
 
 * Hoher Wirkungsgrad auch bei kleinen Nennspannungen und wechselnden Lasten
 * Geringes Gewicht und Volumen, da durch die hohe Frequenz kleinere Transformatoren und sekundäre Siebkondensatoren verwendet werden
