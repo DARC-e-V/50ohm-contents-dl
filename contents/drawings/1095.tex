@@ -1,0 +1,91 @@
+\begin{tikzpicture}
+
+\begin{axis}[
+    xmin=0,
+    xmax=45,
+    ymin=-68,
+    ymax=8,
+    xlabel={Frequenz in MHz},
+    ylabel={Leistung},
+    xtick={0,5,10,15,20,25,30,35,40,45},
+    ytick={},
+    yticklabels={},
+    grid=major,
+    axis lines=left,
+    axis line style={-Triangle},
+    clip=false,
+    label style={font=\small},
+    width=\linewidth,
+    height=\linewidth*0.45,
+]
+
+% Beispiel:
+% f1 = 10 MHz
+% f2 = 11 MHz
+
+% Bereich um die Eingangssignale
+\fill[gray!15] (axis cs:8.5,-67.9) rectangle (axis cs:12.5,8);
+\node[font=\scriptsize, align=center, anchor=west] at (axis cs:12.25,5.0)
+{Bereich um\\$f_1$ und $f_2$};
+
+% Hilfsmakro:
+% #1 = Frequenz
+% #2 = Pegel
+% #3 = Farbe
+% #4 = Beschriftung
+\newcommand{\spectrumline}[4]{%
+    \draw[#3, line width=1.4pt]
+        (axis cs:#1,-68) -- (axis cs:#1,#2)
+        node[
+            pos=1,
+            rotate=90,
+            anchor=west,
+            font=\scriptsize,
+            inner sep=1.5pt,
+            #3
+        ] {$#4$};
+}
+
+% ------------------------------------------------------------
+% Eingangssignale: 1. Ordnung
+% ------------------------------------------------------------
+\spectrumline{10}{0}{green!60!black}{f_1\;(1)}
+\spectrumline{11}{0}{green!60!black}{f_2\;(1)}
+
+% ------------------------------------------------------------
+% Produkte 2. Ordnung
+% ------------------------------------------------------------
+\spectrumline{1}{-25}{violet!80!black}{f_2-f_1\;(2)}
+
+\spectrumline{20}{-25}{violet!80!black}{2f_1\;(2)}
+\spectrumline{21}{-25}{violet!80!black}{f_1+f_2\;(2)}
+\spectrumline{22}{-25}{violet!80!black}{2f_2\;(2)}
+
+% ------------------------------------------------------------
+% Produkte 3. Ordnung
+% ------------------------------------------------------------
+\spectrumline{9}{-40}{red!75!black}{2f_1-f_2\;(3)}
+\spectrumline{12}{-40}{red!75!black}{2f_2-f_1\;(3)}
+
+\spectrumline{30}{-40}{red!75!black}{3f_1\;(3)}
+\spectrumline{31}{-40}{red!75!black}{2f_1+f_2\;(3)}
+\spectrumline{32}{-40}{red!75!black}{f_1+2f_2\;(3)}
+\spectrumline{33}{-40}{red!75!black}{3f_2\;(3)}
+
+% ------------------------------------------------------------
+% Produkte 4. Ordnung, ausgewählte Produkte
+% ------------------------------------------------------------
+\spectrumline{2}{-55}{orange!90!black}{2f_2-2f_1\;(4)}
+
+\spectrumline{19}{-55}{orange!90!black}{3f_1-f_2\;(4)}
+\spectrumline{23}{-55}{orange!90!black}{3f_2-f_1\;(4)}
+
+\spectrumline{40}{-55}{orange!90!black}{4f_1\;(4)}
+\spectrumline{41}{-55}{orange!90!black}{3f_1+f_2\;(4)}
+\spectrumline{42}{-55}{orange!90!black}{2f_1+2f_2\;(4)}
+\spectrumline{43}{-55}{orange!90!black}{f_1+3f_2\;(4)}
+\spectrumline{44}{-55}{orange!90!black}{4f_2\;(4)}
+
+\end{axis}
+
+\end{tikzpicture}

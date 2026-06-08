@@ -1,0 +1,135 @@
+\begin{tikzpicture}
+
+\begin{axis}[
+    width=\linewidth*\getDarcImageFactor,
+    height=0.9*\linewidth*\getDarcImageFactor,
+    xmin=-50,
+    xmax=15,
+    ymin=-90,
+    ymax=38,
+    xlabel={Eingangsleistung $P_\text{in}$},
+    ylabel={Ausgangsleistung $P_\text{out}$},
+    xtick={-50,-40,-30,-20,-10,0,10},
+    ytick={-80,-60,-40,-20,0,20,30},
+    yticklabels={},
+    xticklabels={},
+    grid=major,
+    axis lines=left,
+    axis line style={-Triangle},
+    clip=false,
+    legend style={draw, fill=white, font=\footnotesize, at={(0.98,0.02)}, anchor=south east},
+]
+
+\def\G{20}
+\def\IIP{10}
+\def\OIP{30}
+\def\PSAT{21}
+
+% ------------------------------------------------------------
+% Sättigungsleistung
+% ------------------------------------------------------------
+\addplot[
+    orange!90!black,
+    very thick
+] coordinates {
+    (-50,\PSAT)
+    (15,\PSAT)
+};
+\addlegendentry{Sättigung}
+
+% ------------------------------------------------------------
+% Reales Grundsignal mit Kompression und Sättigung
+% ------------------------------------------------------------
+\addplot[
+    DARCblue,
+    very thick,
+    smooth
+] coordinates {
+    (-50,-30)
+    (-40,-20)
+    (-30,-10)
+    (-20,0)
+    (-10,9.5)
+    (-5,14.0)
+    (0,17.5)
+    (5,19.8)
+    (10,20.7)
+    (15,20.95)
+};
+\addlegendentry{$f_1$ und $f_2$}
+
+
+% ------------------------------------------------------------
+% Ideale Grundsignal-Gerade, extrapoliert
+% ------------------------------------------------------------
+\addplot[
+    DARCblue,
+    very thick,
+    dashed,
+    domain=-50:\IIP,
+    samples=2
+] {x+\G};
+\addlegendentry{}
+
+
+% ------------------------------------------------------------
+% Reale IM3-Produkte mit Kompression und gleicher Sättigung
+% ------------------------------------------------------------
+\addplot[
+    DARCred,
+    very thick,
+    smooth
+] coordinates {
+    (-30,-90)
+    (-25,-75)
+    (-20,-60)
+    (-15,-45)
+    (-10,-30)
+    (-5,-15)
+    (0,0)
+    (3,8.5)
+    (5,13.0)
+    (7,16.2)
+    (9,18.4)
+    (11,19.7)
+    (13,20.45)
+    (15,20.85)
+};
+\addlegendentry{3. Ordnung}
+
+
+% ------------------------------------------------------------
+% IM3-Produkte: ideale Gerade, extrapoliert
+% ------------------------------------------------------------
+\addplot[
+    DARCred,
+    very thick,
+    dashed,
+    domain=-30:\IIP,
+    samples=2
+] {3*x};
+\addlegendentry{}
+
+% ------------------------------------------------------------
+% IP3: Schnittpunkt der extrapolierten Geraden
+% ------------------------------------------------------------
+\addplot[
+    black,
+    only marks,
+    mark=*,
+    mark size=2.4pt
+] coordinates {(\IIP,\OIP)};
+
+\draw[densely dashed]
+    (axis cs:\IIP,-90) -- (axis cs:\IIP,\OIP);
+
+\draw[densely dashed]
+    (axis cs:-50,\OIP) -- (axis cs:\IIP,\OIP);
+
+\node[anchor=south west]
+    at (axis cs:\IIP,\OIP)
+    {IP3};
+
+\end{axis}
+
+\end{tikzpicture}
