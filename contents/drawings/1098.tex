@@ -1,0 +1,40 @@
+% Author: Prof. Dr. Matthias Jung, DL9MJ
+% Year: 2026
+\begin{tikzpicture}
+    \pgfplotsset{samples=200}
+    \begin{axis}[
+        axis on top,
+        axis lines=middle,
+        height=6cm,
+        scale only axis,
+        width=\linewidth*\getDarcImageFactor,
+        ticks=none,
+        axis line style={-Triangle},
+        xticklabel style={/pgf/number format/.cd,fixed,precision=1,use comma,fixed,fixed zerofill},
+        xmin =  0,
+        ymin = -2.5,
+        xmax =  3*pi,
+        ymax =  3,
+        domain = 0:3*pi,
+        thick,
+        smooth,
+        no markers]
+        \addplot+[name path=A,ultra thick, black] { 0.75*sin(deg(x))+1.5};
+        \addplot+[name path=B,ultra thick, black] {-0.75*sin(deg(x))-1.5};
+        \addplot[DARCgray] fill between[of=A and B];
+
+        \path(axis cs: 0.5*pi, 2.25) -- (axis cs: 0.5*pi, 2.75) coordinate(s1);
+        \path(axis cs: 1.5*pi, 0.75) -- (axis cs: 1.5*pi, 2.75) coordinate(e1);
+        \path(axis cs: 1.5*pi, 0.75) -- (axis cs: 1.5*pi, 2.75) coordinate(s2);
+        \path(axis cs: 2.5*pi, 2.25) -- (axis cs: 2.5*pi, 2.75) coordinate(e2);
+        \path(axis cs: 2.5*pi, 0.00) coordinate(s3);
+        \path(axis cs: 2.5*pi, 2.25) coordinate(e3);
+        \path(axis cs: 1.5*pi, 0.00) coordinate(s4);
+        \path(axis cs: 1.5*pi, 0.75) coordinate(e4);
+
+        \draw[dashed] (axis cs: 0, 1.5+0.75) -- (axis cs: 3*pi, 1.5+0.75);
+        \draw[dashed] (axis cs: 0, 1.5-0.75) -- (axis cs: 3*pi, 1.5-0.75);
+    \end{axis}
+    \DARCmeasure{s3}{e3}{0,0}{90}{\rotatebox{-90}{$U_\text{max}$}}
+    \draw[Triangle-Triangle] (s4) -- (e4) node[midway,anchor=east]{$U_\text{min}$};
+\end{tikzpicture}
