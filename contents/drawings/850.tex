@@ -1,14 +1,46 @@
-% DL9MJ, Matthias Jung, 2024
-% Parabolspiegel
-\begin{tikzpicture}[use optics]
-    \node[spherical mirror, spherical mirror angle=180, spherical mirror orientation=rtl] (M) at (0,0) {};
-    \node[bareantenna, scale=0.25, anchor=left] (ant) at (M.focus) {};
-    \draw (ant) -- (ant|-M.200) coordinate(h) -- (h-|M.280) coordinate (h) -- (h|-M.280) coordinate(trx);
-    \node[trxshape, scale=0.5, anchor=150] at (trx) {};
-    \draw[DARCred] (M.focus) -- (M.170) -- (M.170-|M.0);
-    \draw[DARCred] (M.focus) -- (M.190) -- (M.190-|M.0);
-    \draw[DARCred] (M.focus) -- (M.150) -- (M.150-|M.0);
-    \draw[DARCred] (M.focus) -- (M.210) -- (M.210-|M.0);
-    \draw[DARCred] (M.focus) -- (M.130) -- (M.130-|M.0);
-    \draw[DARCred] (M.focus) -- (M.230) -- (M.230-|M.0);
+% DL9MJ, Matthias Jung, 2026
+\begin{tikzpicture}
+
+    % Parameter
+    \pgfmathsetmacro{\f}{1.4}      % Brennweite
+    \pgfmathsetmacro{\ap}{2.4}     % halbe Apertur
+    \pgfmathsetmacro{\xend}{5.0}   % Ende der reflektierten Strahlen
+
+    % Brennpunkt
+    \coordinate (F) at (\f,0);
+
+    % Parabolspiegel: y^2 = 4 f x
+    \draw[ultra thick]
+        plot[
+            variable=\t,
+            domain=-\ap:\ap,
+            samples=100,
+            smooth
+        ]
+        ({\t*\t/(4*\f)},{\t});
+    
+    \draw({(-\ap)*(-\ap)/(4*\f)},{-\ap}) coordinate(end);
+
+    % Feed / Antenne im Brennpunkt
+    \node[bareantenna, scale=1.0, anchor=west] (ant) at (F) {};
+
+    \draw(end) to [open] ++(2,0) node[trxshape, scale=1, anchor=west](trx){};
+
+    % Anschlussleitung und TRX
+    \draw (ant)
+        -- ++(0,-1.2) coordinate(h)
+        -| (trx.north);
+
+    % Strahlen vom Brennpunkt zum Spiegel und danach parallel
+    \foreach \yy in {-2.0,-1.2,-0.4,0.4,1.2,2.0} {
+        \pgfmathsetmacro{\xx}{\yy*\yy/(4*\f)}
+
+        % vom Brennpunkt zum Spiegel
+        \draw[DARCred, thick]
+            (F) -- (\xx,\yy);
+
+        % reflektierter Strahl parallel zur Achse
+        \draw[DARCred, thick]
+            (\xx,\yy) -- (\xend,\yy);
+    }
 \end{tikzpicture}
