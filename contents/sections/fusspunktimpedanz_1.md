@@ -1,4 +1,4 @@
-Bei mittengespeisten Dipolen im Freiraum liegt die Speiseimpedanz bei $\qty{73,1}{\ohm}$, also in der Größenordnung von $\qty{50}{\ohm}$ - aber eben nicht exakt! Dies gilt auch bei einer Aufbauhöhe von einer Wellenlänge oder darüber hinaus.
+Bei mittengespeisten Dipolen im Freiraum liegt die Speiseimpedanz bei $\qty{73,1}{\ohm}$, also in der Größenordnung von $\qty{75}{\ohm}$ - aber eben nicht exakt! Dies gilt auch bei einer Aufbauhöhe von einer Wellenlänge oder darüber hinaus.
 
 <margin>
 [picture:788:e_fusspunktimpedanz_dipol:Fußpolimpedanz eines Dipols in Abhängigkeit von der Aufbauhöhe (Simuliert mit NECPP)]
