@@ -1,7 +1,7 @@
 ### Erzeugung
 
 <left>
-[picture:155:a_frequenzmodulation_schaltung:Modulator zur Erzeugung von FM]
+[picture:951:a_frequenzmodulation_schaltung:Modulator zur Erzeugung von FM]
 </left>
 <right>
 * Kapazität eines Oszillators wird durch die NF geändert

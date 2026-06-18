@@ -144,7 +144,7 @@ $\begin{split}f_{USB} &= f_Q - (f_{LSB} - f_Q)\\ &= \qty{9}{\mega\hertz} - (\qty
 ### Kapazitäts-Dioden in FM-Modulatoren
 
 <left>
-[picture:155:a_modulatoren_fm_modulator:FM-Modulator mit Varicap]
+[picture:951:a_modulatoren_fm_modulator:FM-Modulator mit Varicap]
 </left>
 <right>
 * FM-Modulatoren nutzen Kapazitäts-Dioden
