@@ -8,11 +8,11 @@ Der *Bipolartransistor* wird im Englischen auch BJT: Bipolar Junction Transistor
 
 Die ideale Funktion aller Transistortypen, und auch der Elektronenröhre, ist die einer *spannungsgesteuerten Stromquelle*: mit einer möglichst kleinen Spannungsänderung am Eingang soll eine möglichst große Stromänderung am Ausgang bewirkt werden.
 
-Der Bipolartransistor hat drei Anschlüsse, die Emitter, Basis und Kollektor genannt werden. Der Emitter sendet Ladungsträger in die Basis - beim npn-Bipolartransistor sind das *Elektronen*, beim pnp-Bipolartransistor Defektelektronen, auch *Löcher* genannt. Die Physik hinter diesen Begriffen werden wir erst in der Ausbildung für die Klasse A besprechen. Diese Ladungsträger durchqueren die Basis und werden vom Kollektor wieder aufgesammelt. 
+Der Bipolartransistor hat drei Anschlüsse, die Emitter, Basis und Kollektor genannt werden. Der Emitter sendet Ladungsträger in die Basis - beim NPN-Bipolartransistor sind das *Elektronen*, beim PNP-Bipolartransistor Defektelektronen, auch *Löcher* genannt. Die Physik hinter diesen Begriffen werden wir erst in der Ausbildung für die Klasse A besprechen. Diese Ladungsträger durchqueren die Basis und werden vom Kollektor wieder aufgesammelt. 
 
 ---
 
-Die Abbildung [ref:e_npn_pnp_symbol] zeigt die Schaltzeichen von NPN- und PNP-Transistoren. Die Emitterelektrode erkennen wir an einem Pfeil, der beim pnp-Transistor zur Basis hin und beim npn-Transistor von der Basis weg zeigt. 
+Die Abbildung [ref:e_npn_pnp_symbol] zeigt die Schaltzeichen von NPN- und PNP-Transistoren. Die Emitterelektrode erkennen wir an einem Pfeil, der beim PNP-Transistor zur Basis hin und beim NPN-Transistor von der Basis weg zeigt. 
 
 <margin>
 [picture:864:e_npn_pnp_symbol:Symbole NPN und PNP Transistor]
@@ -44,26 +44,26 @@ Die minimale Spannung am Emitter-Basis-Übergang hängt vom verwendeten Halbleit
 ---
 
 <margin>
-[picture:863:e_npn_i_u:Ströme uns Spannungen an einem npn-Transistor]
+[picture:863:e_npn_i_u:Ströme und Spannungen an einem NPN-Transistor]
 </margin>
 
 ---
 
-Die Ströme und Spannungen an einem npn-Transistor sind in der Abbildung [ref:e_npn_i_u] dargestellt. Die Basis-Emitter-Spannung $U_{BE}$ kennen wir bereits, ebenso die Kollektor-Basis-Spannung $U_{CB}$. Der Kollektorstrom $I_C$ hängt exponentiell von der Basis-Emitter-Spannung ab:
+Die Ströme und Spannungen an einem NPN-Transistor sind in der Abbildung [ref:e_npn_i_u] dargestellt. Die Basis-Emitter-Spannung $U_\mathrm{BE}$ kennen wir bereits, ebenso die Kollektor-Basis-Spannung $U_\mathrm{CB}$. Der Kollektorstrom $I_\mathrm{C}$ hängt exponentiell von der Basis-Emitter-Spannung ab:
 
-$I_C = I_\text{S}\ e^{\frac{U_{BE}}{U_T}}$
+$I_\mathrm{C} = I_\mathrm{S}\ e^{\frac{U_\mathrm{BE}}{U_\mathrm{T}}}$
 
-$U_T$ ist bei Raumtemperatur etwa $\qty{26}{\milli\volt}$.
+$U_\mathrm{T}$ ist bei Raumtemperatur etwa $\qty{26}{\milli\volt}$.
 
 <indepth>
-$I_\text{S}$ bezeichnet den sogenannten Sättigungs-Sperrstrom eines Bipolartransistors. Er ist ein charakteristischer Bauteilparameter und steht in engem Zusammenhang mit der Emitter-Basis-Diode. Dabei handelt es sich um einen sehr kleinen Leckstrom, der auch dann durch den Transistor fließt, wenn die Basis-Emitter-Strecke nicht leitend ist.
+$I_\mathrm{S}$ bezeichnet den sogenannten Sättigungs-Sperrstrom eines Bipolartransistors. Er ist ein charakteristischer Bauteilparameter und steht in engem Zusammenhang mit der Emitter-Basis-Diode. Dabei handelt es sich um einen sehr kleinen Leckstrom, der auch dann durch den Transistor fließt, wenn die Basis-Emitter-Strecke nicht leitend ist.
 </indepth>
 
-Der Basisstrom $I_B$ hat in weiten Betriebsbereichen die gleiche Spannungsabhängig wie der Kollektorstrom, sodass das Verhältnis von Kollektorstrom und Basisstrom konstant ist:
+Der Basisstrom $I_\mathrm{B}$ hat in weiten Betriebsbereichen die gleiche Spannungsabhängig wie der Kollektorstrom, sodass das Verhältnis von Kollektorstrom und Basisstrom konstant ist:
 
-$\frac{I_C}{I_B} = B$
+$\frac{I_\mathrm{C}}{I_\mathrm{B}} = B$
 
-*B* ist die Stromverstärkung (genau genommen die Stromverstärkung in Emitterschaltung). Es ist oft praktischer, sich den Transistor als ein stromgesteuertes Bauelement vorzustellen, auch wenn das physikalisch nicht so ist. Die Stromverstärkung beträgt in praktischen Transistoren $50 \dots 350$.
+*$B$* ist die Stromverstärkung (genau genommen die Stromverstärkung in Emitterschaltung). Es ist oft praktischer, sich den Transistor als ein stromgesteuertes Bauelement vorzustellen, auch wenn das physikalisch nicht so ist. Die Stromverstärkung beträgt in praktischen Transistoren $50 \dots 350$.
 
 <tip>
 Für die Stromsteuerung des Bipolartransistors gibt es eine uralte Analogie, bei der ein großer und ein kleiner Wasserkanal, ein Wehr im großen Kanal und eine Steuerklappe eine Rolle spielen. Die Älteren unter uns kennen das vielleicht noch aus dem "Kleinen Radiomann" des Kosmos-Verlags ...
@@ -85,13 +85,13 @@ Jetzt fließt mehr Wasser im Steuerkanal, die Klappe wird weiter angehoben, das 
 
 Der Emitterstrom $I_E$ ist die Summe aus Kollektorstrom und Basisstrom:
 
-$I_E = I_C + I_B$
+$I_\mathrm{E} = I_\mathrm{C} + I_\mathrm{B}$
 
 [question:EC611]
 
 Der Spannungsarbeitspunkt von Transistoren wird meist über die Kollektor-Emitter-Spannung angegeben:
 
-$U_{CE} = U_{CB} + U_{BE}$
+$U_\mathrm{CE} = U_\mathrm{CB} + U_\mathrm{BE}$
 
 Neben den hier überwiegend behandelten Bipolartransistoren gibt es vor allem auch *Feldeffekttransistoren*, die physikalisch anders funktionieren, aber nach außen die selbe Grundfunktion (spannungsgesteuerte Stromquelle) haben. In Form der MOSFETs beherrschen sie unsere Elektronik, denn sie sind millionen- bis milliardenfach in den integrierten Schaltkreisen der Digitalelektronik enthalten.
 
