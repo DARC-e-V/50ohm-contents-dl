@@ -30,7 +30,13 @@ Diese Spulen und Kondenstatoren können in unterschiedlichen Konfigurationen ang
 [question:AF406]
 [question:AF417]
 
-Ein Pi-Filter kann Impedanzen an dessen Ein- und Ausgang durch das Verhältnis der beiden Kapazitäten anpassen. Die Spule des PI-Filters definiert zusammen mit den beiden Kapazitäten die Auslegungsfrequenz des Filters. Das PI-Filter unterdrückt gleichzeitig durch seinen Tiefpass-Charakter unerwünschte Oberwellen des Sendesignals.
+---
+
+Ein Pi-Filter (vgl. Abbildung [ref:a_pi_filter]) kann Impedanzen an dessen Ein- und Ausgang durch das Verhältnis der beiden Kapazitäten anpassen. Die Spule des PI-Filters definiert zusammen mit den beiden Kapazitäten die Auslegungsfrequenz des Filters. Das PI-Filter unterdrückt gleichzeitig durch seinen Tiefpass-Charakter unerwünschte Oberwellen des Sendesignals.
+
+<margin>
+[picture:1100:a_pi_filter:PI-Filter]
+</margin>
 
 [question:AF405]
 
