@@ -28,7 +28,7 @@ Mit einem vektoriellen Network Analyzer (VNA) lässt sich die Veränderung des i
 [photo:265:a_XL_Verlauf:Veränderung des induktiven Blindwiderstandes $X_L$ einer Spule von $\qty{500}{\kilo\hertz}$ bis $\qty{10}{\mega\hertz}$]
 </margin>
 
-Versuche nun die folgendn Frage durch die obige Formel zu beantworten. Achte dabei besonders auf die Einheiten bzw. die Zehnerpotenzen, damit du die richtigen Ergebnisse erhältst.
+Versuche nun die folgende Frage durch die obige Formel zu beantworten. Achte dabei besonders auf die Einheiten bzw. die Zehnerpotenzen, damit du die richtigen Ergebnisse erhältst.
 
 [question:AC204]
 
