@@ -1,4 +1,4 @@
-Bei mittengespeisten Dipolen im Freiraum liegt die Speiseimpedanz bei $\qty{73,1}{\ohm}$, also in der Größenordnung von $\qty{75}{\ohm}$ - aber eben nicht exakt! Dies gilt auch bei einer Aufbauhöhe von einer Wellenlänge oder darüber hinaus.
+Bei einem resonanten, mittengespeisten Halbwellendipol im Freiraum liegt die Speiseimpedanz idealisiert bei etwa $\qty{73,1}{\ohm}$ und damit näherungsweise bei $\qty{75}{\ohm}$. Dieser Wert liegt zwar bereits in der Größenordnung von den gewünschten $\qty{50}{\ohm}$, stimmt aber nicht exakt damit überein. Wird ein solcher Dipol direkt mit einer $\qty{50}{\ohm}$-Speiseleitung betrieben, entsteht daher eine leichte Fehlanpassung. Für eine optimale Leistungsübertragung bzw. ein möglichst niedriges SWR kann deshalb auch bei einem Dipol eine Anpassung sinnvoll sein. Das gilt grundsätzlich auch bei Aufbauhöhen von etwa einer Wellenlänge oder mehr, wobei die tatsächliche Speiseimpedanz je nach Drahtstärke, Umgebung und Aufbauhöhe leicht abweichen kann, wie wir gleich sehen werden.
 
 <margin>
 [picture:788:e_fusspunktimpedanz_dipol:Fußpolimpedanz eines Dipols in Abhängigkeit von der Aufbauhöhe (Simuliert mit NECPP)]
