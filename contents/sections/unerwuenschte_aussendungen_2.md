@@ -25,6 +25,7 @@ Ein ideales Sendesignal, welches nur auf einer gewünschten Frequenz aussendet s
 
 <indepth>
 Signalformen, welche nicht sinusförmig sind und insbesondere scharfe "Ecken und Kanten" enthalten, bestehen aus vielen verschiedenen Sinus-Frequenzanteilen und enthalten viele Oberwellenanteile. Insbesondere wenn Sender übersteuert werden, werden zuvor sinusförmige Signale oft verzerrt bzw. in deren Amplitude beschnitten. Hierdurch entstehen auch massive Oberwellenanteile. Jede Abweichung von der idealen Sinus-Form ist daher bei idealen Sendesignalen zu vermeiden. Diese Thematik werden wir in der Klasse A noch genauer betrachten. Mit diesem Applet lässt sich der Sachverhalt jedoch bereits ausprobieren.
+
 [include:fourier]
 </indepth>
 

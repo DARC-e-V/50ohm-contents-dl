@@ -14,7 +14,11 @@ Die Fourier-Transformation ist eine mathematisch komplexe Funktion (die wir hier
 
 Die Fourier-Transformation (auch diskrete Fourier-Transformation kurz DFT benannt) ist in Ihrer ursprünglichen Form eine mathematisch aufwändige und komplexe Funktion. Diese ist in Software nur sehr ineffizient abzubilden. Über die Zeit hat man eine wesentlich effizientere Methode gefunden, diese mathematisch komplexe Funktion auf einfachere Art und Weise abzubilden - die Fast-Fourier-Transformation oder auch FFT genannt. Hiermit wird deren Berechnung, insbesondere in Soft- und Hardware, wesentlich vereinfacht.
 
+<indepth>
+Signalformen, welche nicht sinusförmig sind und insbesondere scharfe "Ecken und Kanten" enthalten, bestehen aus vielen verschiedenen Sinus-Frequenzanteilen und enthalten viele Oberwellenanteile. Mit diesem Applet lässt sich der Sachverhalt jedoch bereits ausprobieren.
 
+[include:fourier]
+</indepth>
 
 [question:AF630]
 
