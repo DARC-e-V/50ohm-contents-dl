@@ -83,7 +83,7 @@ $ \frac{Z_p}{Z_s} = \frac{{U_p}^2}{{U_s}^2} = ü^2$
 Als Beispiel betrachten wir eine endgespeiste Antenne, die wir in einem späteren Kapitel noch genauer untersuchen werden. Deren Eingangsimpedanz beträgt etwa $\qty{2450}{\ohm}$ und ist damit deutlich hochohmig. Sie soll an einen Sender mit einer Lastimpedanz von $\qty{50}{\ohm}$ angepasst werden.
 
 <margin>
-[picture:260:a_endgespeiste_antenne:Endgespeiste Antenne mit Impedanzanpassung druch einen Übertrager]
+[picture:260:a_endgespeiste_antenne:Endgespeiste Antenne mit Impedanzanpassung durch einen Übertrager]
 </margin>
 
 Für die Impedanzübertragung von $\qty{50}{\ohm}$ auf $\qty{2450}{\ohm}$ ist das Verhältnis $Z_p:Z_s = \qty{50}{\ohm}:\qty{2450}{\ohm} = 1:49$. Das bedeutet $ü^2 = 1:49$ und damit $ü=\sqrt{1}:\sqrt{49}=1:7$. Das bedeutet, dass die Primärseite nur ein Siebtel der Windungen der Sekundärseite haben darf, damit die Impedanzanpassung gelingt, z.B. $N_p=1$ und $N_s=7$. In der Praxis wird üblicherweise ein Windungsverhältnis von $2:14$ verwendet (vgl. Abbildung [ref:a_unun]).

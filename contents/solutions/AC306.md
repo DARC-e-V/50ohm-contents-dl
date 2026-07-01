@@ -1,4 +1,4 @@
-[picture:260:a_endgespeiste_antenne:Endgespeiste Antenne mit Impedanzanpassung druch einen Übertrager]
+[picture:260:a_endgespeiste_antenne:Endgespeiste Antenne mit Impedanzanpassung durch einen Übertrager]
 
 Gegeben ist eine Anpassung von $\qty{50}{\ohm}$ auf $\qty{2500}{\ohm}$.
 

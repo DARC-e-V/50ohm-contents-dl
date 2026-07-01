@@ -1,4 +1,4 @@
-In der Klasse N haben wir gelernt, dass eine Antenne  vertikal oder horizontal polarisiert sein. Das erkennt man bei den meisten Antennenbauformen daran, dass die Antennen-Elemente senkrecht (vertikal) oder waagerecht (horizontal) ausgerichtet sind. In der Klasse E werden nun konkrete Antennenformen abgefragt. 
+In der Klasse N haben wir gelernt, dass eine Antenne vertikal oder horizontal polarisiert sein kann. Das erkennt man bei den meisten Antennenbauformen daran, dass die Antennen-Elemente senkrecht (vertikal) oder waagerecht (horizontal) ausgerichtet sind. In der Klasse E werden nun konkrete Antennenformen abgefragt.
 
 [question:EB309]
 

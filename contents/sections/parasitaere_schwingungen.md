@@ -1,4 +1,4 @@
-Parasitäre Schwingungen entstehen vornehmlich in HF-Leistungsversträrker-Stufen durch unerwünschte Rückköpplungen (Kapazitäten oder induktive Kopplungen zwischen Elementen) und haben normalerweise keinen Bezug zur Betriebsfrequenz des Senders. Sie äußern sich unter anderem durch Schwankungen der Ausgangsleistung des Senders wenn dieser abgestimmt wird (Schwankungen der TX-Anzeige).
+Parasitäre Schwingungen entstehen vornehmlich in HF-Leistungsversträrker-Stufen durch unerwünschte Rückkopplungen (Kapazitäten oder induktive Kopplungen zwischen Elementen) und haben normalerweise keinen Bezug zur Betriebsfrequenz des Senders. Sie äußern sich unter anderem durch Schwankungen der Ausgangsleistung des Senders wenn dieser abgestimmt wird (Schwankungen der TX-Anzeige).
 
 [question:AJ212]
 [question:AJ213]
