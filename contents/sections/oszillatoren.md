@@ -16,7 +16,7 @@ Laut Formelsammlung ist die Formel für die Schwingungsfrequenz (Thomsonsche Sch
 
 $ f_0 = \frac{1}{2\pi \sqrt{L\cdot C}} $
 
-Die Frequenz eines LC-Oszillators ändert sich, wenn sich der Wert des Kondensators oder der Spule z.B. durch Temperatureinwirkung ändert. Wie Sich das auf die Frequenz auswirkt, kann man in der Formel erkennen: 
+Die Frequenz eines LC-Oszillators ändert sich, wenn sich der Wert des Kondensators oder der Spule z.B. durch Temperatureinwirkung ändert. Wie sich das auf die Frequenz auswirkt, kann man in der Formel erkennen:
 Bei *steigender* Kapazität des Kondensators oder steigender Induktivität der Spule *verringert sich die Frequenz* des Schwingkreises. Umgekehrt *steigt die Frequenz* des Schwingkreises bei *sinkender* Kapazität oder Induktivität.
 
 [question:ED503]
