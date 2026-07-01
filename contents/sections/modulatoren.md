@@ -61,7 +61,7 @@ Hier taucht die Kapazitäts-Diode auf - und die Transistor-Schaltung daneben ist
 
 [question:AD508]
 
-Eine in Sperrspannung betriebene Kapazitäts-Diode, die auf der einen Seite mit NF beaufschlagt wird und auf der anderen Seite parallel zum Schwingkreis einer Oszillator-Schaltung liegt beeinflusst die Frequenz des Oszillators.
+Eine in Sperrspannung betriebene Kapazitäts-Diode, die auf der einen Seite mit NF beaufschlagt wird und auf der anderen Seite parallel zum Schwingkreis einer Oszillator-Schaltung liegt, beeinflusst die Frequenz des Oszillators.
 
 [question:AF310]
 
