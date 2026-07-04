@@ -7,7 +7,7 @@
 
 * Am Senderausgang
 * Unter Einbeziehung von Stehwellenmessgerät, Anpassgerät(e), Tiefpassfilter etc.
-* Messung von unerwünschen Aussendungen, die die Antenne erreichen können
+* Messung von unerwünschten Aussendungen, die die Antenne erreichen können
 
 ---
 [question:EJ209]
