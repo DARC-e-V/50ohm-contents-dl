@@ -4,7 +4,7 @@
 ---
 [question:NE102]
 <note>
-* PSK31, FT8, RTTY und Olivia sind keine Modulationsarten, sondern digitale Übertragungsverfahren und kommt später im Lehrgang.
+* PSK31, FT8, RTTY und Olivia sind keine Modulationsarten, sondern digitale Übertragungsverfahren, die später im Lehrgang kommen.
 </note>
 
 ---
@@ -44,5 +44,6 @@
 * Ursache liegt an der Spiegelung der Seitenbänder - Tiefe Töne werden zu hohe und umgekehrt.
 * Bei FM und AM kann der Träger zur Demodulation zu Hilfe genommen werden.
 </note>
+
 ---
 [question:NE212]
