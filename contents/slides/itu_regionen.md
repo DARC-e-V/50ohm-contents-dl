@@ -11,6 +11,14 @@
 </note>
 
 ---
+
+| l: ITU-Region | X: Kontinente und Länder |
+| 1 | Afrika, Europa, Russland, Mongolei und Naher Osten |
+| 2 | Nord- und Süd-Amerika und Grönland |
+| 3 | Süd- und Ost-Asien sowie Australien und Ozeanien |
+[table:n_itu_regionen:ITU-Regionen und die zugehörigen Kontinente und Länder]
+
+---
 [question:VA402]
 ---
 [question:VA401]

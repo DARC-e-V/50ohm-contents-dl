@@ -8,10 +8,11 @@
 <note>
 Quellen für Landeskenner
 * Landeskennerlisten der ITU
-* Amateurfunkhandbüchern
+* Amateurfunkhandbücher
 * Internet
 * diverse Rufzeichenlisten
-Es gibt Eselsbrücken zum Lernen - am besten die Tabelle im Online-Kurs verweisen
+
+Es gibt Eselsbrücken zum Lernen - am besten auf die Tabelle im Online-Kurs verweisen
 </note>
 
 ---
