@@ -8,6 +8,7 @@
 </right>
 
 ---
+
 ## Vorgaben
 * Maximale Zuweisung für 1 Jahr durch die BNetzA
 * Keine Verlängerung möglich
@@ -15,6 +16,7 @@
 * Das letzte Zeichen muss immer ein Buchstabe sein
 
 ---
+
 ## International
 * Auch im Ausland kann es Sonderstationen geben
 * Die Rufzeichen können andere Vorgaben haben

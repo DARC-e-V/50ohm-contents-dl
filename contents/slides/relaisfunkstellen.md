@@ -12,9 +12,12 @@
 * Mit dem Relais können beide Funkamateure eine Verbindung aufbauen
 * Mehr zu Satelliten später
 </note>
+
 ---
+
 ## Definition Relaisfunkstelle
 eine fernbediente Amateurfunkstelle (auch in Satelliten), die empfangene Amateurfunkaussendungen, Teile davon oder sonstige eingespeiste oder eingespeicherte Signale fernausgelöst aussendet und dabei zur Erhöhung der Erreichbarkeit von Amateurfunkstellen dient
+
 ---
 <left>
 * Auch kurz genannt: Relais oder Repeater
@@ -30,8 +33,9 @@ eine fernbediente Amateurfunkstelle (auch in Satelliten), die empfangene Amateur
 </fragment>
 
 ---
-[question:NF118]
+[question:VD118]
 ---
+
 ## Funktionsweise
 <left>
 * Empfängt auf der Eingangsfrequenz das Signal einer Amateurfunkstation
@@ -64,12 +68,14 @@ Beispiel eines $\qty{70}{\centi\meter}$-Relais:
 ---
 [question:BE403]
 
---- indepth
+---
+
 ## Crossband-Betrieb
 * Sendet und empfängt gleichzeitig auf zwei verschiedenen Bändern, z.B. $\qty{2}{\meter}$ und $\qty{70}{\centi\meter}$
 * Umsetzung der Sendeart auch möglich, z.B. SSB auf FM
 
 ---
+
 ## Digipeater
 * Vermittelt Daten statt Sprache
 * Empfängt und sendet Datenpakete
@@ -81,7 +87,11 @@ Beispiel eines $\qty{70}{\centi\meter}$-Relais:
 * Für Packet Radio, was in den 90ern vor dem Internet beliebt war
 * Kommt später etwas ausführlicher
 </note>
+
 ---
+[question:NF118]
+---
+
 ## Besondere Einstellungen
 * Ggf. sind weitere Einstellungen für die Verbindung zum Relais notwendig
 * Diese Informationen sind in Repeaterverzeichnissen, auf Webseiten oder beim Relaisverantwortlichen erhältlich
@@ -96,6 +106,7 @@ Ein Beispiel für weitere Einstellungen ist ein Subton mit CTCSS
 ---
 [question:NE308]
 ---
+
 ## Kanalbandbreite
 * Der benötigte Platz im Frequenzspektrum
 * Wide-FM: $\qty{25}{\kilo\hertz}$
@@ -105,6 +116,7 @@ Ein Beispiel für weitere Einstellungen ist ein Subton mit CTCSS
 ---
 [question:BE407]
 ---
+
 ## Störungsfreier Betrieb
 * Grundsätzlich können alle Funkamateure mit ihrem zugeteilten Rufzeichen fernbediente Amateurfunkstellen nutzen
 * Betreiber kann zur Sicherstellung des störungsfreien Betriebs Funkamateure ausschließen
@@ -113,6 +125,7 @@ Ein Beispiel für weitere Einstellungen ist ein Subton mit CTCSS
 ---
 [question:VD504]
 ---
+
 ## Funkbetrieb auf Repeatern
 * Kurze Durchgänge
 * Mobile und portable Stationen sind oft nur kurzzeitig in Empfangsreichweite
@@ -123,6 +136,7 @@ Ein Beispiel für weitere Einstellungen ist ein Subton mit CTCSS
 ---
 [question:BE404]
 ---
+
 ## Doppeln
 * Bei gleichzeitiger Spracheingabe wird die Aussendung bis zur Unlesbarkeit gestört
 * "Doppeln" durch ordentliche Übergabe vermeiden
@@ -133,6 +147,7 @@ Ein Beispiel für weitere Einstellungen ist ein Subton mit CTCSS
 ---
 [question:BE405]
 ---
+
 ## Sendeleistung
 * Nach Anlage 1 der AFuV
 * Für automatische Station oberhalb von $\qty{30}{\mega\hertz}$ mit $\qty{50}{\watt}$ ERP
@@ -140,6 +155,7 @@ Ein Beispiel für weitere Einstellungen ist ein Subton mit CTCSS
 ---
 [question:VD503]
 ---
+
 ## Rapport
 * Empfangene Signalstärke (S) ist die des Relais
 * Es wird darauf verzichtet

@@ -1,5 +1,5 @@
 <left>
-[photo:124:n_satellit_oscar1:Modell des ersten Amateurfunksatelliten OSCAR 1, der 1961 für 22 Tage aus dem Orbit der Erde eine Bake im $\qty{2}{\meter}-Band$ sendete und von 570 Funkamateuren aus 28 Ländern gehört wurde]
+[photo:124:n_satellit_oscar1:Modell des ersten Amateurfunksatelliten OSCAR 1, der 1961 für 22 Tage aus dem Orbit der Erde eine Bake im $\qty{2}{\meter}$-Band sendete und von 570 Funkamateuren aus 28 Ländern gehört wurde]
 </left>
 <right>
 * Umrunden die Erde in kreis- oder elliptischen Bahnen und in unterschiedlichen Höhen
@@ -11,9 +11,11 @@
 * 4 Jahre nach Sputnik
 * OSCAR Deutsch: "Umkreisender Satellit, der Amateurfunk mitführt"
 </note>
+
 ---
 [question:BE415]
 ---
+
 ## Transponder
 Relaisfunkstelle auf dem Satellit wird "Transponder" genannt
 
@@ -25,6 +27,7 @@ Relaisfunkstelle auf dem Satellit wird "Transponder" genannt
 
 <note>
 * z.B. Downlink auf $\qty{2}{\meter}$ und Uplink auf $\qty{70}{\centi\meter}$
+* Vertiefung zu Umlaufbahnen (LEO, MEO, GEO, HEO, Polar) im gleichen Abschnitt auf 50ohm.de
 </note>
 
 ---
@@ -36,6 +39,7 @@ Relaisfunkstelle auf dem Satellit wird "Transponder" genannt
 ---
 [question:NF113]
 ---
+
 ## Azimut und Elevation
 Satellitenantennen müssen ausgerichtet sein
 
@@ -51,6 +55,7 @@ Azimut
 </right>
 
 ---  data-transition="none"
+
 ## Azimut und Elevation
 Satellitenantennen müssen ausgerichtet sein
 
@@ -70,6 +75,7 @@ Elevation
 ---
 [question:BE414]
 ---
+
 ## Steuersignale
 * Im Amateurfunkdienst gibt es eine Pflicht zur offenen Sprache
 * Ausnahme: Steuersignale zwischen Bodenstationen und Amateurfunksatelliten

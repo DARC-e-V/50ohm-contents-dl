@@ -6,6 +6,7 @@
 3. Klasse A (Advanced)
 
 * Die Klasse ist am Präfix und der Ziffer erkennbar
+* Siehe [Rufzeichenplan](https://50ohm.de/rzp)
 
 <note>
 * In anderen Ländern - aber nicht allen - gibt es ähnliche Systeme
@@ -16,6 +17,7 @@
 | l: Klasse | X: Präfix und Ziffer |
 | Klasse N | DN9 |
 | Klasse E | DO1 - DO9 |
+| | DA6 |
 | Klasse A | DB1 - DD9 |
 | | DF1 - DH9 |
 | | DJ1 - DM9 |
@@ -36,6 +38,7 @@
 ---
 [question:BD104]
 ---
+
 ## Zulassung
 
 * Nach bestandener Prüfung Antrag bei BNetzA stellen auf *Zulassung zur Teilnahme am Amateurfunkdienst*
@@ -44,13 +47,14 @@
 * Die Zulassung ist nicht übertragbar
 
 <note>
-* Bei manchen Prüfungsstandorten kann die Zulassungsurkunde direkt nach der Prüfung ausgehändigt werden
-* Aktuell: Dortmund und bei der Messe HAM RADIO in Friedrichshafen
-* Maßgeblich ist die Eintragung in der Rufzeichenliste
+* Inzwischen ist die Zulassungsurkunde ein PDF und wird ggf. via E-Mail zugesandt
+* Maßgeblich ist die Eintragung in der Rufzeichenliste/-datenbank
 </note>
 ---
+
 [question:VC107]
 ---
+
 ## Wunschrufzeichen
 
 * Auf dem Antrag können Wunschrufzeichen angegeben werden
@@ -63,7 +67,7 @@
 * Rufzeichen können zwischenzeitlich zugeteilt worden sein
 </note>
 
---- indepth
+---
 ### Auswahl von Rufzeichen
 
 * Kurzschreibweise des Namens
@@ -75,7 +79,8 @@
 ---
 [question:VD208]
 ---
-## Änderung von Rufzeichen
+
+## Änderung oder Einzug von Rufzeichen
 
 * In der Regel ändert die BNetzA ein Rufzeichen nicht
 * Bei Änderungen von Regularien oder Zulassungsklassen kann es notwendig werden
@@ -85,5 +90,6 @@
 * Beispiel: DDR-Rufzeichen-Wechsel
 * Ausbildungsrufzeichen DN1-8 werden in Zukunft eingezogen
 </note>
+
 ---
 [question:VC117]
