@@ -26,7 +26,7 @@ QTH Berlin $\rightarrow$ QTH?
 | QRM | Ich werde gestört | *M*enschengemachte Störung |
 | QRO | Erhöhen Sie die Sendeleistung! | Ein paar Watt *o*bendrauf legen |
 | QRP | Senken Sie die Sendeleistung! | *P*iano (sanft, leise), *P*ssst!|
-| QRT | Stellen Sie die Übermittlung ein! | *T*erminal (Beenden) |
+| QRT | Stellen Sie die Übermittlung ein! | *T*erminate (Beenden) |
 | QRV | Ich bin bereit | *v*orbereitet |
 [table:n_q_gruppen_1:Alle prüfungsrelevanten Q-Gruppen in der Übersicht mit Merkhilfen]
 
@@ -47,16 +47,14 @@ QTH Berlin $\rightarrow$ QTH?
 [table:n_q_gruppen_2:Alle prüfungsrelevanten Q-Gruppen in der Übersicht mit Merkhilfen]
 
 <note>
-* QRZ? wird insbesondere im Pile Up anstalle von CQ verwendet, um weitere Stationen aufzurufen
+* QRZ? wird insbesondere im Pile Up anstelle von CQ verwendet, um weitere Stationen aufzurufen
 * QSO wird im Sprachgebrauch auch allgemein als Funkverbindung verwendet
 </note>
-
 
 ---
 [question:BB204]
 
 ---
- 
 [question:BB203]
 
 ---

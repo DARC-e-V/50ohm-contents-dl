@@ -22,12 +22,3 @@
 
 ---
 [question:BB107]
-
----
-[question:BB110]
-
----
-[question:BB109]
-
----
-[question:BB108]
