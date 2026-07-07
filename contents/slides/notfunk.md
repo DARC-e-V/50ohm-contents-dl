@@ -1,6 +1,7 @@
 ### Dürfen Funkamateure helfen?
 
 * Ja! Funkamateure dürfen in Not- und Katastrophenfällen durch Übermittlung von Nachrichten für und an Dritte bei der Bewältigung einer Notlage unterstützen.
+* Es besteht sogar eine *Pflicht zur Hilfeleistung*: Unterlassene Hilfeleistung ist nach § 323c StGB strafbar
 
 ---
 
@@ -11,6 +12,12 @@
 ### Was  tun, wenn man eine Notmeldung erhält?
 
 * Bei einer Notmeldung sollte man zunächst aufmerksam zuhören und alle wichtigen Informationen notieren.
+* Hilfreich sind dabei die *5 W-Fragen*:
+  * *Wo* ist das Ereignis?
+  * *Wer* meldet es?
+  * *Was* ist geschehen?
+  * *Wie* viele Betroffene?
+  * *Warten* auf Rückfragen!
 
 ---
 
@@ -21,6 +28,7 @@
 ### Was tun, wenn eine Rettungsorganisation sich der Sache annimmt?
 
 * Wird die Notmeldung von einer Rettungsorganisation beantwortet, hält man sich zurück um den Funkbetrieb nicht zu stören.
+* Anweisungen der notrufenden Station oder einer Leitstation befolgen
 
 ---
 
@@ -31,6 +39,7 @@
 ### Was tun, wenn zunächst niemand antwortet?
 
 * Reagiert keine andere Funkstelle, beantwortet man den Ruf und informiert die Polizei oder Rettungsleitstelle.
+* Meldung dabei vollständig und wörtlich weitergeben
 
 ---
 
@@ -51,6 +60,10 @@
 
 * Bei internationaler Beteiligung nutzt man UTC anstelle von lokaler Zeit.
 
+<note>
+Das Notfunkreferat des DARC stellt Empfehlungen für die Organisation von Notfallkommunikation bereit
+</note>
+
 ---
 
 [question:BF108]
@@ -59,12 +72,10 @@
 
 ### Notzeichen
 
-* Die Notzeichen außerhalb des Amateurfunks sind SOS und Mayday, diese dürfen im Amateurfunk nicht verwendet werden.
-
-<note>
-* Es dürfen Notrufe abgesetzt werden.
-* Aber die Notzeichen SOS und MAYDAY sind dem See- und Flugfunk vorbehalten.
-</note>
+* Die Notzeichen außerhalb des Amateurfunks sind SOS und MAYDAY
+* Dringlichkeits- und Sicherheitszeichen: PAN PAN und SÉCURITÉ
+* Diese Zeichen sind dem See- und Flugfunk vorbehalten und dürfen im Amateurfunk nicht verwendet werden
+* Es dürfen trotzdem Notrufe abgesetzt werden, z.B. mit den Begriffen "Notfall" oder "Emergency"
 
 ---
 
@@ -93,7 +104,7 @@ Die IARU hat für die ITU-Region 1 die folgenden Notfunkfrequenzen in den Bandpl
 <note>
 Zusätzlich werden zum Beispiel bei Erdbeben von lokalen Organisationen weitere Frequenzen in den "Amateurfunkmedien" kommuniziert.
   </note>
-  
+
 ---
 
 [question:BF109]

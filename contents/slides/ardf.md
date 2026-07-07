@@ -21,6 +21,10 @@
 <right>
 [photo:190:n_ardf_fuchs:ARDF-Fuchs im Wald mit Wimpel und Zeitnehmer]
 </right>
+<note>
+* Keine Morsekenntnisse nötig: Es werden nur lange Töne (M, O) bzw. nur kurze Töne (E, I, S, H, 5) verwendet, langsam genug zum Mitzählen
+* Variante *Mobilfuchsjagd*: Füchse werden aus Kraftfahrzeugen heraus gesucht
+</note>
 
 ---
 [question:BE313]
