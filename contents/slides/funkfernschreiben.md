@@ -1,6 +1,6 @@
 ## Funkfernschreiber
 <left>
-[photo:92:n_computersteuerung_funkfernschreiber:Funkfernschreiber]
+[photo:92:n_funkfernschreiben_funkfernschreiber:Funkfernschreiber]
 </left>
 <right>
 Die Abkürzung RTTY stammt von *radio teletype*
@@ -115,6 +115,16 @@ Hier bin ich wieder. Ich bestätige den Empfang. Sehr viele Grüße von DL2AB. E
 Verstanden. Viele Grüße von DL1PZ. Ende der Verbindung.
 </fragment>
 
+---
+
+## Digitale Verfahren wie FT8 oder FT4
+* Funktionieren auch bei widrigen Funkbedingungen (niedrige Signalstärke im Vergleich zum Grundrauschen)
+* Dafür können nur ganz wenige Zeichen je Sendung übertragen werden
+* Abwicklung entsprechend noch kompakter
+
+<note>
+Andere digitale Verfahren übertragen auch Bilder oder Video, mit angepasster Betriebsabwicklung - das ist aber nicht prüfungsrelevant
+</note>
 
 ---
 [question:NE401]
@@ -133,20 +143,3 @@ Verstanden. Viele Grüße von DL1PZ. Ende der Verbindung.
 
 ---
 [question:BE112]
-
----
-## Morsetelegrafie
-* Auf die richtige Geschwindigkeit achten
-* Schnell gegebene Morsezeichen brauchen viel Übung zum Verstehen
-* Gegenstelle nicht mit der Geschwindigkeit überfordern
-* Faustregel: *Nicht schneller geben, als man selbst aufnehmen kann*
-
-<note>
-Es ist tatsächlich möglich und ein häufiger Anfängerfehler, in Morsetelegrafie schneller zu geben als man selbst verstehen kann.
-</note>
-
----
-[question:BE117]
-
----
-[question:BE118]
