@@ -5,11 +5,23 @@
 </left>
 <right>
 [photo:12:n_qsl_karten_vorderseite:Gemeinsame QSL-Karte von DL4EAX und DM4EAX (Vorderseite)]
+
+[photo:61:n_qsl_karten_rueckseite:Gemeinsame QSL-Karte von DL4EAX und DM4EAX (Rückseite)]
 </right>
 <note>
 * Diplom als Zertifikat über gewissen Funkkönnen
 * Es gibt sehr viele Diplome, oftmals von Amateurfunkvereinigungen
 </note>
+
+---
+
+<left>
+[photo:60:n_dx_urkunde_dxcc_dm4eax:Urkunde des DX Century Clubs]
+</left>
+<right>
+* Bekanntes Diplom: *DX Century Club* der amerikanischen ARRL
+* Nachweis von Verbindungen mit 100 unterschiedlichen Ländern
+</right>
 
 ---
 [question:BG104]

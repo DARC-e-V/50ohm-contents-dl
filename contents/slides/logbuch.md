@@ -34,12 +34,20 @@ Es kann aber auch dazu kommen, dass man eine Aufforderung der Bundesnetzagentur 
 [question:VD108]
 
 ---
+
+Jedes DARC-Mitglied kann ein elektronisches, webbasiertes Logbuch auf [log.darc.de](https://50ohm.de/log) nutzen (basierend auf Wavelog), inkl. Synchronisierung mit eQSL, LoTW, QRZ und DCL
+
+<note>
+Hier DARC-Mitgliedschaft bewerben
+</note>
+
+---
 ## Aufbewahrung des Logbuchs
 
-* Bei angeordneter Logbuchführung
-* Über eine bestimmte Zeit einsehbar
-* Bei elektronischem Logbuch ist Transfer mit ADIF-Dateiformat möglich
-* Bei Transfer von Papier auf elektronisch muss das Papierformat weiter aufbewahrt werden
+* Bei angeordneter Logbuchführung muss das Logbuch über eine bestimmte Zeit einsehbar bleiben, unabhängig von der Art der Führung
+* Wechsel Papier $\rightarrow$ elektronisch: altes Papierlogbuch weiter aufbewahren
+* Wechsel elektronisch $\rightarrow$ Papier: alten Computer mit Software weiter vorhalten oder Logbuch ausdrucken
+* Wechsel der Logbuch-Software: alte Software weiter vorhalten oder Daten übertragen, z.B. mit dem ADIF-Dateiformat
 
 ---
 
