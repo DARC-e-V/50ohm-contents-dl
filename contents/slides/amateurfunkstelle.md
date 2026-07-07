@@ -16,6 +16,10 @@ Das Amateurfunkgesetz beschreibt es im Kern genauso, fügt aber Details hinzu:
 
 Inhaltlich ist laut Radio Regulations (RR) Funkverkehr zwischen Amateurfunkstellen verschiedener Länder auf Mitteilungen im Zusammenhang mit dem definitionsgemäßen Zweck des Amateurfunkdienstes und auf Bemerkungen persönlicher Art zu beschränken.
 
+* Diese Vorgabe wurde nicht ins deutsche Recht übernommen - Funkamateure hier setzen auf verantwortungsvollen Umgang miteinander
+* Andere Staaten können aber entsprechende nationale Vorschriften haben
+* Der Inhalt einer Funkverbindung darf von jedem mitgehört werden - alles ist öffentlich gesprochenes Wort
+
 ---
 [question:VA201]
 

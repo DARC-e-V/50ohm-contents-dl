@@ -23,6 +23,16 @@ Die besondere rechtliche Stellung des Amateurfunks zeigt sich darin, dass der Am
 </note>
 
 ---
+
+<left>
+[photo:3:n_gesetze_vorschriften_backstein:Backstein der Backsteinaktion von 1949]
+</left>
+<right>
+* Das erste Amateurfunkgesetz trat am 15. März 1949 in Kraft - noch vor dem Grundgesetz
+* Voraus ging die legendäre "Backsteinaktion": Funkamateure schickten im Januar 1949 Pakete mit Mauersteinen und Protestbriefen an den Vorsitzenden des Wirtschaftsrats, um die schleppende Verabschiedung des Gesetzes zu beschleunigen
+</right>
+
+---
 [question:VA301]
 
 ---

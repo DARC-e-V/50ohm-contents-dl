@@ -2,6 +2,9 @@
 
 Die Bundesnetzagentur kann bei Verstößen gegen AFuG oder AFuV eine Einschränkung des Betriebes oder die Außerbetriebnahme der Amateurfunkstelle anordnen. Wenn fortgesetzt gegen AFuG oder AFuV verstoßen wird, kann die Amateurfunkzulassung widerrufen werden.
 
+* Auch nach Widerruf der Zulassung darf man sich weiter Funkamateur nennen, ist aber vom Amateurfunkbetrieb ausgeschlossen
+* Eine Aberkennung des Amateurfunkzeugnisses selbst ist nicht vorgesehen - wer die Prüfung bestanden hat, bleibt Funkamateur
+
 ---
 
 Ordnungswidrigkeiten im Sinne des Amateurfunkgesetzes (AFuG) sind:
