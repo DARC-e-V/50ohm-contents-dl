@@ -103,6 +103,10 @@
 * Durch gleichartige ersetzen
 * Stromstärke und Auslösecharakteristik
 
+<note>
+ACHTUNG: Eine defekte Sicherung z.B. mit Alufolie zu überbrücken ist unzulässig und sehr gefährlich - es besteht Brandgefahr!
+</note>
+
 ---
 
 ### Kenngrößen von Feinsicherungen
@@ -121,4 +125,10 @@
 * Im Kurzschlussfall wird die Stromstärke begrenzt
 * *Kurzschlussstrombegrenzung*
 * Kein Austausch von Sicherungen notwendig
+
+---
+[question:ND108]
+
+---
+[question:NK305]
 
