@@ -7,6 +7,9 @@
 <fragment>
 * Viele Funkgeräte zeigen die aktuelle Senderausgangsleistung im Power-Meter an.
 </fragment>
+<note>
+Deutscher Begriff für PEP: Hüllkurvenspitzenleistung - der höchste gemessene Wert der durchschnittlichen Leistung jeder Periode der Hochfrequenzschwingung
+</note>
 
 ---
 [question:NF102]
@@ -16,6 +19,7 @@
 
 * In Anlage 1 der AFuV
 * Unterscheidet sich je nach Klasse und Frequenzbereich
+* Kein Eintrag in einer Spalte $\rightarrow$ diese Klasse darf den Frequenzbereich nicht nutzen
 
 <note>
 * Wir empfehlen, die folgenden 10 Fragen anhand der Anlage 1 zu beantworten, um Übung beim Ablesen der richtigen Werte zu bekommen.

@@ -10,4 +10,12 @@
 
 ---
 
+## Richtig einstellen
+
+* Richtig eingestellt, wenn es in Sendepausen gerade nicht mehr rauscht
+* Zu schwach eingestellt: es rauscht noch
+* Zu stark eingestellt: auch schwache Signale werden ausgeblendet
+
+---
+
 [question:NF302]

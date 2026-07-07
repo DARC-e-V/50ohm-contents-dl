@@ -11,9 +11,9 @@ Funkwellen von
 <fragment>
 <right>
 Elektrische Schwingungen gelangen in andere Leitungen
-* Zerstörungen von anderen elektronischen Geräten
 * Geräusche aus Lautsprechern
-* Internetausfall
+* Internetausfall (z.B. WLAN)
+* Schwierigkeiten beim Radio- oder Fernsehempfang
 * Fehler in Heizungssteuerung
 </right>
 </fragment>

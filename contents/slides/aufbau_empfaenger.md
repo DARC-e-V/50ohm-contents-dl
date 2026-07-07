@@ -6,6 +6,7 @@
 <right>
 * Nimmt Vielzahl von Funkwellen auf
 * Leitet sie als elektrische Schwingungen weiter
+* Dieser Empfängertyp heißt *Geradeausempfänger*: Die Frequenz des Signals wird bis zum Demodulator nicht verändert
 </right>
 
 --- data-transition="none"
@@ -18,11 +19,8 @@
 <right>
 * Lässt nur gewünschten Frequenzbereich durch
 * Sperrt alle anderen ungewünschten Frequenzen
+* Symbol zeigt zwei durchgestrichene Wellen ober- und unterhalb der durchlassenden Welle
 </right>
-
-<note>
-Symbol zeigt zwei durchgestrichene Wellen ober- und unterhalb der durchlassenden Welle
-</note>
 
 --- data-transition="none"
 
@@ -45,6 +43,7 @@ Symbol zeigt zwei durchgestrichene Wellen ober- und unterhalb der durchlassenden
 <right>
 * Zurückgewinnung des ursprünglichen Signals, z.B. Sprachsignal
 * Ergebnis ist das Niederfrequenz-Signal (NF)
+* Im Blockdiagramm durch das Schaltzeichen einer Diode dargestellt, dem wichtigsten Bestandteil vieler Demodulatoren
 </right>
 
 --- data-transition="none"
