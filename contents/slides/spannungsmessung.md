@@ -22,6 +22,24 @@
 
 ---
 
+## Multimeter
+
+<left>
+[photo:11:n_messgeraete_multimeter:Multimeter]
+</left>
+<right>
+* Kombiniertes Messgerät für Spannung, Strom und weitere Größen
+* Schwarze Messleitung an "COM" (common), rote an "V"
+* Für Spannungsmessung "V ~" (Wechselspannung) oder "V =" (Gleichspannung) wählen
+* Zuerst größtmöglichen Messbereich wählen, dann ggf. verkleinern
+</right>
+<note>
+* Verwechslung von Strom-/Spannungsmessung oder falscher Messbereich kann das Messgerät beschädigen
+* Achtung: Wechselspannungen über $\qty{50}{\volt}$ und Gleichspannungen über $\qty{120}{\volt}$ können lebensgefährlich sein
+</note>
+
+---
+
 [question:NI101] 
 
 ---

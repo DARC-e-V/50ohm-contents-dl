@@ -51,3 +51,25 @@ In Klasse N gibt es kein anderes Bauteil mit drei Anschlüssen
 ---
 
 [question:NC501]
+
+---
+## Masse
+
+<left>
+* Bezugspunkt für Spannungen in einer Schaltung, z.B. das Gehäuse
+* Nicht zu verwechseln mit der Erdung
+</left>
+<right>
+[picture:545:n_bauelemente_masse:Schaltzeichen Masse]
+</right>
+
+---
+[question:NB202]
+
+---
+
+## Übersicht
+
+Alle bisher kennengelernten Schaltzeichen im Überblick
+
+[picture:694:n_bauelemente_bauteile:Elektrische Bauteile, Messgeräte und ihre Schaltzeichen]
