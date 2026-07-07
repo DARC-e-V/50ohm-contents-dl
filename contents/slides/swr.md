@@ -23,6 +23,10 @@ Wird zwischen Transceiver und Antenne eingeschleift oder ist bereits im Transcei
 <right>
 [photo:67:n_swr_display:Display eines Transceivers]
 </right>
+<note>
+SWR-Meter und S-Meter klingen ähnlich, sind aber verschieden: Das SWR-Meter misst das Stehwellenverhältnis beim Senden, das S-Meter die Signalstärke beim Empfang
+</note>
+
 ---
 [question:NI201]
 
@@ -49,9 +53,13 @@ Wird zwischen Transceiver und Antenne eingeschleift oder ist bereits im Transcei
 ## Schlechte Anpassung
 
 * Bei schlechter Anpassung wird nahe unendlich angezeigt
-* Schlechte Anpassung an Übertragungsleitung
-* Schlechte Anpassung an Antenne
-* Defekte Übertragungsleitung
+* Keine Antenne angeschlossen, Übertragungsleitung unterbrochen oder kurzgeschlossen
+* Schlechte Anpassung der Antenne oder beschädigte Übertragungsleitung
+* Kann im schlimmsten Fall den Sender zerstören
+
+<note>
+Bei SWR 2 werden 11 %, bei SWR 3 werden 25 % der Sendeleistung reflektiert. Moderne Transceiver reduzieren die Sendeleistung automatisch, um den Sender zu schützen.
+</note>
 
 ---
 [question:NG302]

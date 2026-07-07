@@ -2,7 +2,7 @@
 [photo:75:n_mobilfunkgeraet:Einbau des Bedienteils eines VHF/UHF-Funkgerätes in die Mittelkonsole eines PKW]
 </left>
 <right>
-* Wähend der Fahrt mit anderen Funkamateuren unterhalten
+* Während der Fahrt mit anderen Funkamateuren unterhalten
 * Tipps oder Verkehrsinformationen mitbekommen
 * Benutzung nur mit Freisprecheinrichtung
 </right>

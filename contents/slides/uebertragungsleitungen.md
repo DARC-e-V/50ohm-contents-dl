@@ -50,4 +50,12 @@ Umgangssprachlich: "Koaxkabel"
 </note>
 
 ---
+
+## Fehlanpassung
+
+* Unterschiedliche Wellenwiderstände verbunden $\rightarrow$ Reflexionen an der Verbindungsstelle
+* Sendeleistung wird teils zurück zum Sender reflektiert und nicht abgestrahlt
+* Kann im schlimmsten Fall den Sender beschädigen
+
+---
 [question:NG201]

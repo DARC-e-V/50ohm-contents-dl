@@ -27,9 +27,9 @@ Der Betreiber der ortsfesten Amateurfunkstelle ist für die Sicherstellung der "
 [question:VE502]
 
 ---
-## BIm-SchV und BEMFV
+## BImSchV und BEMFV
 
-* Grenzwerte finden sich in der "26. Verordnung zur Durchführung des Bundes-Immissionsschutzgesetzes" (26. BIm-SchV) und in der "Verordnung über das Nachweisverfahren zur Begrenzung elektromagnetischer Felder" (BEMFV)
+* Grenzwerte finden sich in der "26. Verordnung zur Durchführung des Bundes-Immissionsschutzgesetzes" (26. BImSchV) und in der "Verordnung über das Nachweisverfahren zur Begrenzung elektromagnetischer Felder" (BEMFV)
 * In der Verordnung über das "Nachweisverfahren zur Begrenzung elektromagnetischer Felder" (BEMFV) ist das Anzeigeverfahren beschrieben
 * *Funkamateur stellt vor Inbetriebnahme eigenständig sicher und dokumentiert, dass keine Gefährdung für Personen besteht*
 

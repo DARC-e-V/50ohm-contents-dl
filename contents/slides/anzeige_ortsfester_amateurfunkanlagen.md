@@ -14,8 +14,16 @@ Für ortsfeste Amateurfunkstellen muss das Nachweisverfahren nur dann durchgefü
 ---
 ## Anzeige bei BNetzA
 
+<left>
+[photo:79:n_Deckblatt_Anleitung:Deckblatt der Anleitung]
+</left>
+<right>
 * vor der Aufnahme des Betriebs der ortsfesten Amateurfunkanlage
 * bei zuständiger Außenstelle der BNetzA
+</right>
+<note>
+Die zuständige Außenstelle kann auf der Webseite der Bundesnetzagentur ermittelt werden
+</note>
 
 ---
 [question:VE509]
@@ -38,6 +46,10 @@ An der Funkstation liegend und auf Verlangen der BNetzA vorzulegen:
 * Bauzeichnung oder Skizze mit Bemaßung
 * Konfiguration der Funkanlage
 
+<note>
+Schlüsselwort für die richtige Antwort bei dieser und der nächsten Frage: "nachvollziehbar"
+</note>
+
 ---
 [question:VE512]
 
@@ -52,6 +64,10 @@ An der Funkstation liegend und auf Verlangen der BNetzA vorzulegen:
 
 * Fortlaufend prüfen, ob die Anlage gleich zu der in der Anzeige ist
 * Bei wesentlichen Änderungen erneute Anzeige durchführen
+
+<note>
+z.B. weiterer Antennenmast, Antennenwechsel oder höhere Sendeleistung mit größerem Abstand
+</note>
 
 ---
 [question:VE514]
@@ -75,6 +91,10 @@ Hilfsmittel:
 * Fernfeldberechnung
 * Nahfeldberechnung
 </right>
+
+---
+
+[photo:80:n_Bewertungsverfahren:In diesem Dokument sind die Bewertungsverfahren beschrieben.]
 
 ---
 [question:VE506]

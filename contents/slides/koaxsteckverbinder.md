@@ -8,6 +8,7 @@
 * *Stecker*: Kontaktstift nach außen
 * *Kupplung*: Kontaktöffnung nach innen
 * Sonderform *Buchse*: In Gerät eingebaute Kupplung
+* Sonderform *Einbaustecker*: In Gerät eingebauter Stecker
 </right>
 
 ---
@@ -40,6 +41,6 @@ Häufige Koaxialsteckverbinder im Amateurfunk
 * Ggf. auf Kurzschluss prüfen
 </left>
 <right>
-* Stecker passend zu Kabelstärke verwenden
-* Stecker passend zu Kabeldurchmesser verwenden
+* Stecker passend zu Kabeldurchmesser/-stärke verwenden
+* Gleicher Wellenwiderstand wie Koaxialkabel $\rightarrow$ vermeidet unerwünschte Reflexionen
 </right>

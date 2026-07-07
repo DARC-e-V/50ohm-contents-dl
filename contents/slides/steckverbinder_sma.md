@@ -10,4 +10,8 @@ Aus dem WLAN-Bereich gibt es "Reverse-SMA-Verbinder", bei denen die Kupplung ein
 [question:NG205]
 
 ---
+
+Für hohe und höchste Frequenzen sind *N*- und *SMA*-Steckverbindungs-Systeme am besten geeignet
+
+---
 [question:NG206]
