@@ -59,11 +59,10 @@ Drei Teile:
 * 2-3 Buchstaben Suffix
 </left>
 <right>
-| l |
-| DL1ABC |
-| DO5XYZ |
-| DA0RC |
-[table:n_amateurfunkstationen_rufzeichen_beispiele:Beispiel für personengebundene, deutsche Amateurfunkrufzeichen]
+Beispiele:
+* DL1ABC
+* DO5XYZ
+* DA0RC
 </right>
 
 ---
