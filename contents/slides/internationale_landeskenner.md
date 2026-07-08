@@ -5,13 +5,17 @@
 <right>
 [picture:656:n_internationale_landeskenner_eu:Landeskenner in Europa]
 </right>
-<note>
-Quellen für Landeskenner
+
+---
+
+## Quellen für Landeskenner
+
 * Landeskennerlisten der ITU
 * Amateurfunkhandbücher
 * Internet
 * diverse Rufzeichenlisten
 
+<note>
 Für einzelne Präfixe gibt es Eselsbrücken zum leichteren Merken
 </note>
 
