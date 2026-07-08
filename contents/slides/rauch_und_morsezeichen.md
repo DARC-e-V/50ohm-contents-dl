@@ -11,7 +11,7 @@
 Beispiel: 3 Rauchwolken mit jeweils 30 Sekunden Abstand bedeuten "CQ"
 </note>
 
----
+--- style="font-size: smaller;"
 
 ## Morsezeichen
 <left>

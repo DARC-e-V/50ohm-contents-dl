@@ -1,12 +1,14 @@
+---
+
+* Modulationssignal wird durch Änderung der Frequenz auf den Träger aufmoduliert
+* Amplitude des Trägers wird nicht verändert und bleibt idealerweise konstant
+
 <left>
 [picture:711:n_fm_wasserfall:Signal einer FM-Amateurfunksendung (Sprache)]
 </left>
 <right>
 [picture:357:n_fm_frequenzmodulation:Frequenzmodulation]
 </right>
-
-* Modulationssignal wird durch Änderung der Frequenz auf den Träger aufmoduliert
-* Amplitude des Trägers wird nicht verändert und bleibt idealerweise konstant
 
 ---
 [question:NE301]
@@ -36,7 +38,7 @@ Bandplan beachten, wo maximal 12 kHz Bandbreite belegt werden darf.
 ## Frequenzhub und Bandbreite
 * Hub wird wie die Bandbreite in Hz angegeben, ist aber nicht dasselbe
 * Hub: maximale Änderung der Trägerfrequenz
-* Bandbreite $\approx$ 2 $\times$ (Hub + Bandbreite des NF-Signals)
+* $\text{Bandbreite} \approx 2 \cdot (\text{Hub} + \text{Bandbreite des NF-Signals})$
 
 <note>
 Beispiel: NF-Signal mit $\qty{3}{\kilo\hertz}$ Bandbreite, moduliert mit einem Hub von $\qty{3}{\kilo\hertz}$
