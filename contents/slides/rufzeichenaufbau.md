@@ -12,7 +12,7 @@
 ## Aufbau von Rufzeichen
 
 <left>
-[picture:654:n_amateurfunkstrationen_aufbau_rufzeichen:Aufbau Rufzeichen: K4EAX, WZ6Y, DL1FLO]
+[picture:654:n_amateurfunkstrationen_aufbau_rufzeichen:Aufbau Rufzeichen - K4EAX, WZ6Y, DL1FLO]
 </left>
 <right>
 Drei Teile:
