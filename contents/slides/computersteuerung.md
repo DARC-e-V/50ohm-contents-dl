@@ -1,9 +1,9 @@
 <left>
 [photo:92:n_computersteuerung_funkfernschreiber:Funkfernschreiber]
+* Weiterentwicklung der Morsetelegrafie: Fernschreiber per Modem ans Funkgerät angeschlossen
 </left>
 <right>
-* Weiterentwicklung der Morsetelegrafie: Fernschreiber per Modem ans Funkgerät angeschlossen
-* Dadurch *Funkfernschreiber* entstanden, um Texte automatisiert per Funk zu senden/empfangen
+* Dadurch ist der *Funkfernschreiber* entstanden, um Texte automatisiert per Funk zu senden/empfangen
 * Abkürzung *RTTY* (radio teletype) hat sich bis heute gehalten
 * Heute übernimmt meist der Computer diese Aufgabe $\rightarrow$ viele weitere *Digimodes* möglich
 </right>

@@ -1,15 +1,3 @@
-## Funkfernschreiber
-<left>
-[photo:92:n_funkfernschreiben_funkfernschreiber:Funkfernschreiber]
-</left>
-<right>
-Die Abkürzung RTTY stammt von *radio teletype*
-</right>
-<note>
-RTTY ist ein digitales Übertragungsverfahren, das sich weiterhin Beliebtheit im Amateurfunk erfreut.
-</note>
-
----
 ## Betrieb
 
 <left>
@@ -26,6 +14,9 @@ RTTY ist ein digitales Übertragungsverfahren, das sich weiterhin Beliebtheit im
 </note>
 
 ---
+[question:NE401]
+
+---
 In einem Gespräch sieht dieses folgendermaßen aus:
 
 <qso>
@@ -40,7 +31,7 @@ BK QSL = VY 73 DE DL2AB SK
 Das QSO wird nach Erklärungen Abkürzungen Schritt für Schritt erläutert
 </note>
 
----
+--- style="font-size: smaller;"
 
 | l: Abkz. | l: Bedeutung |
 | BK | Unterbrechung der Sendung; Formlose Übergabe |
@@ -53,7 +44,7 @@ Das QSO wird nach Erklärungen Abkürzungen Schritt für Schritt erläutert
 | RPRT | Rapport (vom Englischen "Report") |
 [table:n_funkfernschreiben_abkuerzungen_1:Betriebliche Abkürzungen in der Telegrafie]
 
---- 
+--- style="font-size: smaller;"
 
 | l: Abkz. | l: Bedeutung |
 | RST | RST-Rapport |
@@ -125,9 +116,6 @@ Verstanden. Viele Grüße von DL1PZ. Ende der Verbindung.
 <note>
 Andere digitale Verfahren übertragen auch Bilder oder Video, mit angepasster Betriebsabwicklung - das ist aber nicht prüfungsrelevant
 </note>
-
----
-[question:NE401]
 
 ---
 [question:BB101]
