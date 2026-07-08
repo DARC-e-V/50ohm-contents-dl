@@ -44,14 +44,17 @@ Relaisfunkstelle auf dem Satellit wird "Transponder" genannt
 Satellitenantennen müssen ausgerichtet sein
 
 <left>
-Azimut
+*Azimut*
 * stammt von arabisch السموت (as-sumūt, "die Wege")
 * Richtung entlang des Horizonts
 * Wird wie beim Kompass in Grad gemessen
-* $\qty{0}{\degree}$/$\qty{360}{\degree}$ Norden – $\qty{90}{\degree}$ Osten – $\qty{180}{\degree}$ Süden – $\qty{270}{\degree}$ Westen
 </left>
 <right>
 [picture:876:n_azimut_elevation:Azimut und Elevation im Raum]
+* $\qty{0}{\degree}$/$\qty{360}{\degree}$ Norden
+* $\qty{90}{\degree}$ Osten
+* $\qty{180}{\degree}$ Süden
+* $\qty{270}{\degree}$ Westen
 </right>
 
 ---  data-transition="none"
@@ -60,14 +63,14 @@ Azimut
 Satellitenantennen müssen ausgerichtet sein
 
 <left>
-Elevation
+*Elevation*
 * leitet sich von lateinisch elevare ("erheben") ab
 * Vertikaler Winkel über dem Horizont
-* $\qty{0}{\degree}\rightarrow$ direkt am Horizont
-* $\qty{90}{\degree}\rightarrow$ senkrecht über einem
 </left>
 <right>
 [picture:876:n_azimut_elevation:Azimut und Elevation im Raum]
+* $\qty{0}{\degree}\rightarrow$ direkt am Horizont
+* $\qty{90}{\degree}\rightarrow$ senkrecht über einem
 </right>
 
 ---
