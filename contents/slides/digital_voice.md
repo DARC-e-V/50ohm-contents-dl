@@ -1,5 +1,5 @@
 <left>
-[picture:542:n_digital_voice_repeaternetwork:Repeaternetzwerk für Digital Voice: Relaisfunkstelle DB0FZ mit Internetanschluss, Hotspot DN9YI und Relaisfunkstelle DB0HOB mit Richtfunkanbindung an DB0FZ]
+[picture:542:n_digital_voice_repeaternetwork:Repeaternetzwerk für Digital Voice - Relaisfunkstelle DB0FZ mit Internetanschluss, Hotspot DN9YI und Relaisfunkstelle DB0HOB mit Richtfunkanbindung an DB0FZ]
 </left>
 <right>
 * Auch Sprache kann digital übertragen werden
