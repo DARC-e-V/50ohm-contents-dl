@@ -10,6 +10,7 @@
 * Vorteil: Anschluss der Speiseleitung nicht am Mittelpunkt, sondern an einem Ende
 * Ein Teil der Speiseleitung wird oft als Gegengewicht genutzt $\rightarrow$ kann Störungen verursachen
 * Vermeidbar z.B. durch ein $\lambda / 4$-Radial als Gegengewicht, gute Erdverbindung oder eine Mantelwellensperre
+* Anpassglieder ist Teil von Klasse E
 </note>
 
 ---

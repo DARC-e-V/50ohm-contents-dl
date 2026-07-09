@@ -17,8 +17,9 @@ isotrop: von altgriechisch ἴσος isos „gleich“ und τρόπος tropos �
 ---
 ## EIRP
 
+*Equivalent isotropic radiated power*
+
 * Bei Berechnung der Strahlungsleistung in Bezug zum isotropen Strahler wird von "äquivalenter isotroper Strahlungsleistung" gesprochen
-* Englisch "equivalent isotropic radiated power" (EIRP)
 
 ---
 ## Berechnung

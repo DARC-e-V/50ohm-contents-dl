@@ -13,15 +13,19 @@
 
 ---
 
-Häufige Koaxialsteckverbinder im Amateurfunk
+### Häufige Koaxialsteckverbinder im Amateurfunk
 
 <left>
 * PL
 * N
-</left>
-<right>
 * BNC
 * SMA
+</left>
+<right>
+Abhängig vom Einsatzzweck
+* Frequenzbereich
+* Sendeleistung
+* Kabeltyp
 </right>
 
 <note>

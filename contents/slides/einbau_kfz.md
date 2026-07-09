@@ -26,8 +26,16 @@ Die Verkehrsinformationen kommen natürlich von anderen Funkamateuren, die ggf. 
 * Bordelektronik könnte gestört werden
 </note>
 
+---
+[question:NK308]
 
---- 
+---
+[question:NK310]
+
+---
+[question:NK309]
+
+---
 ## Achtung
 
 <left>
@@ -43,15 +51,6 @@ Die Verkehrsinformationen kommen natürlich von anderen Funkamateuren, die ggf. 
 * In einem späteren Kapitel mehr dazu
 * Sicherung am besten in Plus- und Minus-Leitung
 </note>
-
----
-[question:NK308]
-
----
-[question:NK310]
-
----
-[question:NK309]
 
 ---
 [question:NK307]

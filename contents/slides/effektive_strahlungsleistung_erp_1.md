@@ -1,13 +1,13 @@
 Kurze Wiederholung zu Antennen:
-<left>
-Groundplane-Antenne strahlt in alle Himmelsrichtungen nahezu gleichmäßig ab, aber nicht nach oben oder unten
-</left>
-<right>
-Yagi-Uda-Antenne bündelt die Funkstrahlen nach vorn und reduziert in alle anderen Richtungen
-</right>
-<fragment>
-Bei der Berechnung der Grenzwerte für den Schutzabstand wird die *Hauptstrahlrichtung* verwendet
-</fragment>
+
+* Groundplane-Antenne strahlt in alle Himmelsrichtungen nahezu gleichmäßig ab, aber nicht nach oben oder unten
+* Yagi-Uda-Antenne bündelt die Funkstrahlen nach vorn und reduziert in alle anderen Richtungen
+
+---
+
+* Grenzwerte zum Personenschutz müssen in jede Richtung eingehalten werden
+* Werden sie in der Richtung der stärksten Abstrahlung eingehalten, gilt das im gleichen Abstand auch für alle anderen Richtungen
+* Richtung der stärksten Abstrahlung wird als *Hauptstrahlrichtung* bezeichnet
 
 ---
 ## Gewinnfaktor
@@ -23,15 +23,16 @@ Bei der Berechnung der Grenzwerte für den Schutzabstand wird die *Hauptstrahlri
 ---
 ## Effektive Strahlungsleistung (ERP)
 
-Sendeleistung zur Antenne multipliziert mit Gewinnfaktor
+*Effective radiated power*
 
-<fragment>
+* Sendeleistung zur Antenne multipliziert mit dem auf den Halbwellendipol bezogenen Gewinnfaktor
+* Entspricht der Leistung, die man in einen Halbwellendipol einspeisen müsste, damit dieser genauso stark wie die betrachtete Antenne abstrahlt
+
+---
 Beispiel: $\qty{5}{\watt}$ auf eine Antenne mit Gewinnfaktor $\num{2}$ ergibt die effektive Strahlungsleistung von $\qty{10}{\watt}$
-</fragment>
 
 <note>
-* ERP: (englisch) effective radiated power
-* 9-Element Yagi-Uda kann einen Gewinnfaktor von 10 haben, also $\qty{100}{\watt}$ Eingangsleistung sind $\qty{1000}{\watt}$ ERP
+9-Element Yagi-Uda kann einen Gewinnfaktor von 10 haben, also $\qty{100}{\watt}$ Eingangsleistung sind $\qty{1000}{\watt}$ ERP
 </note>
 
 ---

@@ -21,11 +21,12 @@ Dipol (griechisch): Zweipol
 Beispiel:
 * Wellenlänge von $\qty{10}{\meter}$
 * halbe Wellenlänge $\qty{5}{\meter}$
-* Jedes Teilstück des Dipols $\qty{2,5}{\meter}$
+* Jedes Teilstück des Dipols ca. $\qty{2,5}{\meter}$
 </fragment>
 </right>
 <note>
 * Weitere Varianten: Ganzwellendipol, verkürzter Dipol, asymmetrisch gespeister Dipol (Kabel nicht in der Mitte angeschlossen)
+* Verkürzungsfaktor kommt erst in Klasse E
 </note>
 
 ---

@@ -1,9 +1,10 @@
 Für ortsfeste Amateurfunkstellen muss das Nachweisverfahren nur dann durchgeführt werden, wenn die Sendeanlage eine Strahlungsleistung von $\qty{10}{\watt}$ EIRP oder höher erreicht.
 
-<note>
-* Klasse N: $\qty{10}{\meter}$-Band mit $\qty{10}{\watt}$ ERP
-* $\qty{10}{\watt}\text{ ERP} \cdot 1,64 = \qty{16,4}{\watt}$ EIRP
-</note>
+---
+
+* In Klasse N sind auf dem $\qty{10}{\meter}$-Band $\qty{10}{\watt}$ ERP erlaubt
+* $\qty{10}{\watt}$ ERP $\cdot 1,64 = \qty{16,4}{\watt}$ EIRP
+* Auch in Klasse N kann es notwendig werden, das Nachweisverfahren durchzuuhren
 
 ---
 [question:VE508]
@@ -20,10 +21,8 @@ Für ortsfeste Amateurfunkstellen muss das Nachweisverfahren nur dann durchgefü
 <right>
 * vor der Aufnahme des Betriebs der ortsfesten Amateurfunkanlage
 * bei zuständiger Außenstelle der BNetzA
+* Die zuständige Außenstelle kann auf der Webseite der Bundesnetzagentur ermittelt werden
 </right>
-<note>
-Die zuständige Außenstelle kann auf der Webseite der Bundesnetzagentur ermittelt werden
-</note>
 
 ---
 [question:VE509]
@@ -105,7 +104,7 @@ Hilfsmittel:
 ---
 ## Mehrere Aussendungen gleichzeitig
 
-* Es können mehrere Funkamateure gleichzeitig an einer Anlage auf verschiedenen Frequenzen senden
+* Es können mehrere Aussendungen gleichzeitig an einer Anlage auf verschiedenen Frequenzen senden
 * In der Regel über verschiedene Antennen
 * Alle Antennen zusammen müssen für den Personenschutzabstand berücksichtigt werden
 

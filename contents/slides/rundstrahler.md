@@ -1,3 +1,4 @@
+## Up- and Outer-Antenne
 <left>
 [picture:659:n_up_and_outer:Up- and Outer-Antenne]
 </left>
@@ -25,6 +26,7 @@ Im UKW-Bereich werden Groundplane-Antennen gerne für Ortsverbindungen und Relai
 [question:NG106]
 
 ---
+## Marconi-Antenne
 
 <left>
 [picture:669:n_marconi_antenne:Marconi-Antenne]
@@ -32,7 +34,7 @@ Im UKW-Bereich werden Groundplane-Antennen gerne für Ortsverbindungen und Relai
 [picture:544:n_schaltzeichen_erde:Schaltzeichen für Erde]
 </left>
 <right>
-* Radial wird durch den Erdboden ersetzt $\rightarrow$ *Marconi-Antenne*
+* Radial wird durch den Erdboden ersetzt
 * Strahler weiterhin $\lambda / 4$ lang
 * Auch "gegen Erde erregte $\lambda / 4$-Vertikalantenne" genannt
 </right>
