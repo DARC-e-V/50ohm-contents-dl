@@ -17,7 +17,7 @@ Deutscher Begriff für PEP: Hüllkurvenspitzenleistung - der höchste gemessene 
 ---
 ## Zulässige Senderausgangsleistung
 
-* In Anlage 1 der AFuV
+* In [Anlage 1 der AFuV](https://50ohm.de/a1)
 * Unterscheidet sich je nach Klasse und Frequenzbereich
 * Kein Eintrag in einer Spalte $\rightarrow$ diese Klasse darf den Frequenzbereich nicht nutzen
 
@@ -28,13 +28,6 @@ Deutscher Begriff für PEP: Hüllkurvenspitzenleistung - der höchste gemessene 
 ---
 
 [photo:145:ausgangsleistung:Ausschnitt aus der Anlage 1 der Amateurfunkverordnung]
-
---- 
-Aktuell ist die [Anlage 1 der AFuV](https://50ohm.de/a1) hier zu finden.
-
-<note>
-* Die AFuV ab Juni 2024 ist noch nicht in einem ordentlichen Format veröffentlicht
-</note>
 
 ---
 [question:VD727]

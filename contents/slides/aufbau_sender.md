@@ -1,3 +1,4 @@
+--- data-transition="none"
 ### 1. Mikrofon
 
 <left>
@@ -5,6 +6,7 @@
 </left>
 <right>
 * Wandelt Schallwellen in NF-Signal um
+* Oder Signal vom Audio-Ausgang eines Computers
 </right>
 
 --- data-transition="none"
@@ -15,7 +17,7 @@
 [picture:735:aufbau_sender:Blockdiagramm eines einfachen Senders]
 </left>
 <right>
-* Verstärkt das NF-Signal vom Mikrofon
+* Verstärkt das NF-Signal vom Mikrofon bzw. Computer
 </right>
 
 --- data-transition="none"
@@ -27,6 +29,7 @@
 </left>
 <right>
 * Mischt das NF-Signal mit dem HF-Träger vom Oszillator (4)
+* Der Hochfrequenzträger ist amplitudenmoduliert
 </right>
 <note>
 Wenn ein Mischer zwei Signale zusammenfügt, dann entspricht das mathematisch einer Multiplikation der beiden Signale. Daher findet sich auch das Malkreuz im Block-Symbol für den Mischer wieder. Wie ein Mischer genau funktioniert, ist Inhalt des Kurses für die Klasse A.
@@ -51,7 +54,7 @@ Wenn ein Mischer zwei Signale zusammenfügt, dann entspricht das mathematisch ei
 [picture:735:aufbau_sender:Blockdiagramm eines einfachen Senders]
 </left>
 <right>
-* Mischer erzeugt unerwünschte Frequenzen
+* Mischer erzeugt weitere, unerwünschte Frequenzen
 * Mit dem Bandpassfilter werden nur die gewünschten Frequenzen durchgelassen
 </right>
 

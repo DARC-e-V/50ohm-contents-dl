@@ -1,3 +1,4 @@
+--- data-transition="none"
 ### 1. Antenne
 
 <left>
@@ -41,10 +42,14 @@
 [picture:736:aufbau_empfaenger_blockdiagramm:Blockdiagramm eines einfachen Empfängers]
 </left>
 <right>
-* Zurückgewinnung des ursprünglichen Signals, z.B. Sprachsignal
+* Zurückgewinnung des ursprünglichen Signals aus dem Hochfrequenzträger, z.B. Sprachsignal
 * Ergebnis ist das Niederfrequenz-Signal (NF)
-* Im Blockdiagramm durch das Schaltzeichen einer Diode dargestellt, dem wichtigsten Bestandteil vieler Demodulatoren
 </right>
+
+<note>
+* Symbol ist das Schaltzeichen einer Diode als wichtigster Bestandteil vieler Demodulatoren
+* Wird später im Kurs behandelt
+</note>
 
 --- data-transition="none"
 
