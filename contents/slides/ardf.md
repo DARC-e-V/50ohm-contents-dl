@@ -3,6 +3,7 @@
 * Eine weitere Art von Wettbewerb ist das Amateur Radio Direction Finding (ARDF).
 * Die „Füchse“ sind kleine versteckte Sender, die von den Teilnehmern mittels Peilempfängern gefunden und zu Fuß angelaufen werden müssen.
 * Die Füchse senden im zeitlichem Wechsel jeweils ein anderes der folgende Rufzeichen in CW-Morsetelegrafie aus: MO, MOE, MOI, MOS, MOH oder MO5.
+* Gewonnen hat, wer als Erster alle Füchse gefunden hat und den Zielpunkt erreicht
 
 ---
 #### Rufzeichen der Fuchsjagdsender

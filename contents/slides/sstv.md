@@ -1,12 +1,14 @@
 ### Slow-Scan-Television (SSTV)
 
 <left>
-* Beim Slow-Scan-Television (SSTV) werden stehende Bilder mit geringer Auflösung übertragen.
-* Rufzeichen und Rapporte werden bei SSTV einfach als Text in die Bilder reingeschrieben.
+* Übertragung stehender Bilder mit geringer Auflösung
+* Erstmals 1958 von amerikanischen Funkamateuren praktiziert
+* Meist Fotos vom eigenen Shack, der Antenne oder der Landschaft
 </left>
 
 <right>
 [photo:84:n_sstv:Ein per SSTV übertragenes Bild]
+* Rufzeichen und Rapport werden direkt ins Bild geschrieben
 </right>
 
 ---
