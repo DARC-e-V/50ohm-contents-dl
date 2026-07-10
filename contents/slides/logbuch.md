@@ -1,4 +1,5 @@
-* Mit einem Logbuch hat man die Möglichkeit, seine Funkaktivitäten zu dokumentieren
+* Mit einem Logbuch (auch *Stationstagebuch* genannt) hat man die Möglichkeit, seine Funkaktivitäten zu dokumentieren
+* Kann elektronisch oder handschriftlich geführt werden
 * Die Führung eines Logbuchs ist freiwillig
 
 <note>
