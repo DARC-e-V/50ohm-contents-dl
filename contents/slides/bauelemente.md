@@ -37,8 +37,9 @@
 ## Transistor
 
 <left>
-* Elektrischer Schalter
-* Oder Verstärker, je nach Beschaltung
+* Je nach Beschaltung
+  * Elektrischer Schalter
+  * Verstärker
 * Hat drei Anschlüsse
 </left>
 <right>

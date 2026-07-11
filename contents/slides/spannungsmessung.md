@@ -14,13 +14,13 @@
 
 <left>
 * Spannung wird zwischen zwei Punkten gemessen
-* Parallel zum zu messenden Bauteil
+* Parallel zu dem zu messenden Bauteil
 </left>
 <right>
 [picture:620:n_messgeraete_spannungsmessung:Spannungsmessung]
 </right>
 
----
+--- style="font-size: smaller;"
 
 ## Multimeter
 
@@ -33,14 +33,15 @@
 * Für Spannungsmessung "V ~" (Wechselspannung) oder "V =" (Gleichspannung) wählen
 * Zuerst größtmöglichen Messbereich wählen, dann ggf. verkleinern
 </right>
-<note>
-* Verwechslung von Strom-/Spannungsmessung oder falscher Messbereich kann das Messgerät beschädigen
-* Achtung: Wechselspannungen über $\qty{50}{\volt}$ und Gleichspannungen über $\qty{120}{\volt}$ können lebensgefährlich sein
-</note>
 
 ---
 
-[question:NI101] 
+* Verwechslung von Strom-/Spannungsmessung oder falscher Messbereich kann das Messgerät beschädigen
+* Achtung: Wechselspannungen über $\qty{50}{\volt}$ und Gleichspannungen über $\qty{120}{\volt}$ können lebensgefährlich sein
+
+---
+
+[question:NI101]
 
 ---
 

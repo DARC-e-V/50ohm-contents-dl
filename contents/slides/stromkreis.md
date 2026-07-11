@@ -48,15 +48,13 @@ Schließt man das Ventil, ist der Wasserkreislauf unterbrochen und das Wasserrad
 <left>
 * Begrenzt den Stromfluss
 * Wandelt Strom in Wärme um
+* Stromkreis immer mit Widerstand betreiben!
+  * Ansonsten entsteht ein Kurzschluss
+  * Großer Strom kann fließen und Spannungsquelle oder Kabel können überhitzen
 </left>
 <right>
 [photo:203:n_stromkreis_widerstand:Schaltzeichen und Bauformen von Widerständen]
 </right>
-<note>
-* Stromkreis immer mit Widerstand betreiben!
-* Ansonsten entsteht ein Kurzschluss
-* Großer Strom kann fließen und Spannungsquelle oder Kabel können überhitzen
-</note>
 
 ---
 
@@ -81,4 +79,3 @@ In Richtung des Pfeils
 ---
 
 [question:NB207]
-

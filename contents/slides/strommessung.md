@@ -1,6 +1,6 @@
 <left>
 * Strommessgeräte messen den elektrischen Strom
-* Schaltsymbol "A in einem Kreis" 
+* Schaltsymbol "A in einem Kreis"
 </left>
 <right>
 [picture:624:n_messgeraete_symbol_strommessgerät:Schaltsymbol Strommessgerät]
@@ -43,4 +43,3 @@ Auch hier: Wechselspannungen über $\qty{50}{\volt}$ und Gleichspannungen über 
 ---
 
 [question:NI104]
-

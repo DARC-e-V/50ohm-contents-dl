@@ -28,7 +28,7 @@ Kurze Wiederholung:
 $\dfrac{U}{I} = \dfrac{\qty{10}{\volt}}{\qty{0,001}{\ampere}} = \dfrac{\qty{20}{\volt}}{\qty{0,002}{\ampere}} = \dfrac{\qty{5}{\volt}}{\qty{0,0005}{\ampere}} = \qty{10000}{\volt\per\ampere}$
 </fragment>
 <fragment>
-Proportionalität: $I$ ist proportional zu $U$ mit *Proportionalitätsfaktor* 10000
+Proportionalität: $I$ ist proportional zu $U$ mit *Proportionalitätsfaktor* $\num{10000}$
 </fragment>
 <note>
 Der *Proportionalitätsfaktor* ist das zahlenmäßige Verhältnis zweier Größen, die proportional zueinander sind.
@@ -38,7 +38,7 @@ Der *Proportionalitätsfaktor* ist das zahlenmäßige Verhältnis zweier Größe
 
 ## Widerstand
 
-* Der Proportionalitätsfaktor von 10000 aus dem Beispiel ist der Widerstand $R$
+* Der Proportionalitätsfaktor von $\num{10000}$ aus dem Beispiel ist der Widerstand $R$
 * Einheit: $\qty{1}{\ohm} = \qty{1}{\volt\per\ampere}$
 * Der Widerstand aus dem Beispiel beträgt $\qty{10000}{\ohm}$ oder $\qty{10}{\kilo\ohm}$
 

@@ -1,13 +1,15 @@
 <left>
 * Statt Zahlenwert wird eine Codierung aus Farbringen auf Widerständen aufgedruckt
-* In diesem Beispiel: $47 \cdot \qty{1000}{\ohm} = \qty{47000}{\ohm} = \qty{47}{\kilo\ohm}$
-* Die Bedeutung der Farben ist in der Tabelle auf der nächsten Folie
+* Jede Farbe entspricht einem Zahlenwert
+  1. Farbring für 1. Ziffer
+  2. Farbring für 2. Ziffer
+  3. Farbring für Multiplikator
 </left>
 <right>
 [picture:665:n_widerstandsfarbcodes: Ein Widerstand mit 4 Farbringen]
 </right>
 
---- style="font-size: 0.7em;"
+--- style="font-size: 0.6em;"
 | X:Farbe | l:Wert | l:Multiplikator | l:Toleranz |
 | Silber | - | $\num{0,01}$ | $\qty{\pm 10}{\percent}$ |
 | Gold | - | $\num{0,1}$ | $\qty{\pm 5}{\percent}$ |
@@ -27,6 +29,19 @@
 <note>
 * Tabelle ist in der Formelsammlung
 </note>
+
+---
+
+<left>
+* In diesem Beispiel:
+  1. Farbring 4
+  2. Farbring 7
+  3. Farbring $\cdot \num{1000}$
+* $\begin{split}&47 \cdot \qty{1000}{\ohm}\\ &= \qty{47000}{\ohm}\\ &= \qty{47}{\kilo\ohm}\end{split}$
+</left>
+<right>
+[picture:665:n_widerstandsfarbcodes: Ein Widerstand mit 4 Farbringen]
+</right>
 
 ---
 ## Toleranz
