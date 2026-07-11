@@ -1,24 +1,28 @@
 ### Gebühren und Beiträge
 
-* Bei der Erteilung der Zulassung zur Teilnahme am Amateurfunkdienst und Zuteilung eines personengebundenen Rufzeichens sind Gebühren nach der "Besonderen Gebührenverordnung BNetzA (BNetzABGebV)" zu entrichten.
-
-* Funkamateure mit Zulassung müssen jährliche Frequenzschutzbeiträge nach dem TKG und dem EMVG zahlen.
-
----
-
-* Wenn er die zu entrichtenden Gebühren und Beiträge nicht zahlt, muss er mit Maßnahmen nach den Vorschriften des Verwaltungs-Vollstreckungsgesetzes (VwVG) rechnen.
+* Nach dem TKG und dem EMVG müssen Funkamateure jährliche Beiträge zahlen
+* Details legt die Frequenzschutzbeitragsverordnung (FSBeitrV) fest
+* Die FSBeitrV beschränkt die Zahlung auf Funkamateure mit Zulassung
+* Die Zahlungsaufforderung erhält man per Gebührenbescheid von der Bundesnetzagentur
 
 ---
 [question:VE701]
 
 ---
-
 [question:VE702]
 
 ---
 
-[question:VE703]
+* Neben den laufenden Beiträgen fallen weitere Gebühren an, geregelt in der "Besonderen Gebührenverordnung BNetzA (BNetzABGebV)"
+* Dazu gehören z. B. Gebühren für die Amateurfunkprüfung und für die Erteilung der Zulassung
 
 ---
 
+* Wird eine Gebühr nicht bezahlt, treibt der Staat diese nach dem Verwaltungs-Vollstreckungsgesetz (VwVG) ein
+* Die Bundesnetzagentur hat dabei unterschiedliche Vollstreckungsmöglichkeiten
+
+---
+[question:VE703]
+
+---
 [question:VE704]

@@ -1,28 +1,22 @@
 ### Internationale Vereinbarungen
 
-* Die allgemeinen Regelungen der ITU Radio Regulations (RR) gelten auch für den Amateurfunkdienst.
-* Hinzu kommen Empfehlungen der Europäischen Konferenz der Verwaltungen für Post und Telekommunikation (CEPT).
+* Die allgemeinen Regelungen der ITU Radio Regulations (RR) gelten auch für den Amateurfunkdienst
+* Hinzu kommen Empfehlungen der Europäischen Konferenz der Verwaltungen für Post und Telekommunikation (CEPT)
 
 ---
 
-### Gesetze und Vorschriften
-
-Die internationalen Vereinbarungen gelten nicht direkt für Funkamateure, sondern ihre Umsetzung in die nationalen Gesetze und Verordnungen eines Landes.
-
----
-
-Deswegen ist in Deutschland maßgeblich:
-
-* Das Gesetz über den Amateurfunk (AFuG) bildet die Rechtsgrundlage für die Teilnahme am Amateurfunkdienst in Deutschland.
-* Details regelt die Amateurfunkverordnung (AFuV).
-* Die Aufgaben und Befugnisse, die aus dem AFuG und der AFuV erwachsen, nimmt die Bundesnetzagentur (BNetzA) wahr.
-* Auch das Telekommunikationsgesetz (TKG) enthält Regelungen, die auf den Amateurfunkdienst anwendbar sind.
-
-<note>
-Die besondere rechtliche Stellung des Amateurfunks zeigt sich darin, dass der Amateurfunk ein Bestandteil des wichtigsten internationalen Fernmeldevertrages, der Radio Regulations (RR), ist und er in der nationalen Umsetzung ein eigenes Gesetz erhalten hat.
-</note>
+* Diese internationalen Vereinbarungen gelten nicht direkt für Funkamateure
+* Sie gelten nur über ihre Umsetzung in die nationalen Gesetze und Verordnungen des jeweiligen Landes
 
 ---
+
+### Rechtsgrundlage in Deutschland
+
+* Die deutsche Rechtsgrundlage für den Amateurfunk ist das *Amateurfunkgesetz (AFuG)*
+* Details stehen in der *Amateurfunkverordnung (AFuV)* sowie in *Verfügungen oder Mitteilungen der Bundesnetzagentur*
+* Daneben gibt es weitere Vorschriften, die den Amateurfunk mit betreffen, z. B. zur CE-Kennzeichnung oder zum Fernmeldegeheimnis
+
+--- style="font-size: smaller;"
 
 <left>
 [photo:3:n_gesetze_vorschriften_backstein:Backstein der Backsteinaktion von 1949]
@@ -33,13 +27,41 @@ Die besondere rechtliche Stellung des Amateurfunks zeigt sich darin, dass der Am
 </right>
 
 ---
+
+* Der Amateurfunk ist Bestandteil des wichtigsten internationalen Fernmeldevertrages, der *Radio Regulations (RR)*
+* Dessen allgemeine Regeln gelten für alle Funkdienste, damit auch für den Amateurfunk
+
+---
 [question:VA301]
+
+---
+
+* Die CEPT koordiniert die Standards in Europa
+* Empfehlungen zum Inhalt der Amateurfunkprüfung und zur gegenseitigen Anerkennung der Amateurfunkzeugnisse
+* Regeln für Amateurfunkbetriebsrechte bei kurzfristigem Aufenthalt in anderen Mitgliedsländern (bereits beim internationalen Funkbetrieb behandelt)
+
+---
+
+* Die Regeln der RR und die Empfehlungen der CEPT sind kein unmittelbar geltendes Recht in Deutschland
+* Sie wurden aber beim Amateurfunkgesetz berücksichtigt
+* Das Amateurfunkgesetz heißt eigentlich *Gesetz über den Amateurfunk* und bildet die Rechtsgrundlage für den Amateurfunk in Deutschland
 
 ---
 [question:VC101]
 
 ---
+
+* Der Bundestag beschloss 1997 das derzeit gültige Amateurfunkgesetz (AFuG)
+* Die aktuelle Amateurfunkverordnung (AFuV) wurde durch den Bundesminister für Digitales und Verkehr in Kraft gesetzt
+* Die Aufgaben und Befugnisse, die aus dem AFuG und der AFuV erwachsen, nimmt die *Bundesnetzagentur (BNetzA)* wahr
+
+---
 [question:VC104]
+
+---
+
+* Neben dem Amateurfunkgesetz gibt es weitere Gesetze mit Regeln, die den Amateurfunk mit betreffen
+* Beispiel: das *Telekommunikationsgesetz (TKG)*
 
 ---
 [question:VE101]

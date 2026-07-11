@@ -1,13 +1,23 @@
 ### Verstöße und Folgen
 
-Die Bundesnetzagentur kann bei Verstößen gegen AFuG oder AFuV eine Einschränkung des Betriebes oder die Außerbetriebnahme der Amateurfunkstelle anordnen. Wenn fortgesetzt gegen AFuG oder AFuV verstoßen wird, kann die Amateurfunkzulassung widerrufen werden.
+* Verstöße gegen das AFuG oder die AFuV werden nicht immer gleich mit Bußgeldern belegt
+* Härter trifft es Funkamateure, wenn ihnen Betriebseinschränkungen oder gar ein Betriebsverbot auferlegt werden
 
+---
+
+* Bei fortgesetzten Verstößen gegen das AFuG und die AFuV kann sogar die Zulassung widerrufen werden - die schärfste Waffe der BNetzA
 * Auch nach Widerruf der Zulassung darf man sich weiter Funkamateur nennen, ist aber vom Amateurfunkbetrieb ausgeschlossen
 * Eine Aberkennung des Amateurfunkzeugnisses selbst ist nicht vorgesehen - wer die Prüfung bestanden hat, bleibt Funkamateur
 
 ---
+[question:VC122]
 
-Ordnungswidrigkeiten im Sinne des Amateurfunkgesetzes (AFuG) sind:
+---
+[question:VC123]
+
+---
+
+Ordnungswidrigkeiten im Sinne des Amateurfunkgesetzes (AFuG), § 9, sind:
 
 * Betrieb ohne Zulassung und damit ohne Rufzeichen
 * Geschäftsmäßiges Erbringen von Telekommunikationsdienstleistungen
@@ -18,22 +28,15 @@ Die Bundesnetzagentur kann einen Verstoß mit einer Geldbuße ahnden.
 </fragment>
 
 ---
-
-Eine Ordnungswidrigkeit gemäß Telekommunikationsgesetz (TKG) ist die Nutzung von Frequenzen ohne Frequenzzuteilung. Für den Funkamateur bedeutet das:
-
-Wenn er mit seiner Amateurfunkanlage außerhalb der zugeteilten Amateurfunkbänder sendet, begeht er eine Ordnungswidrigkeit.
-
----
-[question:VC122]
-
----
-[question:VC123]
-
----
 [question:VC124]
 
 ---
 [question:VC125]
+
+---
+
+* Eine Ordnungswidrigkeit gemäß Telekommunikationsgesetz (TKG) ist die Nutzung von Frequenzen ohne Frequenzzuteilung
+* Sendet ein Funkamateur mit seiner Amateurfunkanlage außerhalb der zugeteilten Amateurfunkbänder, nutzt er die Frequenz ohne Zuteilung und begeht eine Ordnungswidrigkeit
 
 ---
 [question:VE103]
