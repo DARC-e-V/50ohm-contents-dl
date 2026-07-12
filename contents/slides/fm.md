@@ -36,7 +36,7 @@ Bandplan beachten, wo maximal 12 kHz Bandbreite belegt werden darf.
 ---
 
 ## Frequenzhub und Bandbreite
-* Hub wird wie die Bandbreite in Hz angegeben, ist aber nicht dasselbe
+* Hub wird wie die Bandbreite in $\unit{\hertz}$ angegeben, ist aber nicht dasselbe
 * Hub: maximale Änderung der Trägerfrequenz
 * $\text{Bandbreite} \approx 2 \cdot (\text{Hub} + \text{Bandbreite des NF-Signals})$
 
