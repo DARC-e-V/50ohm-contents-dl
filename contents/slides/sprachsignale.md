@@ -21,7 +21,7 @@
 </left>
 <fragment>
 <right>
-* Die „Breite“ des Signals wird übrigens als *Bandbreite* bezeichnet und in Hertz (Hz) angegeben.
+* Die „Breite“ des Signals wird übrigens als *Bandbreite* bezeichnet und in Hertz ($\unit{Hz}$) angegeben.
 * Angenommen es soll Sprache im Frequenzbereich von $\qtyrange{300}{2700}{\hertz}$ übertragen werden.
 * Die Bandbreite beträgt in diesem Falle $\qty{2700}{\hertz}$ – $\qty{300}{\hertz}$ = $\qty{2400}{\hertz}$
 </right>
