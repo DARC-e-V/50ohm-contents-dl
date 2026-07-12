@@ -42,7 +42,7 @@
 [picture:736:aufbau_empfaenger_blockdiagramm:Blockdiagramm eines einfachen Empfängers]
 </left>
 <right>
-* Zurückgewinnung des ursprünglichen Signals aus dem Hochfrequenzträger, z.B. Sprachsignal
+* Zurückgewinnung des ursprünglichen Signals aus dem modulierten Hochfrequenzträger, z.B. Sprachsignal
 * Ergebnis ist das Niederfrequenz-Signal (NF)
 </right>
 
