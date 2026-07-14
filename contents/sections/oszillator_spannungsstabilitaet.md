@@ -17,5 +17,6 @@ Bei schlechter Spannungsstabilisierung der Betriebsspannung eines VFOs kann es z
 
 <margin>
 Hier ein Beispiel für ein solches Chirp-Signal:
+
 [include:applet_chirp_1]
 </margin>
