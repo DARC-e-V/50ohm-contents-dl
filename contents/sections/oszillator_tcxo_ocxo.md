@@ -12,8 +12,8 @@ Es gibt verschiedene arten von Quarzoszillatoren, die sich in ihrer Frequenzstab
 
 <margin>
 [photo:333:a_xo:XO Quarzoszillator mit $\qty{433,75}{\mega\hertz}$]
+[photo:337:a_ocxo:OCXO Quarzoszillator mit $\qty{10}{\mega\hertz}$]
 </margin>
-% TODO Bild OCXO
 
 [question:AD602]
 [question:AD603]
