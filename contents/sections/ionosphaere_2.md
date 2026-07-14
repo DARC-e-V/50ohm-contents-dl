@@ -28,7 +28,7 @@ Für den Kurzwellenbereich sind insbesondere drei Regionen der Ionosphäre von B
 
 Die niedrigste der Drei ist die *D-Region* in etwa $\num{50}$ bis $\qty{90}{\kilo\meter}$ Höhe. Hier ist allerdings die Gasdichte noch so hoch, dass die zum Schwingen angeregten Elektronen schnell mit anderen Teilchen kollidieren. Dadurch verliert die Funkwelle Energie. Die D-Region *dämpft* also diese Wellen, bis hin zur völligen Auslöschung. Dieser Effekt wird mit steigender Frequenz geringer und ist oberhalb etwa $\qty{10}{\mega\hertz}$ nicht mehr bedeutend.
 
-Wenn nach Sonnenuntergang keine Strahlung von der Sonne mehr kommt, rekombinieren die Elektronen unmittelbar und die D-Region löst sich praktisch auf. Deswegen sind die unteren Kurzwellenbänder, z.B. $\qty{80}{\meter}$ oder $\qty{160}{\meter}$, (genauso wir die Lang- und Mittelwelle) tagsüber weitgehend leer, denn dann können sich die Funkwellen nur über die Bodenwelle ausbreiten, weil die Raumwelle von der D-Region quasi verschluckt wird.
+Wenn nach Sonnenuntergang keine Strahlung von der Sonne mehr kommt, rekombinieren die Elektronen unmittelbar und die D-Region löst sich praktisch auf. Deswegen sind die unteren Kurzwellenbänder, z.B. $\qty{80}{\meter}$ oder $\qty{160}{\meter}$, (genauso wie die Lang- und Mittelwelle) tagsüber weitgehend leer, denn dann können sich die Funkwellen nur über die Bodenwelle ausbreiten, weil die Raumwelle von der D-Region quasi verschluckt wird.
 
 [question:EH210]
 [question:EH105]
