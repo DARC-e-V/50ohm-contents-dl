@@ -16,15 +16,6 @@ Erst diese tatsächlich zugeführte Leistung wird anschließend mit dem Antennen
 
 [question:AK104]
 
-In der Klasse N haben wir die effektiven Strahlungsleistung (ERP) bereits kennen gelernt. Sie bezieht sich im gegensatz zur EIRP auf den Halbwellendipol und nicht auf den isotropen Strahler. Bei der Strahlungsleistung ist nur die Energie relevant, die tatsächlich an der Antenne ankommt. Durch Kabeldämpfung etc. kann die Leistung des Senders in der realen Welt nicht vollständig der Antenne zugeführt werden. Diese verlorene Leistung darf nicht in die Berechnung der Strahlungsleistung eingehen. Der Antennengewinn in der Vorzugsrichtung ist natürlich Teil der Rechnung. ERP ist das Produkt aus zugeführter Leistung und dem Antennengewinn.
-
-[question:AG501]
-
-Die Leistung am Speisepunkt der Antenne ergibt sich aus der Senderausgangsleistung und der Dämpfung der Speiseleitung. Jede Dämpfung kann in einen Dämpfungsfaktor übertragen werden. Zum Beispiel, bei $\qty{10}{\dB}$ Dämpfung ist der Faktor $\num{0,1}$.
-Die Berechnung ist einfach: $P_{Ant} = D \cdot P_{Sender}$ (D steht für Dämpfungsfaktor)
-
-[question:AK104]
-
 Bei der nächsten Frage ist unbedingt auf die Rechenzeichen zu achten. Die Verluste werden von der Sendeleistung subtrahiert und danach mit dem Gewinnfaktor ($G_{Antenne}$) multipliziert.
 Da die ERP berechnet werden soll, muss der Bezug auf einen Halbwellendipol erfolgen.
 
