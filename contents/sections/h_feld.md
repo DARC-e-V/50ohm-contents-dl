@@ -24,7 +24,7 @@ Aus dieser Gleichung können wir direkt die Einheit der magnetischen Feldstärke
 
 ---
 
-Im Inneren einer Zylinderspule ergibt sich im gegensatz zu einem geraden Leiter ein anderes Bild, weil ja jetzt der stromdurchflossene Leiter nicht gerade, sondern schraubenförmig aufgewickelt ist. Ist die Zylinderspule sehr lang verglichen mit dem Durchmesser, ergibt sich im Inneren eine lineare Form der Feldlinien, deren Feldstärke jeweils auch noch gleich ist (also eine konstante magnetische Feldstärke über den Querschnitt der Spule). Ein solches Feld bezeichnen wir als *homogenes magnetisches Feld*. Den Begriff hatten wir schon beim homogenen elektrischen Feld im Innern eines Plattenkondensators kennengelernt.
+Im Inneren einer Zylinderspule ergibt sich im Gegensatz zu einem geraden Leiter ein anderes Bild, weil ja jetzt der stromdurchflossene Leiter nicht gerade, sondern schraubenförmig aufgewickelt ist. Ist die Zylinderspule sehr lang verglichen mit dem Durchmesser, ergibt sich im Inneren eine lineare Form der Feldlinien, deren Feldstärke jeweils auch noch gleich ist (also eine konstante magnetische Feldstärke über den Querschnitt der Spule). Ein solches Feld bezeichnen wir als *homogenes magnetisches Feld*. Den Begriff hatten wir schon beim homogenen elektrischen Feld im Innern eines Plattenkondensators kennengelernt.
 
 <margin>
 [picture:882:e_h_feld_spule:Magnetische Feldlinien in einer Zylinderspule]
