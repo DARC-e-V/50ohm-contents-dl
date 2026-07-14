@@ -11,12 +11,11 @@ Zur Erreichung einer möglichst hohen Frequenzstabilität eines VFOs gegenüber 
 
 ---
 
-Bei schlechter Spannungsstabilisierung der Betriebsspannung eines VFOs kann es zu impulsartigen Frequenzsprüngen im Rhythmus der Tastung des Senders kommen. Dies äußert sich insbesondere bei CW-Signalen als sog. *Chirp*, einem zwitschernden Geräusch zu Beginn von Zeichen.
+Bei schlechter Spannungsstabilisierung der Betriebsspannung kann es bei sehr einfachen CW-Sendern zu einer Tonhöhenstörung kommen, die als *Chirp* bezeichnet wird: Zu Beginn jedes einzelnen Dits oder Dahs ist die Tonhöhe zunächst etwas höher oder etwas tiefer und nähert sich dann der eigentlichen Tonhöhe an. Das englische Wort „Chirp" bedeutet wörtlich übersetzt „Zwitschern". Wenn sich die Tonhöhe von oben annähert, hat der akustische Effekt tatsächlich etwas von Zwitschern.
 
 [question:AD609]
 
 <margin>
 Hier ein Beispiel für ein solches Chirp-Signal:
-
 [include:applet_chirp_1]
 </margin>
