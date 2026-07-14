@@ -2898,7 +2898,7 @@
                                 {
                                     "number": "AC523",
                                     "class": "3",
-                                    "question": "Welche Verlustleistung erzeugt ein Power-MOS-FET mit $R_{\\textrm{DSon}}$ = 4 \\mOhm bei einem Strom von 25 A?",
+                                    "question": "Welche Verlustleistung erzeugt ein Power-MOS-FET mit $R_{\\symup{DSon}} = \\qty{4}{\\milli\\ohm}$ bei einem Strom von \\qty{25}{\\A}?",
                                     "answer_a": "2,5 W",
                                     "answer_b": "1 W",
                                     "answer_c": "0,1 W",
@@ -3981,7 +3981,7 @@
                                 {
                                     "number": "AD203",
                                     "class": "3",
-                                    "question": "Wo liegt die Grenzfrequenz des Audio-Verst\u00e4rkers, wenn $R_{1}$ = 4,7 \\kiloOhm, $C_1$ = 6,8 nF und $C_2$ = 47 nF betragen? Der Verst\u00e4rker hat eine Grenzfrequenz von 1 MHz und die Impedanz des Eingangs PIN 2 ist mit 1 MOhm sehr hochohmig.",
+                                    "question": "Wo liegt die Grenzfrequenz des Audio-Verstärkers, wenn $R_{1}$ = \\qty{4,7}{\\kilo\\ohm}, $C_1$ = \\qty{6,8}{\\nF} und $C_2$ = \\qty{47}{\\nF} betragen? Der Verstärker hat eine Grenzfrequenz von \\qty{1}{\\MHz} und die Impedanz des Eingangs PIN 2 ist mit \\qty{1}{\\Mohm} sehr hochohmig.",
                                     "answer_a": "ca. 5 kHz",
                                     "answer_b": "ca. 720 Hz",
                                     "answer_c": "ca. 2,7 kHz",

@@ -1794,17 +1794,17 @@
                     "video_url": null
                 },
                 {
-                    "title": "Personenschutzabstand III",
-                    "ident": "personenschutzabstand_3",
-                    "status": "alpha",
-                    "class": "A",
-                    "video_url": null
-                },
-                {
                     "title": "Grenzwerte",
                     "ident": "personenschutzabstand_grenzwerte",
                     "status": "prod",
                     "class": "E",
+                    "video_url": null
+                },
+                {
+                    "title": "Nah- und Fernfeld",
+                    "ident": "nahfeld",
+                    "status": "alpha",
+                    "class": "A",
                     "video_url": null
                 },
                 {
@@ -1822,15 +1822,8 @@
                     "video_url": null
                 },
                 {
-                    "title": "Nahfeld",
-                    "ident": "nahfeld",
-                    "status": "alpha",
-                    "class": "A",
-                    "video_url": null
-                },
-                {
-                    "title": "Fernfeld",
-                    "ident": "fernfeld",
+                    "title": "Personenschutzabstand III",
+                    "ident": "personenschutzabstand_3",
                     "status": "alpha",
                     "class": "A",
                     "video_url": null

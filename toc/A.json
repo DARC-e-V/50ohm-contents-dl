@@ -1120,8 +1120,8 @@
                     "video_url": null
                 },
                 {
-                    "title": "Personenschutzabstand III",
-                    "ident": "personenschutzabstand_3",
+                    "title": "Nah- und Fernfeld",
+                    "ident": "nahfeld",
                     "status": "alpha",
                     "class": "A",
                     "video_url": null
@@ -1134,15 +1134,8 @@
                     "video_url": null
                 },
                 {
-                    "title": "Nahfeld",
-                    "ident": "nahfeld",
-                    "status": "alpha",
-                    "class": "A",
-                    "video_url": null
-                },
-                {
-                    "title": "Fernfeld",
-                    "ident": "fernfeld",
+                    "title": "Personenschutzabstand III",
+                    "ident": "personenschutzabstand_3",
                     "status": "alpha",
                     "class": "A",
                     "video_url": null

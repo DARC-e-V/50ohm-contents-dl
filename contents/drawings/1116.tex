@@ -1,0 +1,193 @@
+% 2026, Prof. Dr. Matthias Jung (DL9MJ)
+% FELDWELLENWIDERSTAND
+\begin{tikzpicture}
+
+\begin{axis}[
+    name=mainaxis,
+    width=\linewidth,
+    height=0.66*\linewidth,
+    xmode=log,
+    ymode=log,
+    xmin=0.01,
+    xmax=100,
+    ymin=1,
+    ymax=100000,
+    domain=0.01:100,
+    samples=500,
+    clip=false,
+    xlabel={
+        Distanz, normiert:
+        $\displaystyle
+        x=\frac{d}{\lambda/(2\pi)}
+        $
+    },
+    ylabel={
+        Feldwellenwiderstand:
+        $\displaystyle
+        Z_\mathrm{F}
+        =
+        \left|\frac{\underline E}{\underline H}\right|
+        \text{ in }\unit{\ohm}
+        $
+    },
+    tick label style={
+        font=\normalsize
+    },
+    xtick={0.01,0.1,1,10,100},
+    xticklabels={
+        {$0{,}01$},
+        {$0{,}1$},
+        {$1$},
+        {$10$},
+        {$100$}
+    },
+    grid=both,
+]
+
+% Feldwellenwiderstand des elektrischen Dipols:
+%
+% Z_el = Z0 * sqrt[
+%   (x^4 - x^2 + 1) /
+%   (x^2 * (1 + x^2))
+% ]
+%
+\addplot[
+    DARCorange,
+    very thick
+]
+{
+    376.730313668
+    *
+    sqrt(
+        (x^4 - x^2 + 1)
+        /
+        (x^2 * (1 + x^2))
+    )
+};
+
+% Feldwellenwiderstand der magnetischen Loop:
+%
+% Z_mag = Z0 * sqrt[
+%   (x^2 * (1 + x^2)) /
+%   (x^4 - x^2 + 1)
+% ]
+%
+\addplot[
+    DARCgreen,
+    very thick
+]
+{
+    376.730313668
+    *
+    sqrt(
+        (x^2 * (1 + x^2))
+        /
+        (x^4 - x^2 + 1)
+    )
+};
+
+% Feldwellenwiderstand des freien Raumes
+\draw[
+    black,
+    dashed,
+    line width=0.9pt
+]
+(axis cs:0.01,376.730313668)
+--
+(axis cs:100,376.730313668);
+
+\node[
+    anchor=south west,
+]
+at (axis cs:0.02,400)
+{
+    $\displaystyle Z_0\approx\qty{377}{\ohm}$
+};
+
+% Grenze reaktives Nahfeld:
+% r = lambda/(2 pi), also x = 1
+\draw[
+    black,
+    dashed,
+    line width=1pt
+]
+(axis cs:1,1)
+--
+(axis cs:1,100000);
+
+\node[
+    anchor=north west
+]
+at (axis cs:1.05,50000)
+{
+    $\displaystyle d=\frac{\lambda}{2\pi}$
+};
+
+% Grenze Fernfeld:
+% r = 4 lambda entspricht x = 8 pi
+\draw[
+    black,
+    dashed,
+    line width=1pt
+]
+(axis cs:{8*pi},1)
+--
+(axis cs:{8*pi},100000);
+
+\node[
+    anchor=north west
+]
+at (axis cs:{8*pi*1.03},50000)
+{
+    $\displaystyle d=4\lambda$
+};
+
+% Feldbereiche
+\node[
+    anchor=south,
+    font=\scriptsize\bfseries
+]
+at (axis cs:0.1,130000)
+{Reaktives Nahfeld};
+
+\node[
+    anchor=south,
+    font=\scriptsize\bfseries
+]
+at (axis cs:5,130000)
+{Strahlendes Nahfeld};
+
+\node[
+    anchor=south,
+    font=\scriptsize\bfseries
+]
+at (axis cs:50,130000)
+{Fernfeld};
+
+% Erläuterung des elektrischen Dipols
+\node[
+    anchor=west,
+    fill=white,
+    draw=DARCorange,
+    align=left
+]
+at (axis cs:0.025,40000)
+{
+    Elektrischer Dipol
+};
+
+% Erläuterung der magnetischen Loop
+\node[
+    anchor=west,
+    fill=white,
+    draw=DARCgreen,
+    align=left
+]
+at (axis cs:0.025,3)
+{
+    Magnetische Loop
+};
+
+\end{axis}
+
+\end{tikzpicture}

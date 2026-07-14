@@ -1,0 +1,198 @@
+% 2026, Prof. Dr. Matthias Jung (DL9MJ)
+% MAGNETISCHER DIPOL
+\begin{tikzpicture}
+
+% Hauptachse: magnetische Feldstärke
+\begin{axis}[
+    name=mainaxis,
+    width=\linewidth,
+    height=0.66*\linewidth,
+    xmode=log,
+    ymode=log,
+    xmin=0.01,
+    xmax=100,
+    ymin=0.01,
+    ymax=1000000,
+    domain=0.01:100,
+    samples=500,
+    clip=false,
+    xlabel={
+        Distanz, normiert:
+        $\displaystyle
+        x=\frac{d}{\lambda/(2\pi)}
+        $
+    },
+    ylabel={
+        magnetische Feldstärke, normiert:
+        $\lvert H\rvert/H_0$
+    },
+    tick label style={
+        font=\normalsize
+    },
+    xtick={0.01,0.1,1,10,100},
+    xticklabels={
+        {$0{,}01$},
+        {$0{,}1$},
+        {$1$},
+        {$10$},
+        {$100$}
+    },
+    grid=both
+]
+
+% Magnetisches Feld:
+%
+% |H|/H0 =
+% sqrt[(1/x^3 - 1/x)^2 + 1/x^4]
+%
+\addplot[
+    DARCgreen,
+    very thick
+]
+{
+    sqrt(
+        (1/x^3 - 1/x)^2
+        + 1/x^4
+    )
+};
+
+% Elektrisches Feld:
+%
+% |E|/(H0 Z0) =
+% sqrt[1/x^4 + 1/x^2]
+%
+\addplot[
+    DARCorange,
+    very thick
+]
+{
+    sqrt(
+        1/x^4
+        + 1/x^2
+    )
+};
+
+% Grenze des reaktiven Nahfeldes:
+% r = lambda/(2 pi), also x = 1
+\draw[
+    black,
+    dashed,
+    line width=1pt
+]
+(axis cs:1,0.01)
+--
+(axis cs:1,1000000);
+
+\node[
+    anchor=north west
+]
+at (axis cs:1.05,200000)
+{
+    $\displaystyle d=\frac{\lambda}{2\pi}$
+};
+
+% Magnetisches Nahfeld
+\node[
+    anchor=west,
+    fill=white,
+    draw=DARCgreen,
+    align=center
+]
+at (axis cs:0.060,70000)
+{
+    $\displaystyle |H|\sim\frac{1}{d^3}$
+};
+
+% Elektrisches Nahfeld
+\node[
+    anchor=west,
+    fill=white,
+    draw=DARCorange,
+    align=center
+]
+at (axis cs:0.035,2)
+{
+    $\displaystyle |E|\sim\frac{1}{d^2}$
+};
+
+% Grenze des Fernfeldes:
+% r = 4 lambda entspricht x = 8 pi
+\draw[
+    black,
+    dashed,
+    line width=1pt
+]
+(axis cs:{8*pi},0.01)
+--
+(axis cs:{8*pi},1000000);
+
+\node[
+    anchor=north west
+]
+at (axis cs:{8*pi*1.03},200000)
+{
+    $\displaystyle d=4\lambda$
+};
+
+% Verhalten im Fernfeld
+\node[
+    anchor=center,
+    fill=white,
+    draw=black,
+    align=center
+]
+at (axis cs:25,1)
+{
+    $\displaystyle |E|,|H|\sim\frac{1}{d}$
+};
+
+% Feldbereiche
+\node[
+    anchor=south,
+    font=\scriptsize\bfseries
+]
+at (axis cs:0.1,1300000)
+{Reaktives Nahfeld};
+
+\node[
+    anchor=south,
+    font=\scriptsize\bfseries
+]
+at (axis cs:5,1300000)
+{Strahlendes Nahfeld};
+
+\node[
+    anchor=south,
+    font=\scriptsize\bfseries
+]
+at (axis cs:50,1300000)
+{Fernfeld};
+
+\end{axis}
+
+% Rechte y-Achse: elektrische Feldstärke
+\begin{axis}[
+    width=\linewidth,
+    height=0.66*\linewidth,
+    at={(mainaxis.south west)},
+    anchor=south west,
+    xmode=log,
+    ymode=log,
+    xmin=0.01,
+    xmax=100,
+    ymin=0.01,
+    ymax=1000000,
+    axis x line=none,
+    axis y line*=right,
+    ylabel={
+        elektrische Feldstärke, normiert:
+        $\lvert E\rvert/(H_0Z_0)$
+    },
+    tick label style={
+        font=\normalsize
+    },
+    grid=none
+]
+\end{axis}
+
+\end{tikzpicture}
