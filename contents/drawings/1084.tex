@@ -1,0 +1,54 @@
+% Author: Prof. Dr. Matthias Jung, DL9MJ
+% Year: 2025
+\begin{tikzpicture}
+    \begin{axis}[%
+        /pgf/number format/1000 sep={ },
+        /pgf/number format/use comma,
+        axis lines=middle,
+        axis line style={-Triangle},
+        ytick={-2,-1,0,1,2},
+        every major tick/.append style={thick, black},
+        yticklabels={-2~V,-1~V,0,1~V,2~V},
+        grid=major,
+        grid style={line width=.1pt, draw=gray!10},
+        major grid style={line width=.2pt,draw=gray!50},
+        xticklabel=\empty,
+        xtick style={draw=none},
+        xmin=0,
+        xmax=64,
+        ymin=-2.4,
+        ymax=3.0,
+        xmajorgrids=false,
+        xlabel style={at={(ticklabel* cs:1)},anchor=north east},
+        ylabel style={at={(ticklabel* cs:1)},anchor=north east},
+        ylabel={$U_\mathrm{A}$},
+        xlabel={$t$},
+        width=\linewidth*\getDarcImageFactor,
+        height=4cm,
+        scale only axis,
+    ]
+
+    % konstante Taktzeitpunkte
+    \addplot[
+        only marks,
+        mark=*,
+        mark size=0.45pt,
+        gray,
+        samples at={0,1,...,64}
+    ] {-2.2};
+
+    % Phaseninkrement +2
+    % N = 32 Tabelleneinträge, pro Takt wird die Phase um 2 erhöht
+    \addplot[
+        const plot,
+        samples at={0,1,...,64},
+        DARCred,
+        thick
+    ] {
+        (round(sin(360*2*x/32) * 1.5/2 * 7.5 + 0.5) - 0.5) / 7.5 * 2
+    };
+
+    \node[anchor=north west, DARCred] at (axis cs:2,2.7) {$\varphi_{n+1} = \varphi_n + 2$};
+
+    \end{axis}
+\end{tikzpicture}%

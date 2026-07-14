@@ -1,0 +1,39 @@
+% Author: Prof. Dr. Matthias Jung, DL9MJ
+% Year: 2026
+\begin{circuitikz}
+	\ctikzset{
+	    blocks/scale=\getDarcImageFactor
+	}
+    \draw(0,0) node [cgeneratorshape, anchor=east](clk){};
+    \draw(clk.east)
+        to [short, name={h1}] ++(1,0) node[inputarrow](){}
+        node [twoportshape, t={$+\varphi$}, anchor=west, fill={DARCblue!30!white}](add){};
+    \draw(add.east)
+        to [multiwire, name={h2}] ++(1,0) node[inputarrow](){}
+        node [sinetableshape, anchor=west](tab){};
+    \draw(tab.east)
+        to [multiwire, name={h3}] ++(1,0) node[inputarrow](){}
+        node [registershape, anchor=west](reg){};
+    \draw(reg.east)
+        to [multiwire, name={h4}] ++(1,0) node[inputarrow](){}
+        node [dacshape, anchor=west](dac){};
+    \draw(dac.east)
+        to [short] ++(1,0)
+        node[inputarrow](){}
+        node[anchor=west](){$f_\mathrm{out}$};
+
+    % CLK Signal:
+    \draw(h1.center)
+        to [short, *-] ++(0,1.25) coordinate(h5)
+        to [short] ++(4.15,0) coordinate(h6)
+        |- (reg.clk) node[inputarrow]{};
+
+    \draw(clk.south) node[anchor=west, rotate=-90] () {Taktgenerator};
+    \draw(add.south) node[anchor=west, rotate=-90] () {Adresszähler};
+    \draw(tab.south) node[anchor=west, rotate=-90] () {Sinus-Tabelle};
+    \draw(reg.south) node[anchor=west, rotate=-90] () {Register};
+    \draw(dac.south) node[anchor=west, rotate=-90] () {D/A Umsetzer};
+
+    \draw(h2.center) ++(0,+0.5) node[anchor=south] () {N};
+    \draw(h2.center) ++(0,-0.5) node[anchor=west, rotate=-90] () {Bits};
+\end{circuitikz}
