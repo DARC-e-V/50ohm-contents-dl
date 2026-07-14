@@ -5,6 +5,10 @@ Zur Erreichung einer möglichst hohen Frequenzstabilität eines VFOs gegenüber 
 [question:AD608]
 [question:AD607]
 
+<margin>
+[picture:497:a_osc_stab:Oszillator, bei dem mit dem Kondensator oben links und der Drosselspule oben rechts die Betriebsspannung stabilisiert wird. Beide bilden einen Tiefpassfilter, der HF-Anteile überbrückt und so die Betriebsspannung entkoppelt und stabilisiert. Langsame Änderungen der Versorgungsspannung kann diese Schaltung nicht ausgleichen; hier könnte z. B. ein Spannungsregler eingesetzt werden.]
+</margin>
+
 Bei schlechter Spannungsstabilisierung der Betriebsspannung eines VFOs kann es zu impulsartigen Frequenzsprüngen im Rhythmus der Tastung des Senders kommen. Dies äußert sich insbesondere bei CW-Signalen als sog. *Chirp*, einem zwitschernden Geräusch zu Beginn von Zeichen.
 
 [question:AD609]
