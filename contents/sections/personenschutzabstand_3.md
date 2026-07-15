@@ -20,7 +20,7 @@ Mit dem Faktor wird die angegebene Spitzenleistung (PEP) in die mittlere Leistun
 RTTY und FM haben den Faktor $\num{1}$, so wie die meisten Modulationsverfahren.
 </indepth>
 
-Im § 8, BEMFV ist u.a. festgelegt, dass der standortbezogene Sicherheitsabstand innerhalb des kontrollierbaren Bereichs liegen muss. Oft ist dieser Abstand durch die örtlichen Gegebenheiten festgelegt und kann nicht verändert werden. In diesen Fällen muss die maximale Sendeleistung angepasst werden.
+In § 8 BEMFV ist u. a. festgelegt, dass der standortbezogene Sicherheitsabstand innerhalb des kontrollierbaren Bereichs liegen muss. Oft ist dieser Abstand durch die örtlichen Gegebenheiten festgelegt und kann nicht verändert werden. In diesen Fällen muss die maximale Sendeleistung angepasst werden.
  
 [question:AK107]
 

@@ -1,7 +1,7 @@
 Das elektromagnetische Feld einer Antenne lässt sich, wie in Abbildung [ref:a_nahfernfeld] dargestellt, in das *Nahfeld* in unmittelbarer Umgebung der Antenne und das weiter entfernte *Fernfeld* unterteilen. Das Nahfeld wird zusätzlich in das *reaktive Nahfeld* und das *strahlende Nahfeld* gegliedert.
 
 <tip>
-In den [Erläuterung der Bewertungsverfahren nach BEMFV](https://50ohm.de/bemfv)  hat die BNetzA die Begriffe und Verfahren für die Ermittlung der Sicherheitsabstände erläutert.
+In den [Erläuterungen der Bewertungsverfahren nach BEMFV](https://50ohm.de/bemfv) hat die BNetzA die Begriffe und Verfahren für die Ermittlung der Sicherheitsabstände erläutert.
 [photo:80:n_Bewertungsverfahren:In diesem Dokument sind die Bewertungsverfahren beschrieben.]
 </tip>
 
@@ -23,7 +23,7 @@ Im reaktiven Nahfeld einer Antenne weisen die elektrische Feldstärke und die ma
 
 [question:AK101]
 
-Schaut man sich den Verlauf des Elektrischen und Magnetischen Feldes für eine Dipolantenne über diese Bereiche in Abbildung [ref:a_dipol_feld_e_h] so erkennt man das die beiden Feldgrößen nicht die gleichen Beträge haben. Das Elektrische Feld ist wesentlich stärker als das Magnetische Feld. Bei einer magnetischen Loop-Antenne in Abbildung [ref:a_loop_feld_e_h] ist es genau umgekehrt. Das Magnetische Feld ist wesentlich stärker als das Elektrische Feld. 
+Schaut man sich den Verlauf des elektrischen und magnetischen Feldes für eine Dipolantenne über diese Bereiche in Abbildung [ref:a_dipol_feld_e_h] an, so erkennt man, dass die beiden Feldgrößen nicht die gleichen Beträge haben. Das elektrische Feld ist wesentlich stärker als das magnetische Feld. Bei einer magnetischen Loop-Antenne in Abbildung [ref:a_loop_feld_e_h] ist es genau umgekehrt: Das magnetische Feld ist wesentlich stärker als das elektrische Feld.
 
 <margin>
 [picture:1114:a_dipol_feld_e_h:Verlauf der elektrischen und magnetischen Feldstärke einer Dipolantenne über die Bereiche Nahfeld und Fernfeld (Logarithmisch).]
@@ -56,16 +56,16 @@ Im strahlenden Nahfeld nähert sich das Verhältnis von elektrischer und magneti
 
 $Z_0 = \sqrt{\dfrac{\mu_0}{\varepsilon_0}} \approx \qty{120\pi}{\ohm} \approx \qty{377}{\ohm}$
 
-Der Feldwellenwiderstand des freien Raums verknüft die elektrischen und magnetischen Feldgrößen miteinander. Er ist ein Maß dafür, wie stark die elektrische Feldstärke im Verhältnis zur magnetischen Feldstärke ist. 
+Der Feldwellenwiderstand des freien Raums verknüpft die elektrischen und magnetischen Feldgrößen miteinander. Er ist ein Maß dafür, wie stark die elektrische Feldstärke im Verhältnis zur magnetischen Feldstärke ist. 
 
 [question:AK102]
 
 Diesen Wert müssen wir uns merken, da wir ihn zur Herleitung der Näherungsformel benötigen. 
 
-Wir fassen Zusammen: 
+Wir fassen zusammen: 
 
-* Das Fernfeld einer Strahlungsquelle, ist der Bereich, in dem die Vektoren der elektrischen Feldstärke (E), der magnetischen Feldstärke (H) sowie die Ausbreitungsrichtung senkrecht aufeinander stehen und keine Phasendifferenzen aufweisen. Zusätzlich muss der Feldwellenwiderstand dem des freien Raums entsprechen. 
-* Die Grenze zwischen Fernfeld und Nahfeld ist in erster Linie abhängig von der Wellenlänge. Jedoch spielt die Art der verwendeten Antenne und deren Umgebung durch aus eine Rolle. Bei den im Amateurfunk überwiegend verwendeten Drahtantennen (z.B. Dipole) bildet sich das Fernfeld in einem Abstand von etwa $4\cdot\lambda$ aus. 
+* Das Fernfeld einer Strahlungsquelle ist der Bereich, in dem die Vektoren der elektrischen Feldstärke (E), der magnetischen Feldstärke (H) sowie die Ausbreitungsrichtung senkrecht aufeinander stehen und keine Phasendifferenzen aufweisen. Zusätzlich muss der Feldwellenwiderstand dem des freien Raums entsprechen. 
+* Die Grenze zwischen Fernfeld und Nahfeld ist in erster Linie abhängig von der Wellenlänge. Jedoch spielt die Art der verwendeten Antenne und deren Umgebung durchaus eine Rolle. Bei den im Amateurfunk überwiegend verwendeten Drahtantennen (z.B. Dipole) bildet sich das Fernfeld in einem Abstand von etwa $4\cdot\lambda$ aus. 
 
 <margin>
 [picture:1116:a_feldwellenwiderstand:Verlauf des Feldwellenwiderstands über die Bereiche Nahfeld und Fernfeld (Logarithmisch).]

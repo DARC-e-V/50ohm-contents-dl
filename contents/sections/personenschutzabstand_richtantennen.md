@@ -1,4 +1,4 @@
-Bei der Berechnung von Sicherheitsabständen spielt die Winkeldämpfung bei Richtantennen eine wichtige Rolle. Die größte Strahlungsleistung wird in der Mitte der Strahlungskeule abgestrahlt. In den anderen Richtungen ist sie geringer. Ist die Antenne ausreichend hoch, stahlt die Antenne zum großen Teil über den <u>nicht</u> kontrollierbaren Bereich hinweg, also dem Bereich in dem die Grenzwerte unbedingt eingehalten werden müssen. 
+Bei der Berechnung von Sicherheitsabständen spielt die Winkeldämpfung bei Richtantennen eine wichtige Rolle. Die größte Strahlungsleistung wird in der Mitte der Strahlungskeule abgestrahlt. In den anderen Richtungen ist sie geringer. Ist die Antenne ausreichend hoch, strahlt die Antenne zum großen Teil über den <u>nicht</u> kontrollierbaren Bereich hinweg, also dem Bereich, in dem die Grenzwerte unbedingt eingehalten werden müssen. 
 
 <margin>
 [picture:950:a_richtantenne_personenschutz:In einem Winkel von 40° unterhalb der Achse der Hauptstrahlungskeule ist die Strahlungsleistung 6 dB geringer als bei dem Winkel 0°.]
@@ -12,10 +12,10 @@ $ E = \dfrac{\sqrt{\qty{30}{\ohm}\cdot P_\textrm{EIRP}}}{d}$
 Umstellen der Formel nach $d$ (Sicherheitsabstand).
 $ d = \dfrac{\sqrt{\qty{30}{\ohm}\cdot P_\textrm{EIRP}}}{E}$
 
-Die Strahlungsleistung $P_\textrm{EIRP}$ ist nicht bekannt. Allerdings wissen wir, dass bei dieser Rechnung nur ein Viertel der Strahlungsleistung im Vergleich zur maximalen Strahlungleistung ansetzen müssen.
+Die Strahlungsleistung $P_\textrm{EIRP}$ ist nicht bekannt. Allerdings wissen wir, dass wir bei dieser Rechnung nur ein Viertel der Strahlungsleistung im Vergleich zur maximalen Strahlungsleistung ansetzen müssen.
 
 $\begin{split} d &= \dfrac{\sqrt{\qty{30}{\ohm}\cdot P_\textrm{EIRP}\cdot \dfrac{1}{4}}}{E}\\ d &= \dfrac{\sqrt{\qty{30}{\ohm}\cdot P_\textrm{EIRP}}}{E}\cdot \sqrt{\dfrac{1}{4}}\\ d &= \dfrac{\sqrt{\qty{30}{\ohm}\cdot P_\textrm{EIRP}}}{E}\cdot \mathbf{\dfrac{1}{2}}\end{split}$
 
-Wird die Strahlungsleistung auf $\dfrac{1}{4}$ reduziert halbiert sich der Sicherheitsabstand von $\qty{20}{\meter}$ auf die Hälfte. Er verringert sich im konkreten Beispiel auf $\qty{10}{\meter}$.
+Wird die Strahlungsleistung auf $\dfrac{1}{4}$ reduziert, halbiert sich der Sicherheitsabstand von $\qty{20}{\meter}$ auf die Hälfte. Er verringert sich im konkreten Beispiel auf $\qty{10}{\meter}$.
 
 [question:AK105]

@@ -1,6 +1,6 @@
 In der Klasse N haben wir bereits die *effektive Strahlungsleistung* (ERP) kennengelernt. Im Gegensatz zur EIRP bezieht sie sich nicht auf einen isotropen Strahler, sondern auf einen Halbwellendipol. Für die Berechnung ist nur die Leistung maßgeblich, die tatsächlich am Speisepunkt der Antenne ankommt. Verluste in der Speiseleitung, beispielsweise durch Kabeldämpfung, müssen daher von der Senderausgangsleistung abgezogen werden.
 
-Die effektive Strahlungsleistung ergibt sich aus der der Antenne zugeführten Leistung und dem Antennengewinn in der betrachteten Richtung:
+Die effektive Strahlungsleistung ergibt sich aus der an der Antenne zugeführten Leistung und dem Antennengewinn in der betrachteten Richtung:
 
 $P_\mathrm{ERP}=P_\mathrm{Ant}\cdot G_\mathrm{d}$
 
@@ -21,6 +21,6 @@ Da die ERP berechnet werden soll, muss der Bezug auf einen Halbwellendipol erfol
 
 [question:AG502]
 
-Einen Hinweis auf die richtige Lösung der nächsten Frage gibt schon die [Anlage 1 der AFUV](https://50ohm.de/a1). Dort ist als maximale Leistung für das $\qty{630}{\meter}$-Band $\qty{1}{\watt}$ ERP vorgegeben. Ein Halbwellendipol für diese Frequenz hätte eine Länge von etwa $\qty{315}{\meter}$ und ist daher für die meisten Funkamateure kaum realisierbar. In der Praxis kommen deshalb meist stark verkürzte Antennen zum Einsatz, deren Wirkungsgrad deutlich geringer ist als der eines unverkürzten Halbwellendipols. Ein Antennengewinn von $\qty{-20}{\dBd}$ ist daher durchaus plausibel. Da das verwendete Koaxialkabel nur eine geringe Länge hat, kann dessen Dämpfung in diesem Frequenzbereich vernachlässigt werden. Versuche nun die folgende Frage zu lösen. 
+Einen Hinweis auf die richtige Lösung der nächsten Frage gibt schon die [Anlage 1 der AFUV](https://50ohm.de/a1). Dort ist als maximale Leistung für das $\qty{630}{\meter}$-Band $\qty{1}{\watt}$ ERP vorgegeben. Ein Halbwellendipol für diese Frequenz hätte eine Länge von etwa $\qty{315}{\meter}$ und ist daher für die meisten Funkamateure kaum realisierbar. In der Praxis kommen deshalb meist stark verkürzte Antennen zum Einsatz, deren Wirkungsgrad deutlich geringer ist als der eines unverkürzten Halbwellendipols. Ein Antennengewinn von $\qty{-20}{\dBd}$ ist daher durchaus plausibel. Da das verwendete Koaxialkabel nur eine geringe Länge hat, kann dessen Dämpfung in diesem Frequenzbereich vernachlässigt werden. Versuche nun, die folgende Frage zu lösen. 
 
 [question:AG503]

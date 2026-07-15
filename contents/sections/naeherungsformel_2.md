@@ -20,10 +20,10 @@ an (vgl. Abbildung [ref:a_feldwellenwiderstand]). Setzen wir diesen Wert in den 
 
 $\frac{Z_0}{4\pi} = \frac{\qty{120\pi}{\ohm}}{4\pi} = \qty{30}{\ohm}$
 
-Damit ergibt sich die aus der Klasse E bekannte Näherungsformel. Gleichzeitig wird deutlich, weshalb sie nicht im reaktiven Nahfeld verwendet werden darf: Dort ist der Feldwellenwiderstand nicht konstant, sondern hängt stark vom Abstand, von der Antennenform und von der betrachteten Richtung ab. Für Berechnungen im reaktiven Nahfeld, also für Abstände $d \le \frac{\lambda}{2\pi}$, sind daher in der Regel ausführlichere Rechnungen, numerische Simulationen, oder Messungen erforderlich. 
+Damit ergibt sich die aus der Klasse E bekannte Näherungsformel. Gleichzeitig wird deutlich, weshalb sie nicht im reaktiven Nahfeld verwendet werden darf: Dort ist der Feldwellenwiderstand nicht konstant, sondern hängt stark vom Abstand, von der Antennenform und von der betrachteten Richtung ab. Für Berechnungen im reaktiven Nahfeld, also für Abstände $d \le \frac{\lambda}{2\pi}$, sind daher in der Regel ausführlichere Rechnungen, numerische Simulationen oder Messungen erforderlich. 
 
 <margin>
-[picture:1116:a_feldwellenwiderstand:Verlauf des Feldwellenwiderstands über die Bereiche Nahfeld und Fernfeld (Logarithmisch).]
+[picture:1116:a_feldwellenwiderstand:Verlauf des Feldwellenwiderstands über die Bereiche Nahfeld und Fernfeld (logarithmisch).]
 </margin>
 
 Wird die Fernfeld-Näherungsformel bei einer Dipolantenne bereits im strahlenden Nahfeld angewendet, ergibt sich in der Regel ein größerer Sicherheitsabstand als tatsächlich erforderlich. Der Feldwellenwiderstand liegt dort unterhalb von $\qty{377}{\ohm}$, während die Näherungsformel mit dem höheren Fernfeldwert rechnet. Das Ergebnis ist daher konservativ und liegt auf der sicheren Seite. Diese Vorgehensweise wird von der Bundesnetzagentur akzeptiert.
@@ -32,4 +32,4 @@ Für magnetische Antennen und elektrisch sehr kurze Antennen gilt dies jedoch ni
 
 [question:AK103]
 
-Für die Berechnung der Personenschutzabstände kann im Fernfeld die bekannte Näherungsformel verwendet werden. Dadurch lassen sich aufwendige Messungen oder Simulationen häufig vermeiden. Besonders im Portabelbetrieb ermöglicht sie eine schnelle überschlägige Abschätzung des erforderlichen Sicherheitsabstands. 
+Für die Berechnung der Personenschutzabstände kann im Fernfeld die bekannte Näherungsformel verwendet werden. Dadurch lassen sich aufwendige Messungen oder Simulationen häufig vermeiden. Besonders im Portabelbetrieb ermöglicht sie eine schnelle überschlägliche Abschätzung des erforderlichen Sicherheitsabstands.
