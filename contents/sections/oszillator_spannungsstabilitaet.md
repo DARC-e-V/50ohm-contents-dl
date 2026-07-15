@@ -17,5 +17,11 @@ Bei schlechter Spannungsstabilisierung der Betriebsspannung kann es bei sehr ein
 
 <margin>
 Hier ein Beispiel für ein solches Chirp-Signal:
+
 [include:applet_chirp_1]
+
+Ein Weiteres Beispiel, ein QSO zwischen RA1OW und OM3YCY
+
+[include:applet_chirp_2]
+
 </margin>
