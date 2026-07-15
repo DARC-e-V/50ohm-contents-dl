@@ -30,6 +30,21 @@ Schaut man sich den Verlauf des elektrischen und magnetischen Feldes für eine D
 [picture:1115:a_loop_feld_e_h:Verlauf der elektrischen und magnetischen Feldstärke einer Loopantenne über die Bereiche Nahfeld und Fernfeld (Logarithmisch).]
 </margin>
 
+<indepth>
+Für mathematisch Interessierte, die bereits mit komplexen Zahlen vertraut sind, soll hier vereinfacht erklärt werden, warum elektrische und magnetische Feldstärke im reaktiven Nahfeld keine ortsunabhängige Phasenbeziehung zueinander besitzen.
+Bei einem elektrisch kurzen Dipol setzen sich die Felder vereinfacht aus mehreren Anteilen zusammen:
+
+$ \underline{E}(r)~=~\left( \underbrace{\frac{A}{r^3}}_{\text{quasistatisch}} + \underbrace{j\,\frac{B}{r^2}}_{\text{induktiv}} + \underbrace{\frac{C}{r}}_{\text{Strahlung}} \right) e^{-jkr}$
+
+$ \underline{H}(r)~=~\left( \underbrace{j\,\frac{D}{r^2}}_{\text{induktiv}} + \underbrace{\frac{F}{r}}_{\text{Strahlung}} \right) e^{-jkr}. $
+
+Die unterstrichenen Größen sind komplex und beschreiben neben der Stärke auch die Phase der jeweiligen Feldanteile. Faktoren wie $j$ oder $-j$ in den vollständigen Feldgleichungen entsprechen dabei Phasenverschiebungen von $\qty{90}{\degree}$ beziehungsweise $\qty{-90}{\degree}$.
+
+Da die einzelnen Anteile unterschiedlich schnell mit dem Abstand $r$ abnehmen, verändert sich ihr Verhältnis zueinander. Dadurch hängt auch die Phasendifferenz zwischen elektrischer und magnetischer Feldstärke im Nahfeld vom Abstand, von der Richtung und von der Antennenform ab.
+
+Für ein vollständiges Verständnis sind die einzelnen Vektorkomponenten der Feldgleichungen zu betrachten. Diese Zusammenhänge gehen deutlich über die Lerninhalte der Klasse A hinaus und sind für die Prüfung nicht relevant.
+</indepth>
+
 Insbesondere im reaktiven Nahfeld können aufgrund der starken, mit zunehmendem Abstand rasch abfallenden elektrischen oder magnetischen Feldanteile hohe lokale Feldstärken auftreten. Dieser Bereich wird als *reaktiv* bezeichnet, weil ein großer Teil der Feldenergie nicht dauerhaft abgestrahlt wird, sondern zwischen Antenne und Feld hin- und herpendelt und zur Antenne zurückkehrt. Genau wie bei einem Kondensator (elektrisches Feld) oder einer Spule (magnetisches Feld) wird die im reaktiven Nahfeld gespeicherte Energie nicht verbraucht, sondern phasenverschoben zur Antenne zurückgegeben – dieses Pendeln zwischen Feld und Antenne entspricht dem Blindanteil der Antennenimpedanz, während nur der Wirkanteil (Strahlungswiderstand) tatsächlich abgestrahlte Leistung beschreibt.
 
 Im *strahlenden Nahfeld* im Bereich
