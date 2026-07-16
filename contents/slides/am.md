@@ -10,9 +10,9 @@
 <note>
 Es ist etwas paradox, dass bei Amplitudenmodulation trotzdem die Frequenz verändert aussieht. Eine Erklärung dazu gibt es unter "Vertiefung" auf der [50Ohm-Seite](/N_am.html). Wer es genau haben will, kann *Additionstheoremen für Winkelfunktionen* nachschlagen, wie die Berechnung dazu durchzuführen ist.
 </note>
- 
+
 ---
- 
+
 <left>
 * In den Seitenbändern steckt die übertragene Information, also z. B. die Sprache
 * Die von AM belegte *Bandbreite* ist doppelt so hoch wie die höchste Frequenz des Modulationssignals
@@ -26,6 +26,5 @@ Es ist etwas paradox, dass bei Amplitudenmodulation trotzdem die Frequenz verän
 
 ---
 [question:NE202]
-
 ---
 [question:NE206]

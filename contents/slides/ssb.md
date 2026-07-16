@@ -1,5 +1,5 @@
 <left>
-[picture:482:n_seitenband:Amplitudenmodulation, Träger mit unterem (a) und oberen (b) Seitenband]
+[picture:482:n_seitenband_2:Amplitudenmodulation, Träger mit unterem (a) und oberem (b) Seitenband]
 </left>
 <right>
 * Bei Amplitudenmodulation zusätzlich zum Träger zwei Seitenbänder $\rightarrow$ unteres bzw. oberes Seitenband
@@ -9,6 +9,7 @@
 <note>
 * Der Träger selbst enthält gar keine Information und die Information des Modulationssignals wird jeweils in den Seitenbändern übertragen.
 </note>
+
 ---
 
 <left>
@@ -17,11 +18,11 @@
 * Belegte Bandbreite entspricht der Bandbreite des aufmodulierten Signals
 </left>
 <right>
-[picture:743:n_seitenband:Seitenbänder bei AM, LSB und USB im Vergleich]
+[picture:743:n_seitenband_3:Seitenbänder bei AM, LSB und USB im Vergleich]
 *Einseitenbandmodulation* bzw. *single-sideband (SSB)*
 </right>
 
---- 
+---
 USB steht für *Upper Sideband*
 
 (im Deutschen wird es gerne mit Unteres Seitenband verwechselt)

@@ -1,11 +1,18 @@
+<left>
+[photo:104:n_modulation_love:Nachrichtenübermittlung mit Rauchzeichen]
+</left>
+<right>
 * Seit Urzeiten versuchen Menschen, Nachrichten über große Entfernungen zu übertragen
 * Beispielsweise mit Rauchzeichen
 * Absprache notwendig, welche Bedeutung wie viele Rauchzeichen in einem Zeitabstand haben
+</right>
 
 <note>
 Beispiel: 3 Rauchwolken mit jeweils 30 Sekunden Abstand bedeuten "CQ"
 </note>
----
+
+--- style="font-size: smaller;"
+
 ## Morsezeichen
 <left>
 * Sind ähnlich zu Rauchzeichen
@@ -21,6 +28,7 @@ Beispiel: 3 Rauchwolken mit jeweils 30 Sekunden Abstand bedeuten "CQ"
 * Morsezeichen werden "gegeben"
 * Das ganze wird als Continuous Wave (CW) bezeichnet
 </note>
+
 ---
 [photo:216:n_cqcq_horiz:"CQ CQ" in Morsetelegrafie]
 
@@ -32,7 +40,9 @@ Beispiel:
 * *lang, kurz, lang, kurz*: C
 * *lang, lang, kurz, lang*: Q
 </note>
+
 ---
+
 ## Telegrafie
 * Übertragungsverfahren mit Hilfsmittel
 * Rauch oder elektrische Schwingung wird so beeinflusst, um eine Nachricht zu übertragen
@@ -48,6 +58,7 @@ Telegrafie von altgriechisch:
 Modulation von lateinisch:
 * Modulatio &rarr; Taktmaß oder Rhythmus
 </note>
+
 ---
 [question:NE201]
 ---
