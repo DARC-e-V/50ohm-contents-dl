@@ -1,4 +1,3 @@
-
 <left>
 * Funkbetrieb im Ausland unter bestimmten Voraussetzungen möglich
 * Abkommen zwischen vielen Staaten
@@ -16,8 +15,8 @@
 <right>
 | l: CEPT-Empfehlung | l: Erläuterung |
 | ECC Report 89 | Klasse N |
-| ERC-Report 32 | Grundlage für ECC Report (05) 06 |
-| ECC Report (05) 06 | Klasse E |
+| ERC-Report 32 | Grundlage für ECC-Empfehlung (05) 06 |
+| ECC-Empfehlung (05) 06 | Klasse E |
 | T/R 61-01 | Klasse A |
 | T/R 61-02 | HAREC |
 [table:n_funken_im_ausland_cept_empfehlungen:CEPT-Empfehlungen]
@@ -29,6 +28,7 @@ Die Empfehlungen muss man nicht auswendig lernen, aber die wichtigsten Regelunge
 ---
 [question:VB104]
 ---
+
 ## Vorübergehender Amateurfunkbetrieb im Ausland
 * Darf nur in Staaten durchgeführt werden, die die CEPT-Regelungen anwenden
 * Kein fester Wohnsitz
@@ -45,6 +45,7 @@ Die Empfehlungen muss man nicht auswendig lernen, aber die wichtigsten Regelunge
 ---
 [question:VB109]
 ---
+
 ## Weitere CEPT-Anerkennung
 * Es gibt Staaten, die nicht der CEPT angehören, aber die Regelungen teilweise oder ganz anwenden
 * Beispiele: USA und Australien
@@ -52,6 +53,7 @@ Die Empfehlungen muss man nicht auswendig lernen, aber die wichtigsten Regelunge
 ---
 [question:VB108]
 ---
+
 ## Rufzeichen
 * Kennzeichnung durch zusätzlichen Rufzeichenpräfix vor eigenem Rufzeichen
 * Ggf. je nach Amateurfunkklasse
@@ -60,6 +62,7 @@ Die Empfehlungen muss man nicht auswendig lernen, aber die wichtigsten Regelunge
 <note>
 Die Trennung mit dem Schrägstrich wird "stroke" gesprochen
 </note>
+
 ---
 [question:BD213]
 <note>
@@ -72,16 +75,20 @@ Die Trennung mit dem Schrägstrich wird "stroke" gesprochen
 * Deutsches Klasse-A-Rufzeichen erhält Schweizer HAREC Präfix
 * HAREC wird ein paar Folien später erklärt
 </note>
+
 ---
+
 ## Auslandsbetrieb mit Klasse N
 Nicht erlaubt
 
 <note>
 Deutschland hat die Klasse N noch nicht bei der CEPT als Entry Level License gemeldet
 </note>
+
 ---
 [question:VB105]
 ---
+
 ## Ausländische Funkamateure in Deutschland
 * Gegenseitige CEPT-Regelungen
 * Vorübergehender Funkbetrieb bis 3 Monate
@@ -93,11 +100,13 @@ Deutschland hat die Klasse N noch nicht bei der CEPT als Entry Level License gem
 ---
 [question:BD212]
 ---
+
 ## Klubstationen
 * CEPT-Regelungen gelten nur für persönliche Rufzeichen
 * Klubstationen bedürfen einer Gastgenehmigung
 
 ---
+
 ## Gastzulassung
 * In Ländern, in denen die CEPT-Empfehlung nicht angewandt wird
 * Bei der Behörde des Gastlandes beantragen
@@ -106,11 +115,13 @@ Deutschland hat die Klasse N noch nicht bei der CEPT als Entry Level License gem
 <note>
 Hier hilft das DARC-Auslandsreferat seinen Mitgliedern
 </note>
+
 ---
 [question:VB114]
 ---
 [question:VB113]
 ---
+
 ## Nationale Regelungen
 * In CEPT-Ländern gibt es unterschiedliche nationale Regelungen
 * z.B. ist das in Deutschland freigegebene $\qty{6}{\meter}$-Band im Ausland beschränkt
@@ -127,6 +138,7 @@ Beliebt:
 ---
 [question:VB112]
 ---
+
 ## Umzug ins Ausland
 * Wohnsitz länger als 3 Monate oder dauerhaft im Ausland
 * Vereinfachte Beantragung der Amateurfunkzulassung
