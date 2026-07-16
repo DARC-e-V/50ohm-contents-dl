@@ -28,12 +28,14 @@ Es gibt Länder in denen weiterhin eine Morseprüfung notwendig ist, wenn diese 
 | 1 | [morse:1] | 6 | [morse:6] | . | [morse:.] |
 | 2 | [morse:2] | 7 | [morse:7] | , | [morse:,] |
 | 3 | [morse:3] | 8 | [morse:8] | ? | [morse:?] |
-| 4 | [morse:4] | 9 | [morse:9] | = | [morse:=] |
+| 4 | [morse:4] | 9 | [morse:9] | - | [morse:-] |
+|  |  |  |  | @ | [morse:@] |
 [table:n_morsetelegrafie_morsecode_ziffern_satzzeichen:Morsecode (Ziffern und Satzzeichen)]
 
 %TODO: Update to correct notation when morse generator can handle "double-characters"
 | l:  | l:  |
 | Unterbrechung (BK) | [morse:BK] |
+| Trennung innerhalb eines Durchgangs (BT, =) | [morse:=] |
 | Ende des Durchgangs (AR)  | [morse:AR] |
 | Ende der Sendung (SK) | [morse:SK] |
 | Korrektur | [morse:HH] |
@@ -41,3 +43,14 @@ Es gibt Länder in denen weiterhin eine Morseprüfung notwendig ist, wenn diese 
 
 ---
 [question:VA304]
+---
+
+## Geschwindigkeit
+* Morsezeichen können unterschiedlich schnell gegeben werden
+* Gegenstelle nicht mit der Geschwindigkeit überfordern
+* Faustregel: Nicht schneller geben als die Gegenstelle und nicht schneller, als man selbst aufnehmen kann
+
+---
+[question:BE117]
+---
+[question:BE118]

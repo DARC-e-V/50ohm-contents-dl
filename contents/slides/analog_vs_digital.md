@@ -12,3 +12,9 @@ Bei der Informationsübertragung unterscheidet man grundsätzlich zwischen analo
 Digitus (lateinisch): Finger
 analogos (altgriechisch): entsprechend, gleichartig, verhältnismäßig, passend, ähnlich
 </note>
+
+---
+
+* Im Funk z.B. durch feste Amplitudenstufen (25 %, 50 %, 75 %, 100 %) erreichbar
+* Viele Übertragungsverfahren im Alltag arbeiten mittlerweile digital
+  * z.B. WLAN, LTE oder DVB

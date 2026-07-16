@@ -1,15 +1,3 @@
-## Funkfernschreiber
-<left>
-[photo:92:n_computersteuerung_funkfernschreiber:Funkfernschreiber]
-</left>
-<right>
-Die Abkürzung RTTY stammt von *radio teletype*
-</right>
-<note>
-RTTY ist ein digitales Übertragungsverfahren, das sich weiterhin Beliebtheit im Amateurfunk erfreut.
-</note>
-
----
 ## Betrieb
 
 <left>
@@ -26,6 +14,9 @@ RTTY ist ein digitales Übertragungsverfahren, das sich weiterhin Beliebtheit im
 </note>
 
 ---
+[question:NE401]
+
+---
 In einem Gespräch sieht dieses folgendermaßen aus:
 
 <qso>
@@ -40,7 +31,7 @@ BK QSL = VY 73 DE DL2AB SK
 Das QSO wird nach Erklärungen Abkürzungen Schritt für Schritt erläutert
 </note>
 
----
+--- style="font-size: smaller;"
 
 | l: Abkz. | l: Bedeutung |
 | BK | Unterbrechung der Sendung; Formlose Übergabe |
@@ -53,7 +44,7 @@ Das QSO wird nach Erklärungen Abkürzungen Schritt für Schritt erläutert
 | RPRT | Rapport (vom Englischen "Report") |
 [table:n_funkfernschreiben_abkuerzungen_1:Betriebliche Abkürzungen in der Telegrafie]
 
---- 
+--- style="font-size: smaller;"
 
 | l: Abkz. | l: Bedeutung |
 | RST | RST-Rapport |
@@ -115,9 +106,16 @@ Hier bin ich wieder. Ich bestätige den Empfang. Sehr viele Grüße von DL2AB. E
 Verstanden. Viele Grüße von DL1PZ. Ende der Verbindung.
 </fragment>
 
-
 ---
-[question:NE401]
+
+## Digitale Verfahren wie FT8 oder FT4
+* Funktionieren auch bei widrigen Funkbedingungen (niedrige Signalstärke im Vergleich zum Grundrauschen)
+* Dafür können nur ganz wenige Zeichen je Sendung übertragen werden
+* Abwicklung entsprechend noch kompakter
+
+<note>
+Andere digitale Verfahren übertragen auch Bilder oder Video, mit angepasster Betriebsabwicklung - das ist aber nicht prüfungsrelevant
+</note>
 
 ---
 [question:BB101]
@@ -133,20 +131,3 @@ Verstanden. Viele Grüße von DL1PZ. Ende der Verbindung.
 
 ---
 [question:BE112]
-
----
-## Morsetelegrafie
-* Auf die richtige Geschwindigkeit achten
-* Schnell gegebene Morsezeichen brauchen viel Übung zum Verstehen
-* Gegenstelle nicht mit der Geschwindigkeit überfordern
-* Faustregel: *Nicht schneller geben, als man selbst aufnehmen kann*
-
-<note>
-Es ist tatsächlich möglich und ein häufiger Anfängerfehler, in Morsetelegrafie schneller zu geben als man selbst verstehen kann.
-</note>
-
----
-[question:BE117]
-
----
-[question:BE118]
