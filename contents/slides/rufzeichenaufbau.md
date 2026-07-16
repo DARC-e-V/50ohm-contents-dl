@@ -8,10 +8,11 @@
 ---
 [question:VC116]
 ---
+
 ## Aufbau von Rufzeichen
 
 <left>
-[picture:654:n_amateurfunkstrationen_aufbau_rufzeichen:Aufbau Rufzeichen: DL1FLO, WZ6Y, K4EAX]
+[picture:654:n_amateurfunkstrationen_aufbau_rufzeichen:Aufbau Rufzeichen - K4EAX, WZ6Y, DL1FLO]
 </left>
 <right>
 Drei Teile:
@@ -35,18 +36,21 @@ Drei Teile:
 * Mitgliedsstaaten sollen dieses in nationales Recht umsetzen
 
 ---
+
 ## Präfixe Deutschland
 
 * DA bis DR
 * Y2 bis Y9
+  * früher DDR und werden nur noch sehr selten verwendet
 
 <note>
-* Y2 bis Y9 war früher DDR und werden heute nur noch sehr selten verwendet
-* Zuletzt bei der Amateurfunkweltmeisterschaft WRTC 2018
+* Y8 Zuletzt bei der Amateurfunkweltmeisterschaft WRTC 2018
 </note>
+
 ---
 [question:VA406]
 ---
+
 ## Personengebundene Rufzeichen Deutschland
 
 <left>
@@ -55,15 +59,16 @@ Drei Teile:
 * 2-3 Buchstaben Suffix
 </left>
 <right>
-| l |
-| DL1ABC |
-| DO5XYZ |
-| DA0RC |
-[table:n_amateurfunkstationen_rufzeichen_beispiele:Beispiel für personengebundene, deutsche Amateurfunkrufzeichen]
+Beispiele:
+* DL1ABC
+* DO5XYZ
+* DA0RC
 </right>
+
 ---
 [question:VD203]
 ---
+
 ## Weitere Rufzeichen
 
 * Fernbediente und automatisch arbeitende Amateurfunkstellen
@@ -72,16 +77,18 @@ Drei Teile:
 ---
 [question:VD202]
 ---
+
 ## Rufzeichenplan
 
 * In Deutschland durch die BNetzA
 * Nach [Rufzeichenplan](https://50ohm.de/rzp)
 * Verwendungszweck erkennbar anhand von Präfix, Ziffern und Suffix
 * Steht während der Prüfung zur Verfügung
+* Nach der Prüfung regelmäßig über Änderungen informieren
 
 <note>
 * Mit Dokument vertraut machen, da sehr hilfreich für etliche Fragen
-* Nach der Prüfung regelmäßig über Änderungen informieren
 </note>
+
 ---
 [question:VD201]

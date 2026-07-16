@@ -2,6 +2,7 @@ Beim Funken von einem Standort anders als dem in der Zulassungsurkunde angegeben
 <note>
 Die Angabe ist freiwillig. Kann aber für die Gegenstelle interessant sein, falls die Verbindung abbricht.
 </note>
+
 --- style="font-size: 0.7em;"
 | l: Zusatz | l: Gesprochen | l: Bedeutung |
 | am | aeronautisch mobil | An Bord eines Luftfahrzeugs, das sich im Flug befindet |
@@ -29,7 +30,9 @@ Es dürfen nur diese Zusätze verwendet werden. Keine anderen.
 [table:n_rufzeichenzusaetze_sprechweise:Sprechweise von Rufzeichenzusätzen, "Stroke" ist optional und kann weggelassen werden]
 
 </fragment>
+
 ---
+
 ## Aeronautisch Mobil
 * An Bord eines Luftfahrzeugs (Flugzeug, Heißluftballon, Zeppelin, o.ä.)
 * Muss sich komplett in der Luft befinden
@@ -43,6 +46,7 @@ Es dürfen nur diese Zusätze verwendet werden. Keine anderen.
 ---
 [question:VE705]
 ---
+
 ## Maritim Mobil
 * An Bord eines Wasserfahrzeugs (Motorboot, Segelyacht, o.ä.)
 * Außerhalb der 12-Meilen-Zone
@@ -56,6 +60,7 @@ Es dürfen nur diese Zusätze verwendet werden. Keine anderen.
 ---
 [question:VD115]
 ---
+
 ## Mobil
 * In einem Landfahrzeug wie Auto oder Zug
 * Oder an Bord eines Schiffs auf Binnengewässern
@@ -65,6 +70,7 @@ Es dürfen nur diese Zusätze verwendet werden. Keine anderen.
 ---
 [question:BD204]
 ---
+
 ## Portabel
 * Station vorübergehend an einem Standort, der nicht auf der Zuteilungsurkunde eingetragen ist
 * z.B. in der Natur
@@ -75,6 +81,7 @@ Es dürfen nur diese Zusätze verwendet werden. Keine anderen.
 ---
 [question:BD207]
 ---
+
 ## Remote
 * Betrieb an einer Remote-Station
 * Optional "/R" bzw. "/Remote"
@@ -82,6 +89,7 @@ Es dürfen nur diese Zusätze verwendet werden. Keine anderen.
 ---
 [question:BD208]
 ---
+
 ## Trainee
 * Bei Ausbildungsfunkbetrieb ist "/T" bzw. "/Trainee" verpflichtend
 * Alle anderen Zusätze sind freiwillig und können weggelassen werden

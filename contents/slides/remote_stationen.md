@@ -22,6 +22,7 @@
 ---
 [question:VD607]
 ---
+
 ## Betriebsmeldung
 * Remotebetrieb muss durch den Betreiber angezeigt werden
 * Mit Betriebsmeldung und Kontaktdaten an die BNetzA
@@ -30,6 +31,7 @@
 <note>
 * Die BNetzA möchte keine Störungen haben und deshalb einen Betreiber immer erreichen können
 </note>
+
 ---
 [question:VD602]
 ---
@@ -44,9 +46,11 @@
 <note>
 * z.B. bei Verbindungsverlust durch Netzabschaltung
 </note>
+
 ---
 [question:VD605]
 ---
+
 ## Berechtigte Funkamateure
 * Erlaubnis des Betreibers für Nutzung notwendig
 * Betreiber darf nur berechtigte Funkamateure die Remotestation nutzen lassen
@@ -54,6 +58,7 @@
 ---
 [question:VD606]
 ---
+
 ## Klubstationen
 * Klubstationen der Klasse A dürfen als Remotestation betrieben werden
 * Muss auf die Mitglieder der Gruppe von Funkamateuren begrenzt sein
@@ -63,6 +68,7 @@
 ---
 [question:VD609]
 ---
+
 ## Ausbildungsfunkbetrieb
 * Ist an einer Remotestation möglich
 * Es gelten die gleichen Regeln wie für den Ausbildungsbetrieb
