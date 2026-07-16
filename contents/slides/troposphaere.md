@@ -3,7 +3,7 @@
 </left>
 <right>
 * Besonderer Effekt in der Troposphäre (ca. $\qty{15}{\kilo\meter}$)
-* *Troposphärische Inversionsschichten* zwischen warmen und kalten Luftschichten
+* *Troposphärische Inversionsbildung* zwischen warmen und kalten Luftschichten
 * Führt zu erheblich größeren Reichweiten im VHF-Bereich ($\qtyrange{800}{1000}{\kilo\meter}$)
 * Tritt hauptsächlich im Frühjahr und Herbst auf
 </right>
