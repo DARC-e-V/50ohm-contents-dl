@@ -14,7 +14,7 @@ $d = \frac{\sqrt{\frac{Z_0}{4\pi}\cdot P_{\textrm{EIRP}}}}{E}$
 
 Dabei bezeichnet $Z_0$ den Feldwellenwiderstand des freien Raums. Wie wir im vorherigen Kapitel gesehen haben, nähert sich dieser mit zunehmendem Abstand von der Antenne dem Fernfeldwert
 
-$Z_0 = \qty{120\pi}{\ohm} \approx \qty{377}{\ohm}$
+$Z_0 \approx \qty{120\pi}{\ohm} \approx \qty{377}{\ohm}$
 
 an (vgl. Abbildung [ref:a_feldwellenwiderstand]). Setzen wir diesen Wert in den Ausdruck $\frac{Z_0}{4\pi}$ ein, erhalten wir:
 
