@@ -1,113 +1,35 @@
-%Um die Feldstärke einer Antenne im Fernfeld ($d>\frac \lambda {2 \pi}$) zu berechnen gibt es die folgende Näherungsformel:
+In der Klasse E haben wir bereits eine Näherungsformel kennengelernt, mit der sich der Sicherheitsabstand zu einer Antenne berechnen lässt:
 
-%$E=\frac{\sqrt{\qty{30}{\ohm} \cdot P_\mathrm{A} \cdot G_\mathrm{i}}} {d}=\frac {\sqrt{\qty{30}{\ohm} \cdot P_\mathrm{EIRP}}} d$
+$d = \frac{\sqrt{\qty{30}{\ohm}\cdot P_{\textrm{EIRP}}}}{E}$
 
-%mit der Leistung an der Antenne $P_\mathrm{A}$, dem Gewinnfaktor bezogen auf den Isotropen Strahler %$G_\mathrm{i}$, und dem Abstand $d$
+Diese Formel kann für viele Antennenformen angewendet werden, wenn die Bedingung
 
-%Für den Gewinnfaktor von Antennen ist gegeben:
+$d > \frac{\lambda}{2\pi}$
 
-%$G_\mathrm{i}=G_\mathrm{d} \cdot 1,64$ 
+erfüllt ist, wir uns also außerhalb des reaktiven Nahfelds befinden. Im Folgenden betrachten wir, woher diese Einschränkung und der in der Formel auftretende Wert von $\qty{30}{\ohm}$ stammen.
 
-%bzw.
+In allgemeiner Form lautet die Näherungsformel:
 
-%$g_\mathrm{i} = g_\mathrm{d}+2,15\text{ dB}$
+$d = \frac{\sqrt{\frac{Z_0}{4\pi}\cdot P_{\textrm{EIRP}}}}{E}$
 
-%Es ist in der Prüfung der Grenzwert für den Personenschutzabstand angegeben. Um den Personenschutzabstand dann zu berechnen, muss daher die Formel umgestellt werden zu
+Dabei bezeichnet $Z_0$ den Feldwellenwiderstand des freien Raums. Wie wir im vorherigen Kapitel gesehen haben, nähert sich dieser mit zunehmendem Abstand von der Antenne dem Fernfeldwert
 
-%$d=\frac{\sqrt{\qty{30}{\ohm} \cdot P_\mathrm{A} \cdot G_\mathrm{i}}} {E}$
+$Z_0 \approx \qty{120\pi}{\ohm} \approx \qty{377}{\ohm}$
 
-%Jedoch ist meist nicht die Leistung an der Antenne angegeben, und genauso wenig der Gewinn gegenüber einem Isotropen Strahler. Entsprechend muss dies mit berücksichtigt werden. Dies ergibt dann:
+an (vgl. Abbildung [ref:a_feldwellenwiderstand]). Setzen wir diesen Wert in den Ausdruck $\frac{Z_0}{4\pi}$ ein, erhalten wir:
 
-%$d=\dfrac{\sqrt{\qty{30}{\ohm} \cdot P_\mathrm{Transceiver} \cdot G_\mathrm{Kabel} \cdot G_\mathrm{d} \cdot 1,64}} {E}$
+$\frac{Z_0}{4\pi} \approx \frac{\qty{120\pi}{\ohm}}{4\pi} = \qty{30}{\ohm}$
 
-%Mit der Leistung am Transceiver $P_\mathrm{Transceiver}$, dem "Gewinn" des Kabels $G_\mathrm{Kabel}$ (hier entsprechend mit negativem Vorzeichen einsetzen) und dem Gewinn gegenüber dem Dipol $G_\mathrm{d}$.
+Damit ergibt sich die aus der Klasse E bekannte Näherungsformel. Gleichzeitig wird deutlich, weshalb sie nicht im reaktiven Nahfeld verwendet werden darf: Dort ist der Feldwellenwiderstand nicht konstant, sondern hängt stark vom Abstand, von der Antennenform und von der betrachteten Richtung ab. Für Berechnungen im reaktiven Nahfeld, also für Abstände $d \le \frac{\lambda}{2\pi}$, sind daher in der Regel ausführlichere Rechnungen, numerische Simulationen oder Messungen erforderlich. 
 
-%Der "Gewinn" des Kabels kann z.B. berechnet werden für ein Kabel mit einer Dämpfung von $2 \text{ dB}$:
-%$G_\mathrm{Kabel} = 10^{\frac {-2 \text{ dB}} {10 \text{ dB}}} = 10^{-0,2}= 0,631$
+<margin>
+[picture:1116:a_feldwellenwiderstand:Verlauf des Feldwellenwiderstands über die Bereiche Nahfeld und Fernfeld (logarithmisch).]
+</margin>
 
-% DD4UQ
-Bei der Anzeige einer ortsfesten Amateurfunkanlage können die Sicherheitsabstände nach verschiedenen Verfahren ermittelt werden. Eine davon ist die Fernfeldberechnung. 
-Für die Berechnung braucht man die Sendeleistung ($P_\mathrm{S}$), den Gewinnfaktor der Antenne bezogen auf den isotropen Strahler ($G_\mathrm{i} = 1,64$) und den Grenzwert für die Feldstärke $(E = \qty{28}{\volt\per\meter})$ im Fernfeld einer Antenne. Die Wellenlänge ($\qty{10}{\meter}$) ist nur angebeben um den Beginn des Fernfeldes zu ermitteln.
+Wird die Fernfeld-Näherungsformel bei einer Dipolantenne bereits im strahlenden Nahfeld angewendet, ergibt sich in der Regel ein größerer Sicherheitsabstand als tatsächlich erforderlich. Der Feldwellenwiderstand liegt dort unterhalb von $\qty{377}{\ohm}$, während die Näherungsformel mit dem höheren Fernfeldwert rechnet. Das Ergebnis ist daher konservativ und liegt auf der sicheren Seite. Diese Vorgehensweise wird von der Bundesnetzagentur akzeptiert.
 
-$\begin{split} d &=\dfrac{\sqrt{\qty{30}{\ohm} \cdot P_\mathrm{A} \cdot G_\mathrm{i}}}{E}\\ d &=\dfrac{\sqrt{\qty{30}{\ohm} \cdot \qty{100}{\watt} \cdot 1,64}}{\qty{28}{\volt\per\meter}}\\ d &\approx \qty{2,50}{\meter}\end{split}$
+Für magnetische Antennen und elektrisch sehr kurze Antennen gilt dies jedoch nicht. Abbildung [ref:a_feldwellenwiderstand] zeigt beispielsweise, dass der Feldwellenwiderstand einer magnetischen Loop-Antenne im strahlenden Nahfeld deutlich über $\qty{377}{\ohm}$ liegen kann. Die Fernfeld-Näherungsformel würde in diesem Fall einen zu kleinen Sicherheitsabstand ergeben. Deshalb müssen für solche Antennen andere Verfahren eingesetzt werden, beispielsweise spezielle Programme zur Nahfeldberechnung (Simulationen) oder Messungen.
 
-Ist der Abstand im Fernfeld (strahlenden Nahfeld)?
+[question:AK103]
 
- $\begin{split}d &= \dfrac{\lambda}{2 \cdot \pi}\\ d &= \dfrac{\qty{10}{\meter}}{2 \cdot \pi}\\ d &\approx \qty{1,59}{\meter}\end{split}$
- 
- Der Sicherheitsabstand von $\qty{2,50}{\meter}$ liegt deutlich im Fernfeld (strahlenden Nahfeld) und ist damit gültig.
-
-[question:AK106]
-
-Die Frage AK108  ähnelt der vorherigen Frage. Hier muss zusätzlich die Kabeldämpfung beachtet werden. 
-
-Hier bietet sich an, erst die EIRP zu berechnen.
-
-$P_\mathrm{EIRP} = P_\mathrm{S} \cdot {10^\dfrac{g_\mathrm{d}  −  a  +  \qty{2,15}{\dB}}{\qty{10}{\dB}}}$
-Bei einer Richtantenne muss der Wert für $g_\mathrm{d}$ angegeben werden. Ein einfacher Dipol hat nur einen Gewinn in Bezug auf einen isotropen Strahler. Hier ist  $g_\mathrm{d} = \qty{0}{\dBd}$.
-$\begin{split}P_\mathrm{EIRP} &= \qty{300}{\watt}\cdot {10^\dfrac{\qty{0}{\dBd} −  \qty{0,5}{\dB} +  \qty{2,15}{\dB}}{\qty{10}{\dB}}}\\ P_\mathrm{EIRP} &= \qty{300}{\watt}\cdot {10^\dfrac{\qty{1,65}{\dB}}{\qty{10}{\dB}}}\\ P_\mathrm{EIRP} &= \qty{300}{\watt}\cdot {10^{0,165}}\\ P_\mathrm{EIRP} &\approx \qty{438,65}{\watt}\end{split}$
-
-Nun kann der Sicherheitsabstand berechnet werden.
-
-$\begin{split} d &= \dfrac{\sqrt{\qty{30}{\ohm} \cdot P_\mathrm{EIRP}}}{E}\\ d &= \dfrac{\sqrt{\qty{30}{\ohm} \cdot \qty{438,65}{\watt}}} {\qty{28}{\volt\per\meter}}\\ d &\approx \qty{4,10}{\meter}\end{split}$
-
-Ist der Abstand im Fernfeld (strahlenden Nahfeld)?
-
- $\begin{split} d &= \dfrac{\lambda}{2 \cdot \pi}\\ d &= \dfrac{\qty{20}{\meter}}{2 \cdot \pi}\\ d &\approx \qty{3,18}{\meter}\end{split}$
- 
- Der Sicherheitsabstand von $\qty{4,10}{\meter}$ liegt auch hier im Fernfeld (strahlenden Nahfeld) und ist damit gültig.
-
-[question:AK108]
-
-Hier kann genauso vorgegangen werden, wie bei der vorherigen Frage.
-$\begin{split} P_\mathrm{EIRP} &= P_\mathrm{S} \cdot {10^\dfrac{g_\mathrm{d}  −  a  +  \qty{2,15}{\dB}}{\qty{10}{\dB}}}\\ P_\mathrm{EIRP} &= \qty{700}{\watt}\cdot {10^\dfrac{\qty{0}{\dBd} −  \qty{0,5}{\dB} +  \qty{2,15}{\dB}}{\qty{10}{\dB}}}\\ P_\mathrm{EIRP} &= \qty{700}{\watt}\cdot {10^\dfrac{\qty{1,65}{\dB}}{\qty{10}{\dB}}}\\ P_\mathrm{EIRP} &= \qty{700}{\watt}\cdot {10^{0,165}}\\ P_\mathrm{EIRP} &\approx \qty{1023,52}{\watt}\end{split}$
-
-$\begin{split} d & =\dfrac{\sqrt{\qty{30}{\ohm} \cdot P_\mathrm{EIRP}}}{E}\\ d &= \dfrac{\sqrt{\qty{30}{\ohm} \cdot \qty{1023,52}{\watt}}} {\qty{28}{\volt\per\meter}}\\ d &\approx \qty{6,26}{\meter}\end{split}$
-
-[question:AK109]
-
-Bei der nächsten Frage muss der Sicherheitsabstand für ein Richtantenne berechnet werden. Der Gewinn $g_\mathrm{d} = \qty{11,5}{\dBd}$.
-
-$\begin{split} P_\mathrm{EIRP} &= P_\mathrm{S} \cdot {10^\dfrac{g_\mathrm{d}  −  a  +  \qty{2,15}{\dB}}{\qty{10}{\dB}}}\\ P_\mathrm{EIRP} &= \qty{75}{\watt}\cdot {10^\dfrac{\qty{11,5}{\dB} −  \qty{1,5}{\dB} +  \qty{2,15}{\dB}}{\qty{10}{\dB}}}\\ P_\mathrm{EIRP} &= \qty{75}{\watt}\cdot {10^\dfrac{\qty{12,15}{\dB}}{\qty{10}{\dB}}}\\ P_\mathrm{EIRP} &= \qty{75}{\watt}\cdot {10^{1,215}}\\ P_\mathrm{EIRP} &\approx \qty{1230,44}{\watt}\end{split}$
-
-$\begin{split} d &= \dfrac{\sqrt{\qty{30}{\ohm} \cdot P_\mathrm{EIRP}}}{E}\\ d &= \dfrac{\sqrt{\qty{30}{\ohm} \cdot \qty{1230,44}{\watt}}} {\qty{28}{\volt\per\meter}}\\ d &\approx \qty{6,86}{\meter}\end{split}$
-
- Ist der Abstand im Fernfeld (strahlenden Nahfeld)?
-
- $\begin{split} d &= \dfrac{\lambda}{2 \cdot \pi}\\ d &= \dfrac{\qty{2}{\meter}}{2 \cdot \pi}\\ d &\approx \qty{0,32}{\meter}\end{split}$
- 
- Der Sicherheitsabstand von $\qty{6,86}{\meter}$ liegt auch hier im Fernfeld (strahlenden Nahfeld) und ist damit gültig.
-
-[question:AK110]
-
-Die Vorgehensweise ist analog der, der vorhergehenden Frage.
-
-$\begin{split} P_\mathrm{EIRP} &= P_\mathrm{S} \cdot {10^\dfrac{g_\mathrm{d}  −  a  +  \qty{2,15}{\dB}}{\qty{10}{\dB}}}\\ P_\mathrm{EIRP} &= \qty{100}{\watt}\cdot {10^\dfrac{\qty{10,5}{\dBd} −  \qty{1,5}{\dB} +  \qty{2,15}{\dB}}{\qty{10}{\dB}}}\\ P_\mathrm{EIRP} &= \qty{100}{\watt}\cdot {10^\dfrac{\qty{11,15}{\dBd}}{\qty{10}{\dB}}}\\ P_\mathrm{EIRP} &= \qty{100}{\watt}\cdot {10^{1,115}}\\ P_\mathrm{EIRP} &\approx \qty{1303,17}{\watt}\end{split}$
-
-$\begin{split} d &= \dfrac{\sqrt{\qty{30}{\ohm} \cdot P_\mathrm{EIRP}}}{E}\\ d &= \dfrac{\sqrt{\qty{30}{\ohm} \cdot \qty{1303,17}{\watt}}} {\qty{28}{\volt\per\meter}}\\ d &\approx \qty{7,1}{\meter}\end{split}$
-
-Der Sicherheitsabstand von $\qty{7,1}{\meter}$ liegt auch hier im Fernfeld (strahlenden Nahfeld).
-
-[question:AK111]
-
-Das $\qty{13}{\centi\meter}$-Band reicht von $\qtyrange{2320}{2450}{\mega\hertz}$. Für den Frequenzbereich $\qtyrange{2000}{300000}{\mega\hertz}$ ist der Grenzwert für die elektrische Feldstärke $\qty{61}{\volt\per\meter}$.
-
-$\begin{split} P_\mathrm{EIRP} &= P_\mathrm{S} \cdot {10^\dfrac{g_\mathrm{d}  −  a  +  \qty{2,15}{\dB}}{\qty{10}{\dB}}}\\ P_\mathrm{EIRP} &= \qty{40}{\watt}\cdot {10^\dfrac{\qty{18}{\dBd} −  \qty{2}{\dB} +  \qty{2,15}{\dB}}{\qty{10}{\dB}}}\\ P_\mathrm{EIRP} &= \qty{40}{\watt}\cdot {10^\dfrac{\qty{18,15}{\dB}}{\qty{10}{\dB}}}\\ P_\mathrm{EIRP} &= \qty{40}{\watt}\cdot {10^{1,815}}\\ P_\mathrm{EIRP} &\approx \qty{2612,52}{\watt}\end{split}$
-
-$\begin{split} d &= \dfrac{\sqrt{\qty{30}{\ohm} \cdot P_\mathrm{EIRP}}}{E}\\ d &= \dfrac{\sqrt{\qty{30}{\ohm} \cdot \qty{2612,52}{\watt}}} {\qty{61}{\volt\per\meter}}\\ d &\approx \qty{4,6}{\meter}\end{split}$
-
-Ist der Abstand im Fernfeld (strahlenden Nahfeld)?
-
-$\begin{split} d &= \dfrac{\lambda}{2 \cdot \pi}\\ d &= \dfrac{\qty{0,13}{\meter}}{2 \cdot \pi}\\ d &\approx \qty{0,02}{\meter}\end{split}$
-
-Der Sicherheitsabstand von $\qty{4,6}{\meter}$ liegt deutlich im Fernfeld (strahlenden Nahfeld).
-
-[question:AK112]
-
-<indepth>
-Warum wird in den Fragen in diesem Abschnitt auf Modulationsverfahren RTTY und FM hingewiesen?
-Bei der Anzeige einer ortsfesten Amateurfunkanlage (nach § 9, BEMFV) ist bei der Konfiguration der Umrechnungsfaktor $\textrm{Faktor}_\textrm{FmodPers}$ einzutragen.
-Mit dem Faktor wird die angegebene Spitzenleistung (PEP) in die mittlere Leistung $P$ umgerechnet. Die so korrigierte Leistung kann in die Fernfeldformel zur Berechnung des Personenschutzabstands eingesetzt werden. 
-
-RTTY und FM haben den Faktor $\num{1}$, so wie die meisten Modulationsverfahren.
-</indepth>
+Für die Berechnung der Personenschutzabstände kann im Fernfeld die bekannte Näherungsformel verwendet werden. Dadurch lassen sich aufwendige Messungen oder Simulationen häufig vermeiden. Besonders im Portabelbetrieb ermöglicht sie eine schnelle überschlägliche Abschätzung des erforderlichen Sicherheitsabstands.
