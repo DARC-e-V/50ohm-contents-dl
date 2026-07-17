@@ -1,7 +1,7 @@
 Bei der Berechnung von Sicherheitsabständen spielt die Winkeldämpfung bei Richtantennen eine wichtige Rolle. Die größte Strahlungsleistung wird in der Mitte der Strahlungskeule abgestrahlt. In den anderen Richtungen ist sie geringer. Ist die Antenne ausreichend hoch, strahlt die Antenne zum großen Teil über den <u>nicht</u> kontrollierbaren Bereich hinweg, also dem Bereich, in dem die Grenzwerte unbedingt eingehalten werden müssen. 
 
 <margin>
-[picture:950:a_richtantenne_personenschutz:In einem Winkel von 40° unterhalb der Achse der Hauptstrahlungskeule ist die Strahlungsleistung 6 dB geringer als bei dem Winkel 0°.]
+[picture:950:a_richtantenne_personenschutz:In einem Winkel von $\qty{40}{\degree}$ unterhalb der Achse der Hauptstrahlungskeule ist die Strahlungsleistung $\qty{6}{\decibel}$ geringer als bei dem Winkel $\qty{0}{\degree}$.]
 </margin>
 
 In der Abbildung [ref:a_richtantenne_personenschutz] ist im kritischen Winkel von $\qty{40}{\degree}$ unterhalb der Antenne ein nicht kontrollierbarer Bereich dargestellt, in dem sich Personen aufhalten können. Die Strahlungsleistung ist dort um $\qty{6}{\dB}$ niedriger als in der Mitte des Strahlungsdiagramms. Die direkte Folge ist, dass dort der Sicherheitsabstand entsprechend geringer sein kann.
