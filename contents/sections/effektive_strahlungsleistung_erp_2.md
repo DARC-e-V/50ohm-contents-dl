@@ -16,7 +16,7 @@ Erst diese tatsächlich zugeführte Leistung wird anschließend mit dem Antennen
 
 [question:AK104]
 
-Bei der nächsten Frage ist unbedingt auf die Rechenzeichen zu achten. Die Verluste werden von der Sendeleistung subtrahiert und danach mit dem Gewinnfaktor ($G_{Antenne}$) multipliziert.
+Bei der nächsten Frage ist unbedingt auf die Rechenzeichen zu achten. Die Verluste werden von der Sendeleistung subtrahiert und danach mit dem Gewinnfaktor ($G_\mathrm{Antenne}$) multipliziert.
 Da die ERP berechnet werden soll, muss der Bezug auf einen Halbwellendipol erfolgen.
 
 [question:AG502]
