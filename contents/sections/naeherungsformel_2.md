@@ -18,7 +18,7 @@ $Z_0 = \qty{120\pi}{\ohm} \approx \qty{377}{\ohm}$
 
 an (vgl. Abbildung [ref:a_feldwellenwiderstand]). Setzen wir diesen Wert in den Ausdruck $\frac{Z_0}{4\pi}$ ein, erhalten wir:
 
-$\frac{Z_0}{4\pi} = \frac{\qty{120\pi}{\ohm}}{4\pi} = \qty{30}{\ohm}$
+$\frac{Z_0}{4\pi} \approx \frac{\qty{120\pi}{\ohm}}{4\pi} = \qty{30}{\ohm}$
 
 Damit ergibt sich die aus der Klasse E bekannte Näherungsformel. Gleichzeitig wird deutlich, weshalb sie nicht im reaktiven Nahfeld verwendet werden darf: Dort ist der Feldwellenwiderstand nicht konstant, sondern hängt stark vom Abstand, von der Antennenform und von der betrachteten Richtung ab. Für Berechnungen im reaktiven Nahfeld, also für Abstände $d \le \frac{\lambda}{2\pi}$, sind daher in der Regel ausführlichere Rechnungen, numerische Simulationen oder Messungen erforderlich. 
 
