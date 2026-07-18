@@ -21,8 +21,14 @@
 
 ### Schrittweite (Quantisierungsintervall)
 
-* Die Schrittweite berechnet sich aus dem Spannungsbereich geteilt durch die Anzahl der Stufen  
-* Beispiel: Bei $\num{16}$ Stufen und einem Bereich von $\qty{0}{\volt}$ bis $\qty{1}{\volt}$ ergibt sich eine Schrittweite von ca. $\qty{6,25}{\milli\volt}$
+* Die Schrittweite berechnet sich aus dem Spannungsbereich geteilt durch die Anzahl der Stufen minus Eins 
+* Beispiel: Bei $\num{16}$ Stufen und einem Bereich von $\qty{0}{\volt}$ bis $\qty{1}{\volt}$ ergibt sich eine Schrittweite von ca. $\qty{67}{\milli\volt}$
+
+<note>
+Der Zusammenhang ist auch als Zaunpfahlproblem bekannt:
+* Bei z. B. 10 Zaunpfählen gibt es nur 9 Zwischenräume
+* Wird auf die Länge des Zauns mit 10 Zwischenräumen gerechnet, ist der Zaun zu kurz oder es werden 11 Pfähle benötigt
+</note>
 
 ---
 
