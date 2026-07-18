@@ -1,10 +1,10 @@
 In der Klasse N haben wir bereits den isotropen Strahler (vgl. Abbildung [ref:e_Kugelstrahler]) kennengelernt. Der isotrope Strahler ist keine reale Antenne, er ist ein physikalisches Modell für einen Strahler, der die Energie in alle Richtungen des Raumes gleichmäßig abstrahlt. 
 
-Die Äquivalente Isotrope Strahlungsleistung (EIRP) einer realen Antenne bezieht sich auf den isotropen Strahler. Mit anderen Worten, die Strahlungsleistung einer realen Antenne wird mit der Strahlungsleistung des isotropen Strahlers verglichen. Für die abgestrahlte Leistung ist nur die Energie relevant, die tatsächlich an der Antenne ankommt. Durch Kabeldämpfung etc. kann die Leistung des Senders in der realen Welt nicht vollständig der Antenne zugeführt werden. Diese verlorene Leistung darf nicht in die Berechnung der Stahlungsleistung eingehen. Der Antennengewinn in der Vorzugsrichtung ist natürlich Teil der Rechnung. In Formeln bedeutet das:
+Die äquivalente isotrope Strahlungsleistung (EIRP) einer realen Antenne bezieht sich auf den isotropen Strahler. Mit anderen Worten, die Strahlungsleistung einer realen Antenne wird mit der Strahlungsleistung des isotropen Strahlers verglichen. Für die abgestrahlte Leistung ist nur die Energie relevant, die tatsächlich an der Antenne ankommt. Durch Kabeldämpfung etc. kann die Leistung des Senders in der realen Welt nicht vollständig der Antenne zugeführt werden. Diese verlorene Leistung darf nicht in die Berechnung der Stahlungsleistung eingehen. Der Antennengewinn in der Vorzugsrichtung ist natürlich Teil der Rechnung. In Formeln bedeutet das:
 
-$P_\text{EIRP} = (P_\text{Sender} - P_\text{Verluste}) \cdot G_\text{Antenne}$
+$P_\mathrm{EIRP} = (P_\mathrm{Sender} - P_\mathrm{Verluste}) \cdot G_\mathrm{Antenne}$
 
-Wobei $G$ hier den Antennengewinn darstellt. EIRP also ist das Produkt aus der Leistung, die unmittelbar der Antenne zugeführt wird, und ihrem Gewinn in einer Richtung, bezogen auf den isotropen Strahler.
+Wobei $G_\mathrm{Antenne}$ hier den Antennengewinn darstellt. EIRP also ist das Produkt aus der Leistung, die unmittelbar der Antenne zugeführt wird, und ihrem Gewinn in einer Richtung, bezogen auf den isotropen Strahler.
 
 <margin>
 [picture:751:e_Kugelstrahler:Isotroper Strahler in der Mitte einer Kugel, der an allen Stellen der Kugeloberfläche die gleiche Strahlungsleistung erzeugt]
@@ -16,7 +16,7 @@ Vor der Prüfung sollte man sich gut mit seinem Taschenrechner vertraut machen. 
 
 [question:EG501]
 
-Bei der nächsten Frage ist unbedingt auf die Rechenzeichen zu achten. Die Verluste werden von der Sendeleistung *subtrahiert* und danach mit dem Gewinnfaktor ($G_{Antenne}$) *multipliziert*. Da die EIRP berechnet werden soll, muss der Bezug auf den isotropen Strahler erfolgen.
+Bei der nächsten Frage ist unbedingt auf die Rechenzeichen zu achten. Die Verluste werden von der Sendeleistung *subtrahiert* und danach mit dem Gewinnfaktor ($G_\mathrm{Antenne}$) *multipliziert*. Da die EIRP berechnet werden soll, muss der Bezug auf den isotropen Strahler erfolgen.
 
 [question:EG502]
 
@@ -34,37 +34,37 @@ Die folgenden Fragen erfordern die Berechnung der EIRP. Hierfür kann entweder d
 
 Die Formel zur Berechnung der EIRP ergibt sich aus der Formelsammlung und lautet:
 
-$P_\text{EIRP} = P_\text{Sender} \cdot 10^{\frac{g_i-a}{\qty{10}{\dB}}}$
+$P_\mathrm{EIRP} = P_\mathrm{Sender} \cdot 10^{\frac{g_i-a}{\qty{10}{\dB}}}$
 
 <indepth>
-Man erhält die Formel für $P_\text{EIRP}$, indem man die Gewinnformel aus der Formelsammlung entsprechend umstellt:
+Man erhält die Formel für $P_\mathrm{EIRP}$, indem man die Gewinnformel aus der Formelsammlung entsprechend umstellt:
   
 $g = 10 \cdot \log_{10}\left(\frac{P_2}{P_1}\right) \unit{\dB}$
   
-Da zusätzlich eine Dämpfung $a$ berücksichtigt werden muss, wird diese vom Antennengewinn abgezogen. Für $P_1$ setzen wir die Senderleistung $P_\text{Sender}$ ein, da sie die Eingangsleistung darstellt, und für $P_2$ entsprechend $P_\text{EIRP}$, da dies die resultierende Ausgangsleistung ist.
+Da zusätzlich eine Dämpfung $a$ berücksichtigt werden muss, wird diese vom Antennengewinn abgezogen. Für $P_1$ setzen wir die Senderleistung $P_\mathrm{Sender}$ ein, da sie die Eingangsleistung darstellt, und für $P_2$ entsprechend $P_\mathrm{EIRP}$, da dies die resultierende Ausgangsleistung ist.
 
-$g-a = 10 \cdot \log_{10}\left(\frac{P_\text{EIRP}}{P_\text{Sender}}\right) \unit{\dB} \quad\quad\quad | : \qty{10}{\dB}$
+$g-a = 10 \cdot \log_{10}\left(\frac{P_\mathrm{EIRP}}{P_\mathrm{Sender}}\right) \unit{\dB} \quad\quad\quad | : \qty{10}{\dB}$
   
 Wir teilen auf beiden Seiten durch $\qty{10}{\dB}$:
   
-$\frac{g-a}{\qty{10}{\dB}} = \log_{10}\left(\frac{P_\text{EIRP}}{P_\text{Sender}}\right) \quad\quad\quad | 10^x$
+$\frac{g-a}{\qty{10}{\dB}} = \log_{10}\left(\frac{P_\mathrm{EIRP}}{P_\mathrm{Sender}}\right) \quad\quad\quad | 10^x$
   
 Danach wenden wir auf beiden Seiten $10^x$ an um den Logarithmus aufzulösen:
   
-$10^{\frac{g-a}{\qty{10}{\dB}}} = \frac{P_\text{EIRP}}{P_\text{Sender}} \quad\quad\quad | \cdot P_\text{Sender}$
+$10^{\frac{g-a}{\qty{10}{\dB}}} = \frac{P_\mathrm{EIRP}}{P_\mathrm{Sender}} \quad\quad\quad | \cdot P_\mathrm{Sender}$
   
-Durch Multiplikation von $P_\text{Sender}$ ergibt sich die benötigte Formel:
+Durch Multiplikation von $P_\mathrm{Sender}$ ergibt sich die benötigte Formel:
   
-$P_\text{EIRP} = P_\text{Sender} \cdot 10^{\frac{g_i-a}{\qty{10}{\dB}}}$
+$P_\mathrm{EIRP} = P_\mathrm{Sender} \cdot 10^{\frac{g_i-a}{\qty{10}{\dB}}}$
 </indepth>
 
 Dabei ist $g_i$ der Antennengewinn bezogen auf den isotropen Strahler, während $a$ die Dämpfung durch Kabel und Anpassgeräte beschreibt.
 
 [question:EG503]
 
-Der erste Rechenweg nutz die oben angesprochene Formel. Da es keine Leistungsverluste gibt ist die Dämpfung $a=0$ und die Formel vereinfacht sich zu: 
+Der erste Rechenweg nutzt die oben angesprochene Formel. Da es keine Leistungsverluste gibt ist die Dämpfung $a=0$ und die Formel vereinfacht sich zu: 
 
-$P_\text{EIRP} = P_\text{Sender} \cdot 10^{\frac{g_i-a}{\qty{10}{\dB}}}= \qty{250}{\milli\watt} \cdot 10^{\frac{\qty{26}{\dBi}}{\qty{10}{\dB}}}= \qty{250}{\milli\watt} \cdot 398 \approx \qty{100}{\watt}$
+$P_\mathrm{EIRP} = P_\mathrm{Sender} \cdot 10^{\frac{g_i-a}{\qty{10}{\dB}}}= \qty{250}{\milli\watt} \cdot 10^{\frac{\qty{26}{\dBi}}{\qty{10}{\dB}}}= \qty{250}{\milli\watt} \cdot 398 \approx \qty{100}{\watt}$
 
 ---
 
@@ -87,7 +87,7 @@ $\qty{26}{\dBi} = \qty{20}{\dBi} + \qty{6}{\dB}$
 
 Für $\qty{20}{\dB}$ ist in der Tabelle ein Leistungsfaktor von $\num{100}$ angegeben, für $\qty{6}{\dB}$ ein Faktor von $\num{4}$. Damit lässt sich die äquivalente isotrope Strahlungsleistung sehr einfach berechnen:
 
-$P_\text{EIRP} = \qty{250}{\milli\watt} \cdot 100 \cdot 4 = \qty{100}{\watt}$
+$P_\mathrm{EIRP} = \qty{250}{\milli\watt} \cdot 100 \cdot 4 = \qty{100}{\watt}$
 
 Die richtige Antwort ist also $\qty{100}{\watt}$ EIRP.
 
@@ -107,17 +107,17 @@ Für viele Funkamateure ist es schwierig den notwendigen Sicherheitsabstand bei 
 
 Die in dieser Frage angegebene Vertikalantenne hat einen Gewinn von $g=\qty{5,15}{\dBi}$, die Kabelverluste werden vernachlässigt d.h. $a = 0$. Hätte die Antenne keinen Gewinn ($\qty{0}{\dBi}$) müsste die Sendeleistung einfach auf maximal $\qty{10}{\watt}$ beschränkt werden. Die Strahlungsleistung wäre dann nur $\qty{10}{\watt}$ EIRP. Da aber ein Antennengewinn von $\qty{5,15}{\dBi}$ vorhanden ist, muss die Sendeleistung entsprechend abgesenkt werden. Die Sendeleistung muss mindesten $\qty{5,15}{\dB}$ geringer als $\qty{10}{\watt}$ sein.
 
-Auch hier gibt es wieder zwei mögliche Rechenwege. Beginnen wir mit dem Weg über die bekannte Formel. In dieser Aufgabe ist jedoch nicht die Strahlungsleistung $P_\text{EIRP}$ gesucht, sondern die Sendeleistung $P_\text{Sender}$. Daher müssen wir die Formel entsprechend umstellen:
+Auch hier gibt es wieder zwei mögliche Rechenwege. Beginnen wir mit dem Weg über die bekannte Formel. In dieser Aufgabe ist jedoch nicht die Strahlungsleistung $P_\mathrm{EIRP}$ gesucht, sondern die Sendeleistung $P_\mathrm{Sender}$. Daher müssen wir die Formel entsprechend umstellen:
 
-$P_\text{EIRP} = P_\text{Sender} \cdot 10^{\frac{g_i-a}{\qty{10}{\dB}}} \quad\quad\quad | : 10^{\frac{g_i-a}{\qty{10}{\dB}}}$
+$P_\mathrm{EIRP} = P_\mathrm{Sender} \cdot 10^{\frac{g_i-a}{\qty{10}{\dB}}} \quad\quad\quad | : 10^{\frac{g_i-a}{\qty{10}{\dB}}}$
 
 So ergibt sich:
 
-$ P_\text{Sender} = \frac{P_\text{EIRP}}{10^{\frac{g_i-a}{\qty{10}{\dB}}}} $
+$ P_\mathrm{Sender} = \frac{P_\mathrm{EIRP}}{10^{\frac{g_i-a}{\qty{10}{\dB}}}} $
 
 Wir setzen die Werte ein:
 
-$ P_\text{Sender} = \frac{\qty{10}{\watt}}{10^{\frac{\qty{5,15}{\dBi}}{\qty{10}{\dB}}}} = \frac{\qty{10}{\watt}}{3,27} \approx \qty{3,05}{\watt} $
+$ P_\mathrm{Sender} = \frac{\qty{10}{\watt}}{10^{\frac{\qty{5,15}{\dBi}}{\qty{10}{\dB}}}} = \frac{\qty{10}{\watt}}{3,27} \approx \qty{3,05}{\watt} $
 
 Die Berechnung mit dem Taschenrechner ergibt $\qty{3,05}{\watt}$. Mit einer Begrenzung auf $\qty{3}{\watt}$ hält man den Grenzwert von kleiner $\qty{10}{\watt}$ EIRP ein.
 
@@ -127,7 +127,7 @@ $\qty{5,15}{\dBi} = \qty{3}{\dBi} + \qty{2,15}{\dB}$
 
 zerlegen kann. In der Tabelle [ref:e_dezibel_leistungsfaktoren] findet man den Faktor für $\qty{2,15}{\dB}$ als $\num{1,64}$. Somit ergibt sich für die maximale Sendeleistung:
 
-$P_\text{Sender} = \frac{\qty{10}{\watt}}{2\cdot 1,64} = \frac{\qty{10}{\watt}}{3,28} \approx \qty{3}{\watt}$
+$P_\mathrm{Sender} = \frac{\qty{10}{\watt}}{2\cdot 1,64} = \frac{\qty{10}{\watt}}{3,28} \approx \qty{3}{\watt}$
 
 Wie zu erwarten kommen wir hier zum gleichen Ergebnis. Mit $\qty{3}{\watt}$ ist man auf der sicheren Seite.
 
@@ -143,13 +143,13 @@ Für die nächste Frage muss man darauf achten, dass eine Dipol-Antenne verwende
 
 Der Gewinn einer Dipol-Antenne gegenüber dem Kugelstrahler beträgt $\qty{2,15}{\dB}$. Dies entspricht dem Faktor von $\num{1,64}$. Dies steht auch in der Formelsammlung:
 
-$P_\text{EIRP} = P_\text{ERP} + \qty{2,15}{\dB}$
+$P_\mathrm{EIRP} = P_\mathrm{ERP} + \qty{2,15}{\dB}$
 
 bzw. als Faktor:
 
-$P_\text{EIRP} = P_\text{ERP} \cdot 1,64$
+$P_\mathrm{EIRP} = P_\mathrm{ERP} \cdot 1,64$
 
-Wobei $P_\text{ERP}$ die Strahlungsleistung bezogen auf den Dipol darstellt. 
+Wobei $P_\mathrm{ERP}$ die Strahlungsleistung bezogen auf den Dipol darstellt. 
 
 Der Gewinn des Dipols beträgt $\qty{2,15}{\dBi}$, das entspricht hier exakt der Kabeldämpfung in der Frage. Beiden gleichen sich damit aus. Die Dipolantenne strahlt $\qty{75}{\watt}$ EIRP ab.
 
@@ -157,14 +157,14 @@ In der nächsten Frage ist auch wieder ein Dipol als Antenne vorgegeben.
 
 [question:EG507]
 
-Gesucht ist die äquivalente isotrope Strahlungsleistung $P_\text{EIRP}$. Zunächst muss die Kabeldämpfung berücksichtigt werden. Eine Dämpfung von $\qty{10}{\dB}$ entspricht einem Leistungsverhältnis von $\num{0,1}$. Mit diesem Dämpfungsfaktor sowie dem Antennengewinnfaktor des Dipols von $\num{1,64}$ lässt sich die Strahlungsleistung anschließend berechnen.
+Gesucht ist die äquivalente isotrope Strahlungsleistung $P_\mathrm{EIRP}$. Zunächst muss die Kabeldämpfung berücksichtigt werden. Eine Dämpfung von $\qty{10}{\dB}$ entspricht einem Leistungsverhältnis von $\num{0,1}$. Mit diesem Dämpfungsfaktor sowie dem Antennengewinnfaktor des Dipols von $\num{1,64}$ lässt sich die Strahlungsleistung anschließend berechnen.
 
-$P_\text{EIRP} = \qty{100}{\watt} \cdot 0,1 \cdot 1,64 = \qty{16,4}{\watt}$
+$P_\mathrm{EIRP} = \qty{100}{\watt} \cdot 0,1 \cdot 1,64 = \qty{16,4}{\watt}$
 
 
-Für die nächste Frage findet sich in der Formelsammlung auch direkt eine anwendbare Formel. Da wir eine Richtantenne haben deren Gewinn auf den Dipol angegeben ist (ERP) muss für die Berechnung von $P_\text{EIRP}$ noch $\qty{2,15}{\dB}$ addiert werden:
+Für die nächste Frage findet sich in der Formelsammlung auch direkt eine anwendbare Formel. Da wir eine Richtantenne haben deren Gewinn auf den Dipol angegeben ist (ERP) muss für die Berechnung von $P_\mathrm{EIRP}$ noch $\qty{2,15}{\dB}$ addiert werden:
 
-$P_\text{EIRP} = P_\text{Sender} \cdot 10^{\frac{g_d-a+\qty{2,15}{\dB}}{\qty{10}{\dB}}}$
+$P_\mathrm{EIRP} = P_\mathrm{Sender} \cdot 10^{\frac{g_d-a+\qty{2,15}{\dB}}{\qty{10}{\dB}}}$
 
 [question:EG508]
 
@@ -176,7 +176,7 @@ $\qty{-2}{\dB} + \qty{5}{\dB} + \qty{2,15}{\dB} = \qty{3}{\dB} + \qty{2,15}{\dB}
 
 Nun können wir die Faktoren wieder aus der Tabelle ablesen:
 
-$P_\text{EIRP} = \qty{5}{\watt} \cdot 2 \cdot 1,64 = \qty{16,4}{\watt}$
+$P_\mathrm{EIRP} = \qty{5}{\watt} \cdot 2 \cdot 1,64 = \qty{16,4}{\watt}$
 
 Auch die nächste Frage kann genauso gelöst werden. Man muss nur darauf achten, dass der Gewinn bezogen auf den Dipol gegeben ist. 
 
@@ -188,7 +188,7 @@ $\qty{-1}{\dB} + \qty{11}{\dB} + \qty{2,15}{\dB} = \qty{10}{\dB} + \qty{2,15}{\d
 
 Nun können wir die Faktoren wieder aus der Tabelle ablesen:
 
-$P_\text{EIRP} = \qty{0,6}{\watt} \cdot 10 \cdot 1,64 = \qty{9,8}{\watt}$
+$P_\mathrm{EIRP} = \qty{0,6}{\watt} \cdot 10 \cdot 1,64 = \qty{9,8}{\watt}$
 
 In der nächsten Frage ist eine Antenne mit einem Gewinn von $\qty{0}{\dB}$ auf den Dipol bezogen angegeben. Das bedeutet nichts anderes als, dass es sich bei dieser Antenne um einen Dipol handelt. 
 
@@ -196,6 +196,6 @@ In der nächsten Frage ist eine Antenne mit einem Gewinn von $\qty{0}{\dB}$ auf 
 
 Hier kann wieder die Formel aus der Formelsammlung verwendet werden:
 
-$P_\text{EIRP} = P_\text{Sender} \cdot 10^{\frac{g_d-a+\qty{2,15}{\dB}}{\qty{10}{\dB}}} = \qty{8,5}{\watt} \cdot 10^{\frac{\qty{0}{\dB}-\qty{1,5}{\dB}+\qty{2,15}{\dB}}{\qty{10}{\dB}}} = \qty{9,9}{\watt}$
+$P_\mathrm{EIRP} = P_\mathrm{Sender} \cdot 10^{\frac{g_d-a+\qty{2,15}{\dB}}{\qty{10}{\dB}}} = \qty{8,5}{\watt} \cdot 10^{\frac{\qty{0}{\dB}-\qty{1,5}{\dB}+\qty{2,15}{\dB}}{\qty{10}{\dB}}} = \qty{9,9}{\watt}$
 
 Im Kopf kann man es auch überschlagen: Rechnet man wieder den Gesamtgewinn des Systems aus, so beträgt dieser nur $\qty{0,65}{\dB}$, also nicht einmal $\qty{1}{\dB}$. $\qty{1}{\dB}$ entspricht, laut unserer Tabelle [ref:e_dezibel_leistungsfaktoren], einem Faktor von $\num{1,26}$. Der Zielwert muss also zwischen $\qty{8,5}{\watt}$ und $\qty{10,71}{\watt}$ liegen. Nur die $\qty{9,9}{\watt}$ kommen also in Frage.
