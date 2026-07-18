@@ -21,7 +21,7 @@
 
 ### Schrittweite (Quantisierungsintervall)
 
-* Die Schrittweite berechnet sich aus dem Spannungsbereich geteilt durch die Anzahl der Stufen minus Eins 
+* Die Schrittweite berechnet sich aus dem Spannungsbereich geteilt durch die Anzahl der Stufen *minus eins*
 * Beispiel: Bei $\num{16}$ Stufen und einem Bereich von $\qty{0}{\volt}$ bis $\qty{1}{\volt}$ ergibt sich eine Schrittweite von ca. $\qty{67}{\milli\volt}$
 
 <note>
