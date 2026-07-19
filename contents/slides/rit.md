@@ -2,7 +2,7 @@
 * Dazu den Regler *RIT* (Receiver Incremental Tuning) verwenden
   * Bei manchen Funkgeräten "Clarifier" oder "CLAR RX"
 * Beim Verstellen der *Sendefrequenz* versteht mich die Gegenstation schlecht
-* Ursache sind nicht ganz genaue Schwingkreise in Funkgeräten oder Frequenzanzeigefehler
+* Ursache sind nicht ganz genaue Oszillatoren in Funkgeräten oder Frequenzanzeigefehler
 * Ändern beide Stationen jedes Mal die Sendefrequenz entsteht "über das Band wandern"
 
 ---
