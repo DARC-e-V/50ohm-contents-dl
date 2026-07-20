@@ -19,6 +19,8 @@ Materialien lassen sich in drei Gruppen einteilen:
 
 <note>
 * Auch salziges Wasser kann Strom leiten
+* Leitfähigkeit hängt von der atomaren Struktur und der Menge frei beweglicher Elektronen ab
+* Der *Widerstand* ist das Gegenteil der Leitfähigkeit: gut leitende Materialien haben einen geringen, schlecht leitende einen hohen Widerstand
 </note>
 
 --- style="font-size: 0.7em;"

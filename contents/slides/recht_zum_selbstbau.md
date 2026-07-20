@@ -1,10 +1,7 @@
 * Sender und Sendeanlagen benötigen normalerweise eine behördliche Zulassung
 * Funkamateure sind davon ausgenommen
 * Sie sind berechtigt, *im Handel erhältliche, selbstgefertigte oder auf Amateurfunkfrequenzen umgebaute Sendeanlagen* zu betreiben
-
-<note>
-Dieses Privileg erhalten Funkamateure durch die technisch anspruchsvolle Prüfung
-</note>
+* Dieses Privileg erhalten Funkamateure durch die technisch anspruchsvolle Prüfung
 
 ---
 

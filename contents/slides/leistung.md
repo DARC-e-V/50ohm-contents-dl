@@ -6,6 +6,11 @@
 
 ---
 
+* Elektrische Leistung: Wie viel elektrische Energie in einer gewissen Zeit umgesetzt wird
+* Einheit der Leistung $P$ ist Watt ($\unit{\watt}$)
+
+---
+
 [question:NA204]
 ---
 [question:NA211]
@@ -31,6 +36,6 @@ $ I = \dfrac{P}{U} $
 ---
 [question:NB606]
 ---
-[question:NB604] 
+[question:NB604]
 ---
 [question:NB605]

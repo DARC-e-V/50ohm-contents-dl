@@ -1,3 +1,4 @@
+* Materialen, die nur unter bestimmten Umständen leiten können
 * Weisen Eigenschaften von Leitern als auch von Nichtleitern auf
 * Häufige Halbleiterelemente: Silizium oder Germanium
 
