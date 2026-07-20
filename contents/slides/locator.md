@@ -9,10 +9,15 @@
 
 ## Maidenhead-Locator
 
+<left>
 * Erdoberfläche wird in $\num{18662400}$ Kästchen eingeteilt
 * Ein Kästchen entspricht in Deutschland grob einer Genauigkeit von $\qty{5}{\kilo\meter}\times\qty{5}{\kilo\meter}$
 * Diese Kästchen werden Subsquares genannt
 * Übergeordnet sind Squares und Fields
+</left>
+<right>
+[photo:4:n_locator_welt:Maidenhead-Locator weltweit. Kartendaten © OpenStreetMap-Mitwirkende, SRTM. Kartendarstellung © OpenTopoMap (CC-BY-SA)]
+</right>
 
 <note>
 * nach der *Stadt Maidenhead* benannt, die westlich von London im Vereinigten Königreich liegt.
@@ -23,7 +28,7 @@
 [photo:2:n_locator_jo:Das Feld JO des Maidenhead-Locator-Systems, Kartendaten © OpenStreetMap-Mitwirkende, SRTM. Kartendarstellung © OpenTopoMap (CC-BY-SA)]
 
 <note>
-Es sind die Fields des Squares JO gezeigt
+Es sind die Squares des Feldes JO gezeigt
 </note>
 
 --- style="font-size: 0.7em;"

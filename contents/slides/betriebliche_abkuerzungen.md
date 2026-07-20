@@ -1,3 +1,11 @@
+---
+* Viele Abkürzungen stammen aus der Morsetelegrafie, da sie schneller zu senden sind als ausgeschriebene Wörter
+* Viele Abkürzungen sind in den Radio Regulations (RR) festgelegt
+  * Betriebliche Abkürzungen für Morsetelegrafie
+  * Q-Schlüssel (nächster Abschnitt)
+* Längst auch in der Telefonie und im allgemeinen Sprachgebrauch unter Funkamateuren gebräuchlich
+* Oftmals zurückzuführen auf Englische Begriffe
+
 --- style="font-size: 0.7em;"
 
 | c: Abkürzung | X: Bedeutung |
@@ -5,29 +13,15 @@
 | CQ | Allgemeiner Anruf (vom Englischen "Seek You") |
 | CW | *C*ontinuous *W*ave (Synonym für Morsetelegraphie) |
 | K | Aufforderung zum Senden ("*K*ommen") |
-| PSE | Bitte, *P*lea*se* | 
+| PSE | Bitte, *P*lea*se* |
 | R | Received (Empfangsbestätigung, *R*oger) |
 | RX | Receiver (Empfänger) |
-| TX | Transmitter (Sender) | 
+| TX | Transmitter (Sender) |
 | TRX | Transceiver (Sendeempfänger) |
 [table:n_abkuerzungen:Zusammenfassung der Abkürzungen]
-
-<note>
-* Ursprung in der Morsetelegrafie
-* Spart Zeit bei der Übertragung
-</note>
 
 ---
 [question:BB106]
 
 ---
 [question:BB107]
-
----
-[question:BB110]
-
----
-[question:BB109]
-
----
-[question:BB108]
