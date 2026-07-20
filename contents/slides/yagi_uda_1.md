@@ -4,6 +4,7 @@
 <right>
 * Vor und hinter dem Dipol werden leitende Stäbe geschickt angeordnet
 * Bündelt Funkwellen in eine bestimmte Richtung
+* Gehört zu den *Richtantennen* $\rightarrow$ wird auf die Gegenstation ausgerichtet
 </right>
 <note>
 * Bündelung vergleichbar mit Licht aus Taschenlampe

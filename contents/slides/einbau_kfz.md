@@ -2,7 +2,7 @@
 [photo:75:n_mobilfunkgeraet:Einbau des Bedienteils eines VHF/UHF-Funkgerätes in die Mittelkonsole eines PKW]
 </left>
 <right>
-* Wähend der Fahrt mit anderen Funkamateuren unterhalten
+* Während der Fahrt mit anderen Funkamateuren unterhalten
 * Tipps oder Verkehrsinformationen mitbekommen
 * Benutzung nur mit Freisprecheinrichtung
 </right>
@@ -26,8 +26,16 @@ Die Verkehrsinformationen kommen natürlich von anderen Funkamateuren, die ggf. 
 * Bordelektronik könnte gestört werden
 </note>
 
+---
+[question:NK308]
 
---- 
+---
+[question:NK310]
+
+---
+[question:NK309]
+
+---
 ## Achtung
 
 <left>
@@ -43,15 +51,6 @@ Die Verkehrsinformationen kommen natürlich von anderen Funkamateuren, die ggf. 
 * In einem späteren Kapitel mehr dazu
 * Sicherung am besten in Plus- und Minus-Leitung
 </note>
-
----
-[question:NK308]
-
----
-[question:NK310]
-
----
-[question:NK309]
 
 ---
 [question:NK307]

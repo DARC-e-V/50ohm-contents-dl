@@ -1,4 +1,6 @@
-Einsatz: $\qty{2}{\meter}$-Band bis in den $\unit{\giga\hertz}$-Bereich
+* Einsatz: $\qty{2}{\meter}$-Band bis in den $\unit{\giga\hertz}$-Bereich, auch für hohe Leistungen
+* Schraubverbindung
+* Federkontakte um den Mittelstift für besonders gute Verbindung des Außenleiters
 
 <left>
 [photo:73:n_koaxsteckverbinder_n_buchse_und_stecker:N-Einbaubuchse und N-Stecker]
@@ -6,6 +8,10 @@ Einsatz: $\qty{2}{\meter}$-Band bis in den $\unit{\giga\hertz}$-Bereich
 <right>
 [photo:72:n_koaxsteckverbinder_n_stecker:Ein N-Stecker vor seiner Montage]
 </right>
+
+---
+
+Nie mit PL-Steckverbindern verwechseln! Ein PL-Stecker in einer N-Buchse kann diese zerstören!
 
 ---
 [question:NG204]

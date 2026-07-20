@@ -8,19 +8,24 @@
 * *Stecker*: Kontaktstift nach außen
 * *Kupplung*: Kontaktöffnung nach innen
 * Sonderform *Buchse*: In Gerät eingebaute Kupplung
+* Sonderform *Einbaustecker*: In Gerät eingebauter Stecker
 </right>
 
 ---
 
-Häufige Koaxialsteckverbinder im Amateurfunk
+### Häufige Koaxialsteckverbinder im Amateurfunk
 
 <left>
 * PL
 * N
-</left>
-<right>
 * BNC
 * SMA
+</left>
+<right>
+Abhängig vom Einsatzzweck
+* Frequenzbereich
+* Sendeleistung
+* Kabeltyp
 </right>
 
 <note>
@@ -40,6 +45,6 @@ Häufige Koaxialsteckverbinder im Amateurfunk
 * Ggf. auf Kurzschluss prüfen
 </left>
 <right>
-* Stecker passend zu Kabelstärke verwenden
-* Stecker passend zu Kabeldurchmesser verwenden
+* Stecker passend zu Kabeldurchmesser/-stärke verwenden
+* Gleicher Wellenwiderstand wie Koaxialkabel $\rightarrow$ vermeidet unerwünschte Reflexionen
 </right>

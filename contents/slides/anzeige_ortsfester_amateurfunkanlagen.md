@@ -1,9 +1,13 @@
-Für ortsfeste Amateurfunkstellen muss das Nachweisverfahren nur dann durchgeführt werden, wenn die Sendeanlage eine Strahlungsleistung von $\qty{10}{\watt}$ EIRP oder höher erreicht.
+Für ortsfeste Amateurfunkstellen muss das Nachweisverfahren nur dann durchgeführt werden, wenn die Sendeanlage eine Strahlungsleistung von *$\qty{10}{\watt}$ EIRP* oder höher erreicht.
 
-<note>
-* Klasse N: $\qty{10}{\meter}$-Band mit $\qty{10}{\watt}$ ERP
-* $\qty{10}{\watt}\text{ ERP} \cdot 1,64 = \qty{16,4}{\watt}$ EIRP
-</note>
+---
+
+* Erlaubt in Klasse N:
+  * $\qty{70}{\centi\meter}$-Band: *$\qty{10}{\watt}$ EIRP*
+  * $\qty{2}{\meter}$-Band: *$\qty{10}{\watt}$ EIRP*
+  * $\qty{10}{\meter}$-Band: $\qty{10}{\watt}$ ERP
+  * $\qty{10}{\watt}$ ERP $\cdot 1,64 =$ *$\qty{16,4}{\watt}$ EIRP*
+* Auch in Klasse N kann es notwendig werden, das Nachweisverfahren durchzuführen
 
 ---
 [question:VE508]
@@ -14,8 +18,14 @@ Für ortsfeste Amateurfunkstellen muss das Nachweisverfahren nur dann durchgefü
 ---
 ## Anzeige bei BNetzA
 
+<left>
+[photo:79:n_Deckblatt_Anleitung:Deckblatt der Anleitung]
+</left>
+<right>
 * vor der Aufnahme des Betriebs der ortsfesten Amateurfunkanlage
 * bei zuständiger Außenstelle der BNetzA
+* Die zuständige Außenstelle kann auf der Webseite der Bundesnetzagentur ermittelt werden
+</right>
 
 ---
 [question:VE509]
@@ -38,6 +48,10 @@ An der Funkstation liegend und auf Verlangen der BNetzA vorzulegen:
 * Bauzeichnung oder Skizze mit Bemaßung
 * Konfiguration der Funkanlage
 
+<note>
+Schlüsselwort für die richtige Antwort bei dieser und der nächsten Frage: "nachvollziehbar"
+</note>
+
 ---
 [question:VE512]
 
@@ -52,6 +66,10 @@ An der Funkstation liegend und auf Verlangen der BNetzA vorzulegen:
 
 * Fortlaufend prüfen, ob die Anlage gleich zu der in der Anzeige ist
 * Bei wesentlichen Änderungen erneute Anzeige durchführen
+
+<note>
+z.B. weiterer Antennenmast, Antennenwechsel oder höhere Sendeleistung mit größerem Abstand
+</note>
 
 ---
 [question:VE514]
@@ -77,6 +95,10 @@ Hilfsmittel:
 </right>
 
 ---
+
+[photo:80:n_Bewertungsverfahren:In diesem Dokument sind die Bewertungsverfahren beschrieben.]
+
+---
 [question:VE506]
 
 ---
@@ -85,7 +107,7 @@ Hilfsmittel:
 ---
 ## Mehrere Aussendungen gleichzeitig
 
-* Es können mehrere Funkamateure gleichzeitig an einer Anlage auf verschiedenen Frequenzen senden
+* Es können mehrere Aussendungen gleichzeitig an einer Anlage auf verschiedenen Frequenzen senden
 * In der Regel über verschiedene Antennen
 * Alle Antennen zusammen müssen für den Personenschutzabstand berücksichtigt werden
 
