@@ -1,28 +1,26 @@
+--- style="font-size: smaller;"
 ## Beim Senden
 
-<fragment>
 <left>
 Funkwellen von
-* von Antennen
-* von Transceivern
-* von Zuleitungen
+* Antennen
+* Transceivern
+* Zuleitungen
 </left>
-</fragment>
-<fragment>
 <right>
 Elektrische Schwingungen gelangen in andere Leitungen
-* Zerstörungen von anderen elektronischen Geräten
 * Geräusche aus Lautsprechern
-* Internetausfall
+* Internetausfall (z.B. WLAN)
+* Schwierigkeiten beim Radio- oder Fernsehempfang
 * Fehler in Heizungssteuerung
 </right>
-</fragment>
 
 ---
 
 ## Beim Senden
 
-Einhalten der Schutzanforderungen zur Gewährleistung der elektromagnetischen Verträglichkeit im Sinne des Gesetzes über die elektromagnetische Verträglichkeit von Betriebsmitteln (EMVG)
+* Einhalten der *Schutzanforderungen zur Gewährleistung der elektromagnetischen Verträglichkeit* im Sinne des *Gesetzes über die elektromagnetische Verträglichkeit von Betriebsmitteln (EMVG)*
+* Kein Gerät darf so starke Störungen erzeugen, dass andere Geräte nicht mehr funktionieren
 
 ---
 [question:VC118]
@@ -31,7 +29,9 @@ Einhalten der Schutzanforderungen zur Gewährleistung der elektromagnetischen Ve
 
 ## Beim Empfang
 
-Funkamateur darf Störfestigkeit der eigenen Geräte selbst bestimmen. Die Abweichung vom EMVG ist ein Privileg.
+* Geräte und Anlagen müssen eine gewisse Störfestigkeit aufweisen
+* Funkamateur darf Störfestigkeit der eigenen Geräte und Anlagen selbst bestimmen
+* Die Abweichung vom EMVG ist ein Privileg
 
 ---
 [question:VC120]
@@ -46,6 +46,8 @@ Zur Einhaltung der vorgeschriebenen elektromagnetischen Verträglichkeit (EMV)
 
 * Abschirmen
 * Erden
+
+von allen Geräten und Geräteteilen mit hochfrequenten Schwingungen.
 
 <fragment>
 Schutz vor Störungen in beide Richtungen

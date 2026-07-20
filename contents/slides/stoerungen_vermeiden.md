@@ -1,7 +1,7 @@
 ## Gründe für Störungen
 
 * Unerwünschte Frequenzanteile, die nicht ausreichend unterdrückt werden
-* Unzureichend abgeschirmte oder unzureichend geerdete Geräte 
+* Unzureichend abgeschirmte oder unzureichend geerdete Geräte
 * Die gewünschten Aussendungen selber
 
 ---
@@ -46,7 +46,7 @@
 ## Ursachenforschung
 
 * Prüfen auf Behebung mit eigenen Mitteln
-* Falls Ursache nicht ermittelt oder Störung nicht beseitigt werden kann $\rightarrow$ Nachbarn auf *Funkstörungsannahme der BNetzA* (24/7 Tel. 0228 14 15 16) hinweisen
+* Falls Ursache nicht ermittelt oder Störung nicht beseitigt werden kann $\rightarrow$ Nachbarn auf *Funkstörungsannahme der BNetzA* hinweisen
 
 <note>
 * Bei eigener Suche als DARC-Mitglied Hilfe beim Referat für elektromagnetische Verträglichkeit anfragen
@@ -76,6 +76,7 @@ Falls Amateurfunkaussendungen die Ursache der Probleme sind, wird in drei Fälle
 ### 1. Fall
 
 * Amateurfunkanlage wird *nicht vorschriftsmäßig* betrieben
+* Beispielsweise durch zu starke unerwünschte Aussendungen
 * Ggf. Anordnung einer kostenpflichtigen Betriebseinschränkung durch BNetzA
 * Möglich ist eine Begrenzung der Sendeleistung
 
@@ -114,7 +115,7 @@ Falls Amateurfunkaussendungen die Ursache der Probleme sind, wird in drei Fälle
 ---
 [question:VE304]
 
---- 
+---
 
 ## Anordnungen der BNetzA ohne Zusammenarbeit
 

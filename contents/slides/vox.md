@@ -1,4 +1,4 @@
-* Automatischer Sendebetrieb durch Spracherkennung statt PTT
+* Automatischer Sendebetrieb durch Sprechen statt PTT
 * *voice-operated exchange* (*VOX*)
 * Beim Sprechen schaltet Transceiver auf Sendung
 * Bei Stille endet der Sendebetrieb nach kurzer Verzögerung
