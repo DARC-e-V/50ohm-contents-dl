@@ -48,6 +48,16 @@
 * *Sekundärunfälle* wie einen Sturz, verursacht durch den hervorgerufenden Schreck oder eine Muskelverkrampfung
 * Zusätzlich *(Stör-)Lichtbogen* mit hellem Leuchten über die Luft möglich
 
+--- style="font-size: smaller;"
+
+### 5 Sicherheitsregeln in der Elektrotechnik
+
+1. *Freischalten*, z. B. Gerät ausschalten
+2. *Gegen Wiedereinschalten sichern*, z. B.  Stecker ziehen
+3. *Spannungsfreiheit feststellen*, z. B. mit einem Multimeter messen
+4. *Erden und Kurzschließen*, z. B. das Gehäuse und Zuleitungen erden
+5. *Benachbarte, unter Spannung stehende Teile abdecken oder abschranken* (findet bei einzelnen Geräten meist keine Anwendung)
+
 ---
 
 ### Gefahr beim Öffnen von Geräten
@@ -79,14 +89,4 @@ Der Arzt kann mit einem Elektrokardiogramm (EKG) den Herzschlag überprüfen
 ---
 
 [question:NK304]
-
---- style="font-size: smaller;"
-
-### 5 Sicherheitsregeln in der Elektrotechnik
-
-1. *Freischalten*, z. B. Gerät ausschalten
-2. *Gegen Wiedereinschalten sichern*, z. B.  Stecker ziehen
-3. *Spannungsfreiheit feststellen*, z. B. mit einem Multimeter messen
-4. *Erden und Kurzschließen*, z. B. das Gehäuse und Zuleitungen erden
-5. *Benachbarte, unter Spannung stehende Teile abdecken oder abschranken* (findet bei einzelnen Geräten meist keine Anwendung)
 

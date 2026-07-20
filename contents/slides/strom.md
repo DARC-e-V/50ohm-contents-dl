@@ -5,6 +5,10 @@
 * Je nach Spannung und Verbraucher fließt mehr oder weniger Strom
 * Die *elektrische Stromstärke* wird in Ampere ($\unit{\ampere}$) gemessen
 
+<note>
+Benannt nach dem französischen Physiker und Mathematiker André-Marie Ampère, der in den 1820er Jahren Spannung und Strom wissenschaftlich erklärte
+</note>
+
 ---
 
 [question:NA202]
