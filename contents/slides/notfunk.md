@@ -1,16 +1,19 @@
-### Dürfen Funkamateure helfen?
+### Hilfeleistung durch Funkamateure
 
-* Ja! Funkamateure dürfen in Not- und Katastrophenfällen durch Übermittlung von Nachrichten für und an Dritte bei der Bewältigung einer Notlage unterstützen.
-
----
-
-[question:BF103]
+* Funkamateure dürfen in Not- und Katastrophenfällen durch Übermittlung von Nachrichten für und an Dritte bei der Bewältigung einer Notlage unterstützen
+* Es besteht sogar eine *Pflicht zur Hilfeleistung*: Unterlassene Hilfeleistung ist nach § 323c StGB strafbar
 
 ---
 
-### Was  tun, wenn man eine Notmeldung erhält?
+### Verhalten bei einer Notmeldung
 
-* Bei einer Notmeldung sollte man zunächst aufmerksam zuhören und alle wichtigen Informationen notieren.
+* Bei einer Notmeldung sollte man zunächst aufmerksam zuhören und alle wichtigen Informationen notieren
+* Hilfreich sind dabei die *5 W-Fragen*:
+  * *Wo* ist das Ereignis?
+  * *Wer* meldet es?
+  * *Was* ist geschehen?
+  * *Wie* viele Betroffene?
+  * *Warten* auf Rückfragen!
 
 ---
 
@@ -18,9 +21,10 @@
 
 ---
 
-### Was tun, wenn eine Rettungsorganisation sich der Sache annimmt?
+### Übernahme durch eine Rettungsorganisation
 
-* Wird die Notmeldung von einer Rettungsorganisation beantwortet, hält man sich zurück um den Funkbetrieb nicht zu stören.
+* Wird die Notmeldung von einer Rettungsorganisation beantwortet, hält man sich zurück um den Funkbetrieb nicht zu stören
+* Anweisungen der notrufenden Station oder einer Leitstation befolgen
 
 ---
 
@@ -28,9 +32,10 @@
 
 ---
 
-### Was tun, wenn zunächst niemand antwortet?
+### Falls zunächst niemand antwortet
 
-* Reagiert keine andere Funkstelle, beantwortet man den Ruf und informiert die Polizei oder Rettungsleitstelle.
+* Reagiert keine andere Funkstelle, beantwortet man den Ruf und informiert die Polizei oder Rettungsleitstelle
+* Meldung dabei vollständig und wörtlich weitergeben
 
 ---
 
@@ -38,18 +43,24 @@
 
 ---
 
-### Was tun, wenn man die zuständigen Stellen informiert hat?
+### Nach der Meldung an die zuständigen Stellen
 
-* Idealerweise bleibt man erreichbar und gibt Informationen weiter, bis Hilfe eingetroffen ist.
+* Idealerweise bleibt man erreichbar und gibt Informationen weiter, bis Hilfe eingetroffen ist
 
 ---
 [question:BF107]
 
 ---
 
-### Was ist bei internationaler Beteiligung zu beachten?
+### Internationale Beteiligung
 
-* Bei internationaler Beteiligung nutzt man UTC anstelle von lokaler Zeit.
+* Bei internationaler Beteiligung nutzt man UTC anstelle von lokaler Zeit
+  * Winterzeit: UTC = MEZ $-$ 1 Stunde, also MEZ = UTC + 1 Stunde
+  * Sommerzeit: UTC = MESZ $-$ 2 Stunden, also MESZ = UTC + 2 Stunden
+
+<note>
+Das Notfunkreferat des DARC stellt Empfehlungen für die Organisation von Notfallkommunikation bereit
+</note>
 
 ---
 
@@ -59,16 +70,11 @@
 
 ### Notzeichen
 
-* Die Notzeichen außerhalb des Amateurfunks sind SOS und Mayday, diese dürfen im Amateurfunk nicht verwendet werden.
-
-<note>
-* Es dürfen Notrufe abgesetzt werden.
-* Aber die Notzeichen SOS und MAYDAY sind dem See- und Flugfunk vorbehalten.
-</note>
-
----
-
-[question:VD105]
+* Die Notzeichen außerhalb des Amateurfunks sind SOS und MAYDAY
+  * Im Sprechfunk "Mayday", in der Telegrafie "SOS"
+* Dringlichkeits- und Sicherheitszeichen: PAN PAN und SÉCURITÉ
+* Diese Zeichen sind dem See- und Flugfunk vorbehalten und dürfen im Amateurfunk nicht verwendet werden
+* Es dürfen trotzdem Notrufe abgesetzt werden, z.B. mit den Begriffen "Notfall" oder "Emergency"
 
 ---
 
@@ -77,6 +83,14 @@
 ---
 
 [question:BF102]
+
+---
+
+[question:VD105]
+
+---
+
+[question:BF103]
 
 ---
 
@@ -93,7 +107,7 @@ Die IARU hat für die ITU-Region 1 die folgenden Notfunkfrequenzen in den Bandpl
 <note>
 Zusätzlich werden zum Beispiel bei Erdbeben von lokalen Organisationen weitere Frequenzen in den "Amateurfunkmedien" kommuniziert.
   </note>
-  
+
 ---
 
 [question:BF109]
