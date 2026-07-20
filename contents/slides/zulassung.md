@@ -1,17 +1,27 @@
-### Zulassung
+### Prüfungsbescheinigung
 
-* Neben einer erfolgreich abgelegten Amateurfunkprüfung ist eine "Zulassung zur Teilnahme am Amateurfunkdienst" unbedingt erforderlich, damit man eine Amateurfunkstelle betreiben darf.
-
-* Dieser Zulassung geht die Erteilung eines personengebundenen Rufzeichens einher.
-
-* Das Amateurfunkgesetz (AFuG) sieht kein Mindestalter vor.
+* Nach bestandener Prüfung erhält man einen *Prüfungsbescheid* sowie eine *Amateurfunk-Prüfungsbescheinigung* und darf sich Funkamateur nennen
+* Damit darf man aber noch keine Amateurfunkstelle betreiben!
 
 ---
 
+### Zulassung
+
+<left>
+* Zusätzlich notwendig: die *Zulassung zur Teilnahme am Amateurfunkdienst*
+* Erst mit dem Zulassungsbescheid wird das persönliche Rufzeichen zugeteilt
+</left>
+<right>
 [photo:91:n_zulassung_urkunde:Die Zulassungsurkunde]
+</right>
 
 ---
 [question:VC106]
+
+---
+
+* Das Amateurfunkgesetz kennt kein Mindestalter für Funkamateure
+* Nach § 4 AFuG ist jede natürliche Person mit Wohnsitz in Deutschland auf Antrag zur fachlichen Prüfung für Funkamateure zuzulassen
 
 ---
 [question:VC108]

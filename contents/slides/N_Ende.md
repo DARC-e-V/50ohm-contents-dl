@@ -1,6 +1,56 @@
-* Prüfungsvorbereitung & Anmeldung: Lern-App 50ohm des DARC nutzen und zeitnah zur Amateurfunkprüfung bei der Bundesnetzagentur anmelden – danach Rufzeichen beantragen.
-* DARC-Mitgliedschaft: Der größte deutsche Amateurfunkverband setzt sich für Frequenzen, Ausbildung und Nachwuchs ein – eine Mitgliedschaft trägt diese Arbeit aktiv mit.
-* Ortsverbände (OV): Über die PLZ-Suche den nächsten der 24 Distrikte finden – lokale Mitglieder erleichtern den Einstieg ins Hobby.
-* Online-Community: Austausch über DARC-Chat, DARC-Treff und die eigene Mastodon-Instanz mit anderen Funkamateuren weltweit.
-* Aktivitäten nach der Prüfung: Conteste, Selbstbau, Notfunk, Portabelbetrieb u. v. m. – die jährliche HAM-Challenge bietet einen guten Überblick über alle Bereiche.
-* Veranstaltungen & Weiterbildung: HAM RADIO Friedrichshafen, Funk.Tag Kassel, AFUBarcamp und der Dienstags-Treff als Formate zum Lernen und Vernetzen.
+## Geschafft!
+
+<left>
+[photo:329:n_team:50ohm.de-Team]
+</left>
+<right>
+* Jetzt mit Lern-App [50ohm](https://app.darc.de) auf die Prüfung vorbereiten
+* Zeitnah zur Prüfung bei der BNetzA anmelden
+* Nach bestandener Prüfung Rufzeichen beantragen
+</right>
+
+---
+
+## DARC-Mitgliedschaft
+
+* Größter deutscher Amateurfunkverband
+* Setzt sich für Frequenzen, Ausbildung und Nachwuchs ein
+* Eine Mitgliedschaft trägt diese Arbeit aktiv mit
+
+---
+
+## Ortsverbände (OV)
+
+* Über die PLZ-Suche den nächsten OV finden
+* 24 Distrikte, erkennbar am Distriktsortskenner (DOK), z.B. B17
+* Lokale Mitglieder erleichtern den Einstieg ins Hobby
+
+---
+
+## Online-Community
+
+* [DARC-Chat](https://chat.darc.de)
+* [DARC-Treff](https://treff.darc.de)
+* Eigene [Mastodon-Instanz](https://social.darc.de)
+
+---
+
+## Aktivitäten nach der Prüfung
+
+* Conteste, Selbstbau, Notfunk, Portabelbetrieb u.v.m.
+* Devise: "Nach der Prüfung ist vor der Prüfung"
+* Die jährliche [HAM-Challenge](https://www.hamchallenge.org) bietet einen guten Überblick
+
+---
+
+## Veranstaltungen & Weiterbildung
+
+* HAM RADIO in Friedrichshafen
+* Funk.Tag in Kassel
+* AFUBarcamp und Dienstags-Treff
+
+---
+
+## Viel Spaß mit deinem neuen Hobby!
+
+Stellvertretend für das 50ohm.de-Team: Lars DC4LW und Matthias DL9MJ
