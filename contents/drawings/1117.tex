@@ -1,0 +1,16 @@
+% 2026, Prof. Dr. Matthias Jung (DL9MJ)
+\begin{tikzpicture}
+    \draw(0,0) node[qgeneratorshape, t={G}](gen){};
+    \draw(gen.east) to [phaseshifter,> ,name={phase}] ++(2,0)
+        node [inputarrow](){}
+        node [ampshape, boxed, anchor=west](amp){};
+    \draw(amp.east) to [short] ++(1,0) node[inputarrow](){};
+    \draw(phase.north) node[above](){Phasenmodulator};
+    \draw(gen.south) ++(0,-0.5) node[twoportshape, anchor=north](fp){};
+    \draw(fp.right up) -| (phase.south) node[inputarrow, rotate={90}](){};
+    \draw(fp.right down) -| (amp.south) node[inputarrow, rotate={90}](){};
+    \draw(fp.right up) node[left](){$\varphi$};
+    \draw(fp.right down) node[left](){$A$};
+    \draw(fp.left up) -- ++(-0.25,0) node[left](){$I(t)$};
+    \draw(fp.left down) -- ++(-0.25,0) node[left](){$Q(t)$};
+\end{tikzpicture}
