@@ -1,4 +1,4 @@
-## Stromspeisung bei ungradzahligen Vielfachen
+## Stromspeisung bei ungeradzahligen Vielfachen
 
 * Mittengespeister Halbwellendipol  
 * Strom an Grundfrequenz und ungeraden Vielfachen  

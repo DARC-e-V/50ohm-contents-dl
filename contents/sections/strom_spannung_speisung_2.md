@@ -1,4 +1,4 @@
-Ein mittengespeister Halbwellendipol ist nicht nur bei seiner Grundfrequenz stromgespeist, sondern auch bei *ungradzahligen* Vielfachen seiner Grundfrequenz, wie in Abbildung [ref:e_stromverteilungen].
+Ein mittengespeister Halbwellendipol ist nicht nur bei seiner Grundfrequenz stromgespeist, sondern auch bei *ungeradzahligen* Vielfachen seiner Grundfrequenz, wie in Abbildung [ref:e_stromverteilungen].
 
 [question:AG207]
 
