@@ -1,6 +1,6 @@
 * Die Drähte einer Antennen können eine beliebige Länge oder Form haben
 * Jedoch ist dann deren Wellenwiderstand anders
-* Dieser Wellenwiderstand muss an die Speiseleitung angepasst werden, z.B. durch einen Balun
+* Dieser Wellenwiderstand muss an die Speiseleitung angepasst werden, z.B. durch einen HF-Transformator
 
 ---
 [question:EG102]
