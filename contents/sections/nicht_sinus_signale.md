@@ -2,8 +2,8 @@ Ein ideales rein sinusförmiges Signal besteht nur aus seiner *Grundwelle welche
 Die 1. Oberwelle entspricht hierbei der 2. Harmonischen der Grundschwingung und befindet sich auf der doppelten Frequenz der Grundschwingung. Die 2. Oberwelle entspricht der 3. Harmonischen der Grundschwingung und befindet sich auf der dreifachen Frequenz der Grundschwingung. Nach diesem Prinzip werden alle Harmonischen und Oberwellen auf die Grundwelle bezogen und mit einer Ordnungszahl (n) durchnummeriert.
 
 <indepth>
-Je nach Art der Verzerrung eines Signals entstehen im Verhältnis mehr gradzahlige oder ungradzahlige Oberwellen in dessen Frequenzspektrum. Rechteckförmige Signale, welche z.B. durch Übersteuerung von Verstärkerstufen entstehen (hierbei werden die Spitzen der Amplituden begrenzt und abgeflacht), enthalten überwiegend ungradzahlige Harmonische bzw. gradzahlige Oberwellen.
-Sägezahnförmige Signale enthalten überwiegend gradzahlige Harmonische bzw. ungradzahlige Oberwellen.
+Je nach Art der Verzerrung eines Signals entstehen im Verhältnis mehr geradzahlige oder ungeradzahlige Oberwellen in dessen Frequenzspektrum. Rechteckförmige Signale, welche z.B. durch Übersteuerung von Verstärkerstufen entstehen (hierbei werden die Spitzen der Amplituden begrenzt und abgeflacht), enthalten überwiegend ungeradzahlige Harmonische bzw. geradzahlige Oberwellen.
+Sägezahnförmige Signale enthalten überwiegend geradzahlige Harmonische bzw. ungeradzahlige Oberwellen.
 </indepth>
 
 <margin>
