@@ -1,12 +1,12 @@
 Die Frequenz eines VFOs ist von seiner Betriebsspannung (Gleichspannung) direkt abhängig. Dies wird vor allem durch die Abhängigkeit des Arbeitspunktes des Transistors in dessen Oszillator hervorgerufen.
-Zur Erreichung einer möglichst hohen Frequenzstabilität eines VFOs gegenüber Schwankungen in der Betriebsspannung ist diese möglichst gut durch geeignete schaltungstechnische Maßnahmen in deren *Spannung zu stabilisieren*. Die Betriebsspannung eines VFOs sollte daher unabhängig von Betriebsspannungen anderer Stufen sein (stabilisiert) und möglichst gut *gefiltert und entkoppelt* sein.
+Zur Erreichung einer möglichst hohen Frequenzstabilität eines VFOs gegenüber Schwankungen in der Betriebsspannung ist diese möglichst gut durch geeignete schaltungstechnische Maßnahmen in deren *Spannung zu stabilisieren*. Die Betriebsspannung eines VFOs sollte daher unabhängig von Betriebsspannungen anderer Stufen sein (stabilisiert) und möglichst gut *gefiltert und entkoppelt* sein. Dies kann z.B. durch einen Festspannungsregler erreicht werden (vgl. Abbildung [ref:a_osc_stab]).
 
 [question:AD612]
 [question:AD608]
 [question:AD607]
 
 <margin>
-[picture:497:a_osc_stab:Oszillator, bei dem mit dem Kondensator oben links und der Drosselspule oben rechts die Betriebsspannung stabilisiert wird. Beide bilden einen Tiefpassfilter, der HF-Anteile überbrückt und so die Betriebsspannung entkoppelt und stabilisiert. Langsame Änderungen der Versorgungsspannung kann diese Schaltung nicht ausgleichen; hier könnte z. B. ein Spannungsregler eingesetzt werden.]
+[picture:200:a_osc_stab:Festspannungsregler]
 </margin>
 
 ---
@@ -20,7 +20,7 @@ Hier ein Beispiel für ein solches Chirp-Signal:
 
 [include:applet_chirp_1]
 
-Ein Weiteres Beispiel, ein QSO zwischen RA1OW und OM3YCY
+Ein weiteres Beispiel, ein QSO zwischen RA1OW und OM3YCY, bei dem der Chirp-Effekt im zweiten Druchgang deutlich zu hören ist:
 
 [include:applet_chirp_2]
 
