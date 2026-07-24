@@ -17,9 +17,9 @@
 * Alle Harmonischen werden mit einer Ordnungszahl (n) durchnummeriert
 </right>
 <note>
-Je nach Signalverzerrung entstehen mehr gradzahlige oder ungradzahlige Harmonische.
-Rechtecksignale (z. B. durch Verstärkerübersteuerung) enthalten vorrangig ungradzahlige Harmonische.
-Sägezahnsignale enthalten überwiegend gradzahlige Harmonische.
+Je nach Signalverzerrung entstehen mehr geradzahlige oder ungeradzahlige Harmonische.
+Rechtecksignale (z. B. durch Verstärkerübersteuerung) enthalten vorrangig ungeradzahlige Harmonische.
+Sägezahnsignale enthalten überwiegend geradzahlige Harmonische.
 </note>
 
 --- style="font-size: smaller;"
