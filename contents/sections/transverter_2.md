@@ -1,23 +1,34 @@
-Um bei Transvertern die benötigten Oszillatorfrequenzen zu berechnen, ist die Kenntnis der gewünschten Ein- und Ausgabefrequenzen notwendig. Weiter benötigt man die Information, ob sich der Oszillator unterhalb oder oberhalb des Nutzsignals befinden soll.
+In der Klasse E haben wir bereits Konverter und Transverter kennengelernt, welche im Amateurfunk dazu eingesetzt werden, um mit vorhandenen Funkgeräten zusätzliche Frequenzbereiche zu erschließen, die diese Geräte ursprünglich nicht abdecken. Wie in Abbildung [ref:a_konverter] gezeigt, benötigt man hierzu einen Oszillator, einen Mischer und ein Bandfilter.  
 
-<indepth>
-Wenn sich die Oszillatorfrequenz unterhalb des Nutzsignals befindet, bleibt die Seitenbandlage eines SSB-Signals (USB/LSB) erhalten.
-Befindet sich die Oszillatorfrequenz oberhalb des Nutzsignals, wird die Seitenbandlage eines SSB-Signals invertiert (aus USB wird LSB und umgekehrt).
-</indepth>
+[question:AF301]
 
-Rechenbeispiel:
+Ein Problem dabei, welches wir nun vertiefen wollen, ist, dass die Amateurfunkbänder verschiedene Breiten haben. So ist z.B. das $\qty{70}{\centi\meter}$-Band von $\qtyrange{430}{440}{\mega\hertz}$ mit einer Breite von $\qty{10}{\mega\hertz}$ deutlich breiter als das $\qty{10}{\meter}$-Band von $\qtyrange{28}{29,7}{\mega\hertz}$ mit einer Breite von $\qty{1,7}{\mega\hertz}$. Dies hat zur Folge, dass ein Konverter, der den Frequenzbereich von $\qtyrange{430}{440}{\mega\hertz}$ auf den Frequenzbereich von $\qtyrange{28}{30}{\mega\hertz}$ umsetzt, nicht die gesamte Bandbreite des $\qty{70}{\centi\meter}$-Bands abdecken kann.
 
-Liegt die Oszillatorfrequenz unterhalb des Nutzsignals, so gehört zur höheren Frequenz des Nutzsignals auch die höhere Frequenz des Ausgangssignals des Konverters/Transverters.
+---
 
-Soll z.B. ein Frequenzbereich von $\qtyrange{438}{440}{\mega\hertz}$ auf einen Frequenzbereich von $\qtyrange{28}{30}{\mega\hertz}$ umgesetzt werden (bei Annahme, dass sich die Oszillatorfrequenz unterhalb des Nutzsignals befindet), so benötigt man eine Oszillatorfrequenz von $\qty{440}{\mega\hertz} - \qty{30}{\mega\hertz}$ oder $\qty{438}{\mega\hertz} - \qty{28}{\mega\hertz}$, was in beiden Fällen $\qty{410}{\mega\hertz}$ ergibt. Wird diese Oszillatorfrequenz mittels Frequenzvervielfachung erzeugt, so muss man diese bei der Rückrechnung auf die benötigte Frequenz des Quarzoszillators noch durch Teilen berücksichtigen.
+Deshalb muss ein Konverter ggf. umschaltbar sein, wie in Abbildung [ref:a_konverter] gezeigt, um größere Frequenzbereiche abbilden zu können. Soll z. B. ein Frequenzbereich von $\qtyrange{436}{440}{\mega\hertz}$, also $\qty{4}{\mega\hertz}$ Bandbreite, auf einen Frequenzbereich von $\qtyrange{28}{30}{\mega\hertz}$ mit $\qty{2}{\mega\hertz}$ umgesetzt werden (bei Annahme, dass sich die Oszillatorfrequenz unterhalb des Nutzsignals befindet), so benötigt man zwei umschaltbare Frequenzbereiche: den ersten von $\qtyrange{436}{438}{\mega\hertz}$ und den zweiten von $\qtyrange{438}{440}{\mega\hertz}$. 
 
-Gleich verhält es sich für den Frequenzbereich von $\qtyrange{436}{438}{\mega\hertz}$, wenn dieser wieder auf einen Frequenzbereich von $\qtyrange{28}{30}{\mega\hertz}$ umgesetzt werden soll (ebenfalls bei Annahme, dass sich die Oszillatorfrequenz unterhalb des Nutzsignals befindet).
-Hierbei ergibt sich bei der Rechnung $\qty{438}{\mega\hertz}$ - $\qty{30}{\mega\hertz}$ bzw. $\qty{436}{\mega\hertz}$ - $\qty{28}{\mega\hertz}$ eine Oszillatorfrequenz von $\qty{408}{\mega\hertz}$.
+Für den ersten Teilbereich von $\qtyrange{436}{438}{\mega\hertz}$ kann man folgende Oszillatorfrequenz berechnen: 
 
-Werden die oben berechneten $\qty{408}{\mega\hertz}$ bzw. $\qty{410}{\mega\hertz}$ durch Verneunfachung der Quarz-Oszillatorfrequenz gewonnen, so ergeben sich die beiden Quarz-Oszillatorfrequenzen zu $\frac{\qty{408}{\mega\hertz}}{9} = \qty{45,333}{\mega\hertz}$ und $\frac{\qty{410}{\mega\hertz}}{9} = \qty{45,556}{\mega\hertz}$ (jeweils gerundet).
+$f_\mathrm{OSZ} = \qty{436}{\mega\hertz}$ - $\qty{28}{\mega\hertz} = \qty{408}{\mega\hertz}$
+
+$f_\mathrm{OSZ} = \qty{438}{\mega\hertz}$ - $\qty{30}{\mega\hertz} = \qty{408}{\mega\hertz}$
+
+Für beide Bandgrenzen ergibt sich logischerweise eine Oszillatorfrequenz von $\qty{408}{\mega\hertz}$.
+
+Für den zweiten Teilbereich von $\qtyrange{438}{440}{\mega\hertz}$ ergibt sich folgende Oszillatorfrequenz:
+
+$f_\mathrm{OSZ} = \qty{440}{\mega\hertz} - \qty{30}{\mega\hertz} = \qty{438}{\mega\hertz} - \qty{28}{\mega\hertz} = \qty{410}{\mega\hertz}$.
+
+Wird diese Oszillatorfrequenz mittels Frequenzvervielfachung erzeugt, so muss man sie bei der Rückrechnung auf die benötigte Frequenz des Quarzoszillators noch durch Teilen berücksichtigen.
+
+Werden die oben berechneten $\qty{408}{\mega\hertz}$ bzw. $\qty{410}{\mega\hertz}$ durch Verneunfachung der Quarz-Oszillatorfrequenz gewonnen, so ergeben sich die beiden Quarz-Oszillatorfrequenzen zu $f_\mathrm{Quarz,1}=\frac{\qty{408}{\mega\hertz}}{9} = \qty{45,333}{\mega\hertz}$ und $f_\mathrm{Quarz,2}=\frac{\qty{410}{\mega\hertz}}{9} = \qty{45,556}{\mega\hertz}$ (jeweils gerundet).
+
+<margin>
+[picture:85:a_konverter:konverter]
+</margin>
+
+Mit diesem Wissen können wir nun die folgenden Aufgaben bearbeiten.
 
 [question:AF501]
 [question:AF502]
-
-%TODO: Die Frage 1472 gehört aus unserer Sicht nicht hier her, da es sich um einen Sender handelt und diese Frage nichts mit Konvertern oder Transvertern zu tun hat. Müsste evtl. in das Kapitel Sender und Senderstufen verschoben werden
-[question:AF301]
