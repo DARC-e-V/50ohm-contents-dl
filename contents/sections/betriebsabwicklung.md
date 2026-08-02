@@ -34,7 +34,7 @@ DL9MJ von DL1PZ bitte kommen
 
 ---
 
-Es kann vorkommen, dass man einen Anruf nicht ganz mitbekommt, aber Teile des eigenen Rufzeichens hört und sich nicht sicher ist, ob man gemeint war. In einem solchem Fall sollte einfach nachfragt werden, ob man gemeint war.
+Es kann vorkommen, dass man einen Anruf nicht ganz mitbekommt, aber Teile des eigenen Rufzeichens hört und sich nicht sicher ist, ob man gemeint war. In einem solchem Fall sollte einfach nachgefragt werden, ob man gemeint war.
 
 <qso>
 D*(krschkrsch)*MJ von DK5WP, bitte kommen
