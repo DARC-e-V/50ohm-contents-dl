@@ -1,0 +1,42 @@
+% 2026, Prof. Dr. Matthias Jung (DL9MJ)
+\begin{tikzpicture}
+    \draw(0,0) coordinate(o0)
+        to [short, o-] ++(2,0) coordinate(o1) 
+        to [short, *-] ++(1,0) coordinate(o2) 
+        to [open,  o-] ++(1,0) coordinate(o3)
+        to [short, o-] ++(2,0) coordinate(o4) 
+        to [short, *-o] ++(1,0) coordinate(o5);
+    % Left Side:
+    \path(o0) -- (o2) node[midway, above](){Emitterschaltung};
+    \draw(o1)
+        to [european resistor] ++(0,-2) coordinate(out1)
+        to [short] ++(0,-0.25)
+        node [npn, tr circle, anchor={C}](npn1){};
+    \draw(npn1.circle C)    node[anchor=south west](){C};
+    \draw(npn1.circle E)    node[anchor=north west](){\textcolor{DARCred}{E}};
+    \draw(npn1.circle base) node[anchor=south east](){B};
+    \draw(npn1.B) to [short, -o] (npn1.B -| o0) coordinate(npn1B);
+    \draw(npn1.E) to [short, -*] ++(0,-2.25) node[rground](npn1E){};
+    \draw(npn1E) to [short, -o] (npn1E -| o0) coordinate(npn1EE); 
+    \draw(npn1E) to [short, -o] (npn1E -| o2) coordinate(npn1EEE); 
+    \draw(out1) to [short, *-o] (out1 -| o2) coordinate(out11);
+    \draw[DARCblue] (npn1B) to [open, v=$U_\mathrm{E}$, draw=DARCblue] (npn1EE);
+    \draw[DARCblue] (out11) to [open, v=$U_\mathrm{A}$, draw=DARCblue] (npn1EEE);
+    % Right Side:
+    \path(o3) -- (o5) node[midway, above](){Kollektorschaltung};
+    \draw(o4)
+        to [short] ++(0,-2.25)
+        node[npn, tr circle, anchor={C}](npn2){};
+    \draw(npn2.circle C)    node[anchor=south west](){\textcolor{DARCred}{C}};
+    \draw(npn2.circle E)    node[anchor=north west](){E};
+    \draw(npn2.circle base) node[anchor=south east](){B};
+    \draw(npn2.B) to [short, -o] (npn2.B -| o3) coordinate(npn2B);
+    \draw(npn2.E) 
+        to [short] ++(0,-0.25) coordinate(out2)
+        to [european resistor, -*] ++(0,-2) node[rground](npn2E){};
+    \draw(out2) to [short, *-o] (out2 -| o5) coordinate(out22);
+    \draw(npn2E) to [short, -o] (npn2E -| o3) coordinate(npn2EE); 
+    \draw(npn2E) to [short, -o] (npn2E -| o5) coordinate(npn2EEE); 
+    \draw[DARCblue] (npn2B) to [open, v=$U_\mathrm{E}$, draw=DARCblue] (npn2EE);
+    \draw[DARCblue] (out22) to [open, v=$U_\mathrm{A}$, draw=DARCblue] (npn2EEE);
+\end{tikzpicture}
