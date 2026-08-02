@@ -110,7 +110,7 @@ Zusammenfassung: C-Betrieb des Verstärkers
 
 Fassen wir die gelernten Verstärkerklassen noch einmal in einer Übersicht zusammen:
 
-| l: Eigenschaft | l: A-Betrieb | l: B-Betrieb | l: A/B-Betrieb | l: C-Betrieb |
+| l: Eigenschaft | X: A-Betrieb | X: B-Betrieb | X: A/B-Betrieb | X: C-Betrieb |
 | Ruhestrom | $I_\mathrm{A}$ | 0 | $I_\mathrm{A/B}$ | 0 |
 | Wirkungsgrad | $\qty{40}{\percent}$ | bis zu $\qty{80}{\percent}$ | $\qtyrange{50}{80}{\percent}$ | $\qtyrange{80}{87}{\percent}$ |
 | Stromflusswinkel | $\Theta = \qty{360}{\degree}$ | $\Theta = \qty{180}{\degree}$ | $\qty{180}{\degree} < \Theta < \qty{360}{\degree}$ | $\Theta < \qty{180}{\degree}$ |
