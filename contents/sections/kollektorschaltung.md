@@ -24,7 +24,9 @@ Steigt die Eingangsspannung beispielsweise während einer positiven Halbwelle an
 
 Die Abbildung [ref:a_collector_circuit] zeigt eine einfache Kollektorschaltung mit Spannungsversorgung, Emitterwiderstand und Koppelkondensatoren. 
 
+<margin>
 [picture:140:a_collector_circuit:Kollektorschaltung mit Spannungsversorgung, Emitterwiderstand und Koppelkondensatoren]
+</margin>
 
 Für den Betrieb als linearer Strom-Verstärker benötigt der Transistor in der Kollektorschaltung einen definierten Arbeitspunkt (BIAS), der normalerweise durch einen Spannungsteiler an der Basis festgelegt wird.
 
