@@ -1,0 +1,3 @@
+Bei dieser Frage gerät man leicht auf den Holzweg. Der Transformator dient der Anpassung des Ausgangswiderstandes der ersten Schaltung an den Eingang der folgenden Schaltung. Dieser Teil ist allen Antworten gemein. Der "Trick" ist es die Schaltungen zu klassifizieren.
+
+Beide Transistoren sind an ihrem Emitter unbeschaltet, sind also Emitterschaltungen. Damit kann nur "Er dient der Anpassung des Ausgangswiderstandes der **Emitter**schaltung an den Eingang der folgenden **Emitter**schaltung." stimmen.
