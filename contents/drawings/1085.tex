@@ -1,0 +1,21 @@
+% Author: Stephan Kregel, DG1HXJ, Prof. Dr. Matthias Jung DL9MJ
+% Year: 2021, 2026
+\begin{circuitikz}[european]
+    \path(-2,0) -- (0,0);
+    \draw[-Triangle](0.0,0.0) -- (3.0,0.0);
+    \path(3,0) -- (5,0);
+    \draw[-Triangle](0.0,0.0) -- (0.0,5.0);
+    \draw(3,0.40) node[] () {$U_\mathrm{BE}$};
+    \draw(-0.35,5) node[] () {$I_\mathrm{C}$};
+    \draw(0,0)
+    node[ocirc]{} [thick, DARCred]{} (0,0) -- ++(1,0)
+    node[ocirc]{} [thick, DARCred]{} -- ++(0.2,1)
+    node[ocirc]{} [thick, DARCred]{} -- ++(0.2,1)
+    node[ocirc]{} [thick, DARCred]{} -- ++(0.4,2)  ;
+    \draw[DARCred](0,0) node[anchor=north] () {C};
+    \draw[DARCred](1,0) node[anchor=north] () {B};
+    \draw[DARCred](1.2,1) node[anchor=west] () {A/B};
+    \draw[DARCred](1.4,2) node[anchor=west] () {A};
+    \draw [thick, DARCred] (1.7,3.8) -- ++(0.125,0);
+    \draw(1.825,3.8) node[anchor=west] () {$I_{\mathrm{C}_\mathrm{max}}$};
+\end{circuitikz}

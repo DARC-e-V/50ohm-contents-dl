@@ -1,0 +1,51 @@
+% Author: Prof. Dr. Matthias Jung, DL9MJ
+% Year: 2025
+\begin{tikzpicture}
+    \begin{axis}[%
+        /pgf/number format/1000 sep={ },
+        /pgf/number format/use comma,
+        axis lines=middle,
+        axis line style={-Triangle},
+        ytick={0,1},
+        every major tick/.append style={thick, black},
+        yticklabels={0,$I_\mathrm{A}$},
+        grid=major,
+        grid style={line width=.1pt, draw=gray!10},
+        major grid style={line width=.2pt,draw=gray!50},
+        xticklabel=\empty,
+        xtick style={draw=none},
+        xmin=0,
+        xmax=6.28318,
+        ymin=0,
+        ymax=2,
+        xmajorgrids=false,
+        xlabel style={at={(ticklabel* cs:1)},anchor=south east},
+        ylabel style={at={(ticklabel* cs:1)},anchor=north east},
+        ylabel={$I_\mathrm{C}$},
+        xlabel={$t$},
+        width=\linewidth*\getDarcImageFactor,
+        height=0.5*\linewidth*\getDarcImageFactor,
+        scale only axis,
+    ]
+
+    % Kollektorstrom im A-Betrieb:
+    % sinusförmige Änderung um den Arbeitspunkt I_CQ
+    \addplot[
+        DARCblue,
+        very thick,
+        samples=200,
+        domain=0:6.28318,
+    ] {
+        1 + 0.7*sin(deg(x))
+    };
+
+    \addplot[
+        black,
+        dashed,
+        domain=0:6.28318,
+    ] {
+        1
+    };
+
+    \end{axis}
+\end{tikzpicture}%

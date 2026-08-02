@@ -1,0 +1,51 @@
+% Author: Prof. Dr. Matthias Jung
+% Year: 2026
+\begin{circuitikz}
+    \draw(0,0) node[npn, tr circle, anchor=B](npn1){};
+    \draw(npn1.E) node[npn, tr circle, anchor=E, yscale=-1](npn2){};
+    %
+    \draw(npn1.E) to [short, *-o] ++(1.75,0) node[right]{$U_\textrm{A}$};
+    \draw(npn1.C)
+        to [short] ++(0,+1)
+        to [short, -o] ++(1.75,0) node[right]{$+$};
+    \draw(npn2.C)
+        to [short, -*] ++(0,-1) node[rground](gnd){}
+        to [short, -o] ++(1.75,0) node[right]{$\qty{0}{\volt}$};
+    %
+    \draw(gnd) [-o] to ++(-2,0) coordinate(h3);
+    %
+    \draw(npn1.B)
+        to [short] ++(-0.25,0) coordinate(h1)
+        to [short] (h1 |- npn2.E) coordinate(h2)
+        to [short] (h2 |- npn2.B) 
+        to [short] (npn2.B);
+    \draw(h2) to [short, *-o] (h2 -| h3) coordinate(h4) node[left]{$U_\textrm{E}$};
+    %
+    \draw[black!30!white](h4) 
+        to [open] ++(0,0.5)
+        to [open] ++(0.125,0) coordinate(e1)
+        to [short] ++(1.0,0);
+    \draw[DARCred, very thick](e1)
+        sin ++(0.25,+0.25)
+        cos ++(0.25,-0.25)
+        sin ++(0.25,-0.25)
+        cos ++(0.25,+0.25);
+    %
+    \draw[black!30!white](npn1.E) 
+        to [open] ++(0.5,0)
+        to [open] ++(0,0.5) coordinate(a1)
+        to [short] ++(1.0,0);
+    \draw[DARCred, very thick](a1)
+        sin ++(0.25,+0.25)
+        cos ++(0.25,-0.25)
+        -- ++(0.5,0);
+    %
+    \draw[black!30!white](npn1.E) 
+        to [open] ++(0.5,0)
+        to [open] ++(0,-0.5) coordinate(a2)
+        to [short] ++(1.0,0);
+    \draw[DARCred, very thick](a2)
+        -- ++(0.5,0)
+        sin ++(0.25,-0.25)
+        cos ++(0.25,+0.25);
+\end{circuitikz}

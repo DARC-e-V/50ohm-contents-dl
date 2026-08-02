@@ -1,0 +1,43 @@
+% Author: Prof. Dr. Matthias Jung, DL9MJ
+% Year: 2025
+\begin{tikzpicture}
+    \begin{axis}[%
+        /pgf/number format/1000 sep={ },
+        /pgf/number format/use comma,
+        axis lines=middle,
+        axis line style={-Triangle},
+        ytick={0},
+        every major tick/.append style={thick, black},
+        yticklabels={0},
+        grid=major,
+        grid style={line width=.1pt, draw=gray!10},
+        major grid style={line width=.2pt,draw=gray!50},
+        xticklabel=\empty,
+        xtick style={draw=none},
+        xmin=0,
+        xmax=6.28318,
+        ymin=-0.1,
+        ymax=1.2,
+        xmajorgrids=false,
+        xlabel style={at={(ticklabel* cs:1)},anchor=south east},
+        ylabel style={at={(ticklabel* cs:1)},anchor=north east},
+        ylabel={$I_\mathrm{C}$},
+        xlabel={$t$},
+        width=\linewidth*\getDarcImageFactor,
+        height=0.5*\linewidth*\getDarcImageFactor,
+        scale only axis,
+    ]
+
+    % Kollektorstrom im B-Betrieb:
+    % kein Ruhestrom, Stromfluss nur während einer Halbwelle
+    \addplot[
+        DARCblue,
+        very thick,
+        samples=500,
+        domain=0:6.28318,
+    ] {
+        max(0,sin(deg(x)))
+    };
+
+    \end{axis}
+\end{tikzpicture}%

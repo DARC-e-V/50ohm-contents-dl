@@ -1,0 +1,41 @@
+% Author: Prof. Dr. Matthias Jung, DL9MJ
+% Year: 2025
+\begin{tikzpicture}
+    \begin{axis}[%
+        /pgf/number format/1000 sep={ },
+        /pgf/number format/use comma,
+        axis lines=middle,
+        axis line style={-Triangle},
+        ytick={},
+        every major tick/.append style={thick, black},
+        yticklabels={},
+        grid=major,
+        grid style={line width=.1pt, draw=gray!10},
+        major grid style={line width=.2pt,draw=gray!50},
+        xticklabel=\empty,
+        xtick style={draw=none},
+        xmin=0,
+        xmax=6.28318,
+        ymin=-1.5,
+        ymax=1.5,
+        xmajorgrids=false,
+        xlabel style={at={(ticklabel* cs:1)},anchor=south east},
+        ylabel style={at={(ticklabel* cs:1)},anchor=north east},
+        ylabel={$U_\mathrm{BE}$},
+        xlabel={$t$},
+        width=\linewidth*\getDarcImageFactor,
+        height=0.5*\linewidth*\getDarcImageFactor,
+        scale only axis,
+    ]
+
+    \addplot[
+        DARCred,
+        very thick,
+        samples=200,
+        domain=0:6.28318,
+    ] {
+        sin(deg(x))
+    };
+
+    \end{axis}
+\end{tikzpicture}%
