@@ -29,7 +29,7 @@ Die Abbildung [ref:a_emitterschaltung] zeigt eine einfache Emitterschaltung mit 
 Für den Betrieb als linearer Spannungs-Verstärker benötigt der Transistor in der Emitterschaltung einen definierten Arbeitspunkt (BIAS), der normalerweise durch einen Spannungsteiler an der Basis festgelegt wird.
 
 <margin>
-[picture:136:a_emitterschaltung:Emitterchaltung]
+[picture:136:a_emitterschaltung:Emitterschaltung]
 </margin>
 
 [question:AD411]
