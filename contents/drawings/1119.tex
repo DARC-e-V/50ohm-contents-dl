@@ -1,0 +1,327 @@
+% 2026, Prof. Dr. Matthias Jung (DL9MJ)
+\begin{tikzpicture}
+
+\begin{axis}[
+    width=\linewidth*\getDarcImageFactor,
+    height=0.75\linewidth*\getDarcImageFactor,
+    xmin=-8.8,
+    xmax=11.8,
+    ymin=-3.5,
+    ymax=10.8,
+    axis lines=none,
+    clip=false,
+]
+
+% --------------------------------------------------------------------------
+% Koordinatenachsen
+% --------------------------------------------------------------------------
+
+\draw[-Triangle]
+    (axis cs:0,0) -- (axis cs:11.4,0);
+
+\draw[-Triangle]
+    (axis cs:0,0) -- (axis cs:-8.5,0);
+
+\draw[-Triangle]
+    (axis cs:0,0) -- (axis cs:0,10.5);
+
+\draw[-Triangle]
+    (axis cs:0,0) -- (axis cs:0,-3.3);
+
+% Achsenbeschriftungen
+
+\node[anchor=west]
+    at (axis cs:11.45,-0.25)
+    {$U_{CE}$ in \si{\volt}};
+
+\node[anchor=east]
+    at (axis cs:-8.55,-0.25)
+    {$I_B$ in \si{\micro\ampere}};
+
+\node[anchor=south]
+    at (axis cs:0.25,10.5)
+    {$I_C$ in \si{\milli\ampere}};
+
+\node[anchor=north]
+    at (axis cs:0.25,-3.3)
+    {$U_{BE}$ in \si{\volt}};
+
+% --------------------------------------------------------------------------
+% Skalen rechts: U_CE in Volt
+% --------------------------------------------------------------------------
+
+\pgfplotsinvokeforeach{2,4,6,8,10}{
+    \draw
+        (axis cs:#1,-0.10) -- (axis cs:#1,0.10);
+
+    \node[anchor=north]
+        at (axis cs:#1,-0.13)
+        {\small #1};
+}
+
+% --------------------------------------------------------------------------
+% Skalen links: I_B in Mikroampere
+% Eine Koordinateneinheit entspricht 10 µA.
+% --------------------------------------------------------------------------
+
+\def\DARCIbTick#1/#2\relax{
+    \draw
+        (axis cs:#1,-0.10) -- (axis cs:#1,0.10);
+
+    \node[anchor=north]
+        at (axis cs:#1,-0.13)
+        {\small #2};
+}
+\pgfplotsinvokeforeach{-2/20,-4/40,-6/60,-8/80}{
+    \expandafter\DARCIbTick#1\relax
+}
+
+% --------------------------------------------------------------------------
+% Skalen oben: I_C in Milliampere
+% --------------------------------------------------------------------------
+
+\pgfplotsinvokeforeach{2,4,6,8,10}{
+    \draw
+        (axis cs:-0.10,#1) -- (axis cs:0.10,#1);
+
+    \node[anchor=east]
+        at (axis cs:-0.14,#1)
+        {\small #1};
+}
+
+% --------------------------------------------------------------------------
+% Skalen unten: U_BE in Volt
+% Die geometrische Skala ist für die gemeinsame Darstellung gestreckt.
+% --------------------------------------------------------------------------
+
+\def\DARCUbeTick#1/#2\relax{
+    \draw
+        (axis cs:-0.10,#1) -- (axis cs:0.10,#1);
+
+    \node[anchor=east]
+        at (axis cs:-0.14,#1)
+        {\small #2};
+}
+\pgfplotsinvokeforeach{-1/{0{,}6},-2/{0{,}7},-3/{0{,}8}}{
+    \expandafter\DARCUbeTick#1\relax
+}
+
+% --------------------------------------------------------------------------
+% Stromsteuerkennlinie I_C = beta * I_B
+%
+% Bei beta = 100 gilt:
+% 10 µA Basisstrom entsprechen ungefähr 1 mA Kollektorstrom.
+% --------------------------------------------------------------------------
+
+\addplot[
+    DARCblue,
+    very thick,
+    domain=0:8,
+    samples=2,
+]
+({-x},{x});
+
+\node[
+    anchor=south east,
+    align=right,
+]
+at (axis cs:-6.4,8.2)
+{Stromsteuerkennlinie\\$I_C \approx \beta I_B$};
+
+% --------------------------------------------------------------------------
+% Eingangskennlinie
+%
+% Vereinfachte Exponentialkennlinie der Basis-Emitter-Strecke.
+% Parameter u entspricht U_BE.
+% --------------------------------------------------------------------------
+
+\addplot[
+    DARCblue,
+    very thick,
+    domain=0.50:0.80,
+    samples=160,
+    variable=\u,
+]
+(
+    {-0.054*exp((\u-0.55)/0.05)},
+    {-10*(\u-0.50)}
+);
+
+\node[
+    anchor=north east,
+]
+at (axis cs:-6.0,-3.0)
+{Eingangskennlinie};
+
+% --------------------------------------------------------------------------
+% Ausgangskennlinien
+%
+% Vereinfachtes Modell:
+% I_C nähert sich für größere U_CE dem durch I_B festgelegten Wert an.
+% --------------------------------------------------------------------------
+
+\pgfplotsinvokeforeach{1,2,3,4,5,6,7,8}{
+    \addplot[
+        DARCblue,
+        thick,
+        domain=0:10,
+        samples=150,
+    ]
+    {#1*(1-exp(-x/0.25))};
+}
+
+\node[
+    anchor=south west,
+]
+at (axis cs:4.5,9.5)
+{Ausgangskennlinien};
+
+% Beschriftung ausgewählter Basisströme
+
+\def\DARCoutputLabel#1/#2\relax{
+    \node[
+        anchor=west,
+        font=\scriptsize,
+        fill=white,
+        inner sep=1pt,
+    ]
+    at (axis cs:9.7,#1)
+    {$I_B=\qty{#2}{\micro\ampere}$};
+}
+\pgfplotsinvokeforeach{2/20,4/40,6/60,8/80}{
+    \expandafter\DARCoutputLabel#1\relax
+}
+
+% --------------------------------------------------------------------------
+% Arbeitsgerade
+%
+% Beispiel:
+% U_0 = 10 V
+% R_C = 1 kOhm
+%
+% I_C = (U_0 - U_CE) / R_C
+% Bei der gewählten Skalierung ergibt sich I_C[mA] = 10 - U_CE[V].
+% --------------------------------------------------------------------------
+
+\addplot[
+    black,
+    densely dashed,
+    very thick,
+    domain=0:10,
+    samples=2,
+]
+{10-x};
+
+% --------------------------------------------------------------------------
+% Arbeitspunkt Q
+%
+% U_CE = 5 V
+% I_C  = 5 mA
+% I_B  = 50 µA
+% --------------------------------------------------------------------------
+
+\addplot[
+    only marks,
+    mark=*,
+    mark size=2.3pt,
+    DARCgreen,
+]
+coordinates {
+    (5,5)
+};
+
+% --------------------------------------------------------------------------
+% Hilfslinien zwischen den Kennlinien und dem Arbeitspunkt
+% --------------------------------------------------------------------------
+
+% Projektion von I_B auf die Stromsteuerkennlinie und zum Arbeitspunkt
+
+\draw[
+    DARCgreen,
+    thick,
+    densely dashed,
+]
+(axis cs:-5,0)
+    -- (axis cs:-5,5)
+    -- (axis cs:5,5)
+    -- (axis cs:5,0);
+
+% Zugehöriger Punkt auf der Eingangskennlinie:
+% bei I_B ungefähr 50 µA ergibt sich U_BE ungefähr 0,78 V.
+
+\draw[
+    DARCgreen,
+    thick,
+    densely dashed,
+]
+(axis cs:-5,0)
+    -- (axis cs:-5,-2.77)
+    -- (axis cs:0,-2.77);
+
+\fill[DARCgreen]
+    (axis cs:-5,5)
+    circle[radius=1.5pt];
+
+\fill[DARCgreen]
+    (axis cs:-5,-2.77)
+    circle[radius=1.5pt];
+
+% --------------------------------------------------------------------------
+% Beispielhafte Aussteuerung entlang der Arbeitsgeraden
+% --------------------------------------------------------------------------
+
+\node[
+    rotate=-45,
+    anchor=south,
+    fill=white,
+    inner sep=0pt,
+    outer sep=5pt,
+    font=\small,
+]
+at (axis cs:5.0,5.0)
+{\textcolor{DARCgreen}{Arbeitspunkt}};
+
+% --------------------------------------------------------------------------
+% Signalübertragung durch das Kennlinienfeld
+% --------------------------------------------------------------------------
+
+% Scheitelwerte des Eingangssignals, über die drei Kennlinien bis zum
+% Ausgangssignal projiziert.
+\draw[gray,densely dashed]
+    (axis cs:0.75,-2.59)
+    -- (axis cs:-3.5,-2.59)
+    -- (axis cs:-3.5,3.5)
+    -- (axis cs:6.5,3.5)
+    -- (axis cs:6.5,-1.55);
+
+\draw[gray,densely dashed]
+    (axis cs:0.75,-2.90)
+    -- (axis cs:-6.5,-2.90)
+    -- (axis cs:-6.5,6.5)
+    -- (axis cs:3.5,6.5)
+    -- (axis cs:3.5,-1.55);
+
+% Eingangssignal u_BE(t): horizontal, da U_BE senkrecht aufgetragen ist.
+\addplot[
+    DARCred,
+    thick,
+    domain=0.75:2.75,
+    samples=100,
+    variable=\t,
+]
+    ({\t},{-2.745 + 0.155*sin(720*(\t-0.75)/2.0)});
+
+% Ausgangssignal u_CE(t): quer zur waagerechten U_CE-Achse. Die größere
+% Auslenkung zeigt die Verstärkung, das Minuszeichen die Phasenumkehr.
+\addplot[
+    DARCred,
+    very thick,
+    domain=-1.55:-0.35,
+    samples=100,
+    variable=\t,
+]
+    ({5.0 - 1.5*sin(360*(\t+1.55)/1.20)},{\t});
+
+\end{axis}
+
+\end{tikzpicture}

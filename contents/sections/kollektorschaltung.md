@@ -28,7 +28,17 @@ Die Abbildung [ref:a_collector_circuit] zeigt eine einfache Kollektorschaltung m
 [picture:140:a_collector_circuit:Kollektorschaltung mit Spannungsversorgung, Emitterwiderstand und Koppelkondensatoren]
 </margin>
 
+---
+
 Für den Betrieb als linearer Strom-Verstärker benötigt der Transistor in der Kollektorschaltung einen definierten Arbeitspunkt (BIAS), der normalerweise durch einen Spannungsteiler an der Basis festgelegt wird.
+
+Abbildung [ref:a_kennlinie] zeigt die Kennlinie eines NPN-Transistors mit dem durch den Spannungsteiler eingestellten Arbeitspunkt. Die Basisvorspannung wird so gewählt, dass auf dem linearen Teil der Eingangskennlinie gearbeitet wird. Dies impliziert auch, dass immer ein gewisser Ruhestrom fließt, auch wenn kein Eingangssignal anliegt. Das werden wir im Kapitel der Verstärkerklassen noch genauer betrachten. 
+
+Wird ein Eingangssignal, z.B. eine sinusförmige Wechselspannung, wie in dem Bild gezeigt angelegt, so wird dieses Signal durch die Eingangskennlinie verstärkt. Man beachte hier die Beschriftung der Achsen, aus Mikroampere werden Milliampere. Die resultierende Spannung am Ausgang kann auch aus dieser Kennlinie abgelesen werden 
+
+<margin>
+[picture:1119:a_kennlinie:Kennlinie eines NPN-Transistors mit Arbeitspunkt und Signalüberlagerung]
+</margin>
 
 Der Emitterwiderstand wandelt den Strom, der durch die Kollektor-Emitter-Strecke fließt, in einen Spannungsabfall um, der am Emitter abgegriffen wird. Der Emitterstrom des Transistors fließt (gemeinsam mit dem normalerweise vernachlässigbaren Basis-Strom-Anteil) über den Emitter durch den Emitterwiderstand gegen Masse. Der Strom durch den Emitterwiderstand verursacht durch den entstehenden Spannungsabfall an diesem eine Erhöhung des Emitterpotenzials (Emitterspannung) und wirkt somit als Gegenkopplung für die Basis-Spannung. Hierdurch wird der Arbeitspunkt des Transistors zusätzlich stabilisiert, weil thermisch bedingte Änderungen des Kollektorstroms hierdurch ausgeregelt werden.
 
