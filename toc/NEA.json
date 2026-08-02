@@ -1216,15 +1216,15 @@
                     "video_url": null
                 },
                 {
-                    "title": "Verstärkerklassen",
-                    "ident": "verstaerker_klasse",
+                    "title": "Wirkungsgrad",
+                    "ident": "verstaerker_wirkungsgrad",
                     "status": "alpha",
                     "class": "A",
                     "video_url": null
                 },
                 {
-                    "title": "Wirkungsgrad",
-                    "ident": "verstaerker_wirkungsgrad",
+                    "title": "Verstärkerklassen",
+                    "ident": "verstaerker_klasse",
                     "status": "alpha",
                     "class": "A",
                     "video_url": null
