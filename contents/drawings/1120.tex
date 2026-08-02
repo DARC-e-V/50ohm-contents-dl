@@ -1,0 +1,31 @@
+% 2026, Prof. Dr. Matthias Jung (DL9MJ)
+\begin{tikzpicture}
+    \tikzset{%
+        thick arrow/.style={
+            -{Triangle[angle=90:2pt 1]},
+            line width=0.75cm, 
+            draw=DARCred!30!white
+        },
+        thicker arrow/.style={
+            -{Triangle[angle=90:2pt 1]},
+            line width=1.5cm, 
+            draw=DARCred!30!white
+        },
+    }
+    \draw[thicker arrow] (0,0) coordinate(a0)
+        to [short, name={pdc}] ++(2,0) coordinate(a1);
+    \path(a1) node[ampshape, boxed, scale=2, anchor=west](amp){};
+    \draw[thick arrow]
+        (amp.east) to [short, name={phf}] ++(2,0) coordinate(a2);
+    \draw[thick arrow]
+        (amp.south) to [short, name={pv}] ++(0,-1) coordinate(a3);
+    \draw(a1) node[ampshape, boxed, scale=2, anchor=west](amp){};
+    %
+    \draw[DARCred] (pdc) node[](){$P_\mathrm{DC}$};
+    \draw[DARCred] (phf) node[](){$P_\mathrm{HF}$};
+    \draw[DARCred] (pv) node[](){$P_\mathrm{V}$};
+    %
+    \draw(a3) node[below](){Verluste durch Abwärme und Ruheströme};
+    \draw(a2) node[right, rotate=-90, anchor=south](){HF Nutzleistung};
+    \draw(a0) node[right, rotate=+90, anchor=south](){Zugeführte Gleichstromleistung};
+\end{tikzpicture}
