@@ -22,16 +22,19 @@ Die Formelsammlung gibt für das Umrechnen eines Leistungsverhältnisses in $\un
 
 $g = 10\cdot \log_{10}\left(\frac{P_2}{P_1}\right)\unit{\dB}$
 
+[question:AD428]
+
 Möchte man aus einem $\unit{\dB}$-Wert einen Verhältnisfaktor ermitteln, so muss die Formel umgestellt werden: 
 
 $\begin{align*} g &= 10 \cdot \log_{10}\left( x \right) \unit{\dB} & \quad\quad\quad &|: \qty{10}{\dB} \\ \frac{g}{\qty{10}{\dB}} &= \log_{10}\left( x \right) &~&| \quad 10^{x}\\ x &= 10^{\frac{g}{\qty{10}{\dB}}} &~&~\end{align*}$
 
-Mit diesen beiden Formeln können wir also leicht zwischen $\unit{\dB}$-Angaben und Verhältnisfaktoren umrechnen. Versuche nun die zwei folgenden Fragen zu berechnen: 
+Mit diesen beiden Formeln können wir also leicht zwischen $\unit{\dB}$-Angaben und Verhältnisfaktoren umrechnen. Versuche nun die drei folgenden Fragen zu berechnen: 
 
 ---
 
 [question:AA105]
 [question:AA106]
+[question:AD426]
 
 <tip>
 In der Klasse E haben wir bereits folgenden Trick kennengelernt: Ganz ohne Taschenrechner lassen sich Dezibelwerte abschätzen, die auf "$0$" enden: Einfach die letzte Null zuhalten, die Ziffer gibt dann die Anzahl der Nullen des Verhältnisfaktors an. Beispiel: $\qty{30}{\dB} \rightarrow 3 \rightarrow 3~\text{Nullen} \rightarrow \text{Verhältnisfaktor}~1000$!
@@ -100,7 +103,7 @@ Zusätzlich haben wir in der Klasse E bereits die Zusätze $\unit{\dBd}$ und $\u
 
 Neben den Leistungsverhältnissen können wir das Dezibel können auch verwenden, um *Spannungsverhältnisse* und *Spannungspegel* anzugeben. Dazu können wir die Formel $P = \frac{U^2}{R}$ verwenden. Also können wir schreiben:
 
-$\begin{split}g &= 10 \cdot \log_{10}\left(\frac{P_1}{P_2}\right)\\ &= 10 \cdot \log_{10}\left(\frac{\frac{U_1^2}{\cancel{R}}}{\frac{U_2^2}{\cancel{R}}}\right)\\ &= 10 \cdot \log_{10}\left(\left(\frac{U_1}{U_2}\right)^2\right) \end{split}$
+$\begin{split}g &= 10 \cdot \log_{10}\left(\frac{P_1}{P_2}\right)\\ g &= 10 \cdot \log_{10}\left(\frac{\frac{U_1^2}{\cancel{R}}}{\frac{U_2^2}{\cancel{R}}}\right)\\ g &= 10 \cdot \log_{10}\left(\left(\frac{U_1}{U_2}\right)^2\right) \end{split}$
 
 <tip>
 *Rechnen mit Logarithmen:*
@@ -118,13 +121,14 @@ $\log_{10}(x^2)=2 \cdot \log_{10}(x)$
 
 Es folgt daraus:
 
-$\begin{split} g &= 10 \cdot \log_{10}\left(\left(\frac{U_1}{U_2}\right)^2\right)\\ &= 10 \cdot 2 \cdot \log_{10}\left(\frac{U_1}{U_2}\right) \\ &= 20 \cdot \log_{10}\left(\frac{U_1}{U_2}\right) \end{split}$
+$\begin{split} g &= 10 \cdot \log_{10}\left(\left(\frac{U_1}{U_2}\right)^2\right)\\ g &= 10 \cdot 2 \cdot \log_{10}\left(\frac{U_1}{U_2}\right) \\ g &= 20 \cdot \log_{10}\left(\frac{U_1}{U_2}\right) \end{split}$
 
 ---
 
 Daher berechnen wir ein Verhältnis *$a$* zweier Spannungen $U_1$ und $U_2$, indem wir den Logarithmus des Verhältnisses nicht mit dem Faktor $10$, sondern mit dem Faktor $20$ multiplizieren. Diese Formel finden wir auch in der Formelsammlung.
 
 [question:AA111]
+[question:AD427]
 
 <attention>
 Bei der Dezibel-Berechnung immer genau beachten, ob es sich um Leistungs- oder Spannungsverhältnisse handelt!

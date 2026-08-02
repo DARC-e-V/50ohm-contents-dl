@@ -772,13 +772,6 @@
                     "video_url": null
                 },
                 {
-                    "title": "Verstärkungsleistung",
-                    "ident": "verstaerkungsleistung",
-                    "status": "alpha",
-                    "class": "A",
-                    "video_url": null
-                },
-                {
                     "title": "Wirkungsgrad",
                     "ident": "verstaerker_wirkungsgrad",
                     "status": "alpha",
