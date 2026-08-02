@@ -1,0 +1,3 @@
+Der Basisstrom $I_B$ folgt der Eingangsspannung $U_E$. Steigt $U_E$, so steigen auch der Basisstrom $I_B$ und der Kollektorstrom $I_C$. Durch den größeren Kollektorstrom nimmt der Spannungsabfall am Kollektorwiderstand zu, sodass die Kollektor-Emitter-Spannung $U_{CE}$ sinkt. $U_{CE}$ ist daher gegenüber $U_E$ und $I_C$ um $\qty{180}{\degree}$ phasenverschoben.
+
+Der Koppelkondensator am Ausgang entfernt lediglich den Gleichspannungsanteil. Die Ausgangsspannung $U_A$ besitzt deshalb dieselbe Phasenlage wie der Wechselspannungsanteil von $U_{CE}$, ist jedoch um die Nulllinie zentriert. Somit sind $I_C$ und $U_E$ phasengleich, während $U_{CE}$ und $U_A$ dazu gegenphasig verlaufen.

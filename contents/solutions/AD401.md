@@ -1,0 +1,1 @@
+Bei der dargestellten Schaltung handelt es sich um einen *Verstärker in Kollektorschaltung*. Für einen Oszillator fehlen ein frequenzbestimmendes Netzwerk und die notwendige Rückkopplung (Dreipunktschaltung). Die Kollektorschaltung ist daran zu erkennen, dass der Kollektor weder als Eingang noch als Ausgang dient, sondern den gemeinsamen Bezugspunkt für beide bildet.

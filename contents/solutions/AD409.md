@@ -1,0 +1,1 @@
+Bei der dargestellten Schaltung handelt es sich um einen *Verstärker in Emitterschaltung*. Der Eingang ist an der Basis, der Ausgang am Kollektor angeschlossen. Aus diesem Grund wird die Schaltung als Emitterschaltung bezeichnet.

@@ -1,0 +1,1 @@
+Der Kondensator $C_1$ dient zur *Maximierung der Wechselspannungsverstärkung*. Für Wechselspannungen überbrückt er den Emitterwiderstand und verringert dadurch die Gegenkopplung. Der Gleichstrom-Arbeitspunkt des Transistors bleibt dabei unverändert.

@@ -1,0 +1,1 @@
+Die Kondensatoren $C_1$ und $C_2$ am Ein- und Ausgang blockieren die Gleichspannung und lassen nur die Wechselspannung passieren, sodass allein der Spannungsteiler die Basisvorspannung und damit den Arbeitspunkt bestimmt.

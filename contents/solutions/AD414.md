@@ -1,0 +1,1 @@
+Wird der Kondensator $C_1$ entfernt, nimmt die Spannungsverstärkung ab. Der Emitterwiderstand wird dann nicht mehr für Wechselspannungen überbrückt und bewirkt eine stärkere Gegenkopplung: Steigt der Emitterstrom, steigt auch die Emitterspannung und verringert dadurch die Änderung der Basis-Emitter-Spannung. Das Eingangssignal steuert den Transistor somit weniger stark aus.

@@ -1,0 +1,1 @@
+Die Phasenverschiebung beträgt $\qty{180}{\degree}$. Steigt die Eingangsspannung an der Basis, erhöht sich der Kollektorstrom. Dadurch wird der Spannungsabfall am Kollektorwiderstand größer und die Ausgangsspannung am Kollektor sinkt. Eine positive Halbwelle am Eingang erzeugt somit eine negative Halbwelle am Ausgang, weshalb beide Signale gegenphasig sind.

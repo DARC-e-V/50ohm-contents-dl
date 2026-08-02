@@ -1,0 +1,3 @@
+Die Emitterschaltung besitzt eine große Wechselspannungsverstärkung, typischerweise im Bereich von $\num{100}\dots\num{300}$. Der Emitterkondensator überbrückt den Emitterwiderstand für Wechselspannungen und verringert dadurch die Gegenkopplung, sodass eine hohe Verstärkung erreicht wird.
+
+Steigt die Eingangsspannung an der Basis, erhöht sich der Kollektorstrom. Dadurch nimmt der Spannungsabfall am Kollektorwiderstand zu und die Ausgangsspannung am Kollektor sinkt. Ein- und Ausgangssignal sind daher gegenphasig; die Phasenverschiebung beträgt $\qty{180}{\degree}$.
