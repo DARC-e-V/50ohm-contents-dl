@@ -1,0 +1,87 @@
+% Author: Dr. Matthias Jung, DL9MJ
+% Year: 2020
+\begin{tikzpicture}
+    \begin{axis}[%
+        /pgf/number format/1000 sep={ },
+        /pgf/number format/use comma,        
+        axis lines=middle,
+        axis line style={-Triangle},
+        every major tick/.append style={thick, black},
+        grid=major,
+        grid style={line width=.1pt, draw=gray!10},
+        major grid style={line width=.2pt,draw=gray!50},
+        xticklabel=\empty,
+        yticklabel=\empty,
+        xtick style={draw=none},
+        ytick style={draw=none},
+        xmin=3,
+        xmax=20,
+        ymin=0.0,
+        ymax=20.5,
+        xmajorgrids=false,
+        ymajorgrids=false,
+        xlabel style={at={(ticklabel* cs:1)},anchor=north east},
+        ylabel style={at={(ticklabel* cs:1)},anchor=north east},
+        ylabel={$P$},
+        xlabel={$f$},
+        width=\linewidth*\getDarcImageFactor,
+        height=4cm,
+        scale only axis
+    ]
+    \addplot[color=black,name path=B] coordinates{
+        (0,0)
+        (1,0)
+        (2,0)
+        (3,0)
+        (4,0)
+        (5,0)
+        (6,0)
+        (7,0)
+        (8,0)
+        (8.5,0)
+        (9,0)
+        (9.5,0)
+        (10,0)
+        (11,0)
+        (12,0)
+        (13,0)
+        (14,0)
+        (15,0)
+        (16,0)
+        (17,0)
+        (18,0)
+        (19,0)
+    };
+    \addplot[color=black,smooth,name path=A, thick] coordinates{
+        (0,0)
+        (1,0.5)
+        (2,0.5)
+        (3,0)
+        (4,0.7)
+        (5,0.5)
+        (6,0.5)
+        (7,1)
+        (8,5)
+        (8.5,18.9)
+        (9,20.0)
+        (9.5,19)
+        (10,10)
+        (11,13)
+        (12,10)
+        (13,12)
+        (14,10)
+        (15,11)
+        (16,5)
+        (17,0.5)
+        (18,1.0)
+        (19,0)
+    };
+    \addplot[DARCred, fill opacity=0.4] fill between[of=A and B,soft clip={domain=0:8}];
+    \addplot[DARCred, fill opacity=0.4] fill between[of=A and B,soft clip={domain=16:20}];
+    \addplot[DARCblue, fill opacity=0.4] fill between[of=A and B,soft clip={domain=8:16}];
+
+    \draw[DARCred] (axis cs:  6.0,10) node[](A){\qty{0.5}{\percent}}; \draw[DARCred](A.south) -- (axis cs: 7.5,1);
+    \draw[DARCred] (axis cs: 18.0,10) node[](A){\qty{0.5}{\percent}}; \draw[DARCred](A.south) -- (axis cs: 16.5,1);
+    \draw[DARCblue] (axis cs: 12.0,5) node[](A){\Huge\qty{99}{\percent}}; 
+\end{axis}
+\end{tikzpicture}%
