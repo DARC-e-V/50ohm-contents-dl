@@ -1,0 +1,44 @@
+% Author: Dr. Matthias Jung, DL9MJ
+% Year: 2020
+\begin{tikzpicture}
+    \pgfplotsset{samples=200}
+    \begin{axis}[
+        axis on top,
+        axis lines=middle,
+        height=6cm,
+        scale only axis,
+        width=\linewidth*\getDarcImageFactor,
+        ticks=none,
+        axis line style={-Triangle},
+        xticklabel style={/pgf/number format/.cd,fixed,precision=1,use comma,fixed,fixed zerofill},
+        xmin =  0,
+        ymin = -2.5,
+        xmax =  9,
+        ymax =  3,
+        domain = 0:6.75,
+        thick,
+        smooth,
+        no markers]
+        \addplot+[name path=A,ultra thick, black] { 0.75*sin(deg(x)-180)+1.5};
+        \addplot+[name path=B,ultra thick, black] {-0.75*sin(deg(x)-180)-1.5};
+        \addplot[gray] fill between[of=A and B];
+
+        \draw[dashed] (axis cs: -0.25,1.50) -- (axis cs: 8,1.5);
+        \draw[dashed] (axis cs: 3*0.5*3.14,2.25) -- (axis cs: 8,2.25);
+
+        % Bemaßung zeichnen:
+        \draw(axis cs: 3*0.5*3.14,0) coordinate(start);
+        \draw(axis cs: 3*0.5*3.14,1.5) coordinate(end);
+        \draw($(start)!0.5!(end)$) coordinate(middle);
+        \node[anchor=west] (text) at (middle) {$\hat U_\mathrm{T}$};
+        \draw[Triangle-] (start) -- (middle);
+        \draw[Triangle-] (end) -- (middle);
+        %
+        \draw(axis cs: 6.5,1.5) coordinate(start);
+        \draw(axis cs: 6.5,2.25) coordinate(end);
+        \draw($(start)!0.5!(end)$) coordinate(middle);
+        \node[anchor=west] (text) at (middle) {$\hat U_\mathrm{mod}$};
+        \draw[Triangle-] (start) -- (middle);
+        \draw[Triangle-] (end) -- (middle);
+    \end{axis}
+\end{tikzpicture}
