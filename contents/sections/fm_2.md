@@ -17,7 +17,7 @@ Abbildung [ref:e_frequenzmodulation_frequenzhub] zeigt beispielhaft ein NF-Sinus
 </margin>
 
 <indepth>
-Die belegte Bandbreite einer FM-Aussendung wird durch den Hub und die maximale Modulationsfrequenz bestimmt. In erster Näherung kann für kleinen Hub und niedrige Modulationsfrequenz die *Carson-Formel* angewendet werden. Sie gibt an in welcher Bandbreite sich $\qty{90}{\percent}$ der Sendeleistung befinden.
+Die belegte Bandbreite einer FM-Aussendung wird durch den Hub und die maximale Modulationsfrequenz bestimmt. In erster Näherung kann für kleinen Hub und niedrige Modulationsfrequenz die *Carson-Formel* angewendet werden. Sie gibt an in welcher Bandbreite sich $\qty{99}{\percent}$ der Sendeleistung befinden.
 
 $B\approx2 \cdot \left(\Delta f_{\textrm{T}} + f_{\textrm{mod max}} \right)$
   
