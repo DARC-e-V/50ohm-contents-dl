@@ -20,7 +20,7 @@
         \draw(-0.5,0) node [transformer core, american](T1){T1};
         \draw(T1.A1)
             to [short,-o] ++(-0.5,0) coordinate(h)
-            to [open, v=$U_1$] (h|-T1.A2)
+            to [open, v={${\color{DARCblue}U_1}$}] (h|-T1.A2)
             to [short,o-] (T1.A2);
 
         % Help coordinates:
@@ -48,7 +48,7 @@
             node [transformer core, american, anchor=A2](T2){T2};
         \draw(T2.B1)
             to [short,-o] ++(+0.5,0) coordinate(h)
-            to [open, v=$U_3$] (h|-T2.B2)
+            to [open, v^={\rotatebox{90}{${\color{DARCblue}\scriptstyle U_3=-U_1}$}}] (h|-T2.B2)
             to [short,o-] (T2.B2);
         \draw(T2.A1)
             to [short] ++(0,0.5) coordinate(h)
@@ -63,7 +63,26 @@
             to [short, *-] ++(-0.25,0)
             to [short] ++(0,-2.25) coordinate(end);
         \draw(start)
-            to [cgenerator, v={$U_2$}] (end);
+            to [cgenerator, v={${\color{DARCblue}\scriptstyle U_2=-1\,\mathrm{V}}$}] (end);
+
+        % Node voltages for this switching state:
+        \tikzset{node voltage/.style={
+            text=DARCblue,
+            font=\scriptsize,
+            inner sep=1pt
+        }}
+        \node[node voltage, anchor=north west]
+            at ($(T1.B1)+(0.95,0.4)$) {$-1\,\mathrm{V}+\frac{U_1}{2}$};
+        \node[node voltage, anchor=north west]
+            at ($(T1.B2)+(0.55,-0.2)$) {$-1\,\mathrm{V}-\frac{U_1}{2}$};
+        \node[node voltage, anchor=north east]
+            at ($(T2.A1)+(-0.35,0.4)$) {$-1\,\mathrm{V}+\frac{U_1}{2}$};
+        \node[node voltage, anchor=north east]
+            at ($(T2.A2)+(-0.7,-0.2)$) {$-1\,\mathrm{V}-\frac{U_1}{2}$};
+        \node[node voltage, anchor=south west]
+            at ($(T1-L2.midtap)+(0.18,0.18)$) {$-1\,\mathrm{V}$};
+        \node[node voltage, anchor=south east]
+            at ($(T2-L1.midtap)+(-0.18,0.18)$) {$0\,\mathrm{V}$};
 
         % Conducting diode pair and signal paths:
         \draw[DARCred] (T1.B1) to [short] (north);
@@ -77,6 +96,8 @@
         \draw[DARCred] (south)
             to [stroke diode, invert, draw=DARCred, fill=DARCred!10, *-*] (east);
         \draw[DARCred] (east) |- (T2.A2);
+        % Stable canvas for all three applet states:
+        \path (-1.9,-3.5) rectangle (6.92,1.9);
     \end{scope}
 
     \begin{scope}[shift={($(bb.south west)+(0.75/\getDarcImageFactor,-2.1/\getDarcImageFactor)$)}]

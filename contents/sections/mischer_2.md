@@ -2,12 +2,14 @@
 [picture:804:mischer_linear_vs_nichtlinear:Linearer Widerstand und nichtlineare Diode]
 </margin>
 
-Steuerkennlinien von Baugruppen oder Bauelementen können linearen, nichtlinearen oder abschnittsweise gemischten Charakter haben. Zum Beispiel hat ein Widerstand eine lineare Kennline, die Kennlinie einer Diode ist hingegen nichtlinear [ref:mischer_linear_vs_nichtlinear].
 
-Im linearen Bereich von Steuerkennlinien finden keine Verzerrungen der Eingangssignale statt da zu jeder Änderung eines Eingangssignals eine prozentual gleichgroße Änderung des Ausgangssignals erfolgt. Mathematisch entspricht dies einem linearen Verhalten (Addition). Ein Beispiel für eine durchgehend lineare Steuerkennlinie ist ein Widerstand. An linearen Steuerkennlinien oder im linearen Bereich von Steuerkennlinien findet *kein* Mischprozess statt.
+Bauelemente und Baugruppen können sich *linear* oder *nichtlinear* verhalten. Bei einem linearen Bauelement folgt die Ausgangsgröße der Eingangsgröße nach einem festen Zusammenhang. Ein idealer Widerstand besitzt beispielsweise eine lineare Kennlinie. Die Kennlinie einer Diode ist dagegen nichtlinear (vgl. [ref:mischer_linear_vs_nichtlinear]).
 
-Im nichtlinearen Bereich von Steuerkennlinien finden Verzerrungen der Eingangssignale statt, da eine Änderung eines Eingangssignals keine prozentual gleichgroße Änderung eines Ausgangssignals bewirkt. Mathematisch entspricht dies einem nichtlinearen Verhalten bei dem eine Multiplikation der Eingangsgrößen stattfindet und daher zusätzliche Mischprodukte (abhängig von der Form der Kennlinie) entstehen. Daher findet im nichtlinearen Bereich von Steuerkennlinien immer ein Mischprozess statt. Mischprodukte erzeugen immer zusätzliche Frequenzen im Ausgangssignal welche überwiegend als Summen und Differenzen der Eingangsfrequenzen im Ausgangssignal vorliegen.
+Für einen Mischprozess reicht ein rein lineares Verhalten nicht aus. Werden mehrere Signale durch eine lineare Schaltung übertragen, können sie zwar verstärkt, abgeschwächt oder miteinander addiert werden, sie beeinflussen sich dabei jedoch nicht gegenseitig. Es entstehen dadurch keine neuen Frequenzanteile.
 
+Damit eine Mischung stattfinden kann, müssen die Eingangssignale miteinander verknüpft werden. Dies kann beispielsweise durch die nichtlineare Kennlinie einer Diode oder eines Transistors geschehen. Eine weitere häufig verwendete Möglichkeit besteht darin, das Eingangssignal mit Hilfe des Oszillatorsignals schnell ein- und auszuschalten beziehungsweise umzupolen. Auch ein solcher Schaltvorgang ist kein linearer Vorgang und bewirkt, dass beide Signale miteinander verknüpft werden.
+
+Genau diese Eigenschaft wird in einem Mischer gezielt ausgenutzt. Deshalb arbeiten Mischstufen mit nichtlinearen Bauelementen oder mit Schaltungen, in denen Transistoren oder Dioden durch das Oszillatorsignal geschaltet werden.
 In der Praxis bilden sich jedoch auch viele unerwünschte Mischprodukte höherer Ordnung, die durch technische Maßnahmen wie Filterung gezielt unterdrückt werden müssen.
 
 [question:AF212]

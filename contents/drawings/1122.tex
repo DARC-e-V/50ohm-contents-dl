@@ -48,7 +48,7 @@
             node [transformer core, american, anchor=A2](T2){T2};
         \draw(T2.B1)
             to [short,-o] ++(+0.5,0) coordinate(h)
-            to [open, v=$U_3$] (h|-T2.B2)
+            to [open, v^={\rotatebox{90}{$U_3$}}] (h|-T2.B2)
             to [short,o-] (T2.B2);
         \draw(T2.A1)
             to [short] ++(0,0.5) coordinate(h)
@@ -64,6 +64,8 @@
             to [short] ++(0,-2.25) coordinate(end);
         \draw(start)
             to [cgenerator, v={$U_2$}] (end);
+        % Stable canvas for all three applet states:
+        \path (-1.9,-3.5) rectangle (6.92,1.9);
     \end{scope}
 
     \begin{scope}[shift={($(bb.south west)+(0.75/\getDarcImageFactor,-2.1/\getDarcImageFactor)$)}]
