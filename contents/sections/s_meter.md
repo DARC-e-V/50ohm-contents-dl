@@ -1,12 +1,21 @@
-Das S-Meter eines Empfängers dient zur Anzeige der Signalstärke des am Empfängereingang anliegenden HF-Signals.
-Das S-Meter unterteilt sich i.d.R. in 9 S-Stufen und einen nachfolgenden Bereich der in $\qty{+}{\dB}$ angezeigt wird. Hierbei entspricht eine Änderung um eine S-Stufe $\qty{6}{\dB}$. Ab dem S-Wert S9 werden aufgrund der logarithmischen Darstellung des Instruments stärkere Signale als S9 plus $\unit{\dB}$-Wert angezeigt.
-Aus der Definition der Dezibel folgt, dass $\qty{+6}{\dB}$ einer Spannungsverdoppelung oder Leistungsvervierfachung des Eingangssignals entsprechen. Analog entspricht eine Spannungshalbierung am Empfängereingang einer Leistungsviertelung oder $\qty{-6}{\dB}$.
+In der Klasse N haben wir das *S-Meter* bereits sowohl in seiner analogen Variante (Abb. [ref:a_s_meter_analog]) als auch in seiner digitalen Variante (Abb. [ref:a_s_meter_digital]) kennengelernt. Es dient dazu, die Stärke des am Empfängereingang anliegenden HF-Signals anzuzeigen.
+
+Die Skala eines S-Meters reicht üblicherweise von S1 bis S9. Eine Änderung um eine S-Stufe entspricht dabei $\qty{6}{\dB}$. Stärkere Signale oberhalb von S9 werden nicht mehr in weiteren S-Stufen, sondern in Dezibel über S9 angegeben, beispielsweise als „S9 + $\qty{20}{\dB}$“.
+
+Da die Dezibel-Skala logarithmisch ist, entspricht eine Erhöhung um $\qty{6}{\dB}$ einer Verdopplung der Eingangsspannung beziehungsweise einer Vervierfachung der Eingangsleistung. Umgekehrt entspricht eine Verringerung um $\qty{6}{\dB}$ einer Halbierung der Spannung beziehungsweise einer Viertelung der Leistung.
+
+<margin>
+[picture:578:a_s_meter_digital:Nummer 2 zeigt das digitale S-Meter eines TRX]
+[picture:420:a_s_meter_analog:Analoges S-Meter eines TRX]
+</margin>
 
 [question:AF101]
 [question:AF104]
 [question:AF103]
 [question:AA113]
 [question:AF102]
+
+---
 
 Im Kurzwellenbereich bis $\qty{30}{\mega\hertz}$ entspricht ein S-Wert von S9 genau $\qty{50}{\micro\volt}$ an $\qty{50}{\ohm}$.
 Ab dem VHF-Bereich ($\qty{144}{\mega\hertz}$) entspricht ein S-Wert von S9 genau $\qty{5}{\micro\volt}$ an $\qty{50}{\ohm}$.
