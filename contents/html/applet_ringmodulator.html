@@ -1,0 +1,35 @@
+Mit dem folgenden Applet kann man beide Schaltzustände des Ringmodulators getrennt betrachten.<br><br>
+
+<html>
+    <button id="button0">Keine Aktion</button>
+    <button id="button1">Fall 1: U₂ &gt; 0, U₃ = U₁</button>
+    <button id="button2">Fall 2: U₂ &lt; 0, U₃ = −U₁</button>
+
+    <img id="ringmodulator" width="100%" style="display: block; margin-top: 1rem;" alt="Schaltzustände des Ringmodulators"/>
+
+    <script>
+        const images = [
+            "/pictures/1122.svg",
+            "/pictures/1123.svg",
+            "/pictures/1124.svg",
+        ];
+
+        document.getElementById("button0").addEventListener("click", function() {
+            showState(0);
+        });
+
+        document.getElementById("button1").addEventListener("click", function() {
+            showState(1);
+        });
+
+        document.getElementById("button2").addEventListener("click", function() {
+            showState(2);
+        });
+
+        function showState(index = 0) {
+            document.querySelector("#ringmodulator").src = images[index];
+        }
+
+        showState(0);
+    </script>
+</html>

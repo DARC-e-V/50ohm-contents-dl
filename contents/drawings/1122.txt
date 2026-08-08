@@ -1,0 +1,1 @@
+Neutral dargestellter Ringmodulator mit zwei Transformatoren und vier Dioden in Ringschaltung. Unter dem Schaltbild zeigen drei übereinander angeordnete Diagramme das rechteckförmige Oszillatorsignal U2, das sinusförmige Eingangssignal U1 und das durch U2 periodisch umgepolte Ausgangssignal U3.

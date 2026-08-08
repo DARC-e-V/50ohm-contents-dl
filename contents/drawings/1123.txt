@@ -1,0 +1,1 @@
+Ringmodulator im ersten Schaltzustand bei positivem Oszillatorsignal U2. Die Diode oben rechts, die Diode unten links und die zugehörigen Leitungswege sind rot hervorgehoben. In den drei Diagrammen darunter markieren hellblaue Flächen alle positiven Intervalle von U2. In diesen Intervallen gilt U3 gleich U1.

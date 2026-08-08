@@ -1,0 +1,165 @@
+% Author: Prof. Dr. Matthias Jung, DL9MJ
+% Year: 2026
+% Ring modulator, case 1: U2 > 0 and U3 = U1
+\begin{circuitikz}[european, straight voltages]
+    \ctikzset{
+        quadpoles/transformer core/inner=1,
+        quadpoles/transformer core/width=0.6,
+        quadpoles/transformer core/height=2.0,
+        transformer L1/.style={inductors/width=1.5, inductors/coils=6},
+        transformer L2/.style={inductors/width=1.5, inductors/coils=6},
+    }
+
+    \begin{scope}[scale=1.25, transform shape, local bounding box=bb]
+        \ctikzset{
+            diodes/scale=\getDarcImageFactor,
+            inductors/scale=\getDarcImageFactor,
+            blocks/scale=\getDarcImageFactor
+        }
+        % T1:
+        \draw(-0.5,0) node [transformer core, american](T1){T1};
+        \draw(T1.A1)
+            to [short,-o] ++(-0.5,0) coordinate(h)
+            to [open, v=$U_1$] (h|-T1.A2)
+            to [short,o-] (T1.A2);
+
+        % Help coordinates:
+        \draw(T1.B1)
+            to [short,-*] ++(2.5,0) coordinate(north);
+        \draw(T1.B2)
+            to [short,-*] ++(2.5,0) coordinate(south);
+        \draw(north)
+            to [open, name={center}] (south);
+        \draw(center.center)
+            to [open] ++(-1.65,0) coordinate(west);
+        \draw(center.center)
+            to [open] ++(+1.65,0) coordinate(east);
+
+        % Diode ring:
+        \draw(north) to [stroke diode, invert, -*] (west);
+        \draw(north) to [stroke diode, -*] (east);
+        \draw(south) to [stroke diode, -*] (west);
+        \draw(south) to [stroke diode, invert, -*] (east);
+
+        % T2:
+        \draw(east)
+            to [short] (east|-T1.B2)
+            to [short] ++(0.9,0)
+            node [transformer core, american, anchor=A2](T2){T2};
+        \draw(T2.B1)
+            to [short,-o] ++(+0.5,0) coordinate(h)
+            to [open, v=$U_3$] (h|-T2.B2)
+            to [short,o-] (T2.B2);
+        \draw(T2.A1)
+            to [short] ++(0,0.5) coordinate(h)
+            to [short] (h-|west)
+            to [short] (west);
+
+        % Local oscillator:
+        \draw(T1-L2.midtap)
+            to [short, *-] ++(+0.25,0)
+            to [short] ++(0,-2.25) coordinate(start);
+        \draw(T2-L1.midtap)
+            to [short, *-] ++(-0.25,0)
+            to [short] ++(0,-2.25) coordinate(end);
+        \draw(start)
+            to [cgenerator, v={$U_2$}] (end);
+
+        % Conducting diode pair and signal paths:
+        \draw[DARCred] (T1.B1) to [short] (north);
+        \draw[DARCred] (north)
+            to [stroke diode, draw=DARCred, fill=DARCred!10, *-*] (east);
+        \draw[DARCred] (east) |- (T2.A2);
+        \draw[DARCred] (T1.B2) to [short] (south);
+        \draw[DARCred] (south)
+            to [stroke diode, draw=DARCred, fill=DARCred!10, *-*] (west);
+        \draw[DARCred] (T2.A1)
+            to [short] ++(0,0.5) coordinate(activeTop)
+            to [short] (activeTop-|west)
+            to [short] (west);
+    \end{scope}
+
+    \begin{scope}[shift={($(bb.south west)+(0.75/\getDarcImageFactor,-2.1/\getDarcImageFactor)$)}]
+        \begin{axis}[
+            axis lines=center,
+            axis line style={-Triangle},
+            scale only axis,
+            axis on top,
+            height=1.8cm,
+            width=\linewidth*\getDarcImageFactor,
+            xmin=0,
+            xmax=2.5*pi,
+            ymin=-1,
+            ymax=1,
+            ticks=none,
+            xlabel={$t$},
+            xlabel style={anchor=north},
+            ylabel={$U_2$},
+            ylabel style={anchor=east},
+        ]
+        \pgfplotsinvokeforeach{0,...,12}{
+            \fill[DARCblue!10]
+                (axis cs:{2*#1*pi/10},-1)
+                rectangle (axis cs:{(2*#1+1)*pi/10},1);
+        }
+        \addplot[mark=none, DARCblue, thick, domain=0:2.5*pi, samples=1201]
+            {0.9*sign(sin(deg(10*x)))};
+        \end{axis}
+    \end{scope}
+
+    \begin{scope}[shift={($(bb.south west)+(0.75/\getDarcImageFactor,-4.2/\getDarcImageFactor)$)}]
+        \begin{axis}[
+            axis lines=center,
+            axis line style={-Triangle},
+            scale only axis,
+            axis on top,
+            height=1.8cm,
+            width=\linewidth*\getDarcImageFactor,
+            xmin=0,
+            xmax=2.5*pi,
+            ymin=-1,
+            ymax=1,
+            ticks=none,
+            xlabel={$t$},
+            xlabel style={anchor=north},
+            ylabel={$U_1$},
+            ylabel style={anchor=east},
+        ]
+        \pgfplotsinvokeforeach{0,...,12}{
+            \fill[DARCblue!10]
+                (axis cs:{2*#1*pi/10},-1)
+                rectangle (axis cs:{(2*#1+1)*pi/10},1);
+        }
+        \addplot[smooth, mark=none, DARCblue, thick, domain=0:2.5*pi, samples=400]
+            {0.9*sin(deg(x))};
+        \end{axis}
+    \end{scope}
+
+    \begin{scope}[shift={($(bb.south west)+(0.75/\getDarcImageFactor,-6.3/\getDarcImageFactor)$)}]
+        \begin{axis}[
+            axis lines=center,
+            axis line style={-Triangle},
+            scale only axis,
+            axis on top,
+            height=1.8cm,
+            width=\linewidth*\getDarcImageFactor,
+            xmin=0,
+            xmax=2.5*pi,
+            ymin=-1,
+            ymax=1,
+            ticks=none,
+            xlabel={$t$},
+            xlabel style={anchor=north},
+            ylabel={$U_3$},
+            ylabel style={anchor=east},
+        ]
+        \pgfplotsinvokeforeach{0,...,12}{
+            \fill[DARCblue!10]
+                (axis cs:{2*#1*pi/10},-1)
+                rectangle (axis cs:{(2*#1+1)*pi/10},1);
+        }
+        \addplot[mark=none, DARCblue, thick, domain=0:2.5*pi, samples=1201]
+            {0.9*sign(sin(deg(10*x)))*sin(deg(x))};
+        \end{axis}
+    \end{scope}
+\end{circuitikz}

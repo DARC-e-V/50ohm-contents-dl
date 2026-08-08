@@ -34,6 +34,9 @@ Steuerkennlinien können linear oder nicht-linear sein
 Nicht mit der Brückenschaltung verwechseln! 
 </note>
 
+--- style="font-size: smaller;"
+[include:applet_ringmodulator]
+
 ---
 [question:AF213]
 ---

@@ -1,0 +1,1 @@
+Ringmodulator im zweiten Schaltzustand bei negativem Oszillatorsignal U2. Die Diode oben links, die Diode unten rechts und die zugehörigen Leitungswege sind rot hervorgehoben. In den drei Diagrammen darunter markieren hellblaue Flächen alle negativen Intervalle von U2. In diesen Intervallen gilt U3 gleich minus U1.
