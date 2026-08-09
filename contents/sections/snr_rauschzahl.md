@@ -1,4 +1,8 @@
-Das Signal-to-Noise Ratio (SNR) ist definiert als das Verhältnis von Nutzsignal zu Rauschsignal (Noise). Je höher das SNR eines empfangenen Signals ist, desto mehr hebt sich das Nutzsignal vom Rauschen bei gegebener Bandbreite ab.
+Das Signal-to-Noise Ratio (SNR) ist definiert als das Verhältnis von Nutzsignal zu Rauschsignal (Noise), wie in Abbildung [ref:a_snr] dargestellt. Je höher das SNR eines empfangenen Signals ist, desto mehr hebt sich das Nutzsignal vom Rauschen bei gegebener Bandbreite ab.
+
+<margin>
+[picture:1097:a_snr:Signal-to-Noise Ratio (SNR)]
+</margin>
 
 [question:AF227]
 

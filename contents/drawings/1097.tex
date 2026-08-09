@@ -1,0 +1,92 @@
+% Author: Dr. Matthias Jung, DL9MJ
+% Year: 2022
+\begin{filecontents*}{sql.csv}
+    a, b
+    0,4.5
+    1,4.3
+    2,4.5
+    3,4.2
+    4,3.8
+    5,4.5
+    6,4.2
+    7,4.0
+    8,14
+    9,10
+    10,15
+    11,9
+    12,16
+    13,11
+    14,16
+    15,10
+    16,15
+    17,9
+    18,16
+    19,9
+    20,16
+    21,4.5
+    22,5
+    23,4.2
+    24,3.8
+    25,4.5
+    26,4.2
+    27,4.5
+    28,5
+    29,4.2
+    30,3.8
+    31,4.5
+    32,4.2
+    33,4.5
+    34,5
+    35,4.2
+    36,3.8
+    37,4
+    38,7
+    39,5
+    40,8
+    41,5
+    42,8
+    43,6
+    44,8
+    45,6
+    46,8
+    47,5
+    48,8
+    49,6
+    50,8
+    51,4.5
+    52,4.5
+    53,4.2
+    54,3.8
+    55,4.5
+    56,4.2
+    57,4.3
+    58,4.2
+    59,4.4
+    60,4.1
+\end{filecontents*}
+
+\pgfkeys{/pgf/number format/.cd,1000 sep={}}
+\begin{tikzpicture}
+    \begin{axis}[
+        axis lines=center, 
+        axis line style={-Triangle},
+        width=\linewidth,
+        height=6cm,
+        xmin=0,
+        xmax=60,
+        ymin=0,
+        ymax=20,
+        ticks=none,
+        xlabel={$t$},
+        xlabel style={anchor=north},
+        ylabel={$U$},
+        ylabel style={anchor=east},
+    ]
+        \addplot[smooth, draw=DARCblue, thick] table [x=a, y=b, col sep=comma] {sql.csv};
+
+        \draw[DARCblue](axis cs: 14,18) node[](){Signal};
+        \draw[DARCblue](axis cs: 30,2) node[](){Rauschen};
+
+        \draw[Triangle-Triangle, DARCred] (axis cs: 28,5.25) -- (axis cs: 28,16) node[midway, right](){SNR};
+    \end{axis}
+\end{tikzpicture}
