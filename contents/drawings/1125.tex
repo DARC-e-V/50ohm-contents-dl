@@ -1,0 +1,93 @@
+% Author: Prof. Dr. Matthias Jung, DL9MJ
+% Year: 2026
+\begin{tikzpicture}
+    \begin{scope}
+        \begin{axis}[
+            axis lines=center,
+            axis line style={-Triangle},
+            scale only axis,
+            axis on top,
+            height=1.8cm,
+            width=\linewidth*\getDarcImageFactor,
+            xmin=0,
+            xmax=2.5*pi,
+            ymin=-1,
+            ymax=1,
+            ticks=none,
+            xlabel={$t$},
+            xlabel style={anchor=north},
+            ylabel={$U_\mathrm{BFO}$},
+            ylabel style={anchor=east},
+        ]
+        \addplot[
+            mark=none,
+            DARCblue,
+            thick,
+            domain=0:2.5*pi,
+            samples=1201
+        ]
+        {0.9*sign(sin(deg(10*x)))};
+        \end{axis}
+    \end{scope}
+    \begin{scope}[
+        shift={(0,-2.1/\getDarcImageFactor)}
+    ]
+        \begin{axis}[
+            axis lines=center,
+            axis line style={-Triangle},
+            scale only axis,
+            axis on top,
+            height=1.8cm,
+            width=\linewidth*\getDarcImageFactor,
+            xmin=0,
+            xmax=2.5*pi,
+            ymin=-1,
+            ymax=1,
+            ticks=none,
+            xlabel={$t$},
+            xlabel style={anchor=north},
+            ylabel={$U_\mathrm{ZF}$},
+            ylabel style={anchor=east},
+        ]
+        \addplot[
+            mark=none,
+            DARCblue,
+            thick,
+            domain=0:2.5*pi,
+            samples=1201
+        ]
+        {0.9*sign(sin(deg(10*x)))*sin(deg(x))};
+        \end{axis}
+    \end{scope}
+    \begin{scope}[
+        shift={(0,-4.2/\getDarcImageFactor)}
+    ]
+        \begin{axis}[
+            axis lines=center,
+            axis line style={-Triangle},
+            scale only axis,
+            axis on top,
+            height=1.8cm,
+            width=\linewidth*\getDarcImageFactor,
+            xmin=0,
+            xmax=2.5*pi,
+            ymin=-1,
+            ymax=1,
+            ticks=none,
+            xlabel={$t$},
+            xlabel style={anchor=north},
+            ylabel={$U_\mathrm{NF}$},
+            ylabel style={anchor=east},
+        ]
+        \addplot[
+            smooth,
+            mark=none,
+            DARCblue,
+            thick,
+            domain=0:2.5*pi,
+            samples=400
+        ]
+        {0.9*sin(deg(x))};
+        \end{axis}
+    \end{scope}
+\end{tikzpicture}
