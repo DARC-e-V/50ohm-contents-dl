@@ -10,7 +10,7 @@ $\qty{1}{\ppm} = 1 \cdot 10^{-6}$
 
 Bei einem Frequenzzähler hängt die erreichbare Genauigkeit wesentlich von seiner *Zeitbasis* ab. Der Frequenzzähler bestimmt die Frequenz des Eingangssignals mithilfe einer internen Referenzfrequenz. Weicht diese Referenz von ihrem Sollwert ab, wirkt sich diese Abweichung entsprechend auf das Messergebnis aus.
 
-Als Zeitbasis werden deshalb möglichst stabile Oszillatoren eingesetzt. Hochwertige Frequenzzähler verwenden beispielsweise einen TCXO oder OCXO. Für besonders genaue Messungen kann häufig auch eine externe Frequenzreferenz angeschlossen werden, beispielsweise ein GPS-disziplinierter Oszillator (GPSDO).
+Als Zeitbasis werden deshalb möglichst stabile Oszillatoren eingesetzt. Hochwertige Frequenzzähler verwenden beispielsweise einen TCXO oder OCXO. Für besonders genaue Messungen kann häufig auch eine externe Frequenzreferenz angeschlossen werden, beispielsweise ein GPS-synchronisierter Oszillator (GPSDO).
 
 Ist die relative Frequenzgenauigkeit bekannt, kann daraus die maximal zu erwartende Frequenzabweichung berechnet werden:
 
