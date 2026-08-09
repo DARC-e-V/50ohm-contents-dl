@@ -1,0 +1,132 @@
+% Author: Prof. Dr. Matthias Jung, DL9MJ
+% Year: 2026
+\begin{tikzpicture}
+    \begin{scope}
+        \begin{axis}[
+            axis lines=center,
+            axis line style={-Triangle},
+            scale only axis,
+            axis on top,
+            height=2.2cm,
+            width=\linewidth*\getDarcImageFactor,
+            xmin=0,
+            xmax=24*pi,
+            ymin=-1.15,
+            ymax=1.45,
+            ticks=none,
+            xlabel={$t$},
+            xlabel style={anchor=north},
+            ylabel={$U$},
+            ylabel style={anchor=east},
+            clip=false,
+        ]
+
+        % Input signal: f = 1 kHz, one period corresponds to 1 ms
+        \addplot[
+            smooth,
+            mark=none,
+            DARCblue,
+            thick,
+            domain=0:24*pi,
+            samples=1800
+        ]
+        {0.8*sin(deg(x))};
+
+        % Gate boundaries
+        \draw[dashed, thick]
+            (axis cs:8.7*pi,-1.0)
+            -- (axis cs:8.7*pi,1.15);
+
+        \draw[dashed, thick]
+            (axis cs:13.3*pi,-1.0)
+            -- (axis cs:13.3*pi,1.15);
+
+        % Gate-time arrow
+        \draw[Triangle-Triangle, thick]
+            (axis cs:8.7*pi,1.18)
+            -- node[above] {kurze Torzeit $T_\mathrm{G}=\qty{2,3}{\milli\second}$}
+            (axis cs:13.3*pi,1.18);
+
+        % Counted positive zero crossings
+        \foreach \x in {10,12}{
+            \addplot[
+                only marks,
+                mark=*,
+                mark size=1.8pt,
+                DARCblue
+            ]
+            coordinates {({\x*pi},0)};
+        }
+
+        \node[anchor=north]
+            at (axis cs:11*pi,-1.0)
+            {$N=2 \quad\Rightarrow\quad f_\mathrm{M}=\dfrac{N}{T_\mathrm{G}}\approx\qty{870}{\hertz}$};
+
+        \end{axis}
+    \end{scope}
+
+    \begin{scope}[
+        shift={(0,-3.4/\getDarcImageFactor)}
+    ]
+        \begin{axis}[
+            axis lines=center,
+            axis line style={-Triangle},
+            scale only axis,
+            axis on top,
+            height=2.2cm,
+            width=\linewidth*\getDarcImageFactor,
+            xmin=0,
+            xmax=24*pi,
+            ymin=-1.15,
+            ymax=1.45,
+            ticks=none,
+            xlabel={$t$},
+            xlabel style={anchor=north},
+            ylabel={$U$},
+            ylabel style={anchor=east},
+            clip=false,
+        ]
+
+        % Input signal: f = 1 kHz, one period corresponds to 1 ms
+        \addplot[
+            smooth,
+            mark=none,
+            DARCblue,
+            thick,
+            domain=0:24*pi,
+            samples=1800
+        ]
+        {0.8*sin(deg(x))};
+
+        % Gate boundaries
+        \draw[dashed, thick]
+            (axis cs:0.7*pi,-1.0)
+            -- (axis cs:0.7*pi,1.15);
+
+        \draw[dashed, thick]
+            (axis cs:21.3*pi,-1.0)
+            -- (axis cs:21.3*pi,1.15);
+
+        % Gate-time arrow
+        \draw[Triangle-Triangle, thick]
+            (axis cs:0.7*pi,1.18)
+            -- node[above] {lange Torzeit $T_\mathrm{G}=\qty{10,3}{\milli\second}$}
+            (axis cs:21.3*pi,1.18);
+
+        % Counted positive zero crossings
+        \foreach \x in {2,4,6,8,10,12,14,16,18,20}{
+            \addplot[
+                only marks,
+                mark=*,
+                mark size=1.8pt,
+                DARCblue
+            ]
+            coordinates {({\x*pi},0)};
+        }
+
+        \node[anchor=north]
+            at (axis cs:11*pi,-1.0)
+            {$N=10 \quad\Rightarrow\quad f_\mathrm{M}=\dfrac{N}{T_\mathrm{G}}\approx\qty{971}{\hertz}$};
+        \end{axis}
+    \end{scope}
+\end{tikzpicture}
