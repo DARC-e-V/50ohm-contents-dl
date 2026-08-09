@@ -1,0 +1,263 @@
+<html>
+    <div class="text-start" id="attenuator-calculator">
+        <p>Mit diesem Applet können symmetrische T- und Pi-Dämpfungsglieder für ein 50-Ω-System berechnet werden.</p>
+
+        <div class="row g-3 align-items-end">
+            <div class="col-12 col-sm-6">
+                <label class="form-label" for="attenuator-db">Dämpfung in dB</label>
+                <input class="form-control" id="attenuator-db" type="number" min="0.1" max="100" step="0.1" value="6" inputmode="decimal">
+            </div>
+
+            <div class="col-12 col-sm-6">
+                <label class="form-label" for="attenuator-impedance">Systemimpedanz</label>
+                <input class="form-control" id="attenuator-impedance" type="text" value="50 Ω" readonly>
+            </div>
+
+            <div class="col-12 col-sm-6">
+                <span class="form-label d-block">Schaltungsform</span>
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" id="attenuator-pi" type="radio" name="attenuator-topology" value="pi" checked>
+                    <label class="form-check-label" for="attenuator-pi">Pi</label>
+                </div>
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" id="attenuator-t" type="radio" name="attenuator-topology" value="t">
+                    <label class="form-check-label" for="attenuator-t">T</label>
+                </div>
+            </div>
+
+            <div class="col-12 col-sm-6">
+                <label class="form-label" for="attenuator-series">Normreihe</label>
+                <select class="form-select" id="attenuator-series">
+                    <option value="E12">E12</option>
+                    <option value="E24" selected>E24</option>
+                    <option value="E48">E48</option>
+                    <option value="E96">E96</option>
+                </select>
+            </div>
+        </div>
+
+        <p class="text-danger mt-3" id="attenuator-error" role="alert" hidden></p>
+
+        <div class="mt-4" id="attenuator-output">
+            <p class="mb-1">Die idealen Widerstandswerte betragen:</p>
+            <div id="attenuator-ideal-result"></div>
+
+            <p class="mb-1">Die nächsten Widerstandswerte aus der <span id="attenuator-series-name">E24</span>-Reihe betragen:</p>
+            <div id="attenuator-standard-result"></div>
+
+            <p class="mb-1">Mit diesen Normwerten wird folgende Dämpfung erreicht:</p>
+            <div id="attenuator-achieved-result"></div>
+        </div>
+    </div>
+
+    <script>
+        (function() {
+            "use strict";
+
+            const impedance = 50;
+            const preferredValues = {
+                E12: [1.0, 1.2, 1.5, 1.8, 2.2, 2.7, 3.3, 3.9, 4.7, 5.6, 6.8, 8.2],
+                E24: [1.0, 1.1, 1.2, 1.3, 1.5, 1.6, 1.8, 2.0, 2.2, 2.4, 2.7, 3.0, 3.3, 3.6, 3.9, 4.3, 4.7, 5.1, 5.6, 6.2, 6.8, 7.5, 8.2, 9.1],
+                E48: [1.00, 1.05, 1.10, 1.15, 1.21, 1.27, 1.33, 1.40, 1.47, 1.54, 1.62, 1.69, 1.78, 1.87, 1.96, 2.05, 2.15, 2.26, 2.37, 2.49, 2.61, 2.74, 2.87, 3.01, 3.16, 3.32, 3.48, 3.65, 3.83, 4.02, 4.22, 4.42, 4.64, 4.87, 5.11, 5.36, 5.62, 5.90, 6.19, 6.49, 6.81, 7.15, 7.50, 7.87, 8.25, 8.66, 9.09, 9.53],
+                E96: [1.00, 1.02, 1.05, 1.07, 1.10, 1.13, 1.15, 1.18, 1.21, 1.24, 1.27, 1.30, 1.33, 1.37, 1.40, 1.43, 1.47, 1.50, 1.54, 1.58, 1.62, 1.65, 1.69, 1.74, 1.78, 1.82, 1.87, 1.91, 1.96, 2.00, 2.05, 2.10, 2.15, 2.21, 2.26, 2.32, 2.37, 2.43, 2.49, 2.55, 2.61, 2.67, 2.74, 2.80, 2.87, 2.94, 3.01, 3.09, 3.16, 3.24, 3.32, 3.40, 3.48, 3.57, 3.65, 3.74, 3.83, 3.92, 4.02, 4.12, 4.22, 4.32, 4.42, 4.53, 4.64, 4.75, 4.87, 4.99, 5.11, 5.23, 5.36, 5.49, 5.62, 5.76, 5.90, 6.04, 6.19, 6.34, 6.49, 6.65, 6.81, 6.98, 7.15, 7.32, 7.50, 7.68, 7.87, 8.06, 8.25, 8.45, 8.66, 8.87, 9.09, 9.31, 9.53, 9.76]
+            };
+
+            const attenuationInput = document.getElementById("attenuator-db");
+            const seriesSelect = document.getElementById("attenuator-series");
+            const output = document.getElementById("attenuator-output");
+            const error = document.getElementById("attenuator-error");
+            const idealResult = document.getElementById("attenuator-ideal-result");
+            const standardResult = document.getElementById("attenuator-standard-result");
+            const achievedResult = document.getElementById("attenuator-achieved-result");
+            const latexResults = [idealResult, standardResult, achievedResult];
+            let katexWaitTimer = null;
+
+            function decimalLatex(value, maximumFractionDigits, minimumFractionDigits = 0) {
+                return value.toLocaleString("de-DE", {
+                    maximumFractionDigits: maximumFractionDigits,
+                    minimumFractionDigits: minimumFractionDigits,
+                    useGrouping: false
+                }).replace(",", "{,}");
+            }
+
+            function resistanceLatex(value) {
+                if (value >= 1e6) {
+                    return decimalLatex(value / 1e6, 3) + "\\,\\mathrm{M}\\Omega";
+                }
+                if (value >= 1e3) {
+                    return decimalLatex(value / 1e3, 3) + "\\,\\mathrm{k}\\Omega";
+                }
+                return decimalLatex(value, 2) + "\\,\\Omega";
+            }
+
+            function nearestPreferredValue(value, seriesName) {
+                const values = preferredValues[seriesName];
+                const decade = Math.floor(Math.log10(value));
+                const candidates = [];
+
+                for (let exponent = decade - 1; exponent <= decade + 1; exponent += 1) {
+                    values.forEach(function(baseValue) {
+                        candidates.push(baseValue * Math.pow(10, exponent));
+                    });
+                }
+
+                return candidates.reduce(function(nearest, candidate) {
+                    return Math.abs(candidate - value) < Math.abs(nearest - value) ? candidate : nearest;
+                });
+            }
+
+            function multiplyMatrices(left, right) {
+                return [
+                    [
+                        left[0][0] * right[0][0] + left[0][1] * right[1][0],
+                        left[0][0] * right[0][1] + left[0][1] * right[1][1]
+                    ],
+                    [
+                        left[1][0] * right[0][0] + left[1][1] * right[1][0],
+                        left[1][0] * right[0][1] + left[1][1] * right[1][1]
+                    ]
+                ];
+            }
+
+            function achievedAttenuation(topology, symmetricResistance, middleResistance) {
+                const seriesMatrix = function(resistance) {
+                    return [[1, resistance], [0, 1]];
+                };
+                const shuntMatrix = function(resistance) {
+                    return [[1, 0], [1 / resistance, 1]];
+                };
+                let matrix;
+
+                if (topology === "pi") {
+                    matrix = multiplyMatrices(
+                        multiplyMatrices(shuntMatrix(symmetricResistance), seriesMatrix(middleResistance)),
+                        shuntMatrix(symmetricResistance)
+                    );
+                } else {
+                    matrix = multiplyMatrices(
+                        multiplyMatrices(seriesMatrix(symmetricResistance), shuntMatrix(middleResistance)),
+                        seriesMatrix(symmetricResistance)
+                    );
+                }
+
+                const denominator = matrix[0][0]
+                    + matrix[0][1] / impedance
+                    + matrix[1][0] * impedance
+                    + matrix[1][1];
+                const transmission = 2 / denominator;
+                return -20 * Math.log10(Math.abs(transmission));
+            }
+
+            function katexIsReady() {
+                return window.katex && typeof window.katex.render === "function";
+            }
+
+            function setLatex(element, latex) {
+                element.attenuatorLatex = latex;
+
+                if (katexIsReady()) {
+                    window.katex.render(latex, element, {
+                        displayMode: true,
+                        throwOnError: false,
+                        strict: false
+                    });
+                    return;
+                }
+
+                element.textContent = "";
+            }
+
+            function renderResultsWhenKatexIsReady() {
+                if (katexIsReady()) {
+                    katexWaitTimer = null;
+                    latexResults.forEach(function(element) {
+                        setLatex(element, element.attenuatorLatex);
+                    });
+                    return;
+                }
+
+                if (katexWaitTimer === null) {
+                    katexWaitTimer = window.setTimeout(function() {
+                        katexWaitTimer = null;
+                        renderResultsWhenKatexIsReady();
+                    }, 50);
+                }
+            }
+
+            function networkValuesLatex(topology, symmetricResistance, middleResistance) {
+                if (topology === "pi") {
+                    return "\\begin{aligned}"
+                        + "R_1=R_3&=" + resistanceLatex(symmetricResistance) + "\\\\"
+                        + "R_2&=" + resistanceLatex(middleResistance)
+                        + "\\end{aligned}";
+                }
+
+                return "\\begin{aligned}"
+                    + "R_1=R_2&=" + resistanceLatex(symmetricResistance) + "\\\\"
+                    + "R_3&=" + resistanceLatex(middleResistance)
+                    + "\\end{aligned}";
+            }
+
+            function calculate() {
+                const attenuation = attenuationInput.valueAsNumber;
+                const topology = document.querySelector('input[name="attenuator-topology"]:checked').value;
+                const seriesName = seriesSelect.value;
+
+                if (!Number.isFinite(attenuation) || attenuation <= 0 || attenuation > 100) {
+                    error.textContent = "Bitte eine Dämpfung zwischen 0,1 dB und 100 dB eingeben.";
+                    error.hidden = false;
+                    output.hidden = true;
+                    return;
+                }
+
+                error.hidden = true;
+                output.hidden = false;
+
+                const voltageRatio = Math.pow(10, attenuation / 20);
+                let symmetricResistance;
+                let middleResistance;
+
+                if (topology === "pi") {
+                    symmetricResistance = impedance * (voltageRatio + 1) / (voltageRatio - 1);
+                    middleResistance = impedance * (voltageRatio * voltageRatio - 1) / (2 * voltageRatio);
+                } else {
+                    symmetricResistance = impedance * (voltageRatio - 1) / (voltageRatio + 1);
+                    middleResistance = 2 * impedance * voltageRatio / (voltageRatio * voltageRatio - 1);
+                }
+
+                const preferredSymmetricResistance = nearestPreferredValue(symmetricResistance, seriesName);
+                const preferredMiddleResistance = nearestPreferredValue(middleResistance, seriesName);
+                const actualAttenuation = achievedAttenuation(
+                    topology,
+                    preferredSymmetricResistance,
+                    preferredMiddleResistance
+                );
+
+                setLatex(
+                    idealResult,
+                    networkValuesLatex(topology, symmetricResistance, middleResistance)
+                );
+                setLatex(
+                    standardResult,
+                    networkValuesLatex(topology, preferredSymmetricResistance, preferredMiddleResistance)
+                );
+                setLatex(
+                    achievedResult,
+                    "a_\\mathrm{erreicht}=" + decimalLatex(actualAttenuation, 2, 2) + "\\,\\mathrm{dB}"
+                );
+                document.getElementById("attenuator-series-name").textContent = seriesName;
+                if (!katexIsReady()) {
+                    renderResultsWhenKatexIsReady();
+                }
+            }
+
+            attenuationInput.addEventListener("input", calculate);
+            seriesSelect.addEventListener("change", calculate);
+            document.querySelectorAll('input[name="attenuator-topology"]').forEach(function(input) {
+                input.addEventListener("change", calculate);
+            });
+
+            calculate();
+        }());
+    </script>
+</html>
