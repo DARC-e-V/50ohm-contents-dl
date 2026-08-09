@@ -16,4 +16,5 @@
     \draw [DARCgray] (npn.C) node[anchor=south west](cc){C};
     \draw [DARCblue](bb.south west) to[open, v=$U_\text{BE}$ , color=DARCblue] (ee.west);
     \draw [DARCblue](cc.east)       to[open, v^=$U_\text{CE}$, color=DARCblue, voltage/distance from node=1] (ee.east);
+    \draw [DARCblue](cc.west)       to[open, v=$U_\text{CB}$, color=DARCblue, voltage/distance from node=1] (bb.north);
 \end{circuitikz}

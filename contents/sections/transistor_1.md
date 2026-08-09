@@ -33,7 +33,7 @@ Im aktiven Betrieb ist die Emitter-Basis-Diode stets in Flussrichtung geschaltet
 Die Transistorfunktion stellt sich aber nur ein, wenn die Basiszone zwischen Emitter und Kollektor maximal wenige Mikrometer breit ist. Also können wir keinen Transistor erzeugen, indem wir zwei separate Dioden aneinander löten.
 </tip>
 
-Die minimale Spannung am Emitter-Basis-Übergang hängt vom verwendeten Halbleiter ab. Bei einem Silizium-NPN-Transistor muss die Basis etwa $\qty{0,6}{\volt}$ positiver als der Emitter sein, beim Silizium-PNP-Transistor etwa $\qty{0,6}{\volt}$ negativer.
+Die minimale Spannung am Emitter-Basis-Übergang hängt vom verwendeten Halbleiter ab. Bei einem Silizium-NPN-Transistor muss die Basis etwa $\qty{0,6}{\volt}$ positiver als der Emitter sein, beim Silizium-PNP-Transistor etwa $\qty{0,6}{\volt}$ negativer. Diese Spannung wird als Basis-Emitter-Spannung $U_\mathrm{BE}$ bezeichnet.
 
 [question:EC610]
 [question:EC612]
@@ -49,7 +49,7 @@ Die minimale Spannung am Emitter-Basis-Übergang hängt vom verwendeten Halbleit
 
 ---
 
-Die Ströme und Spannungen an einem NPN-Transistor sind in der Abbildung [ref:e_npn_i_u] dargestellt. Die Basis-Emitter-Spannung $U_\mathrm{BE}$ kennen wir bereits, ebenso die Kollektor-Basis-Spannung $U_\mathrm{CB}$. Der Kollektorstrom $I_\mathrm{C}$ hängt exponentiell von der Basis-Emitter-Spannung ab:
+Die Ströme und Spannungen an einem NPN-Transistor sind in der Abbildung [ref:e_npn_i_u] dargestellt. Die Basis-Emitter-Spannung $U_\mathrm{BE}$ kennen wir bereits. Ebenso gibt es noch die Kollektor-Basis-Spannung $U_\mathrm{CB}$ und die Kollektor-Emitter-Spannung $U_\mathrm{CE}$. Der Kollektorstrom $I_\mathrm{C}$ hängt exponentiell von der Basis-Emitter-Spannung ab:
 
 $I_\mathrm{C} = I_\mathrm{S}\ e^{\frac{U_\mathrm{BE}}{U_\mathrm{T}}}$
 
