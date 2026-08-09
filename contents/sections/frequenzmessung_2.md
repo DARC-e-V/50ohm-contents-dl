@@ -28,18 +28,22 @@ Eine Frequenz kann auch mit einem Oszilloskop bestimmt werden. Für genaue Frequ
 
 ---
 
-Einfache Frequenzzähler arbeiten häufig mit einer sogenannten *Torzeit*. Während dieser Zeit zählt das Gerät die Perioden beziehungsweise Flanken oder Nulldruchgänge des Eingangssignals. Aus der Anzahl der gezählten Schwingungen und der bekannten Torzeit wird anschließend die Frequenz berechnet.
+Einfache Frequenzzähler arbeiten häufig mit einer sogenannten *Torzeit*. Während dieser Zeit zählt das Gerät die Perioden beziehungsweise Flanken oder Nulldruchgänge des Eingangssignals. Aus der Anzahl der gezählten Schwingungen und der bekannten Torzeit wird anschließend die Frequenz berechnet. Beispiel: Bei einer Torzeit von einer Sekunde ist die Frequenzbestimmung besonders einfach: Werden beispielsweise $\num{1000}$ Perioden gezählt, beträgt die gemessene Frequenz $\qty{1000}{\hertz}$.
 
 <margin>
-[picture:1126:a_frequenzmessung_torzeit:Zählung eines Signals mit einer Frequenz von $\qty{1}{\kilo\hertz}$ während sehr kleinen Torzeiten]
+[picture:1126:a_frequenzmessung_torzeit:Zählung eines Signals mit einer Frequenz von $\qty{1,1}{\kilo\hertz}$ während sehr kleinen Torzeiten]
 </margin>
 
-Bei einer Torzeit von einer Sekunde ist die Frequenzbestimmung besonders einfach: Werden beispielsweise $\num{1000}$ Perioden gezählt, beträgt die gemessene Frequenz $\qty{1000}{\hertz}$.
+Die *Frequenzauflösung* $\Delta f$ gibt an, wie klein der Frequenzunterschied zwischen zwei Messwerten sein kann, den der Frequenzzähler noch unterscheiden beziehungsweise anzeigen kann. Bei einem einfachen direkt zählenden Frequenzzähler wird die Frequenzauflösung durch die Torzeit $T_\mathrm{G}$ bestimmt:
 
-Welche Auswirkung die Torzeit auf das Messergebnis hat, zeigt die Abbildung [ref:a_frequenzmessung_torzeit]. In beiden Fällen wird dasselbe Signal mit einer tatsächlichen Frequenz von $\qty{1}{\kilo\hertz}$ gemessen. Bei der kurzen Torzeit werden jedoch nur wenige Perioden gezählt. Dadurch fällt bereits eine nicht vollständig erfasste Periode stark ins Gewicht und die gemessene Frequenz weicht deutlich vom tatsächlichen Wert ab.
+$\Delta f = \frac{1}{T_\mathrm{G}}$
 
-Bei einer längeren Torzeit werden wesentlich mehr Perioden erfasst. Ein Zählfehler von etwa einer Periode hat dann relativ zur Gesamtzahl der gezählten Perioden einen deutlich geringeren Einfluss. Das Messergebnis liegt daher näher an der tatsächlichen Frequenz und die Auflösung der Frequenzmessung verbessert sich.
+Welche Auswirkung die Torzeit beziehungsweise die Frequenzauflösung auf das Messergebnis hat, zeigt die Abbildung [ref:a_frequenzmessung_torzeit]. In beiden Fällen wird dasselbe Signal mit einer tatsächlichen Frequenz von $\qty{1,1}{\kilo\hertz}$ gemessen.
 
-Eine kurze Torzeit hat dafür den Vorteil, dass die Anzeige häufiger aktualisiert werden kann. Bei der Wahl der Torzeit besteht somit ein Kompromiss zwischen schneller Aktualisierung und hoher Frequenzauflösung.
+Bei einer Torzeit von nur $\qty{1}{\milli\second}$ wird lediglich eine Periode gezählt. Der Frequenzzähler ermittelt daraus einen Messwert von $\qty{1}{\kilo\hertz}$. Die kurze Torzeit erlaubt hier also nur eine Frequenzauflösung von $\qty{1}{\kilo\hertz}$.
+
+Wird die Torzeit auf $\qty{10}{\milli\second}$ verlängert, können bereits $\num{11}$ Perioden gezählt werden. Daraus ergibt sich ein Messwert von $\qty{1,1}{\kilo\hertz}$. Die Frequenzauflösung beträgt nun $\qty{100}{\hertz}$, sodass auch die zusätzliche Stelle der Frequenz angezeigt werden kann.
+
+Je länger die Torzeit ist, desto mehr Perioden werden gezählt und desto feiner wird die Frequenzauflösung. Eine kurze Torzeit hat dagegen den Vorteil, dass die Anzeige häufiger aktualisiert werden kann. Bei der Wahl der Torzeit besteht somit ein Kompromiss zwischen schneller Aktualisierung und hoher Frequenzauflösung. Die Genauigkeit der Frequenzmessung ist von der Auflösung zu unterscheiden. Sie hängt insbesondere von der Genauigkeit der Zeitbasis des Frequenzzählers ab.
 
 [question:AI505]

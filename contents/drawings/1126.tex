@@ -21,7 +21,8 @@
             clip=false,
         ]
 
-        % Input signal: f = 1 kHz, one period corresponds to 1 ms
+        % Input signal: f = 1.1 kHz
+        % 2*pi on the x-axis corresponds to 1 ms
         \addplot[
             smooth,
             mark=none,
@@ -30,37 +31,37 @@
             domain=0:24*pi,
             samples=1800
         ]
-        {0.8*sin(deg(x))};
+        {0.8*sin(deg(1.1*x))};
 
-        % Gate boundaries
+        % Gate boundaries: T_G = 1 ms
         \draw[dashed, thick]
-            (axis cs:8.7*pi,-1.0)
-            -- (axis cs:8.7*pi,1.15);
+            (axis cs:8.5*pi,-1.0)
+            -- (axis cs:8.5*pi,1.15);
 
         \draw[dashed, thick]
-            (axis cs:13.3*pi,-1.0)
-            -- (axis cs:13.3*pi,1.15);
+            (axis cs:10.5*pi,-1.0)
+            -- (axis cs:10.5*pi,1.15);
 
         % Gate-time arrow
         \draw[Triangle-Triangle, thick]
-            (axis cs:8.7*pi,1.18)
-            -- node[above] {kurze Torzeit $T_\mathrm{G}=\qty{2,3}{\milli\second}$}
-            (axis cs:13.3*pi,1.18);
+            (axis cs:8.5*pi,1.18)
+            -- node[above] {kurze Torzeit $T_\mathrm{G}=\qty{1}{\milli\second}$}
+            (axis cs:10.5*pi,1.18);
 
-        % Counted positive zero crossings
-        \foreach \x in {10,12}{
+        % Counted positive zero crossing
+        \foreach \k in {5}{
             \addplot[
                 only marks,
                 mark=*,
                 mark size=1.8pt,
                 DARCblue
             ]
-            coordinates {({\x*pi},0)};
+            coordinates {({20/11*\k*pi},0)};
         }
 
         \node[anchor=north]
-            at (axis cs:11*pi,-1.0)
-            {$N=2 \quad\Rightarrow\quad f_\mathrm{M}=\dfrac{N}{T_\mathrm{G}}\approx\qty{870}{\hertz}$};
+            at (axis cs:9.5*pi,-1.0)
+            {$N=1 \quad\Rightarrow\quad f_\mathrm{M}=\dfrac{N}{T_\mathrm{G}}=\qty{1}{\kilo\hertz}$};
 
         \end{axis}
     \end{scope}
@@ -87,7 +88,8 @@
             clip=false,
         ]
 
-        % Input signal: f = 1 kHz, one period corresponds to 1 ms
+        % Input signal: f = 1.1 kHz
+        % 2*pi on the x-axis corresponds to 1 ms
         \addplot[
             smooth,
             mark=none,
@@ -96,37 +98,38 @@
             domain=0:24*pi,
             samples=1800
         ]
-        {0.8*sin(deg(x))};
+        {0.8*sin(deg(1.1*x))};
 
-        % Gate boundaries
+        % Gate boundaries: T_G = 10 ms
         \draw[dashed, thick]
-            (axis cs:0.7*pi,-1.0)
-            -- (axis cs:0.7*pi,1.15);
+            (axis cs:1*pi,-1.0)
+            -- (axis cs:1*pi,1.15);
 
         \draw[dashed, thick]
-            (axis cs:21.3*pi,-1.0)
-            -- (axis cs:21.3*pi,1.15);
+            (axis cs:21*pi,-1.0)
+            -- (axis cs:21*pi,1.15);
 
         % Gate-time arrow
         \draw[Triangle-Triangle, thick]
-            (axis cs:0.7*pi,1.18)
-            -- node[above] {lange Torzeit $T_\mathrm{G}=\qty{10,3}{\milli\second}$}
-            (axis cs:21.3*pi,1.18);
+            (axis cs:1*pi,1.18)
+            -- node[above] {lange Torzeit $T_\mathrm{G}=\qty{10}{\milli\second}$}
+            (axis cs:21*pi,1.18);
 
         % Counted positive zero crossings
-        \foreach \x in {2,4,6,8,10,12,14,16,18,20}{
+        \foreach \k in {1,...,11}{
             \addplot[
                 only marks,
                 mark=*,
                 mark size=1.8pt,
                 DARCblue
             ]
-            coordinates {({\x*pi},0)};
+            coordinates {({20/11*\k*pi},0)};
         }
 
         \node[anchor=north]
             at (axis cs:11*pi,-1.0)
-            {$N=10 \quad\Rightarrow\quad f_\mathrm{M}=\dfrac{N}{T_\mathrm{G}}\approx\qty{971}{\hertz}$};
+            {$N=11 \quad\Rightarrow\quad f_\mathrm{M}=\dfrac{N}{T_\mathrm{G}}=\qty{1,1}{\kilo\hertz}$};
+
         \end{axis}
     \end{scope}
 \end{tikzpicture}
