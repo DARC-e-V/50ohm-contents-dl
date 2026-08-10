@@ -1,0 +1,27 @@
+% Author: Prof. Dr. Matthias Jung, DL9MJ
+% Year: 2024
+\begin{tikzpicture}
+    % Achse
+    \draw[-Triangle] (-0.3,0) -- (8.0,0) node[right] {$f$};
+    \draw[-Triangle] (0,-0.2) -- (0,2.0) node[above] {$U$};
+
+    % Frequenzpositionen
+    \def\fc{4}
+    \def\fm{1}
+
+    % Seitenbänder
+    \draw[very thick, DARCblue] ({\fc-\fm},0) -- ({\fc-\fm},1.2);
+    \draw[very thick, DARCblue] ({\fc+\fm},0) -- ({\fc+\fm},1.2);
+
+    % Unterdrückter Träger gestrichelt
+    \draw[very thick, DARCred] (\fc,0) -- (\fc,1.8);
+
+    % Beschriftungen
+    \node[below] at ({\fc-\fm},0) {$\unit{\ohm}-\omega$};
+    \node[below] at (\fc,0) {$\unit{\ohm}$};
+    \node[below] at ({\fc+\fm},0) {$\unit{\ohm}+\omega$};
+
+    \node[above] at ({\fc-\fm},1.2) {LSB};
+    \node[above] at ({\fc+\fm},1.2) {USB};
+    \node[above] at (\fc,1.8) {Träger};
+\end{tikzpicture}

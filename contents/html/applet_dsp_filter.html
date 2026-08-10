@@ -1,0 +1,85 @@
+<html>
+  <style>
+    .dsp-filter-applet {
+      width: 100%;
+    }
+
+    .dsp-filter-applet-controls {
+      margin-bottom: 2rem;
+    }
+
+    .dsp-filter-applet figure {
+      margin-bottom: 3rem;
+    }
+
+    .dsp-filter-applet figure img {
+      display: block;
+      width: 100%;
+      min-width: 0;
+      max-width: 100%;
+      max-height: none;
+    }
+
+    @media (min-width: 800px) {
+      .course .dsp-filter-applet {
+        width: 59.3%;
+      }
+
+      .course .margin .dsp-filter-applet {
+        width: 100%;
+      }
+    }
+  </style>
+
+  Das folgende Applet visualisiert eine mögliche Filtermethode für die Einseitenbandmodulation. Mit den Buttons kann zwischen LSB und USB gewechselt werden. Die Frequenzen und das Spektrum werden entsprechend angepasst.<br><br>
+
+  <section class="dsp-filter-applet" aria-label="Filtermethode für Einseitenbandmodulation">
+    <div class="btn-group dsp-filter-applet-controls" role="group" aria-label="Seitenband auswählen">
+      <button type="button" class="btn btn-primary" data-sideband="lsb" aria-pressed="true">LSB</button>
+      <button type="button" class="btn btn-outline-primary" data-sideband="usb" aria-pressed="false">USB</button>
+    </div>
+
+    <div data-sideband-panel="lsb">
+      <figure>
+        <img src="pictures/831.svg" alt="Frequenzen mit der Filtermethode bei LSB">
+      </figure>
+      <figure>
+        <img src="pictures/940.svg" alt="Spektrum mit der Filtermethode bei LSB">
+      </figure>
+    </div>
+
+    <div data-sideband-panel="usb" hidden>
+      <figure>
+        <img src="pictures/832.svg" alt="Frequenzen mit der Filtermethode bei USB">
+      </figure>
+      <figure>
+        <img src="pictures/941.svg" alt="Spektrum mit der Filtermethode bei USB">
+      </figure>
+    </div>
+
+    <script>
+      (() => {
+        const applet = document.currentScript.closest(".dsp-filter-applet");
+        const buttons = applet.querySelectorAll("[data-sideband]");
+        const panels = applet.querySelectorAll("[data-sideband-panel]");
+
+        function showSideband(sideband) {
+          buttons.forEach((button) => {
+            const selected = button.dataset.sideband === sideband;
+            button.classList.toggle("btn-primary", selected);
+            button.classList.toggle("btn-outline-primary", !selected);
+            button.setAttribute("aria-pressed", selected);
+          });
+
+          panels.forEach((panel) => {
+            panel.hidden = panel.dataset.sidebandPanel !== sideband;
+          });
+        }
+
+        buttons.forEach((button) => {
+          button.addEventListener("click", () => showSideband(button.dataset.sideband));
+        });
+      })();
+    </script>
+  </section>
+</html>

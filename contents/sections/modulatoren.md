@@ -1,83 +1,178 @@
-Bisher kennen wir Halbleiter-Dioden nur in ihrer Funktion als Gleichrichter einer Wechselspannung. In Modulatoren zur Erzeugung von AM- und SSB-Signalen spielen Dioden eine neue Rolle: Durch eine angelegte NF-Spannung wird ihr Widerstand im Takt der NF-Frequenz vergrößert oder verkleinert; je größer die NF-Spannung, umso größer der Diodenstrom und umso kleiner der resultierende Widerstand. In einem Amplituden-Modulator wird dieser Widerstand eingesetzt, um die Amplitude eines HF-Signals (aus einem Lokaloszillator) zu beeinflussen; der HF-Strom durch die Diode wird groß, wenn der Dioden-Widerstand klein ist und umgekehrt. Das HF-Signal wird in seiner Amplitude im Takt des NF-Signals „moduliert“! Im einfachsten Fall, wenn man nur eine einzige Diode verwendet, enthält das Spektrum des Signals einen Träger (bei der ursprünglichen HF-Frequenz) und zwei Modulations-Seitenbänder im Abstand der NF-Frequenz oberhalb und unterhalb der Trägerfrequenz – ein Signal mit Amplituden-Modulation (AM). 
+Dioden haben wir bereits in verschiedenen Schaltungen kennengelernt. Nun betrachten wir, wie ihre nichtlineare Kennlinie genutzt werden kann, um ein hochfrequentes Trägersignal mit einem niederfrequenten Nutzsignal zu modulieren.
+
+Werden ein HF-Signal und ein NF-Signal gemeinsam, wie in Abbildung [ref:a_am_modulator] gezeigt, einer Diode zugeführt, beeinflusst die NF-Spannung die Leitfähigkeit der Diode. Dadurch wird das HF-Signal abhängig vom momentanen Wert der NF unterschiedlich stark übertragen. Seine Amplitude verändert sich somit im Takt des NF-Signals.
+
+Am Ausgang entstehen dadurch neben dem ursprünglichen HF-Träger zwei Seitenbänder oberhalb und unterhalb der Trägerfrequenz. Ein auf die Trägerfrequenz abgestimmter Schwingkreis unterdrückt unerwünschte weitere Frequenzanteile. Am Ausgang erhält man damit ein amplitudenmoduliertes Signal (AM).
+
+<margin>
+[picture:772:a_am_modulator:Simpler AM-Modulator mit Diode und Schwingkreis]
+</margin>
+
+<webonly>
+Die folgende Simulation zeigt die Funktionsweise des AM-Modulators, die Werte wurden so gewählt, dass die HF und NF gut zu erkennen sind. Die NF liegt bei $\qty{500}{\hertz}$, die HF bei $\qty{10}{\kilo\hertz}$. Die Amplitude des HF-Signals wird im Takt der NF verändert. Der Schwingkreis ist auf die Trägerfrequenz abgestimmt und unterdrückt unerwünschte Frequenzanteile. Wenn man den Schwingkreis entfernt, sieht man eine Vielzahl von Mischprodukten. Auch kann man mal die NF-Frequenz auf $\qty{1}{\kilo\hertz}$ umstellen, um zu sehen, wie sich die Seitenbänder verschieben.
+
+[include:applet_am_modulator]
+</webonly>
+
+<indepth>
+Ein AM-Signal lässt sich auch mathematisch beschreiben. Dazu betrachten wir zunächst ein normiertes sinusförmiges NF-Signal
+
+$m(t)=\cos(\omega t)$
+
+mit der Kreisfrequenz $\omega=2\pi f_\mathrm{m}$. Mit seiner Amplitude $\hat U_\mathrm{m}$ und einem zusätzlichen Gleichanteil $U_\mathrm{G}$ ergibt sich
+
+$U_\mathrm{m}(t)=U_\mathrm{G}+\hat U_\mathrm{m}\cdot\cos(\omega t)$
+
+Dieses Signal wird nun mit dem hochfrequenten Trägersignal
+
+$U_\mathrm{T}(t)=\cos(\Omega t)$
+
+mit $\Omega=2\pi f_\mathrm{T}$ multipliziert. Für das AM-Signal folgt damit:
+
+$U_\mathrm{AM}(t)=\left(U_\mathrm{G}+\hat U_\mathrm{m}\cdot\cos(\omega t)\right)\cdot\cos(\Omega t)$
+
+Ausmultipliziert ergibt sich:
+
+$U_\mathrm{AM}(t)=U_\mathrm{G}\cdot\cos(\Omega t)+\hat U_\mathrm{m}\cdot\cos(\omega t)\cdot\cos(\Omega t)$
+
+Mit der Beziehung
+
+$\cos(a)\cdot\cos(b)=\frac{1}{2}\left(\cos(a+b)+\cos(a-b)\right)$
+
+kann der zweite Term weiter zerlegt werden:
+
+$U_\mathrm{AM}(t)=U_\mathrm{G}\cdot\cos(\Omega t)+\frac{\hat U_\mathrm{m}}{2}\left(\cos((\Omega+\omega)t)+\cos((\Omega-\omega)t)\right)$
+
+Damit erkennt man unmittelbar die drei Bestandteile eines AM-Signals: Der erste Term beschreibt den *Träger* bei der Frequenz $\Omega$. Die beiden anderen Terme bilden das *obere und untere Seitenband* bei den Frequenzen $\Omega+\omega$ und $\Omega-\omega$.
+
+Der Gleichanteil $U_\mathrm{G}$ ist dabei dafür verantwortlich, dass der Träger erhalten bleibt. Selbst wenn das Nutzsignal momentan null ist, wird weiterhin ein Trägersignal erzeugt.
+
+[picture:1127:a_am_modulation:Spektrum eines AM-Signals mit Träger und zwei Seitenbändern]
+
+</indepth>
 
 Dieses Prinzip wird in der folgenden Frage deutlich: Eine Diode wird mit einem NF-Signal und einem HF-Signal gleichzeitig beaufschlagt und das Ausgangs-Signal wird mit einem LC-Schwingkreis ausgefiltert.
 
 [question:AD507]
 
-Mit einer Schaltung aus vier Dioden in einer Ring-Anordnung kann aber der Träger auch unterdrückt werden, und nur die beiden Seitenbänder bleiben übrig; dazu muss der Dioden-Ring in eine Gegentakt- Schaltung eingebaut sein, die so ausbalanciert (bzw. symmetriert) ist, dass sich die Ströme des Trägersignals am Ausgang aufheben. Im Kapitel "Mischer II" wurde so eine Schaltung als „Balancemischer“ (engl. „balanced mixer“) bereits gezeigt, allerdings dort zur Umsetzung eines HF-Eingangssignals in eine Zwischenfrequenz-Lage. 
-
-Der Balancemodulator ist die erste Stufe eines Einseitenband-Modulators - er erzeugt aus einem Lokaloszillator-Signal und einem NF-Signal (Modulation) ein Doppelseitenband-Signal (DSB). Dahinter folgt ein Bandpass-Filter, das nur eines der beiden Seitenbänder durchlässt, und damit am Ausgang ein SSB-Signal erzeugt.  
-
-Man denke an die beiden notwendigen Stufen des SSB-Modulators.
-
-[question:AE206]
-
-[question:AF302]
-
 ---
 
-Man erkennt einen Balancemischer bzw. Balancemodulator an dem Dioden-Ring. In dieser Schaltung besteht keine vollständige Gegentakt Anregung, da nur ein Transformator verwendet wird, allerdings gibt es das Äquivalent zu einer Mittelanzapfung eines Transformators in der Einspeisung des Oszillator-Signals im Mittelpunkt eines Spannungsteilers (Poti).
+Mit vier Dioden in einer Ringanordnung lässt sich ein Modulator so aufbauen, dass der Träger am Ausgang unterdrückt wird. Eine solche Schaltung haben wir bereits im Kapitel „Mischer II“ als *Balancemischer* kennengelernt. Dort wurde sie verwendet, um ein HF-Signal auf eine Zwischenfrequenz umzusetzen. Im Sender nutzen wir dasselbe Grundprinzip nun zur Erzeugung eines modulierten Signals.
 
+<margin>
+[picture:759:a_balancemodulator:Balancemodulator mit Diodenring]
+</margin>
+
+Man erkennt einen Balancemischer beziehungsweise Balancemodulator typischerweise an dem Diodenring, wie er in Abbildung [ref:a_balancemodulator] dargestellt ist. Der Diodenring wird vom Oszillatorsignal $f_\mathrm{OSZ}$ angesteuert. Je nach Polarität des Oszillatorsignals leitet jeweils eines der beiden gegenüberliegenden Diodenpaare.
+
+Dadurch wird das NF-Signal abwechselnd mit gleicher oder umgekehrter Polarität zum Ausgang übertragen. Vereinfacht betrachtet wird das NF-Signal also mit dem Oszillatorsignal multipliziert.
+
+Der entscheidende Vorteil der symmetrischen Schaltung ist die *Trägerunterdrückung*: Die Anteile des Oszillatorsignals heben sich am Ausgang idealerweise gegenseitig auf. Ohne NF-Signal entsteht deshalb kein Ausgangssignal. Wird ein NF-Signal angelegt, entstehen dagegen das obere und das untere Seitenband, während der Träger unterdrückt bleibt.
+
+Das Ausgangssignal wird als *Doppelseitenband-Signal mit unterdrücktem Träger* (DSB) bezeichnet.
+
+[question:AE206]
+[question:AF302]
 [question:AF308]
+[question:AD510]
 
 <indepth>
-Im Sender wird aus dem Balancemischer ein Balancemodulator durch Vertauschung der Eingänge: Die niederfrequente Modulation wird in den Brückenzweig der Gegentakt-Schaltung zwischen der Mittelanzapfung von T2 und Masse eingekoppelt. Das Lokaloszillator-Signal wird über T1 in den Diodenring eingespeist und das Doppelseitenband-Signal über T2 ausgekoppelt. Ohne eine Modulations-Spannung werden die Dioden-Paare D1, D2 und D3, D4 abwechselnd durchgeschaltet und bilden dabei 1:1 - Spannungsteiler, so dass ihre Mittelpunkte auf Masse-Potential liegen. Somit liegen auch abwechselnd das obere und untere Ende der Wicklung von T2 auf Masse-Potential während das jeweils andere Ende der Wicklung durch gesperrte Dioden ohne Verbindung bleibt. Somit fließt kein Strom in der Wicklung und auf der Ausgangsseite entsteht keine Spannung - das macht die "Trägerunterdrückung" aus!
+Die Trägerunterdrückung eines Balancemodulators lässt sich vereinfacht mit zwei symmetrischen Zweigen beschreiben:
 
-Bei Anlegen einer Modulationsspannung fließt zusätzlicher Strom durch die Dioden, so dass das Mittelpunkts-Potential der Spannungsteiler verschoben wird - damit kann Strom in den Transformator T2 fließen und ein Ausgangssignal entsteht. Im Bild werden die Spannungsverläufe gezeigt, die sich ergeben, wenn das Oszillator-Signal vereinfacht als Rechteck-Funktion angenommen wird.
+$u_1(t)=\left(U_G+\hat U_\mathrm{m}\cos(\omega t)\right)\cos(\Omega t)$
+
+$u_2(t)=\left(U_G-\hat U_\mathrm{m}\cos(\omega t)\right)\cos(\Omega t)$
+
+Am Ausgang werden beide Signale voneinander abgezogen:
+
+$u_\mathrm{out}(t)=u_1(t)-u_2(t)$
+
+Damit ergibt sich:
+
+$u_\mathrm{out}(t)=U_G\cos(\Omega t)+\hat U_\mathrm{m}\cos(\omega t)\cos(\Omega t)-U_G\cos(\Omega t)+\hat U_\mathrm{m}\cos(\omega t)\cos(\Omega t)$
+
+Die beiden Trägeranteile $U_G\cos(\Omega t)$ heben sich auf. Übrig bleibt:
+
+$u_\mathrm{out}(t)=2\hat U_\mathrm{m}\cos(\omega t)\cos(\Omega t)$
+
+Mit $\cos(a)\cos(b)=\frac{1}{2}\left(\cos(a+b)+\cos(a-b)\right)$ folgt:
+
+$u_\mathrm{out}(t)=\hat U_\mathrm{m}\left(\cos((\Omega+\omega)t)+\cos((\Omega-\omega)t)\right)$
+
+Das Ausgangssignal enthält damit nur noch das obere und das untere Seitenband. Der Träger bei $\Omega$ ist unterdrückt.
 </indepth>
 
 ---
 
-Träger-Unterdrückung hat mit Auslöschung eines unerwünschten Signals zu tun - dazu muss eine Modulator-Schaltung "ausbalanciert" sein.
+Damit sich das Oszillatorsignal am Ausgang möglichst vollständig aufhebt, muss die Schaltung symmetrisch, also *ausbalanciert*, sein. Bereits kleine Unterschiede in Amplitude oder Phase zwischen den beiden Signalwegen führen dazu, dass ein Rest des Trägers am Ausgang verbleibt. Die Amplitudensymmetrie kann beispielsweise mit einem Potentiometer abgeglichen werden. Für den Phasenabgleich wird in manchen Schaltungen zusätzlich ein Trimmkondensator verwendet. Ziel des Abgleichs ist eine möglichst hohe Trägerunterdrückung, während die beiden Modulationsseitenbänder erhalten bleiben.
 
-[question:AD510]
+<webonly>
+Das folgende Applet zeigt den Trägerabgleich. Wenn der Regler auf der rechten Seite verschoben wird, zeigt sich der Träger plötzlich im Spektrum. 
 
-Genau zu dieser Ausbalancierung gehört eine Justierung der Amplituden (Poti) und der Phasen (C-Trimmer)
+[include:applet_dsp]
+</webonly>
 
 [question:AF309]
 
-"Symmetriert" oder "ausbalanciert" wird ein Modulator, um den Träger zu unterdrücken - die Modulations-Seitenbänder werden dabei nicht unterdrückt.
+---
 
-[question:AF304]
+Der Balancemodulator bildet die erste Stufe eines SSB-Modulators und erzeugt ein DSB-Signal. Hinter dem Balancemodulator folgt als zweite Stufe ein schmalbandiges Bandpassfilter, wie in Abbildung [ref:a_ssb_modulation]. Es lässt nur eines der beiden Seitenbänder passieren und unterdrückt das jeweils andere. Am Ausgang entsteht dadurch ein Einseitenband-Signal (SSB).
 
-[question:AF303]
-
-Hinter dem Balancemodulator folgt die zweite Stufe eines SSB-Modulators.
-
-[question:AF305]
+<margin>
+[picture:500:a_ssb_modulation:Blockschaltbild zur Modulation von SSB mit der Filtermethode]
+</margin>
 
 [question:AF306]
+[question:AF304]
+[question:AF303]
+[question:AF305]
 
-Die Quarze bestimmen die Frequenz des durch den Balancemodulator unterdrückten Trägers. Man erkennt an der Quarzfrequenz für das untere Seitenband (LSB): Der Träger liegt $\qty{1,5}{\kilo\hertz}$ über der $\qty{9}{\mega\hertz}$-Bandfilter-Mittenfrequenz. Mit der maximalen NF-Frequenz von $\qty{3}{\kilo\hertz}$ liegt das untere Seitenband dann $\qty{1,5}{\kilo\hertz}$ unter der Mittenfrequenz und die NF-Frequenz $\qty{200}{\hertz}$ legt das Seitenband dann bei $\qty{1,3}{\kilo\hertz}$ über der Mittenfrequenz des Filters. Für das obere Seitenband (USB) gilt das umgekehrt.
+---
+
+Eine gute Implementierung für ein Funkgerät, das sowohl USB als auch LSB erzeugen soll, besteht darin, das Bandpassfilter fest auf einen bestimmten Frequenzbereich auszulegen. Ob das obere oder das untere Seitenband ausgefiltert wird, wird nicht durch eine Änderung des Filters bestimmt, sondern durch die Frequenz des Oszillators im Balancemodulator. Dazu stehen zwei unterschiedliche Quarzoszillatoren zur Verfügung.
+
+Wird beispielsweise für USB die Oszillatorfrequenz $\qty{8998,5}{\kilo\hertz}$ gewählt, entstehen durch die Modulation zwei Seitenbänder. Das obere Seitenband wird dabei genau in den Durchlassbereich konstanten Filters verschoben, während das untere Seitenband außerhalb des Durchlassbereichs liegt und unterdrückt wird.
+
+Für LSB wird auf die andere Quarzfrequenz von $\qty{9001,5}{\kilo\hertz}$ umgeschaltet. Dadurch verschiebt sich das gesamte DSB-Spektrum so, dass nun das untere Seitenband in den Durchlassbereich desselben Filters fällt und das obere Seitenband unterdrückt wird.
+
+Der entscheidende Trick besteht also darin, das Filter unverändert zu lassen und stattdessen durch unterschiedliche Oszillatorfrequenzen die Lage des DSB-Signals zu verschieben. Ähnlich wie bei der Zwischenfrequenz eines Empfängers kann dadurch ein fest abgestimmtes, hochwertiges Filter für unterschiedliche Frequenzlagen genutzt werden.
 
 [question:AF307]
 
-Das Kreuz- oder X-Symbol in dem Funktionsblock hinter dem NF-Verstärker steht für die mathematische Multiplikation - Modulatoren, Demodulatoren und Mischer-Schaltungen werden so gekennzeichnet, weil ihre Funktion mathematisch als die Multiplikation von Signal-Funktionen beschrieben werden kann.
+<margin>
+<latexonly>
+[picture:831:a_ssb_modulation_lsb:Frequenzen mit der Filtermethode bei LSB]
+[picture:940:a_ssb_modulation_lsb:Spektrum mit der Filtermethode bei LSB]
+[picture:832:a_ssb_modulation_usb:Frequenzen mit der Filtermethode bei USB]
+[picture:941:a_ssb_modulation_usb:Spektrum mit der Filtermethode bei USB]
+</latexonly>
+<webonly>
+[include:applet_dsp_filter]
+</webonly>
+</margin>
 
-Ein Modulator für die Frequenzmodulation (FM) verwendet dagegen einen anderen Dioden-Typ, die Kapazitäts-Diode (in den Schaltungen erkennbar an dem kleinen Kondensator-Symbol neben dem Dioden-Symbol). Dabei ist die Diode immer Teil einer Oszillator-Schaltung, deren Schwingungsfrequenz durch einen Resonanzkreis bestimmt wird, der die Kapazitäts-Diode enthält. Die Diode wird mit einer Gleichspannung in Sperr-Richtung beaufschlagt, so dass sich eine feste Dioden-Kapazität einstellt und damit auch eine Oszillator-Frequenz. Zum Frequenz-Modulator wird die Schaltung, wenn der Gleichspannung ein NF-Signal überlagert wird – dann ändert der Oszillator seine Frequenz im Takt des NF-Signals.
+---
 
+Für die Erzeugung eines frequenzmodulierten Signals (FM) kann eine *Kapazitätsdiode* verwendet werden. Sie ist in Schaltplänen an dem kleinen Kondensatorsymbol neben der Diode zu erkennen, wie in Abbildung [ref:a_fm_modulator].
 
-Hier taucht die Kapazitäts-Diode auf - und die Transistor-Schaltung daneben ist ein Oszillator mit LC-Schwingkreis.
+Eine Kapazitätsdiode wird in Sperrrichtung betrieben. Ihre Kapazität hängt dabei von der anliegenden Sperrspannung ab. Wird sie als Teil des frequenzbestimmenden Schwingkreises eines Oszillators eingesetzt, verändert eine Änderung dieser Spannung die Resonanzfrequenz des Schwingkreises und damit die Frequenz des Oszillators.
+
+Zur Frequenzmodulation wird der Gleichspannung an der Kapazitätsdiode das NF-Signal überlagert. Dadurch ändert sich ihre Kapazität im Takt des NF-Signals und die Oszillatorfrequenz wird entsprechend nach oben und unten verschoben. Auf diese Weise entsteht ein frequenzmoduliertes Signal.
+
+<margin>
+[picture:155:a_fm_modulator:FM-Modulator mit Kapazitäts-Diode]
+</margin>
 
 [question:AD508]
-
-Eine in Sperrspannung betriebene Kapazitäts-Diode, die auf der einen Seite mit NF beaufschlagt wird und auf der anderen Seite parallel zum Schwingkreis einer Oszillator-Schaltung liegt, beeinflusst die Frequenz des Oszillators.
-
 [question:AF310]
 
-Mit großen NF-Spannungen kann man leicht viel größere Frequenzänderungen des Oszillators bewirken (FM-„Hub“) als zulässig. Daher ist eine „Hub“- Begrenzung durch eine Einstellung und Begrenzung der NF-Amplitude notwendig. Anti-parallel geschaltete Dioden begrenzen die Spannung auf etwa die Dioden-Knickspannung.
+---
+
+Mit großen NF-Spannungen kann man leicht viel größere Frequenzänderungen des Oszillators bewirken (FM-„Hub“) als zulässig. Daher ist eine „Hub“-Begrenzung durch eine Einstellung und Begrenzung der NF-Amplitude notwendig. Antiparallel geschaltete Dioden begrenzen die Spannung auf etwa die Dioden-Knickspannung. Ein Beispiel zeigen die Abbildungen [ref:a_fm_modulator_hub1] und [ref:a_fm_modulator_hub2].
+
+<margin>
+[picture:44:a_fm_modulator_hub1:Schaltung zur Hub-Begrenzung]
+[picture:828:a_fm_modulator_hub2:Begrenzung des Signals]
+</margin>
 
 [question:AD509]
-
-Dies ist offenbar kein Modulator - es gibt nur ein einziges Signal! Ein Elko am Ausgang der Diode deutet auf Gleichspannung hin!
-
-[question:AD503]
-
-% TODO aus E hier her kopiert ... muss eingeflegt werden.
-<margin>
-[picture:500:e_ssb_modulation:Blockschaltbild zur Modulation von SSB mit der Filtermethode]
-[picture:831:e_ssb_modulation_lsb:Frequenzen mit der Filtermethode bei LSB]
-[picture:940:e_ssb_modulation_lsb:Spektrum mit der Filtermethode bei LSB]
-[picture:832:e_ssb_modulation_usb:Frequenzen mit der Filtermethode bei USB]
-[picture:941:e_ssb_modulation_usb:Spektrum mit der Filtermethode bei USB]
-</margin>
