@@ -16,6 +16,10 @@ Der Wirkungsgrad ist ein Verhältnis ohne Einheit und kann höchstens den Wert $
 
 $\eta_\mathrm{\%} = \eta \cdot \qty{100}{\percent}$
 
+Der Wirkungsgrad eine HF-Leistungsverstärkers wird also  durch das Verhältnis der vom Leistungsverstärker abgegebenen HF-Ausgangsleistung und der dem Verstärker zugeführten Gleichstrom-Versorgungsleistung definiert.
+
+[question:AF401]
+
 Ein hoher Wirkungsgrad bedeutet, dass nur ein kleiner Teil der aufgenommenen Leistung als Wärme verloren geht. Bei einem niedrigen Wirkungsgrad muss dagegen eine entsprechend größere Verlustleistung durch Kühlkörper oder andere Maßnahmen abgeführt werden.
 
 <tip>

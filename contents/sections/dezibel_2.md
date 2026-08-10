@@ -96,6 +96,10 @@ Abbildung [ref:e_signalkette_2] zeigt ein weiteres Beispiel einer Signalkette, b
 Wieso ist es zulässig vom Pegel $\qty{9}{\dBm}$ eine Dämpfung von $\qty{3}{\dB}$ abzuziehen? Beide Werte haben doch unterschiedliche Maßeinheiten! Bei der Einheit Bel ($\unit{\bel}$) bzw. Dezibel ($\unit{\dB}$) handelt es sich um eine Hilfsmaßeinheit (auch Pseudoeinheit).
 Im Prinzip könnte der Zahlenwert auch ohne die Einheit $\unit{\dB}$ geschrieben werden. Aber mit dem Zusatz $\unit{\dB}$ wird deutlich, dass es um ein logarithmisches Verhältnis von zwei Größen geht. Ohne diese Einheit müsste man verbal beschreiben welche Bedeutung der Zahlenwert hat.
 </indepth>
+
+Um die Gesamtverstärkung eines mehrstufigen Leistungsverstärkers zu ermitteln muss die Differenz zwischen Ausgangs- und Eingangsleistung durch vorzeichenrichtige Subtraktion der dBm-Werte vorgenommen werden. Beispiel: Eingangsleistung $\qty{-5}{\dBm}$, Ausgangsleistung $\qty{20}{\dBm}$ ergibt eine Gesamtverstärkung von $\qty{25}{\dB}$ ($\qty{20}{\dBm} - (\qty{-5}{\dBm}) = \qty{25}{\dB}$)
+
+[question:AF428]
   
 Zusätzlich haben wir in der Klasse E bereits die Zusätze $\unit{\dBd}$ und $\unit{\dBi}$ kennen gelernt, die bei der Angabe von Antennengewinnen verwendet werden. In diesem Fall bezieht sich der Dezibelwert nicht auf eine Leistung oder Spannung, sondern auf einen bestimmten Referenzstrahler. Üblich sind dabei $\unit{\dBi}$, bezogen auf den isotropen Kugelstrahler, sowie $\unit{\dBd}$, bezogen auf den Halbwellendipol.
 
