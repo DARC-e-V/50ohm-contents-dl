@@ -1,0 +1,159 @@
+<html>
+  <script src="https://www.50ohm.de/assets/jquery/3.7.1/jquery.min.js"></script>
+  <script src="https://www.50ohm.de/assets/chartjs/4.4.1/chart.min.js"></script>
+
+  <p>Hier kann die Fourier-Näherung eines symmetrischen Rechtecksignals mit einer variablen Anzahl ungerader Harmonischer untersucht werden. Die Schalter erlauben Werte von 1 bis 500.</p>
+
+  <table>
+    <tr>
+      <td>Harmonische $N$:</td>
+      <td>
+        <input type="range" id="harmonicsRange" min="1" max="499" value="1" step="2">
+      </td>
+      <td>
+        <input type="number" id="harmonicsInput" min="1" max="499" value="1" step="2" style="width: 6em;">
+      </td>
+    </tr>
+  </table>
+
+  <canvas id="rectangleFourierChart" style="width:100%; height:260px;"></canvas>
+
+  <script>
+    const chartCanvas = document.getElementById('rectangleFourierChart');
+    const harmonicsRange = document.getElementById('harmonicsRange');
+    const harmonicsInput = document.getElementById('harmonicsInput');
+    const xMin = -1.5 * Math.PI;
+    const xMax = 1.5 * Math.PI;
+
+    const rectangleChart = new Chart(chartCanvas, {
+      type: 'line',
+      data: {
+        datasets: [
+          {
+            label: 'Rechteck ideal',
+            borderColor: '#ED7D71',
+            backgroundColor: 'transparent',
+            pointRadius: 0,
+            borderDash: [6, 4],
+            data: []
+          },
+          {
+            label: 'Fourier-Näherung',
+            borderColor: '#00AEDF',
+            backgroundColor: 'transparent',
+            pointRadius: 0,
+            tension: 0.15,
+            data: []
+          }
+        ]
+      },
+      options: {
+        responsive: true,
+        animation: false,
+        plugins: {
+          legend: {
+            display: true
+          }
+        },
+        scales: {
+          x: {
+            type: 'linear',
+            min: xMin,
+            max: xMax,
+            title: {
+              display: true,
+              text: 't'
+            },
+            ticks: {
+              callback: function(value) {
+                if (Math.abs(value) < 1e-8) return '0';
+                if (Math.abs(value - Math.PI) < 1e-8) return 'π';
+                if (Math.abs(value + Math.PI) < 1e-8) return '-π';
+                if (Math.abs(value - 1.5 * Math.PI) < 1e-8) return '3π/2';
+                if (Math.abs(value + 1.5 * Math.PI) < 1e-8) return '-3π/2';
+                return value.toFixed(2);
+              }
+            }
+          },
+          y: {
+            min: -1.3,
+            max: 1.3,
+            title: {
+              display: true,
+              text: 'f(t)'
+            },
+            ticks: {
+              stepSize: 0.5,
+              callback: function(value) {
+                return value.toFixed(1);
+              }
+            }
+          }
+        }
+      }
+    });
+
+    function clampHarmonics(value) {
+      const parsed = Number.parseInt(value, 10);
+      if (Number.isNaN(parsed)) return 1;
+      const clamped = Math.max(1, Math.min(499, parsed));
+      return clamped % 2 === 0 ? clamped - 1 : clamped;
+    }
+
+    function buildFourierSeries(n) {
+      const samples = [];
+      const sampleCount = Math.max(1200, n * 40);
+      const step = (xMax - xMin) / sampleCount;
+
+      for (let x = xMin; x <= xMax + 1e-9; x += step) {
+        let y = 0;
+        for (let k = 1; k <= n; k += 2) {
+          y += (4 / Math.PI) * Math.sin(k * x) / k;
+        }
+        samples.push({ x, y });
+      }
+
+      const idealPoints = [
+        { x: xMin, y: 1 },
+        { x: -Math.PI, y: 1 },
+        { x: -Math.PI, y: -1 },
+        { x: 0, y: -1 },
+        { x: 0, y: 1 },
+        { x: Math.PI, y: 1 },
+        { x: Math.PI, y: -1 },
+        { x: xMax, y: -1 }
+      ];
+
+      return { samples, idealPoints };
+    }
+
+    function updateChart() {
+      const n = clampHarmonics(harmonicsInput.value);
+      harmonicsRange.value = n;
+      harmonicsInput.value = n;
+
+      const { samples, idealPoints } = buildFourierSeries(n);
+
+      rectangleChart.data.datasets[0].data = idealPoints.map(point => ({ x: point.x, y: point.y }));
+      rectangleChart.data.datasets[1].data = samples.map(point => ({ x: point.x, y: point.y }));
+      rectangleChart.update();
+    }
+
+    harmonicsRange.addEventListener('input', function() {
+      harmonicsInput.value = this.value;
+      updateChart();
+    });
+
+    harmonicsInput.addEventListener('input', function() {
+      harmonicsRange.value = this.value;
+      updateChart();
+    });
+
+    harmonicsInput.addEventListener('change', function() {
+      harmonicsRange.value = this.value;
+      updateChart();
+    });
+
+    updateChart();
+  </script>
+</html>
