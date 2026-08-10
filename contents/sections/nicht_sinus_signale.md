@@ -1,9 +1,16 @@
 Ein ideales rein sinusförmiges Signal besteht nur aus seiner *Grundwelle* welche auch *1. Harmonische* genannt wird. Sobald ein Signal nicht mehr der Sinusform entspricht und auch nur leicht davon abweicht, enthält das Signal *ganzzahlige Vielfache* seiner Grundschwingung, die auch *Oberwellen oder Oberschwingungen* genannt werden. Hierbei ist es wichtig zwischen den beiden Begriffen Oberwellen und Harmonischen zu differenzieren.
 
-Die Abbildung [ref:zusammenhang_oberwellen_harmonische] zeigt den Zusammenhang zwischen Oberwellen und Harmonischen, den man sich nur einmal einprägen muss. Die 1. Oberwelle entspricht hierbei der 2. Harmonischen der Grundschwingung und befindet sich auf der doppelten Frequenz der Grundschwingung. Die 2. Oberwelle entspricht der 3. Harmonischen der Grundschwingung und befindet sich auf der dreifachen Frequenz der Grundschwingung. Nach diesem Prinzip werden alle Harmonischen und Oberwellen auf die Grundwelle bezogen und mit einer Ordnungszahl $N$ durchnummeriert.
+Die Abbildung [ref:zusammenhang_oberwellen_harmonische] und die Tabelle [ref:a_harmonische] zeigt den Zusammenhang zwischen Oberwellen und Harmonischen, den man sich nur einmal einprägen muss. Die 1. Oberwelle entspricht hierbei der 2. Harmonischen der Grundschwingung und befindet sich auf der doppelten Frequenz der Grundschwingung. Die 2. Oberwelle entspricht der 3. Harmonischen der Grundschwingung und befindet sich auf der dreifachen Frequenz der Grundschwingung. Nach diesem Prinzip werden alle Harmonischen und Oberwellen auf die Grundwelle bezogen und mit einer Ordnungszahl $N$ durchnummeriert.
 
 <margin>
 [picture:869:zusammenhang_oberwellen_harmonische:Zusammenhang zwischen Oberwellen und Harmonischen]
+
+| l: Vielfaches der Grundfrequenz | l: Harmonische | l: Oberwelle |
+| $f_0$ | 1 | ~ |
+| $2 \cdot f_0$ | 2 | 1 |
+| $3 \cdot f_0$ | 3 | 2 |
+| $4 \cdot f_0$ | 4 | 3 |
+[table:a_harmonische:Harmonische und Oberwellen]
 </margin>
 
 <indepth>
