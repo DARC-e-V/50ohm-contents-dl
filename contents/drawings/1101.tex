@@ -1,0 +1,15 @@
+% Author: Prof. Dr. Matthias Jung, DL9MJ
+% Year: 2026
+\begin{tikzpicture}
+    \draw[-Triangle](0,0) -- ++(0,1.25) node[anchor=south] {$Q$};
+    \draw[-Triangle](0,0) -- ++(1.25,0) node[anchor=west]  {$I$};
+    \draw(0,0) -- ++(-1.25,0);
+    \draw(0,0) -- ++(0,-1.25);
+    \draw[gray](0,0) circle (1);
+    %
+    \draw(  0:1) node[anchor=center, circle, draw, fill=DARCblue](m1){};
+    \draw(180:1) node[anchor=center, circle, draw, fill=DARCblue](m2){};
+    %
+    \draw(m1.north east) node[anchor=south west] {$0$};
+    \draw(m2.north west) node[anchor=south east] {$1$};
+\end{tikzpicture}
