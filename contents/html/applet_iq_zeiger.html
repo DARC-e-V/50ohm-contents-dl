@@ -1,0 +1,340 @@
+<style>
+  .iq-pointer-applet {
+    --iq-i-color: #168aad;
+    --iq-q-color: #2a9d6f;
+    --iq-vector-color: #d85a30;
+    margin: 1rem 0;
+    padding: 1rem;
+    border: 1px solid var(--bs-border-color, #d8dde2);
+    border-radius: .5rem;
+    background: var(--bs-body-bg, #fff);
+  }
+
+  .iq-pointer-applet .iq-pointer-controls {
+    display: grid;
+    grid-template-columns: minmax(8rem, auto) minmax(10rem, 1fr) 4.5rem;
+    gap: .65rem .8rem;
+    align-items: center;
+    margin-bottom: 1rem;
+  }
+
+  .iq-pointer-applet .iq-pointer-controls label {
+    margin: 0;
+    font-weight: 600;
+  }
+
+  .iq-pointer-applet .iq-pointer-controls output {
+    text-align: right;
+    font-variant-numeric: tabular-nums;
+  }
+
+  .iq-pointer-applet input[type="range"] { width: 100%; }
+
+  .iq-pointer-applet .iq-pointer-toggle {
+    grid-column: 1 / -1;
+    justify-self: start;
+    min-width: 14rem;
+  }
+
+  .iq-pointer-applet figure { margin: 0; }
+
+  .iq-pointer-applet figcaption {
+    margin-bottom: .4rem;
+    font-size: .9rem;
+    font-weight: 600;
+  }
+
+  .iq-pointer-applet canvas {
+    display: block;
+    width: 100%;
+    aspect-ratio: 1.32 / 1;
+    border: 1px solid var(--bs-border-color, #d8dde2);
+    border-radius: .35rem;
+    background: var(--bs-body-bg, #fff);
+  }
+
+  .iq-pointer-applet .iq-pointer-values {
+    display: flex;
+    flex-wrap: wrap;
+    gap: .4rem 1.25rem;
+    margin-top: .9rem;
+    padding: .65rem .8rem;
+    border-radius: .35rem;
+    background: var(--bs-secondary-bg, #f3f5f7);
+    font-variant-numeric: tabular-nums;
+  }
+
+  .iq-pointer-applet .iq-pointer-note {
+    margin: .8rem 0 0;
+    font-size: .9rem;
+  }
+
+  @media (min-width: 800px) {
+    .course .iq-pointer-applet {
+      width: 59.3%;
+    }
+  }
+
+  @media (max-width: 650px) {
+    .iq-pointer-applet .iq-pointer-controls {
+      grid-template-columns: 1fr 4rem;
+    }
+
+    .iq-pointer-applet .iq-pointer-controls label,
+    .iq-pointer-applet .iq-pointer-toggle { grid-column: 1 / -1; }
+
+    .iq-pointer-applet canvas { aspect-ratio: 1 / 1.08; }
+  }
+</style>
+
+<section class="iq-pointer-applet" aria-label="Zeiger mit Sinus- und Cosinusprojektion">
+  <div class="iq-pointer-controls">
+    <label>Amplitude <var>A</var></label>
+    <input data-iq-amplitude type="range" min="0" max="1" step="0.01" value="0.75"
+           aria-label="Amplitude A">
+    <output data-iq-amplitude-output>0,75</output>
+
+    <label>Phase <var>&phi;</var></label>
+    <input data-iq-phase type="range" min="-180" max="180" step="1" value="0"
+           aria-label="Phase Phi">
+    <output data-iq-phase-output>0&deg;</output>
+
+    <button data-iq-toggle type="button" class="btn btn-outline-primary btn-sm iq-pointer-toggle"
+            aria-pressed="false">Zeiger drehen lassen</button>
+  </div>
+
+  <figure>
+    <figcaption data-iq-caption>Anfangszustand des Symbols bei <var>t</var> = 0</figcaption>
+    <canvas data-iq-diagram aria-label="Zeiger sowie daraus entstehende Sinus- und Cosinusschwingung"></canvas>
+  </figure>
+
+  <div class="iq-pointer-values" aria-live="polite">
+    <span><var>I</var> = <strong data-iq-i-value>0,75</strong></span>
+    <span><var>Q</var> = <strong data-iq-q-value>0,00</strong></span>
+    <span><var>A</var> = <strong data-iq-a-value>0,75</strong></span>
+    <span><var>&phi;</var> = <strong data-iq-phi-value>0&deg;</strong></span>
+  </div>
+
+  <p class="iq-pointer-note" data-iq-note>
+    Bei <var>t</var> = 0 ist die waagerechte Projektion der I-Anteil und die senkrechte Projektion der Q-Anteil.
+  </p>
+
+  <script>
+    (function () {
+      const applet = document.currentScript.closest('.iq-pointer-applet');
+      const amplitudeInput = applet.querySelector('[data-iq-amplitude]');
+      const phaseInput = applet.querySelector('[data-iq-phase]');
+      const toggleButton = applet.querySelector('[data-iq-toggle]');
+      const caption = applet.querySelector('[data-iq-caption]');
+      const note = applet.querySelector('[data-iq-note]');
+      const canvas = applet.querySelector('[data-iq-diagram]');
+
+      let running = false;
+      let timePhase = 0;
+      let previousTime = performance.now();
+
+      function color(name, fallback) {
+        return getComputedStyle(applet).getPropertyValue(name).trim() || fallback;
+      }
+
+      function formatNumber(value) {
+        const normalized = Math.abs(value) < .005 ? 0 : value;
+        return normalized.toLocaleString('de-DE', {
+          minimumFractionDigits: 2,
+          maximumFractionDigits: 2
+        });
+      }
+
+      function setupCanvas() {
+        const rect = canvas.getBoundingClientRect();
+        const dpr = window.devicePixelRatio || 1;
+        const pixelWidth = Math.round(rect.width * dpr);
+        const pixelHeight = Math.round(rect.height * dpr);
+        if (canvas.width !== pixelWidth || canvas.height !== pixelHeight) {
+          canvas.width = pixelWidth;
+          canvas.height = pixelHeight;
+        }
+        const ctx = canvas.getContext('2d');
+        ctx.setTransform(dpr, 0, 0, dpr, 0, 0);
+        return { ctx, width: rect.width, height: rect.height };
+      }
+
+      function line(ctx, x0, y0, x1, y1) {
+        ctx.beginPath();
+        ctx.moveTo(x0, y0);
+        ctx.lineTo(x1, y1);
+        ctx.stroke();
+      }
+
+      function arrow(ctx, x0, y0, x1, y1, strokeColor, width) {
+        const angle = Math.atan2(y1 - y0, x1 - x0);
+        const head = 9;
+        ctx.strokeStyle = strokeColor;
+        ctx.fillStyle = strokeColor;
+        ctx.lineWidth = width;
+        ctx.lineCap = 'round';
+        line(ctx, x0, y0, x1, y1);
+        ctx.beginPath();
+        ctx.moveTo(x1, y1);
+        ctx.lineTo(x1 - head * Math.cos(angle - Math.PI / 6), y1 - head * Math.sin(angle - Math.PI / 6));
+        ctx.lineTo(x1 - head * Math.cos(angle + Math.PI / 6), y1 - head * Math.sin(angle + Math.PI / 6));
+        ctx.closePath();
+        ctx.fill();
+      }
+
+      function draw(amplitude, phase) {
+        const { ctx, width, height } = setupCanvas();
+        const compact = width < 540;
+        const cx = width * (compact ? .27 : .275);
+        const cy = height * (compact ? .245 : .29);
+        const radius = Math.min(width * .19, height * (compact ? .145 : .205));
+        const rightStart = cx + radius + (compact ? 16 : 28);
+        const rightEnd = width - 18;
+        const bottomStart = cy + radius + (compact ? 25 : 32);
+        const bottomEnd = height - 24;
+        const angle = phase + timePhase;
+        const tipX = cx + radius * amplitude * Math.cos(angle);
+        const tipY = cy - radius * amplitude * Math.sin(angle);
+        const progress = (((timePhase % (2 * Math.PI)) + 2 * Math.PI) % (2 * Math.PI)) / (2 * Math.PI);
+        const sineCursorX = rightStart + (rightEnd - rightStart) * progress;
+        const cosineCursorY = bottomStart + (bottomEnd - bottomStart) * progress;
+        const textColor = getComputedStyle(applet).color || '#263238';
+        const gridColor = 'rgba(120,130,140,.38)';
+        const axisColor = 'rgba(80,90,100,.75)';
+        const iColor = color('--iq-i-color', '#168aad');
+        const qColor = color('--iq-q-color', '#2a9d6f');
+        const vectorColor = color('--iq-vector-color', '#d85a30');
+
+        ctx.clearRect(0, 0, width, height);
+        ctx.font = (compact ? '11px' : '13px') + ' system-ui, sans-serif';
+        ctx.fillStyle = textColor;
+
+        // I/Q-Ebene und Kreisbahn
+        ctx.strokeStyle = gridColor;
+        ctx.lineWidth = 1;
+        ctx.beginPath();
+        ctx.arc(cx, cy, radius, 0, 2 * Math.PI);
+        ctx.stroke();
+        ctx.strokeStyle = axisColor;
+        arrow(ctx, cx - radius - 10, cy, cx + radius + 14, cy, axisColor, 1);
+        arrow(ctx, cx, cy + radius + 10, cx, cy - radius - 14, axisColor, 1);
+        ctx.fillText('I', cx + radius + 16, cy - 7);
+        ctx.fillText('Q', cx + 7, cy - radius - 13);
+
+        // Phasenwinkel nur beim Anfangszustand
+        if (!running && Math.abs(phase) > .02) {
+          const angleRadius = radius * .27;
+          ctx.strokeStyle = vectorColor;
+          ctx.lineWidth = 1.5;
+          ctx.beginPath();
+          ctx.arc(cx, cy, angleRadius, 0, -phase, phase > 0);
+          ctx.stroke();
+          ctx.fillStyle = vectorColor;
+          ctx.font = 'italic ' + (compact ? '12px' : '14px') + ' system-ui, sans-serif';
+          ctx.fillText('φ', cx + angleRadius * 1.35 * Math.cos(phase / 2), cy - angleRadius * 1.35 * Math.sin(phase / 2));
+        }
+
+        // Rotierender Zeiger
+        if (amplitude > 0) arrow(ctx, cx, cy, tipX, tipY, vectorColor, 3);
+        ctx.fillStyle = vectorColor;
+        ctx.beginPath(); ctx.arc(tipX, tipY, 4.5, 0, 2 * Math.PI); ctx.fill();
+
+        // Sinusschwingung rechts: senkrechte Projektion
+        ctx.strokeStyle = axisColor;
+        arrow(ctx, rightStart, cy, rightEnd, cy, axisColor, 1);
+        line(ctx, rightStart, cy + radius + 8, rightStart, cy - radius - 8);
+        ctx.fillStyle = qColor;
+        ctx.font = '600 ' + (compact ? '10px' : '12px') + ' system-ui, sans-serif';
+        ctx.fillText('Q: Sinus', rightStart, cy - radius - 13);
+        ctx.strokeStyle = qColor;
+        ctx.lineWidth = 2.5;
+        ctx.beginPath();
+        for (let p = 0; p <= Math.ceil(rightEnd - rightStart); p++) {
+          const theta = 2 * Math.PI * p / (rightEnd - rightStart);
+          const x = rightStart + p;
+          const y = cy - radius * amplitude * Math.sin(phase + theta);
+          p === 0 ? ctx.moveTo(x, y) : ctx.lineTo(x, y);
+        }
+        ctx.stroke();
+
+        // Cosinusschwingung nach unten: waagerechte Projektion
+        ctx.strokeStyle = axisColor;
+        arrow(ctx, cx, bottomStart, cx, bottomEnd, axisColor, 1);
+        line(ctx, cx - radius - 8, bottomStart, cx + radius + 8, bottomStart);
+        ctx.fillStyle = iColor;
+        ctx.font = '600 ' + (compact ? '10px' : '12px') + ' system-ui, sans-serif';
+        ctx.fillText('I: Cosinus', cx + radius + 13, bottomStart + 4);
+        ctx.strokeStyle = iColor;
+        ctx.lineWidth = 2.5;
+        ctx.beginPath();
+        for (let p = 0; p <= Math.ceil(bottomEnd - bottomStart); p++) {
+          const theta = 2 * Math.PI * p / (bottomEnd - bottomStart);
+          const x = cx + radius * amplitude * Math.cos(phase + theta);
+          const y = bottomStart + p;
+          p === 0 ? ctx.moveTo(x, y) : ctx.lineTo(x, y);
+        }
+        ctx.stroke();
+
+        // Projektionen des aktuellen Augenblickswerts
+        ctx.setLineDash([5, 4]);
+        ctx.lineWidth = 1.5;
+        ctx.strokeStyle = qColor;
+        line(ctx, tipX, tipY, sineCursorX, tipY);
+        ctx.strokeStyle = iColor;
+        line(ctx, tipX, tipY, tipX, cosineCursorY);
+        ctx.setLineDash([]);
+        ctx.fillStyle = qColor;
+        ctx.beginPath(); ctx.arc(sineCursorX, tipY, 4, 0, 2 * Math.PI); ctx.fill();
+        ctx.fillStyle = iColor;
+        ctx.beginPath(); ctx.arc(tipX, cosineCursorY, 4, 0, 2 * Math.PI); ctx.fill();
+      }
+
+      function update() {
+        const amplitude = Number(amplitudeInput.value);
+        const phaseDegrees = Number(phaseInput.value);
+        const phase = phaseDegrees * Math.PI / 180;
+        const i = amplitude * Math.cos(phase);
+        const q = amplitude * Math.sin(phase);
+
+        draw(amplitude, phase);
+        applet.querySelector('[data-iq-amplitude-output]').textContent = formatNumber(amplitude);
+        applet.querySelector('[data-iq-phase-output]').textContent = phaseDegrees + '°';
+        applet.querySelector('[data-iq-i-value]').textContent = formatNumber(i);
+        applet.querySelector('[data-iq-q-value]').textContent = formatNumber(q);
+        applet.querySelector('[data-iq-a-value]').textContent = formatNumber(amplitude);
+        applet.querySelector('[data-iq-phi-value]').textContent = phaseDegrees + '°';
+      }
+
+      function setRunning(enabled) {
+        running = enabled;
+        timePhase = 0;
+        toggleButton.setAttribute('aria-pressed', String(enabled));
+        toggleButton.textContent = enabled ? 'Anfangszustand anzeigen' : 'Zeiger drehen lassen';
+        toggleButton.classList.toggle('btn-primary', enabled);
+        toggleButton.classList.toggle('btn-outline-primary', !enabled);
+        caption.innerHTML = enabled
+          ? 'Laufender Zeiger und seine beiden Projektionen'
+          : 'Anfangszustand des Symbols bei <var>t</var> = 0';
+        note.innerHTML = enabled
+          ? 'Die gestrichelten Linien verbinden die Zeigerspitze mit den momentanen Werten beider Schwingungen.'
+          : 'Bei <var>t</var> = 0 ist die waagerechte Projektion der I-Anteil und die senkrechte Projektion der Q-Anteil.';
+        update();
+      }
+
+      function animate(now) {
+        const delta = Math.min((now - previousTime) / 1000, .1);
+        previousTime = now;
+        if (running) timePhase = (timePhase + delta * Math.PI * .8) % (2 * Math.PI);
+        update();
+        requestAnimationFrame(animate);
+      }
+
+      amplitudeInput.addEventListener('input', update);
+      phaseInput.addEventListener('input', update);
+      toggleButton.addEventListener('click', function () { setRunning(!running); });
+      new ResizeObserver(update).observe(applet);
+      document.addEventListener('visibilitychange', function () { previousTime = performance.now(); });
+      requestAnimationFrame(animate);
+    })();
+  </script>
+</section>

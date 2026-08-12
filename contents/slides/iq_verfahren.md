@@ -1,50 +1,26 @@
-## QAM und I/Q-Verfahren
+### Warum I/Q?
 
-* Digitale Modulationstechnik, die zwei Träger derselben Frequenz verwendet  
-* Einer der Träger ist um $\qty{90}{\degree}$ phasenverschoben
-* Erzeugt ein Signal, das sich in Amplitude und Phase ändert
+* Symbole können sich durch Amplitude, Frequenz oder Phase unterscheiden.
+* Für Amplitude und Phase braucht man eine übersichtliche Darstellung.
+* Diese Darstellung heißt *I/Q-Darstellung*.
+* Sie zeigt den Signalzustand eines Symbols als Punkt in einer Ebene.
 
----
+--- style="font-size: 0.7em;"
 
-### Erzeugung von QAM
-
-<left>
-* Zwei Träger:  
-* Einer wird mit dem I-Signal (In-Phase) moduliert  
-* Der andere, um $\qty{90}{\degree}$ verschoben, mit dem Q-Signal (Quadrature)
-</left>
-<right>
-* Beide modulierten Träger werden überlagert  
-* Das resultierende Signal ändert sich in Amplitude und Phase  
-</right>
+[include:applet_iq_zeiger]
 
 ---
 
-[include:applet_iq]
+### Zeigerdarstellung eines Symbols
 
----
+* Länge des Zeigers: Amplitude $A$
+* Winkel des Zeigers: Phase $\varphi$
 
-[question:AE404]
+Der Zeiger kann in zwei Anteile zerlegt werden:
 
----
+$I=A\cdot\cos(\varphi)$
 
-[question:AF632]
-
----
-
-### I/Q-Verfahren – Senderseite
-
-* Der digitale Datenstrom wird in zwei Teile aufgeteilt: I und Q  
-* Zwei D/A-Umsetzer wandeln die digitalen I- und Q-Werte in analoge Signale um  
-* Diese modulieren die beiden phasenverschobenen Träger, die anschließend kombiniert werden
-
----
-
-### I/Q-Verfahren – Empfängerseite
-
-* Das empfangene Signal wird mit einem $\qty{0}{\degree}$-Träger gemischt, um das I-Signal zu extrahieren
-* Gleichzeitig erfolgt eine Mischung mit einem um $\qty{90}{\degree}$ phasenverschobenen Träger, um das Q-Signal zu erhalten
-* Beide Signale werden A/D-umgesetzt und bilden so den digitalen I/Q-Datenstrom
+$Q=A\cdot\cos(\varphi-\qty{90}{\degree})=A\cdot\sin(\varphi)$
 
 ---
 
@@ -52,28 +28,24 @@
 
 ---
 
-### Abbildung des Frequenzbereichs
+### Konstellationsdiagramm
 
-* Der I/Q-Datenstrom bildet den Frequenzbereich um eine Mittenfrequenz ab  
-* Beispiel:  
-* $\qty{435}{\mega\hertz}$-Träger
-* Abtastrate von $\num{10}$ Mio. Samples/s $\rightarrow$ Bandbreite = $\qty{10}{\mega\hertz}$ ($\pm\qty{5}{\mega\hertz}$ um die Mittenfrequenz)
-* Abgedeckter Bereich: ca. $\qty{430}{\mega\hertz}$ bis $\qty{440}{\mega\hertz}$
+[picture:1060:a_konstellationsdiagramm:Konstellationsdiagramm]
 
 ---
 
-[question:AF634]
+### Konstellationsdiagramm
+
+* Für die Darstellung der Symbole betrachten wir nicht die fortlaufende Drehung des Trägers.
+* Stattdessen betrachten wir den Signalzustand, der zu einem Symbol gehört.
+* Jeder mögliche Symbolzustand wird als Punkt in der I/Q-Ebene dargestellt.
+* Abstand vom Ursprung: Amplitude
+* Winkel zur I-Achse: Phasenlage
 
 ---
 
-### Abhängigkeit der Bandbreite von der Abtastrate
+### Warum brauchen wir das?
 
-* Die abgedeckte Bandbreite in $\unit{\hertz}$ entspricht der Abtastrate in Samples pro Sekunde
-
----
-
-[question:AF635]
-
----
-
-[question:AF636]
+* Konstellationsdiagramme zeigen auf einen Blick die möglichen Symbole eines digitalen Übertragungsverfahrens.
+* Man erkennt, ob sich Symbole durch Amplitude, Phase oder beides unterscheiden.
+* In den nächsten Abschnitten verwenden wir diese Darstellung für Mapping, PSK und QAM.
