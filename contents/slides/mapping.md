@@ -1,48 +1,57 @@
-## Mapping in der digitalen Signalverarbeitung
+## Mapping
 
-* Wandelt digitale Daten in spezifische Signalpunkte (Symbole) um  
-* Entscheidend für Modulationstechniken wie QAM und QPSK  
-* Ermöglicht die Übertragung der Daten über das Kommunikationssystem
+* Bits müssen den möglichen Symbolen zugeordnet werden.
+* Diese Zuordnung heißt *Mapping*.
+* Der Baustein dafür heißt *Mapper*.
+* Er wandelt Bitkombinationen in Symbole um.
 
----
-
-## Schritt 1: Binäre Daten in Symbole umwandeln
-
-* Bei QPSK werden jeweils zwei Bits zu einem Symbol zusammengefasst  
-* Es ergeben sich 4 mögliche Kombinationen: $\num{00}$, $\num{01}$, $\num{10}$, $\num{11}$
-* Jede Kombination wird einem bestimmten Signalpunkt zugeordnet
+[picture:1102:a_mapper:Blockschaltbild eines Mappers]
 
 ---
 
-## Schritt 2: Phasenvergabe
+## Beispiel: ASK
 
-* Jedem Symbol wird eine eigene Phase zugewiesen  
-* Typische Phasen in $\qty{90}{\degree}$-Schritten:
-* $\num{00}$ entspricht $\qty{0}{\degree}$
-* $\num{01}$ entspricht $\qty{90}{\degree}$
-* $\num{10}$ entspricht $\qty{180}{\degree}$
-* $\num{11}$ entspricht $\qty{270}{\degree}$
+* Bei ASK unterscheiden sich die Symbole durch ihre Amplitude.
+* Binäre ASK verwendet zwei Amplituden.
+* Beispiel:
+  * kleine Amplitude → $0$
+  * große Amplitude → $1$
 
---- style="font-size: smaller;"
-## Schritt 3: Mapping auf das Konstellationsdiagramm
+[picture:700:a_ask:ASK (Amplitude-Shift Keying) im zeitlichen Verlauf]
+
+---
+
+## ASK im Konstellationsdiagramm
 
 <left>
-[picture:697:a_8qam:I-Q-Diagramm für ein 8QAM-Mapping]
-Die Darstellung ist für ein 8QAM-Mapping. QPSK im Beispiel entspricht dem äußeren Kreis.
+* Beide Symbole liegen auf der I-Achse.
+* Die Phase bleibt gleich.
+* Der Abstand vom Ursprung beschreibt die Amplitude.
+* Das Mapping ordnet jedem Punkt einen Bitwert zu.
 </left>
 <right>
-* Das Konstellationsdiagramm stellt die Signalpunkte in einem quadratischen Diagramm dar  
-* Die X-Achse (*I*n-Phase) und die Y-Achse (*Q*uadratur) zeigen die Amplituden der Signalbestandteile  
-* Für QPSK liegen die vier Signalpunkte an den Enden eines Quadrats
+[picture:1128:a_ask_mapping:ASK (Amplitude-Shift Keying) im Konstellationsdiagramm]
 </right>
 
 ---
 
-## Darstellung der QPSK-Symbole
+## 4ASK
 
-* $\num{00}$ bei $\qty{0}{\degree}$: Punkt auf der positiven X-Achse  
-* $\num{01}$ bei $\qty{90}{\degree}$: Punkt auf der positiven Y-Achse  
-* $\num{10}$ bei $\qty{180}{\degree}$: Punkt auf der negativen X-Achse  
-* $\num{11}$ bei $\qty{270}{\degree}$: Punkt auf der negativen Y-Achse
+* ASK ist nicht auf zwei Amplituden beschränkt.
+* Vier Amplituden ergeben vier Symbole.
+* Vier Symbole können zwei Bits pro Symbol übertragen: $00$, $01$, $10$, $11$
 
-* Die klare Trennung der Phasen erleichtert das Auseinanderhalten der Symbole – auch bei Rauschen
+[picture:701:a_4_ask:Quaternäre Amplitudenumtastung]
+
+---
+
+## 4ASK im Konstellationsdiagramm
+
+<left>
+* Auch bei 4ASK liegen alle Punkte auf der I-Achse.
+* Die Punkte unterscheiden sich nur im Abstand vom Ursprung.
+* Jedem Punkt ist eine Bitkombination zugeordnet.
+</left>
+<right>
+[picture:1129:a_4_ask_mapping:4ASK im Konstellationsdiagramm]
+</right>

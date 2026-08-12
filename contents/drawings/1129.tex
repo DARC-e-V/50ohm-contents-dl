@@ -1,0 +1,27 @@
+% Author: Prof. Dr. Matthias Jung, DL9MJ
+% Year: 2026
+\begin{tikzpicture}
+    % Achsen
+    \draw[-Triangle](0,0) -- ++(0,1.25) node[anchor=south] {$Q$};
+    \draw[-Triangle](0,0) -- ++(1.5,0) node[anchor=west]  {$I$};
+    \draw(0,0) -- ++(-1.25,0);
+    \draw(0,0) -- ++(0,-1.25);
+
+    % Hilfskreise für die vier Amplituden
+    \draw[gray](0,0) circle (0.25);
+    \draw[gray](0,0) circle (0.50);
+    \draw[gray](0,0) circle (0.75);
+    \draw[gray](0,0) circle (1.00);
+
+    % Symbolpunkte
+    \draw(0.25,0) node[anchor=center, circle, draw, fill=DARCblue](m0){};
+    \draw(0.50,0) node[anchor=center, circle, draw, fill=DARCblue](m1){};
+    \draw(0.75,0) node[anchor=center, circle, draw, fill=DARCblue](m2){};
+    \draw(1.00,0) node[anchor=center, circle, draw, fill=DARCblue](m3){};
+
+    % Bit-Zuordnung
+    \draw(m0.south) node[anchor=north] {$00$};
+    \draw(m1.south) node[anchor=north] {$01$};
+    \draw(m2.south) node[anchor=north] {$10$};
+    \draw(m3.south) node[anchor=north] {$11$};
+\end{tikzpicture}
