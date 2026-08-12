@@ -1872,10 +1872,31 @@
                     "video_url": null
                 },
                 {
+                    "title": "Symbole und Symbolrate",
+                    "ident": "symbole_symbolrate",
+                    "status": "alpha",
+                    "class": "A",
+                    "video_url": null
+                },
+                {
+                    "title": "I/Q-Darstellung und Konstellationsdiagramm",
+                    "ident": "iq_verfahren",
+                    "status": "alpha",
+                    "class": "A",
+                    "video_url": null
+                },
+                {
                     "title": "Amplituden- und Frequenzumtastung (ASK, FSK)",
                     "ident": "ask_fsk_afsk",
                     "status": "prod",
                     "class": "E",
+                    "video_url": null
+                },
+                {
+                    "title": "Mapping",
+                    "ident": "mapping",
+                    "status": "alpha",
+                    "class": "A",
                     "video_url": null
                 },
                 {
@@ -1888,13 +1909,6 @@
                 {
                     "title": "Symbolumschaltung und Bandbreite",
                     "ident": "symbolumschaltung_bandbreite",
-                    "status": "alpha",
-                    "class": "A",
-                    "video_url": null
-                },
-                {
-                    "title": "Mehrwertige Verfahren",
-                    "ident": "mehrwertige_verfahren",
                     "status": "alpha",
                     "class": "A",
                     "video_url": null
@@ -1958,13 +1972,6 @@
                 {
                     "title": "Fehlerkorrektur",
                     "ident": "fehlerkorrektur",
-                    "status": "alpha",
-                    "class": "A",
-                    "video_url": null
-                },
-                {
-                    "title": "Mapping",
-                    "ident": "mapping",
                     "status": "alpha",
                     "class": "A",
                     "video_url": null
@@ -2078,13 +2085,6 @@
                 {
                     "title": "Digitale Filter",
                     "ident": "digitale_filter",
-                    "status": "alpha",
-                    "class": "A",
-                    "video_url": null
-                },
-                {
-                    "title": "I/Q-Verfahren",
-                    "ident": "iq_verfahren",
                     "status": "alpha",
                     "class": "A",
                     "video_url": null
