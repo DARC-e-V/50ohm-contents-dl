@@ -746,13 +746,6 @@
                     "video_url": null
                 },
                 {
-                    "title": "Symbolumschaltung und Bandbreite",
-                    "ident": "symbolumschaltung_bandbreite",
-                    "status": "alpha",
-                    "class": "A",
-                    "video_url": null
-                },
-                {
                     "title": "Quadraturamplitudenmodulation  (QAM)",
                     "ident": "qam",
                     "status": "alpha",
@@ -760,8 +753,8 @@
                     "video_url": null
                 },
                 {
-                    "title": "Orthogonales Frequenzmultiplexverfahren (OFDM)",
-                    "ident": "ofdm",
+                    "title": "Symbolumschaltung und Bandbreite",
+                    "ident": "symbolumschaltung_bandbreite",
                     "status": "alpha",
                     "class": "A",
                     "video_url": null
@@ -804,6 +797,13 @@
                 {
                     "title": "Sende- und Empfangsketten",
                     "ident": "sende_empfangsketten",
+                    "status": "alpha",
+                    "class": "A",
+                    "video_url": null
+                },
+                {
+                    "title": "Orthogonales Frequenzmultiplexverfahren (OFDM)",
+                    "ident": "ofdm",
                     "status": "alpha",
                     "class": "A",
                     "video_url": null
