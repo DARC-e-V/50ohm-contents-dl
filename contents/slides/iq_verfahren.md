@@ -7,20 +7,24 @@
 
 --- style="font-size: 0.7em;"
 
+<left>
 [include:applet_iq_zeiger]
-
----
-
-### Zeigerdarstellung eines Symbols
+</left>
+<right>
+### Symbol als Zeiger
 
 * Länge des Zeigers: Amplitude $A$
 * Winkel des Zeigers: Phase $\varphi$
 
-Der Zeiger kann in zwei Anteile zerlegt werden:
+* Der Zeiger kann in zwei Anteile zerlegt werden:
 
 $I=A\cdot\cos(\varphi)$
 
 $Q=A\cdot\cos(\varphi-\qty{90}{\degree})=A\cdot\sin(\varphi)$
+
+* Konstellationsdiagramm zeigt den Anfangszustand des Zeigers für jedes Symbol.
+</right>
+
 
 ---
 
