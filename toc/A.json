@@ -873,6 +873,13 @@
                     "video_url": null
                 },
                 {
+                    "title": "Digitale I/Q-Signalverarbeitung",
+                    "ident": "digital_iq",
+                    "status": "alpha",
+                    "class": "A",
+                    "video_url": null
+                },
+                {
                     "title": "Latenz",
                     "ident": "latenz",
                     "status": "alpha",
