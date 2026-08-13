@@ -1,0 +1,302 @@
+<style>
+  .iq169-applet {
+    --iq169-i: #00aedf;
+    --iq169-q: #40c08c;
+    --iq169-sum: #ed7d71;
+    width: 100%;
+    max-width: 100%;
+    aspect-ratio: 2.25 / 1;
+    box-sizing: border-box;
+    display: grid;
+    grid-template-rows: auto minmax(0, 1fr);
+    gap: .45rem;
+    padding: .55rem;
+    overflow: visible;
+    font-size: clamp(10px, 1.15vw, 15px);
+  }
+
+  .iq169-applet .iq169-controls {
+    display: grid;
+    grid-template-columns: auto minmax(0, 1fr) 4.4em auto minmax(0, 1fr) 4.4em;
+    gap: .35em .55em;
+    align-items: center;
+    min-width: 0;
+  }
+
+  .iq169-applet label {
+    margin: 0;
+    font-weight: 650;
+  }
+
+  .iq169-applet input[type="range"] {
+    width: 100%;
+    min-width: 0;
+    margin: 0;
+  }
+
+  .iq169-applet output {
+    display: block;
+    min-width: 4.4em;
+    text-align: right;
+    font-variant-numeric: tabular-nums;
+    white-space: nowrap;
+  }
+
+  .iq169-applet .iq169-content {
+    display: grid;
+    grid-template-columns: minmax(0, 1.65fr) minmax(0, 1fr);
+    gap: .5rem;
+    min-width: 0;
+    min-height: 0;
+  }
+
+  .iq169-applet .iq169-waves {
+    display: grid;
+    grid-template-rows: repeat(2, minmax(0, 1fr));
+    gap: 1rem;
+    min-width: 0;
+    min-height: 0;
+  }
+
+  .iq169-applet figure {
+    display: grid;
+    grid-template-rows: 1.45em minmax(0, 1fr);
+    min-width: 0;
+    min-height: 0;
+    margin: 0;
+  }
+
+  .iq169-applet figcaption {
+    position: relative;
+    z-index: 1;
+    margin: 0;
+    font-size: .84em;
+    font-weight: 650;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    line-height: 1.1;
+    background: var(--bs-body-bg, #fff);
+  }
+
+  .iq169-applet .iq169-constellation-panel {
+    grid-template-rows: 1.45em minmax(0, 1fr) auto;
+  }
+
+  .iq169-applet .iq169-canvas-wrap {
+    position: relative;
+    min-width: 0;
+    min-height: 0;
+    box-sizing: border-box;
+    overflow: hidden;
+    border: 1px solid rgba(120, 130, 140, .35);
+    border-radius: .2rem;
+    background: var(--bs-body-bg, #fff);
+  }
+
+  .iq169-applet canvas {
+    position: absolute;
+    inset: 0;
+    display: block;
+    width: 100%;
+    height: 100%;
+    min-width: 0;
+    min-height: 0;
+    box-sizing: border-box;
+  }
+
+  .iq169-applet .iq169-result {
+    display: flex;
+    justify-content: center;
+    gap: .8em;
+    margin-top: .15rem;
+    font-size: .8em;
+    font-variant-numeric: tabular-nums;
+  }
+</style>
+
+<div class="iq169-applet" aria-label="I/Q-Modulation im Format 16 zu 9">
+  <div class="iq169-controls">
+    <label style="color:var(--iq169-i)"><var>I</var></label>
+    <input data-iq169-i type="range" min="-100" max="100" step="1" value="50" aria-label="I-Anteil">
+    <output data-iq169-i-output>50 %</output>
+
+    <label style="color:var(--iq169-q)"><var>Q</var></label>
+    <input data-iq169-q type="range" min="-100" max="100" step="1" value="50" aria-label="Q-Anteil">
+    <output data-iq169-q-output>50 %</output>
+  </div>
+
+  <div class="iq169-content">
+    <div class="iq169-waves">
+      <figure>
+        <figcaption>I- und Q-Anteil</figcaption>
+        <div class="iq169-canvas-wrap">
+          <canvas data-iq169-parts aria-label="I- und Q-Anteil"></canvas>
+        </div>
+      </figure>
+      <figure>
+        <figcaption>Summiertes I/Q-Signal</figcaption>
+        <div class="iq169-canvas-wrap">
+          <canvas data-iq169-sum aria-label="Summiertes I/Q-Signal"></canvas>
+        </div>
+      </figure>
+    </div>
+
+    <figure class="iq169-constellation-panel">
+      <figcaption>Konstellationsdiagramm</figcaption>
+      <div class="iq169-canvas-wrap">
+        <canvas data-iq169-constellation aria-label="Konstellationsdiagramm"></canvas>
+      </div>
+      <div class="iq169-result">
+        <span><var>A</var> = <strong data-iq169-a>71 %</strong></span>
+        <span><var>&phi;</var> = <strong data-iq169-phi>45°</strong></span>
+      </div>
+    </figure>
+  </div>
+
+  <script>
+    (function () {
+      const applet = document.currentScript.closest('.iq169-applet');
+      const iInput = applet.querySelector('[data-iq169-i]');
+      const qInput = applet.querySelector('[data-iq169-q]');
+      const partsCanvas = applet.querySelector('[data-iq169-parts]');
+      const sumCanvas = applet.querySelector('[data-iq169-sum]');
+      const constellationCanvas = applet.querySelector('[data-iq169-constellation]');
+
+      function color(name, fallback) {
+        return getComputedStyle(applet).getPropertyValue(name).trim() || fallback;
+      }
+
+      function setup(canvas) {
+        const rect = canvas.getBoundingClientRect();
+        const dpr = window.devicePixelRatio || 1;
+        const pixelWidth = Math.max(1, Math.round(rect.width * dpr));
+        const pixelHeight = Math.max(1, Math.round(rect.height * dpr));
+        if (canvas.width !== pixelWidth || canvas.height !== pixelHeight) {
+          canvas.width = pixelWidth;
+          canvas.height = pixelHeight;
+        }
+        const ctx = canvas.getContext('2d');
+        ctx.setTransform(dpr, 0, 0, dpr, 0, 0);
+        return { ctx: ctx, width: rect.width, height: rect.height };
+      }
+
+      function line(ctx, x0, y0, x1, y1) {
+        ctx.beginPath();
+        ctx.moveTo(x0, y0);
+        ctx.lineTo(x1, y1);
+        ctx.stroke();
+      }
+
+      function drawWaveCanvas(canvas, series, yLimit) {
+        const drawing = setup(canvas);
+        const ctx = drawing.ctx;
+        const width = drawing.width;
+        const height = drawing.height;
+        const left = 7;
+        const right = 5;
+        const middle = height / 2;
+        const plotWidth = width - left - right;
+        const scale = height * .4 / yLimit;
+
+        ctx.clearRect(0, 0, width, height);
+        ctx.strokeStyle = 'rgba(100,110,120,.42)';
+        ctx.lineWidth = 1;
+        line(ctx, left, middle, width - right, middle);
+        for (let grid = 1; grid < 4; grid++) {
+          const x = left + plotWidth * grid / 4;
+          ctx.strokeStyle = 'rgba(120,130,140,.16)';
+          line(ctx, x, 2, x, height - 2);
+        }
+
+        series.forEach(function (item) {
+          ctx.strokeStyle = item.color;
+          ctx.lineWidth = item.width || 2;
+          ctx.lineJoin = 'round';
+          ctx.beginPath();
+          for (let pixel = 0; pixel <= Math.ceil(plotWidth); pixel++) {
+            const theta = 4 * Math.PI * pixel / plotWidth;
+            const x = left + pixel;
+            const y = middle - item.value(theta) * scale;
+            pixel === 0 ? ctx.moveTo(x, y) : ctx.lineTo(x, y);
+          }
+          ctx.stroke();
+        });
+      }
+
+      function drawConstellation(i, q) {
+        const drawing = setup(constellationCanvas);
+        const ctx = drawing.ctx;
+        const width = drawing.width;
+        const height = drawing.height;
+        const cx = width / 2;
+        const cy = height / 2;
+        const unit = Math.min(width, height) * .4 / 110;
+        const px = cx + i * unit;
+        const py = cy - q * unit;
+        const textColor = getComputedStyle(applet).color || '#263238';
+        const sumColor = color('--iq169-sum', '#ed7d71');
+
+        ctx.clearRect(0, 0, width, height);
+        ctx.strokeStyle = 'rgba(100,110,120,.55)';
+        ctx.lineWidth = 1;
+        line(ctx, 5, cy, width - 5, cy);
+        line(ctx, cx, 5, cx, height - 5);
+        ctx.strokeStyle = 'rgba(120,130,140,.25)';
+        ctx.beginPath();
+        ctx.arc(cx, cy, 100 * unit, 0, 2 * Math.PI);
+        ctx.stroke();
+
+        const axisFontSize = Math.max(9, width * .04);
+        ctx.fillStyle = textColor;
+        ctx.font = axisFontSize + 'px system-ui, sans-serif';
+        ctx.textBaseline = 'top';
+        ctx.fillText('Q', cx + 6, 6);
+        ctx.textBaseline = 'alphabetic';
+        ctx.fillText('I', width - axisFontSize, cy - 7);
+
+        ctx.setLineDash([4, 3]);
+        ctx.strokeStyle = 'rgba(120,130,140,.65)';
+        line(ctx, px, cy, px, py);
+        line(ctx, cx, py, px, py);
+        ctx.setLineDash([]);
+        ctx.strokeStyle = sumColor;
+        ctx.lineWidth = 2.5;
+        line(ctx, cx, cy, px, py);
+        ctx.fillStyle = sumColor;
+        ctx.beginPath();
+        ctx.arc(px, py, Math.max(4, width * .018), 0, 2 * Math.PI);
+        ctx.fill();
+      }
+
+      function draw() {
+        const i = Number(iInput.value);
+        const q = Number(qInput.value);
+        const iColor = color('--iq169-i', '#00aedf');
+        const qColor = color('--iq169-q', '#40c08c');
+        const sumColor = color('--iq169-sum', '#ed7d71');
+
+        drawWaveCanvas(partsCanvas, [
+          { color: iColor, value: function (theta) { return i * Math.cos(theta); } },
+          { color: qColor, value: function (theta) { return q * Math.cos(theta + Math.PI / 2); } }
+        ], 100);
+        drawWaveCanvas(sumCanvas, [
+          { color: sumColor, width: 2.5, value: function (theta) {
+            return i * Math.cos(theta) + q * Math.cos(theta + Math.PI / 2);
+          } }
+        ], Math.SQRT2 * 100);
+        drawConstellation(i, q);
+
+        applet.querySelector('[data-iq169-i-output]').textContent = i + ' %';
+        applet.querySelector('[data-iq169-q-output]').textContent = q + ' %';
+        applet.querySelector('[data-iq169-a]').textContent = Math.round(Math.hypot(i, q)) + ' %';
+        applet.querySelector('[data-iq169-phi]').textContent = Math.round(Math.atan2(q, i) * 180 / Math.PI) + '°';
+      }
+
+      iInput.addEventListener('input', draw);
+      qInput.addEventListener('input', draw);
+      new ResizeObserver(draw).observe(applet);
+      draw();
+    })();
+  </script>
+</div>
