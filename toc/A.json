@@ -814,6 +814,13 @@
                     "status": "alpha",
                     "class": "A",
                     "video_url": null
+                },
+                {
+                    "title": "Polarmodulation",
+                    "ident": "polarmodulation",
+                    "status": "alpha",
+                    "class": "A",
+                    "video_url": null
                 }
             ]
         },
@@ -896,13 +903,6 @@
                 {
                     "title": "Digitale Filter",
                     "ident": "digitale_filter",
-                    "status": "alpha",
-                    "class": "A",
-                    "video_url": null
-                },
-                {
-                    "title": "Polarmodulation",
-                    "ident": "polarmodulation",
                     "status": "alpha",
                     "class": "A",
                     "video_url": null
