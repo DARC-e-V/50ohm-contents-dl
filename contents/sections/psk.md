@@ -17,7 +17,7 @@ Da sich die beiden Symbole nur durch ihre Phasenlage unterscheiden und ihre Ampl
 </margin>
 
 <indepth>
-Genaugenommen kann BPSK mit den Winkeln $\qty{0}{\degree}$ und $\qty{180}{\degree}$ auch als ein ASK-Verfahren betrachtet werden, bei dem die Amplitude des Trägersignals zwischen einem negativen und einem positiven Wert umgeschaltet wird. Eine Multiplikation mit $-1$ resultiert bei einem Sinus-Signal zu einer Phasenverschiebung um $\qty{180}{\degree}$:
+Spitzfindigkeit: Genaugenommen kann BPSK mit den Winkeln $\qty{0}{\degree}$ und $\qty{180}{\degree}$ auch als ein ASK-Verfahren betrachtet werden, bei dem die Amplitude des Trägersignals zwischen einem negativen und einem positiven Wert umgeschaltet wird. Eine Multiplikation mit $-1$ resultiert bei einem Sinus-Signal zu einer Phasenverschiebung um $\qty{180}{\degree}$:
 
 $-\sin(\omega t)=\sin(\omega t+\qty{180}{\degree})$
 
