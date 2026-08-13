@@ -1,0 +1,26 @@
+% Author: Prof. Dr. Matthias Jung, DL9MJ
+% Year: 2026
+\begin{tikzpicture}
+    \ctikzset{
+        blocks/scale=\getDarcImageFactor,
+        RF/scale=\getDarcImageFactor
+    }
+    \draw(0,0)
+        node[antenna](){}
+        to [lowpass, fill=DARCblue!40, >] ++(3,0)
+        node [inputarrow](){}
+        node[adcshape, fill=DARCorange!40, t={3}, anchor=west](drei){};
+    \draw(drei.east)
+        to [short] ++(1,0)
+        node [inputarrow](ende){};
+    \draw(ende.east)
+        node [anchor=west, align=left] {Weitere\\Teile\\des\\Empfängers};
+    \draw(drei.north)
+        node [inputarrow, rotate=-90](){}
+        to [short] ++(0,2)
+        node[cgeneratorshape,fill=DARCgreen!40, anchor=south](zwei){};
+    \draw(zwei.west)
+        node [inputarrow](){}
+        to [short] ++(-1,0)
+        node [anchor=east, align=right] {Kontroll-\\information};
+\end{tikzpicture}

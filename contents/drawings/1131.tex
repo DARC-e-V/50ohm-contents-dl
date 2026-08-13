@@ -1,0 +1,26 @@
+% Author: Prof. Dr. Matthias Jung, DL9MJ
+% Year: 2026
+\begin{tikzpicture}
+    \draw(0,0)
+        node[anchor=east](){E}
+        to [short, o-] ++(0.5,0)
+        node[inputarrow](){}
+        node[lowpassshape, anchor=west, fill=DARCblue!40](anti-alias){};
+    \draw(anti-alias.east)
+        to [adc, >] ++(2,0)
+        node[inputarrow](){}
+        node[dspshape, anchor=west](dsp){};
+    \draw(dsp.east)
+        to [dac, >] ++(2,0)
+        node[inputarrow](){}
+        node[lowpassshape, anchor=west, fill=DARCred!40](reconstruction){};
+    \draw(reconstruction.east)
+        to [short, -o] ++(0.5,0)
+        node[anchor=west](){A};
+    %
+    \draw[DARCblue] (anti-alias.north) node[above](){Anti-Aliasing};
+    \draw[DARCred] (reconstruction.north) node[above](){Rekonstruktions};
+    %
+    \draw[DARCblue] (anti-alias.south) node[below](){Filter};
+    \draw[DARCred] (reconstruction.south) node[below](){Filter};
+\end{tikzpicture}

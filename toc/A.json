@@ -852,15 +852,8 @@
                     "video_url": null
                 },
                 {
-                    "title": "Anti-Alias-Filter",
-                    "ident": "anti_alias_filter",
-                    "status": "alpha",
-                    "class": "A",
-                    "video_url": null
-                },
-                {
-                    "title": "Rekonstruktionsfilter",
-                    "ident": "rekonstruktionsfilter",
+                    "title": "Anti-Alias- und Rekonstruktionsfilter",
+                    "ident": "anti_alias_rekonstruktionsfilter",
                     "status": "alpha",
                     "class": "A",
                     "video_url": null
