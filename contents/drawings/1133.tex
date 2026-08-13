@@ -1,0 +1,29 @@
+% Author: Prof. Dr. Matthias Jung, DL9MJ
+% Year: 2026
+\begin{circuitikz}%
+    \draw(0,0) node[anchor=east](){$x_n$}
+        to [short, o-] ++(0.5,0)  coordinate (regs)
+        to [register] ++(2,0)  coordinate (reg0)
+        to [register, *-] ++(2,0) coordinate (reg1)
+        to [register, *-] ++(2,0) coordinate (reg2)
+        to [register, *-] ++(2,0) coordinate (reg3);
+    \draw(reg0) node[anchor=south](){$x_{n-1}$};
+    \draw(reg1) node[anchor=south](){$x_{n-2}$};
+    \draw(reg2) node[anchor=south](){$x_{n-3}$};
+    \draw(reg3) node[anchor=south](){$x_{n-4}$};
+    \draw(reg0) to [short] ++(0,-1) node[anchor=west, ampshape, scale=0.75, rotate=-90](amp0){};
+    \draw(reg1) to [short] ++(0,-1) node[anchor=west, ampshape, scale=0.75, rotate=-90](amp1){};
+    \draw(reg2) to [short] ++(0,-1) node[anchor=west, ampshape, scale=0.75, rotate=-90](amp2){};
+    \draw(reg3) to [short] ++(0,-1) node[anchor=west, ampshape, scale=0.75, rotate=-90](amp3){};
+    \draw(amp0.north) node[anchor=west](){$k_0$};
+    \draw(amp1.north) node[anchor=west](){$k_1$};
+    \draw(amp2.north) node[anchor=west](){$k_2$};
+    \draw(amp3.north) node[anchor=west](){$k_3$};
+    \draw[-Triangle](amp1.east) -- ++(0,-0.75) node[adder, anchor=north, scale=0.75](add1){};
+    \draw[-Triangle](amp2.east) -- ++(0,-0.75) node[adder, anchor=north, scale=0.75](add2){};
+    \draw[-Triangle](amp3.east) -- ++(0,-0.75) node[adder, anchor=north, scale=0.75](add3){};
+    \draw[-Triangle](amp0.east) |- (add1.west);
+    \draw[-Triangle](add1.east) -- (add2.west);
+    \draw[-Triangle](add2.east) -- (add3.west);
+    \draw(add3.east) to [short, -o] ++(1,0) node[anchor=south](){$y_n$};
+\end{circuitikz}
