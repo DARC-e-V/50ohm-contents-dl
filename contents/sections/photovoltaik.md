@@ -8,7 +8,8 @@ Das Schaltzeichen eines Photoelements (Solarzelle) ist in der Abbildung [ref:a_p
 <margin>
 [picture:958:a_solarzelle:Aufbau einer monokristallinen Silizium Solarzelle]
 [picture:938:a_photoelement:Schaltzeichen Photoelement (Solarzelle)]
-[picture:949:a_solarmodul:Solarmodul mit Zellen:Solarzellenverbund in einem Solarmodul]
+[picture:949:a_solarmodul:Solarzellenverbund in einem Solarmodul]
+[photo:343:a_solarmodul_photo:Solarmodul mit Zellen]
 </margin>
   
 [question:AB212]
