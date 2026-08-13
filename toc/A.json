@@ -845,22 +845,8 @@
                     "video_url": null
                 },
                 {
-                    "title": "Analog-Digital-Umsetzer (ADC)",
-                    "ident": "analog_digital_umsetzer",
-                    "status": "alpha",
-                    "class": "A",
-                    "video_url": null
-                },
-                {
-                    "title": "Digital-Analog-Umsetzer (DAC)",
-                    "ident": "digital_analog_umsetzer",
-                    "status": "alpha",
-                    "class": "A",
-                    "video_url": null
-                },
-                {
-                    "title": "Anwendung von ADC und DAC",
-                    "ident": "anwendung_dac_adc",
+                    "title": "A/D- und D/A-Umsetzung",
+                    "ident": "dac_adc",
                     "status": "alpha",
                     "class": "A",
                     "video_url": null
