@@ -2,7 +2,7 @@ Bei digitalen Übertragungen werden Informationen in Form von Symbolen übertrag
 
 Stehen nur zwei unterschiedliche Symbole zur Verfügung, kann mit jedem Symbol genau ein Bit übertragen werden. Bei vier möglichen Symbolen können bereits zwei Bit mit einem Symbol übertragen werden, da sich mit zwei Bit vier verschiedene Kombinationen darstellen lassen. Entsprechend können acht unterschiedliche Symbole drei Bit und $\num{16}$ unterschiedliche Symbole vier Bit gleichzeitig übertragen.
 
-Allgemein ergibt sich die Anzahl $N$ der mit einem Symbol übertragbaren Bits aus der Anzahl $M$ der möglichen Symbole:
+Allgemein ergibt sich die Anzahl $N$ der mit einem Symbol übertragbaren Bits aus der Anzahl $M=2^N$ der möglichen Symbole:
 
 $N = \log_2(M)$
 
