@@ -1,147 +1,198 @@
-<html>
-    <script src="https://www.50ohm.de/assets/jquery/3.7.1/jquery.min.js"></script>
-    <script src="https://www.50ohm.de/assets/chartjs/4.4.1/chart.min.js"></script>
-    <p>Hier gibt es die Möglichkeit das Ganze nochmal auszuprobieren. Ein zeitkontinuierliches Sinus-Signal wird von einem AD-Umsetzer digitalisiert und anschließend wieder von einem DA-Umsetzer in ein analoges Signal gewandelt. An den Reglern kann man die Zeitquantisierung und die Wertquantisierung der AD/DA-Umsetzer einstellen.</p><br>
-    <table>
-        <tr>
-            <td>
-                Zeit-Quantisierung:
-            </td>
-            <td>
-                <input type="range" class="slider" value="10" min="1" max="10" id="timeq">
-            </td>
-            <td>
-                <div id="timeqSteps" style="display:inline-block;">1024</div> Samples/s.
-            </td>
-        </tr>
-        <tr>
-            <td>
-                Wert-Quantisierung:
-            </td>
-            <td>
-                <input type="range" class="slider" value="16" min="1" max="16" id="valueq">
-            </td>
-            <td>
-                <div id="valueqBits" style="display:inline-block;">16</div> bits
-          </td>
-        </tr>
-    </table><br>
-  <p><canvas id="Sine" style="max-height:200px;"></canvas></p>
-    
-    <script>
-        // Script by DL9MJ, 2024
-        var a = 100;
-        var max = 1;
-        var steps = 1024;
-        var stepSize = max/steps;
-        var b = 16;
-        var delta = a/(Math.pow(2,b)-1);
+<script src="https://www.50ohm.de/assets/chartjs/4.4.1/chart.min.js"></script>
 
-        sine = new Chart("Sine", {
-            type: 'scatter',
-            data: {
-                labels: [],
-                datasets: [
-                    {
-                        fill: false,
-                        showLine: true,
-                        stepped: true,
-                        borderColor: "#00AEDF",
-                        label: "Wert- und Zeitquantisiertes Signal",
-                        pointRadius: 0,
-                        data: [],
-                    },
-                    {
-                        fill: false,
-                        showLine: true,
-                        tenstion: 0.1,
-                        label: "Zeitkontinuierliches Signal",
-                        borderColor: "#999999",
-                        pointRadius: 0,
-                        data: [],
-                    },
-                ]
-            },    
-            options: {
-                animation: {
-                    duration: 0
-                },
-                responsive:true,
-                scales: {
-                    y: {
-                        min: -120,
-                        max: +120,
-                        ticks: {
-                            callback: function(value, index, ticks) {
-                                return value + "%";
-                            }
-                        }
-                    },
-                    x: {
-                        min: 0,
-                        max: max,
-                        title: {
-                            display: true,
-                            text: 'Zeit'
-                        },
-                        ticks: {
-                            stepSize: 1,
-                            callback: function(val, index) {
-                                return val+"s";
-                            },
-                        }
-                    }
-                },
+<style>
+  .sq-applet {
+    width: 100%;
+    max-width: 100%;
+    min-width: 0;
+    box-sizing: border-box;
+    display: grid;
+    gap: .8rem;
+    font-size: 15px;
+    container-type: inline-size;
+  }
+
+  .sq-applet .sq-controls {
+    display: grid;
+    grid-template-columns: minmax(9.5em, 1.2fr) minmax(8em, 2fr) minmax(7.5em, auto);
+    gap: .55rem .8rem;
+    align-items: center;
+    min-width: 0;
+  }
+
+  .sq-applet label,
+  .sq-applet output {
+    margin: 0;
+    line-height: 1.2;
+    white-space: nowrap;
+  }
+
+  .sq-applet label {
+    font-weight: 600;
+  }
+
+  .sq-applet input[type="range"] {
+    display: block;
+    width: 100%;
+    min-width: 0;
+    margin: 0;
+  }
+
+  .sq-applet output {
+    display: block;
+    min-width: 7.5em;
+    text-align: left;
+    font-variant-numeric: tabular-nums;
+  }
+
+  .sq-applet .sq-chart-wrap {
+    position: relative;
+    width: 100%;
+    height: clamp(220px, 43cqw, 360px);
+    min-width: 0;
+    min-height: 0;
+  }
+
+  .sq-applet canvas {
+    position: absolute;
+    inset: 0;
+    display: block;
+    width: 100% !important;
+    height: 100% !important;
+  }
+
+  @container (max-width: 520px) {
+    .sq-applet .sq-controls {
+      grid-template-columns: minmax(7.5em, auto) minmax(6em, 1fr) 6.8em;
+      gap: .45rem .55rem;
+    }
+
+    .sq-applet output {
+      min-width: 6.8em;
+    }
+  }
+</style>
+
+<div class="sq-applet" aria-label="Sampling und Quantisierung ausprobieren">
+  <div class="sq-controls">
+    <label>Zeit-Sampling:</label>
+    <input data-sq-time type="range" value="4" min="1" max="10" step="1" aria-label="Samplingrate">
+    <output data-sq-time-output>16 Samples/s</output>
+
+    <label>Wert-Quantisierung:</label>
+    <input data-sq-value type="range" value="16" min="1" max="16" step="1" aria-label="Quantisierungsbits">
+    <output data-sq-value-output>16 Bit</output>
+  </div>
+
+  <div class="sq-chart-wrap">
+    <canvas data-sq-chart aria-label="Zeitkontinuierliches sowie zeit- und wertdiskretes Signal"></canvas>
+  </div>
+
+  <script>
+    (function () {
+      const applet = document.currentScript.closest('.sq-applet');
+      const timeInput = applet.querySelector('[data-sq-time]');
+      const valueInput = applet.querySelector('[data-sq-value]');
+      const timeOutput = applet.querySelector('[data-sq-time-output]');
+      const valueOutput = applet.querySelector('[data-sq-value-output]');
+      const canvas = applet.querySelector('[data-sq-chart]');
+      const amplitude = 100;
+      const duration = 1;
+
+      const chart = new Chart(canvas, {
+        type: 'scatter',
+        data: {
+          datasets: [
+            {
+              label: 'Wert- und zeitdiskretes Signal',
+              data: [],
+              borderColor: '#00AEDF',
+              borderWidth: 2,
+              pointRadius: 0,
+              showLine: true,
+              stepped: true
+            },
+            {
+              label: 'Zeitkontinuierliches Signal',
+              data: [],
+              borderColor: '#999999',
+              borderWidth: 2,
+              pointRadius: 0,
+              showLine: true,
+              tension: .1
             }
-        });
-
-        generateValues(0, max, stepSize);
-
-        $("#timeq").on("change", function() {
-            steps = Math.pow(2,($(this).val()));
-            stepSize = max/steps;
-            generateValues(0, max, stepSize, delta);
-        });
-
-        $("#valueq").on("change", function() {
-            b = $(this).val();
-            delta = (2*a)/(Math.pow(2,b));
-            console.log(delta);
-            generateValues(0, max, stepSize, delta);
-        });
-
-        function generateValues(i1, i2, step = 1, delta=0.001) {
-            // Reset all values:
-            sine.data.datasets[0].data = [];
-            sine.data.datasets[1].data = [];
-
-            // Reference Sine:
-            for (let x = i1; x <= i2; x += 1/32) {
-                // Set I:
-                sine.data.datasets[1].data.push({
-                    x: x,
-                    y: a*Math.sin(2*Math.PI*x)
-                });
+          ]
+        },
+        options: {
+          animation: false,
+          responsive: true,
+          maintainAspectRatio: false,
+          interaction: { mode: null },
+          plugins: {
+            legend: {
+              position: 'top',
+              labels: {
+                boxWidth: 28,
+                boxHeight: 10,
+                padding: 12,
+                font: { size: 12 }
+              }
             }
-
-            // Generate new Data:
-            for (let x = i1; x <= i2; x += step) {
-                y1 = a*Math.sin(2*Math.PI*x);
-                y2 = Math.max(-100,Math.min(100,Math.sign(y1)*delta*Math.floor(((Math.abs(y1))/(delta))+1)));
-                // Set I:
-                sine.data.datasets[0].data.push({
-                    x: x,
-                    //y: a*Math.sin(2*Math.PI*x)
-                    y: y2
-                });
+          },
+          scales: {
+            y: {
+              min: -120,
+              max: 120,
+              ticks: {
+                maxTicksLimit: 5,
+                callback: function (value) { return value + '%'; }
+              }
+            },
+            x: {
+              min: 0,
+              max: duration,
+              title: { display: true, text: 'Zeit' },
+              ticks: {
+                stepSize: 1,
+                callback: function (value) { return value + ' s'; }
+              }
             }
-
-            // Update Graphs
-            sine.update();
-
-            // Set Text:
-            $('#timeqSteps').html(steps); 
-            $('#valueqBits').html(b); 
+          }
         }
-    </script>
-</html>
+      });
+
+      function update() {
+        const samples = Math.pow(2, Number(timeInput.value));
+        const bits = Number(valueInput.value);
+        const levels = Math.pow(2, bits);
+        const sampleDistance = duration / samples;
+        const quantizationStep = 2 * amplitude / levels;
+        const continuous = [];
+        const quantized = [];
+
+        for (let x = 0; x <= duration + 1e-9; x += 1 / 128) {
+          continuous.push({ x: x, y: amplitude * Math.sin(2 * Math.PI * x) });
+        }
+
+        for (let x = 0; x <= duration + 1e-9; x += sampleDistance) {
+          const value = amplitude * Math.sin(2 * Math.PI * x);
+          const quantizedValue = Math.max(
+            -amplitude,
+            Math.min(amplitude, Math.sign(value) * quantizationStep * Math.floor(Math.abs(value) / quantizationStep + 1))
+          );
+          quantized.push({ x: x, y: quantizedValue });
+        }
+
+        chart.data.datasets[0].data = quantized;
+        chart.data.datasets[1].data = continuous;
+        chart.update('none');
+        timeOutput.textContent = samples + ' Samples/s';
+        valueOutput.textContent = bits + ' Bit';
+      }
+
+      timeInput.addEventListener('input', update);
+      valueInput.addEventListener('input', update);
+      update();
+    }());
+  </script>
+</div>

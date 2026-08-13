@@ -838,22 +838,8 @@
                     "video_url": null
                 },
                 {
-                    "title": "Sampling",
-                    "ident": "sampling",
-                    "status": "alpha",
-                    "class": "A",
-                    "video_url": null
-                },
-                {
                     "title": "Abtasttheorem",
                     "ident": "abtasttheorem",
-                    "status": "alpha",
-                    "class": "A",
-                    "video_url": null
-                },
-                {
-                    "title": "Quantisierung",
-                    "ident": "quantisierung",
                     "status": "alpha",
                     "class": "A",
                     "video_url": null
