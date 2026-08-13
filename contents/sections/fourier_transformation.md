@@ -24,6 +24,15 @@ Signalformen, welche nicht sinusförmig sind und insbesondere scharfe "Ecken und
 
 Wir erinnern uns, dass Signale, die sehr eckig und kantig sind, höhere Frequenzanteile (sog. Oberschwingungen) enthalten. Sieht man sich ein solches Signal, beispielsweise ein rechteckiges Signal, nun im Frequenzbereich an, so fällt auf, dass dieses aus einem starken Sinus-Signal bei dessen Grundschwingung besteht als auch mehreren, immer schwächer werdenden Sinus-Signalen bei ungeradzahligen Vielfachen der Grundfrequenz. Dies ist im Übrigen auch der Grund, warum man Rechteck-Signale keinesfalls auf eine Antenne geben darf, bevor diese nicht ein Tiefpassfilter durchlaufen haben. Das Tiefpassfilter sorgt in diesem Fall dafür, dass höhere Signalanteile unterdrückt werden und an dessen Ausgang nur noch die Grundschwingung in Form eines Sinus-Signals austritt. Würde man das Rechtecksignal direkt auf die Antenne geben, so wäre eine Aussendung auf allen ungeradzahligen Vielfachen der Grundfrequenz zu empfangen und würde sicherlich andere Funkdienste massiv stören.
 
+Für einige typische periodische Signalformen lässt sich das Frequenzspektrum besonders einfach beschreiben. Dabei betrachten wir hier die idealisierten, um den Nullpunkt symmetrischen Signalformen ohne Gleichanteil:
+
+* Ein *Sinussignal* besteht nur aus einer einzigen Frequenz. Im Frequenzspektrum erscheint daher nur die Grundfrequenz $f$.
+* Ein *Rechtecksignal* besteht aus der Grundfrequenz und den *ungeradzahligen Vielfachen* der Grundfrequenz. Es enthält also die Frequenzen $f$, $3f$, $5f$, $7f$, usw. Die Amplituden der Oberwellen werden dabei mit zunehmender Frequenz kleiner.
+* Ein *Sägezahnsignal* enthält sowohl die geradzahligen als auch die ungeradzahligen Vielfachen der Grundfrequenz. Es enthält also $f$, $2f$, $3f$, $4f$, $5f$, usw. Auch hier werden die Amplituden mit zunehmender Frequenz kleiner.
+* Ein *Dreiecksignal* enthält wie das Rechtecksignal nur die ungeradzahligen Vielfachen der Grundfrequenz, also $f$, $3f$, $5f$, $7f$, usw. Die Amplituden der Oberwellen nehmen jedoch wesentlich schneller ab als beim Rechtecksignal.
+
+Damit lassen sich die Signalformen auch anhand ihres Frequenzspektrums unterscheiden. Ein einzelner Spektralanteil weist auf einen Sinus hin. Treten ungeradzahlige Vielfache auf, ist es in der Prüfung immer ein Rechtecksignal.
+
 [question:AB404]
 [question:AB405]
 [question:AB406]
