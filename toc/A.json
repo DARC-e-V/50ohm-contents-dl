@@ -739,7 +739,7 @@
                     "video_url": null
                 },
                 {
-                    "title": "Phasenumtastung (PSK) und QPSK",
+                    "title": "Phasenumtastung: PSK und QPSK",
                     "ident": "psk",
                     "status": "alpha",
                     "class": "A",
