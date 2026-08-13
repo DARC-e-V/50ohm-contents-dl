@@ -1,4 +1,8 @@
-Sehen wir uns nun genauer an, wie analoge Signale in digitale Werte und digitale Werte wieder in analoge Signale umgesetzt werden. Dazu werden *A/D-Umsetzer* (Analog-Digital-Umsetzer) und *D/A-Umsetzer* (Digital-Analog-Umsetzer) verwendet.
+Sehen wir uns nun genauer an, wie analoge Signale in digitale Werte und digitale Werte wieder in analoge Signale umgesetzt werden. Dazu werden *A/D-Umsetzer* (Analog-Digital-Umsetzer) und *D/A-Umsetzer* (Digital-Analog-Umsetzer) verwendet. Die Abbildung [ref:a_adc_dac] zeigt die Blockschaltbilder eines A/D- und eines D/A-Umsetzers.
+
+<margin>
+[picture:1130:a_adc_dac:A/D- und D/A-Umsetzer]
+</margin>
 
 Ein A/D-Umsetzer tastet ein analoges Eingangssignal zu bestimmten Zeitpunkten ab und erzeugt daraus digitale Zahlenwerte, die anschließend von weiteren Teilen einer Schaltung verarbeitet werden können.
 
