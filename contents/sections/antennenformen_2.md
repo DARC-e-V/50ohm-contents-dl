@@ -85,11 +85,12 @@ Aufgrund der zum Dipol senkrechten Abstrahlcharakteristik kann ein vertikal mont
 
 ---
 
-Einen Spezialfall einer Vertikalantenne stellt die gegen Erde (oder einer Fahrzeugkarosserie) erregte $5/8 \lambda$-Antenne dar (vgl. Abbildung [ref:e_fuenf_achtel]). Hier ist die Länge gerade so gewählt, dass sich ein optimaler Gewinn ergibt.
+Einen Spezialfall einer Vertikalantenne stellt die gegen Erde (oder einer Fahrzeugkarosserie) erregte $5/8 \lambda$-Antenne dar (vgl. Abbildung [ref:e_fuenf_achtel]). Hier ist die Länge gerade so gewählt, dass sich ein optimaler Gewinn ergibt (vgl. Abbildungen [ref:a_5_8_lambda_strahlung] und [ref:e_fuenf_achtel]).
 
 [question:EG108]
 
 <margin>
+[picture:1134:a_5_8_lambda_strahlung:Strahlungsmuster und Stromverteilung von Vertikalantennen bei idealer Erde]
 [picture:650:e_fuenf_achtel:$5/8 \lambda$-Antenne]
 </margin>
 

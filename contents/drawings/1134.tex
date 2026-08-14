@@ -1,0 +1,292 @@
+% Author: Prof. Dr. Matthias Jung, DL9MJ
+% Year: 2026
+%
+% Vertikaldiagramme idealer Monopolantennen über perfekter Erde
+%
+% Elevationswinkel alpha:
+%   0°  = Horizont
+%   90° = Zenit
+%
+% Gezeigt werden:
+%   lambda/4
+%   lambda/2
+%   5 lambda/8
+%   lambda
+%
+% Die orangen Kurven zeigen das normierte Fernfeld.
+% Die roten Kurven zeigen die idealisierte Stromverteilung
+% entlang des Strahlers.
+% Referenz
+% https://en.wikipedia.org/wiki/Monopole_antenna#mwBYI
+
+\begin{tikzpicture}
+
+% --------------------------------------------------------------------------
+% Fernfeld eines idealen vertikalen Monopols
+%
+% alpha = Elevationswinkel über dem Horizont
+% h     = Strahlerlänge in Wellenlängen
+%
+% E(alpha) ~
+%
+% | cos(2*pi*h*sin(alpha)) - cos(2*pi*h) |
+% -------------------------------------------------
+%                  cos(alpha)
+%
+% PGF rechnet trigonometrische Funktionen in Grad.
+% Daher entspricht 2*pi*h dem Winkel 360*h.
+% --------------------------------------------------------------------------
+
+\pgfmathdeclarefunction{monopat}{3}{%
+    \pgfmathparse{%
+        abs(
+            (cos(360*#2*sin(#1))-cos(360*#2))
+            / cos(#1)
+        ) / #3
+    }%
+}
+
+% Radius eines Polardiagramms
+\def\R{1.40}
+
+% Horizontale Auslenkung der Stromkurve
+\def\Iscale{0.28}
+
+% Vertikale Skalierung der Antennendarstellung
+\def\AntennaScale{1.55}
+
+\tikzset{
+    polargrid/.style={
+        draw=black!35,
+        line width=0.35pt
+    },
+    polargridminor/.style={
+        draw=black!20,
+        line width=0.25pt
+    },
+    radiation/.style={
+        draw=DARCorange,
+        line width=1.4pt
+    },
+    antenna/.style={
+        draw=black,
+        line width=1.1pt
+    },
+    current/.style={
+        draw=DARCred,
+        line width=1.3pt
+    }
+}
+
+% --------------------------------------------------------------------------
+% Panel
+%
+% #1 x-Position
+% #2 y-Position
+% #3 Strahlerlänge h/lambda
+% #4 Normierung des Feldes
+% #5 Beschriftung der mechanischen Länge
+% --------------------------------------------------------------------------
+
+\newcommand{\MonopolePanel}[5]{%
+    \begin{scope}[shift={(#1,#2)}]
+
+        % --------------------------------------------------------------
+        % Polardiagramm
+        % --------------------------------------------------------------
+
+        % konzentrische Bögen
+        \foreach \r in {0.2,0.4,0.6,0.8,1.0}{
+            \draw[polargridminor]
+                (0,0)
+                ++(0:{\r*\R})
+                arc[
+                    start angle=0,
+                    end angle=90,
+                    radius={\r*\R}
+                ];
+        }
+
+        % Winkelstrahlen
+        \foreach \a in {0,10,...,90}{
+            \draw[polargrid]
+                (0,0) -- (\a:\R);
+        }
+
+        % Winkelbeschriftungen
+        \foreach \a in {0,10,...,90}{
+            \node[
+                font=\scriptsize,
+                inner sep=1pt
+            ] at (\a:{1.10*\R}) {\a};
+        }
+
+        % --------------------------------------------------------------
+        % Strahlungsdiagramm
+        % --------------------------------------------------------------
+
+        \draw[radiation]
+            plot[
+                domain=0:89.7,
+                samples=350,
+                smooth,
+                variable=\a
+            ]
+            (
+                {\R*monopat(\a,#3,#4)*cos(\a)},
+                {\R*monopat(\a,#3,#4)*sin(\a)}
+            );
+
+        % --------------------------------------------------------------
+        % Antennendarstellung
+        % --------------------------------------------------------------
+
+        \pgfmathsetmacro{\antennaheight}{\AntennaScale*#3}
+
+        % Groundplane / Erde
+        \draw[antenna]
+            (-0.73,0) -- (-0.27,0);
+
+        % Strahler
+        \draw[antenna]
+            (-0.50,0) -- (-0.50,\antennaheight);
+
+        % --------------------------------------------------------------
+        % Stromverteilung
+        %
+        % I(z) = Imax * sin(k * (l-z))
+        %
+        % Da z und l in Wellenlängen angegeben sind:
+        %
+        % I(z) = sin(360° * (l-z))
+        %
+        % Positive und negative Werte werden auf unterschiedlichen
+        % Seiten des Strahlers dargestellt und zeigen damit auch
+        % Phasenumkehrungen des Stroms.
+        % --------------------------------------------------------------
+
+        \draw[current]
+            plot[
+                domain=0:#3,
+                samples=180,
+                smooth,
+                variable=\z
+            ]
+            (
+                {
+                    -0.50
+                    + \Iscale*sin(360*(#3-\z))
+                },
+                {
+                    \AntennaScale*\z
+                }
+            );
+
+        % --------------------------------------------------------------
+        % Längenmaß
+        % --------------------------------------------------------------
+
+        \draw[
+            Triangle-Triangle,
+            line width=0.55pt
+        ]
+            (-0.82,0)
+            --
+            (-0.82,\antennaheight);
+
+        % Längenbeschriftung
+        \node[
+            rotate=90,
+            font=\small,
+            anchor=south
+        ] at (-0.87,{0.5*\antennaheight})
+            {$l=#5$};
+
+    \end{scope}
+}
+
+% --------------------------------------------------------------------------
+% Obere Reihe
+% --------------------------------------------------------------------------
+
+% lambda/4
+%
+% Strom:
+% Maximum am Speisepunkt
+% Nullstelle an der Spitze
+%
+% Strahlung:
+% Maximum am Horizont
+%
+\MonopolePanel
+    {0}
+    {0}
+    {0.25}
+    {1.0}
+    {\frac{1}{4}\lambda}
+
+
+% lambda/2
+%
+% Strom:
+% Nullstelle am Speisepunkt
+% Maximum bei lambda/4
+% Nullstelle an der Spitze
+%
+% Strahlung:
+% Maximum am Horizont
+%
+\MonopolePanel
+    {3.15}
+    {0}
+    {0.50}
+    {2.0}
+    {\frac{1}{2}\lambda}
+
+
+% --------------------------------------------------------------------------
+% Untere Reihe
+% --------------------------------------------------------------------------
+
+% 5 lambda/8
+%
+% Strom:
+% kleiner Stromabschnitt mit umgekehrter Phase am Speisepunkt
+% Stromnullstelle bei z = lambda/8
+% großer Strombauch darüber
+%
+% Strahlung:
+% Hauptmaximum am Horizont
+% erste Nullstelle bei ca. 36.87°
+% kleine Hochwinkelkeule bei ca. 58.91°
+%
+\MonopolePanel
+    {0}
+    {-2.05}
+    {0.625}
+    {1.707106781}
+    {\frac{5}{8}\lambda}
+
+
+% lambda
+%
+% Strom:
+% Nullstellen bei
+% z = 0
+% z = lambda/2
+% z = lambda
+%
+% zwei Strombäuche mit entgegengesetzter Phase
+%
+% Strahlung:
+% Nullstelle am Horizont
+% Hauptmaximum bei ca. 32.56°
+%
+\MonopolePanel
+    {3.15}
+    {-2.05}
+    {1.0}
+    {2.338981541}
+    {\lambda}
+
+\end{tikzpicture}
