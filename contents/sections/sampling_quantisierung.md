@@ -26,7 +26,7 @@ Den Vorgang, bei dem ein zeitkontinuierliches Signal zu bestimmten Zeitpunkten a
 
 Die Geschwindigkeit, mit der die Abtastung eines analogen Signals vorgenommen wird, wird als *Samplingrate* oder *Abtastrate* bezeichnet. Sie gibt an, wie viele Samples pro Zeiteinheit, beispielsweise pro Sekunde, aufgenommen werden.
 
-Analoge Tonsignale werden bei digitalen Datenträgern wie CDs beispielsweise mit einer Samplingrate von $\num{44100}$ Samples pro Sekunde abgetastet. Dies entspricht $\qty{44,1}{\kilo\sps}$.
+Analoge Tonsignale werden bei digitalen Datenträgern wie CDs beispielsweise mit einer Samplingrate von $\num{44100}$ Samples pro Sekunde (Einheit $\unit{\sps}$) abgetastet. Dies entspricht $\qty{44,1}{\kilo\sps}$.
 
 [question:AF615]
 
@@ -37,6 +37,8 @@ Neben der zeitlichen Auflösung spielt bei der Digitalisierung auch die Auflösu
 Bei der Digitalisierung steht dagegen nur eine begrenzte Anzahl möglicher Zahlenwerte zur Verfügung. Ein gemessener Spannungswert muss daher einer dieser festen Stufen zugeordnet werden. Das Signal ist danach *wertdiskret*.
 
 Liegt ein analoger Signalwert zwischen zwei möglichen Stufen, muss entschieden werden, welcher Stufe der gemessene Wert zugeordnet wird. Diesen Vorgang bezeichnet man als *Quantisierung*. Das zuvor wertkontinuierliche Signal wird dabei auf eine endliche Anzahl möglicher Werte abgebildet.
+
+[question:AF605]
 
 Die Abbildung [ref:a_wertdisk_zeitkont] zeigt zur Veranschaulichung ein *wertdiskretes, aber zeitkontinuierliches Signal*. Das Signal ist weiterhin zu jedem Zeitpunkt definiert, kann jedoch nur bestimmte, fest vorgegebene Werte annehmen. Die möglichen Werte sind also bereits quantisiert, die Zeit hingegen noch nicht diskretisiert.
 
@@ -55,7 +57,6 @@ Soll eine mit dem analogen Dimmer eingestellte Helligkeit mit dem Stufenschalter
 
 [question:AF602]
 [question:AF604]
-[question:AF605]
 
 <indepth>
 Hier gibt es die Möglichkeit das Ganze nochmal auszuprobieren. Ein zeitkontinuierliches Sinus-Signal wird von einem AD-Umsetzer digitalisiert und anschließend wieder von einem DA-Umsetzer in ein analoges Signal gewandelt. An den Reglern kann man die Zeitquantisierung und die Wertquantisierung der AD/DA-Umsetzer einstellen.

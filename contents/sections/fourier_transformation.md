@@ -27,9 +27,9 @@ Wir erinnern uns, dass Signale, die sehr eckig und kantig sind, höhere Frequenz
 Für einige typische periodische Signalformen lässt sich das Frequenzspektrum besonders einfach beschreiben. Dabei betrachten wir hier die idealisierten, um den Nullpunkt symmetrischen Signalformen ohne Gleichanteil:
 
 * Ein *Sinussignal* besteht nur aus einer einzigen Frequenz. Im Frequenzspektrum erscheint daher nur die Grundfrequenz $f$.
-* Ein *Rechtecksignal* besteht aus der Grundfrequenz und den *ungeradzahligen Vielfachen* der Grundfrequenz. Es enthält also die Frequenzen $f$, $3f$, $5f$, $7f$, usw. Die Amplituden der Oberwellen werden dabei mit zunehmender Frequenz kleiner.
-* Ein *Sägezahnsignal* enthält sowohl die geradzahligen als auch die ungeradzahligen Vielfachen der Grundfrequenz. Es enthält also $f$, $2f$, $3f$, $4f$, $5f$, usw. Auch hier werden die Amplituden mit zunehmender Frequenz kleiner.
-* Ein *Dreiecksignal* enthält wie das Rechtecksignal nur die ungeradzahligen Vielfachen der Grundfrequenz, also $f$, $3f$, $5f$, $7f$, usw. Die Amplituden der Oberwellen nehmen jedoch wesentlich schneller ab als beim Rechtecksignal.
+* Ein *Rechtecksignal* besteht aus der Grundfrequenz und den *ungeradzahligen Vielfachen* der Grundfrequenz. Es enthält also die Frequenzen $f$, $3\cdot f$, $5\cdot f$, $7\cdot f$, usw. Die Amplituden der Oberwellen werden dabei mit zunehmender Frequenz kleiner.
+* Ein *Sägezahnsignal* enthält sowohl die geradzahligen als auch die ungeradzahligen Vielfachen der Grundfrequenz. Es enthält also $f$, $2\cdot f$, $3\cdot f$, $4\cdot f$, $5\cdot f$, usw. Auch hier werden die Amplituden mit zunehmender Frequenz kleiner.
+* Ein *Dreiecksignal* enthält wie das Rechtecksignal nur die ungeradzahligen Vielfachen der Grundfrequenz, also $f$, $3\cdot f$, $5\cdot f$, $7\cdot f$, usw. Die Amplituden der Oberwellen nehmen jedoch wesentlich schneller ab als beim Rechtecksignal.
 
 Damit lassen sich die Signalformen auch anhand ihres Frequenzspektrums unterscheiden. Ein einzelner Spektralanteil weist auf einen Sinus hin. Treten ungeradzahlige Vielfache auf, ist es in der Prüfung immer ein Rechtecksignal.
 

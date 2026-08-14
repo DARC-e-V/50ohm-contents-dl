@@ -1,6 +1,6 @@
 Erkennt der Empfänger einen Übertragungsfehler, zum Beispiel mithilfe von Prüfbits, kann er den Sender um eine erneute Übertragung der Daten bitten. Bei der *Vorwärtsfehlerkorrektur* ist dagegen häufig keine Neuübertragung erforderlich. Dazu werden den Nutzdaten zusätzliche Informationen hinzugefügt, zum Beispiel mehrere Prüfbits. Damit kann der Empfänger unter bestimmten Voraussetzungen nicht nur erkennen, dass ein Fehler aufgetreten ist, sondern auch bestimmen, welches Bit fehlerhaft ist, und dieses korrigieren. Im Englischen wird dieses Verfahren als *Forward Error Correction* (FEC) bezeichnet.
 
-Wie das im Detail funktionieren kann, zeigt der folgende Bonus-Kasten am Beispiel eines Hamming-Codes. Das genaue Verfahren ist nicht prüfungsrelevant.
+Wie das im Detail funktionieren kann, zeigt die nebenstehende Vertiefung am Beispiel eines Hamming-Codes. Das genaue Verfahren ist nicht prüfungsrelevant.
 
 [question:AE413]
 [question:AE414]

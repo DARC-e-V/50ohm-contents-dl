@@ -1232,7 +1232,7 @@
                 },
                 {
                     "title": "Datenübertragungsrate",
-                    "ident": "datenuebertragungsdrate",
+                    "ident": "datenuebertragungsrate",
                     "status": "prod",
                     "class": "E",
                     "video_url": null

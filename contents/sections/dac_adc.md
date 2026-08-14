@@ -1,4 +1,4 @@
-Sehen wir uns nun genauer an, wie analoge Signale in digitale Werte und digitale Werte wieder in analoge Signale umgesetzt werden. Dazu werden *A/D-Umsetzer* (Analog-Digital-Umsetzer) und *D/A-Umsetzer* (Digital-Analog-Umsetzer) verwendet. Die Abbildung [ref:a_adc_dac] zeigt die Blockschaltbilder eines A/D- und eines D/A-Umsetzers.
+Dieses Kapitel zeigt, wie analoge Signale in digitale Werte und digitale Werte wieder in analoge Signale umgesetzt werden. Dazu werden *A/D-Umsetzer* (Analog-Digital-Umsetzer) und *D/A-Umsetzer* (Digital-Analog-Umsetzer) verwendet. Die Abbildung [ref:a_adc_dac] zeigt die Blockschaltbilder eines A/D- und eines D/A-Umsetzers.
 
 <margin>
 [picture:1130:a_adc_dac:A/D- und D/A-Umsetzer]
@@ -12,7 +12,7 @@ Da ein A/D-Umsetzer nur mit einer begrenzten Anzahl möglicher digitaler Werte a
 
 ---
 
-Die Anzahl der möglichen Stufen eines A/D-Umsetzers wird als dessen *Auflösung* bezeichnet. Sie wird häufig in Bit ($\unit{\bit}$) angegeben. Kann ein Umsetzer beispielsweise $\num{256}$ unterschiedliche Werte unterscheiden, besitzt er eine Auflösung von $\qty{8}{\bit}$, denn mit $\qty{8}{\bit}$ lassen sich $\num{256}$ verschiedene Werte darstellen. Ein $\qty{16}{\bit}$-Umsetzer kann bereits $\num{65536}$ unterschiedliche Werte unterscheiden.
+Die Anzahl der möglichen Stufen eines A/D-Umsetzers wird als dessen *Auflösung* bezeichnet. Sie wird häufig in Bit (Einheit: $\unit{\bit}$) angegeben. Kann ein Umsetzer beispielsweise $\num{256}$ unterschiedliche Werte unterscheiden, besitzt er eine Auflösung von $\qty{8}{\bit}$, denn mit $\qty{8}{\bit}$ lassen sich $\num{256}$ verschiedene Werte darstellen. Ein $\qty{16}{\bit}$-Umsetzer kann bereits $\num{65536}$ unterschiedliche Werte unterscheiden.
 
 Bei Signalen, die sowohl positive als auch negative Werte annehmen können, wird typischerweise ein Teil dieser Werte für den positiven und ein Teil für den negativen Signalbereich verwendet.
 
@@ -37,8 +37,6 @@ Der Gegenspieler des A/D-Umsetzers ist der *D/A-Umsetzer*. Er erzeugt aus einem 
 
 Auch ein D/A-Umsetzer kann nicht beliebig viele unterschiedliche Ausgangswerte erzeugen. Wie beim A/D-Umsetzer besitzt er eine bestimmte Auflösung in Bit und damit nur eine endliche Anzahl möglicher Ausgangswerte.
 
-[question:AF609]
-
 Ein D/A-Umsetzer kann außerdem nur Spannungen innerhalb eines bestimmten Wertebereichs erzeugen, beispielsweise von $\qty{0}{\volt}$ bis $\qty{1}{\volt}$ oder von $\qty{-2}{\volt}$ bis $\qty{2}{\volt}$.
 
 Bei einem linear arbeitenden D/A-Umsetzer sind die möglichen Ausgangswerte gleichmäßig über diesen Spannungsbereich verteilt. Besitzt ein D/A-Umsetzer beispielsweise eine Auflösung von $\qty{4}{\bit}$, stehen
@@ -46,6 +44,8 @@ Bei einem linear arbeitenden D/A-Umsetzer sind die möglichen Ausgangswerte glei
 $\num{2^4}=\num{16}$
 
 mögliche Stufen zur Verfügung.
+
+[question:AF609]
 
 Verteilen sich diese auf einen Spannungsbereich von $\qty{0}{\volt}$ bis $\qty{1}{\volt}$, gibt es zwischen den $\num{16}$ Stufen insgesamt $\num{15}$ Zwischenschritte. Die Schrittweite beträgt daher
 
