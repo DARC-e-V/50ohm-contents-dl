@@ -19,6 +19,11 @@ Trap als Parallelschwingkreis aus Kondensator und Spule
 </right>
 
 ---
+## Trap-Dipol ausprobieren
+
+[include:applet_traps]
+
+---
 [question:AG109]
 ---
 [question:AG110]

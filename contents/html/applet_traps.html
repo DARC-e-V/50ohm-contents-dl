@@ -1,0 +1,155 @@
+<style>
+  .traps-applet {
+    --traps-blue: #00aedf;
+    --traps-red: #e05023;
+    width: 100%;
+    max-width: 100%;
+    min-width: 0;
+    box-sizing: border-box;
+    display: grid;
+    gap: .85rem;
+    margin: 1rem auto;
+    font-size: clamp(13px, 1.5vw, 17px);
+  }
+
+  .traps-applet .traps-controls {
+    display: grid;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    gap: .55rem;
+    width: min(100%, 42rem);
+    margin-inline: auto;
+  }
+
+  .traps-applet button {
+    min-width: 0;
+    margin: 0;
+    padding: .55em .7em;
+    border: 1px solid rgba(90, 100, 110, .35);
+    border-radius: .4rem;
+    background: var(--bs-body-bg, #fff);
+    color: inherit;
+    font: inherit;
+    font-weight: 600;
+    line-height: 1.15;
+    cursor: pointer;
+  }
+
+  .traps-applet button:hover {
+    border-color: var(--traps-blue);
+  }
+
+  .traps-applet button[aria-pressed="true"] {
+    border-color: var(--traps-blue);
+    background: var(--traps-blue);
+    color: #fff;
+  }
+
+  .traps-applet .traps-visual {
+    width: 100%;
+    min-width: 0;
+    aspect-ratio: 255.143 / 62.585;
+    display: grid;
+    place-items: center;
+  }
+
+  .traps-applet .traps-visual img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+  }
+
+  .traps-applet .traps-state {
+    min-height: 2.4em;
+    margin: 0;
+    text-align: center;
+    line-height: 1.3;
+  }
+
+  .traps-applet .traps-relation {
+    display: inline-block;
+    margin-right: .35em;
+    color: inherit;
+    white-space: nowrap;
+  }
+
+  .traps-applet .traps-state strong {
+    color: var(--traps-red);
+  }
+
+  @media (max-width: 520px) {
+    .traps-applet .traps-controls {
+      grid-template-columns: 1fr;
+    }
+
+  }
+</style>
+
+<div class="traps-applet" aria-label="Wirksame Länge eines Trap-Dipols">
+  <div class="traps-controls" role="group" aria-label="Anregungsfrequenz auswählen">
+    <button type="button" data-traps-state="off" aria-pressed="true">Keine Anregung</button>
+    <button type="button" data-traps-state="3.5" aria-pressed="false">3,5 MHz</button>
+    <button type="button" data-traps-state="7.05" aria-pressed="false">7,05 MHz</button>
+    <button type="button" data-traps-state="14" aria-pressed="false">14 MHz</button>
+  </div>
+
+  <div class="traps-visual">
+    <img data-traps-image src="pictures/235.svg" alt="Trap-Dipol ohne Anregung">
+  </div>
+
+  <p class="traps-state" data-traps-description aria-live="polite">
+    <strong class="traps-relation">Keine Anregung:</strong> Kein Antennenteil ist aktiv.
+  </p>
+
+  <script>
+    (function () {
+      const applet = document.currentScript.closest('.traps-applet');
+      const image = applet.querySelector('[data-traps-image]');
+      const description = applet.querySelector('[data-traps-description]');
+      const buttons = Array.from(applet.querySelectorAll('[data-traps-state]'));
+      const states = {
+        off: {
+          image: 'pictures/235.svg',
+          alt: 'Trap-Dipol ohne Anregung',
+          description: '<strong class="traps-relation">Keine Anregung:</strong> Kein Antennenteil ist aktiv.'
+        },
+        '14': {
+          image: 'pictures/1136.svg',
+          alt: 'Bei 14 Megahertz kann der Strom die Traps passieren und der gesamte Draht ist stromführend',
+          description: '<strong class="traps-relation">14 MHz &gt; 7,05 MHz:</strong> Die kapazitive Wirkung der Traps überwiegt – der Strahler wird elektrisch verkürzt.'
+        },
+        '7.05': {
+          image: 'pictures/1135.svg',
+          alt: 'Bei 7,05 Megahertz ist nur der innere Teil des Trap-Dipols aktiv',
+          description: '<strong class="traps-relation">7,05 MHz = f<sub>res</sub>:</strong> Die Traps sperren. Wirksame Länge: 2 × 10,07 m = 20,14 m.'
+        },
+        '3.5': {
+          image: 'pictures/1136.svg',
+          alt: 'Bei 3,5 Megahertz ist der gesamte Trap-Dipol aktiv',
+          description: '<strong class="traps-relation">3,5 MHz &lt; 7,05 MHz:</strong> Die induktive Wirkung überwiegt – die Traps verlängern den Strahler elektrisch.'
+        }
+      };
+
+      Object.keys(states).forEach(function (key) {
+        const preload = new Image();
+        preload.src = states[key].image;
+      });
+
+      function showState(key) {
+        const state = states[key];
+        image.src = state.image;
+        image.alt = state.alt;
+        description.innerHTML = state.description;
+        buttons.forEach(function (button) {
+          button.setAttribute('aria-pressed', String(button.dataset.trapsState === key));
+        });
+      }
+
+      buttons.forEach(function (button) {
+        button.addEventListener('click', function () {
+          showState(button.dataset.trapsState);
+        });
+      });
+    }());
+  </script>
+</div>
