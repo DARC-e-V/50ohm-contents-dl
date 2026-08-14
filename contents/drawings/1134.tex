@@ -1,7 +1,8 @@
 % Author: Prof. Dr. Matthias Jung, DL9MJ
 % Year: 2026
 %
-% Vertikaldiagramme idealer Monopolantennen über perfekter Erde
+% Strahlungsmuster und Stromverteilung idealer Monopolantennen
+% über perfekter Erde.
 %
 % Elevationswinkel alpha:
 %   0°  = Horizont
@@ -13,11 +14,22 @@
 %   5 lambda/8
 %   lambda
 %
-% Die orangen Kurven zeigen das normierte Fernfeld.
+% Die orangen Kurven zeigen die relative elektrische Feldstärke |E|
+% im Fernfeld bei gleicher insgesamt abgestrahlter Leistung.
+%
+% Alle Diagramme sind gemeinsam auf den lambda/4-Monopol normiert:
+%   E_max(lambda/4) = 1
+%
 % Die roten Kurven zeigen die idealisierte Stromverteilung
 % entlang des Strahlers.
-% Referenz
-% https://en.wikipedia.org/wiki/Monopole_antenna#mwBYI
+%
+% Für die Feldstärke ergeben sich ungefähr:
+%
+%   lambda/4:      E_max = 1.000
+%   lambda/2:      E_max = 1.212
+%   5 lambda/8:    E_max = 1.414
+%   lambda:        E_max = 1.241
+%
 
 \begin{tikzpicture}
 
@@ -27,27 +39,53 @@
 % alpha = Elevationswinkel über dem Horizont
 % h     = Strahlerlänge in Wellenlängen
 %
-% E(alpha) ~
+% Unnormierter Feldfaktor:
 %
-% | cos(2*pi*h*sin(alpha)) - cos(2*pi*h) |
-% -------------------------------------------------
-%                  cos(alpha)
+%                  cos(2*pi*h*sin(alpha)) - cos(2*pi*h)
+% F(alpha) = ---------------------------------------------------
+%                              cos(alpha)
 %
-% PGF rechnet trigonometrische Funktionen in Grad.
+% Die Antennen unterschiedlicher Länge werden so normiert,
+% dass jeweils dieselbe Gesamtleistung abgestrahlt wird.
+%
+% Als gemeinsame Referenz dient der lambda/4-Monopol.
+%
+% Die Normierungsfaktoren für die Feldstärke sind die
+% Quadratwurzeln der entsprechenden Leistungsfaktoren:
+%
+%   lambda/4:      1.000000000
+%   lambda/2:      0.606072220
+%   5 lambda/8:    0.828507649
+%   lambda:        0.530720330
+%
+% PGF verwendet Grad bei trigonometrischen Funktionen.
 % Daher entspricht 2*pi*h dem Winkel 360*h.
 % --------------------------------------------------------------------------
 
-\pgfmathdeclarefunction{monopat}{3}{%
+\pgfmathdeclarefunction{monofield}{3}{%
     \pgfmathparse{%
         abs(
-            (cos(360*#2*sin(#1))-cos(360*#2))
+            (
+                cos(360*#2*sin(#1))
+                - cos(360*#2)
+            )
             / cos(#1)
-        ) / #3
+        )
+        * #3
     }%
 }
 
-% Radius eines Polardiagramms
-\def\R{1.40}
+% --------------------------------------------------------------------------
+% Polardiagramm
+%
+% Eine radiale Einheit entspricht dem maximalen E-Feld
+% des lambda/4-Monopols.
+%
+% Der äußere Radius entspricht E = 1.5.
+% --------------------------------------------------------------------------
+
+\def\R{0.93}
+\def\Emax{1.5}
 
 % Horizontale Auslenkung der Stromkurve
 \def\Iscale{0.28}
@@ -63,6 +101,10 @@
     polargridminor/.style={
         draw=black!20,
         line width=0.25pt
+    },
+    polarreference/.style={
+        draw=black!45,
+        line width=0.45pt
     },
     radiation/.style={
         draw=DARCorange,
@@ -84,7 +126,7 @@
 % #1 x-Position
 % #2 y-Position
 % #3 Strahlerlänge h/lambda
-% #4 Normierung des Feldes
+% #4 Normierungsfaktor des E-Feldes
 % #5 Beschriftung der mechanischen Länge
 % --------------------------------------------------------------------------
 
@@ -93,10 +135,14 @@
 
         % --------------------------------------------------------------
         % Polardiagramm
+        %
+        % Radiale Kreise:
+        %   0.5
+        %   1.0   = Maximum lambda/4
+        %   1.5
         % --------------------------------------------------------------
 
-        % konzentrische Bögen
-        \foreach \r in {0.2,0.4,0.6,0.8,1.0}{
+        \foreach \r in {0.5,1.5}{
             \draw[polargridminor]
                 (0,0)
                 ++(0:{\r*\R})
@@ -107,10 +153,20 @@
                 ];
         }
 
+        % Referenzkreis E = 1
+        \draw[polarreference]
+            (0,0)
+            ++(0:\R)
+            arc[
+                start angle=0,
+                end angle=90,
+                radius=\R
+            ];
+
         % Winkelstrahlen
         \foreach \a in {0,10,...,90}{
             \draw[polargrid]
-                (0,0) -- (\a:\R);
+                (0,0) -- (\a:{\Emax*\R});
         }
 
         % Winkelbeschriftungen
@@ -118,11 +174,17 @@
             \node[
                 font=\scriptsize,
                 inner sep=1pt
-            ] at (\a:{1.10*\R}) {\a};
+            ] at (\a:{1.60*\R}) {\a};
         }
 
         % --------------------------------------------------------------
         % Strahlungsdiagramm
+        %
+        % Radius proportional zur relativen elektrischen Feldstärke |E|.
+        %
+        % Alle vier Diagramme benutzen dieselbe Referenz:
+        %
+        %       E_max(lambda/4) = 1
         % --------------------------------------------------------------
 
         \draw[radiation]
@@ -133,8 +195,16 @@
                 variable=\a
             ]
             (
-                {\R*monopat(\a,#3,#4)*cos(\a)},
-                {\R*monopat(\a,#3,#4)*sin(\a)}
+                {
+                    \R
+                    * monofield(\a,#3,#4)
+                    * cos(\a)
+                },
+                {
+                    \R
+                    * monofield(\a,#3,#4)
+                    * sin(\a)
+                }
             );
 
         % --------------------------------------------------------------
@@ -160,9 +230,12 @@
         %
         % I(z) = sin(360° * (l-z))
         %
-        % Positive und negative Werte werden auf unterschiedlichen
-        % Seiten des Strahlers dargestellt und zeigen damit auch
-        % Phasenumkehrungen des Stroms.
+        % Die Stromverteilung ist für jede Antenne auf denselben
+        % zeichnerischen Ausschlag skaliert. Die roten Kurven zeigen
+        % daher Form und Phasenlage, nicht die absolute Stromstärke.
+        %
+        % Ein Vorzeichenwechsel erscheint auf der jeweils anderen
+        % Seite des Strahlers.
         % --------------------------------------------------------------
 
         \draw[current]
@@ -211,36 +284,25 @@
 
 % lambda/4
 %
-% Strom:
-% Maximum am Speisepunkt
-% Nullstelle an der Spitze
-%
-% Strahlung:
-% Maximum am Horizont
+% E_max = 1.000 bei alpha = 0°
 %
 \MonopolePanel
     {0}
     {0}
     {0.25}
-    {1.0}
+    {1.000000000}
     {\frac{1}{4}\lambda}
 
 
 % lambda/2
 %
-% Strom:
-% Nullstelle am Speisepunkt
-% Maximum bei lambda/4
-% Nullstelle an der Spitze
-%
-% Strahlung:
-% Maximum am Horizont
+% E_max ~= 1.212 bei alpha = 0°
 %
 \MonopolePanel
     {3.15}
     {0}
     {0.50}
-    {2.0}
+    {0.606072220}
     {\frac{1}{2}\lambda}
 
 
@@ -250,43 +312,34 @@
 
 % 5 lambda/8
 %
-% Strom:
-% kleiner Stromabschnitt mit umgekehrter Phase am Speisepunkt
-% Stromnullstelle bei z = lambda/8
-% großer Strombauch darüber
+% E_max ~= 1.414 bei alpha = 0°
 %
-% Strahlung:
-% Hauptmaximum am Horizont
-% erste Nullstelle bei ca. 36.87°
-% kleine Hochwinkelkeule bei ca. 58.91°
+% erste Nullstelle:
+% alpha ~= 36.87°
+%
+% kleine Hochwinkelkeule
 %
 \MonopolePanel
     {0}
     {-2.05}
     {0.625}
-    {1.707106781}
+    {0.828507649}
     {\frac{5}{8}\lambda}
 
 
 % lambda
 %
-% Strom:
-% Nullstellen bei
-% z = 0
-% z = lambda/2
-% z = lambda
+% Nullstelle am Horizont:
+% alpha = 0°
 %
-% zwei Strombäuche mit entgegengesetzter Phase
-%
-% Strahlung:
-% Nullstelle am Horizont
-% Hauptmaximum bei ca. 32.56°
+% E_max ~= 1.241
+% Hauptmaximum bei alpha ~= 32.56°
 %
 \MonopolePanel
     {3.15}
     {-2.05}
     {1.0}
-    {2.338981541}
+    {0.530720330}
     {\lambda}
 
 \end{tikzpicture}
