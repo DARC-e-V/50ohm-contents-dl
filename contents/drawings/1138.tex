@@ -1,0 +1,47 @@
+% Author: Prof. Dr. Matthias Jung, DL9MJ
+% Year: 2026
+\begin{circuitikz}
+    \draw[thick, DARCred] (0,0)
+        sin ++(4, 3)
+        cos ++(4,-3);
+
+    % 3. Harmonische
+    \draw[thick, DARCblue] (0,0)
+        sin ++({4/3},+1) cos ++({4/3},-1)
+        sin ++({4/3},+1) cos ++({4/3},-1)
+        sin ++({4/3},+1) cos ++({4/3},-1);
+
+    % 5. Harmonische
+    \draw[thick, DARCgreen] (0,0)
+        sin ++(0.8,+0.6) cos ++(0.8,-0.6)
+        sin ++(0.8,+0.6) cos ++(0.8,-0.6)
+        sin ++(0.8,+0.6) cos ++(0.8,-0.6)
+        sin ++(0.8,+0.6) cos ++(0.8,-0.6)
+        sin ++(0.8,+0.6) cos ++(0.8,-0.6);
+
+    % 7. Harmonische
+    \draw[thick, DARCorange] (0,0)
+        sin ++({4/7},{+3/7}) cos ++({4/7},{-3/7})
+        sin ++({4/7},{+3/7}) cos ++({4/7},{-3/7})
+        sin ++({4/7},{+3/7}) cos ++({4/7},{-3/7})
+        sin ++({4/7},{+3/7}) cos ++({4/7},{-3/7})
+        sin ++({4/7},{+3/7}) cos ++({4/7},{-3/7})
+        sin ++({4/7},{+3/7}) cos ++({4/7},{-3/7})
+        sin ++({4/7},{+3/7}) cos ++({4/7},{-3/7});
+
+    \draw[very thick] (0,0) coordinate(start)
+        to [short] ++( 3.9,   0)
+        to [short] ++(   0,-0.8);
+    \draw[very thick] (8,0) coordinate(end)
+        to [short] ++(-3.9,   0)
+        to [short] ++(   0,-0.8);
+
+    \node[DARCred, anchor=south west] at (6,{3/sqrt(2)}) {\qty{3.5}{\mega\hertz}};
+    \node[DARCblue, fill=white, inner sep=1pt, anchor=south west]
+        at (2,{1/sqrt(2)}) {\qty{10.5}{\mega\hertz}};
+    \node[DARCgreen, fill=white, inner sep=1pt, anchor=south west]
+        at (4.8,{1/sqrt(2)}) {\qty{17.5}{\mega\hertz}};
+    \node[DARCorange, anchor=north] at ({8/7},0) {\qty{24.5}{\mega\hertz}};
+
+    \DARCmeasure{start}{end}{0,-1}{0}{$\qty{40}{\meter}$}
+\end{circuitikz}

@@ -965,13 +965,6 @@
                     "video_url": null
                 },
                 {
-                    "title": "Traps",
-                    "ident": "traps",
-                    "status": "alpha",
-                    "class": "A",
-                    "video_url": null
-                },
-                {
                     "title": "Yagi-Uda-Antenne III",
                     "ident": "yagi_uda_3",
                     "status": "alpha",
@@ -1014,8 +1007,8 @@
                     "video_url": null
                 },
                 {
-                    "title": "Frequenzabhängige Stromverteilung",
-                    "ident": "frequenzabhaengige_stromverteilung",
+                    "title": "Traps",
+                    "ident": "traps",
                     "status": "alpha",
                     "class": "A",
                     "video_url": null
