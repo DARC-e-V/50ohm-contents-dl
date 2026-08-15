@@ -1,0 +1,21 @@
+% Author: Dr. Matthias Jung, DL9MJ
+% Year: 2026
+\begin{tikzpicture}
+    \draw(0,+0)
+        to [american inductor, l={$L'$}, o-] ++(2,0) coordinate(x1)
+        to [american inductor, l={$L'$}] ++(2,0) coordinate(x2)
+        to [open] ++(2,0) coordinate(x3)
+        to [american inductor, l={$L'$}] ++(2,0) coordinate(x4)
+        to [short, -o] ++(1,0);
+    \draw(0,-2)
+        to [short, o-] ++(2,0) coordinate(y1)
+        to [short] ++(2,0) coordinate(y2)
+        to [open] ++(2,0) coordinate(y3)
+        to [short] ++(2,0) coordinate(y4)
+        to [short, -o] ++(1,0);
+    \draw[dashed](x2) -- (x3);
+    \draw[dashed](y2) -- (y3);
+    \draw(x1) to [C, l={$C'$}, *-*] (y1);
+    \draw(x2) to [C, l={$C'$}, *-*] (y2);
+    \draw(x4) to [C, l={$C'$}, *-*] (y4);
+\end{tikzpicture}
