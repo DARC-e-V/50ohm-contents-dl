@@ -44,7 +44,7 @@ Der A/D-Umsetzer benötigt außerdem einen Taktgenerator, den man auch als Abtas
 
 Auf der anderen Seite der digitalen Signalverarbeitung übernimmt der D/A-Umsetzer den umgekehrten Vorgang. Er setzt die digitalen Samples wieder in analoge Spannungswerte um. Da die einzelnen Werte nur in festen zeitlichen Abständen ausgegeben werden, entsteht am Ausgang des D/A-Umsetzers zunächst kein ideal glatter Signalverlauf.
 
-Durch die zeitdiskrete Ausgabe entstehen neben dem gewünschten Nutzsignal auch unerwünschte höherfrequente Signalanteile (Z.B. in Abbildung [ref:a_adc_4bit], die scharfen Kanten des Signals enthalten die hohen Frequenzanteile). Um diese zu unterdrücken, wird hinter dem D/A-Umsetzer ein *Rekonstruktionsfilter* eingesetzt. Auch hierbei kann je nach Anwendung beispielsweise ein Tiefpass- oder Bandpassfilter verwendet werden.
+Durch die zeitdiskrete Ausgabe entstehen neben dem gewünschten Nutzsignal auch unerwünschte höherfrequente Signalanteile (z.B. in Abbildung [ref:a_adc_4bit], die schnellen Übergänge zwischen den diskreten Werten des Ausgangssignals enthalten die hohen Frequenzanteile). Um diese zu unterdrücken, wird hinter dem D/A-Umsetzer ein *Rekonstruktionsfilter* eingesetzt. Auch hierbei kann je nach Anwendung beispielsweise ein Tiefpass- oder Bandpassfilter verwendet werden.
 
 Das Rekonstruktionsfilter lässt den gewünschten Nutzfrequenzbereich passieren und unterdrückt die unerwünschten höherfrequenten Signalanteile des D/A-Umsetzers. Dadurch entsteht am Ausgang wieder ein möglichst sauberes analoges Signal (vgl. Abbildung [ref:a_adc_12bit], das Rekonstruktionsfilter glättet das Signal).
 
