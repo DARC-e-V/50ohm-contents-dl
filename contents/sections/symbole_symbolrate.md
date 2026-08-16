@@ -14,7 +14,7 @@ $R_\mathrm{D} = R_\mathrm{S} \cdot N$
 
 Werden beispielsweise bei einer Symbolrate von $\qty{1200}{\baud}$ mit jedem Symbol zwei Bit übertragen, ergibt sich eine Datenrate von:
 
-$R_\mathrm{D} = \qty{1200}{\baud} \cdot 2 = \qty{2400}{\bit\per\second}$
+$R_\mathrm{D} = \qty{1200}{\baud} \cdot \qty{2}{\bit\per{Symbol}} = \qty{2400}{\bit\per\second}$
 
 Die Anzahl der möglichen Symbole und die Symbolrate sind damit wichtige Größen für digitale Übertragungsverfahren. Wie sich die einzelnen Symbole durch unterschiedliche Eigenschaften eines Signals darstellen lassen, betrachten wir in den folgenden Abschnitten.
 
