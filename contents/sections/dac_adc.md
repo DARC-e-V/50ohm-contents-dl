@@ -25,7 +25,7 @@ Die Abbildung [ref:a_adc_4bit] zeigt ein Sinussignal, das durch einen A/D-Umsetz
 
 [question:AF608]
 
-Eine weitere wichtige Eigenschaft eines A/D-Umsetzers ist die zeitliche Genauigkeit der Abtastung. Die einzelnen Samples sollten möglichst exakt in den vorgesehenen zeitlichen Abständen aufgenommen werden. Dazu ist ein möglichst stabiler Abtastratengenerator erforderlich.
+Eine weitere wichtige Eigenschaft eines A/D-Umsetzers ist die zeitliche Genauigkeit der Abtastung. Die einzelnen Samples sollten möglichst exakt in den vorgesehenen zeitlichen Abständen aufgenommen werden. Dazu ist ein möglichst stabiler Abtasttaktgenerator erforderlich.
 
 In der Praxis können die tatsächlichen Abtastzeitpunkte jedoch geringfügig von den idealen Zeitpunkten abweichen. Diese zeitlichen Schwankungen werden als *Jitter* bezeichnet. Jitter kann zu zusätzlichen Fehlern und damit zu zusätzlichem Rauschen im digitalisierten Signal führen.
 
