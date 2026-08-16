@@ -6,7 +6,11 @@ Das Signal-to-Noise Ratio (SNR) ist definiert als das Verhältnis von Nutzsignal
 
 [question:AF227]
 
-Die Rauschzahl wird häufig bei HF-Vorverstärkern angegeben. Diese beschreibt die Verschlechterung des SNR bei Durchgang eines Signals durch diese Baugruppe. Hierbei wird die Rauschzahl als Verhältnis des eingehenden SNR-Wertes zum ausgehenden SNR-Wert bestimmt. Die Rauschzahl kann mittels Logarithmierung ($\unit{\dB}$) in das sog. Rauschmaß überführt werden. Eine Rauschzahl von $\num{2}$ entspricht z.B. einem Rauschmaß von $\qty{3}{\dB}$.
+Die Rauschzahl wird häufig bei HF-Vorverstärkern angegeben. Diese beschreibt die Verschlechterung des SNR bei Durchgang eines Signals durch diese Baugruppe. Hierbei wird die Rauschzahl als Verhältnis des eingehenden SNR-Wertes zum ausgehenden SNR-Wert bestimmt. Die Rauschzahl wird üblicherweise mittels Logarithmierung in Dezibel ($\unit{\dB}$) dargestellt. Eine Rauschzahl von $\num{2}$ in linearer Notation entspricht in logarithmischer Darstellung $\qty{3}{\dB}$.
 
 [question:AF228]
 [question:AF229]
+
+<indepth>
+Laut DIN wird die in $\unit{\decibel}$ dargestellte Rauschzahl als Rauschmaß bezeichnet. Leider gibt es noch eine anderslautende Definition des Rauschmaßes, sodass diese Bezeichnung nicht sehr verbreitet ist.
+</indepth>
