@@ -8,7 +8,7 @@ Wird ein Eingangssignal beispielsweise mit zwei um $\qty{90}{\degree}$ gegeneina
 
 Wie groß dieser Frequenzbereich ist, hängt von der Abtastrate ab. Werden sowohl I als auch Q mit einer Abtastrate von $f_\mathrm{S}$ abgetastet, kann idealerweise ein Frequenzbereich von
 
-$-\frac{f_\mathrm{S}}{2}$ bis $+\frac{f_\mathrm{S}}{2}$
+$-\frac{f_\mathrm{S}}{2}\text{ bis }+\frac{f_\mathrm{S}}{2}$
 
 um die Mittenfrequenz dargestellt werden. Die insgesamt darstellbare Bandbreite entspricht damit der Abtastrate $f_\mathrm{S}$.
 
