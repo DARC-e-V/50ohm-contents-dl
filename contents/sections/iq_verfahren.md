@@ -23,7 +23,7 @@ Für die Darstellung der Symbole interessiert uns also nicht die fortlaufende Dr
 </margin>
 
 <indepth>
-Für mathematisch interessierte: Eine sinusförmige Schwingung kann mathematisch auch als *komplexer Zeiger* beschrieben werden, der sich mit der Kreisfrequenz $\omega_\mathrm{c}$ dreht:
+Für mathematisch Interessierte: Eine sinusförmige Schwingung kann mathematisch auch als *komplexer Zeiger* beschrieben werden, der sich mit der Kreisfrequenz $\omega_\mathrm{c}$ dreht:
 
 $s(t) = \Re\left\{A \cdot e^{j(\omega_\mathrm{c}t+\varphi)}\right\} = A\cos(\omega_\mathrm{c}t+\varphi)$
 
