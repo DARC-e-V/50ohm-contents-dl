@@ -2,6 +2,10 @@ Aufgrund der Energieerhaltung gilt: Je höher der Gewinn einer Antenne in einer 
 
 Unter dem *Öffnungswinkel* oder der *Halbwertsbreite* verstehen wir den Winkel innerhalb dessen der Gewinn nicht um mehr als $\qty{3}{\dB}$, d. h. auf die halbe Strahlungsleistung bzw. auf das $\frac{1}{\sqrt{2}} \approx 0,707$-fache der maximalen Feldstärke (also der Feldstärke in Hauptstrahlungsrichtung) abfällt.
 
+<margin>
+[picture:266:a_halbwertsbreite:Halbwertsbreite einer Richtantenne]
+</margin>
+
 [question:AG219]
 [question:AG220]
 [question:AG221]

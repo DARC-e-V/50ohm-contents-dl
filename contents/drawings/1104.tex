@@ -1,0 +1,75 @@
+% DL9MJ, Matthias Jung, 2026
+\begin{tikzpicture}
+
+    % Parameter
+    \pgfmathsetmacro{\f}{1.4}       % Brennweite des Mutter-Paraboloids
+    \pgfmathsetmacro{\ap}{2.4}      % halbe Apertur
+    \pgfmathsetmacro{\ymin}{0.75}   % unterer Rand des Offset-Ausschnitts
+    \pgfmathsetmacro{\ymax}{2.55}   % oberer Rand des Offset-Ausschnitts
+    \pgfmathsetmacro{\xend}{5.2}    % Ende der reflektierten Strahlen
+
+    % Brennpunkt des Mutter-Paraboloids
+    \coordinate (F) at (\f,0);
+
+    % ------------------------------------------------------------
+    % Mutter-Paraboloid nur angedeutet
+    % ------------------------------------------------------------
+    \draw[gray!45, dashed, thick]
+        plot[
+            variable=\t,
+            domain=-2.6:2.6,
+            samples=120,
+            smooth
+        ]
+        ({\t*\t/(4*\f)},{\t});
+
+    % Achse des Mutter-Paraboloids
+    \draw[gray!45, dashed, thick] (-0.15,0) -- (\xend,0);
+
+    % ------------------------------------------------------------
+    % Offsetspiegel: nur ein seitlicher Ausschnitt
+    % ------------------------------------------------------------
+    \draw[ultra thick]
+        plot[
+            variable=\t,
+            domain=\ymin:\ymax,
+            samples=100,
+            smooth
+        ]
+        ({\t*\t/(4*\f)},{\t});
+
+    % Unterer Punkt des Offsetspiegels
+    \coordinate (Mlow) at ({\ymin*\ymin/(4*\f)}, {\ymin});
+
+    % ------------------------------------------------------------
+    % Feed / Erregerantenne im Brennpunkt
+    % ------------------------------------------------------------
+
+    \draw({(-\ap)*(-\ap)/(4*\f)},{-\ap}) coordinate(end);
+
+    % Feed / Antenne im Brennpunkt
+    \node[bareantenna, scale=1.0, anchor=west] (ant) at (F) {};
+
+    \draw(end) to [open] ++(2,0) node[trxshape, scale=1, anchor=west](trx){};
+
+    % Anschlussleitung und TRX
+    \draw (ant)
+        -- ++(0,-1.2) coordinate(h)
+        -| (trx.north);
+
+    % ------------------------------------------------------------
+    % Strahlen vom Feed zum Offsetspiegel und danach parallel
+    % ------------------------------------------------------------
+    \foreach \yy in {0.85,1.20,1.55,1.90,2.25,2.50} {
+        \pgfmathsetmacro{\xx}{\yy*\yy/(4*\f)}
+
+        % vom Brennpunkt zum Spiegel
+        \draw[DARCred, thick]
+            (F) -- (\xx,\yy);
+
+        % reflektierter Strahl parallel zur Achse
+        \draw[DARCred, thick]
+            (\xx,\yy) -- (\xend,\yy);
+    }
+
+\end{tikzpicture}

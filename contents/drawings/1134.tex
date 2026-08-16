@@ -1,0 +1,345 @@
+% Author: Prof. Dr. Matthias Jung, DL9MJ
+% Year: 2026
+%
+% Strahlungsmuster und Stromverteilung idealer Monopolantennen
+% über perfekter Erde.
+%
+% Elevationswinkel alpha:
+%   0°  = Horizont
+%   90° = Zenit
+%
+% Gezeigt werden:
+%   lambda/4
+%   lambda/2
+%   5 lambda/8
+%   lambda
+%
+% Die orangen Kurven zeigen die relative elektrische Feldstärke |E|
+% im Fernfeld bei gleicher insgesamt abgestrahlter Leistung.
+%
+% Alle Diagramme sind gemeinsam auf den lambda/4-Monopol normiert:
+%   E_max(lambda/4) = 1
+%
+% Die roten Kurven zeigen die idealisierte Stromverteilung
+% entlang des Strahlers.
+%
+% Für die Feldstärke ergeben sich ungefähr:
+%
+%   lambda/4:      E_max = 1.000
+%   lambda/2:      E_max = 1.212
+%   5 lambda/8:    E_max = 1.414
+%   lambda:        E_max = 1.241
+%
+
+\begin{tikzpicture}
+
+% --------------------------------------------------------------------------
+% Fernfeld eines idealen vertikalen Monopols
+%
+% alpha = Elevationswinkel über dem Horizont
+% h     = Strahlerlänge in Wellenlängen
+%
+% Unnormierter Feldfaktor:
+%
+%                  cos(2*pi*h*sin(alpha)) - cos(2*pi*h)
+% F(alpha) = ---------------------------------------------------
+%                              cos(alpha)
+%
+% Die Antennen unterschiedlicher Länge werden so normiert,
+% dass jeweils dieselbe Gesamtleistung abgestrahlt wird.
+%
+% Als gemeinsame Referenz dient der lambda/4-Monopol.
+%
+% Die Normierungsfaktoren für die Feldstärke sind die
+% Quadratwurzeln der entsprechenden Leistungsfaktoren:
+%
+%   lambda/4:      1.000000000
+%   lambda/2:      0.606072220
+%   5 lambda/8:    0.828507649
+%   lambda:        0.530720330
+%
+% PGF verwendet Grad bei trigonometrischen Funktionen.
+% Daher entspricht 2*pi*h dem Winkel 360*h.
+% --------------------------------------------------------------------------
+
+\pgfmathdeclarefunction{monofield}{3}{%
+    \pgfmathparse{%
+        abs(
+            (
+                cos(360*#2*sin(#1))
+                - cos(360*#2)
+            )
+            / cos(#1)
+        )
+        * #3
+    }%
+}
+
+% --------------------------------------------------------------------------
+% Polardiagramm
+%
+% Eine radiale Einheit entspricht dem maximalen E-Feld
+% des lambda/4-Monopols.
+%
+% Der äußere Radius entspricht E = 1.5.
+% --------------------------------------------------------------------------
+
+\def\R{0.93}
+\def\Emax{1.5}
+
+% Horizontale Auslenkung der Stromkurve
+\def\Iscale{0.28}
+
+% Vertikale Skalierung der Antennendarstellung
+\def\AntennaScale{1.55}
+
+\tikzset{
+    polargrid/.style={
+        draw=black!35,
+        line width=0.35pt
+    },
+    polargridminor/.style={
+        draw=black!20,
+        line width=0.25pt
+    },
+    polarreference/.style={
+        draw=black!45,
+        line width=0.45pt
+    },
+    radiation/.style={
+        draw=DARCorange,
+        line width=1.4pt
+    },
+    antenna/.style={
+        draw=black,
+        line width=1.1pt
+    },
+    current/.style={
+        draw=DARCred,
+        line width=1.3pt
+    }
+}
+
+% --------------------------------------------------------------------------
+% Panel
+%
+% #1 x-Position
+% #2 y-Position
+% #3 Strahlerlänge h/lambda
+% #4 Normierungsfaktor des E-Feldes
+% #5 Beschriftung der mechanischen Länge
+% --------------------------------------------------------------------------
+
+\newcommand{\MonopolePanel}[5]{%
+    \begin{scope}[shift={(#1,#2)}]
+
+        % --------------------------------------------------------------
+        % Polardiagramm
+        %
+        % Radiale Kreise:
+        %   0.5
+        %   1.0   = Maximum lambda/4
+        %   1.5
+        % --------------------------------------------------------------
+
+        \foreach \r in {0.5,1.5}{
+            \draw[polargridminor]
+                (0,0)
+                ++(0:{\r*\R})
+                arc[
+                    start angle=0,
+                    end angle=90,
+                    radius={\r*\R}
+                ];
+        }
+
+        % Referenzkreis E = 1
+        \draw[polarreference]
+            (0,0)
+            ++(0:\R)
+            arc[
+                start angle=0,
+                end angle=90,
+                radius=\R
+            ];
+
+        % Winkelstrahlen
+        \foreach \a in {0,10,...,90}{
+            \draw[polargrid]
+                (0,0) -- (\a:{\Emax*\R});
+        }
+
+        % Winkelbeschriftungen
+        \foreach \a in {0,10,...,90}{
+            \node[
+                font=\scriptsize,
+                inner sep=1pt
+            ] at (\a:{1.60*\R}) {\a};
+        }
+
+        % --------------------------------------------------------------
+        % Strahlungsdiagramm
+        %
+        % Radius proportional zur relativen elektrischen Feldstärke |E|.
+        %
+        % Alle vier Diagramme benutzen dieselbe Referenz:
+        %
+        %       E_max(lambda/4) = 1
+        % --------------------------------------------------------------
+
+        \draw[radiation]
+            plot[
+                domain=0:89.7,
+                samples=350,
+                smooth,
+                variable=\a
+            ]
+            (
+                {
+                    \R
+                    * monofield(\a,#3,#4)
+                    * cos(\a)
+                },
+                {
+                    \R
+                    * monofield(\a,#3,#4)
+                    * sin(\a)
+                }
+            );
+
+        % --------------------------------------------------------------
+        % Antennendarstellung
+        % --------------------------------------------------------------
+
+        \pgfmathsetmacro{\antennaheight}{\AntennaScale*#3}
+
+        % Groundplane / Erde
+        \draw[antenna]
+            (-0.73,0) -- (-0.27,0);
+
+        % Strahler
+        \draw[antenna]
+            (-0.50,0) -- (-0.50,\antennaheight);
+
+        % --------------------------------------------------------------
+        % Stromverteilung
+        %
+        % I(z) = Imax * sin(k * (l-z))
+        %
+        % Da z und l in Wellenlängen angegeben sind:
+        %
+        % I(z) = sin(360° * (l-z))
+        %
+        % Die Stromverteilung ist für jede Antenne auf denselben
+        % zeichnerischen Ausschlag skaliert. Die roten Kurven zeigen
+        % daher Form und Phasenlage, nicht die absolute Stromstärke.
+        %
+        % Ein Vorzeichenwechsel erscheint auf der jeweils anderen
+        % Seite des Strahlers.
+        % --------------------------------------------------------------
+
+        \draw[current]
+            plot[
+                domain=0:#3,
+                samples=180,
+                smooth,
+                variable=\z
+            ]
+            (
+                {
+                    -0.50
+                    + \Iscale*sin(360*(#3-\z))
+                },
+                {
+                    \AntennaScale*\z
+                }
+            );
+
+        % --------------------------------------------------------------
+        % Längenmaß
+        % --------------------------------------------------------------
+
+        \draw[
+            Triangle-Triangle,
+            line width=0.55pt
+        ]
+            (-0.82,0)
+            --
+            (-0.82,\antennaheight);
+
+        % Längenbeschriftung
+        \node[
+            rotate=90,
+            font=\small,
+            anchor=south
+        ] at (-0.87,{0.5*\antennaheight})
+            {$l=#5$};
+
+    \end{scope}
+}
+
+% --------------------------------------------------------------------------
+% Obere Reihe
+% --------------------------------------------------------------------------
+
+% lambda/4
+%
+% E_max = 1.000 bei alpha = 0°
+%
+\MonopolePanel
+    {0}
+    {0}
+    {0.25}
+    {1.000000000}
+    {\frac{1}{4}\lambda}
+
+
+% lambda/2
+%
+% E_max ~= 1.212 bei alpha = 0°
+%
+\MonopolePanel
+    {3.15}
+    {0}
+    {0.50}
+    {0.606072220}
+    {\frac{1}{2}\lambda}
+
+
+% --------------------------------------------------------------------------
+% Untere Reihe
+% --------------------------------------------------------------------------
+
+% 5 lambda/8
+%
+% E_max ~= 1.414 bei alpha = 0°
+%
+% erste Nullstelle:
+% alpha ~= 36.87°
+%
+% kleine Hochwinkelkeule
+%
+\MonopolePanel
+    {0}
+    {-2.05}
+    {0.625}
+    {0.828507649}
+    {\frac{5}{8}\lambda}
+
+
+% lambda
+%
+% Nullstelle am Horizont:
+% alpha = 0°
+%
+% E_max ~= 1.241
+% Hauptmaximum bei alpha ~= 32.56°
+%
+\MonopolePanel
+    {3.15}
+    {-2.05}
+    {1.0}
+    {0.530720330}
+    {\lambda}
+
+\end{tikzpicture}

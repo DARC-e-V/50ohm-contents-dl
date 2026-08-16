@@ -1,0 +1,60 @@
+% Author: Dr. Matthias Jung, DL9MJ
+% Year: 2026
+\begin{tikzpicture}
+    \draw(0,0)
+        to [short, o-] ++ (1,0) coordinate(x1)
+        coordinate(h1);
+    \draw[DARCgreen](h1)
+        to [american inductor, name={L1}, inductors/width=2.0, inductors/coils=8] ++ (2,0) coordinate(h2);
+    \draw(h2)
+        to [short, -o] ++ (1,0)
+        to [open,-o, name={h3}] ++(0,-1) node[rground] {};
+    \draw(0,0)
+        to [open,-o] ++(0,-1) node[rground] {};
+    \draw[DARCgreen](x1)
+        to [open] ++(0,-1) coordinate(ll1)
+        to [american inductor, draw=DARCgreen, name={L2}, inductors/width=2.0, inductors/coils=8, v<={$U_\mathrm{I}$}] ++ (2,0)
+        coordinate(ll2);
+    \draw[DARCorange](L1.south west)
+        to [open] ++(0,-0.2)
+        to [C] ++(0,-0.5)
+        to [open] (L2.north west);
+    \draw[DARCorange](L1.south)
+        to [open] ++(0,-0.2)
+        to [C] ++(0,-0.5)
+        to [open] (L2.north);
+    \draw[DARCorange](L1.south east)
+        to [open] ++(0,-0.2)
+        to [C] ++(0,-0.5)
+        to [open] (L2.north east);
+    \draw(L2.south)
+        to [open, -o] ++(0,-2)
+        node [rground](gnd){};
+    \draw(ll1)
+        to [short, -o] ++(0,-0.5) coordinate(left);
+    \draw(ll2)
+        to [short, -o] ++(0,-0.5) coordinate(right);
+    \draw(left)
+        to [open] ++(-0.125,0) coordinate(left1);
+    \draw(left)
+        to [open] ++(+0.125,0) coordinate(left2);
+    \draw(right)
+        to [open] ++(-0.125,0) coordinate(right1);
+    \draw(right)
+        to [open] ++(+0.125,0) coordinate(right2);
+    \draw(gnd)
+        to [open] ++(-0.125,0) coordinate(gnd1);
+    \draw(gnd)
+        to [open] ++(+0.125,0) coordinate(gnd2);
+    %
+    \draw[DARCorange](left1) 
+        to [open, v={$U_\mathrm{C}$}, draw=DARCorange] (gnd1);
+    \draw[DARCorange](right2) 
+        to [open, v^={$U_\mathrm{C}$}, draw=DARCorange] (gnd2);
+    \draw[DARCgreen](left2) 
+        to [open, draw=DARCgreen, v^<={$\frac{U_\mathrm{I}}{2}$}] (gnd2);
+    \draw[DARCgreen](gnd1) 
+        to [open, draw=DARCgreen, v^<={$\frac{U_\mathrm{I}}{2}$}] (right1);
+    %
+    \draw[ultra thick, -Triangle, DARCred] (h3.center) -- ++(-0.75,0); 
+\end{tikzpicture}

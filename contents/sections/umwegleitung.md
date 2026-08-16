@@ -2,6 +2,10 @@ Eine weitere Möglichkeit zur Unterdrückung von Mantelwellen besteht darin, ein
 
 [question:AG420]
 
+<margin>
+[picture:562:e_umwegleitung:Umwegleitung]
+</margin>
+
 Wie eine solche Umwegleitung funktioniert, sei im Folgenden erklärt.
 
 Eine symmetrische Antenne benötigt an beiden Anschlusspunkten eine HF-Spannung gegenüber Erde. Hierbei müssen die Spannungen betragsmäßig gleich groß sein, jedoch mit umgekehrtem Vorzeichen, also $\qty{180}{\degree}$ phasenverschoben.

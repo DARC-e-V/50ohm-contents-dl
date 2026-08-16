@@ -10,6 +10,10 @@ Eine Drossel ist eine Spule, die hochfrequente Ströme blockieren soll. Die stro
 
 [question:AG426]
 
+<margin>
+[picture:633:e_mantelwellen:Mantelwellen]
+</margin>
+
 ---
 
 Eine Alternative zur stromkompensierten Drossel stellt ein HF-Trenntrafo dar. Da die Primär- und die Sekundärwicklung nicht miteinander verbunden sind, muss ein Strom der an einem Pol in den Trenntrafo hineinfließt (zumindest näherungsweise) auch in gleicher Größe aus dem anderen Pol wieder hinausfließen. Ein Gleichtaktanteil ist damit ausgeschlossen.

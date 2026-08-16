@@ -1,0 +1,58 @@
+% Author: Dr. Matthias Jung, DL9MJ
+% Year: 2026
+\begin{tikzpicture}
+  
+    % Yagi:
+    \draw[very thick, DARCred] plot[
+        variable=\t,
+        domain=0:360,
+        smooth,samples=101
+    ] 
+    ({180+60*sin(\t)}:{0.75*pow(sin(\t/2),9)});
+
+    \draw[very thick, DARCred] plot[
+          variable=\t,
+          domain=0:360,
+          smooth,samples=101
+      ] 
+    ({35*sin(\t)}:{7*pow(0.95*sin(\t/2),5)});
+
+    % Dipole:
+    \draw[thick] plot[
+        variable=\t,
+        domain=0:360,
+        smooth,samples=101
+    ] 
+    ({180+90*sin(\t)}:{3*pow(sin(\t/2),9)});
+
+    \draw[thick] plot[
+        variable=\t,
+        domain=0:360,
+        smooth,samples=101
+    ] 
+    ({90*sin(\t)}:{3*pow(sin(\t/2),9)});
+
+     \draw (-3.500, 0) -- ( 6.000, 0.0);
+
+    % Label:
+    \draw[DARCred] (5,-1.8) node[]{Richtantenne};
+    \draw[black] (-2.5,+1.8) node[]{Dipol};
+    % Bemaßung
+    \draw(-0.755,2.5) coordinate(s1);
+    \draw(0,2.5) coordinate(e1);
+    \DARCmeasure[DARCred][top]{s1}{e1}{0,0}{0}{$P_\text{R}$}
+    \draw[ultra thin](start) -- (start|-0,0);
+    \draw[ultra thin](end) -- (end|-0,0);
+    \draw(-0.755,2.5) coordinate(s1);
+    \draw(5.42,2.5) coordinate(e2);
+    \DARCmeasure[DARCred]{e1}{e2}{0,0}{0}{$P_\text{V}$}
+    \draw[ultra thin](end) -- (end|-0,0);
+    \draw(0,-2.5) coordinate(s2);
+    \draw(3,-2.5) coordinate(e3);
+    \DARCmeasure{s2}{e3}{0,0}{0}{$P_\text{D}$}
+    \draw[ultra thin](end) -- (end|-0,0);
+    \draw(-3,-2.5) coordinate(e4);
+    \DARCmeasure{e4}{s2}{0,0}{0}{$P_\mathrm{D}$}
+    \draw[ultra thin](start) -- (start|-0,0);
+    \draw[ultra thin](end) -- (end|-0,0);
+\end{tikzpicture}

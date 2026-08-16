@@ -1,4 +1,4 @@
-Da Dämpfung oft unerwünscht ist, besteht die Aufgabe der folgenden Fragen darin, ein Kabel herauszusuchen, welches eine gegebene Dämpfung nicht überschreitet, sondern eine geringere Dämpfung aufweist.
+In der Klasse E wurde die Kabeldämpfung bereits besprochen. Da Dämpfung oft unerwünscht ist, besteht die Aufgabe der folgenden Fragen darin, ein Kabel aus dem Kabeldämpfungsdiagramm der Formelsammlung herauszusuchen, welches eine gegebene Dämpfung nicht überschreitet, sondern eine geringere Dämpfung aufweist.
 
 [question:AG309]
 [question:AG310]
@@ -7,6 +7,6 @@ Bei der folgenden Frage ist es hilfreich zu wissen, dass die Kabeldämpfung bei 
 
 [question:AG308]
 
-Insbesondere Dielektrika bzw. Kunststoffummantelungen tragen bei Hochfrequenzsignalen zur Dämpfung bei. Daher sind Zweidrahtleitungen mit möglichst wenig Dielektrikum zwischen den Leitern besonders dämpfungsarm.
+Insbesondere die Dielektrika bzw. Kunststoffummantelungen tragen bei Hochfrequenzsignalen zur Dämpfung bei. Daher sind Zweidrahtleitungen mit möglichst wenig Dielektrikum zwischen den Leitern besonders dämpfungsarm.
 
 [question:AG311]

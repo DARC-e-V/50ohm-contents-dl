@@ -1,0 +1,57 @@
+% Author: Dr. Matthias Jung, DL9MJ
+% Year: 2026
+\begin{tikzpicture}
+    \draw[ultra thick] (0,+0) -- ++(8,0) coordinate(e1);
+    \draw[ultra thick] (0,-2) -- ++(8,0) coordinate(e2);
+    \draw(e1) to [european resistor, l_=$R_\mathrm{L}$, *-*] (e2);
+
+    \draw(0,0) to [sinusoidal current source, *-*] ++(0,-2);
+
+    % Current Bottom:
+    \draw[DARCred] (0,-2)
+        sin ++(+1,+0.5) coordinate(t1)
+        cos ++(+1,-0.5) 
+        sin ++(+1,-0.5)
+        cos ++(+1,+0.5)
+        sin ++(+1,+0.5)
+        cos ++(+1,-0.5)
+        sin ++(+1,-0.5)
+        cos ++(+1,+0.5);
+
+    % Voltage Bottom:
+    \draw[DARCblue] (0,-2)
+        sin ++(+1,+0.75)
+        cos ++(+1,-0.75)
+        sin ++(+1,-0.75)
+        cos ++(+1,+0.75)
+        sin ++(+1,+0.75) coordinate(t2)
+        cos ++(+1,-0.75)
+        sin ++(+1,-0.75)
+        cos ++(+1,+0.75);
+
+    % Current Top:
+    \draw[DARCred] (0,+0)
+        sin ++(+1,-0.5)
+        cos ++(+1,+0.5)
+        sin ++(+1,+0.5)
+        cos ++(+1,-0.5)
+        sin ++(+1,-0.5)
+        cos ++(+1,+0.5)
+        sin ++(+1,+0.5)
+        cos ++(+1,-0.5);
+
+    % Voltage Top:
+    \draw[DARCblue] (0,+0)
+        sin ++(+1,-0.75)
+        cos ++(+1,+0.75)
+        sin ++(+1,+0.75)
+        cos ++(+1,-0.75)
+        sin ++(+1,-0.75)
+        cos ++(+1,+0.75)
+        sin ++(+1,+0.75)
+        cos ++(+1,-0.75);
+
+    \draw[DARCred](t1) -- ++(0.5,0.5) node[right] {$I$};
+    \draw[DARCblue](t2) -- ++(0.5,0.5) node[right] {$U$};
+        
+\end{tikzpicture}

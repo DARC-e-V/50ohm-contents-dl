@@ -2253,13 +2253,6 @@
                     "video_url": null
                 },
                 {
-                    "title": "Traps",
-                    "ident": "traps",
-                    "status": "alpha",
-                    "class": "A",
-                    "video_url": null
-                },
-                {
                     "title": "Yagi-Uda Antenne II",
                     "ident": "yagi_uda_2",
                     "status": "prod",
@@ -2323,8 +2316,8 @@
                     "video_url": null
                 },
                 {
-                    "title": "Frequenzabhängige Stromverteilung",
-                    "ident": "frequenzabhaengige_stromverteilung",
+                    "title": "Traps",
+                    "ident": "traps",
                     "status": "alpha",
                     "class": "A",
                     "video_url": null
@@ -2491,15 +2484,15 @@
                     "video_url": null
                 },
                 {
-                    "title": "Impedanztransformation",
-                    "ident": "impedanztransformation",
+                    "title": "Lecherleitung",
+                    "ident": "lecherleitung",
                     "status": "alpha",
                     "class": "A",
                     "video_url": null
                 },
                 {
-                    "title": "Lecherleitung",
-                    "ident": "lecherleitung",
+                    "title": "Impedanztransformation",
+                    "ident": "impedanztransformation",
                     "status": "alpha",
                     "class": "A",
                     "video_url": null

@@ -1,0 +1,51 @@
+% Author: Prof. Dr. Matthias Jung, DL9MJ
+% Year: 2026
+\begin{circuitikz}
+    \pgfdeclarelayer{bg} % declare background layer
+    \pgfsetlayers{bg,main}
+    \draw [dashed] (0,0) -- ++(0.55,0) coordinate(a);
+    \draw (a) to [short,o-o] ++(0.5,0) coordinate(u1);
+    \begin{pgfonlayer}{bg}
+    \draw[very thick, DARCred] (u1)
+        to [short] ++(1,0) coordinate(b);
+    \end{pgfonlayer}
+    \ctikzset{inductors/coils=2, inductors/scale=0.5, capacitors/scale=0.5}
+    \draw(b)  to [short, *-] ++(0,0.35);
+    \draw(b)  to [open] ++(0.5,0.35)
+              arc(0:180:0.125)
+              arc(0:180:0.125);
+    \draw(b)  to [open] ++(0.5,0.35)
+              to [short] ++(0,-0.35) coordinate(u2);
+    \draw(b)  to [short] ++(0,-0.35)
+              to [C, name={foo}] ++(0.5,0)
+              to [short,-*] ++(0,+0.35) coordinate(q);
+    \draw[very thick, DARCred](q)
+              to [short] ++(2,0) coordinate(x1)
+              to [open] ++(0.5,0) coordinate(x2)
+              to [short] ++(2,0) coordinate(c);
+    \draw(c)  to [short] ++(0,0.35);
+    \draw(c)  to [open] ++(0.5,0.35)
+              arc(0:180:0.125)
+              arc(0:180:0.125);
+    \draw(c)  to [open, *-] ++(0.5,0.35)
+              to [short] ++(0,-0.35);
+    \draw(c)  to [short] ++(0,-0.35)
+              to [C] ++(0.5,0)
+              to [short,-*] ++(0,+0.35) coordinate(u3);
+    \draw[very thick, DARCred](u3)
+              to [short] ++(1,0) coordinate(u4);
+    \draw(u4)
+              to [short,o-] ++(0.5,0) coordinate(d);
+    \draw [dashed] (d) -- ++(0.55,0);
+    \draw (d) to [short,-o] ++(0.0,0);
+    \draw (x1) to [short, -*] ++(0,0) node[anchor=north]{X};
+    \draw (x2) to [short, -*] ++(0,0) node[anchor=north]{X};
+    \draw (q) to [short, -*] ++(0,0);
+    \draw (u3) to [short, -*] ++(0,0);
+    \draw (foo.south) node[anchor=north]{$f_\mathrm{res}=\qty{7,05}{\mega\hertz}$};
+
+    \DARCmeasure[black][top]{u1}{b}{0,0.75}{0}{$\qty{6,71}{\meter}$}
+    \DARCmeasure[black][top]{u2}{x1}{0,0.75}{0}{$\qty{10,07}{\meter}$}
+    \DARCmeasure[black][top]{x2}{c}{0,0.75}{0}{$\qty{10,07}{\meter}$}
+    \DARCmeasure[black][top]{u3}{u4}{0,0.75}{0}{$\qty{6,71}{\meter}$}
+\end{circuitikz}
