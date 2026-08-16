@@ -1,4 +1,4 @@
-Im vorherigen Kapitel haben wir die I/Q-Darstellung und den I/Q-Modulator kennengelernt. In einem digitalen System werden die beiden Komponenten I und Q als zwei getrennte digitale Datenströme verarbeitet. Diese können durch digitale Signalverarbeitung erzeugt, verändert und ausgewertet werden.
+In einem der vorherigen Kapitel haben wir die I/Q-Darstellung und den I/Q-Modulator kennengelernt. In einem digitalen System werden die beiden Komponenten I und Q als zwei getrennte digitale Datenströme verarbeitet. Diese können durch digitale Signalverarbeitung erzeugt, verändert und ausgewertet werden.
 
 Auf der Empfängerseite wird das Eingangssignal dazu mit zwei Signalen gleicher Frequenz gemischt, die um $\qty{90}{\degree}$ gegeneinander phasenverschoben sind. Dadurch entstehen ein I- und ein Q-Signal. Beide Signale werden anschließend jeweils mit einem A/D-Umsetzer digitalisiert und können danach digital weiterverarbeitet werden. Auf der Senderseite funktioniert der Vorgang umgekehrt: Digitale I- und Q-Datenströme werden mit zwei D/A-Umsetzern in analoge Signale umgewandelt und anschließend einem I/Q-Modulator zugeführt.
 
