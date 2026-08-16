@@ -15,6 +15,7 @@ Eine Antenne mit einem Speisewiderstand von $\qty{100}{\ohm}$ verursacht bei Spe
 Zur Beantwortung der folgenden Frage müssen wir uns außerdem daran erinnern, dass der Widerstand eines Faltdipols knapp $\qtyrange{240}{300}{\ohm}$ beträgt.
 
 [question:AG405]
+[question:AI403]
 
 Ein trügerischer Effekt ist die Auswirkung von Leitungsdämpfung auf das Stehwellenverhältnis. Je mehr Verluste eine Leitung aufweist, umso kleiner (also "besser") kann das Stehwellenverhältnis auf dieser Leitung ausfallen. Dies liegt daran, dass eine verlustbehaftete Leitung sowohl die vorlaufende als auch die rücklaufende Leistung reduziert. Selbst wenn am Ende einer Leitung keine Antenne angeschlossen ist (Leerlauf oder Kurzschluss), und dort $\qty{100}{\percent}$ der Energie reflektiert wird, also das Stehwellenverhältnis dort $\infty$ beträgt, so kann man am anderen Ende ein deutlich besseres Stehwellenverhältnis messen. Geht z. B. in Hin-Richtung die Hälfte der Leistung verloren und in Rück-Richtung erneut die Hälfte verloren, so reduziert sich die Energie auf ein Viertel ($\frac{1}{2} \cdot \frac{1}{2} = \frac{1}{4}$). Entsprechend zeigt ein Stehwellenmessgerät an der Senderseite des Kabels ein Stehwellenverhältnis von $\num{3}$ an, was $\qty{25}{\percent}$ reflektierter Leistung entspricht, obwohl am Ende $\qty{100}{\percent}$ reflektiert werden – es kommen jedoch nur $\qty{25}{\percent}$ am Stehwellenmessgerät an.
 
