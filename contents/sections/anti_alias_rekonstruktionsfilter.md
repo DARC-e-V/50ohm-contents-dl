@@ -53,5 +53,5 @@ Das Rekonstruktionsfilter lässt den gewünschten Nutzfrequenzbereich passieren 
 
 <margin>
 [picture:300:a_adc_4bit:Signal vor dem Rekonstruktionsfilter]
-[picture:299:a_adc_12bit:Singnal nach dem Rekonstruktionsfilter]
+[picture:299:a_adc_12bit:Signal nach dem Rekonstruktionsfilter]
 </margin>
