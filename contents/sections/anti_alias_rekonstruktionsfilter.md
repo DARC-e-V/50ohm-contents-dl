@@ -32,7 +32,7 @@ Ein Moiré-Muster kann daher als sichtbares Beispiel dafür betrachtet werden, w
 
 ---
 
-Der A/D-Umsetzer benötigt außerdem einen Taktgenerator, den man auch als Abtastratengenerator bezeichnet. Dieser legt fest, zu welchen Zeitpunkten das Eingangssignal abgetastet wird und bestimmt damit die Samplingrate. Die Taktrate kann fest eingestellt sein oder beispielsweise durch einen Mikrocontroller gesteuert werden.
+Der A/D-Umsetzer benötigt außerdem einen Taktgenerator, den man auch als Abtasttaktgenerator bezeichnet. Dieser legt fest, zu welchen Zeitpunkten das Eingangssignal abgetastet wird und bestimmt damit die Samplingrate. Die Samplingrate kann fest eingestellt sein oder beispielsweise durch einen Mikrocontroller gesteuert werden.
 
 <margin>
 [picture:1132:a_anit_alias:Anti-Aliasing-Filter, A/D-Umsetzer und Taktgenerator]
