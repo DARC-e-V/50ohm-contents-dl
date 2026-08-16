@@ -26,7 +26,7 @@ Den Vorgang, bei dem ein zeitkontinuierliches Signal zu bestimmten Zeitpunkten a
 
 Die Geschwindigkeit, mit der die Abtastung eines analogen Signals vorgenommen wird, wird als *Samplingrate* oder *Abtastrate* bezeichnet. Sie gibt an, wie viele Samples pro Zeiteinheit, beispielsweise pro Sekunde, aufgenommen werden.
 
-Analoge Tonsignale werden bei digitalen Datenträgern wie CDs beispielsweise mit einer Samplingrate von $\num{44100}$ Samples pro Sekunde (Einheit $\unit{\sps}$) abgetastet. Dies entspricht $\qty{44,1}{\kilo\sps}$.
+Analoge Tonsignale werden bei digitalen Datenträgern wie CDs beispielsweise mit einer Samplingrate von $\num{44100}$ Samples pro Sekunde (Einheit $\unit{\sps}$), oder kurz $\qty{44,1}{\kilo\sps}$, abgetastet.
 
 [question:AF615]
 
