@@ -4,7 +4,7 @@ Dieses Kapitel zeigt, wie analoge Signale in digitale Werte und digitale Werte w
 [picture:1130:a_adc_dac:A/D- und D/A-Umsetzer]
 </margin>
 
-Ein A/D-Umsetzer tastet ein analoges Eingangssignal zu bestimmten Zeitpunkten ab und erzeugt daraus digitale Zahlenwerte, die anschließend von weiteren Teilen einer Schaltung verarbeitet werden können.
+Ein A/D-Umsetzer tastet ein analoges Eingangssignal zu bestimmten Zeitpunkten ab und erzeugt daraus digitale Zahlenwerte, die anschließend von weiteren Teilen einer Schaltung digital verarbeitet werden können.
 
 Da ein A/D-Umsetzer nur mit einer begrenzten Anzahl möglicher digitaler Werte arbeitet, kann er die Amplitude eines analogen Eingangssignals nur in bestimmten Stufen erfassen. Wir erinnern uns dabei an das zuvor verwendete Beispiel mit Dimmer und Stufenschalter. Liegt der tatsächliche Wert zwischen zwei möglichen Stufen, muss er einer davon zugeordnet werden. Dadurch entsteht ein *Quantisierungsfehler*.
 
