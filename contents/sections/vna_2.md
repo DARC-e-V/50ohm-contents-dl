@@ -1,4 +1,15 @@
-Die Funktionsweise eines vektoriellen Netzwerkanalysators ist wie folgt: Es wird ein *frequenzveränderliches* Signal erzeugt welches ausgegeben wird (z. B. auf eine Antenne oder ein anderes Messobjekt, wie einen Schwingkreis). Nun wird gemessen, wie dieses Signal verändert wird (z. B. reflektiert wird). Hierbei wird sowohl die Amplitude als auch die Phase gemessen. Somit lassen sich unter anderem der Wirk- und Blindanteil eines Widerstands als auch das Stehwellenverhältnis ermitteln.
+In der Klasse E haben wir bereits den *vektoriellen Netzwerkanalysator* (VNA) kennengelernt (vgl. Abbildung [ref:a_vna_swr]). In der Klasse A wollen wir uns seine Funktionsweise etwas genauer ansehen.
+
+Für eine Messung erzeugt der VNA zunächst ein HF-Signal mit einer festgelegten Startfrequenz und gibt dieses an das Messobjekt, beispielsweise eine Antenne oder einen Schwingkreis, aus. Anschließend misst er das vom Messobjekt zurückkommende beziehungsweise reflektierte Signal. Dabei werden sowohl dessen Amplitude als auch dessen Phase erfasst. Um den Einfluss von Störungen zu verringern, können für einen Frequenzpunkt auch mehrere Messungen durchgeführt und gemittelt werden.
+
+Nach der Messung wird die Frequenz um einen festgelegten Schritt erhöht und der Vorgang wiederholt. Auf diese Weise durchläuft der VNA schrittweise den gesamten Bereich von der Start- bis zur Stoppfrequenz. Man bezeichnet diesen Vorgang auch als *Frequenz-Sweep*, oder früher gelegentlich auch als *Wobbeln*.
+
+Aus den Messwerten für die einzelnen Frequenzpunkte kann der VNA verschiedene Größen bestimmen und über der Frequenz darstellen. Dazu gehören beispielsweise die Impedanz des Messobjekts und das Stehwellenverhältnis (SWR). So lässt sich beispielsweise unmittelbar erkennen, bei welchen Frequenzen eine Antenne gut angepasst ist beziehungsweise eine Resonanz besitzt.
+
+<margin>
+[photo:323:a_vna_swr:SWR-Messung einer Endgespeisten Drahtantenne. Das SWR ist nahezu $1$ bei $\qty{14}{\mega\hertz}$]
+[picture:526:a_vna_swr_2:Möglicher SWR-Verlauf einer Antenne.]
+</margin>
 
 [question:AI201]
 [question:AI202]
