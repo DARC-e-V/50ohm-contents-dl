@@ -1,0 +1,61 @@
+% 2026 Prof. Dr. Matthias Jung (DL9MJ)
+\begin{tikzpicture}
+    \draw(0,0) coordinate(start)
+        to [sinusoidal voltage source] (0,2)
+        to [short] ++(1,0)
+        to [short, -o] ++(0,-0.5) coordinate(l1);
+    \draw(start)
+        to [short] ++(1,0)
+        to [short, -o] ++(0,+0.5) coordinate(l2);
+    %
+    \draw[very thick](l1) to [short, o-o] ++(5,0) coordinate(l3);
+    \draw[very thick](l2) to [short, o-o] ++(5,0) coordinate(l4);
+    %
+    \draw[DARCgreen] (l3) to [open, l_={$R_\mathrm{a}=\infty$}] (l4);
+    %
+    \draw(l1) to [open] ++(0,-2.5) coordinate(s1);
+    %
+    \draw[-Triangle] (s1) -- ++(5.5,0);
+    %
+    \def\x{0.5}
+    %
+    \draw[DARCblue] (s1)
+        sin ++(+1,+1*\x) coordinate(sinus)
+        cos ++(+1,-1*\x)
+        sin ++(+1,-1*\x)
+        cos ++(+1,+1*\x)
+        sin ++(+1,+1*\x)
+    ;
+    \draw[DARCred] (s1) ++(0,+1*\x)
+        cos ++(+1,-1*\x)
+        sin ++(+1,-1*\x) 
+        cos ++(+1,+1*\x)
+        sin ++(+1,+1*\x) coordinate(cosius)
+        cos ++(+1,-1*\x)
+    ;
+    %
+    \draw[DARCblue]  (sinus)  -- ++(0.5*\x,0.5*\x) node[right] {$U$};
+    \draw[DARCred] (cosius) -- ++(0.5*\x,0.5*\x) node[right] {$I$};
+    %
+    \draw(s1) 
+        ++(0,-1) node[](){$R=0$}
+        ++(+1,0) node[](){$R=\infty$}
+        ++(+1,0) node[](){$R=0$}
+        ++(+1,0) node[](){$R=\infty$}
+        ++(+1,0) node[](){$R=0$}
+        ++(+1,0) node[](){$R=\infty$};
+    %
+    \draw(s1)
+        ++(0,-1.5) coordinate(s2)
+        ++(1,0) coordinate(s3)
+        ++(1,0) coordinate(s4)
+        ++(1,0) coordinate(s5)
+        ++(1,0) coordinate(s6)
+        ++(1,0) coordinate(s7);
+    % 1:[color], 2:[top], 3:start, 4:end, 5:shift, 6:rotate, 7:text
+    \DARCmeasure{s2}{s3}{0,0}{0}{$\frac{\lambda}{4}$}
+    \DARCmeasure{s3}{s4}{0,0}{0}{$\frac{\lambda}{4}$}
+    \DARCmeasure{s4}{s5}{0,0}{0}{$\frac{\lambda}{4}$}
+    \DARCmeasure{s5}{s6}{0,0}{0}{$\frac{\lambda}{4}$}
+    \DARCmeasure{s6}{s7}{0,0}{0}{$\frac{\lambda}{4}$}
+\end{tikzpicture}
