@@ -23,7 +23,7 @@ Für einige typische periodische Signalformen lässt sich das Frequenzspektrum b
 * Ein *Sägezahnsignal* enthält sowohl die geradzahligen als auch die ungeradzahligen Vielfachen der Grundfrequenz. Es enthält also $f$, $2\cdot f$, $3\cdot f$, $4\cdot f$, $5\cdot f$ usw. Auch hier werden die Amplituden mit zunehmender Frequenz kleiner.
 * Ein *Dreiecksignal* enthält wie das Rechtecksignal nur die ungeradzahligen Vielfachen der Grundfrequenz, also $f$, $3\cdot f$, $5\cdot f$, $7\cdot f$ usw. Die Amplituden der höheren Frequenzanteile nehmen jedoch wesentlich schneller ab als beim Rechtecksignal.
 
-Damit lassen sich die Signalformen auch anhand ihres Frequenzspektrums unterscheiden. Ein einzelner Spektralanteil weist auf einen Sinus hin. Treten ungeradzahlige Vielfache auf, ist es in der Prüfung immer ein Rechtecksignal.
+Damit lassen sich die Signalformen auch anhand ihres Frequenzspektrums unterscheiden. Ein einzelner Spektralanteil weist auf einen Sinus hin. Treten ungeradzahlige Vielfache auf, ist es in den Prüfungsfragen immer ein Rechtecksignal.
 
 [question:AB404]
 [question:AB405]
