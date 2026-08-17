@@ -1,4 +1,4 @@
-Ein bereits seit Jahrzehnten bekanntes Verfahren findet seit einiger Zeit verstärkt Anwendung im Amateurfunk: die *Polarmodulation*.
+Ein bereits seit Jahrzehnten bekanntes Verfahren findet seit einiger Zeit verstärkt Anwendung im Amateurfunk: die *Polarmodulation* [index:Polarmodulation].
 
 Zu diesem Thema gibt es keine Prüfungsfrage. Aber die Polarmodulation ist ein spannendes Verfahren, das in Zukunft immer stärker in Amateurfunkgeräten eingesetzt werden wird. Daher sei sie hier kurz vorgestellt, als Blick über den Tellerrand. Wer zielgerichtet nur den Prüfungsstoff lernen will, kann das Thema getrost überschlagen.
 
