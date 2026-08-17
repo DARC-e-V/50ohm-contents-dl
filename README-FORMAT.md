@@ -136,7 +136,7 @@ Hyperlinks sollten immer über den 50ohm.de-URL-Shortener abgebildet werden.
 
 ## Index
 
-Indexeinträge für die Suche auf 50ohm.de oder für das Stichwortverzeichnis ("Index") im Buch werden mit `[index:Begriff]` bzw. `[index:Hauptbegriff:Unterbegriff]` erzeugt. Ein optionales Leerzeichen vor dem Befehl wird beim Konvertieren entfernt.
+Indexeinträge für die Suche auf 50ohm.de und für das Stichwortverzeichnis ("Index") im Buch werden mit `[index:Begriff]` bzw. `[index:Hauptbegriff:Unterbegriff]` erzeugt. Ein optionales Leerzeichen vor dem Befehl wird beim Konvertieren entfernt.
 
 Beispiel:
 
