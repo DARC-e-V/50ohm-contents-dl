@@ -8,7 +8,7 @@ Für eine zügige Bearbeitung sind insbesondere wichtig:
 * gegebenenfalls gewünschte Suffixkombination
 * Bestätigung der erfüllten Voraussetzung
 
-Die in den aktuellen DARC-Regularien genannte Antragsgebühr beträgt 5 Euro. Da Gebühren, Kontodaten und Zuständigkeiten geändert werden können, werden sie vor dem Antrag auf der aktuellen [DARC-SWL-Seite](https://www.darc.de/funkbetrieb/kurzwellenhoerer-swl/) oder beim Ortsverbandsvorsitzenden geprüft.
+Die in den aktuellen DARC-Regularien genannte Antragsgebühr beträgt 5 Euro. Da Gebühren, Kontodaten und Zuständigkeiten geändert werden können, werden sie vor dem Antrag auf der aktuellen [DARC-SWL-Seite](https://50ohm.de/swl/) oder beim Ortsverbandsvorsitzenden geprüft.
 
 Nach Erhalt der Urkunde sollte das neue DE-Kennzeichen dem Ortsverbandsvorsitzenden und dem QSL-Manager des Ortsverbandes mitgeteilt werden. Nur so können eingehende QSL-Karten zuverlässig zugeordnet werden. Auch Änderungen von Anschrift oder Ortsverband werden der DARC-Geschäftsstelle zeitnah gemeldet.
 

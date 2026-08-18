@@ -18,7 +18,7 @@ Für DEM Silber und Gold steigen die Anforderungen an DLD-SWL-Klasse und Zahl de
 Wer den Titel erhält, kann ein Kennzeichen aus dem Bereich *DE0...* beantragen. Nach Möglichkeit bleibt das bisherige Suffix erhalten, ein Anspruch darauf besteht nicht.
 
 <attention>
-Vor Beginn einer gezielten DEM-Sammlung und vor dem Antrag müssen die aktuellen [Ausschreibungsbedingungen](https://www.darc.de/funkbetrieb/kurzwellenhoerer-swl//) geprüft werden.
+Vor Beginn einer gezielten DEM-Sammlung und vor dem Antrag müssen die aktuellen [Ausschreibungsbedingungen](https://50ohm.de/swl/) geprüft werden.
 </attention>
 
 Der Weg zum DEM verlangt Geduld. Gerade darin liegt sein Reiz: Die Sammlung dokumentiert praktische Empfangserfahrung über viele Bänder, Länder und Ausbreitungsbedingungen.

@@ -9,7 +9,7 @@ Die 70 möglichen Fragen stammen aus drei Bereichen:
 Die Prüfung wird schriftlich mit einem bereitgestellten Fragebogen durchgeführt. Jede richtige Antwort zählt einen Punkt. Insgesamt können 17 Punkte erreicht werden; mit mindestens 9 Punkten ist die Prüfung bestanden.
 
 <tip>
-Die Probeprüfungen auf 50ohm.de helfen beim Üben. Maßgeblich für die tatsächliche Prüfung sind immer die aktuellen Unterlagen und Regeln des DARC. Welche [hier](https://www.darc.de/funkbetrieb/kurzwellenhoerer-swl/) zu finden sind.
+Die Probeprüfungen auf 50ohm.de helfen beim Üben. Maßgeblich für die tatsächliche Prüfung sind immer die aktuellen Unterlagen und Regeln des DARC. Welche [hier](https://50ohm.de/swl/) zu finden sind.
 </tip>
 
 ---

@@ -9,7 +9,7 @@ Der *DOK* ist die Distrikts-Ortsverbands-Kennziffer eines DARC- oder VFDB-Ortsve
 Für das DLD-SWL 100 werden Bestätigungen von 100 verschiedenen DOKs benötigt. Für jeweils 100 weitere DOKs kann eine höhere Klasse bis zum DLD-SWL 1000 beantragt werden. Je nach Variante können Wertungen für einzelne Bänder, mehrere Bänder oder bestimmte Betriebsarten geführt werden.
 
 <attention>
-Diplomregeln können aktualisiert werden. Vor dem Sammeln und vor dem Antrag gelten die aktuellen [Bestimmungen](https://www.darc.de/der-club/referate/dx/diplome/dld-deutschland-diplom/) des DARC.
+Diplomregeln können aktualisiert werden. Vor dem Sammeln und vor dem Antrag gelten die aktuellen [Bestimmungen](https://50ohm.de/dld/) des DARC.
 </attention>
 
 Ein sorgfältiges Logbuch hilft, doppelte DOKs zu erkennen und fehlende Bestätigungen gezielt zu sammeln. Auf den QSL-Karten müssen die für die Wertung erforderlichen Angaben eindeutig lesbar sein.

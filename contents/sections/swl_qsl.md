@@ -32,7 +32,7 @@ DARC-Mitglieder können QSL-Karten über die QSL-Vermittlung verschicken und emp
 Nach DARC- und IARU-Empfehlung hat eine QSL-Karte ungefähr das Format $\qty{9}{\centi\meter}$ mal $\qty{14}{\centi\meter}$ und besteht aus stabilem Karton. Eine übersichtliche, gut lesbare Datenseite ist wichtiger als eine aufwendige Gestaltung.
 
 <tip>
-Alle Informationen zu der QSL-Vermittlung des DARC sind auf der Website [https://www.darc.de/qsl](https://www.darc.de/geschaeftsstelle/qsl-buero/) zu finden. Dort gibt es auch Hinweise zur Gestaltung der eigenen QSL-Karte. 
+Alle Informationen zu der QSL-Vermittlung sind auf der [Website des DARC](https://50ohm.de/qsl) zu finden. Dort gibt es auch Hinweise zur Gestaltung der eigenen QSL-Karte. 
 
 [Jetzt Mitglied im DARC werden!](https://50ohm.de/mw)
 </tip>
