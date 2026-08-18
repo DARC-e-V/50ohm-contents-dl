@@ -12,7 +12,7 @@ Fassen wir kurz die Eigenschaften der Kollektor und Emitterschaltung in folgende
 | Ausgangsimpedanz | hoch | niedrig |
 </margin>
 
-Wie wir im vorherigen Kapitel gelernt haben richtet sich Die Bezeichnung der Grundschaltungen eines bipolaren Transistors nach dem Anschluss, der weder als Eingang noch als Ausgang der Schaltung dient und damit den gemeinsamen Bezugspunkt für den Eingangs- und den Ausgangskreis bildet. Bei der Emitterschaltung ist dies der Emitter. 
+Wie wir im vorherigen Kapitel gelernt haben richtet sich die Bezeichnung der Grundschaltungen eines bipolaren Transistors nach dem Anschluss, der weder als Eingang noch als Ausgang der Schaltung dient und damit den gemeinsamen Bezugspunkt für den Eingangs- und den Ausgangskreis bildet. Bei der Emitterschaltung ist dies der Emitter. 
 
 ---
 
@@ -26,7 +26,7 @@ Verstärkerschaltungen von Bipolartransistoren werden nach dem Anschluss benannt
 
 Die Abbildung [ref:a_emitterschaltung] zeigt eine einfache Emitterschaltung mit Spannungsversorgung, Kollektorwiderstand und Koppelkondensatoren.
 
-Für den Betrieb als linearer Spannungs-Verstärker benötigt der Transistor in der Emitterschaltung einen definierten Arbeitspunkt (BIAS), der normalerweise durch einen Spannungsteiler an der Basis festgelegt wird.
+Für den Betrieb als linearer Spannungs-Verstärker benötigt der Transistor in der Emitterschaltung einen definierten Arbeitspunkt (engl. bias, Vorspannung), der normalerweise durch einen Spannungsteiler an der Basis festgelegt wird.
 
 <margin>
 [picture:136:a_emitterschaltung:Emitterschaltung]
@@ -42,12 +42,12 @@ Die Ein- und Auskopplung der Signale an Basis und Kollektor erfolgt über sog. K
 
 Der Abblockkondensator in der Betriebsspannung (+) dient der Abführung von unerwünschten HF- und NF-Signalen, damit Rückkopplungseffekte auf die Stufe und die Versorgungsspannung vermieden werden.
 
-Die Phasenverschiebung zwischen Ein- und Ausgangssignal beträgt bei der Emitterschaltung $\qty{180}{\degree}$, da bei einer positiven Halbwelle in der Eingangsspannung der Kollektorstrom steigt und damit der Spannungsabfall am Kollektorwiderstand zunimmt. Hierdurch sinkt die Spannung am Ausgangskondensator. Es kommt zu einer negativen Halbwelle am Ausgang der Verstärkerstufe.
+Die Phasenverschiebung zwischen Ein- und Ausgangssignal beträgt bei der Emitterschaltung $\qty{180}{\degree}$, da bei einer positiven Halbwelle in der Eingangsspannung an der Basis der Kollektorstrom steigt und damit der Spannungsabfall am Kollektorwiderstand zunimmt. Hierdurch sinkt die Spannung am Ausgangskondensator. Es kommt zu einer negativen Halbwelle am Ausgang der Verstärkerstufe.
 
 [question:AD407]
 [question:AD408]
 
-Die Spannungsverstärkung der Emitterschaltung bewegt sich bei entsprechender Auslegung im Bereich von $100\dots 300$ und ist damit sehr hoch im vergleich zur Kollektorschaltung.
+Die Spannungsverstärkung der Emitterschaltung bewegt sich bei entsprechender Auslegung im Bereich von $100\dots 300$ und ist damit sehr hoch im Vergleich zur Kollektorschaltung.
 
 [question:AD410]
 

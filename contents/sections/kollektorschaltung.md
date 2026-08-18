@@ -16,7 +16,7 @@ Verstärkerschaltungen von Bipolartransistoren werden nach dem Anschluss benannt
 
 Da der Kollektor üblicherweise mit der Versorgungsspannung verbunden ist und für Wechselspannungen näherungsweise auf einem festen Potenzial liegt, folgt die Spannung am Emitter der Spannung an der Basis. Die Kollektorschaltung wird daher auch oft als *Emitterfolger* bezeichnet.
 
-Steigt die Eingangsspannung beispielsweise während einer positiven Halbwelle an, erhöht sich der Emitterstrom. Dadurch nimmt der Spannungsabfall am Emitterwiderstand zu und auch die Ausgangsspannung steigt. Ein- und Ausgangssignal sind daher phasengleich; die Phasenverschiebung beträgt $\qty{0}{\degree}$. Aus diesem Grund wird die Kollektorschaltung auch als *Emitterfolger* bezeichnet.
+Steigt die Eingangsspannung an der Basis beispielsweise während einer positiven Halbwelle an, erhöht sich der Emitterstrom. Dadurch nimmt der Spannungsabfall am Emitterwiderstand zu und auch die Ausgangsspannung steigt. Ein- und Ausgangssignal sind daher phasengleich; die Phasenverschiebung beträgt $\qty{0}{\degree}$.
 
 [question:AD405]
 
@@ -30,7 +30,7 @@ Die Abbildung [ref:a_collector_circuit] zeigt eine einfache Kollektorschaltung m
 
 ---
 
-Für den Betrieb als linearer Strom-Verstärker benötigt der Transistor in der Kollektorschaltung einen definierten Arbeitspunkt (BIAS), der normalerweise durch einen Spannungsteiler an der Basis festgelegt wird.
+Für den Betrieb als linearer Strom-Verstärker benötigt der Transistor in der Kollektorschaltung einen definierten Arbeitspunkt (engl. bias, Vorspannung), der normalerweise durch einen Spannungsteiler an der Basis festgelegt wird.
 
 Abbildung [ref:a_kennlinie] zeigt die Kennlinie eines NPN-Transistors mit dem durch den Spannungsteiler eingestellten Arbeitspunkt. Die Basisvorspannung wird so gewählt, dass auf dem linearen Teil der Eingangskennlinie gearbeitet wird. Dies impliziert auch, dass immer ein gewisser Ruhestrom fließt, auch wenn kein Eingangssignal anliegt. Das werden wir im Kapitel der Verstärkerklassen noch genauer betrachten. 
 
