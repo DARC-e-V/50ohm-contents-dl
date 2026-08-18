@@ -1,0 +1,117 @@
+{
+  "title": "SWL-Kurs",
+  "abstract": "Der Einstieg in den Amateurfunk als Kurzwellenhörer: Empfangstechnik, Funkbetrieb, QSL-Karten und Vorbereitung auf die DARC DE-Prüfung.",
+  "chapters": [
+    {
+      "title": "Einstieg in den Amateurfunkempfang",
+      "abstract": "Wir lernen das Hobby der Kurzwellenhörer kennen, grenzen Hören und Senden voneinander ab und stellen eine erste Empfangsstation zusammen.",
+      "ident": "swl_einstieg",
+      "video_url": null,
+      "sections": [
+        {"title": "Vorwort", "ident": "swl_vorwort", "status": "alpha", "class": "SWL", "video_url": null},
+        {"title": "Was ist ein SWL?", "ident": "swl_was_ist_swl", "status": "alpha", "class": "SWL", "video_url": null},
+        {"title": "Die erste Empfangsstation", "ident": "swl_erste_empfangsstation", "status": "alpha", "class": "SWL", "video_url": null}
+      ]
+    },
+    {
+      "title": "Empfänger, Modulationsarten und Steckverbinder",
+      "abstract": "Wir bedienen einen Empfänger, wählen das passende Übertragungsverfahren und erkennen die gebräuchlichen HF-Steckverbinder.",
+      "ident": "swl_empfangstechnik",
+      "video_url": null,
+      "sections": [
+        {"title": "Empfänger und Transceiver", "ident": "swl_empfaenger", "status": "alpha", "class": "SWL", "video_url": null},
+        {"title": "Modulationsarten", "ident": "swl_modulationsarten", "status": "alpha", "class": "SWL", "video_url": null},
+        {"title": "Display und Bedienung", "ident": "swl_bedienung", "status": "alpha", "class": "SWL", "video_url": null},
+        {"title": "HF-Steckverbinder", "ident": "swl_steckverbinder", "status": "alpha", "class": "SWL", "video_url": null}
+      ]
+    },
+    {
+      "title": "Wellenausbreitung",
+      "abstract": "Die Ionosphäre ermöglicht weltweiten Kurzwellenempfang; besondere Bedingungen erschließen auch auf höheren Frequenzen große Entfernungen.",
+      "ident": "swl_wellenausbreitung",
+      "video_url": null,
+      "sections": [
+        {"title": "Ionosphäre und Kurzwelle", "ident": "swl_ionosphaere", "status": "alpha", "class": "SWL", "video_url": null},
+        {"title": "Sporadic-E", "ident": "swl_sporadic_e", "status": "alpha", "class": "SWL", "video_url": null}
+      ]
+    },
+    {
+      "title": "Sicherheit",
+      "abstract": "Auch eine reine Empfangsstation braucht eine sichere Stromversorgung und eine fachgerecht errichtete Antennenanlage.",
+      "ident": "swl_sicherheit",
+      "video_url": null,
+      "sections": [
+        {"title": "Elektrische Sicherheit", "ident": "swl_elektrische_sicherheit", "status": "alpha", "class": "SWL", "video_url": null},
+        {"title": "Antennensicherheit und Haftung", "ident": "swl_antennensicherheit", "status": "alpha", "class": "SWL", "video_url": null}
+      ]
+    },
+    {
+      "title": "Sprache auf den Bändern",
+      "abstract": "Buchstabieralphabet, Betriebsabkürzungen und Q-Gruppen helfen dabei, auch schwache oder fremdsprachige Funkverbindungen sicher zu verstehen.",
+      "ident": "swl_sprache",
+      "video_url": null,
+      "sections": [
+        {"title": "Internationales Buchstabieralphabet", "ident": "swl_buchstabieralphabet", "status": "alpha", "class": "SWL", "video_url": null},
+        {"title": "Betriebliche Abkürzungen", "ident": "swl_abkuerzungen", "status": "alpha", "class": "SWL", "video_url": null},
+        {"title": "Q-Gruppen", "ident": "swl_q_gruppen", "status": "alpha", "class": "SWL", "video_url": null}
+      ]
+    },
+    {
+      "title": "Rufzeichen, Länder und Bänder",
+      "abstract": "Wir lesen Amateurfunkrufzeichen, ordnen wichtige Landeskenner zu und verbinden Frequenzbereiche mit den gebräuchlichen Bandbezeichnungen.",
+      "ident": "swl_rufzeichen_baender",
+      "video_url": null,
+      "sections": [
+        {"title": "Amateurfunkrufzeichen", "ident": "swl_rufzeichen", "status": "alpha", "class": "SWL", "video_url": null},
+        {"title": "Internationale Landeskenner", "ident": "swl_landeskenner", "status": "alpha", "class": "SWL", "video_url": null},
+        {"title": "Amateurfunkbänder", "ident": "swl_frequenzbereiche", "status": "alpha", "class": "SWL", "video_url": null}
+      ]
+    },
+    {
+      "title": "Praktischer Empfangsbetrieb",
+      "abstract": "Wir beurteilen Signale, verfolgen besondere Betriebssituationen und dokumentieren gehörte Funkverbindungen im Logbuch und auf SWL-QSL-Karten.",
+      "ident": "swl_praxis",
+      "video_url": null,
+      "sections": [
+        {"title": "Der RST-Rapport", "ident": "swl_rst", "status": "alpha", "class": "SWL", "video_url": null},
+        {"title": "CQ, DX, Contest und Split", "ident": "swl_betriebsbeobachtung", "status": "alpha", "class": "SWL", "video_url": null},
+        {"title": "Relaisfunkstellen", "ident": "swl_relais", "status": "alpha", "class": "SWL", "video_url": null},
+        {"title": "Das SWL-Logbuch", "ident": "swl_logbuch", "status": "alpha", "class": "SWL", "video_url": null},
+        {"title": "SWL-QSL-Karten", "ident": "swl_qsl", "status": "alpha", "class": "SWL", "video_url": null}
+      ]
+    },
+    {
+      "title": "Rechtliche Aspekte",
+      "abstract": "Hören ist grundsätzlich frei, doch das Abhörverbot und die Geheimhaltungspflicht setzen klare Grenzen. Wir unterscheiden außerdem Höramateur, Funkamateur und Amateurfunkstelle.",
+      "ident": "swl_recht",
+      "video_url": null,
+      "sections": [
+        {"title": "Rechtsgrundlagen des Amateurfunks", "ident": "swl_rechtsgrundlagen", "status": "alpha", "class": "SWL", "video_url": null},
+        {"title": "Abhörverbot und Geheimhaltung", "ident": "swl_abhoerverbot", "status": "alpha", "class": "SWL", "video_url": null}
+      ]
+    },
+    {
+      "title": "DE-Prüfung und DE-Kennzeichen",
+      "abstract": "Wir betrachten Ablauf und Inhalt der DE-Prüfung, das System der DE-Kennzeichen und den Weg vom Antrag bis zur Urkunde.",
+      "ident": "swl_de_kennzeichen_kapitel",
+      "video_url": null,
+      "sections": [
+        {"title": "Die DE-Prüfung", "ident": "swl_de_pruefung", "status": "alpha", "class": "SWL", "video_url": null},
+        {"title": "Das DE-Kennzeichen", "ident": "swl_de_kennzeichen", "status": "alpha", "class": "SWL", "video_url": null},
+        {"title": "Beantragung und QSL-Vermittlung", "ident": "swl_antrag", "status": "alpha", "class": "SWL", "video_url": null}
+      ]
+    },
+    {
+      "title": "Diplome und nächste Ziele",
+      "abstract": "Bestätigte Hörberichte eröffnen den Weg zum DLD-SWL, zum Deutschen Empfangsmeister und vielleicht später zum eigenen Amateurfunkzeugnis.",
+      "ident": "swl_diplome",
+      "video_url": null,
+      "sections": [
+        {"title": "Deutschland-Diplom-SWL", "ident": "swl_dld", "status": "alpha", "class": "SWL", "video_url": null},
+        {"title": "Deutscher Empfangsmeister", "ident": "swl_dem", "status": "alpha", "class": "SWL", "video_url": null},
+        {"title": "Kursabschluss", "ident": "swl_abschluss", "status": "alpha", "class": "SWL", "video_url": null}
+      ]
+    }
+  ],
+  "edition": "SWL"
+}
