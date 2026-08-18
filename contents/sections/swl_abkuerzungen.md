@@ -11,7 +11,7 @@ Im Amateurfunk werden viele international verständliche Abkürzungen benutzt. S
 [table:swl_abkuerzungen_uebersicht:Prüfungsrelevante betriebliche Abkürzungen]
 </margin>
 
-Ein Ruf wie *CQ CQ CQ de DL1ABC* richtet sich nicht an eine bestimmte Gegenstation sondern ist ein allgemeiner Anruf. Das *de* bedeutet dabei *von*. Für einen SWL ist ein CQ-Ruf eine gute Gelegenheit, das Rufzeichen in Ruhe aufzunehmen und anschließend auf die antwortende Station zu warten.
+Ein Ruf wie *CQ CQ CQ de DL1ABC* richtet sich nicht an eine bestimmte Gegenstation, sondern ist ein allgemeiner Anruf. Das *de* bedeutet dabei *von*. Für einen SWL ist ein CQ-Ruf eine gute Gelegenheit, das Rufzeichen in Ruhe aufzunehmen und anschließend auf die antwortende Station zu warten.
 
 [question:BB102]
 [question:BB103]

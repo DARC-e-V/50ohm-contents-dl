@@ -12,8 +12,8 @@ Für die DE-Prüfung müssen vier Systeme an ihrer Form erkannt werden (vgl. [re
 
 [photo:69:swl_steckverbinder_pl:PL-Stecker]
 [photo:73:swl_steckverbinder_n:N-Stecker]
-[photo:71:swl_steckverbinder_n:N-Stecker]
-[photo:74:swl_steckverbinder_n:N-Stecker]
+[photo:71:swl_steckverbinder_bnc:BNC-Stecker]
+[photo:74:swl_steckverbinder_sma:SMA-Stecker]
 </margin>
 
 [question:NG202]

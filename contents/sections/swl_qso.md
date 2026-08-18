@@ -11,4 +11,4 @@ QSL Vielen Dank für das QSO, 73 bis zum nächsten Mal
 > DL1FLO, DL9MJ 73
 </qso>
 
-Für einen vollständigen SWL-Bericht müssen beide beteiligten Amateurfunkrufzeichen richtig aufgenommen werden: das Rufzeichen der angeschriebenen Station und das Rufzeichen ihrer Gegenstation. Wie genau eine SWL-QSL-Karte ausgefüllt wird schauen wir uns später an. 
+Für einen vollständigen SWL-Bericht müssen beide beteiligten Amateurfunkrufzeichen richtig aufgenommen werden: das Rufzeichen der angeschriebenen Station und das Rufzeichen ihrer Gegenstation. Wie genau eine SWL-QSL-Karte ausgefüllt wird, schauen wir uns später an. 

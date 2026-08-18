@@ -19,5 +19,5 @@ Ein Ortsverband ist ein guter Startpunkt: Dort gibt es Hilfe bei der Empfängera
 Als DARC-Mitglied kann man zunächst eine SWL-Nummer verwenden. Sie setzt sich aus dem Landeskenner DL, dem DOK des DARC-Ortsverbandes und der siebenstelligen Mitgliedsnummer zusammen, zum Beispiel *DL-B17/1234567*. Nach bestandener DE-Prüfung kann ein persönliches DE-Kennzeichen beantragt werden, z. B. *DE1EKA* oder *DE1JMU* .
 
 <attention>
-Ein DE-Kennzeichen ist ein Hörerkennzeichen für DARC-Mitglieder. Es ist keine Sendegenehmigung und darf nicht als Amateurfunkrufzeichen zum Senden verwendet werden.
+Ein DE-Kennzeichen ist ein Hörerkennzeichen für DARC- und VFDB-Mitglieder. Es ist keine Sendegenehmigung und darf nicht als Amateurfunkrufzeichen zum Senden verwendet werden.
 </attention>

@@ -2,7 +2,7 @@ Willkommen in der faszinierenden Welt des Amateurfunks! Für den Einstieg brauch
 
 <margin>
 [photo:345:swl_sdr_stick:Ein SDR-Stick ist ein kostengünstiger Einstieg in den Amateurfunkempfang.]
-[photo:344:swl_whip_antenne:Ein einfache aktive Mini-Whip-Antenne ist für den Einstieg in den Amateurfunkempfang ausreichend.]
+[photo:344:swl_whip_antenne:Eine einfache aktive Mini-Whip-Antenne ist für den Einstieg in den Amateurfunkempfang ausreichend.]
 </margin>
 
 Ein Kurzwellenhörer wird international als *SWL* bezeichnet. Die Abkürzung steht für *Short Wave Listener*. SWLs lernen die Technik des Funkempfangs kennen, verfolgen den Betrieb auf den Amateurfunkbändern und dokumentieren gehörte Funkverbindungen. Mit sorgfältigen Empfangsberichten und QSL-Karten können sie aktiv an der internationalen Gemeinschaft der Funkamateure teilnehmen, ohne selbst zu senden.

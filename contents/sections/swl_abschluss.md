@@ -12,4 +12,5 @@ Der beste nächste Schritt ist praktische Erfahrung:
 Mit bestätigten SWL-QSL-Karten kannst du Diplome sammeln und später den Titel Deutscher Empfangsmeister anstreben. Vielleicht entsteht beim Hören auch der Wunsch, selbst zu senden. Dann ist die Amateurfunkprüfung der Klasse N der passende nächste Lernweg – vieles aus diesem Kurs kennst du bereits.
 
 vy 73 und 55!
+
 Wünschen Matthias DL9MJ und Flo DL1FLO

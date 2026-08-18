@@ -1,4 +1,4 @@
-Ein allgemeiner Anruf beginnt, wie wir schon gelernt haben,mit *CQ*. Danach folgen Rufzeichen und eine Hörpause. Antwortet eine Station, beginnt ein QSO. Für einen verwertbaren SWL-Bericht werden nun beide Rufzeichen und der weitere Ablauf aufmerksam verfolgt.
+Ein allgemeiner Anruf beginnt, wie wir schon gelernt haben, mit *CQ*. Danach folgen Rufzeichen und eine Hörpause. Antwortet eine Station, beginnt ein QSO. Für einen verwertbaren SWL-Bericht werden nun beide Rufzeichen und der weitere Ablauf aufmerksam verfolgt.
 
 Bei einem *Contest* versuchen Stationen, in begrenzter Zeit möglichst viele wertbare Verbindungen zu führen. Häufig antworten viele Stationen gleichzeitig auf eine besonders interessante Station. Diese Situation heißt *Pile-up*.
 
