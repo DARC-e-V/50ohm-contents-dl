@@ -20,7 +20,9 @@ Bitte nenne als Urheber (Mitwirkendenliste):
 
 ## Prüfungsfragen
 
-Die enthaltenen Prüfungsfragen (`contents/questions/fragenkatalog*.json`) sind dem amtlichen Fragenkatalog entnommen: Prüfungsfragen zum Erwerb von Amateurfunkprüfungsbescheinigungen, Bundesnetzagentur, 3. Auflage, März 2024, (www.bundesnetzagentur.de/amateurfunk), [Datenlizenz Deutschland – Namensnennung – Version 2.0](https://www.govdata.de/dl-de/by-2-0)
+Die Prüfungsfragen in `contents/questions/fragenkatalog3b.json` sind dem amtlichen Fragenkatalog entnommen: Prüfungsfragen zum Erwerb von Amateurfunkprüfungsbescheinigungen, Bundesnetzagentur, 3. Auflage, März 2024, (www.bundesnetzagentur.de/amateurfunk), [Datenlizenz Deutschland – Namensnennung – Version 2.0](https://www.govdata.de/dl-de/by-2-0)
+
+`contents/questions/fragenkatalog_swl.json` enthält die zusätzlichen Fragen aus dem DARC-Fragenkatalog für die DE-Prüfung, die keine Entsprechung im amtlichen Fragenkatalog der Bundesnetzagentur haben.
 
 Am Fragenkatalog, welcher in Kooperation mit der Bundesnetzagentur entstand, waren und sind folgende Personen von Seiten des DARC e. V. beteiligt:
 
