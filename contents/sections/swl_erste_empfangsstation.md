@@ -44,4 +44,4 @@ Die Antenne hat großen Einfluss auf das Ergebnis. Für Kurzwelle können bereit
 Auch wenn nur empfangen wird, gelten bei Außenantennen die Regeln für Blitzschutz, Abstände zu Energieleitungen, standsichere Montage und das Baurecht.
 </attention>
 
-Für die ersten Hörversuche werden das passende Band und die richtige Modulationsart gewählt und die Lautstärke angenehm eingestellt. Danach wird langsam über das Band gedreht oder man schaut im Wasserfall auf die Signale. Papier und Stift sollten von Anfang an bereitliegen. Auch ein digitales Logbuch wie das DARC Wavelog ist eine gute Möglichkeit, dazu aber später mehr.
+Für die ersten Hörversuche werden das passende Band und die richtige Modulationsart gewählt und die Lautstärke angenehm eingestellt. Danach wird langsam über das Band gedreht oder man schaut im Wasserfall auf die Signale. Papier und Stift sollten von Anfang an bereitliegen. 

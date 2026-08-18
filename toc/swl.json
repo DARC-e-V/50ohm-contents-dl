@@ -45,17 +45,6 @@
       ]
     },
     {
-      "title": "Sprache auf den Bändern",
-      "abstract": "Buchstabieralphabet, Betriebsabkürzungen und Q-Gruppen helfen dabei, auch schwache oder fremdsprachige Funkverbindungen sicher zu verstehen.",
-      "ident": "swl_sprache",
-      "video_url": null,
-      "sections": [
-        {"title": "Internationales Buchstabieralphabet", "ident": "swl_buchstabieralphabet", "status": "alpha", "class": "SWL", "video_url": null},
-        {"title": "Betriebliche Abkürzungen", "ident": "swl_abkuerzungen", "status": "alpha", "class": "SWL", "video_url": null},
-        {"title": "Q-Gruppen", "ident": "swl_q_gruppen", "status": "alpha", "class": "SWL", "video_url": null}
-      ]
-    },
-    {
       "title": "Rufzeichen, Länder und Bänder",
       "abstract": "Wir lesen Amateurfunkrufzeichen, ordnen wichtige Landeskenner zu und verbinden Frequenzbereiche mit den gebräuchlichen Bandbezeichnungen.",
       "ident": "swl_rufzeichen_baender",
@@ -64,6 +53,18 @@
         {"title": "Amateurfunkrufzeichen", "ident": "swl_rufzeichen", "status": "alpha", "class": "SWL", "video_url": null},
         {"title": "Internationale Landeskenner", "ident": "swl_landeskenner", "status": "alpha", "class": "SWL", "video_url": null},
         {"title": "Amateurfunkbänder", "ident": "swl_frequenzbereiche", "status": "alpha", "class": "SWL", "video_url": null}
+      ]
+    },
+    {
+      "title": "Sprache auf den Bändern",
+      "abstract": "Buchstabieralphabet, Betriebsabkürzungen und Q-Gruppen helfen dabei, auch schwache oder fremdsprachige Funkverbindungen sicher zu verstehen.",
+      "ident": "swl_sprache",
+      "video_url": null,
+      "sections": [
+        {"title": "Internationales Buchstabieralphabet", "ident": "swl_buchstabieralphabet", "status": "alpha", "class": "SWL", "video_url": null},
+        {"title": "Betriebliche Abkürzungen", "ident": "swl_abkuerzungen", "status": "alpha", "class": "SWL", "video_url": null},
+        {"title": "Q-Gruppen", "ident": "swl_q_gruppen", "status": "alpha", "class": "SWL", "video_url": null},
+        {"title": "Das QSO", "ident": "swl_qso", "status": "alpha", "class": "SWL", "video_url": null}
       ]
     },
     {
