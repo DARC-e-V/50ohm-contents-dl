@@ -4,7 +4,7 @@ Zu diesem Thema gibt es keine Prüfungsfrage. Aber die Polarmodulation ist ein s
 
 Die Polarmodulation basiert auf der Beobachtung, was passiert, wenn ich in ein beliebiges Signal einigermaßen schmaler Bandbreite zeitlich hinein zoome: Der einzelne Wellenzug sieht so aus wie eine Sinuswelle.
 
-Diese Sinuswelle ist definiert durch wenige Zahlen, nämlich Frequenz, Phase und Amplitude.  Wobei Frequenz und Phase miteinander verkoppelt sind: Wer mit einer bestimmten Grundfrequenz anfängt, aber dann bei jedem Wellenzug immer wieder dieselbe Phasenänderung vornimmt, landet bei einer anderen, versetzten Frequenz.
+Diese Sinuswelle ist definiert durch wenige Zahlen, nämlich Frequenz, Phase und Amplitude.  Wobei Frequenz und Phase miteinander verkoppelt sind: Wer mit einer bestimmten Grundfrequenz anfängt, aber dann bei jedem Wellenzug die Phase immer wieder in dieselbe Richtung verschiebt, landet bei einer anderen, versetzten Frequenz.
 
 Aus diesen Überlegungen ergibt sich das Verfahren der *Polarmodulation*.  Damit können beliebige Signale einigermaßen schmaler Bandbreite erzeugt werden, zum Beispiel SSB-Signale. Dazu müssen nur, ausgehend von einer Grundfrequenz, Phase und Amplitude des Signals gleichzeitig kontrollierbar sein.
 
