@@ -14,12 +14,11 @@
       ]
     },
     {
-      "title": "Empfänger, Modulationsarten und Steckverbinder",
+      "title": "Empfänger im Detail: Modulationsarten und Steckverbinder",
       "abstract": "Wir bedienen einen Empfänger, wählen das passende Übertragungsverfahren und erkennen die gebräuchlichen HF-Steckverbinder.",
       "ident": "swl_empfangstechnik",
       "video_url": null,
       "sections": [
-        {"title": "Empfänger und Transceiver", "ident": "swl_empfaenger", "status": "alpha", "class": "SWL", "video_url": null},
         {"title": "Modulationsarten", "ident": "swl_modulationsarten", "status": "alpha", "class": "SWL", "video_url": null},
         {"title": "Display und Bedienung", "ident": "swl_bedienung", "status": "alpha", "class": "SWL", "video_url": null},
         {"title": "HF-Steckverbinder", "ident": "swl_steckverbinder", "status": "alpha", "class": "SWL", "video_url": null}
