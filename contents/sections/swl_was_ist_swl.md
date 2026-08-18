@@ -4,7 +4,9 @@ Der Empfang von Amateurfunkaussendungen ist ohne Zulassung zum Amateurfunkdienst
 
 [question:VD102]
 
-Die SWL-Tätigkeit ist trotzdem mehr als passives Zuhören. Beim Hören werden beide Rufzeichen einer Funkverbindung, Datum, Uhrzeit, Band, Übertragungsverfahren und Empfangsrapport notiert. Aus diesen Angaben entsteht ein Hörbericht. Stimmt er mit dem Logbuch der gehörten Station überein, kann diese ihn durch eine QSL-Karte bestätigen.
+Die SWL-Tätigkeit ist trotzdem mehr als passives Zuhören. Beim Hören werden beide Rufzeichen einer Funkverbindung, Datum, Uhrzeit, Band, Übertragungsverfahren und Empfangsrapport notiert. Aus diesen Angaben entsteht ein Hörbericht. Stimmt er mit dem Logbuch der gehörten Station überein, kann diese ihn durch eine sogenannte QSL-Karte bestätigen.
+
+Eine Funkverbindung nennt man in der Amateurfunkwelt übrigens *QSO*. Eine Empfangsbestätigung wird als *QSL* bezeichnet. Deshalb auch der Name der QSL-Karte.
 
 <tip>
 Ein Ortsverband ist ein guter Startpunkt: Dort gibt es Hilfe bei der Empfängerauswahl, beim Antennenbau, bei der DE-Prüfung und bei der QSL-Vermittlung.
