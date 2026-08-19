@@ -713,7 +713,7 @@
         },
         {
             "title": "Digitale Übertragungsverfahren",
-            "abstract": "Dieses Kapitel beleuchtet die Grundlagen und Anwendungen der digitalen Übertragungsverfahren, die essenziell für die moderne Kommunikationi im Amateurfunk sind.",
+            "abstract": "Dieses Kapitel beleuchtet die Grundlagen und Anwendungen der digitalen Übertragungsverfahren, die essenziell für die moderne Kommunikation im Amateurfunk sind.",
             "ident": "a_digitale_uebertragungsverfahren",
             "video_url": null,
             "sections": [
@@ -838,13 +838,6 @@
                     "video_url": null
                 },
                 {
-                    "title": "Sampling",
-                    "ident": "sampling",
-                    "status": "alpha",
-                    "class": "A",
-                    "video_url": null
-                },
-                {
                     "title": "Abtasttheorem",
                     "ident": "abtasttheorem",
                     "status": "alpha",
@@ -852,43 +845,15 @@
                     "video_url": null
                 },
                 {
-                    "title": "Quantisierung",
-                    "ident": "quantisierung",
+                    "title": "A/D- und D/A-Umsetzung",
+                    "ident": "dac_adc",
                     "status": "alpha",
                     "class": "A",
                     "video_url": null
                 },
                 {
-                    "title": "Analog-Digital-Umsetzer (ADC)",
-                    "ident": "analog_digital_umsetzer",
-                    "status": "alpha",
-                    "class": "A",
-                    "video_url": null
-                },
-                {
-                    "title": "Digital-Analog-Umsetzer (DAC)",
-                    "ident": "digital_analog_umsetzer",
-                    "status": "alpha",
-                    "class": "A",
-                    "video_url": null
-                },
-                {
-                    "title": "Anwendung von ADC und DAC",
-                    "ident": "anwendung_dac_adc",
-                    "status": "alpha",
-                    "class": "A",
-                    "video_url": null
-                },
-                {
-                    "title": "Anti-Alias-Filter",
-                    "ident": "anti_alias_filter",
-                    "status": "alpha",
-                    "class": "A",
-                    "video_url": null
-                },
-                {
-                    "title": "Rekonstruktionsfilter",
-                    "ident": "rekonstruktionsfilter",
+                    "title": "Anti-Alias- und Rekonstruktionsfilter",
+                    "ident": "anti_alias_rekonstruktionsfilter",
                     "status": "alpha",
                     "class": "A",
                     "video_url": null
@@ -903,6 +868,13 @@
                 {
                     "title": "Digitale Filter",
                     "ident": "digitale_filter",
+                    "status": "alpha",
+                    "class": "A",
+                    "video_url": null
+                },
+                {
+                    "title": "Digitale I/Q-Signalverarbeitung",
+                    "ident": "digital_iq",
                     "status": "alpha",
                     "class": "A",
                     "video_url": null

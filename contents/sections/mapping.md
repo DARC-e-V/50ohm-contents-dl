@@ -24,7 +24,7 @@ Die beiden möglichen Symbole lassen sich auch in dem zuvor kennengelernten Kons
 
 Eine Amplitudenumtastung ist nicht auf zwei mögliche Amplituden beschränkt. Werden beispielsweise vier unterschiedliche Amplituden verwendet, stehen vier verschiedene Symbole zur Verfügung. Da sich mit zwei Bits vier unterschiedliche Bitkombinationen bilden lassen, kann jedem Symbol eine der Kombinationen $00$, $01$, $10$ oder $11$ zugeordnet werden.
 
-Die Abbildung [ref:a_4_ask] zeigt eine solche *4ASK* mit vier unterschiedlichen Amplituden in der Zeitdarstellung. Beispielsweise können $\qty{25}{\percent}$, $\qty{50}{\percent}$, $\qty{75}{\percent}$ und $\qty{100}{\percent}$ der maximalen Amplitude verwendet werden. Mit jedem Symbol können dadurch zwei Bits übertragen werden.
+Die Abbildung [ref:a_4_ask] zeigt eine solche *4-ASK* mit vier unterschiedlichen Amplituden in der Zeitdarstellung. Beispielsweise können $\qty{25}{\percent}$, $\qty{50}{\percent}$, $\qty{75}{\percent}$ und $\qty{100}{\percent}$ der maximalen Amplitude verwendet werden. Mit jedem Symbol können dadurch zwei Bits übertragen werden.
 
 <margin>
 [picture:701:a_4_ask:Quaternäre Amplitudenumtastung (Quaternary Amplitude-Shift Keying)]

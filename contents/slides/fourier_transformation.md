@@ -28,13 +28,20 @@
 * Reduziert den Rechenaufwand erheblich  
 * Weit verbreitet in Soft- und Hardware zur Signalverarbeitung
 
----
+--- style="font-size: smaller;"
 
-### Beispiel: Rechtecksignal und Oberschwingungen
+## Spektren typischer Signalformen
 
-* Rechtecksignale enthalten neben der Grundschwingung auch zahlreiche Oberschwingungen  
-* Diese Oberschwingungen (ungerade Vielfache der Grundfrequenz) nehmen ab, sind aber deutlich sichtbar  
-* Ohne Tiefpassfilter würden diese hohen Frequenzanteile stören
+* *Sinus*: nur eine Frequenz: $f$
+* *Rechteck*: nur ungeradzahlige Vielfache: $f$, $3f$, $5f$, $7f$, ...
+* *Sägezahn*: alle ganzzahligen Vielfachen: $f$, $2f$, $3f$, $4f$, ...
+* *Dreieck*: nur ungeradzahlige Vielfache: $f$, $3f$, $5f$, $7f$, ... (hohe Oberwellen fallen schneller ab als beim Rechteck)
+
+In der Prüfung muss man nur Sinus und Rechteck unterscheiden können. 
+
+<note>
+Rechteck- und Dreiecksignal enthalten beide nur ungeradzahlige Oberwellen. Der Unterschied liegt im Abfall der Amplituden: Beim Dreiecksignal werden die höheren Oberwellen deutlich schneller kleiner.
+</note>
 
 ---
 

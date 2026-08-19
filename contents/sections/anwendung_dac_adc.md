@@ -1,7 +1,0 @@
-A/D- und D/A-Umsetzer werden in SDR-Empfängern und Transceivern an verschiedenen Stellen eingesetzt. Analoge Eingangssignale werden durch einen A/D-Umsetzer digitalisiert, anschließend digital verarbeitet, und dann mittels eines D/A-Umsetzers wieder in analoge Signale zur weiteren Verarbeitung oder Ausgabe rekonstruiert. Hierbei ist es natürlich möglich, dass ein Eingangssignal aufgrund seiner Größe nicht den vollen Wertebereich des A/D-Umsetzers und des anschließenden D/A-Umsetzers ausschöpft. Entsprechend wird dieses Signal dann auch nur auf einen kleineren Wertebereich der möglichen digitalen Stufen abgebildet. Ebenfalls denkbar ist, dass das Eingangssignal höhere Werte als der maximale Wertebereich des A/D- oder D/A-Umsetzers annehmen kann. In diesem Fall wird ein A/D-Umsetzer das Signal nur bis zur maximalen Eingangsspannung des Umsetzers korrekt abbilden können. Höhere Werte können dann nur noch mit dem Maximalwert des A/D-Umsetzers abgebildet werden. Man spricht in diesem Fall auch von Clipping (zu Deutsch Beschneidung) des Signals. Dies äußert sich in abgeschnittenen Anteilen in den maximalen Bereichen des Signals, die als Gerade mit dem maximalen Wert des A/D-Umsetzers verlaufen.
-
-Je höher die Auflösung eines A/D-Umsetzers und D/A-Umsetzers ist, desto "feiner" können Signalamplitudenwerte digital abgebildet und auch rekonstruiert werden. Eine niedrige Auflösung führt im Gegensatz dazu, dass Signale gestuft abgetastet bzw. rekonstruiert werden.
-
-[question:AF613]
-[question:AF612]
-[question:AF614]
