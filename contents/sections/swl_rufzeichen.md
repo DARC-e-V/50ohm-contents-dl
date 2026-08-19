@@ -19,7 +19,7 @@ Hier solltest du den oben verlinkten Rufzeichenplan der Bundesnetzagentur zu Rat
 [question:BD103]
 [question:BD104]
 [question:BD106]
-
+[question:BD105]
 <indepth>
 Auch der Prefix DE ist Deutschland zugeteilt und könnte auch von der Behörde für Amateurfunkrufzeichen verwendet werden. Bei der Auswahl der amateurfunkinternen Landeskenner nach dem zweiten Weltkrieg hatte man vonseiten der damals zuständigen Bundespost *DE* von vornherein außer Acht gelassen wegen der Verwechslungsgefahr mit der Abkürzung *de* (= von) im CW-Verkehr. Zudem stand *DE* schon seit 1925 als Abkürzung für *Deutsche Empfangsstation* fest.
 
