@@ -13,7 +13,7 @@ Einige deutsche Rufzeichenbereiche lassen sich direkt zuordnen:
 * *DL0* mit zwei- oder dreistelligem Suffix: Klubstation
 * *DL1* bis *DL9* mit zwei- oder dreistelligem Suffix: personengebundenes Rufzeichen der Klasse A
 * *DO1* bis *DO9* mit zwei- oder dreistelligem Suffix: personengebundenes Rufzeichen der Klasse E
-
+* *DN9* mit zwei- oder dreistelligem Suffix: personengebundenes Rufzeichen der Klasse N
 Hier solltest du den oben verlinkten Rufzeichenplan der Bundesnetzagentur zu Rate ziehen, um die Bedeutung der einzelnen deutschen Präfixe zu erkennen.
 
 [question:BD103]
