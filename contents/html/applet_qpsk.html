@@ -1,0 +1,364 @@
+<style>
+  .qpsk-applet {
+    --qpsk-primary: #009fda;
+    --qpsk-current: #d85a30;
+    --qpsk-received: #7451b9;
+    margin: 1rem 0;
+    width: 100%;
+    max-width: 100%;
+    min-width: 0;
+    box-sizing: border-box;
+    overflow: hidden;
+  }
+
+  .qpsk-applet .qpsk-controls {
+    display: flex;
+    flex-wrap: wrap;
+    gap: .65rem;
+    align-items: center;
+    margin-bottom: .8rem;
+  }
+
+  .qpsk-applet .qpsk-noise-control {
+    display: grid;
+    grid-template-columns: 1fr auto;
+    gap: .25rem .65rem;
+    align-items: center;
+    width: 100%;
+  }
+
+  .qpsk-applet input[type="range"] {
+    grid-column: 1 / -1;
+    width: 100%;
+    min-width: 0;
+  }
+
+  .qpsk-applet output {
+    text-align: right;
+    font-variant-numeric: tabular-nums;
+  }
+
+  .qpsk-applet .qpsk-stream {
+    display: flex;
+    width: 100%;
+    max-width: 100%;
+    min-width: 0;
+    box-sizing: border-box;
+    contain: inline-size;
+    gap: .3rem;
+    overflow-x: auto;
+    padding: .45rem .15rem .65rem;
+    margin-bottom: .7rem;
+    scrollbar-width: thin;
+  }
+
+  .qpsk-applet .qpsk-symbol {
+    flex: 0 0 auto;
+    min-width: 2.25rem;
+    padding: .28rem .38rem;
+    border: 1px solid var(--bs-border-color, #ccd2d8);
+    border-radius: .3rem;
+    text-align: center;
+    font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+    font-weight: 650;
+    transition: background .15s, border-color .15s, color .15s;
+  }
+
+  .qpsk-applet .qpsk-symbol.sent {
+    background: var(--bs-secondary-bg, #edf0f2);
+    color: var(--bs-secondary-color, #687078);
+  }
+
+  .qpsk-applet .qpsk-symbol.current {
+    border-color: var(--qpsk-current);
+    background: var(--qpsk-current);
+    color: #fff;
+  }
+
+  .qpsk-applet figure { margin: 0; }
+
+  .qpsk-applet canvas {
+    display: block;
+    width: 100%;
+    aspect-ratio: 1 / 1;
+    border: 1px solid var(--bs-border-color, #d8dde2);
+    border-radius: .35rem;
+    background: var(--bs-body-bg, #fff);
+  }
+
+  @media (min-width: 800px) {
+    .course .qpsk-applet { width: 59.3%; }
+    .course .margin .qpsk-applet { width: 100%; }
+  }
+</style>
+
+<section class="qpsk-applet" aria-label="QPSK-Übertragung mit Rauschen">
+  <div class="qpsk-controls">
+    <button data-qpsk-start type="button" class="btn btn-primary btn-sm">Übertragung starten</button>
+    <button data-qpsk-new type="button" class="btn btn-outline-secondary btn-sm">Neuer Bitstrom</button>
+  </div>
+
+  <div class="qpsk-noise-control">
+    <label for="qpsk-noise">Rauschen</label>
+    <input data-qpsk-noise id="qpsk-noise" type="range" min="0" max="60" step="1" value="18">
+    <output data-qpsk-noise-output>18 %</output>
+  </div>
+
+  <div data-qpsk-stream class="qpsk-stream" aria-label="Zu übertragender Bitstrom"></div>
+
+  <figure>
+    <canvas data-qpsk-canvas aria-label="QPSK-Konstellationsdiagramm"></canvas>
+  </figure>
+
+  <script>
+    (function () {
+      const applet = document.currentScript.closest('.qpsk-applet');
+      const canvas = applet.querySelector('[data-qpsk-canvas]');
+      const startButton = applet.querySelector('[data-qpsk-start]');
+      const newButton = applet.querySelector('[data-qpsk-new]');
+      const noiseInput = applet.querySelector('[data-qpsk-noise]');
+      const streamElement = applet.querySelector('[data-qpsk-stream]');
+
+      const mapping = {
+        '11': { angle: 45,  i:  1, q:  1 },
+        '01': { angle: 135, i: -1, q:  1 },
+        '00': { angle: 225, i: -1, q: -1 },
+        '10': { angle: 315, i:  1, q: -1 }
+      };
+      const symbolOrder = ['11', '01', '00', '10'];
+      const pointColors = {
+        '11': '#d85a30',
+        '01': '#2a9d6f',
+        '00': '#7451b9',
+        '10': '#168aad'
+      };
+
+      let symbols = [];
+      let receivedPoints = [];
+      let currentIndex = -1;
+      let timer = 0;
+      let running = false;
+
+      function makeBitstream() {
+        symbols = [];
+        for (let repetition = 0; repetition < 8; repetition++) {
+          const group = symbolOrder.slice();
+          for (let i = group.length - 1; i > 0; i--) {
+            const j = Math.floor(Math.random() * (i + 1));
+            const temporary = group[i];
+            group[i] = group[j];
+            group[j] = temporary;
+          }
+          symbols.push.apply(symbols, group);
+        }
+        receivedPoints = [];
+        currentIndex = -1;
+        renderStream(true);
+        draw();
+      }
+
+      function renderStream(rebuild) {
+        if (rebuild) {
+          streamElement.replaceChildren();
+          symbols.forEach(function (bits) {
+            const span = document.createElement('span');
+            span.className = 'qpsk-symbol';
+            span.textContent = bits;
+            streamElement.appendChild(span);
+          });
+          streamElement.scrollLeft = 0;
+        }
+
+        Array.from(streamElement.children).forEach(function (span, index) {
+          span.classList.toggle('sent', index < currentIndex);
+          span.classList.toggle('current', index === currentIndex);
+        });
+
+        const current = streamElement.children[currentIndex];
+        if (current) {
+          const streamRect = streamElement.getBoundingClientRect();
+          const currentRect = current.getBoundingClientRect();
+          const centeredPosition = streamElement.scrollLeft
+            + currentRect.left - streamRect.left
+            - (streamElement.clientWidth - currentRect.width) / 2;
+          streamElement.scrollTo({
+            left: Math.max(0, centeredPosition),
+            behavior: 'smooth'
+          });
+        }
+      }
+
+      function gaussianNoise() {
+        let u = 0;
+        let v = 0;
+        while (u === 0) u = Math.random();
+        while (v === 0) v = Math.random();
+        return Math.sqrt(-2 * Math.log(u)) * Math.cos(2 * Math.PI * v);
+      }
+
+      function transmitNext() {
+        currentIndex += 1;
+        if (currentIndex >= symbols.length) {
+          stopTransmission(true);
+          return;
+        }
+
+        const bits = symbols[currentIndex];
+        const target = mapping[bits];
+        const sigma = Number(noiseInput.value) / 100;
+        const receivedI = target.i + gaussianNoise() * sigma;
+        const receivedQ = target.q + gaussianNoise() * sigma;
+
+        receivedPoints.push({
+          i: receivedI,
+          q: receivedQ,
+          bits: bits
+        });
+        renderStream(false);
+        draw();
+      }
+
+      function startTransmission() {
+        if (running) return;
+        if (currentIndex >= symbols.length - 1) makeBitstream();
+        running = true;
+        startButton.disabled = true;
+        startButton.textContent = 'Übertragung läuft …';
+        newButton.disabled = true;
+        transmitNext();
+        timer = window.setInterval(transmitNext, 420);
+      }
+
+      function stopTransmission(finished) {
+        running = false;
+        window.clearInterval(timer);
+        startButton.disabled = false;
+        newButton.disabled = false;
+        startButton.textContent = finished ? 'Erneut übertragen' : 'Übertragung starten';
+      }
+
+      function setupCanvas() {
+        const rect = canvas.getBoundingClientRect();
+        const dpr = window.devicePixelRatio || 1;
+        const pixelWidth = Math.round(rect.width * dpr);
+        const pixelHeight = Math.round(rect.height * dpr);
+        if (canvas.width !== pixelWidth || canvas.height !== pixelHeight) {
+          canvas.width = pixelWidth;
+          canvas.height = pixelHeight;
+        }
+        const ctx = canvas.getContext('2d');
+        ctx.setTransform(dpr, 0, 0, dpr, 0, 0);
+        return { ctx: ctx, width: rect.width, height: rect.height };
+      }
+
+      function line(ctx, x0, y0, x1, y1) {
+        ctx.beginPath();
+        ctx.moveTo(x0, y0);
+        ctx.lineTo(x1, y1);
+        ctx.stroke();
+      }
+
+      function drawCross(ctx, x, y, size, strokeColor) {
+        ctx.strokeStyle = strokeColor;
+        ctx.lineWidth = 2;
+        line(ctx, x - size, y - size, x + size, y + size);
+        line(ctx, x - size, y + size, x + size, y - size);
+      }
+
+      function drawArrow(ctx, x0, y0, x1, y1, strokeColor) {
+        const angle = Math.atan2(y1 - y0, x1 - x0);
+        const head = 9;
+        ctx.strokeStyle = strokeColor;
+        ctx.fillStyle = strokeColor;
+        ctx.lineWidth = 2.5;
+        line(ctx, x0, y0, x1, y1);
+        ctx.beginPath();
+        ctx.moveTo(x1, y1);
+        ctx.lineTo(x1 - head * Math.cos(angle - Math.PI / 6), y1 - head * Math.sin(angle - Math.PI / 6));
+        ctx.lineTo(x1 - head * Math.cos(angle + Math.PI / 6), y1 - head * Math.sin(angle + Math.PI / 6));
+        ctx.closePath();
+        ctx.fill();
+      }
+
+      function draw() {
+        const setup = setupCanvas();
+        const ctx = setup.ctx;
+        const width = setup.width;
+        const height = setup.height;
+        const cx = width / 2;
+        const cy = height / 2;
+        const unit = Math.min(width, height) * .265;
+        const limit = 1.65;
+        const textColor = getComputedStyle(applet).color || '#263238';
+        const axisColor = 'rgba(90,100,110,.72)';
+
+        function x(i) { return cx + i * unit; }
+        function y(q) { return cy - q * unit; }
+
+        ctx.clearRect(0, 0, width, height);
+
+        // Entscheidungsbereiche
+        ctx.fillStyle = 'rgba(216,90,48,.035)';
+        ctx.fillRect(cx, 0, width - cx, cy);
+        ctx.fillStyle = 'rgba(42,157,111,.035)';
+        ctx.fillRect(0, 0, cx, cy);
+        ctx.fillStyle = 'rgba(116,81,185,.035)';
+        ctx.fillRect(0, cy, cx, height - cy);
+        ctx.fillStyle = 'rgba(22,138,173,.035)';
+        ctx.fillRect(cx, cy, width - cx, height - cy);
+
+        // Kreis und Achsen
+        ctx.strokeStyle = 'rgba(120,130,140,.32)';
+        ctx.lineWidth = 1;
+        ctx.beginPath();
+        ctx.arc(cx, cy, Math.SQRT2 * unit, 0, 2 * Math.PI);
+        ctx.stroke();
+        ctx.strokeStyle = axisColor;
+        line(ctx, x(-limit), cy, x(limit), cy);
+        line(ctx, cx, y(-limit), cx, y(limit));
+        ctx.fillStyle = textColor;
+        ctx.font = '13px system-ui, sans-serif';
+        ctx.fillText('I', x(limit) - 7, cy - 9);
+        ctx.fillText('Q', cx + 9, y(limit) + 11);
+
+        // Ideale Symbole und Beschriftungen
+        symbolOrder.forEach(function (bits) {
+          const symbol = mapping[bits];
+          drawCross(ctx, x(symbol.i), y(symbol.q), 6, pointColors[bits]);
+          ctx.fillStyle = textColor;
+          ctx.font = '600 13px ui-monospace, monospace';
+          ctx.textAlign = symbol.i > 0 ? 'left' : 'right';
+          ctx.fillText(bits, x(symbol.i) + (symbol.i > 0 ? 11 : -11), y(symbol.q) - 9);
+        });
+        ctx.textAlign = 'left';
+
+        // Empfangspunkte
+        receivedPoints.forEach(function (point, index) {
+          ctx.globalAlpha = index === receivedPoints.length - 1 ? 1 : .58;
+          ctx.fillStyle = pointColors[point.bits];
+          ctx.beginPath();
+          ctx.arc(x(point.i), y(point.q), index === receivedPoints.length - 1 ? 5 : 3.2, 0, 2 * Math.PI);
+          ctx.fill();
+        });
+        ctx.globalAlpha = 1;
+
+        // Zeiger zum aktuell empfangenen, verrauschten Signalpunkt
+        if (currentIndex >= 0 && receivedPoints.length > 0) {
+          const current = receivedPoints[receivedPoints.length - 1];
+          drawArrow(ctx, cx, cy, x(current.i), y(current.q), pointColors[current.bits]);
+        }
+      }
+
+      startButton.addEventListener('click', startTransmission);
+      newButton.addEventListener('click', function () {
+        stopTransmission(false);
+        makeBitstream();
+      });
+      noiseInput.addEventListener('input', function () {
+        applet.querySelector('[data-qpsk-noise-output]').textContent = noiseInput.value + ' %';
+      });
+      new ResizeObserver(draw).observe(applet);
+      makeBitstream();
+    })();
+  </script>
+</section>

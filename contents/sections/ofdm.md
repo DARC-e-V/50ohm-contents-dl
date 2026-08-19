@@ -1,7 +1,6 @@
-
 Es ist auch möglich, einen Datenstrom auf mehrere Träger zu verteilen, die auf unterschiedlichen, jedoch nahegelegenen Frequenzen liegen. Die Träger können allerdings nicht beliebig dicht nebeneinander liegen, da sie aufgrund der zwangsläufig entstehenden Seitenbänder eine gewisse Breite aufweisen.
 
-Bei der orthogonalen Frequenzmodulation (Orthogonal Frequency-Division Multiplexing, OFDM) werden nun die einzelnen Träger in genau dem Abstand platziert, wo ein gegenseitiges Stören untereinander (ein sogenanntes "Übersprechen") möglichst vermieden wird.
+Beim orthogonalen Frequenzmultiplexverfahren, (Orthogonal Frequency-Division Multiplexing, OFDM) werden nun die einzelnen Träger in genau dem Abstand platziert, wo ein gegenseitiges Stören untereinander (ein sogenanntes "Übersprechen") möglichst vermieden wird.
 
 Je höher die Symbolrate pro Träger ist, umso größer muss der Abstand der Träger gewählt werden. Aus diesem Grunde wählt man oft eine kleinere Symbolrate für jeden einzelnen Träger, damit entsprechend mehr Träger Platz finden. Die übertragene Informationsmenge bleibt hierbei gleich, denn obwohl pro Träger weniger Information übertragen werden kann, können mehr Träger nebeneinander verwendet werden.
 

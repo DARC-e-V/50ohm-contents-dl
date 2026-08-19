@@ -1,40 +1,37 @@
-Im Rahmen der digitalen Signalverarbeitung beschreibt das *Mapping* den Schritt, bei dem digitale Daten in spezifische Signalpunkte (Symbole) umgewandelt werden, die über das Übertragungssystem gesendet werden können. Dies ist ein entscheidender Prozess in der Modulation, insbesondere bei Quadraturamplitudenmodulationen (QAM) und Phasenumtastungen wie QPSK (Quadrature Phase Shift Keying).
-
-Um die Symbole zu visualisieren, verwenden wir ein *Konstellationsdiagramm* wie in Abbildung [ref:a_konstellation], das die möglichen Signalpunkte in einem zweidimensionalen Raum darstellt. Man bezeichnet die Achsen oft als In-Phase (I) und Quadrature (Q). Jeder Punkt im Diagramm repräsentiert eine bestimmte Amplitude und Phase, die durch das Mapping einer bestimmten Bitkombination zugeordnet ist, wie in Abbildung [ref:a_qpsk] dargestellt.
+Bei digitalen Übertragungsverfahren müssen die zu übertragenden Bits den verschiedenen möglichen Symbolen zugeordnet werden. Diese Zuordnung wird als *Mapping* bezeichnet. Der Baustein, der diese Zuordnung vornimmt, wird als *Mapper* bezeichnet. Das Blocksymbol eines Mappers ist in Abbildung [ref:a_mapper] dargestellt. Der Mapper nimmt einen digitalen Bitstrom entgegen und ordnet die enthaltenen Bitkombinationen den entsprechenden Symbolen in einem Konstellationsdiagramm zu.
 
 <margin>
-[picture:1060:a_konstellation:Konstellationsdiagramm]
+[picture:1102:a_mapper:Blockschaltbild eines Mappers]
 </margin>
 
 ---
 
-Schauen wir uns im ersten Schritt QPSK in Abbildung [ref:a_qpsk] an: Bei QPSK werden jeweils zwei Bits zu einem Symbol zusammengefasst. Da wir zwei Bits pro Symbol haben, ergeben sich vier mögliche Kombinationen ($\num{00}$, $\num{01}$, $\num{10}$, $\num{11}$). Jede dieser Kombinationen wird einem spezifischen Signalpunkt zugeordnet, der durch eine bestimmte Phase repräsentiert wird.
+Um das Prinzip des Mappings kennenzulernen, betrachten wir zunächst die bereits aus Klasse E bekannte *Amplitudenumtastung* (*Amplitude-Shift Keying*, ASK). Die Abbildung [ref:a_ask] zeigt eine binäre ASK in der Zeitdarstellung. Dabei wird die Amplitude des Trägersignals zwischen zwei Werten umgeschaltet. Beispielsweise kann eine große Amplitude das Bit $1$ und eine kleine Amplitude das Bit $0$ darstellen.
 
 <margin>
-[picture:1059:a_qpsk:I-Q-Diagramm für ein QPSK-Mapping]
+[picture:700:a_ask:ASK (Amplitude-Shift Keying) im zeitlichen Verlauf]
 </margin>
 
 ---
 
-Bei QPSK hat jedes Symbol eine eigene Phase. Die Phasen werden typischerweise in $\qty{90}{\degree}$-Schritten definiert und auf die vier möglichen Bitkombinationen gemapped, zum Beispiel:
+Die beiden möglichen Symbole lassen sich auch in dem zuvor kennengelernten Konstellationsdiagramm darstellen. Da sich bei diesem Beispiel nur die Amplitude ändert und die Phasenlage gleich bleibt, liegen beide Signalpunkte auf der I-Achse. Der unterschiedliche Abstand vom Ursprung entspricht den beiden unterschiedlichen Amplituden. Jedem der beiden Signalpunkte wird nun über das Mapping ein Bitwert zugeordnet.
 
-- $\num{11}$ entspricht $\qty{45}{\degree}$
-- $\num{01}$ entspricht $\qty{135}{\degree}$
-- $\num{00}$ entspricht $\qty{225}{\degree}$
-- $\num{10}$ entspricht $\qty{315}{\degree}$
-
-Die Amplitude der Signale bleibt dabei konstant, und die Information wird ausschließlich durch die Phasenlage übertragen. Deshalb liegen die vier Punkte im Konstellationsdiagramm für QPSK auf einem Kreis. 
-
-<indepth>
-Genau genommen gibt es aber auch noch andere Möglichkeiten, die Phasen den Bitkombinationen zuzuordnen, solange sie eindeutig sind. Das hier gezeigte Mapping ist nur ein Beispiel. In dem hier gezeigten Beispiel wurden die Zuordnungen so gewählt, dass sich zwischen benachbarten Symbolen nur wenige Bits ändern. Das hat den Vorteil, dass unter Rauscheinfluss nur wenige Bitfehler entstehen. Dafür wird der Gray-Code verwendet, der in den meisten digitalen Übertragungsverfahren Anwendung findet.
-</indepth>
+<margin>
+[picture:1128:a_ask_mapping:ASK (Amplitude-Shift Keying) im Konstellationsdiagramm]
+</margin>
 
 ---
 
-Jeder dieser Punkte repräsentiert ein Symbol. Der Empfänger kann anhand der Phasenlage bestimmen, welche Bitkombination gesendet wurde. Das Konstellationsdiagramm bei QPSK zeigt vier Signalpunkte im rechten Winkel zueinander, die den vier verwendeten Phasen entsprechen. Die große Trennung zwischen den einzelnen Phasen ermöglicht eine zuverlässige Decodierung auch unter rauschbehafteten Bedingungen.
+Eine Amplitudenumtastung ist nicht auf zwei mögliche Amplituden beschränkt. Werden beispielsweise vier unterschiedliche Amplituden verwendet, stehen vier verschiedene Symbole zur Verfügung. Da sich mit zwei Bits vier unterschiedliche Bitkombinationen bilden lassen, kann jedem Symbol eine der Kombinationen $00$, $01$, $10$ oder $11$ zugeordnet werden.
 
-Ändert man neben der Phase auch die Amplitude, so spricht man von einer Quadraturamplitudenmodulation (QAM). Bei QAM werden sowohl die Amplitude als auch die Phase variiert, um mehr Bits pro Symbol zu übertragen. Zum Beispiel kann bei 16-QAM jedes Symbol vier Bits repräsentieren, was zu 16 möglichen Signalpunkten im Konstellationsdiagramm führt. Ein Beispiel für ein 16-QAM-Mapping ist in Abbildung [ref:a_qam] dargestellt.
+Die Abbildung [ref:a_4_ask] zeigt eine solche *4ASK* mit vier unterschiedlichen Amplituden in der Zeitdarstellung. Beispielsweise können $\qty{25}{\percent}$, $\qty{50}{\percent}$, $\qty{75}{\percent}$ und $\qty{100}{\percent}$ der maximalen Amplitude verwendet werden. Mit jedem Symbol können dadurch zwei Bits übertragen werden.
 
 <margin>
-[picture:1061:a_qam:I-Q-Diagramm für ein 16-QAM-Mapping]
+[picture:701:a_4_ask:Quaternäre Amplitudenumtastung (Quaternary Amplitude-Shift Keying)]
+</margin>
+
+Auch im Konstellationsdiagramm sind nun vier mögliche Signalpunkte vorhanden. Da sich weiterhin nur die Amplitude ändert, liegen in diesem Beispiel alle vier Punkte auf der I-Achse. Jedem Punkt ist eine bestimmte Bitkombination zugeordnet.
+
+<margin>
+[picture:1129:a_4_ask_mapping:Quaternäre Amplitudenumtastung (Quaternary Amplitude-Shift Keying) im Konstellationsdiagramm]
 </margin>

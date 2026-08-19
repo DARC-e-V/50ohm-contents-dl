@@ -1,28 +1,37 @@
-% TODO neu formulieren
-% Idee DL9MJ: Beispiel mit Bild je ein Bit in I und Q und wie das Signal für 00, 01, 10, 11 aussieht
+Im vorherigen Abschnitt haben wir gesehen, dass Symbole beispielsweise durch unterschiedliche Amplituden oder Frequenzen dargestellt werden können. Eine weitere Möglichkeit besteht darin, die Phasenlage eines Signals zu verändern. Um Signalzustände mit unterschiedlicher Amplitude und Phase übersichtlich darzustellen, wird häufig die sogenannte *I/Q-Darstellung* verwendet.
 
-QAM kann besonders einfach mit Hilfe von zwei Trägern derselben Frequenz erzeugt werden. Einer der beiden Träger muss dabei um $\qty{90}{\degree}$ phasenverschoben sein. Beide Träger werden dann jeweils mit einem eigenen Signal amplitudenmoduliert. Das eine Signal wird als I (für In-Phase Component) und das andere Signal als Q (für Quadrature Phase Component) bezeichnet. Der phasenverschobene Träger wird dabei mit dem Q-Signal moduliert. In Anschluss werden die beiden modulierten Träger überlagert, wobei ein Träger entsteht, der sich sowohl in der Amplitude als auch in der Phase ändert.
+Betrachten wir zunächst einen Signalzustand zum Zeitpunkt $t=0$. Für das Symbol werden eine Amplitude $A$ und eine Phasenlage $\varphi$ festgelegt. In einer Zeigerdarstellung bestimmt die Amplitude die Länge des Zeigers und die Phasenlage seinen Winkel gegenüber der waagerechten Achse.
 
-<indepth>
-[include:applet_iq]
-</indepth>
-  
-%TODO BILD QAM4 QAM8 oder mehr?
+Der Zeiger lässt sich in einen waagerechten und einen senkrechten Anteil zerlegen. Der waagerechte Anteil wird als $I$ für *In-Phase Component* bezeichnet, der senkrechte Anteil als $Q$ für *Quadrature Component*. Für den dargestellten Signalzustand gilt:
 
-[question:AE404]
-[question:AF632]
+$I=A\cdot\cos(\varphi)$
 
-Die Grundidee, ein Signal in zwei Teilen getrennt zu verarbeiten, findet auch in der digitalen Signalverarbeitung breite Anwendung. Es wird nach den beiden Teilsignalen als I/Q-Verfahren bezeichnet. Das I/Q-Verfahren ermöglicht es, jedes beliebige Signal zu erzeugen. Dazu besteht der zu modulierende Datenstrom aus einem I- und einem Q-Anteil. Zwei D/A-Umsetzer wandeln jeweils einen der beiden Anteile in ein analoges I- bzw. Q-Signal um. Mit dem I- und dem Q-Signal werden wiederum die beiden phasenverschobenen Träger moduliert. Im letzten Schritt werden diese zu einem Träger überlagert, der ausgesendet wird.
+$Q=A\cdot\cos(\varphi-\qty{90}{\degree})=A\cdot\sin(\varphi)$
 
-Entsprechend wird auch auf der Empfängerseite vorgegangen. Das Eingangssignal wird mit einem Träger gemischt, um das I-Signal zu erhalten, das dann mittels A/D-Umsetzer in den I-Anteil eines Datenstroms umgewandelt wird. Gleichzeitig wird das Eingangssignal aber auch mit einem um $\qty{90}{\degree}$ phasenverschobenen Träger gemischt, um das Q-Signal zu erhalten, das wiederum mittels eines A/D-Umsetzers in den Q-Anteil des Datenstroms umgewandelt wird.
+Lassen wir die Zeit weiterlaufen, dreht sich der zur Schwingung gehörende Zeiger. Seine Projektionen auf die beiden Achsen verlaufen sinusförmig und sind um $\qty{90}{\degree}$ gegeneinander phasenverschoben. Das Applet zeigt diesen Zusammenhang zwischen der Schwingung und ihrer I/Q-Darstellung.
+
+[include:applet_iq_zeiger]
 
 [question:AF633]
 
-Ein solcher digitaler Datenstrom kann immer einen bestimmten Frequenzbereich des Eingangssignals abbilden, der um eine Mittenfrequenz herum liegt. Wird das Eingangssignal beispielsweise mit einem $\qty{435}{\mega\hertz}$-Träger und einem um $\qty{90}{\degree}$ phasenverschobenen $\qty{435}{\mega\hertz}$-Träger gemischt und die beiden entstehenden Signale durch A/D-Umsetzer digitalisiert, dann bildet der entstehende I/Q-Datenstrom den Frequenzbereich um $\qty{435}{\mega\hertz}$ herum ab.
+Anschaulich kann man sich vorstellen, dass zu Beginn jedes Symbolintervalls der zu übertragende Symbolwert einen Punkt in der I/Q-Ebene und damit die Amplitude und die anfängliche Phasenlage der Schwingung für dieses Symbol festlegt. Beim nächsten Symbol wird entsprechend auf den Signalzustand des nächsten Punktes übergegangen.
 
-% TODO Verweis auf Abtasttheorem?
-Die abgedeckte Bandbreite hängt dabei von der Abtastrate der A/D-Umsetzung ab. Die Bandbreite in Hz entspricht dabei der Abtastrate in Samples pro Sekunde. Werden in unserem Beispiel sowohl der I- als auch der Q-Anteil mit 10 Millionen Samples pro Sekunde abgetastet, dann kann der entstehende I/Q-Datenstrom einen Frequenzbereich von $\qty{10}{\mega\hertz}$ Bandbreite abdecken, also von $\qty{-5}{\mega\hertz}$ bis $\qty{+5}{\mega\hertz}$ in Bezug auf die Mittenfrequenz. Der Datenstrom deckt dann also die Frequenzen von $\qty{430}{\mega\hertz}$ bis $\qty{440}{\mega\hertz}$ ab.
+Für die Darstellung der Symbole interessiert uns also nicht die fortlaufende Drehung des Zeigers, sondern der für das jeweilige Symbol festgelegte Startzustand. Werden die möglichen Startzustände als Punkte in der I/Q-Ebene eingezeichnet, spricht man von einem *Konstellationsdiagramm* (vgl. Abbildung [ref:a_konstellationsdiagramm]). Jeder Punkt entspricht einem möglichen Symbol. Der Abstand eines Punktes vom Ursprung beschreibt die Amplitude des Signals. Sein Winkel gegenüber der I-Achse beschreibt die Phasenlage.
 
-[question:AF634]
-[question:AF635]
-[question:AF636]
+<margin>
+[picture:1060:a_konstellationsdiagramm:Konstellationsdiagramm]
+</margin>
+
+<indepth>
+Für mathematisch interessierte: Eine sinusförmige Schwingung kann mathematisch auch als *komplexer Zeiger* beschrieben werden, der sich mit der Kreisfrequenz $\omega_\mathrm{c}$ dreht:
+
+$s(t) = \Re\left\{A \cdot e^{j(\omega_\mathrm{c}t+\varphi)}\right\} = A\cos(\omega_\mathrm{c}t+\varphi)$
+
+Dabei beschreibt $A$ die Amplitude und $\varphi$ die anfängliche Phasenlage des Signals. Der komplexe Ausdruck lässt sich in zwei Teile zerlegen:
+
+$A \cdot e^{j(\omega_\mathrm{c}t+\varphi)} = \underbrace{A \cdot e^{j\varphi}}_{\text{Amplitude und Phase}} \cdot \underbrace{e^{j\omega_\mathrm{c}t}}_{\text{Träger}}$
+
+In einem Konstellationsdiagramm interessiert uns der erste Teil $A \cdot e^{j\varphi}$. Er beschreibt Amplitude und Phasenlage des Signalzustands. Die fortlaufende Drehung des eigentlichen Trägers wird dabei nicht dargestellt.
+</indepth>
+
+Diese Darstellung werden wir in den folgenden Abschnitten immer wieder verwenden: Mit ihr lassen sich die möglichen Symbole digitaler Modulationsverfahren übersichtlich darstellen und später auch die Zuordnung von Bitkombinationen zu diesen Symbolen beschreiben.

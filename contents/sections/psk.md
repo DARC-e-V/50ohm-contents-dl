@@ -1,33 +1,72 @@
-Die Phasenumtastung (Phase Shift Keying, PSK) ist ein digitales Modulationsverfahren, das zur Übertragung von Daten in der Telekommunikation und im Amateurfunk genutzt wird. PSK basiert auf der Veränderung der Phase eines Trägersignals, um verschiedene Datenzustände zu repräsentieren. Im Vergleich zu Amplituden- oder Frequenzmodulation ist PSK weniger anfällig für Amplitudenrauschen und kann bei gleicher Bandbreite eine höhere Datenrate erreichen.
+Bei der Phasenumtastung (Phase-Shift Keying, PSK) werden die verschiedenen Symbole durch unterschiedliche Phasenlagen eines Trägers dargestellt. Die Amplitude und die Frequenz des Trägers bleiben dabei gleich. Beim Wechsel von einem Symbol zum nächsten kann sich dagegen die Phasenlage ändern.
 
-[picture:705:psk:Phasenumtastung (Phase-shift Keying)]
+Die Abbildung [ref:a_psk] zeigt ein PSK-Signal im zeitlichen Verlauf. An den Symbolgrenzen erkennt man, dass die Schwingung mit einer anderen Phasenlage fortgesetzt wird.
 
-Prinzip der Phasenumtastung (PSK)
+<margin>
+[picture:705:a_psk:Phasenumtastung (Phase-Shift Keying)]
+</margin>
 
-In der einfachsten Form, dem **BPSK (Binary Phase Shift Keying)**, gibt es zwei Phasenwinkel, z. B. $\qty{0}{\degree}$ und $\qty{180}{\degree}$. Jeder Phasenwinkel repräsentiert einen Bitwert ($\num{0}$ oder $\num{1}$). Bei einem Wechsel der Bitwerte verändert sich die Phase des Trägers um $\qty{180}{\degree}$.
+---
 
-Für höhere Datenraten gibt es Varianten wie **QPSK (Quadrature Phase Shift Keying)** und **8-PSK**, bei denen vier bzw. acht Phasenlagen verwendet werden, um mehrere Bits pro Symbol zu übertragen:
-- **QPSK**: Verwendet vier Phasen ($\qty{0}{\degree}$, $\qty{90}{\degree}$, $\qty{180}{\degree}$ und $\qty{270}{\degree}$), um jeweils zwei Bits pro Symbol zu kodieren.
-- **8-PSK**: Verwendet acht Phasen, um drei Bits pro Symbol zu kodieren.
+Die einfachste Form ist die binäre Phasenumtastung (Binary Phase-Shift Keying, BPSK). Dabei stehen zwei verschiedene Phasenlagen und damit zwei mögliche Symbole zur Verfügung. Beispielsweise können die Phasenlagen $\qty{0}{\degree}$ und $\qty{180}{\degree}$ verwendet und den Bitwerten $0$ und $1$ zugeordnet werden. Die Abbildung [ref:a_psk_mapping] zeigt ein mögliches Mapping der beiden Bitwerte auf die beiden BPSK-Symbole.
 
-Signale in der Zeitdarstellung
+Da sich die beiden Symbole nur durch ihre Phasenlage unterscheiden und ihre Amplitude gleich ist, liegen die beiden Punkte im Konstellationsdiagramm gegenüberliegend auf einem Kreis.
 
-In der Zeitdarstellung eines PSK-Signals zeigt sich die Phasenumtastung als abrupter Wechsel im Phasenwinkel des Trägersignals, während die Amplitude konstant bleibt. Dies ist ein deutlicher Unterschied zur Amplituden- oder Frequenzmodulation, da die Höhe und Frequenz des Signals gleichbleiben, nur die Phase ändert sich bei jedem Symbolwechsel.
+<margin>
+[picture:1101:a_psk_mapping:BPSK im Konstellationsdiagramm]
+</margin>
 
-Beispiel: BPSK in der Zeitdarstellung
-- Bei BPSK ist das Signal in zwei Phasen gespalten: z. B. positive Amplitude für eine Phase ($\qty{0}{\degree}$) und negative Amplitude für die entgegengesetzte Phase ($\qty{180}{\degree}$).
-- In einem Zeit-Diagramm sieht man daher bei jedem Bitwechsel einen Sprung des Signals, z. B. von positiv nach negativ oder umgekehrt.
+<indepth>
+Spitzfindigkeit: Genaugenommen kann BPSK mit den Winkeln $\qty{0}{\degree}$ und $\qty{180}{\degree}$ auch als ein ASK-Verfahren betrachtet werden, bei dem die Amplitude des Trägersignals zwischen einem negativen und einem positiven Wert umgeschaltet wird. Eine Multiplikation mit $-1$ resultiert bei einem Sinus-Signal zu einer Phasenverschiebung um $\qty{180}{\degree}$:
 
-Beispiel: QPSK in der Zeitdarstellung
-- Hier sieht man vier verschiedene Phasenwinkel. Die Übergänge können ebenfalls abrupt sein, aber die Amplitude ändert sich nicht.
-- Da hier mehrere Phasenwinkel verwendet werden, sind die Phasensprünge kleiner, und die Kurve hat einen etwas „geglätteten“ Verlauf im Vergleich zu BPSK.
+$-\sin(\omega t)=\sin(\omega t+\qty{180}{\degree})$
 
-Wie die Signale zu erkennen sind
-
-In einem Oszilloskop- oder Phasen-Diagramm sind die Phasenübergänge sichtbar:
-- **Im Zeitbereich**: Ein abruptes Umkippen der Signalphase (positiv zu negativ oder zwischen verschiedenen Phasenlagen).
-- **Im Phasendiagramm** (oft als Constellation Diagram angezeigt): Jeder Phasenwinkel ist als Punkt auf einem Kreis dargestellt, der für die verschiedenen Zustände (Bits) steht. Bei einem sauberen Signal bleiben die Punkte stabil auf festen Positionen.
-
-PSK ist besonders nützlich in der digitalen Kommunikation, da es hohe Datenraten bei vergleichsweise robuster Übertragung erlaubt. Die Veränderung der Phase bei gleichbleibender Amplitude hilft, das Signal auch bei Rauschen und Interferenzen besser zu erkennen und damit eine stabilere Übertragung zu ermöglichen.
+Dies ist ein Spezialfall. Es wären übrigens auch andere Phasenwinkel wie z. B. $\qty{90}{\degree}$ und $\qty{270}{\degree}$ möglich, deren beide Symbolphasen ebenfalls um $\qty{180}{\degree}$ voneinander getrennt wären.
+</indepth>
 
 [question:AE401]
+
+---
+
+Mit mehr als zwei unterschiedlichen Phasenlagen können entsprechend mehr Symbole dargestellt werden. Dadurch lassen sich mehrere Bits zu einem Symbol zusammenfassen.
+
+---
+
+Bei der Quadraturphasenumtastung (Quadrature Phase-Shift Keying, QPSK) stehen vier unterschiedliche Phasenlagen und damit vier mögliche Symbole zur Verfügung. Da es vier mögliche Bitkombinationen aus zwei Bits gibt, können mit jedem Symbol zwei Bits übertragen werden.
+
+Zum Vergleich:
+
+* BPSK: $\num{2}$ Symbole → $\num{1}$ Bit pro Symbol
+* QPSK: $\num{4}$ Symbole → $\num{2}$ Bit pro Symbol
+* 8-PSK: $\num{8}$ Symbole → $\num{3}$ Bit pro Symbol
+
+[question:AE402]
+
+Schauen wir uns QPSK nun im Konstellationsdiagramm an. Die vier möglichen Symbole besitzen die gleiche Amplitude, unterscheiden sich aber durch ihre Phasenlage. Deshalb liegen alle vier Signalpunkte auf einem Kreis. Die Abbildung [ref:a_qpsk] zeigt ein mögliches Mapping der vier Bitkombinationen $00$, $01$, $10$ und $11$ auf die vier QPSK-Symbole.
+
+<margin>
+[picture:1059:a_qpsk:I/Q-Diagramm für ein QPSK-Mapping]
+</margin>
+
+---
+
+In diesem Beispiel werden folgende Phasenlagen verwendet:
+
+* $11$ entspricht $\qty{45}{\degree}$
+* $01$ entspricht $\qty{135}{\degree}$
+* $00$ entspricht $\qty{225}{\degree}$
+* $10$ entspricht $\qty{315}{\degree}$
+
+<margin>
+Das folgende Applet veranschaulicht die digitale QPSK-Modulation. In einem echten System wird das Signal durch Rauschen und andere Störungen beeinflusst. Dadurch liegen die empfangenen Signalpunkte nicht exakt auf den idealen Positionen, sondern weichen sowohl in ihrer Amplitude als auch in ihrer Phase davon ab. Das Applet simuliert dies, indem es Rauschen hinzufügt. Die Kreuze markieren die vier idealen QPSK-Symbole. Jeder farbige Punkt ist ein verrauschter Empfangswert. Der Empfänger ordnet ihn dem nächstgelegenen Symbol zu. Die farbig hinterlegten Bereiche sind die Entscheidungsbereiche des Empfängers. Solange ein verrauschter Empfangswert im Bereich des ursprünglich gesendeten Symbols liegt, wird es richtig erkannt. Überschreitet ein Punkt durch starkes Rauschen eine Grenze zu einem benachbarten Bereich, entscheidet sich der Empfänger für das falsche Symbol. Durch Kanalkodierung können diese Fehler jedoch korrigiert werden. Damit beschäftigen wir uns in einem späteren Abschnitt.
+
+[include:applet_qpsk]
+</margin>
+
+Die vier Phasenlagen sind jeweils um $\qty{90}{\degree}$ gegeneinander versetzt. Der Empfänger kann anhand der erkannten Phasenlage bestimmen, welches Symbol und damit welche Bitkombination übertragen wurde.
+
+Die Zuordnung der Bitkombinationen zu den einzelnen Phasenlagen ist nicht eindeutig festgelegt. Entscheidend ist zunächst nur, dass jedem Symbol eine eindeutige Bitkombination zugeordnet wird.
+
+In der Praxis wird das Mapping häufig so gewählt, dass sich die Bitkombinationen benachbarter Signalpunkte nur in einem Bit unterscheiden. Eine solche Zuordnung wird als *Gray-Code* bezeichnet. Wird durch Rauschen versehentlich ein benachbarter Signalpunkt erkannt, führt dies dadurch häufig nur zu einem einzelnen Bitfehler.
+
+Das Konstellationsdiagramm macht damit einen wesentlichen Unterschied zwischen ASK und PSK unmittelbar sichtbar: Bei ASK unterscheiden sich die Symbole durch ihren Abstand vom Ursprung und liegen in der Regel nur auf der positiven I-Achse, bei PSK dagegen durch ihren Winkel. Bei PSK liegen die Signalpunkte daher bei gleicher Amplitude auf einem Kreis.

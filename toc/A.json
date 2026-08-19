@@ -713,13 +713,41 @@
         },
         {
             "title": "Digitale Übertragungsverfahren",
-            "abstract": "Dieses Kapitel beleuchtet die Grundlagen und Anwendungen der digitalen Signalverarbeitung, die essenziell für die moderne Informationsverarbeitung ist.",
+            "abstract": "Dieses Kapitel beleuchtet die Grundlagen und Anwendungen der digitalen Übertragungsverfahren, die essenziell für die moderne Kommunikationi im Amateurfunk sind.",
             "ident": "a_digitale_uebertragungsverfahren",
             "video_url": null,
             "sections": [
                 {
-                    "title": "Phasenumtastung (PSK)",
+                    "title": "Symbole und Symbolrate",
+                    "ident": "symbole_symbolrate",
+                    "status": "alpha",
+                    "class": "A",
+                    "video_url": null
+                },
+                {
+                    "title": "I/Q-Darstellung und Konstellationsdiagramm",
+                    "ident": "iq_verfahren",
+                    "status": "alpha",
+                    "class": "A",
+                    "video_url": null
+                },
+                {
+                    "title": "Mapping",
+                    "ident": "mapping",
+                    "status": "alpha",
+                    "class": "A",
+                    "video_url": null
+                },
+                {
+                    "title": "Phasenumtastung: PSK und QPSK",
                     "ident": "psk",
+                    "status": "alpha",
+                    "class": "A",
+                    "video_url": null
+                },
+                {
+                    "title": "Quadraturamplitudenmodulation (QAM)",
+                    "ident": "qam",
                     "status": "alpha",
                     "class": "A",
                     "video_url": null
@@ -727,27 +755,6 @@
                 {
                     "title": "Symbolumschaltung und Bandbreite",
                     "ident": "symbolumschaltung_bandbreite",
-                    "status": "alpha",
-                    "class": "A",
-                    "video_url": null
-                },
-                {
-                    "title": "Mehrwertige Verfahren",
-                    "ident": "mehrwertige_verfahren",
-                    "status": "alpha",
-                    "class": "A",
-                    "video_url": null
-                },
-                {
-                    "title": "Quadraturamplitudenmodulation  (QAM)",
-                    "ident": "qam",
-                    "status": "alpha",
-                    "class": "A",
-                    "video_url": null
-                },
-                {
-                    "title": "Orthogonales Frequenzmultiplexverfahren (OFDM)",
-                    "ident": "ofdm",
                     "status": "alpha",
                     "class": "A",
                     "video_url": null
@@ -788,13 +795,6 @@
                     "video_url": null
                 },
                 {
-                    "title": "Mapping",
-                    "ident": "mapping",
-                    "status": "alpha",
-                    "class": "A",
-                    "video_url": null
-                },
-                {
                     "title": "Sende- und Empfangsketten",
                     "ident": "sende_empfangsketten",
                     "status": "alpha",
@@ -802,8 +802,22 @@
                     "video_url": null
                 },
                 {
+                    "title": "Orthogonales Frequenzmultiplexverfahren (OFDM)",
+                    "ident": "ofdm",
+                    "status": "alpha",
+                    "class": "A",
+                    "video_url": null
+                },
+                {
                     "title": "Synchronisation",
                     "ident": "synchronisation",
+                    "status": "alpha",
+                    "class": "A",
+                    "video_url": null
+                },
+                {
+                    "title": "Polarmodulation",
+                    "ident": "polarmodulation",
                     "status": "alpha",
                     "class": "A",
                     "video_url": null
@@ -889,20 +903,6 @@
                 {
                     "title": "Digitale Filter",
                     "ident": "digitale_filter",
-                    "status": "alpha",
-                    "class": "A",
-                    "video_url": null
-                },
-                {
-                    "title": "I/Q-Verfahren",
-                    "ident": "iq_verfahren",
-                    "status": "alpha",
-                    "class": "A",
-                    "video_url": null
-                },
-                {
-                    "title": "Polarmodulation",
-                    "ident": "polarmodulation",
                     "status": "alpha",
                     "class": "A",
                     "video_url": null
