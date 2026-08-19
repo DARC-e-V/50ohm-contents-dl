@@ -14,7 +14,7 @@ Die Probeprüfungen auf 50ohm.de helfen beim Üben. Maßgeblich für die tatsäc
 
 ---
 
-Die Prüfung kann nach den aktuellen DARC-Regularien durch den Ortsverbandsvorsitzenden, Distriktsvorsizenden, das DL-AJW-Referat oder von DL-AJW benannte Personen abgenommen werden. Bei besonderen Einschränkungen können begründete Ausnahmen ermöglicht werden.
+Die Prüfung kann nach den aktuellen DARC-Regularien durch den Ortsverbandsvorsitzenden, Distriktsvorsitzenden, einen AJW-Distriktsreferenten, das DL-AJW-Referat oder ein Vorstandsmitglied abgenommen werden. Die Durchführung kann von diesen Personen an ein anderes Mitglied delegiert werden. In begründeten Ausnahmefällen, etwa bei körperlichen Einschränkungen oder nachgewiesenen besonderen Vorkenntnissen, können entsprechende Ausnahmen zugelassen werden.
 
 <attention>
 Die DE-Prüfung ist keine Sendegenehmigung. Wer selbst Amateurfunkbetrieb durchführen möchte, benötigt eine erfolgreiche staatliche Amateurfunkprüfung und eine Zulassung der Bundesnetzagentur.
