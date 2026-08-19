@@ -20,7 +20,7 @@ Die Lesbarkeit wird subjektiv beurteilt. *R5* bedeutet einwandfrei lesbar, *R1* 
 
 [question:NF103]
 
-Bei SSB-Telefonie wird kein T-Wert angegeben. Ein einwandfrei lesbares Signal mit *S7* erhält daher den Rapport *57*. Ein Signal mit *S9* und weiteren $\qty{20}{\deci\bel}$ wird als *59 plus 20 dB* angegeben.
+Bei SSB-Telefonie wird kein T-Wert angegeben. Ein einwandfrei lesbares Signal mit *S7* erhält daher den Rapport *57*. Ein Signal mit *S9* und weiteren $\qty{20}{\decibel}$ wird als *59 plus 20 dB* angegeben.
 
 [question:BE204]
 [question:BE205]
