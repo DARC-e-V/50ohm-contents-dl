@@ -2,7 +2,7 @@ Ein wesentlicher Vorteil der digitalen Verarbeitung von Signalen besteht darin, 
 
 Hauptmerkmal der FIR-Filter ist, wie auch schon die Bezeichnung "finite" (zu Deutsch endlich) besagt, dass nur eine begrenzte Anzahl an Eingangssamples für die Berechnung eines Ausgangssamples herangezogen wird. IIR-Filter verwenden hingegen zusätzlich bereits berechnete Ausgangssamples, die auf den Eingang der Berechnung zurückgeführt werden. Durch diese Rückkopplung kann ein einzelnes Eingangssample theoretisch unbegrenzt lange Einfluss auf die folgenden Ausgangssamples haben.
 
-Digitale Filter können sowohl in Software auf einem DSP oder in einem SDR als auch in Hardware auf einem FPGA implementiert werden.
+Digitale Filter können sowohl in Software auf einem DSP als auch in programmierbarer Hardware auf einem FPGA implementiert werden. Darüber hinaus gibt es sogenannte Mixed Signal Frontends, die verschiedene Signalverarbeitungsfunktionen, wie beispielsweise Dezimationsfilter, zusammen mit AD/DA-Wandlern in einem Chip realisieren, um sie möglichst energieeffizient auszuführen und nachfolgende Signalverarbeitungsstufen zu entlasten.
 
 [question:AF631]
 
