@@ -3,10 +3,11 @@ Parasitäre Schwingungen entstehen vornehmlich in HF-Leistungsversträrker-Stufe
 [question:AJ212]
 [question:AJ213]
 
-%TODO DL9MJ Bild von Ferritperlen von DD3LL einfügen
+<margin>
+[photo:351:a_parasitics:Ferrit-Perlen an einem IC]
+</margin>
 
-Um parisitäre Schwingungen zu unterdrücken können in VHF-Sendern beispielsweise Ferrit-Perlen eingesetzt werden, die am Emitter des Leistungstransistors angebracht werden (möglichst nah am Transistor).
-Bei breitbandigen Kurzwellen-Endstufen kann ein Parallel-Widerstand am Transformator zu dessen Bedämpfung und somit Verringerung der Schwingneigung des Verstärkers verwendet werden.
+Um parisitäre Schwingungen zu unterdrücken können in VHF-Sendern beispielsweise Ferrit-Perlen (vgl. Abbildung [ref:a_parasitics]) eingesetzt werden, die am Emitter des Leistungstransistors angebracht werden (möglichst nah am Transistor). Bei breitbandigen Kurzwellen-Endstufen kann ein Parallel-Widerstand am Transformator zu dessen Bedämpfung und somit Verringerung der Schwingneigung des Verstärkers verwendet werden.
 
 [question:AJ217]
 [question:AF416]
