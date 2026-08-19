@@ -1,10 +1,10 @@
-Ein bereits seit Jahrzehnten bekanntes Verfahren findet seit einiger Zeit verstärkt Anwendung im Amateurfunk: die *Polarmodulation*.
+Ein bereits seit Jahrzehnten bekanntes Verfahren findet seit einiger Zeit verstärkt Anwendung im Amateurfunk: die *Polarmodulation* [index:Polarmodulation].
 
 Zu diesem Thema gibt es keine Prüfungsfrage. Aber die Polarmodulation ist ein spannendes Verfahren, das in Zukunft immer stärker in Amateurfunkgeräten eingesetzt werden wird. Daher sei sie hier kurz vorgestellt, als Blick über den Tellerrand. Wer zielgerichtet nur den Prüfungsstoff lernen will, kann das Thema getrost überschlagen.
 
 Die Polarmodulation basiert auf der Beobachtung, was passiert, wenn ich in ein beliebiges Signal einigermaßen schmaler Bandbreite zeitlich hinein zoome: Der einzelne Wellenzug sieht so aus wie eine Sinuswelle.
 
-Diese Sinuswelle ist definiert durch wenige Zahlen, nämlich Frequenz, Phase und Amplitude.  Wobei Frequenz und Phase miteinander verkoppelt sind: Wer mit einer bestimmten Grundfrequenz anfängt, aber dann bei jedem Wellenzug immer wieder dieselbe Phasenänderung vornimmt, landet bei einer anderen, versetzten Frequenz.
+Diese Sinuswelle ist definiert durch wenige Zahlen, nämlich Frequenz, Phase und Amplitude.  Wobei Frequenz und Phase miteinander verkoppelt sind: Wer mit einer bestimmten Grundfrequenz anfängt, aber dann bei jedem Wellenzug die Phase immer wieder in dieselbe Richtung verschiebt, landet bei einer anderen, versetzten Frequenz.
 
 Aus diesen Überlegungen ergibt sich das Verfahren der *Polarmodulation*.  Damit können beliebige Signale einigermaßen schmaler Bandbreite erzeugt werden, zum Beispiel SSB-Signale. Dazu müssen nur, ausgehend von einer Grundfrequenz, Phase und Amplitude des Signals gleichzeitig kontrollierbar sein.
 

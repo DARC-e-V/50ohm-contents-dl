@@ -1,4 +1,4 @@
-Wie wir in den vorherigen Abschnitten gesehen haben, haben Transistoren eine Kennlinie, die den Zusammenhang zwischen Eingangssignal (Basis-Emitter- oder Gate-Source-Spannung) und Ausgangssignal (Kollektor-/Drainstrom) darstellt. Hierbei gibt es im Bereich der Kennlinie verschiedene Abschnitte, in denen der Transistor eine lineare oder auch nichtlineare Charakteristik hat. Gerade Bereiche der Kennlinie, in denen eine Änderung der Steuergröße eine proportionale Änderung der Ausgangsgröße bewirkt, werden als linear bezeichnet. Andere Bereiche der Kennlinie, in denen eine Änderung der Steuergröße **keine** proportionale Änderung der Ausgangsgröße bewirkt, werden als nichtlinear bezeichnet.
+Wie wir in den vorherigen Abschnitten gesehen haben, haben Transistoren eine Kennlinie, die den Zusammenhang zwischen Eingangssignal (Basis-Emitter- oder Gate-Source-Spannung) und Ausgangssignal (Kollektor-/Drainstrom) darstellt. Hierbei gibt es im Bereich der Kennlinie verschiedene Abschnitte, in denen der Transistor eine lineare oder auch nichtlineare Charakteristik hat. Bereiche der Kennlinie, in denen eine Änderung der Steuergröße eine proportionale Änderung der Ausgangsgröße bewirkt, werden als linear bezeichnet. In linearer Darstellung sind diese Bereiche an einem geraden Verlauf, ohne Krümmung, zu erkennen. Andere Bereiche der Kennlinie, in denen eine Änderung der Steuergröße **keine** proportionale Änderung der Ausgangsgröße bewirkt, werden als nichtlinear bezeichnet.
 
 <margin>
 [picture:1085:a_kennlinien_transistor_arbeitspunkt:Vereinfachte Eingangskennlinie eines Transistors mit verschiedenen Arbeitspunkten]  
@@ -21,7 +21,7 @@ Zusammenfassung A-Betrieb:
 - Wirkungsgrad ca. $\qty{40}{\percent}$
 - sehr geringer Oberwellenanteil
 - Eignet sich gut für AM und SSB
-- Ein Ausgangsstrom fließt durch die gesamte Periode (Stromflusswinkel $\Theta =\qty{360}{\degree}$) des Eingangssignals
+- Ein Ausgangsstrom fließt über die gesamte Periode (Stromflusswinkel $\Theta =\qty{360}{\degree}$) des Eingangssignals
 
 <margin>
 [picture:1086:a_eingangsspannung:Beispiel für eine HF-Eingangsspannung $U_\mathrm{BE}$ eines Transistors]
@@ -29,10 +29,6 @@ Zusammenfassung A-Betrieb:
 </margin>
 
 [question:AD419]
-
-Die Ausgangsleistung eines Verstärkers kann durch Kenntnis des Arbeitspunktes und damit dessen ungefähren Wirkungsgrads grob berechnet werden. Hierbei berechnet man zunächst die Gleichspannungsleistung aus dem Produkt von Spannung und Strom, die dem Verstärker zugeführt wird. Anschließend multipliziert man diese Leistung mit dem numerischen Faktor des Wirkungsgrads, wobei $\qty{100}{\percent}$ einem Wirkungsgrad von $1$ entsprechen. Beispielsweise entspricht ein Wirkungsgrad von $\qty{40}{\percent}$ dann einem Faktor von $0,4$. Versuche nun die folgenden Aufgaben zu lösen:
-
-[question:AD424]
 
 % B-Betrieb des Verstärkers:
 
@@ -115,5 +111,9 @@ Fassen wir die gelernten Verstärkerklassen noch einmal in einer Übersicht zusa
 | Wirkungsgrad | $\qty{40}{\percent}$ | bis zu $\qty{80}{\percent}$ | $\qtyrange{50}{80}{\percent}$ | $\qtyrange{80}{87}{\percent}$ |
 | Stromflusswinkel | $\Theta = \qty{360}{\degree}$ | $\Theta = \qty{180}{\degree}$ | $\qty{180}{\degree} < \Theta < \qty{360}{\degree}$ | $\Theta < \qty{180}{\degree}$ |
 | Maßnahmen gegen Oberwellen | Filter | Gegentaktstufe oder Filter | Gegentaktstufe oder Filter | Filter |
+
+Die Ausgangsleistung eines Verstärkers kann durch Kenntnis des Arbeitspunktes und damit dessen ungefähren Wirkungsgrads grob berechnet werden. Hierbei berechnet man zunächst die Gleichspannungsleistung aus dem Produkt von Spannung und Strom, die dem Verstärker zugeführt wird. Anschließend multipliziert man diese Leistung mit dem numerischen Faktor des Wirkungsgrads, wobei $\qty{100}{\percent}$ einem Wirkungsgrad von $1$ entsprechen. Beispielsweise entspricht ein Wirkungsgrad von $\qty{40}{\percent}$ dann einem Faktor von $0,4$. Versuche nun die folgenden Aufgaben zu lösen:
+
+[question:AD424]
 
 Neben den klassischen Verstärkerklassen A, B, AB und C gibt es weitere hocheffiziente Verstärkerklassen wie die Klassen D, E und F. Bei Klasse-D- und Klasse-E-Verstärkern wird der Transistor gezielt als Schalter betrieben, sodass möglichst wenig Leistung im Transistor selbst verloren geht. Klasse-F-Verstärker nutzen zusätzlich abgestimmte Netzwerke für die Grundfrequenz und ausgewählte Oberwellen, um Strom- und Spannungsverläufe am Transistor günstig zu formen. Auf diese Weise können sehr hohe Wirkungsgrade erreicht werden. Solche Verstärker erfordern jedoch eine sorgfältige Schaltungsauslegung und sind im HF-Bereich häufig nur für einen begrenzten Frequenzbereich geeignet. Weitere Betriebsarten wie Klasse J oder Klasse S verfolgen ähnliche Ziele, sind für die Amateurfunkprüfung jedoch nicht relevant.
