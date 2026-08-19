@@ -35,4 +35,4 @@ und
 $ \lambda~[\text{in~} \unit{\meter}] = \frac{300}{f~[\text{in~} \unit{\mega\hertz}]}. $
 </tip>
 
-Bandgrenzen können vom Land und von den jeweiligen Nutzungsbestimmungen abhängen. Zum praktischen Hören wird deshalb ein aktueller Bandplan verwendet.
+Bandgrenzen können vom Land und den jeweiligen Nutzungsbestimmungen abhängen. Ein aktueller Bandplan ist daher beim praktischen Hören eine hilfreiche Orientierung.
