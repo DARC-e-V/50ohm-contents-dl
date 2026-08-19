@@ -13,4 +13,4 @@ Mit bestätigten SWL-QSL-Karten kannst du Diplome sammeln und später den Titel 
 
 vy 73 und 55!
 
-Wünschen Matthias DL9MJ und Flo DL1FLO
+Wünschen Matthias DL9MJ und Florian DL1FLO
