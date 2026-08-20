@@ -69,7 +69,7 @@ Wie in Deutschland gibt es in den einzelnen CEPT-Ländern unterschiedliche natio
 Durchquert man bei einer Reise ein Land, in dem die Amateurfunkzulassung nicht anerkannt wird, sollte man sich vorher informieren, ob Funkgeräte transportiert werden dürfen, und sich gegebenenfalls eine entsprechende Erlaubnis einholen. Das [DARC-Auslandsreferat](https://50ohm.de/ra) kann Mitgliedern bei der Klärung dieser Fragen helfen.
 </tip>
 
-Verlegt man seinen Wohnsitz länger als 3 Monate oder dauerhaft ins Ausland, kann man auf Grundlage der CEPT-Novice-Amateurfunk-Prüfungsbescheinigung oder der Harmonized Amateur Radio Examination Certificate (HAREC) dort vereinfacht eine Amateurfunkzulassung beantragen, ohne erneut eine Prüfung ablegen zu müssen. Das deutsche Amateurfunkzeugnis der Klasse E ist zugleich eine CEPT-Novice-Amateurfunk-Prüfungsbescheinigung und das Zeugnis der Klasse A ist gleichzeitig eine HAREC-Bescheinigung.
+Verlegt man seinen Wohnsitz länger als 3 Monate oder dauerhaft ins Ausland, kann man auf Grundlage der Harmonized Amateur Radio Examination Certificate (HAREC) Bescheinigung dort vereinfacht eine Amateurfunkzulassung beantragen, ohne erneut eine Prüfung ablegen zu müssen. Das deutsche Amateurfunkzeugnis der Klasse A ist gleichzeitig eine HAREC-Bescheinigung.
 
 [question:VB102]
 [question:VB103]
