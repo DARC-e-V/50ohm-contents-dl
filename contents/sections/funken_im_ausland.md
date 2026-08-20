@@ -4,12 +4,12 @@ Das Abkommen wurde durch die Mitgliedsstaaten der *Europäischen Konferenz der V
 Das Abkommen der CEPT besteht aus den in der Tabelle [ref:n_funken_im_ausland_cept_empfehlungen] genannten Reports (Berichte) und Recommendations (Empfehlungen). Keine Sorge, die einzelnen Empfehlungen muss man nicht auswendig lernen. In der Prüfung reicht es, die wichtigsten Regelungen zu kennen. In den Prüfungsfragen wird die deutsche Übersetzung ECC-Empfehlung verwendet oder auch schlicht weg gelassen.
 
 <margin>
-| l: CEPT-Dokument | X: Erläuterung |
-| ECC Report 89 | Klasse N |
-| ERC Report 32 | Grundlage für ECC Recommendation (05) 06 |
-| ECC Recommendation (05) 06 | Klasse E |
-| ECC Recommendation T/R 61-01 | Klasse A |
-| ECC Recommendation T/R 61-02 | HAREC |
+| l: CEPT-Dokument | Bezeichnung | X: Erläuterung |
+| ECC Report 89 | Radio Amateur Entry Level Examination and Licence | Lehrplan für die Entry Level License (in Deutschland Klasse N) |
+| ECC Recommendation (05) 06 | CEPT Novice Radio Amateur Licence | Empfehlung zur kurzzeitigen Nutzung der Novice Licence im Ausland |
+| ERC Report 32 | | Lehrplan für die Novice License (in Deutschland Klasse E) |
+| ECC Recommendation T/R 61-01 | CEPT Radio Amateur Licence | Empfehlung zur kurzzeitigen Nutzung der HAREC-Bescheinung im Ausland |
+| ECC Recommendation T/R 61-02 | Harmonized Amateur Radio Examination Certificate (HAREC) | Gegenseitige Anerkennung von Amateurfunkzeugnissen der CEPT Radio Amateur Licence bei Umzug ins Ausland und Lehrplan (in Deutschland Klasse A) |
 [table:n_funken_im_ausland_cept_empfehlungen:CEPT-Empfehlungen]
 </margin>
 
