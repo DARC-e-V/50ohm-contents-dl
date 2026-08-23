@@ -1,0 +1,134 @@
+{
+    "sections": [
+        {
+            "title": "Prüfungsfragen im Prüfungsteil: Kenntnisse von Vorschriften",
+            "sections": [
+                {
+                    "title": "Amateurfunkverordnung (AFuV)",
+                    "sections": [
+                        {
+                            "title": "Frequenzbereiche und Frequenznutzungsparameter",
+                            "questions": [
+                                {
+                                    "number": "SWL004",
+                                    "class": "SWL",
+                                    "question": "Welchem Amateurfunkband entspricht der Frequenzbereich von $\\qtyrange{1810}{2000}{\\kilo\\hertz}$?",
+                                    "answer_a": "$\\qty{160}{\\meter}$",
+                                    "answer_b": "$\\qty{80}{\\meter}$",
+                                    "answer_c": "$\\qty{40}{\\meter}$",
+                                    "answer_d": "$\\qty{20}{\\meter}$"
+                                },
+                                {
+                                    "number": "SWL005",
+                                    "class": "SWL",
+                                    "question": "Welchem Amateurfunkband entspricht der Frequenzbereich von $\\qtyrange{3,5}{3,8}{\\mega\\hertz}$?",
+                                    "answer_a": "$\\qty{80}{\\meter}$",
+                                    "answer_b": "$\\qty{160}{\\meter}$",
+                                    "answer_c": "$\\qty{40}{\\meter}$",
+                                    "answer_d": "$\\qty{20}{\\meter}$"
+                                },
+                                {
+                                    "number": "SWL006",
+                                    "class": "SWL",
+                                    "question": "Welchem Amateurfunkband entspricht der Frequenzbereich von $\\qtyrange{7,0}{7,2}{\\mega\\hertz}$?",
+                                    "answer_a": "$\\qty{40}{\\meter}$",
+                                    "answer_b": "$\\qty{160}{\\meter}$",
+                                    "answer_c": "$\\qty{80}{\\meter}$",
+                                    "answer_d": "$\\qty{20}{\\meter}$"
+                                },
+                                {
+                                    "number": "SWL007",
+                                    "class": "SWL",
+                                    "question": "Welchem Amateurfunkband entspricht der Frequenzbereich von $\\qtyrange{14}{14,35}{\\mega\\hertz}$?",
+                                    "answer_a": "$\\qty{20}{\\meter}$",
+                                    "answer_b": "$\\qty{160}{\\meter}$",
+                                    "answer_c": "$\\qty{80}{\\meter}$",
+                                    "answer_d": "$\\qty{40}{\\meter}$"
+                                },
+                                {
+                                    "number": "SWL008",
+                                    "class": "SWL",
+                                    "question": "Welchem Amateurfunkband entspricht der Frequenzbereich von $\\qtyrange{21}{21,45}{\\mega\\hertz}$?",
+                                    "answer_a": "$\\qty{15}{\\meter}$",
+                                    "answer_b": "$\\qty{10}{\\meter}$",
+                                    "answer_c": "$\\qty{2}{\\meter}$",
+                                    "answer_d": "$\\qty{70}{\\centi\\meter}$"
+                                },
+                                {
+                                    "number": "SWL009",
+                                    "class": "SWL",
+                                    "question": "Welchem Amateurfunkband entspricht der Frequenzbereich von $\\qtyrange{28}{29,7}{\\mega\\hertz}$?",
+                                    "answer_a": "$\\qty{10}{\\meter}$",
+                                    "answer_b": "$\\qty{15}{\\meter}$",
+                                    "answer_c": "$\\qty{2}{\\meter}$",
+                                    "answer_d": "$\\qty{70}{\\centi\\meter}$"
+                                },
+                                {
+                                    "number": "SWL010",
+                                    "class": "SWL",
+                                    "question": "Welchem Amateurfunkband entspricht der Frequenzbereich von $\\qtyrange{144}{146}{\\mega\\hertz}$?",
+                                    "answer_a": "$\\qty{2}{\\meter}$",
+                                    "answer_b": "$\\qty{15}{\\meter}$",
+                                    "answer_c": "$\\qty{10}{\\meter}$",
+                                    "answer_d": "$\\qty{70}{\\centi\\meter}$"
+                                },
+                                {
+                                    "number": "SWL011",
+                                    "class": "SWL",
+                                    "question": "Welchem Amateurfunkband entspricht der Frequenzbereich von $\\qtyrange{430}{440}{\\mega\\hertz}$?",
+                                    "answer_a": "$\\qty{70}{\\centi\\meter}$",
+                                    "answer_b": "$\\qty{15}{\\meter}$",
+                                    "answer_c": "$\\qty{10}{\\meter}$",
+                                    "answer_d": "$\\qty{2}{\\meter}$"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "title": "Weitere Gesetze, Vorschriften und Bestimmungen",
+                    "sections": [
+                        {
+                            "title": "Gesetz über den Datenschutz und den Schutz der Privatsphäre in der Telekommunikation und bei digitalen Diensten  (TDDDG)",
+                            "questions": [
+                                {
+                                    "number": "SWL001",
+                                    "class": "SWL",
+                                    "question": "Darf eine Amateurfunkstelle zum Abhören des nicht-öffentlich gesprochenen Wortes verwendet werden?",
+                                    "answer_a": "Das Abhören des nicht-öffentlich gesprochenen Wortes ist ein Straftatbestand.",
+                                    "answer_b": "Der Betreiber einer Amateurfunkstation gilt als sachkundige Person und darf daher selbst entscheiden, auf welchen Frequenzen er hören darf.",
+                                    "answer_c": "Das Abhören des nicht-öffentlich gesprochenen Wortes bedarf einer besonderen Zulassung der BNetzA.",
+                                    "answer_d": "Jeder ist dazu berechtigt, wenn er dazu technisch zugelassene Empfänger benutzt."
+                                },
+                                {
+                                    "number": "SWL002",
+                                    "class": "SWL",
+                                    "question": "Bei welcher Handlung wird das Fernmeldegeheimnis verletzt?",
+                                    "answer_a": "Bei Empfang, Verwertung oder Weitergabe von Nachrichten, die nicht für Funkamateure, die Allgemeinheit oder einen unbestimmten Personenkreis bestimmt sind.",
+                                    "answer_b": "Bei Verwertung oder Weitergabe von Gesprächsinhalten und Daten aus Amateurfunkverbindungen, an denen der Funkamateur nicht selbst beteiligt war.",
+                                    "answer_c": "Bei Verwertung oder Weitergabe von Gesprächsinhalten und Daten aus Amateurfunkverbindungen, unabhängig davon, ob der Funkamateur selbst beteiligt war.",
+                                    "answer_d": "Bei Aufzeichnung und Weitergabe von Gesprächsinhalten und Daten aus Amateurfunkverbindungen, insbesondere, wenn die Weitergabe an Nicht-Funkamateure erfolgt."
+                                },
+                                {
+                                    "number": "SWL003",
+                                    "class": "SWL",
+                                    "question": "Wie hat sich eine Person zu verhalten, die Nachrichten empfängt, die <u>nicht</u> für Funkamateure, die Allgemeinheit oder einen unbestimmten Personenkreis bestimmt sind?",
+                                    "answer_a": "Sie darf den Inhalt der Nachrichten sowie die Tatsache ihres Empfangs anderen nicht mitteilen. Das gilt nicht in Not- und Katastrophenfällen.",
+                                    "answer_b": "Sie darf Dritten zwar die Tatsache des Empfangs mitteilen, aber nicht den Inhalt und die näheren Umstände. Das gilt auch in Not- und Katastrophenfällen.",
+                                    "answer_c": "Sie darf anderen Funkamateuren zwar die Tatsache des Empfangs mitteilen, aber nicht den Inhalt.",
+                                    "answer_d": "Sie hat sofort den Empfänger auszuschalten und die Bundesnetzagentur zu informieren."
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "metadata": {
+        "edition": "25. Mai 2023",
+        "issued_on": "2023-05-25",
+        "valid_from": "2023-05-25",
+        "source": "DARC Prüfungsfragen für die DE-Prüfung"
+    }
+}
