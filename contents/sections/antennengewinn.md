@@ -4,7 +4,7 @@ Im Kapitel Dezibel wurde schon angedeutet, dass die Zusätze $\unit{\dBd}$ und $
 
 Der *Isotropstrahler* (vgl. Abbildung [ref:e_Kugelstrahler]) ist eine gedachte, hypothetische Antenne, die in alle Richtungen gleich stark abstrahlt. Weist eine real vorhandene Antenne eine Richtwirkung auf, so ist die Abstrahlung in bestimmten Richtungen stärker und in anderen Richtungen schwächer als sie beim hypothetischen Isotropstrahler wäre. 
 
-<margin>
+<margin> 
 [picture:751:e_Kugelstrahler:Isotroper Strahler in der Mitte einer Kugel, der an allen Stellen der Kugeloberfläche die gleiche Strahlungsleistung erzeugt]
 </margin>
 
