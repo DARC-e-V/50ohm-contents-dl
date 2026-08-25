@@ -1,6 +1,6 @@
 Eine einfache Empfangsstation besteht aus drei Teilen:
 
-* einem Empfänger oder einem Transceiver, der nur zum Empfang benutzt wird
+* einem Empfänger
 * einer passenden Antenne
 * einer Verbindung zwischen Antenne und Gerät
 

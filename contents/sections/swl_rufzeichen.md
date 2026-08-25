@@ -23,7 +23,7 @@ Hier solltest du den oben verlinkten Rufzeichenplan der Bundesnetzagentur zu Rat
 [question:BD105]
 
 <indepth>
-Auch das Prefix DE ist Deutschland zugeteilt und könnte auch von der Behörde für Amateurfunkrufzeichen verwendet werden. Bei der Auswahl der amateurfunkinternen Landeskenner nach dem zweiten Weltkrieg hatte man vonseiten der damals zuständigen Hauptverwaltung für das Post- und Fernmeldewesen des Vereinigten Wirtschaftsgebietes *DE* von vornherein außer Acht gelassen wegen der Verwechslungsgefahr mit der Abkürzung *de* (= von) im CW-Verkehr. Zudem stand *DE* schon seit 1925 als Abkürzung für *Deutsche Empfangsstation* fest.
+Auch das Präfix DE ist Deutschland zugeteilt und könnte auch von der Behörde für Amateurfunkrufzeichen verwendet werden. Bei der Auswahl der amateurfunkinternen Landeskenner nach dem zweiten Weltkrieg hatte man vonseiten der damals zuständigen Hauptverwaltung für das Post- und Fernmeldewesen des Vereinigten Wirtschaftsgebietes *DE* von vornherein außer Acht gelassen wegen der Verwechslungsgefahr mit der Abkürzung *de* (= von) im CW-Verkehr. Zudem stand *DE* schon seit 1925 als Abkürzung für *Deutsche Empfangsstation* fest.
 
 Ein DE-Kennzeichen sieht also ähnlich aus, ist aber kein Amateurfunkrufzeichen der Bundesnetzagentur. Es kennzeichnet eine deutsche Empfangsstation und berechtigt nicht zum Senden.
 </indepth>

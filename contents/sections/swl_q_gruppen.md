@@ -1,4 +1,4 @@
-Q-Gruppen bestehen aus drei Buchstaben und beginnen mit *Q*. Sie wurden für die schnelle Telegrafie entwickelt, werden aber im Amateurfunk auch im Sprechfunk benutzt. Mit Fragezeichen sind viele Gruppen eine Frage, ohne Fragezeichen eine Aussage oder Aufforderung.
+Q-Gruppen bestehen aus drei Buchstaben und beginnen mit *Q*. Sie wurden für die Telegrafie entwickelt, werden aber im Amateurfunk auch im Sprechfunk benutzt. Mit Fragezeichen sind viele Gruppen eine Frage, ohne Fragezeichen eine Aussage oder Aufforderung.
 
 <margin>
 | l: Gruppe | X: Bedeutung |
