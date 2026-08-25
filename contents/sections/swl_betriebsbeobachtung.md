@@ -8,7 +8,7 @@ Bei einer DX-Pedition oder einem großen Pile-up arbeitet die gesuchte Station o
 
 Für den SWL ist Split eine besondere Hörübung. Man muss darauf vertrauen, dass die DX-Station das Rufzeichen der Gegenstation korrekt nennt. Nur wenn beide Rufzeichen eindeutig feststehen, ist der Hörbericht vollständig. 
 
-Falls das Funkgerät zwei VFOs hat, kann die DX-Station auf einem VFO und die Gegenstation auf dem anderen VFO eingestellt werden. Durch umschalten von VFO A auf VFO B kann der Gegenstation auch zugehört werden.
+Falls das Funkgerät zwei VFOs hat, kann die DX-Station auf einem VFO und die Gegenstation auf dem anderen VFO eingestellt werden. Durch Umschalten von VFO A auf VFO B kann der Gegenstation auch zugehört werden.
 
 <tip>
 Im Contest werden Rufzeichen sehr schnell genannt. Notiere zunächst das sicher verstandene Fragment und bestätige es beim nächsten Durchgang.
