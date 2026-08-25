@@ -3,11 +3,11 @@ Das *SWL-Logbuch* [index:Logbuch] ist das Gedächtnis der Empfangsstation. Es ka
 Mindestens folgende Angaben sind sinnvoll:
 
 * Datum und Uhrzeit in UTC
-* Rufzeichen der gehörten Station
-* Rufzeichen der Gegenstation
 * Frequenz oder Band
 * Übertragungsverfahren
+* Rufzeichen der gehörten Station
 * Empfangsrapport
+* Rufzeichen der Gegenstation
 
 Zusätzlich können Empfänger, Antenne, eigener Standort, Störungen und besondere Ausbreitungsbedingungen notiert werden.
 

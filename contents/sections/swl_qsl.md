@@ -2,13 +2,13 @@ Mit einer *SWL-QSL-Karte* bittet ein Hörer eine gehörte Amateurfunkstation um 
 
 Eine SWL-QSL-Karte enthält mindestens:
 
+* die eigene SWL-Nummer oder das DE-Kennzeichen
 * das Rufzeichen der gehörten und angeschriebenen Station (TO RADIO)
-* das Rufzeichen ihrer Gegenstation, häufig als *QSO with* oder *Working* (WKG) bezeichnet
 * Datum und Uhrzeit in UTC
 * Frequenz oder Band
 * Übertragungsverfahren
 * den Empfangsrapport
-* die eigene SWL-Nummer oder das DE-Kennzeichen
+* das Rufzeichen ihrer Gegenstation, häufig als *QSO with* oder *Working* (WKG) bezeichnet
 
 [question:BG105]
 
