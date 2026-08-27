@@ -50,8 +50,8 @@ Aus dem [Rufzeichenplan](https://50ohm.de/rzp) entnommen
 * Zur Beantragung ist ein Stationsverantwortlicher zu benennen
 * Muss selbst Funkamateur mit Zulassung sein
 * Rufzeichenklasse muss der für die Klubstation gleich sein
-* Wird Inhaber eines auf 5 Jahre zugeteilten Rufzeichens
-* Verlängerung muss rechtzeitig beantragt werden
+* Wird in der Regel unbefristet zugeteilt
+* Befristungen sind möglich: Siehe [Rufzeichenplan](https://50ohm.de/rzp) 
 * Verwendung erst nach Zuteilung möglich
 
 ---

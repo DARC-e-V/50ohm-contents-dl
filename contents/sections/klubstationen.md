@@ -33,7 +33,7 @@ Die folgenden Fragen können wieder mit Hilfe des [Rufzeichenplans](https://50oh
 [question:BD101]
 [question:BD103]
 
-Um ein Rufzeichen für eine Klubstation zu beantragen, muss die Gruppe eine Person als Stationsverantwortlichen benennen, die selber Funkamateur mit Zulassung zur Teilnahme am Amateurfunkdienst ist. Der Stationsverantwortliche wird Inhaber des Rufzeichens, das auf fünf Jahre befristet zugeteilt wird. Eine Verlängerung muss rechtzeitig beantragt werden. Das Rufzeichen für die Klubstation darf erst verwendet werden, wenn die Zuteilung erfolgt ist.
+Um ein Rufzeichen für eine Klubstation zu beantragen, muss die Gruppe eine Person als Stationsverantwortlichen benennen, die selber Funkamateur mit Zulassung zur Teilnahme am Amateurfunkdienst ist. Der Stationsverantwortliche wird Inhaber des Rufzeichens, das in der Regel unbefristet zugeteilt wird. Für spezielle Klubstationen, wie z. B. Notfunkklubstationen, wird das Rufzeichen befristet auf 5 Jahre zugeteilt. Die genauen Bestimmungen können immer im [Rufzeichenplan](https://50ohm.de/rzp) nachgelesen werden. Das Rufzeichen für die Klubstation darf erst verwendet werden, wenn die Zuteilung erfolgt ist.
 
 [question:VD401]
 [question:VD402]
