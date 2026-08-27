@@ -1,0 +1,25 @@
+% Author: Prof. Dr. Matthias Jung, DL9MJ
+% Year: 2024
+\begin{circuitikz}[european]
+    \def\base{2.0}
+
+    \draw[ultra thick](1*\base,0.0)   -- ++ (0,3.0) coordinate(h1);
+    \draw[ultra thick, DARCorange](2*\base,0.0) -- ++ (0,2.0) coordinate(h2);
+    \draw[ultra thick, DARCorange](3*\base,0.0) -- ++ (0,1.5) coordinate(h3);
+    \draw[ultra thick, DARCorange](4*\base,0.0) -- ++ (0,1.0) coordinate(h4);
+
+    \draw[DARCred, dashed] (h1) -- (h1-|h4);
+    \draw[DARCred, dashed] (h2) -- (h2-|h1);
+    \draw[DARCred, dashed] (h2) -- (h2-|h4);
+
+    \draw[DARCred, Triangle-Triangle] (h1-|h2) -- (h2) node[midway, anchor=west] () {$\Delta \geq \qty{40}{\decibel}$};
+
+    \draw(5.25,0.0) ;
+    \draw(1*\base,0) node[align=center, anchor=north] () {$f_\text{0}$\\1 Harm.};
+    \draw(2*\base,0) node[align=center, anchor=north] () {1. OW\\2 Harm.};
+    \draw(3*\base,0) node[align=center, anchor=north] () {2. OW\\3 Harm.};
+    \draw(4*\base,0) node[align=center, anchor=north] () {3. OW\\4 Harm.};
+
+	\draw[-Triangle](0.0,0.0) -- (9.0,0.0) node[anchor=west] () {$f$};
+	\draw[-Triangle](0.0,0.0) -- (0.0,4.0) node[anchor=south] () {$A$};
+\end{circuitikz}

@@ -40,7 +40,7 @@ Dass dieses Thema sehr wichtig ist, zeigt sich an der großen Zahl von Prüfungs
 </margin>
 
 <margin>
-[photo:320:e_ua_tiefpass_selbstbau:Selbgebautes Tiefpassfilters]
+[photo:320:e_ua_tiefpass_selbstbau:Selbgebautes Tiefpassfilter]
 </margin>
 
 ---

@@ -1,0 +1,202 @@
+% Author: Prof. Dr. Matthias Jung, DL9MJ
+% Year: 2026
+%
+% Vergleich der Grenzwerte nach ETSI und AFuV 33/2007 (2)
+% Angaben in dBc
+
+\begin{tikzpicture}
+
+\begin{axis}[
+    axis on top,
+    height=5cm,
+    scale only axis,
+    width=\linewidth*\getDarcImageFactor,
+    xmin=0.15,
+    xmax=3000,
+    ymin=-75,
+    log ticks with fixed point,
+    xmode=log,
+    xlabel={Frequenz in \unit{\mega\hertz}},
+    ylabel={Grenzwert in dBc},
+    %xtick={0.15,1.5,15,150,1500,3000},
+    %xticklabels={
+    %    $0{,}15$,
+    %    $1{,}5$,
+    %    $15$,
+    %    $150$,
+    %    $1500$,
+    %    $3000$
+    %},
+    ytick={-75,-70,-65,-60,-55,-50,-45,-40,-35,-30},
+    %grid=major,
+    %major grid style={
+    %    draw=DARCgray!35,
+    %    line width=0.4pt
+    %},
+    legend style={
+        at={(0.5,-0.2)},
+        anchor=north,
+        draw=none,
+        legend columns=4,
+        font=\footnotesize,
+        /tikz/every even column/.append style={column sep=0.1cm}
+    }
+]
+
+% AFU Bänder:
+
+%2,2km
+\fill[color=DARCgray!50!white](axis cs: 0.1357,-100) rectangle (0.1378,100);
+%630m
+\fill[color=DARCgray!50!white](axis cs: 0.472,-100) rectangle (0.479,100);
+%160m
+\fill[color=DARCgray!50!white](axis cs: 1.81,-100) rectangle (2.0,-100);
+%80m
+\fill[color=DARCgray!50!white](axis cs: 3.50,-100) rectangle (3.8,100);
+%60m
+\fill[color=DARCgray!50!white](axis cs: 5.3515,-100) rectangle (5.3665,100);
+%40m
+\fill[color=DARCgray!50!white](axis cs: 7.0,-100) rectangle (7.2,100);
+%30m
+\fill[color=DARCgray!50!white](axis cs: 10.1,-100) rectangle (10.15,100);
+%20m
+\fill[color=DARCgray!50!white](axis cs: 14.0,-100) rectangle (14.35,100);
+%17m
+\fill[color=DARCgray!50!white](axis cs: 18.068,-100) rectangle (18.168,100);
+%15m
+\fill[color=DARCgray!50!white](axis cs: 21.0,-100) rectangle (21.45,100);
+%12m
+\fill[color=DARCgray!50!white](axis cs: 24.89,-100) rectangle (24.99,100);
+%10m
+\fill[color=DARCgray!50!white](axis cs: 28.0,-100) rectangle (29.7,100);
+%6m
+\fill[color=DARCgray!50!white](axis cs: 50.0,-100) rectangle (52.0,100);
+%4m
+\fill[color=DARCgray!50!white](axis cs: 70.0,-100) rectangle (70.5,100);
+%2m
+\fill[color=DARCgray!50!white](axis cs: 144.0,-100) rectangle (146.0,100);
+%70cm
+\fill[color=DARCgray!50!white](axis cs: 430.0,-100) rectangle (440.0,100);
+%23cm
+\fill[color=DARCgray!50!white](axis cs: 1240.0,-100) rectangle (1300.0,100);
+%13cm
+\fill[color=DARCgray!50!white](axis cs: 2320.0,-100) rectangle (2450.0,100);
+
+% --------------------------------------------------------------------------
+% ETSI, 5 W
+%
+% -(43 + 10 log10(5 W)) = -49.9897 dBc
+% Im Diagramm sinnvoll auf -50 dBc gerundet.
+% --------------------------------------------------------------------------
+
+\addplot[
+    DARCgreen,
+    very thick
+]
+coordinates {
+    (0.15,-50)
+    (3000,-50)
+};
+\addlegendentry{ETSI: \qty{5}{\watt}}
+
+
+% --------------------------------------------------------------------------
+% ETSI, 100 W
+%
+% Rechnerisch:
+% -(43 + 10 log10(100 W)) = -63 dBc
+%
+% Unterhalb 30 MHz gilt laut Tabelle jedoch der absolute Grenzwert
+% von -50 dBc.
+% --------------------------------------------------------------------------
+
+\addplot[
+    DARCorange,
+    very thick
+]
+coordinates {
+    (0.15,-50)
+    (30,-50)
+    (30,-63)
+    (3000,-63)
+};
+\addlegendentry{ETSI: \qty{100}{\watt}}
+
+
+% --------------------------------------------------------------------------
+% ETSI, 750 W
+%
+% Rechnerisch:
+% -(43 + 10 log10(750 W)) = -71.75 dBc
+%
+% Unterhalb 30 MHz: -50 dBc
+% Ab 30 MHz:        -70 dBc
+% --------------------------------------------------------------------------
+
+\addplot[
+    DARCred,
+    very thick
+]
+coordinates {
+    (0.15,-50)
+    (30,-50)
+    (30,-70)
+    (3000,-70)
+};
+\addlegendentry{ETSI: \qty{750}{\watt}}
+
+
+% --------------------------------------------------------------------------
+% Vfg. 33/2007 (2)
+%
+% 0.15 ... 1.7 MHz:  -60 dBc
+% 1.7  ... 35 MHz:   -40 dBc
+%
+% 35 ... 50 MHz:
+%
+%   -(40 + 129.1 log10(f / 35))
+%
+% 50 ... 1000 MHz:   -60 dBc
+% 1000 ... 3000 MHz: -50 dBc
+% --------------------------------------------------------------------------
+
+\addplot[
+    DARCblue,
+    very thick
+]
+coordinates {
+    (0.15,-60)
+    (1.7,-60)
+    (1.7,-40)
+    (35,-40)
+};
+\addlegendentry{Vfg. 33/2007 (2)}
+
+% Übergang von 35 MHz bis 50 MHz
+\addplot[
+    DARCblue,
+    very thick,
+    domain=35:50,
+    samples=100,
+    forget plot
+]
+{
+    -(40 + 129.1 * ln(x/35) / ln(10))
+};
+
+% Ab 50 MHz
+\addplot[
+    DARCblue,
+    very thick,
+    forget plot
+]
+coordinates {
+    (50,-60)
+    (1000,-60)
+    (1000,-50)
+    (3000,-50)
+};
+
+\end{axis}
+
+\end{tikzpicture}
