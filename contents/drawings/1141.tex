@@ -1,0 +1,17 @@
+% Author: Dr. Matthias Jung, DL9MJ
+% Year: 2026
+\begin{circuitikz}[american]
+    \draw (0, 1.5) node [ocirc](I1){};
+    \draw (0,-1.5) node [ocirc](I2){};
+    \draw (I1) to [european resistor, l={$R_1=\qty{200}{\ohm}$}] ++(3,0) coordinate(C1) 
+               to [european resistor, l={$R_2=\qty{200}{\ohm}$}] ++(3,0) coordinate(C2)
+               to [european resistor, l={$R_8=\qty{200}{\ohm}$},-*] ++(3,0) coordinate(C3)
+               to [short] ++(0,-3)
+               to [european resistor, l={$R_4=\qty{150}{\ohm}$}] (I2);
+    \draw (C1) to [short, *-] ++(0,-2)
+               to [european resistor, l ={$R_3=\qty{100}{\ohm}$}] ++(3,0)
+               to [european resistor, l_={$R_6=\qty{100}{\ohm}$}, -*] ++(0,2);
+    \draw (C2) to [european resistor, l_={$R_5=\qty{100}{\ohm}$}] ++(0,2)
+               to [european resistor, l ={$R_7=\qty{100}{\ohm}$}] ++(3,0)
+               to [short] (C3);
+\end{circuitikz}

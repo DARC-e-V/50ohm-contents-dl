@@ -11,7 +11,7 @@ Im Schritt 2 fassen wir nun die Parallelschaltungen zusammen. Da hier zwei $\qty
 Im letzten Schritt 3 addieren wir alle verbleibenden Widerstandswerte der Reihenschaltung. Daraus ergibt sich ein Gesamtwiderstand von $\qty{550}{\ohm}$ wie in den Abbildungen [ref:e_widerstandsnetzwerk_schritt2] und [ref:e_widerstandsnetzwerk_schritt3] gezeigt.
 
 <margin>
-[picture:306:e_widerstandsnetzwerk_schritt0:Schritt 0 - Ausgangsschaltung]
+[picture:1141:e_widerstandsnetzwerk_schritt0:Schritt 0 - Ausgangsschaltung]
 [picture:816:e_widerstandsnetzwerk_schritt1:Schritt 1 - Reihenschaltungen zusammengefasst]
 [picture:817:e_widerstandsnetzwerk_schritt2:Schritt 2 - Parallelschaltungen zusammengefasst]
 [picture:818:e_widerstandsnetzwerk_schritt3:Schritt 3 - Reihenschaltung zusammengefasst]
