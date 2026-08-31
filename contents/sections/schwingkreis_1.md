@@ -17,12 +17,12 @@ In Schritt (2) ersetzen wir den Widerstand $R_2$ durch den Kondensator $C_1$. An
 
 ---
 
-Wir halten fest: Ein Tiefpass ist zunächst nichts anderes als ein Spannungsteiler. Deshalb können wir ihn im Folgenden auch genau so betrachten. In Abbildung [ref:e_wiederstaende_tiefpass] sind die Widerstandsverläufe in Abhängigkeit von der Frequenz nochmals dargestellt. Betrachten wir zunächst tiefe Frequenzen: In diesem Fall ist der Widerstand des Kondensators groß, sodass am Ausgang eine hohe Spannung anliegt. Steigt die Frequenz, wird der Widerstand des Kondensators zunehmend kleiner, und gemäß dem Prinzip des Spannungsteilers nimmt auch die Ausgangsspannung ab.
+Wir halten fest: Ein Tiefpass ist zunächst nichts anderes als ein Spannungsteiler. Deshalb können wir ihn im Folgenden auch genau so betrachten. In Abbildung [ref:e_widerstaende_tiefpass] sind die Widerstandsverläufe in Abhängigkeit von der Frequenz nochmals dargestellt. Betrachten wir zunächst tiefe Frequenzen: In diesem Fall ist der Widerstand des Kondensators groß, sodass am Ausgang eine hohe Spannung anliegt. Steigt die Frequenz, wird der Widerstand des Kondensators zunehmend kleiner, und gemäß dem Prinzip des Spannungsteilers nimmt auch die Ausgangsspannung ab.
 
 Auf diese Weise ergibt sich der Spannungsverlauf, wie er in Abbildung [ref:e_tiefpass_frequenzgang] gezeigt ist. Damit ist auch die Kernidee des Tiefpasses erklärt: Hohe Frequenzen werden stark gedämpft, während tiefe Frequenzen das Filter weitgehend ungehindert passieren. Ein Anwendungsbeispiel für einen Tiefpass ist die Verwendung hinter Sendeverstärkern, um die durch Verzerrungen auftretenden Oberwellen herauszufiltern. 
 
 <margin>
-[picture:1021:e_wiederstaende_tiefpass:Qualitatives Widerstandsverhalten im Tiefpass-Spannungsteiler]
+[picture:1021:e_widerstaende_tiefpass:Qualitatives Widerstandsverhalten im Tiefpass-Spannungsteiler]
 [picture:1024:e_tiefpass_frequenzgang:Qualitativer Spannungsverlauf $U_\text{A}$ am Tiefpass]
 </margin>
 
@@ -35,10 +35,10 @@ Die *Grenzfrequenz* ($f_\text{g}$) eines Tiefpasses ist die Frequenz, bei der da
 
 ---
 
-Bei einem Hochpass hingegen werden die tiefen Frequenzen stark gedämpft, während die hohen Frequenzen dieses Filter kaum gedämpft passieren. Dies erreicht man, in dem man Kondensator und Widerstand tauscht wie in Abbildung [ref:e_wiederstaende_hochpass] dargestellt. Der Frequenzgang eines Hochpasses ist qualitativ in [ref:e_hochpass_frequenzgang] gezeigt. Ein Anwendungsbeispiel für einen Hochpass ist die Verwendung in einer Antennenweiche, um z.B. den Kurzwellenbereich vor einem UKW-Empfänger wegzufiltern, um Störungen durch Kurzwellenbetrieb zu vermeiden.
+Bei einem Hochpass hingegen werden die tiefen Frequenzen stark gedämpft, während die hohen Frequenzen dieses Filter kaum gedämpft passieren. Dies erreicht man, in dem man Kondensator und Widerstand tauscht wie in Abbildung [ref:e_widerstaende_hochpass] dargestellt. Der Frequenzgang eines Hochpasses ist qualitativ in [ref:e_hochpass_frequenzgang] gezeigt. Ein Anwendungsbeispiel für einen Hochpass ist die Verwendung in einer Antennenweiche, um z.B. den Kurzwellenbereich vor einem UKW-Empfänger wegzufiltern, um Störungen durch Kurzwellenbetrieb zu vermeiden.
 
 <margin>
-[picture:1025:e_wiederstaende_hochpass:Qualitatives Widerstandsverhalten im Hochpass-Spannungsteiler]
+[picture:1025:e_widerstaende_hochpass:Qualitatives Widerstandsverhalten im Hochpass-Spannungsteiler]
 [picture:1022:e_hochpass_frequenzgang:Qualitativer Spannungsverlauf $U_\text{A}$ am Hochpass]
 </margin>
 
