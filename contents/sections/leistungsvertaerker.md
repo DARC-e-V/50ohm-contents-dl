@@ -13,7 +13,7 @@ Breitbandige HF-Verstärker erkennt man häufig an breitbandigen Koppeltransform
 
 [question:AF412]
 
-Selektive HF-Verstärker erkennt man hingegen typischerweise an deren frequenzselektiver Auslegung, die durch Serien- oder Parallel-Schwingkreise im HF-Signalpfad gekennzeichnet sind.
+Selektive HF-Verstärker erkennt man hingegen typischerweise an deren frequenzselektiver Auslegung, die durch Serien- oder Parallelschwingkreise im HF-Signalpfad gekennzeichnet sind.
 
 <margin>
 [picture:778:a_selektiver_verstaerker:Selektiver HF-Leistungsverstärker mit frequenzselektiver Auslegung]
@@ -35,7 +35,7 @@ Bei frequenzselektiver Anpassung gibt es zwei grundlegende Möglichkeiten diese 
 - durch einen induktiven Spannungsteiler (Spule mit Anzapfung und Parallelkondensator)
 - durch einen kapazitiven Spannungsteiler (zwei Kondensatoren in Reihenschaltung mit Spule in Parallelschaltung)
 
-Diese Spulen und Kondenstatoren können in unterschiedlichen Konfigurationen angeordnet sein (Parallel- oder Serien-kreis) um die gewünschte Impedanztransformation zu erreichen und gegebenenfalls gleichzeitig Oberwellen zu unterdrücken (Pi-Filter).
+Diese Spulen und Kondenstatoren können in unterschiedlichen Konfigurationen angeordnet sein (Parallel- oder Serienkreis) um die gewünschte Impedanztransformation zu erreichen und gegebenenfalls gleichzeitig Oberwellen zu unterdrücken (Pi-Filter).
 
 [question:AF409]
 [question:AF410]
@@ -45,7 +45,7 @@ Diese Spulen und Kondenstatoren können in unterschiedlichen Konfigurationen ang
 
 ---
 
-Die Abbildung [ref:a_fet_verstaerker] zeigt einen Kurzwellen-Verstärker mit LDMOS Feldeffekttransistoren. LDMOS steht für *Laterally Diffused Metal-Oxide-Semiconductor* und bezeichnet einen speziellen Feldeffekttransistor für HF-Leistungsverstärker. Die Eigentliche Verstärkerschaltung (oberer Teil) ist sehr simpel aufgebaut. Es ist wieder ein Gegentaktverstärker mit zwei FETs, die in Push-Pull-Konfiguration arbeiten. Die beiden Transistoren werden über einen gemeinsamen Eingangstransformator angesteuert. Der Ausgang des Verstärkers wird über einen weiteren Transformator abgegriffen. Der Untere Teil der Schaltung, ist auch weniger komplex, als man denkt: Im großen und ganzen wird hier nur die über einen Spannungsteiler die BIAS-Spannung für die Transistoren erzeugt.
+Die Abbildung [ref:a_fet_verstaerker] zeigt einen Kurzwellen-Verstärker mit LDMOS Feldeffekttransistoren. LDMOS steht für *Laterally Diffused Metal-Oxide-Semiconductor* und bezeichnet einen speziellen Feldeffekttransistor für HF-Leistungsverstärker. Die eigentliche Verstärkerschaltung (oberer Teil) ist sehr simpel aufgebaut. Es ist wieder ein Gegentaktverstärker mit zwei FETs, die in Push-Pull-Konfiguration arbeiten. Die beiden Transistoren werden über einen gemeinsamen Eingangstransformator angesteuert. Der Ausgang des Verstärkers wird über einen weiteren Transformator abgegriffen. Der untere Teil der Schaltung, ist auch weniger komplex, als man denkt: Im Großen und Ganzen wird hier nur die über einen Spannungsteiler die BIAS-Spannung für die Transistoren erzeugt.
 
 Man darf sich nicht von der bekannten Eigenschaft eines Feldeffekttransistors täuschen lassen: Bei Gleichspannung ist das Gate praktisch stromlos und besitzt daher eine sehr hohe Eingangsimpedanz. Bei hohen Frequenzen spielen jedoch die parasitären Kapazitäten des Transistors eine wichtige Rolle, insbesondere die Kapazitäten zwischen Gate und Source sowie zwischen Gate und Drain. Ihr kapazitiver Blindwiderstand wird mit steigender Frequenz kleiner, sodass am Gate ein HF-Strom fließen kann. Bei HF-Leistungstransistoren kann die Eingangsimpedanz deshalb deutlich niedriger sein als man es von der Gleichstrombetrachtung eines FETs erwarten würde. Der Eingangstransformator $T_1$ dient daher zur Anpassung der $\qty{50}{\ohm}$ an die niederohmige Eingangsimpedanz der Transistoren.
 
@@ -103,13 +103,13 @@ Ein ähnliche Funktion hat eine LC-Schaltung hinter einem HF-Leistungsverstärke
 
 [question:AF404]
 
-Bei Leistungsverstärkern ist es wichtig die einzelnen Stufen HF-Mäßig von der Betriebsspannung bestmöglich zu entkoppeln um Rückwirkungen auf andere Stufen zu vermeiden (Schwingneigung, Modulationseffekte etc.). Dazu werden die Betriebsspannungs-Zuführungen der einzelnen Stufen mit in Serie geschalteten Induktivitäten sowie Abblock-Kondensatoren nach Masse gegeneinander entkoppelt. Diese Anordnung stellt einen Tiefpass dar, da im Idealfall nur die gewünschte DC-Betriebsspannung durchgelassen wird, HF-Anteile jedoch abgeblockt werden.
+Bei Leistungsverstärkern ist es wichtig die einzelnen Stufen HF-Mäßig von der Betriebsspannung bestmöglich zu entkoppeln um Rückwirkungen auf andere Stufen zu vermeiden (Schwingneigung, Modulationseffekte etc.). Dazu werden die Betriebsspannungszuführungen der einzelnen Stufen mit in Serie geschalteten Induktivitäten sowie Abblockkondensatoren nach Masse gegeneinander entkoppelt. Diese Anordnung stellt einen Tiefpass dar, da im Idealfall nur die gewünschte DC-Betriebsspannung durchgelassen wird, HF-Anteile jedoch abgeblockt werden.
 
 [question:AF411]
 [question:AF419]
 [question:AF418]
 [question:AF422]
 
-Die HF-Eigenschaften realer Kondensatoren sind frequenzabhängig. Große Kapazitäten wie Elektrolytkondensatoren können nur bei niedrigen Frequenzen eingesetzt werden und sind im HF-Bereich nur bedingt wirksam. Um auch höhere Frequenzen durch Kondensatoren abzublocken verwendet man häufig eine Kombination aus unterschiedlichen Kondensator-Typen und Kapazitäts-Werten, die zusammen einen größeren Frequenzbereich abblocken können.
+Die HF-Eigenschaften realer Kondensatoren sind frequenzabhängig. Große Kapazitäten wie Elektrolytkondensatoren können nur bei niedrigen Frequenzen eingesetzt werden und sind im HF-Bereich nur bedingt wirksam. Um auch höhere Frequenzen durch Kondensatoren abzublocken verwendet man häufig eine Kombination aus unterschiedlichen Kondensatortypen und Kapazitätswerten, die zusammen einen größeren Frequenzbereich abblocken können.
 
 [question:AF415]

@@ -29,7 +29,7 @@
 <right>
 * Verstärkungsmaximum nur in einem schmalen Bereich (z. B. ein Amateurband)
 * Frequenzselektive Auslegung
-* Verwendung von Serien- oder Parallel-Schwingkreisen im HF-Signalpfad
+* Verwendung von Serien- oder Parallelschwingkreisen im HF-Signalpfad
 </right>
 
 ---

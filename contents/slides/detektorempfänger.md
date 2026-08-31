@@ -4,14 +4,14 @@
 * Nur im Lokalbereich von starken Rundfunksendern nutzbar
 </left>
 <right>
-[photo:193:am_detektor:Detektor-Empfänger]
+[photo:193:am_detektor:Detektorempfänger]
 </right>
 
 ---
 
 <left>
-[picture:799:am_detektor:Schaltbild eines einfachen Detektor-Empfängers]
-* Parallel-Schwingkreis aus Spule und variablen Kondensator
+[picture:799:am_detektor:Schaltbild eines einfachen Detektorempfängers]
+* Parallelschwingkreis aus Spule und variablen Kondensator
 </left>
 <right>
 [picture:800:am_detektor_antenne:Signal an der Antenne]
@@ -22,7 +22,7 @@
 --- data-transition="none"
 
 <left>
-[picture:799:am_detektor:Schaltbild eines einfachen Detektor-Empfängers]
+[picture:799:am_detektor:Schaltbild eines einfachen Detektorempfängers]
 * Signal von Antenne (rot) regt Schwingkreis an, wenn dieser auf die Frequenz abgestimmt ist
 </left>
 <right>
@@ -34,7 +34,7 @@
 --- data-transition="none"
 
 <left>
-[picture:799:am_detektor:Schaltbild eines einfachen Detektor-Empfängers]
+[picture:799:am_detektor:Schaltbild eines einfachen Detektorempfängers]
 * Diode (blau) richtet die AM-Modulation gleich
 </left>
 <right>
@@ -46,7 +46,7 @@
 --- data-transition="none"
 
 <left>
-[picture:799:am_detektor:Schaltbild eines einfachen Detektor-Empfängers]
+[picture:799:am_detektor:Schaltbild eines einfachen Detektorempfängers]
 * Hochohmiger Kopfhörer (grün) macht das Signal hörbar, da der Kopfhörer träge ist und den einzelnen Stromstößen nicht folgen kann
 </left>
 <right>
