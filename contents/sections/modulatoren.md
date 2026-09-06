@@ -131,7 +131,7 @@ Der Balancemodulator bildet die erste Stufe eines SSB-Modulators und erzeugt ein
 
 Eine gute Implementierung für ein Funkgerät, das sowohl USB als auch LSB erzeugen soll, besteht darin, das Bandpassfilter fest auf einen bestimmten Frequenzbereich auszulegen. Ob das obere oder das untere Seitenband ausgefiltert wird, wird nicht durch eine Änderung des Filters bestimmt, sondern durch die Frequenz des Oszillators im Balancemodulator. Dazu stehen zwei unterschiedliche Quarzoszillatoren zur Verfügung.
 
-Wird beispielsweise für USB die Oszillatorfrequenz $\qty{8998,5}{\kilo\hertz}$ gewählt, entstehen durch die Modulation zwei Seitenbänder. Das obere Seitenband wird dabei genau in den Durchlassbereich konstanten Filters verschoben, während das untere Seitenband außerhalb des Durchlassbereichs liegt und unterdrückt wird.
+Wird beispielsweise für USB die Oszillatorfrequenz $\qty{8998,5}{\kilo\hertz}$ gewählt, entstehen durch die Modulation zwei Seitenbänder. Das obere Seitenband wird dabei genau in den Durchlassbereich des konstanten Filters verschoben, während das untere Seitenband außerhalb des Durchlassbereichs liegt und unterdrückt wird.
 
 Für LSB wird auf die andere Quarzfrequenz von $\qty{9001,5}{\kilo\hertz}$ umgeschaltet. Dadurch verschiebt sich das gesamte DSB-Spektrum so, dass nun das untere Seitenband in den Durchlassbereich desselben Filters fällt und das obere Seitenband unterdrückt wird.
 

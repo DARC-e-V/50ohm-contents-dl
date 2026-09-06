@@ -6,10 +6,10 @@ Für die Anpassung einer solchen endgespeisten Antenne gibt es verschiedene Mög
 * Transformator zur Impedanzanpassung
 * Zeppelinantenne
 
-Eine Möglichkeit der Anpassung ist der bereits besprochene Fuchskreis (vgl. Abbildung [ref:a_fuchskreis]). Dabei handelt es sich um einen Parallelschwingkreis, der auf die Betriebsfrequenz abgestimmt wird. Er transformiert die niedrige Impedanz der Speiseleitung auf die hohe Speiseimpedanz der endgespeisten Halbwellantenne und gleicht zugleich vorhandene Blindanteile aus.
+Eine Möglichkeit der Anpassung ist der bereits besprochene Fuchskreis (vgl. Abbildung [ref:a_fuchskreis]). Dabei handelt es sich um einen Parallelschwingkreis, der auf die Betriebsfrequenz abgestimmt wird. Er transformiert die niedrige Impedanz der Speiseleitung auf die hohe Speiseimpedanz der endgespeisten Halbwellenantenne und gleicht zugleich vorhandene Blindanteile aus.
 
 <margin>
-[picture:310:a_fuchskreis:Fuchskreis zur Anpassung einer endgespeisten Halbwellantenne]
+[picture:310:a_fuchskreis:Fuchskreis zur Anpassung einer endgespeisten Halbwellenantenne]
 </margin>
 
 [question:AG419]
@@ -19,7 +19,7 @@ Eine Möglichkeit der Anpassung ist der bereits besprochene Fuchskreis (vgl. Abb
 Eine andere Möglichkeit ist ein Transformator (vgl. Abbildung [ref:a_unun_1_49]) mit einem Übersetzungsverhältnis von $ü = 1:7$. Da sowohl Spannung als auch Strom um den Faktor $\num{7}$ multipliziert bzw. dividiert werden, ergibt sich für den Widerstand eine Transformation von $1:7^2 = 1:49$ entsprechend $(1 \cdot \qty{50}{\ohm}) : (49 \cdot \qty{50}{\ohm}) = \qty{50}{\ohm} : \qty{2450}{\ohm}$.
 
 <margin>
-[photo:332:a_unun_1_49:1 zu 49 Un-Un zur Anpassung einer endgespeisten Halbwellantenne]
+[photo:332:a_unun_1_49:1 zu 49 Un-Un zur Anpassung einer endgespeisten Halbwellenantenne]
 [picture:315:a_endspeisung_1:Endgespeister Halbwellendipol mit Pigtail]
 [picture:260:a_endspeisung_2:Endgespeister Halbwellendipol mit Koaxialkabel als Gegengewicht]
 </margin>
