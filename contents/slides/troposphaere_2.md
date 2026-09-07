@@ -10,29 +10,24 @@ Im folgenden Kapitel werden mehrere Begriffe verwendet, die vorab erklärt werde
 ---
 
 <left>
-* Bereits bekannt: Die für den Amateurfunk relevanten Schichten in der Atmosphäre
-* In der Troposphäre finden Erscheinungen des Wetters statt
+* Bereits bekannt: die für den Amateurfunk relevanten Schichten der Atmosphäre
+* Troposphäre: unterste Schicht, bis ca. $\qty{10}{\kilo\meter}$
+* Hier finden die Erscheinungen des Wetters statt
 </left>
 <right>
 [picture:731:e_atmosphaeren_schichten:Für den Amateurfunk relevante Schichten in der Atmosphäre]
 </right>
-<note>
-* Unterste Schicht
-* Bis ca. 10 km
-</note>
 
 ---
 ## DX in VHF/UHF
 <left>
-* Überhorizontverbindungen bei VHF/UHF entstehen durch Beugung, Reflexion und Streuung in der Troposphäre
-* Bereiche mit unterschiedlicher Temperatur und Dichte
+* Überhorizontverbindungen bei VHF/UHF durch Beugung, Reflexion und Streuung in der Troposphäre
+* An Bereichen mit unterschiedlicher Temperatur und Dichte
+* Diese wirken ähnlich einem Spiegel
 </left>
 <right>
 [picture:734:e_tropo:Troposphärische Ausbreitung an verschiedenen Luftschichten]
 </right>
-<note>
-* Wirken ähnlich einem Spiegel
-</note>
 
 ---
 ### Troposphärische Inversionsbildung

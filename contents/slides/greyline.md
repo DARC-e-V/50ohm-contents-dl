@@ -1,4 +1,5 @@
-* Übergang zwischen Tag- und Nacht
+* Zone der Dämmerung um Sonnenauf- und ‑untergang
+* Ring, der um die gesamte Erdkugel führt
 * Für den Kurzwellenfunk interessant
 
 ---
@@ -6,32 +7,18 @@
 
 <note>
 Weltkarte mit aktueller Greyline
+Falls das Applet nicht angezeigt wird, die Webseite https://50ohm.de/E_greyline.html verwenden
 </note>
 
----
-
-<left>
-Tag zu Nacht
-* D-Region wird abgebaut
-* E-Region kann noch vorhanden sein
-* $F_1$-Region baut langsam ab
-* $F_2$-Region bleibt geschwächt bestehen
-</left>
-<right>
-Nacht zu Tag
-* D-Region baut erst auf, wenn Sonne in unteren Regionen angekommen
-* E-Region baut sich langsam auf
-* $F_1$-Region vor E- und D-Region aufgebaut
-* $F_2$-Region wird wieder stärker
-</right>
 
 ---
 ## Greyline-DX
 
-* Kurzwellen werden an der schwachen D-Region flach gebrochen und weniger gedämpft
-* Die gebrochenen Kurzwellen werden in der F-Region flach reflektiert
-* Hohe Skip-Distanz
+* D-Region geschwächt oder noch nicht / nicht mehr da, E- und F-Region schon / noch wirksam
+* Kurzwellen werden dadurch wenig gedämpft und flach gebrochen → hohe Skip-Distanz
 * *Greyline-DX* oder *Twilight-DX*
+* Vor allem um die Tag-und-Nacht-Gleichen: DX auf den unteren KW-Bändern und dem $\qty{160}{\meter}$-Band
+  * von Europa bis Australien, Neuseeland und in den Pazifik
 
 ---
 [question:EH213]

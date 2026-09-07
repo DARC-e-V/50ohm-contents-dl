@@ -1,25 +1,15 @@
 ## Maximal Usable Frequency (MUF)
 
-<left>
-* Höchste zwischen zwei Orten verwendbare Frequenz
-* Ist abhängig vom Abstrahlwinkel der Antenne
-* Und der kritischen Frequenz der Ionosphäre
-</left>
-<right>
-[picture:870:e_muf_winkel:Die Winkel zur Berechnung der MUF]
-</right>
+* Höchste Frequenz, die die Ionosphäre für die Distanz Sender ↔ Empfänger noch zur Erde zurückbricht
+* Frequenzen darüber werden Richtung Weltraum abgelenkt
+  * z.B. ISS auf $\qty{145,800}{\mega\hertz}$
+* Hängt ab von Ionisation der F2-Region und Einfallswinkel
+* Tagsüber höher, nachts niedriger
+* Stärkere Ionisation → höhere MUF
+
 ---
-### Berechnung der MUF
 
-$\mathrm{MUF} \approx \dfrac{f_c}{\sin(\alpha)}$
-
-$\alpha$ ist der Abstrahlwinkel der Antenne zum Boden
-$f_c$ ist die kritische Frequenz bei der senkrecht auf die Ionosphäre auftretende Funkstrahlen von den Regionen gebrochen werden $\rightarrow$ bei stärkerer Ionisation einer Region steigt die kritische Frequenz
-
-<note>
-* sin(α) = 1 → MUF = f_c
-* In Klasse E keine Berechnung, nur Verständnisfragen
-</note>
+[picture:991:e_muf_luf:Vorhersage von MUF und LUF im Juli 2025]
 
 ---
 [question:EH204]
@@ -30,12 +20,15 @@ $f_c$ ist die kritische Frequenz bei der senkrecht auf die Ionosphäre auftreten
 ---
 ## Lowest Usable Frequency (LUF)
 
-<left>
-* Abhängig von der Ionisierung in der D-Schicht
-* Je weniger Dämpfung in der D-Schicht, umso mehr tiefere Funkwellen können diese Schicht durchdringen und an den höheren Schichten reflektieren
-</left>
-<right>
-[picture:731:e_atmosphaeren_schichten:Für den Amateurfunk relevante Schichten in der Atmosphäre]
-</right>
+* Niedrigste noch nutzbare Frequenz – darunter ist die Dämpfung zu stark
+* Bestimmt vor allem durch die Ionisation der *D-Region*
+* Hängt auch von der Ausrüstung ab (Leistung, Antennen, Empfänger)
+* Sonderfall: LUF über MUF → kein Funkverkehr über die Raumwelle möglich
+  * bei sehr geringer Sonnenaktivität oder Magnetstürmen
+
+---
+
+[picture:997:e_muf_luf2:Simulation der Sprungdistanzen bei einer MUF von ca. $\qty{7,5}{\mega\hertz}$]
+
 ---
 [question:EH209]
