@@ -1,25 +1,33 @@
-* Das im vorigen Kapitel vorgestellte Netzteil hat den Nachteil eines hohen Gewichts durch den Transformator und einen schlechten Wirkungsgrad aufgrund von Verlusten bei der Konstanthaltung der Ausgangsspannung.
-* Schaltnetzteile bringen die Eingangsspannung auf eine höhere Frequenz, wodurch kleinere Transformatoren eingesetzt werden können und bieten effizientere Wege die Ausgangsspannung konstant zu halten.
+## Schaltnetzteil
+
+* Wandelt Wechselspannung in eine stabilisierte Gleichspannung, in vier Schritten:
+  * gleichrichten
+  * sehr schnell ein- und ausschalten
+  * effizient transformieren
+  * glätten
+* Details erst in Klasse A
 
 ---
-
-Details auch hier im Klasse A Kurs, wir konzentrieren uns auf die positiven Eigenschaften:
-
-* *Hoher Wirkungsgrad*
-* *Geringes Gewicht*
-* *Geringes Volumen*
+[photo:308:e_ferritkerntrafo_schaltnetzteil:Innenansicht eines Schaltnetzteils mit kleinem Ferritkernübertrager zwischen den Kühlkörpern]
 
 ---
+## Vorteile gegenüber dem linear geregelten Netzteil
 
+* Hoher Wirkungsgrad, auch bei kleinen Spannungen und wechselnder Last
+* Geringes Gewicht und Volumen
+  * hohe Frequenz $\rightarrow$ kleinere Transformatoren und Siebkondensatoren
+* Gute Regelbarkeit
+* Kleinere Kühlkörper, weniger Platzbedarf
+
+---
 [question:ED302]
+---
+## Nachteile durch die hohen Frequenzen
+
+* *Hochfrequente Störungen* $\rightarrow$ Maßnahmen zur EMV nötig
+  * stören besonders im Kurzwellenbereich
+* Komplexere Schaltung, mehr Bauelemente $\rightarrow$ höhere Ausfallwahrscheinlichkeit
+* Bei Amateurfunk-Netzgeräten meist kein Problem mehr, bei Unterhaltungselektronik schon
 
 ---
-
-Aber: Wo Licht ist, ist auch Schatten.
-
-* Durch die hohen Frequenzen kann es zu *hochfrequenten Störungen* kommen, die besonders im Kurzwellenbereich stören.
-* Bei für den Amateurfunk konzipierten Netzgeräten ist das inzwischen kein Problem mehr, bei Netzgeräten in der Unterhaltungselektronik schon.
-
----
-
 [question:ED303]
