@@ -1,38 +1,40 @@
-<left>
-* Bei einer komplexeren Schaltung geht man wie folgt vor: In kleinere Teile auflösen und diese berechnen, danach die Schaltung neu zeichnen und überlegen wie es weitergeht
-* Schauen wir uns die Beispielschaltung mal genauer an
-</left>
-<right>
-[picture:815:e_widerstandsnetzwerk_1:Widerstandsnetzwerk]
-</right>
+## Widerstandsnetzwerke
 
----
-
-<left>
-* $R_5$ und $R_7$ liegen in Reihe und dazu ist $R_8$ parallel geschaltet. Wir berechnen diese und nennen den Wert dann $R_{ 5,7,8 }$
-* $R_3$ und $R_6$ liegen in Reihe und dazu ist $R_2$ parallel geschaltet. Wir berechnen diese und nennen den Wert dann $R_{ 2,3,6 }$
-</left>
-<right>
-[picture:815:e_widerstandsnetzwerk_1:Widerstandsnetzwerk]
-</right>
-
-
-
----
-
-<left>
-* Dann schauen wir uns an, was von der Schaltung übrig geblieben ist.
-* Wir sehen eine Reihenschaltung von 4 Widerständen, die sich leicht berechnen lässt.
-* Damit können wir dann auch die folgenden Prüfungsfragen leicht beantworten.
-</left>
-<right>
-[picture:817:e_widerstandsnetzwerk_2:Widerstandsnetzwerk in der Auflösung]
-</right>
+* Komplexere Netzwerke aus Reihen- und Parallelschaltungen
+* Reine Übungsaufgaben, in der Praxis kaum Bedeutung
+* Systematisch lösen: erkennbare Reihen-/Parallelschaltungen schrittweise zusammenfassen
+* Werte so gewählt, dass alles im Kopf geht
+* Zwei gleiche Widerstände parallel $\rightarrow$ Gesamtwiderstand halbiert sich
 
 ---
 [question:ED115]
+---
+## Lösungsweg – Ausgangsschaltung
+
+[picture:1141:e_widerstandsnetzwerk_schritt0:Ausgangsschaltung]
+
+* Schritt 1: die beiden $\qty{100}{\ohm}$-Reihenschaltungen zusammenfassen $\rightarrow$ je $\qty{200}{\ohm}$
 
 ---
+## Lösungsweg – nach Schritt 1
 
+[picture:816:e_widerstandsnetzwerk_schritt1:Reihenschaltungen zu je 200 Ohm zusammengefasst]
+
+* Schritt 2: die beiden $\qty{200}{\ohm}$ parallel $\rightarrow \qty{100}{\ohm}$
+
+---
+## Lösungsweg – nach Schritt 2
+
+[picture:817:e_widerstandsnetzwerk_schritt2:Parallelschaltungen zu 100 Ohm zusammengefasst]
+
+* Schritt 3: die verbleibende Reihenschaltung addieren $\rightarrow R_{\mathrm{ges}} = \qty{550}{\ohm}$
+
+---
+## Ergebnis
+
+[picture:818:e_widerstandsnetzwerk_schritt3:Alles zu einem Gesamtwiderstand zusammengefasst]
+
+---
 [question:ED116]
-
+---
+[question:ED114]

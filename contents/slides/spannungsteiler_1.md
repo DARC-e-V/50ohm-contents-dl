@@ -1,76 +1,62 @@
+## Spannungsteiler
+
 <left>
-* Eine Reihenschaltung von Widerständen nennt man auch Spannungsteiler, weil die Spannungen sich an den Widerständen aufteilen.
-* Je größer der Widerstand, desto größer die Spannung, die an ihm abfällt.
+* Reihenschaltung aus zwei Widerständen
+* Klasse E: nur der *unbelastete* Spannungsteiler
+* Spannungen verhalten sich proportional zu den Widerständen
+* Hochohmiger Widerstand $\rightarrow$ größere Teilspannung, niederohmiger $\rightarrow$ kleinere
 </left>
 <right>
-[picture:819:e_spannungsteiler:Spannungsteiler]
+[picture:819:e_spannungsteiler:Spannungsteiler aus zwei Widerständen]
 </right>
 
 ---
+## Formeln aus der Formelsammlung
 
-<left>
-* Das kann man mathematisch in folgender Formel ausdrücken (Formelsammlung):
+$\dfrac{U_1}{U_2} = \dfrac{R_1}{R_2}$
 
-$\dfrac{U_{1}}{U_{2}} = \dfrac{R_{1}}{R_{2}}$
-</left>
-<right>
-[picture:819:e_spannungsteiler:Spannungsteiler]
-</right>
+$\dfrac{U_2}{U_g} = \dfrac{R_2}{R_1 + R_2} \qquad\Rightarrow\qquad U_2 = \dfrac{R_2}{R_1 + R_2} \cdot U_g$
 
 ---
+## Belasteter Spannungsteiler
 
-Wie geht man an die Aufgaben ran?
+* Sobald am Ausgang eine Last hängt, gelten diese Formeln *nicht* mehr
+* Fragen dazu erst in Klasse A
 
-* Beispiele:
-* Wenn $R_{1}$ drei mal so groß wie $R_{2}$ ist, ist $U_{1}$ drei mal so groß wie $U_{2}$.
-* Wenn $R_{1}$ $\frac{1}{3}$ so groß wie $R_{2}$ ist, ist $U_{1}$ $\frac{1}{3}$ so groß wie $U_{2}$.
-
-Schauen wir uns dazu zwei Aufgaben an.
+<note>
+* Wichtiges Beispiel: Basis-Spannungsteiler am Transistor – Vertiefung im Kapitel Verstärker
+</note>
 
 ---
+## Fragen erkennen
 
+* "Wie teilt sich die Spannung an zwei in Reihe geschalteten Widerständen auf …?" $\rightarrow$ Spannungsteiler
+* Ohne konkrete Werte: Ergebnis als allgemeine Formel angeben
+
+---
 [question:ED101]
+---
+### Lösungsweg ED101
+
+$R_1 = 5 \cdot R_2 \quad\Rightarrow\quad \dfrac{U_1}{U_2} = \dfrac{5 \cdot R_2}{R_2} = 5$
+
+$U_1 = 5 \cdot U_2$
 
 ---
-
 [question:ED102]
-
 ---
-<left>
-* Die Summe der Spannungsabfälle ist gleich der Spannung, die aus der Spannungsquelle herauskommt.
-* Das kann man mathematisch in folgender Formel ausdrücken (Formelsammlung):
+### Lösungsweg ED102
 
-$U_g = U_{1} + U_{2}$
-</left>
+$R_1 = \dfrac{R_2}{6} \quad\Rightarrow\quad \dfrac{U_1}{U_2} = \dfrac{1}{6}$
 
-<right>
-[picture:819:E 63. Spannungsteiler:Spannungsteiler]
-</right>
+$U_1 = \dfrac{U_2}{6}$
 
----
-
-<left>
-* Hat man eine Gesamtspannung und muss $U_{2}$ berechnen, können wir ebenfalls auf eine Formel aus der Formelsammlung zurückgreifen:
-
-$\dfrac{U_{2}}{U_g} = \dfrac{R_{2}}{R_{1} + R_{2}}$
-</left>
-<right>
-[picture:819:E 63. Spannungsteiler:Spannungsteiler]
-</right>
-
----
-
-<left>
-* Diese muss man noch zu $U_{2}$ umstellen, indem man auf beiden Seiten mit $U_g$ multipliziert, dann erhält man:
-  
-$U_{2} = \dfrac{R_{2}}{R_{1} + R_{2}} \cdot U_g$
-  
-* Damit kann man sich dann auch an die nächste Aufgabe heranwagen.
-</left>
-<right>
-[picture:819:E 63. Spannungsteiler:Spannungsteiler]
-</right>
-  
 ---
 [question:ED103]
+---
+### Lösungsweg ED103
 
+* $R_1 : R_2 = \qty{10}{\kilo\ohm} : \qty{20}{\kilo\ohm} = 1 : 2$
+* Gesamtwiderstand $\qty{30}{\kilo\ohm}$, $U_g = \qty{9}{\volt}$
+
+$U_2 = \dfrac{R_2}{R_1 + R_2} \cdot U_g = \dfrac{20}{30} \cdot \qty{9}{\volt} = \qty{6}{\volt}$

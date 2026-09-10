@@ -1,116 +1,93 @@
-## Reihenschaltung
+## Kondensatoren zusammenschalten
 
-* Da die Spannung entscheidend für das Entstehen des elektrischen Feldes ist (und diese sich bei der Reihenschaltung aufteilt), ist die Berechnung der Kapazität genau umgekehrt wie bei Widerständen.
-* Anwendungsfall: Bei hohen Spannungen werden mehrere Kondensatoren in Reihe geschaltet, um die Gefahr eines Durchschlags zu verhindern. Dabei ist hilfreich, dass sich die Gesamtspannung an den Kondensatoren aufteilt.
-
----
-
-* Bei einer Reihenschaltung von Kondensatoren ist die Gesamtkapazität kleiner als der Wert des kleinsten Kondensators
-
-[picture:823:e_reihenschaltung_kondensatoren:Reihenschaltung von 3 Kondensatoren]
-
-$\frac{1}{C_{\mathrm{ges}}} = \frac{1}{C_{1}} + \frac{1}{C_{2}} + \frac{1}{C_{3}}$
+* In Reihe, parallel oder gemischt
+* Parallelschaltung ist einfacher $\rightarrow$ zuerst
 
 ---
-
-* Vereinfachung für zwei Kondensatoren:
-
-$C_{\mathrm{ges}} = \dfrac{C_{1} \cdot C_{2}}{C_{1} + C_{2}}$
-
----
-
-* Vereinfachung für gleiche Kondensatoren:
-
-$C_{\mathrm{ges}} = \dfrac{C}{n}$
-
-$n$ steht für die Anzahl der Kondensatoren
-
----
-
-[question:ED119]
-
----
-
-[question:ED120]
-
----
-
 ## Parallelschaltung
 
-* Hier ist es genau umgekehrt wie bei Widerständen, weil an allen Kondensatoren die gleiche Spannung anliegt, welche ja entscheidend für die Entstehung des elektrischen Feldes ist.
-* Anwendungsfall: Kondensatoren werden parallel geschaltet, um aus der Normreihe auf den Wert zu kommen, den man benötigt.
-
-<note>
-* Die parallel geschalteten Kondensatoren wirken wie ein großer Kondensator
-</note>
-
----
-
-* Bei einer Parallelschaltung addieren sich die Kapazitäten
-
-[picture:822:e_parallelschaltung_kondensatoren:Parallelschaltung von 3 Kondensatoren]
-
-$C_{\mathrm{ges}} = C_{1} + C_{2} + C_{3}$
+<left>
+* Mehr Platten gegenüber $\rightarrow$ Plattenfläche steigt proportional
+* Gesamtkapazität steigt entsprechend
+* Gleiche Kondensatoren parallel: Kapazität addiert sich, Spannungsfestigkeit bleibt gleich
+</left>
+<right>
+[picture:822:e_3c_parallel:Parallelschaltung von 3 Kondensatoren]
+</right>
 
 ---
+## Parallelschaltung
 
+$C_{\mathrm{ges}} = C_1 + C_2 + C_3 + \dots$
+
+* Gesamtkapazität immer *größer* als die größte Einzelkapazität
+
+---
+## Unterschiedliche Vorsilben
+
+* Erst alle Werte auf eine gemeinsame Vorsilbe bringen, meist $\unit{\nano\farad}$
+* $\qty{0,1}{\micro\farad} = \qty{100}{\nano\farad}$
+* $\qty{50000}{\pico\farad} = \qty{50}{\nano\farad}$
+* Dann in $\unit{\nano\farad}$ addieren
+
+---
 [question:ED117]
+---
+[photo:262:a_netzteil_beko_elkos:Parallelschaltung von 7 mal 10000 Mikrofarad in einem Endstufennetzteil]
 
 ---
-
 [question:ED118]
-
 ---
-
-## Gemischte Schaltungen
-
---- style="font-size: 0.7em;"
-
-### Variante 1: Zwei Parallel und dazu einer in Reihe
+## Reihenschaltung
 
 <left>
-* Hier berechnet man zuerst die Parallelschaltung von $C_{2}$ und $C_{3}$
-
-$C_{\mathrm{ges,p}} = C_{2} + C_{3}$
-
-* Danach berechnet man die Reihenschaltung von $C_{1}$ und $C_{\mathrm{ges,p}}$
-
-$C_{\mathrm{ges}} = \frac{C_{1} \cdot C_{\mathrm{ges,p}}}{C_{1} + C_{Gp}}$
+* Spannungsfestigkeit steigt, Kapazität sinkt
+* Rechnung wie bei der Parallelschaltung von Widerständen
 </left>
 <right>
-[picture:820:e_gemischt_variante_1:Gemischte Schaltung - Variante 1]
+[picture:823:e_3c_reihe:Reihenschaltung von 3 Kondensatoren]
 </right>
 
 ---
+## Reihenschaltung
 
-[question:ED123]
+$\dfrac{1}{C_{\mathrm{ges}}} = \dfrac{1}{C_1} + \dfrac{1}{C_2} + \dfrac{1}{C_3}$
 
----
-
-[question:ED124]
-
----
-
-[question:ED122]
-
---- style="font-size: 0.7em;"
-
-### Variante 2: Zwei in Reihe und dazu einer Parallel
-
-<left>
-* Hier berechnet man zuerst die Reihenschaltung von $C_{1}$ und $C_{2}$
-
-$C_{\mathrm{ges,r}} = \frac{C_{1} \cdot C_{2}}{C_{1} + C_{2}}$
-
-* Danach berechnet man die Parallelschaltung von $C_{3}$ und $C_{\mathrm{ges,r}}$
-
-$C_{\mathrm{ges}} = \frac{C_{3} \cdot C_{\mathrm{ges,r}}}{C_{3} + C_{\mathrm{ges,r}}}$
-</left>
-<right>
-[picture:457:e_gemischt_variante_2:Gemischte Schaltung - Variante 2]
-</right>
+* Gesamtkapazität immer *kleiner* als die kleinste Einzelkapazität
+* Zwei Kondensatoren: $C_{\mathrm{ges}} = \dfrac{C_1 \cdot C_2}{C_1 + C_2}$
+* Gleiche Kondensatoren: $C_{\mathrm{ges}} = \dfrac{C}{n}$
 
 ---
+## Vorgehen bei Aufgaben
 
+* Schaltung skizzieren
+* Kapazitätswerte an die Bauteile schreiben
+* In gleiche Vorsilben umwandeln
+* Gleichartige Gruppen zusammenfassen
+* Schrittweise die Gesamtkapazität berechnen
+
+---
+[question:ED119]
+---
+## Vorsilben mischen
+
+* $\qty{200000}{\nano\farad}$ zuerst in $\qty{200}{\micro\farad}$ umwandeln
+* Dann die Reihenschaltungsformel anwenden
+
+---
+[question:ED120]
+---
+## Gemischte Schaltung
+
+* Erst die *Reihenschaltung* vereinfachen
+* Beispiel: zwei $\qty{10}{\nano\farad}$ in Reihe $\rightarrow \qty{5}{\nano\farad}$
+* Dann die Parallelschaltung: Kapazitäten addieren $\rightarrow \qty{10}{\nano\farad}$
+
+---
 [question:ED121]
-
+---
+[question:ED122]
+---
+[question:ED123]
+---
+[question:ED124]
