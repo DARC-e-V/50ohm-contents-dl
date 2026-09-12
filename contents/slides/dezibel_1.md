@@ -1,3 +1,9 @@
+## Wozu Dezibel?
+
+* Leistungsverhältnisse überall: Antennengewinn, Verstärkung, Kabeldämpfung
+* Werte reichen über viele Größenordnungen (KW-Empfänger: Faktor $10^{12}$)
+* Logarithmus macht daraus handliche Zahlen (Multiplikation → Addition)
+
 --- style="font-size: 0.7em;"
 ## Dezibel einfach erklärt
 
@@ -40,12 +46,20 @@ $\unit{\dBm}$ = Dezibel bezogen auf $\unit{\milli\watt}$
 | Kopfhörersignal | 1 | 0 | 0 |
 | Lautes KW-Signal | 0,000 001 | -6 | -60 |
 | Leises KW-Signal (Antenneneingang RX) | 0,000 000 000 001 | -12 | -120 |
-[table:e_dezibel_leistungen_bel:Leistungen in $\unit{\milli\watt}$ und Bel]
+[table:e_dezibel_leistungen_dbm:Leistungen in $\unit{\milli\watt}$, Bel und dBm]
 
-<note>
-* Faktor 10
-* dezi wie in dezimeter
-</note>
+* $\unit{\dB}$ ist der zehnte Teil eines $\unit{\bel}$ (dezi wie in Dezimeter)
+  * $\unit{\dBm}$-Wert $= 10 \cdot$ Bel-Wert
+
+---
+## Leistungsverhältnis in dB
+
+* $g = 10 \cdot \log_{10}\!\left(\dfrac{P_2}{P_1}\right) \unit{\dB}$
+  * $P_1$ = Eingangsleistung, $P_2$ = Ausgangsleistung
+* Beispiel: $\qty{50}{\watt}$ auf $\qty{100}{\watt}$ (Faktor $2$)
+  * $g = 10 \cdot \log_{10}(2) \approx \qty{3}{\dB}$
+* Für Klasse E genügt: Leistungsfaktor $2$ → $\qty{3}{\dB}$
+
 ---
 ### Leistungsverstärkung
 
@@ -59,7 +73,7 @@ $\unit{\dBm}$ = Dezibel bezogen auf $\unit{\milli\watt}$
 * Ausgangssignal: $\qty{100000}{\milli\watt}$
 * Benötigte Verstärkung: $\num{10000}$
  
----
+--- style="font-size: 0.7em;"
 ### Leistungsverstärkung mit dB
 *Empfänger*
 * Eingangssignal: $\qty{0,000000000001}{\milli\watt} = \qty{-120}{\dBm}$
@@ -95,15 +109,31 @@ $\unit{\dBm}$ = Dezibel bezogen auf $\unit{\milli\watt}$
 </note>
 
 ---
+## Abschätzen ohne Taschenrechner
+
+* dB-Werte, die auf $0$ enden: letzte Null zuhalten
+  * die Ziffer davor gibt die Anzahl der Nullen des Verhältnisfaktors an
+  * Beispiel: $\qty{30}{\dB}$ → $3$ → $3$ Nullen → Faktor $1000$
+
+--- style="font-size: 0.8em;"
 ### Berechnung mit Taschenrechner
 
+* *log* / *lg* = Zehnerlogarithmus, *ln* = natürlicher (Basis $e$) – nicht verwechseln
+
 Ältere Modelle
-* Faktor-Wert $\rightarrow$ *log*-Taste $\rightarrow\times 10 \rightarrow\unit{\dB}$
-* $\unit{\dB}$-Wert $\rightarrow\div 10 \rightarrow$ *$10^x$*-Taste $\rightarrow$ Faktor
+* Faktor → *log* → $\cdot 10$ → $\unit{\dB}$
+* $\unit{\dB}$ → $\div 10$ → *$10^x$* → Faktor
 
 Neuere Modelle
-* *log*-Taste $\rightarrow$ Faktor-Wert $\rightarrow$ *)*-Taste $\rightarrow\times 10 \rightarrow$ *=*-Taste $\rightarrow\unit{\dB}$
-* *$10^x$*-Taste $\rightarrow$ $\unit{\dB}$-Wert $\rightarrow \div 10 \rightarrow$ *=*-Taste $\rightarrow$ Faktor
+* *log* → Faktor → *)* → $\cdot 10$ → *=* → $\unit{\dB}$
+* *$10^x$* → $\unit{\dB}$ → $\div 10$ → *=* → Faktor
+
+---
+### dBi und dBd
+
+* Zusätze geben die Bezugsgröße an
+* In Klasse E: $\unit{\dBi}$ und $\unit{\dBd}$ im Antennenkapitel
+* $\unit{\dBm}$, $\unit{\dBW}$ erst in Klasse A
 
 ---
 [question:EA107]

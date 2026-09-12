@@ -1,15 +1,19 @@
-<left>
-* Der Strom wird im Stromkreis eingeschleift gemessen
-* Die Spannung wird über den Widerstand gemessen
-* Der Widerstand im Voltmeter soll hochohmig sein $\rightarrow$ Strom nimmt den Weg des geringsten Widerstandes
-</left>
-<right>
-[picture:238:e_strom_und_spannungsmessung:Korrekte Anordnung zur Messung von Strom und Spannung an einem Widerstand]
-</right>
+## Strom- und Spannungsmessung
+
+* Messgerät soll den Stromkreis möglichst wenig beeinflussen → *Innenwiderstand*
+* *Strommessgerät*: in Reihe, *geringer* Innenwiderstand
+* *Spannungsmessgerät*: parallel, *hoher* Innenwiderstand
+  * misst die Ladungstrennung zwischen zwei Punkten
+  * Strom über den Parallelzweig würde sie abbauen
 
 <note>
-* Wenn der Widerstand im Voltmeter niederohmig ist, wird dort mehr Strom durchfließen und die Messung am Amperemeter verfälschen
+* Vertiefung: ideal wären $\qty{0}{\ohm}$ bzw. $\qty{\infty}{\ohm}$
 </note>
+
+---
+
+[picture:238:e_strom_spannung_messung:Gleichzeitige Strom- und Spannungsmessung]
+
 ---
 [question:EI101]
 ---
