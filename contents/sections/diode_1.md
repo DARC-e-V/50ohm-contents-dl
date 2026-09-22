@@ -8,13 +8,17 @@ Mathematisch können wir diese Forderung so schreiben:
 
 $U_d = U_a - U_k > 0$
 
-Ist allerdings $U_d$ nur ein ganz wenig größer als 0, fließt noch kein merkbarer Strom. Das liegt an der *exponentiellen Kennlinie* einer Diode. Der Diodenstrom ist nämlich:
+Ist allerdings $U_d$ nur ein ganz wenig größer als 0, fließt noch kein merkbarer Strom. Sobald $U_d$ eine Schwellspannung überschreitet, fliesst ein grosser Strom. Diese Schwellspannung ist von der Bauart der Diode abhängig und heisst auch Flussspannung, weil bei ihrem Überschreiten so richtig viel Strom fliesst. Das liegt an der *exponentiellen Kennlinie* einer Diode.
+
+<indepth>
+Der Diodenstrom ist durch eine exponentielle Gleichung gegeben. "Exponentiell" heisst sie, weil sich die unabhängige Variable im Exponenten, also der "Hochzahl" befindet.
 
 $I_d = I_S \left(e^{\frac{U_d}{U_T}}-1\right)$
 
 $e$ ist die sogenannte Euler'sche Zahl ($e\approx 2,718$), $U_T$ eine Konstante, die bei Raumtemperatur etwa $\qty{26}{\milli\volt}$ beträgt.
 
-$I_S$ ist hier der *Sperrsättigungsstrom*, das ist der sehr kleine Strom, der bei negativen Spannungen durch die Diode fließt. Der Wert von $I_S$ hängt neben ein paar Parametern der Diode, wie der Diodenfläche, vor allem auch vom verwendeten Halbleitermaterial ab. Bei Materialien wie Germanium (Ge) mit einer geringen *Energiebandlücke* (darauf gehen wir in der Ausbildung zur Klasse A näher ein) ist $I_S$ größer, bei Materialien mit größerer Energiebandlücke ist $I_S$ kleiner. 
+$I_S$ ist hier der *Sperrsättigungsstrom*, das ist der sehr kleine Strom, der bei negativen Spannungen durch die Diode fließt. Der Wert von $I_S$ hängt neben ein paar Parametern der Diode, wie der Diodenfläche, vor allem auch vom verwendeten Halbleitermaterial ab. Bei Materialien wie Germanium (Ge) mit einer geringen *Energiebandlücke* (darauf gehen wir in der Ausbildung zur Klasse A näher ein) ist $I_S$ größer, bei Materialien mit größerer Energiebandlücke ist $I_S$ kleiner.
+</indepth>
 
 <margin>
 [picture:861:e_diode_kennlinie_iu:Kennline einer Diode]
