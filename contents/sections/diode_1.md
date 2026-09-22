@@ -30,7 +30,11 @@ Betrachten wir eine Diodenkennlinie in Abbildung [ref:e_diode_kennlinie_iu], so 
 
 Als Anhaltspunkte für die Schwellspannung von pn-Dioden können wir für Germanium (Ge) etwa $\qtyrange{0,2}{0,3}{\volt}$ und für Silizium (Si) etwa $\qtyrange{0,6}{0,7}{\volt}$ angeben.
 
-*Leuchtdioden* (LEDs) sind ebenfalls pn-Dioden, bei denen das Halbleitermaterial so beschaffen ist, dass es bei Polung der Diode in Flussrichtung Licht aussendet. Das geht nur mit bestimmten Materialien - mit Si und Ge nicht. Die Farbe des Lichts ist durch die Energiebandlücke gegeben. Je größer die Energiebandlücke, desto kurzwelliger das Licht, um so geringer der Sperrsättigungsstrom, und daher um so höher die Schwellspannung. Daher haben rote LEDs etwa $\qty{1,7}{\volt}$ Schwellspannung und grüne LEDs $\qty{2,5}{\volt}$. Die verschienden Kennlinien sind in der Abbildung [ref:e_diode_kennlinien] dargestellt.
+<attention>
+Die Schwellspannung $U_{th}$ wird auch *Flussspannung* genannt, weil erst aber dieser Spannung der Strom markant zu fliessen beginnt.
+</attention>
+
+*Leuchtdioden* (LEDs) sind spezielle Dioden, bei denen das Halbleitermaterial so beschaffen ist, dass es bei Polung der Diode in Flussrichtung Licht aussendet. Das geht nur mit bestimmten Materialien - mit Si und Ge nicht. Die Farbe des Lichts ist durch die Energiebandlücke gegeben. Je größer die Energiebandlücke, desto kurzwelliger das Licht, um so geringer der Sperrsättigungsstrom, und daher um so höher die Schwellspannung. Daher haben rote LEDs etwa $\qty{1,7}{\volt}$ Schwellspannung und grüne LEDs $\qty{2,5}{\volt}$. Die verschienden Kennlinien sind in der Abbildung [ref:e_diode_kennlinien] dargestellt.
 
 [question:EC513]
 [question:EC510]
