@@ -15,7 +15,7 @@ Ist allerdings $U_d$ nur ein ganz wenig größer als 0, fließt noch kein merkba
 </margin>
 
 <indepth>
-Der Diodenstrom ist durch eine exponentielle Gleichung gegeben. "Exponentiell" heisst sie, weil sich die unabhängige Variable im Exponenten, also der "Hochzahl" befindet.
+Der Diodenstrom ist durch eine exponentielle Gleichung gegeben. "Exponentiell" heisst sie, weil sich die unabhängige Variable $U_d$ im Exponenten, also der "Hochzahl" befindet.
 
 $I_d = I_S \left(e^{\frac{U_d}{U_T}}-1\right)$
 
