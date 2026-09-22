@@ -87,7 +87,7 @@ Das Schaltsymbol einer Zenerdiode (Abbildung [ref:e_zener_symbol]) ist das einer
 [question:EC521]
 [question:EC522]
 
-Die bisher behandelten Dioden waren alle sogenannte *pn-Dioden*, die Diodeneigenschaft entsteht durch einen pn-Halbleiterübergang, der erst in [sec:dioden_2] behandeltwird. Bei der *Schottky-Diode* handelt es sich um eine Diode, deren Eigenschaften durch einen Metall-Halbleiter-Übergang entstehen. Die Schwellspannung ist etwa halb so groß wie die einer pn-Diode aus dem selben Material, oder kleiner, abhängig von der genauen Gestaltung des Metall-Halbleiter-Übergangs. Schottky-Dioden werden eingesetzt, wenn die Schwellspannung gering sein soll, oder aber als sehr schnelle Schaltdioden.  
+Die bisher behandelten Dioden waren Dioden, deren Diodeneigenschaft durch einen Halbleiterübergang entsteht, der erst in [sec:dioden_1] behandelt wird. Bei der *Schottky-Diode* handelt es sich um eine Diode, deren Eigenschaften durch einen Metall-Halbleiter-Übergang entstehen. Die Schwellspannung ist etwa halb so gross wie die einer herkömmlichen Halbleiterdiode aus dem selben Material, oder kleiner, abhängig von der genauen Gestaltung des Metall-Halbleiter-Übergangs. Schottky-Dioden werden eingesetzt, wenn die Schwellspannung gering sein soll, oder aber als sehr schnelle Schaltdioden.
 
 [question:EC504]
 [question:EC505]
