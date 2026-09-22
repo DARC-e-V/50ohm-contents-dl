@@ -24,7 +24,7 @@ $I_S$ ist hier der *Sperrsättigungsstrom*, das ist der sehr kleine Strom, der b
 
 Betrachten wir eine Diodenkennlinie in Abbildung [ref:e_diode_kennlinie_iu], so steigt der Diodenstrom bei positiven $U_d$ ab einer gewissen Spannung steil an. Diese Spannung wird auch als *Schwellspannung* $U_{th}$ bezeichnet, sie ist aber nur Ausdruck der unterschiedlichen $I_S$: je kleiner $I_S$, desto höher ist die Schwellspannung. 
 
-Als Anhaltspunkte für die Schwellspannung von pn-Dioden können wir für Ge etwa $\qtyrange{0,2}{0,3}{\volt}$ und für Si etwa $\qtyrange{0,6}{0,7}{\volt}$ angeben.
+Als Anhaltspunkte für die Schwellspannung von pn-Dioden können wir für Germanium (Ge) etwa $\qtyrange{0,2}{0,3}{\volt}$ und für Silizium (Si) etwa $\qtyrange{0,6}{0,7}{\volt}$ angeben.
 
 *Leuchtdioden* (LEDs) sind ebenfalls pn-Dioden, bei denen das Halbleitermaterial so beschaffen ist, dass es bei Polung der Diode in Flussrichtung Licht aussendet. Das geht nur mit bestimmten Materialien - mit Si und Ge nicht. Die Farbe des Lichts ist durch die Energiebandlücke gegeben. Je größer die Energiebandlücke, desto kurzwelliger das Licht, um so geringer der Sperrsättigungsstrom, und daher um so höher die Schwellspannung. Daher haben rote LEDs etwa $\qty{1,7}{\volt}$ Schwellspannung und grüne LEDs $\qty{2,5}{\volt}$. Die verschienden Kennlinien sind in der Abbildung [ref:e_diode_kennlinien] dargestellt.
 
