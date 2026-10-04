@@ -48,7 +48,7 @@ $g = 10\cdot \log_{10}\left(\frac{P_2}{P_1}\right)\unit{\dB}$
 
 Wobei $P_1$ der Eingangsleistung entspricht und $P_2$ der Ausgangsleistung. Nehmen wir nun an, wir haben einen Verstärker der die Eingangsleistung $P_1=\qty{50}{\watt}$ auf $P_2=\qty{100}{\watt}$ verstärkt, also verdoppelt. So ergibt sich nach unserer Formel folgender Verstärkungsfaktor in $\unit{\dB}$:
 
-$g = 10\cdot \log_{10}\left(\frac{\qty{100}{\watt}}{\qty{50}{\watt}}\right)\unit{\dB} = 10\cdot \log_{10}\left(2\right)\unit{\dB} = 10\cdot \qty{0.301}{\dB} \approx \qty{3}{\dB} $
+$g = 10\cdot \log_{10}\left(\frac{\qty{100}{\watt}}{\qty{50}{\watt}}\right)\unit{\dB} = 10\cdot \log_{10}\left(2\right)\unit{\dB} = 10\cdot \qty{0,301}{\dB} \approx \qty{3}{\dB} $
 
 Für die Klasse E ist es zunächst ausreichend, den Dezibelwert für den Leistungsfaktor $2$ zu kennen. Die Formelsammlung enthält dazu eine Tabelle, die auch in Tabelle [ref:e_dezibel_leistungsfaktoren] dargestellt ist. Daraus lässt sich ablesen, dass ein Leistungsfaktor von $2$ einem Dezibelwert von $\qty{3}{\dB}$ entspricht. Das ausführliche Rechnen mit Dezibelwerten wird erst in der Klasse A behandelt.
 
