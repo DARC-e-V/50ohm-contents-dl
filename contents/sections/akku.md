@@ -9,7 +9,7 @@ Neben den bekannten Bleiakkus (Pb) und Nickel-Metallhydrid-Akkus (NiMH) setzen w
 * Spannung: 4S1P / $\qty{13,2}{\volt}$
 % * Entladung: 30C Constant / 40C Burst
 % * Balance Stecker: JST-XH
-% * Entlastung Stecker: $\qty{5.5}{\milli\meter}$ Kugel-Stecker
+% * Entlastung Stecker: $\qty{5,5}{\milli\meter}$ Kugel-Stecker
 
 Die für uns wichtigsten Kenndaten sind die Nennspannung $\qty{13,2}{\volt}$ und die Verschaltung 4S1P. Das bedeutet, dass sich die Nennspannung von $\qty{13,2}{\volt}$ aus 4 in Serie bzw. Reihe und 1 mal parallel, also alle 4 in Serie geschalten sind. Üblicherweise besitzen LiFePO4 eine Zellnennspannung von $\qty{3,2}{\volt}$ bis $\qty{3,3}{\volt}$. Und somit ergibt sich $\qty{3,3}{\volt} \cdot 4 = \qty{13,2 }{\volt} \cdot 1 = \qty{13,2}{\volt}$.
 

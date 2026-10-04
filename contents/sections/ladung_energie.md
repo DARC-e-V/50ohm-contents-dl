@@ -28,7 +28,7 @@ $\qty{1}{\joule} = \qty{1}{\watt\second} = \qty{1}{\volt\ampere\second} = \qty{1
 
 [question:AA103]
 
-In der Praxis werden für kleine Energiemengen meist Joule verwendet, während für größere Energiemengen – etwa bei Akkus, Netzteilen oder im Stromverbrauch – häufig Wattstunden ($\unit{\watt\hour}$) oder Kilowattstunden ($\unit{\kilo\watt\hour}$) angegeben werden. Greifen wir das Beispiel unseres $\qty{3000}{\milli\ampere\hour}$-Akkus wieder auf. Hat dieser eine Spannung von $\qty{3,6}{\volt}$ so ergibt sich ein Energiegehalt von $\qty{3000}{\milli\ampere\hour} \cdot \qty{3,6}{\volt} = \qty{10.8}{\watt\hour}$
+In der Praxis werden für kleine Energiemengen meist Joule verwendet, während für größere Energiemengen – etwa bei Akkus, Netzteilen oder im Stromverbrauch – häufig Wattstunden ($\unit{\watt\hour}$) oder Kilowattstunden ($\unit{\kilo\watt\hour}$) angegeben werden. Greifen wir das Beispiel unseres $\qty{3000}{\milli\ampere\hour}$-Akkus wieder auf. Hat dieser eine Spannung von $\qty{3,6}{\volt}$ so ergibt sich ein Energiegehalt von $\qty{3000}{\milli\ampere\hour} \cdot \qty{3,6}{\volt} = \qty{10,8}{\watt\hour}$
 
 Energie kann nicht nur gespeichert, sondern auch von einer Form in eine andere umgewandelt werden. Ein typisches Beispiel ist die Umwandlung elektrischer Energie in thermische Energie an einem Widerstand, an dem über einen bestimmten Zeitraum eine Spannung anliegt. Die folgenden beiden Prüfungsfragen betrachten genau dieses Szenario.
 
