@@ -9,17 +9,21 @@
 
 ---
 ## Aurora und Amateurfunk
-* Funkwellen können sich an ionisierten Sauerstoff- und Stickstoffatomen brechen
-* Insbesondere für VHF-DX-Verbindungen nutzbar
-* Sprache nur schlecht nutzbar (große Bandbreite)
-* Für CW und Digimodes brauchbar
-* Rapport: für T wird "A" vergeben, da Ton rau und schwankend ist 
+* Brechung an ionisierten Sauerstoff- und Stickstoffatomen
+* Vor allem für VHF-DX auf dem $\qty{6}{\meter}$- und $\qty{2}{\meter}$-Band
+* Signalweg ändert sich ständig → rapides Fading und Doppler-Spread
+* Sprache schwer verständlich, CW besser, aber sehr rauer Ton
+* Rapport: statt *T* wird *A* für Aurora vergeben (Ton nicht beurteilbar)
 
 ---
 
 Das Ende eines Aurora-CW-QSO zwischen GM4YXI und OK/DF7TR/P:
 
 [include:applet_aurora]
+
+<note>
+Applet nicht für Folien optimiert. Original unter https://50ohm.de/E_aurora_1.html
+</note>
 
 ---
 
