@@ -1,6 +1,8 @@
 # DARCdown
 
-Im Folgenden werden die entsprechenden Kommandos von DARCdown beschrieben: Grundsätzlich gilt wie bei Markdown: den Text einfach so hinschreiben. Allerdings gibt es ein paar Spezialbefehle, die wir im Folgenden beschreiben wollen. 
+Im Folgenden werden die entsprechenden Kommandos von DARCdown beschrieben: Grundsätzlich gilt wie bei Markdown: den Text einfach so hinschreiben. Allerdings gibt es ein paar Spezialbefehle, die wir im Folgenden beschreiben wollen.
+
+Um lokal zu sehen, wie es wirklich aussieht, kann als Nachbarverzeichnis ein Clone von [50ohm](https://github.com/DARC-e-V/50ohm) ausgecheckt und dessen Renderingfunktion genutzt werden. Was dann zu tun ist, steht in der [README](https://github.com/DARC-e-V/50ohm/blob/main/README.md) dieses Projekts.
 
 ## Fragen, Zeichnungen und Fotos
 
