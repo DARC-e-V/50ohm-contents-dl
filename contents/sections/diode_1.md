@@ -8,14 +8,14 @@ Mathematisch können wir diese Forderung so schreiben:
 
 $U_d = U_a - U_k > 0$
 
-Ist allerdings $U_d$ nur ein ganz wenig größer als 0, fließt noch kein merkbarer Strom. Sobald $U_d$ eine Schwellspannung überschreitet, fliesst ein grosser Strom. Diese Schwellspannung ist von der Bauart der Diode abhängig und heisst auch Flussspannung, weil bei ihrem Überschreiten so richtig viel Strom fliesst. Das liegt an der *exponentiellen Kennlinie* einer Diode.
+Ist allerdings $U_d$ nur ein ganz wenig größer als 0, fließt noch kein merkbarer Strom. Sobald $U_d$ eine Schwellspannung überschreitet, fließt ein großer Strom. Diese Schwellspannung ist von der Bauart der Diode abhängig und heißt auch Flussspannung, weil bei ihrem Überschreiten so richtig viel Strom fließt. Das liegt an der *exponentiellen Kennlinie* einer Diode.
 
 <margin>
 [picture:861:e_diode_kennlinie_iu:Kennlinie einer Diode]
 </margin>
 
 <indepth>
-Der Diodenstrom ist durch eine exponentielle Gleichung gegeben. "Exponentiell" heisst sie, weil sich die unabhängige Variable $U_d$ im Exponenten, also der "Hochzahl" befindet.
+Der Diodenstrom ist durch eine exponentielle Gleichung gegeben. "Exponentiell" heißt sie, weil sich die unabhängige Variable $U_d$ im Exponenten, also der "Hochzahl" befindet.
 
 $I_d = I_S \left(e^{\frac{U_d}{U_T}}-1\right)$
 
@@ -31,7 +31,7 @@ Betrachten wir eine Diodenkennlinie in Abbildung [ref:e_diode_kennlinie_iu], so 
 Als Anhaltspunkte für die Schwellspannung von Dioden können wir für Germanium (Ge) etwa $\qtyrange{0,2}{0,3}{\volt}$ und für Silizium (Si) etwa $\qtyrange{0,6}{0,7}{\volt}$ angeben.
 
 <attention>
-Die Schwellspannung $U_{th}$ wird auch *Flussspannung* genannt, weil erst ab dieser Spannung der Strom markant zu fliessen beginnt.
+Die Schwellspannung $U_{th}$ wird auch *Flussspannung* genannt, weil erst ab dieser Spannung der Strom markant zu fließen beginnt.
 </attention>
 
 *Leuchtdioden* (LEDs) sind spezielle Dioden, bei denen das Halbleitermaterial so beschaffen ist, dass es bei Polung der Diode in Flussrichtung Licht aussendet. Das geht nur mit bestimmten Materialien - mit Si und Ge nicht. Die Farbe des Lichts ist durch die Energiebandlücke gegeben. Je größer die Energiebandlücke, desto kurzwelliger das Licht, um so geringer der Sperrsättigungsstrom, und daher um so höher die Schwellspannung. Daher haben rote LEDs etwa $\qty{1,7}{\volt}$ Schwellspannung und grüne LEDs $\qty{2,5}{\volt}$. Die verschiedenen Kennlinien sind in der Abbildung [ref:e_diode_kennlinien] dargestellt.
@@ -87,7 +87,7 @@ Das Schaltsymbol einer Zenerdiode (Abbildung [ref:e_zener_symbol]) ist das einer
 [question:EC521]
 [question:EC522]
 
-Die bisher behandelten Dioden waren Dioden, deren Diodeneigenschaft durch einen Halbleiterübergang entsteht, der erst in [sec:diode_2] behandelt wird. Bei der *Schottky-Diode* handelt es sich um eine Diode, deren Eigenschaften durch einen Metall-Halbleiter-Übergang entstehen. Die Schwellspannung ist etwa halb so gross wie die einer herkömmlichen Halbleiterdiode aus dem selben Material, oder kleiner, abhängig von der genauen Gestaltung des Metall-Halbleiter-Übergangs. Schottky-Dioden werden eingesetzt, wenn die Schwellspannung gering sein soll, oder aber als sehr schnelle Schaltdioden.
+Die bisher behandelten Dioden waren Dioden, deren Diodeneigenschaft durch einen Halbleiterübergang entsteht, der erst in [sec:diode_2] behandelt wird. Bei der *Schottky-Diode* handelt es sich um eine Diode, deren Eigenschaften durch einen Metall-Halbleiter-Übergang entstehen. Die Schwellspannung ist etwa halb so groß wie die einer herkömmlichen Halbleiterdiode aus dem selben Material, oder kleiner, abhängig von der genauen Gestaltung des Metall-Halbleiter-Übergangs. Schottky-Dioden werden eingesetzt, wenn die Schwellspannung gering sein soll, oder aber als sehr schnelle Schaltdioden.
 
 [question:EC504]
 [question:EC505]
