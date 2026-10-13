@@ -11,7 +11,7 @@ $U_d = U_a - U_k > 0$
 Ist allerdings $U_d$ nur ein ganz wenig größer als 0, fließt noch kein merkbarer Strom. Sobald $U_d$ eine Schwellspannung überschreitet, fliesst ein grosser Strom. Diese Schwellspannung ist von der Bauart der Diode abhängig und heisst auch Flussspannung, weil bei ihrem Überschreiten so richtig viel Strom fliesst. Das liegt an der *exponentiellen Kennlinie* einer Diode.
 
 <margin>
-[picture:861:e_diode_kennlinie_iu:Kennline einer Diode]
+[picture:861:e_diode_kennlinie_iu:Kennlinie einer Diode]
 </margin>
 
 <indepth>
@@ -34,7 +34,7 @@ Als Anhaltspunkte für die Schwellspannung von Dioden können wir für Germanium
 Die Schwellspannung $U_{th}$ wird auch *Flussspannung* genannt, weil erst ab dieser Spannung der Strom markant zu fliessen beginnt.
 </attention>
 
-*Leuchtdioden* (LEDs) sind spezielle Dioden, bei denen das Halbleitermaterial so beschaffen ist, dass es bei Polung der Diode in Flussrichtung Licht aussendet. Das geht nur mit bestimmten Materialien - mit Si und Ge nicht. Die Farbe des Lichts ist durch die Energiebandlücke gegeben. Je größer die Energiebandlücke, desto kurzwelliger das Licht, um so geringer der Sperrsättigungsstrom, und daher um so höher die Schwellspannung. Daher haben rote LEDs etwa $\qty{1,7}{\volt}$ Schwellspannung und grüne LEDs $\qty{2,5}{\volt}$. Die verschienden Kennlinien sind in der Abbildung [ref:e_diode_kennlinien] dargestellt.
+*Leuchtdioden* (LEDs) sind spezielle Dioden, bei denen das Halbleitermaterial so beschaffen ist, dass es bei Polung der Diode in Flussrichtung Licht aussendet. Das geht nur mit bestimmten Materialien - mit Si und Ge nicht. Die Farbe des Lichts ist durch die Energiebandlücke gegeben. Je größer die Energiebandlücke, desto kurzwelliger das Licht, um so geringer der Sperrsättigungsstrom, und daher um so höher die Schwellspannung. Daher haben rote LEDs etwa $\qty{1,7}{\volt}$ Schwellspannung und grüne LEDs $\qty{2,5}{\volt}$. Die verschiedenen Kennlinien sind in der Abbildung [ref:e_diode_kennlinien] dargestellt.
 
 [question:EC513]
 [question:EC510]
@@ -45,7 +45,7 @@ Die Schwellspannung $U_{th}$ wird auch *Flussspannung* genannt, weil erst ab die
 ---
 
 <margin>
-[picture:858:e_diode_kennlinien:Kennlinen verschiedener Dioden]
+[picture:858:e_diode_kennlinien:Kennlinien verschiedener Dioden]
 </margin>
 
 
@@ -69,7 +69,7 @@ In unserem einfachen Modell fließt für negative $U_d$ nur ein geringer Sperrst
 Dieser *Sperrdurchbruch* kann verschiedene physikalische Ursachen haben, die wir hier nicht im Detail behandeln können. Die Spannung, bei der dieser Durchbruch passiert, wird gemeinhin als *Zener-Spannung* $U_z$ bezeichnet, auch wenn der Zener-Effekt (ein quantenmechanischer Tunneleffekt) nur ein möglicher Durchbruchmechanismus ist. *Zenerdioden* werden zur Spannungsstabilisierung verwendet. Dabei ist es wichtig, den Durchbruchstrom durch einen Vorwiderstand zu begrenzen. 
 
 <margin>
-[picture:862:n_diode_kennlinie_uz:Kennline einer Z-Diode]
+[picture:862:n_diode_kennlinie_uz:Kennlinie einer Z-Diode]
 </margin>
 
 ---
