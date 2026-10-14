@@ -1,27 +1,35 @@
+## Elektromagnetisches Feld
+
+* Physikalische Grundlage jedes Funksignals
+* Breitet sich im leeren Raum ohne tragendes Medium aus (Entdeckung des 19. Jahrhunderts)
+* Besteht aus zwei Komponenten: elektrisches und magnetisches Feld
+  * bei zeitlicher Änderung treten sie immer gemeinsam auf
+* Zunächst: das zeitlich unveränderliche (*statische*) elektrische Feld $E$
+
+<note>
+* Früher glaubte man an einen "Äther" als Medium – daher noch "in den Äther lauschen"
+</note>
+
+---
 ## Homogenes elektrisches Feld
 
 <left>
-* In einem Kondensator wird elektrische Energie gespeichert
-* Die einfachste Art eines Kondensators ist der *Plattenkondensator*
+* *Plattenkondensator*: Spannung $U$ an zwei isolierten Platten, kein Stromfluss
+* Ladungstrennung $+$ / $-$, dazwischen baut sich ein statisches Feld $E$ auf
+* Platten viel größer als der Abstand → Feld überall gleich = *homogen*
 </left>
 <right>
-[picture:881:e_kondensator_homogenes_feld:Homogenes Feld in einem Plattenkondensator]
+[picture:881:e_plattenkondensator:Ein Plattenkondensator mit anliegender Spannung und homogenem elektrischen Feld]
 </right>
 
 ---
-<left>
-* An zwei elektrisch leitenden Platten wird jeweils der Plus- und Minus-Pol angeschlossen
-* Zwischen den Platten baut sich ein homogenes elektrisches Feld (*E-Feld*) auf
-* Elektrische Feldstärke: $E = \dfrac{U}{d}$ in $\unit{\volt\per\meter}$
-* Mit $d$ als Abstand der Platten
-</left>
-<right>
-[picture:881:e_kondensator_homogenes_feld:Homogenes Feld in einem Plattenkondensator]
-</right>
-<note>
-* homogen Feld: gleichgerichtetes Feld, da alle Feldlinien in gleicher Richtung verlaufen
-* Die Kapazität wird erst in Klasse A berechnet
-</note>
+## Feldstärke im Plattenkondensator
+
+$E = \dfrac{U}{d} \qquad (d = \text{Plattenabstand})$
+
+* Einheit: $\unit{\volt\per\meter}$
+* Plattenkondensatoren u.a. in Antennenanpassgeräten
+* Bei den Rechenfragen unbedingt auf die Einheiten achten
 
 ---
 [question:EB101]
@@ -30,44 +38,62 @@
 ---
 [question:EB102]
 ---
+### Lösungsweg EB102
+
+$E = \dfrac{\qty{9}{\volt}}{\qty{0,6}{\centi\meter}} = \dfrac{\qty{9}{\volt}}{\qty{0,006}{\meter}} = \qty{1500}{\volt\per\meter}$
+
+---
 ## Wickelkondensator
 
 <left>
-* Bei einem Wickelkondensator wird zwischen den beiden Platten als Metallbeläge ein Isolator als *Dielektrikum* eingebracht
-* Vorteile: platzsparend und größere Plattenfläche möglich
+* Plattenkondensator mit sehr breiten, aufgewickelten Platten
+* Isolierschicht dazwischen = *Dielektrikum*
+  * erhöht die *Kapazität* (Fähigkeit, Ladung zu speichern)
+  * kein Einfluss auf die Feldstärke im Innern
 </left>
 <right>
 [picture:49:e_wickelkondensator:Schematische Darstellung eines Wickelkondensators]
 </right>
+
 ---
 [question:EB103]
 ---
-[question:EB104]
---- style="font-size: 0.7em;"
-### Lösungsweg
+### Lösungsweg EB103
 
-Der Trick ist hier, dass die Durchschlagsfestigkeit die elektrische Feldstärke $E$ ist.
-
-* Gegeben: $d = \qty{0,15}{\milli\meter}$ und $E = \qty{400}{\kilo\volt\per\centi\meter}$
-* Gesucht: $U$
-* Lösung:
-
-$E = \frac{U}{d} \Rightarrow U = E\cdot d$
-$U = 400 \cdot \frac{\qty{10^3}{\volt}}{\qty{10^{-2}}{\meter}}\cdot \qty{0,15e-3}{\meter}$
-$U = \qty{6e3}{\volt} = \qty{6}{\kilo\volt}$
+$E = \dfrac{\qty{300}{\volt}}{\qty{0,15}{\milli\meter}} = \dfrac{\qty{300}{\volt}}{\qty{0,00015}{\meter}} = \qty{2000}{\kilo\volt\per\meter}$
 
 ---
-## Vertikalantenne
+## Durchschlagsfeldstärke
+
+* Dielektrika halten nur eine begrenzte Feldstärke aus
+* Darüber verlieren sie die Isolationswirkung → *Durchschlag*
+* Durchbruchspannung:
+
+$U_d = E_d \cdot d$
+
+* $E_d$ = Durchschlagsfeldstärke
+* $d$ = Dicke des Dielektrikums
+
+---
+[question:EB104]
+---
+### Lösungsweg EB104
+
+$U_d = E_d \cdot d = \qty{400}{\kilo\volt\per\centi\meter} \cdot \qty{0,15}{\milli\meter}$
+
+$= \qty{40000000}{\volt\per\meter} \cdot \qty{0,00015}{\meter} = \qty{6}{\kilo\volt}$
+
+---
+## Elektrische vs. magnetische Feldlinien
 
 <left>
-* An einer Antenne entstehen ebenso elektrische Feldlinien
-* Die Feldlinien einer Vertikalantenne verlaufen vom "positiven Ende" zur Erde
+* *Elektrische* Feldlinien haben einen *Anfang und ein Ende*
+* *Magnetische* Feldlinien sind stets *geschlossen*
+* Richtung des E-Feldes: vom positiveren zum negativeren Potenzial
 </left>
 <right>
 [picture:884:e_feldlinien_vertikalantenne:Feldlinien an einer Vertikalantenne]
 </right>
-<note>
-* Für die Klasse E reicht die Erkennung aus
-</note>
+
 ---
 [question:EB105]
