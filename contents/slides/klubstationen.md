@@ -18,20 +18,27 @@
 | l: Rufzeichen | l: | l: | X: Klasse |
 | DAØAA | - | DAØZZZ | A |
 | DAØA | - | DA3Z | A |
+| DA6A | - | DA7Z | E |
+| DA7AA | - | DA7ZZZ | E |
+| DA8AA | - | DA8ZZZ | N |
+| DA8A | - | DA8Z | N |
+| DA9A | - | DA9Z | E |
 | DBØA | - | DD9Z | A |
-| DFØA | - | DH9Z | A |
-| DJØA | - | DM9Z | A |
 | DFØAA | - | DFØZZZ | A |
-| DKØAA | - | DKØZZZ | A |
+| DFØA | - | DH9Z | A |
 [table:n_klubstation_rufzeichen_1:Rufzeichen für Klubstationen]
 </left>
 <right>
 | l: Rufzeichen | l: | l: | l: Klasse |
+| DJØA | - | DM9Z | A |
+| DKØAA | - | DKØZZZ | A |
 | DLØAA | - | DLØZZZ | A |
 | DNØA | - | DNØZ | E |
 | DNØAA | - | DNØZZZ | E |
 | DOØA | - | DO9Z | E |
-| DP3A | - | DP9Z | A |
+| DP3A | - | DP7Z | A |
+| DP8A | - | DP8Z | N |
+| DP9A | - | DP9Z | A |
 | DQØA | - | DR9Z | A |
 [table:n_klubstation_rufzeichen_2:Rufzeichen für Klubstationen]
 </right>
@@ -51,7 +58,7 @@ Aus dem [Rufzeichenplan](https://50ohm.de/rzp) entnommen
 * Muss selbst Funkamateur mit Zulassung sein
 * Rufzeichenklasse muss der für die Klubstation gleich sein
 * Wird in der Regel unbefristet zugeteilt
-* Befristungen sind möglich: Siehe [Rufzeichenplan](https://50ohm.de/rzp) 
+* Befristungen sind möglich: Siehe [Rufzeichenplan](https://50ohm.de/rzp)
 * Verwendung erst nach Zuteilung möglich
 
 ---

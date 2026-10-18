@@ -18,9 +18,14 @@
 | Klasse N | DN9 |
 | Klasse E | DO1 - DO9 |
 | | DA6 |
-| Klasse A | DB1 - DD9 |
+| Klasse A | DA1 - DA2 |
+| | DB1 - DD9 |
 | | DF1 - DH9 |
-| | DJ1 - DM9 |
+| | DJ1 - DJ9 |
+| | DK1 - DK9 |
+| | DL1 - DL9 |
+| | DM1 - DM9 |
+
 [table:n_persoenliche_rufzeichen_praefixe:Präfixe und Ziffern für personengebunde Rufzeichen]
 </left>
 <right>

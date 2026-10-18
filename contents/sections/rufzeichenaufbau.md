@@ -18,7 +18,7 @@ Für Deutschland sind in den Radio Regulations die Präfixe DA bis DR und Y2 bis
 
 ---
 
-Personengebunde deutsche Amateurfunkrufzeichen bestehen immer aus einem 2-buchstabigen Präfix, einer Ziffer und einem 2- oder 3-buchstabigen Suffix. Zum Beispiel DL1PZ, DO7PR oder DN2JMU.
+Personengebunde deutsche Amateurfunkrufzeichen bestehen immer aus einem 2-buchstabigen Präfix, einer Ziffer und einem 2- oder 3-buchstabigen Suffix. Zum Beispiel DL1PZ, DO7PR oder DM3MAT.
 [question:VD203]
 
 Neben den persönlichen Rufzeichen können weitere Rufzeichen für fernbediente und automatisch arbeitende Amateurfunkstellen oder Klubstationen zugeteilt werden. Auf diese gehen wir im weiteren Verlauf des Kapitels ein.
@@ -30,4 +30,3 @@ Die BNetzA vergibt die Präfixe in Deutschland nach dem [Rufzeichenplan](https:/
 Der Rufzeichenplan steht während der Amateurfunkprüfung als Hilfsmittel zur Verfügung. Dieser Plan ist bei der Beantwortung einer Reihe von Fragen sehr hilfreich, die in den nächsten Abschnitten folgen. Wir empfehlen daher, sich mit dem Dokument vertraut zu machen, um es in der Prüfung gut nutzen zu können. Nach der Prüfung sollte man sich regelmäßig informieren, um bei Änderungen auf dem aktuellen Stand zu bleiben.
 
 [question:VD201]
-
