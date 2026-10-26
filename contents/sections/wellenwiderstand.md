@@ -10,7 +10,7 @@ $Z_0 = \sqrt{\frac{L'}{C'}}.$
 | Frequenzbereich              | $ < \qty{1}{\giga\hertz}$             |
 | Kapazitätsbelag              | $\qty{100}{\pico\farad\per\meter}$    |
 | Induktivitätsbelag           | $\qty{0,25}{\micro\henry\per\meter}$  |
-| Ausbreitungsgeschwingkeit    | $\qty{0,66}{\percent}$                |
+| Ausbreitungsgeschwingkeit    | $\qty{66}{\percent}$                |
 [table:a_rg58:Technische Daten aus einem Datenblatt eines RG-58-Koaxialkabels]
 </margin>
 
