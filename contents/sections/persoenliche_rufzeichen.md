@@ -1,12 +1,17 @@
-Personengebundene Rufzeichen sind die am häufigsten vergebenen Rufzeichen. In Deutschland gibt es drei unterschiedliche Zulassungsklassen, mit jeweils eigenen Bereichen im Rufzeichenplan. Die einzelnen Klassen lauten, aufbauend aufeinander, Klasse N (Entry Level License), Klasse E (Novice) und Klasse A (Advanced). Aus der Tabelle [ref:n_persoenliche_rufzeichen_praefixe] kann man entnehmen, welche Präfixe und Ziffern den Amateurfunkklassen zugeordnet sind. In der Tabelle [ref:n_persoenliche_rufzeichen_beispiele] finden sich einige Beispiele für personengebundene Rufzeichen der 3 Klassen. Die meisten Funkamateure in Deutschland besitzen die Amateurfunkzulassung der Klasse A, deshalb ist dieser Block am größten. 
+Personengebundene Rufzeichen sind die am häufigsten vergebenen Rufzeichen. In Deutschland gibt es drei unterschiedliche Zulassungsklassen, mit jeweils eigenen Bereichen im Rufzeichenplan. Die einzelnen Klassen lauten, aufbauend aufeinander, Klasse N (Entry Level License), Klasse E (Novice) und Klasse A (Advanced). Aus der Tabelle [ref:n_persoenliche_rufzeichen_praefixe] kann man entnehmen, welche Präfixe und Ziffern den Amateurfunkklassen zugeordnet sind. In der Tabelle [ref:n_persoenliche_rufzeichen_beispiele] finden sich einige Beispiele für personengebundene Rufzeichen der 3 Klassen. Die meisten Funkamateure in Deutschland besitzen die Amateurfunkzulassung der Klasse A, deshalb ist dieser Block am größten.
 
 <margin>
 | l: Klasse | X: Präfix und Ziffer |
 | Klasse N | DN9 |
 | Klasse E | DO1 - DO9 |
-| Klasse A | DB1 - DD9 |
+| | DA6 |
+| Klasse A | DA1 - DA2 |
+| | DB1 - DD9 |
 | | DF1 - DH9 |
-| | DJ1 - DM9 |
+| | DJ1 - DJ9 |
+| | DK1 - DK9 |
+| | DL1 - DL9 |
+| | DM1 - DM9 |
 [table:n_persoenliche_rufzeichen_praefixe:Präfixe und Ziffern für personengebunde Rufzeichen]
 </margin>
 
@@ -43,4 +48,3 @@ Bei der *Auswahl von Rufzeichen* gibt es sehr unterschiedliche Vorlieben. Manche
 Die BNetzA ändert Rufzeichen in der Regel nicht von sich aus. Ändern sich jedoch Regularien oder Zulassungsklassen, kann es notwendig werden, dass Rufzeichen von der BNetzA eingezogen oder geändert werden. Jedoch kann jeder Funkamateur von sich aus einen neuen Antrag auf Zulassung zum Amateurfunkdienst stellen. Auf diesem Weg kann man das eigene Rufzeichen wechseln.
 
 [question:VC117]
-

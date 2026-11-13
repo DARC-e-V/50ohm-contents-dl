@@ -34,7 +34,7 @@
 ## Tote Zone
 
 <left>
-[picture:741:n_ionosphaere_tote_zone:Die Tote Zone, die für die Bodenwelle zu nah und für die Raumwelle zu weit weg ist.]
+[picture:741:n_ionosphaere_tote_zone:Die Tote Zone, die für die Bodenwelle zu weit weg und für die Raumwelle zu nah ist.]
 </left>
 <right>
 * Auf Kurzwelle kann es zu einer *Toten Zone* kommen

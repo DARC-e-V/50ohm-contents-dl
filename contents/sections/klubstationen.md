@@ -14,16 +14,23 @@ In der Regel wird eine Amateurfunkstation nur von einer Person betrieben. Manche
 | l: Rufzeichen | l: | l: | X: Klasse |
 | DAØAA | - | DAØZZZ | A |
 | DAØA | - | DA3Z | A |
+| DA6A | - | DA7Z | E |
+| DA7AA | - | DA7ZZZ | E |
+| DA8AA | - | DA8ZZZ | N |
+| DA8A | - | DA8Z | N |
+| DA9A | - | DA9Z | E |
 | DBØA | - | DD9Z | A |
+| DFØAA | - | DFØZZZ | A |
 | DFØA | - | DH9Z | A |
 | DJØA | - | DM9Z | A |
-| DFØAA | - | DFØZZZ | A |
 | DKØAA | - | DKØZZZ | A |
 | DLØAA | - | DLØZZZ | A |
 | DNØA | - | DNØZ | E |
 | DNØAA | - | DNØZZZ | E |
 | DOØA | - | DO9Z | E |
-| DP3A | - | DP9Z | A |
+| DP3A | - | DP7Z | A |
+| DP8A | - | DP8Z | N |
+| DP9A | - | DP9Z | A |
 | DQØA | - | DR9Z | A |
 [table:n_klubstation_rufzeichen:Rufzeichen für Klubstationen]
 </margin>

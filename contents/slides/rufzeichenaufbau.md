@@ -60,9 +60,9 @@ Drei Teile:
 </left>
 <right>
 Beispiele:
-* DL1ABC
-* DO5XYZ
-* DA0RC
+* DL1PZ
+* DO7PR
+* DM3MAT
 </right>
 
 ---

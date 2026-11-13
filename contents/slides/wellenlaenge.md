@@ -55,7 +55,7 @@ Statt der Frequenz wird häufig das gerundete Band angegeben
 | l: Frequenz | l: Wellenlänge | l: Band |
 | $\qtyrange{28}{29,7}{\mega\hertz}$ | $\qtyrange{10,7}{10,1}{\meter}$ | $\qty{10}{\meter}$-Band |
 | $\qtyrange{144}{146}{\mega\hertz}$ | $\qtyrange{2,08}{2,05}{\meter}$ | $\qty{2}{\meter}$-Band |
-| $\qtyrange{430}{440}{\mega\hertz}$ | $\qtyrange{68}{70}{\centi\meter}$ | $\qty{70}{\centi\meter}$-Band |
+| $\qtyrange{430}{440}{\mega\hertz}$ | $\qtyrange{70}{68}{\centi\meter}$ | $\qty{70}{\centi\meter}$-Band |
 [table:n_funkwellen_baender:Die drei Amateurfunkbänder, die für alle Klassen freigegeben sind]
 ---
 [question:NB302]
