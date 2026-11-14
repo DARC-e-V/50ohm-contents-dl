@@ -28,7 +28,7 @@ Eine andere Möglichkeit ist ein Transformator (vgl. Abbildung [ref:a_unun_1_49]
 Hinsichtlich der *Impedanztransformation* (Transformation des Widerstands) geht das Windungsverhältnis eines Transformators im Quadrat ein, d.h. ein Transformator mit einem Windungsverhältnis von 1:7 sorgt für eine 1:49-Impedanztransformation. Bei Baluns und Un-Uns ist oft nicht angegeben, ob es sich um das Windungs- oder das Impedanzverhältnis handelt. Es besteht also die Möglichkeit der Verwechselung. Üblich ist die Angabe des Impedanzverhältnisses. Bei einem Transformator mit einem Windungsverhältnis ($ü$) von 1:7 spricht man dann z. B. von einem 1:49-Un-Un.
 </attention>
 
-Als Gegengewicht wird oft ein kurzes Drahtende (mindestens ein zwanzigstel der Wellenlänge), vgl. Abbildung [ref:a_endspeisung_1] oder ein Teil der koaxialen Zuleitung (mindests $\qty{0.05}{\lambda}$) verwendet, vgl. Abbildung [ref:a_endspeisung_2]. Eine Mantelwellensperre (Abkürzung MWS) verhindert, dass das weitere Zuleitungskabel zum Teil der Antenne wird.
+Als Gegengewicht wird oft ein kurzes Drahtende (mindestens ein zwanzigstel der Wellenlänge), vgl. Abbildung [ref:a_endspeisung_1] oder ein Teil der koaxialen Zuleitung (mindestens $\qty{0,05}{\lambda}$) verwendet, vgl. Abbildung [ref:a_endspeisung_2]. Eine Mantelwellensperre (Abkürzung MWS) verhindert, dass das weitere Zuleitungskabel zum Teil der Antenne wird.
 
 [question:AG123]
 [question:AG124]

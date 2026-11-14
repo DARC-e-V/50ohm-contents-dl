@@ -25,7 +25,7 @@ In diesem Applet kann man die Wirkung eines Traps auf einen Dipol für verschied
 [include:applet_traps]
 </margin>
 
-Besonders anschaulich ist zunächst der Resonanzfall. Wird der Dipol bei der Resonanzfrequenz des Traps betrieben (z. B. $\qty{7.05}{\mega\hertz}$ in unserer Abbildung), ist der Parallelschwingkreis hochohmig. Es fließt daher nur wenig Strom in den äußeren Teil des Dipols. Der Dipol verhält sich näherungsweise so, als würde er an der Position des Traps enden.
+Besonders anschaulich ist zunächst der Resonanzfall. Wird der Dipol bei der Resonanzfrequenz des Traps betrieben (z. B. $\qty{7,05}{\mega\hertz}$ in unserer Abbildung), ist der Parallelschwingkreis hochohmig. Es fließt daher nur wenig Strom in den äußeren Teil des Dipols. Der Dipol verhält sich näherungsweise so, als würde er an der Position des Traps enden.
 
 [question:AG112]
 
@@ -35,7 +35,7 @@ Dieser Zusammenhang kann für den Entwurf eines Zweiband-Dipols genutzt werden. 
 
 ---
 
-Wird der Dipol dagegen mit einer Frequenz *unterhalb* der Resonanzfrequenz des Traps betrieben (z. B. $\qty{3.5}{\mega\hertz}$ in unserer Abbildung), ist der Schwingkreis nicht mehr hochohmig. Seine induktive Wirkung überwiegt. Der Trap wirkt dadurch ähnlich wie eine Verlängerungsspule und verlängert den Dipol elektrisch. Dadurch kann der gesamte Dipol einschließlich der äußeren Drahtstücke für ein niedrigeres Frequenzband genutzt werden.
+Wird der Dipol dagegen mit einer Frequenz *unterhalb* der Resonanzfrequenz des Traps betrieben (z. B. $\qty{3,5}{\mega\hertz}$ in unserer Abbildung), ist der Schwingkreis nicht mehr hochohmig. Seine induktive Wirkung überwiegt. Der Trap wirkt dadurch ähnlich wie eine Verlängerungsspule und verlängert den Dipol elektrisch. Dadurch kann der gesamte Dipol einschließlich der äußeren Drahtstücke für ein niedrigeres Frequenzband genutzt werden.
 
 [question:AG111]
 
