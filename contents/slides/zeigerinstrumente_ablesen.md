@@ -1,27 +1,42 @@
+## Zeigerinstrumente
+
+* Weiter verbreitet, z.B. Multimeter und SWR-Meter
+* Digitale Anzeige springt in der letzten Stelle, ein Zeiger bleibt stabil
+* Änderungen sofort erkennbar, intuitiv ablesbar
+* Auch viele digitale Funkgeräte und SDR-Programme zeigen animierte Zeiger
+
+---
+
 <left>
-* Richtige Auswahl der zu messenden Größe mit dem Schalter wählen
-* Richtige Skala anhand des Messbereichs wählen
-* Ggf. muss um einen Faktor 10 oder 100 multipliziert oder dividiert werden
-* Vorteil: Es ist intuitiv und man sieht kontinuierliche Änderungen
+* Immer im *höchsten* Messbereich beginnen
+  * zu niedrig → Zeiger prallt an den Anschlag, Gerät kann Schaden nehmen
+* Passende *Skala* zum Messbereich wählen, ggf. mit Zehnerpotenz umrechnen
 </left>
 <right>
-[photo:197:e_zeigerinstrument:Zeigerinstrument mit mehreren Skalen]
+[photo:197:e_zeigerinstrument_strom:Messbereich $\qty{300}{\milli\ampere}$, angezeigt werden etwa $\qty{37}{\milli\ampere}$]
 </right>
 
 ---
 
 ## Parallaxenfehler
+
 <left>
-* Parallaxenfehler vermeiden, indem gerade drauf geschaut wird
-* Viele Zeigerinstrumente haben einen Spiegel hinter dem Zeiger
-* Wenn der Zeiger sich im Spiegelbild überdeckt, wird gerade drauf geschaut
+* Bei schrägem Blick zeigt der Zeiger scheinbar einen falschen Wert
+* Gerade auf die Skala schauen
+* Spiegel hinter dem Zeiger: Zeiger deckt sein Spiegelbild → Blick ist gerade
 </left>
 <right>
-[photo:196:e_parallaxenfehler:Zeigerinstrument mit Spiegel und Parallaxenfehler beim Ablesen]
+[photo:196:e_zeigerinstrument_parallaxenfehler:ungünstiger Blickwinkel auf eine Skala]
 </right>
-<note>
-* Parallaxe ist, wenn an einem Objekt vorbei geschaut wird
-</note>
+
+---
+
+## Skala und Messbereich
+
+* Prüfungsanzeige hat eine $\qty{100}{\volt}$- und eine $\qty{30}{\volt}$-Skala
+* Messbereich $\qty{100}{\volt}$ → direkt an der $\qty{100}{\volt}$-Skala
+* Messbereich $\qty{10}{\volt}$ → an der $\qty{100}{\volt}$-Skala, Wert $:10$
+* Messbereich $\qty{30}{\volt}$ oder $\qty{300}{\volt}$ → an der $\qty{30}{\volt}$-Skala
 
 ---
 [question:EI103]
