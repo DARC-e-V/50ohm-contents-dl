@@ -1,7 +1,7 @@
 * Grundlagen zur Ionosphäre, Sonnenfleckenaktivität und "Tote Zone" sind in Klasse N
 * Vertiefung im Bereich Wellenausbreitung
-* Strahlung der Sonne schlägt Elektronen aus Sauerstoff- und Stickstoff-Atomen und -Molekülen in der Hochatmosphäre $\rightarrow$ Ionisation
-* Freie Elektronen werden von Funkwellen zum Schwingen angeregt $\rightarrow$ Refraktion der Funkwellen
+* Strahlung der Sonne schlägt Elektronen aus Sauerstoff- und Stickstoff-Atomen und ‑Molekülen in der Hochatmosphäre → Ionisation
+* Freie Elektronen werden von Funkwellen zum Schwingen angeregt → Refraktion der Funkwellen
 
 ---
 <left>
@@ -19,7 +19,7 @@
 <left>
 * Ionisation verleiht Kurzwelle einzigartige Fähigkeiten
 * Dichte der freien Elektronen bestimmt die Brechungsfrequenz
-* Höhere Dichte $\rightarrow$ höhere Frequenz
+* Höhere Dichte → höhere Frequenz
 </left>
 <right>
 [picture:865:e_wellenausbreitung_refraktion:Refraktion an Schichten der Ionosphäre]
@@ -27,7 +27,7 @@
 
 ---
 
-* Mehr Sonnenstrahlung $\rightarrow$ Ausbreitung auf höherer Frequenz möglich
+* Mehr Sonnenstrahlung → Ausbreitung auf höherer Frequenz möglich
 * Besonders viel Strahlung tagsüber im Sonnenfleckenmaximum
 * $\qty{10}{\meter}$-Band selbst bei geringer Sendeleistung tagsüber nutzbar
 
@@ -43,13 +43,13 @@
 
 ---
 ## Schichten der Ionosphäre
-* Es gibt in verschiedenen Höhen verschiedene "Schichten" bzw. Regionen mit unterschiedlich starker Ionisierung
-* Diese tragen die Namen
 
-1. D-Schicht
-2. E-Schicht
-3. $F_1$-Schicht
-4. $F_2$-Schicht
+* In verschiedenen Höhen liegen Regionen ("Schichten") mit unterschiedlich starker Ionisierung
+* Für die Kurzwelle wichtig: D-, E-, F-Regionen
+
+---
+
+[picture:874:e_schichten_jahreszeiten:Regionen in Abhängigkeit von der Jahres- und Tageszeit]
 
 ---
 * Für die Prüfungsfragen der Klasse E ist ein grundlegendes, qualitatives Verständnis der Regionen erforderlich
@@ -62,14 +62,11 @@
 ### D-Region
 * In ca. $\qtyrange{50}{90}{\kilo\meter}$ Höhe
 * Existiert *nur am Tag*
-* Nach Sonnenuntergang sehr schnell verschwunden
+  * nach Sonnenuntergang durch Rekombination sehr schnell verschwunden
 * Energieverlust durch Kollision der Elektronen mit anderen Teilchen
 * Starke *Dämpfung* von Funkwellen unter $\qty{10}{\mega\hertz}$
-* Keine Raumwelle für Amateurfunkbänder wie $\qty{160}{\meter}$ oder $\qty{80}{\meter}$
+* Tagsüber keine Raumwelle im $\qty{160}{\meter}$- und $\qty{80}{\meter}$-Band → nur Bodenwelle
 
-<note>
-* Die Schichten verschwinden durch Rekombination der Ionen und Elektronen, wenn sie nicht mehr durch Sonnenstrahlung angeregt werden
-</note>
 ---
 [question:EH210]
 ---
@@ -77,30 +74,30 @@
 
 ---
 ### E-Region
-* In ca. $\qtyrange{90}{130}{\kilo\meter}$ Höhe
-* Entsteht *tagsüber* mit Maximum zur Mittagszeit
-* Verschwindet etwa 1 Stunde nach Sonnenuntergang
-* Sprungdistanz ca. $\qty{2000}{\kilo\meter}$ bis $\qty{10}{\mega\hertz}$
-* Starke Ionisation $\rightarrow$ Sporadic-E
-* Namensgebene: *E*(lektrische)*-Schicht*
 
-<note>
-* Die Schichten darüber und darüber wurden mit Buchstaben davor und dahinter benannt
-</note>
+<left>
+* In ca. $\qtyrange{90}{130}{\kilo\meter}$ Höhe
+* *Tagsüber*, Maximum zur Mittagszeit
+* Verschwindet ~1 Stunde nach Sonnenuntergang
+* Bricht bis ca. $\qty{10}{\mega\hertz}$, ein Sprung gut $\qty{2000}{\kilo\meter}$
+* Im Sommer: *Sporadic-E* bricht bis ins $\qty{2}{\meter}$-Band
+</left>
+<right>
+[picture:733:e_sporadic_e:Refraktion an stark ionisierten Bereichen der E-Schicht]
+</right>
+
 ---
 [question:EH106]
 
 ---
 ### F-Regionen
-* In ca. $\qtyrange{200}{400}{\kilo\meter}$ Höhe
-* Am stärksten ionisierte Schicht
-* $F_1$-Schicht existiert *nur am Tag*
-* $F_2$-Schicht bleibt *nachts* bestehen
+* In ca. $\qtyrange{200}{450}{\kilo\meter}$ Höhe, tagsüber Aufspaltung in F1 und F2
+* Am stärksten ionisiert, wichtigste für KW-DX
+* F1 nur am Tag, F2 bleibt *nachts* bestehen
+  * geringe Gasdichte → sehr langsame Rekombination
 * Sprungdistanz ca. $\qty{4000}{\kilo\meter}$
-
-<note>
-Wenig Restatmosphäre, weshalb die Elektronen lange brauchen, um ein Ion zur Rekombination zu finden
-</note>
+* Bei nachlassender Sonne: obere Bänder schließen zuerst
+* Nachts läuft der ganze Langstreckenverkehr über die F-Region
 
 ---
 [question:EH103]
@@ -112,10 +109,10 @@ Wenig Restatmosphäre, weshalb die Elektronen lange brauchen, um ein Ion zur Rek
 <left>
 * Im Schnitt alle 11 Jahre durch Umkehrung des Magnetfelds
 * Intensivere Ultraviolett- und Röntgenstrahlen
-* Führt zu starker Ionisation der $F_2$-Region
+* Führt zu starker Ionisation der F2-Region
 </left>
 <right>
-[picture:729:e_sonnenzyklus:Zählung der monatlichen Sonnenflecken seit 1749]
+[picture:729:e_ionosphaere_sonnenflecken:Die Anzahl der Sonnenflecken, die über den elfjährigen Sonnenzyklus schwankt]
 </right>
 
 ---

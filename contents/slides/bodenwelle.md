@@ -1,32 +1,38 @@
+## Ausbreitungsarten
+
+* *Direkte Welle*: geradlinig vom Sender zum Empfänger (Sichtverbindung)
+* *Raumwelle*: über Brechung an freien Elektronen in der Ionosphäre
+* *Bodenwelle*: entlang der Erdoberfläche
+
+---
+
 <left>
-* Die Bodenwelle reicht über den sichtbaren Horizont raus
-* Folgt der Erdkrümmung
-* Am besten für Frequenzen unter $\qty{3}{\mega\hertz}$
+* Folgt der Erdkrümmung, reicht über den *geografischen* Horizont hinaus
+* Funktioniert besser bei
+  * niedrigerer Frequenz
+  * besser leitfähigem Boden
+  * vertikaler Polarisation
+* In höheren Frequenzbereichen stärker gedämpft
 </left>
 <right>
 [picture:866:e_reichweite_bodenwelle:Reichweite der Bodenwelle je nach Band]
 </right>
 
 ---
+[question:EH212]
+
+---
 ## Reichweite
 
-* Reichweite ist von Frequenz und Bodenbeschaffenheit abhängig
-* Langwelle ($\qtyrange{30}{300}{\kilo\hertz}$) bis zu $\qty{1000}{\kilo\meter}$, Mittelwelle ($\qty{300}{\kilo\hertz}--\qty{3}{\mega\hertz}$) bis zu $\qty{250}{\kilo\meter}$
-* Gut nutzbar im $\qty{160}{\meter}$-Band
-* Im $\qty{10}{\meter}$-Band für Kommunikation im Stadtbereich nutzbar
-* VHF und höhere Frequenzen vernachlässigbar
+* Abhängig von Frequenz und Bodenbeschaffenheit
+* Lang- und Mittelwelle: mehrere hundert Kilometer
+* Kurzwelle: nur untere Bänder, z.B. $\qty{160}{\meter}$
+* VHF und höher: vernachlässigbar
+* Historisch bekam der Amateurfunk die damals "schlecht nutzbaren" hohen Frequenzen – bis die Raumwelle entdeckt wurde
 
 <note>
-* Radio hat früher stark die Bodenwelle genutzt
-* Amateurfunk bekam die hohen "schlecht nutzbaren" Frequenzen
-* Bis die Ausbreitung über die Raumwelle entdeckt wurde
+* Dämpfung der D-Region hatten wir zu Beginn des Kapitels bereits
 </note>
 
 ---
 [question:EH211]
----
-[question:EH212]
-
-<note>
-* Dämpfung der D-Region hatten wir zu Anfang bereits
-</note>
