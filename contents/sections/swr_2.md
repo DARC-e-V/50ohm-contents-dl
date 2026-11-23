@@ -8,7 +8,7 @@ Gibt zum Beispiel der Sender eine Leisung von $P_\text{V}=\qty{100}{\watt}$ ab, 
 
 $s = \frac{\sqrt{100}+\sqrt{25}}{\sqrt{100}-\sqrt{25}} = \frac{10+5}{10-5} = \frac{15}{5} = 3$
 
-Das bedeutet, dass ein SWR von $\num{3}$ einer Reflektion von $\frac{\qty{25}{\watt}}{\qty{100}{\watt}}=\qty{25}{\percent}$ entspricht. Weitere Entsprechungen sind in der Tabelle [ref:e_swr_werte] dargestellt.
+Das bedeutet, dass ein SWR von $\num{3}$ einer Reflexion von $\frac{\qty{25}{\watt}}{\qty{100}{\watt}}=\qty{25}{\percent}$ entspricht. Weitere Entsprechungen sind in der Tabelle [ref:e_swr_werte] dargestellt.
 
 <margin>
 | l: SWR | l: Reflektierte Leistung |
