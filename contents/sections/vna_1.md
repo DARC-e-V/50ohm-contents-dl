@@ -1,4 +1,4 @@
-Ein einfaches Multimeter ist nicht geeignet, um frequenzabhängige Widerstände zu messen. Stattdessen kann man einen vektoriellen Netzwerkanalysator (VNA) verwenden. Hierbei handelt es sich um ein aktives Messgerät, welches für eine Vielzahl von Frequenzen (einen einstellbaren Frequenzbereich) bestimmt, wie sich Strom und Spannung zu einander Verhalten (Verhältnis der Amplituden und die Phasenverschiebung zwischen Spannung und Strom).
+Ein einfaches Multimeter ist nicht geeignet, um frequenzabhängige Widerstände zu messen. Stattdessen kann man einen vektoriellen Netzwerkanalysator (VNA) verwenden. Hierbei handelt es sich um ein aktives Messgerät, welches für eine Vielzahl von Frequenzen (einen einstellbaren Frequenzbereich) bestimmt, wie sich Strom und Spannung zueinander verhalten (Verhältnis der Amplituden und die Phasenverschiebung zwischen Spannung und Strom).
 
 <margin>
 [photo:201:e_vna_tiefpassmessung:Messung eines Tiefpassfilters von $\qty{0}{\mega\hertz}$ bis $\qty{100}{\mega\hertz}$ mit Grenzfrequenz bei $\qty{30}{\mega\hertz}$]

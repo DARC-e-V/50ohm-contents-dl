@@ -16,7 +16,7 @@
 ## Abgleicharbeiten und Messungen
 
 * Immer an möglichst angepasster Antenne oder Dummy Load
-* Ansonsten kann die Reflektion der Leistung die Endstufe zerstören
+* Ansonsten kann die Reflexion der Leistung die Endstufe zerstören
 
 ---
 [question:VD111]

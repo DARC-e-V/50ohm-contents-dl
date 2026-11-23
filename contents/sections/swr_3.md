@@ -22,7 +22,7 @@ Ein trügerischer Effekt ist die Auswirkung von Leitungsdämpfung auf das Stehwe
 [question:AG402]
 [question:AG403]
 
-Bei einer Leitungsdämpfung von $\qty{5}{\dB}$ und vollständiger Reflektion am Ende des Kabels, z. B. aufgrund einer abgeklemmten Antenne, messen wir gar ein überraschend gutes SWR, obwohl gar keine Antenne angeschlossen ist! Dies können wir wie folgt berechnen:
+Bei einer Leitungsdämpfung von $\qty{5}{\dB}$ und vollständiger Reflexion am Ende des Kabels, z. B. aufgrund einer abgeklemmten Antenne, messen wir gar ein überraschend gutes SWR, obwohl gar keine Antenne angeschlossen ist! Dies können wir wie folgt berechnen:
 
 $s = \frac{\sqrt{P_\mathrm{v}}+\sqrt{P_\mathrm{r}}}{\sqrt{P_\mathrm{v}}-\sqrt{P_\mathrm{r}}}$
 

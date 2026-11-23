@@ -11,7 +11,7 @@
 
 ---
 ## NVIS – Antennenaufbau und Optimierung
-* Wird ein Horizontal-Dipol zu hoch aufgehängt, führt die Verzögerung bei der Reflektion zu einer Phasenverschiebung.
+* Wird ein Horizontal-Dipol zu hoch aufgehängt, führt die Verzögerung bei der Reflexion zu einer Phasenverschiebung.
 * $\rightarrow$ Dadurch kommt es in Richtung Zenit zu teilweiser Auslöschung der reflektierten Welle.
 * $\rightarrow$ Das Ergebnis ist ein Gewinn in flacherer Abstrahlrichtung, was bei NVIS-Kommunikation unerwünscht ist.
 * Vertikalantennen sind ungeeignet, da sie ohnehin einen flachen Abstrahlwinkel aufweisen.
